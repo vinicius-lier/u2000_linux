@@ -42,11 +42,17 @@ run_u2000() {
     [[ -n "${DISPLAY:-}${WAYLAND_DISPLAY:-}" ]] || die "nenhuma sessão gráfica foi detectada."
     wine_bin="$(find_wine)" || die "Wine não está instalado. Consulte INSTALAR_NO_LINUX.md."
 
+    export TZ="${U2000_TZ:-UTC}"
     export WINEARCH="${WINEARCH:-win32}"
     export WINEPREFIX="${WINEPREFIX:-$HOME/.local/share/u2000/wineprefix}"
     mkdir -p -- "$WINEPREFIX"
-    cd -- "$CLIENT_DIR" || die "não foi possível acessar $CLIENT_DIR"
 
+    exec 9>"$WINEPREFIX/u2000.lock"
+    if ! flock -n 9; then
+        die "o U2000 já está em execução."
+    fi
+
+    cd -- "$CLIENT_DIR" || die "não foi possível acessar $CLIENT_DIR"
     printf 'Iniciando U2000 com Wine (%s)...\n' "$WINEPREFIX"
     exec "$wine_bin" "$WINDOWS_JAVA" \
         -Dprocname=client \
