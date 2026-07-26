@@ -2,8 +2,8 @@
 set -uo pipefail
 
 ROOT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd -P)"
-WINDOWS_JAVA="$ROOT_DIR/jre/bin/javaw.exe"
-WINDOWS_LAUNCHER="$ROOT_DIR/client/startup_all_global.bat"
+WINDOWS_JAVA="$ROOT_DIR/jre/bin/java.exe"
+CLIENT_DIR="$ROOT_DIR/client/client"
 
 die() {
     printf 'Erro: %s\n' "$*" >&2
@@ -36,20 +36,54 @@ show_check() {
 }
 
 run_u2000() {
-    local wine_bin windows_launcher
+    local wine_bin
     [[ -f "$WINDOWS_JAVA" ]] || die "Java do U2000 não encontrado: $WINDOWS_JAVA"
-    [[ -f "$WINDOWS_LAUNCHER" ]] || die "iniciador não encontrado: $WINDOWS_LAUNCHER"
+    [[ -f "$CLIENT_DIR/startuploader.jar" ]] || die "startuploader.jar não encontrado."
     [[ -n "${DISPLAY:-}${WAYLAND_DISPLAY:-}" ]] || die "nenhuma sessão gráfica foi detectada."
-    wine_bin="$(find_wine)" || die "Wine não está instalado. Consulte CONTINUAR_NO_LINUX.md."
+    wine_bin="$(find_wine)" || die "Wine não está instalado. Consulte INSTALAR_NO_LINUX.md."
 
     export WINEARCH="${WINEARCH:-win32}"
     export WINEPREFIX="${WINEPREFIX:-$HOME/.local/share/u2000/wineprefix}"
     mkdir -p -- "$WINEPREFIX"
-    windows_launcher="$("$wine_bin" winepath -w "$WINDOWS_LAUNCHER")" ||
-        die "não foi possível converter o caminho para o Wine."
+    cd -- "$CLIENT_DIR" || die "não foi possível acessar $CLIENT_DIR"
 
     printf 'Iniciando U2000 com Wine (%s)...\n' "$WINEPREFIX"
-    exec "$wine_bin" cmd /c "$windows_launcher" "$@"
+    exec "$wine_bin" "$WINDOWS_JAVA" \
+        -Dprocname=client \
+        -Dfile.encoding=UTF-8 \
+        -classpath ./startuploader.jar \
+        -Dnet.sf.ehcache.skipUpdateCheck=true \
+        -Xverify:none \
+        -Dparsertype=2 \
+        -Xms64m \
+        -Xmx256m \
+        -XX:+UseSerialGC \
+        -XX:MaxMetaspaceSize=256m \
+        -XX:CompressedClassSpaceSize=128m \
+        -XX:MaxHeapFreeRatio=40 \
+        -XX:MinHeapFreeRatio=25 \
+        -XX:NewRatio=12 \
+        -XX:MaxNewSize=32m \
+        -DloadJarExtPaths=false \
+        -Dexsubsystem=cmdclient \
+        -Dsun.java2d.noddraw=true \
+        -Dhelpapp=run_help.bat \
+        -XX:+HeapDumpOnOutOfMemoryError \
+        -Dserialize=false \
+        -DSingleFileChooserPath=true \
+        -DskipObjFileCheck=true \
+        '-Djava.library.path=../../cau/lib;./update/lib;../lib;../script/lib/core/itf' \
+        -DExtesnionRigestry.debug=false \
+        -Dpatchtime=true \
+        -DExtesionRegistry.cacheUse=true \
+        -Dscript.name=u2000-linux.sh \
+        -DSpecification.Verify=true \
+        com.swimap.startup.Startup \
+        -debuglevel 1 \
+        -showtrace false \
+        -enabledebug true \
+        -tracefile DebugTrace.txt \
+        "$@"
 }
 
 case "${1:-}" in
