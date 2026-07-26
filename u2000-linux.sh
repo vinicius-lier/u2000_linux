@@ -54,7 +54,7 @@ run_u2000() {
 
     cd -- "$CLIENT_DIR" || die "não foi possível acessar $CLIENT_DIR"
     printf 'Iniciando U2000 com Wine (%s)...\n' "$WINEPREFIX"
-    exec "$wine_bin" "$WINDOWS_JAVA" \
+    "$wine_bin" "$WINDOWS_JAVA" \
         -Dprocname=client \
         -Dfile.encoding=UTF-8 \
         -classpath ./startuploader.jar \
