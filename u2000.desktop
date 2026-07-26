@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=Application
+Name=Huawei U2000
+Comment=Cliente de gerenciamento Huawei U2000
+Exec=/home/vinicius-oliveira/Aplicativos/u2000_linux/u2000-linux.sh
+Icon=/home/vinicius-oliveira/Aplicativos/u2000_linux/client/tools/u2000.PNG
+Path=/home/vinicius-oliveira/Aplicativos/u2000_linux
+Terminal=false
+StartupNotify=true
+StartupWMClass=java.exe
+Categories=Network;Utility;
+Keywords=Huawei;U2000;Network;
