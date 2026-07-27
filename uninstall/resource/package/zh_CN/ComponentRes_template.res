@@ -1,0 +1,14 @@
+Base=公共组件
+CommonBaseComponent=基础组件
+RCBaseComponent=拓扑适配和网元安全组件
+AccessNetworkElementManagement=U2000专用组件
+NWBaseComponent=Trap接收器
+Base.InstallInfo=公共组件
+CommonBaseComponent.InstallInfo=基础组件
+RCBaseComponent.InstallInfo=拓扑适配和网元安全组件
+AccessNetworkElementManagement.InstallInfo=U2000专用组件
+NWBaseComponent.InstallInfo=Trap接收器
+TestFrameComponent=测试框架组件
+CAUComponent=CAU组件
+TestFrameComponent.InstallInfo=测试框架组件
+CAUComponent.InstallInfo=CAU组件

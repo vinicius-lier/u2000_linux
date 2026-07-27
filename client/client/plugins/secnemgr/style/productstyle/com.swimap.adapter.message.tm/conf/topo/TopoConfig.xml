@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<!--
+	本机网管对象: 36000
+	平台设备: 1000 -2000
+	 跨域给出的各个领域的设备系列号范围如下，由各个TDT参照修改。 
+	T2000设备        : 20000- 23000
+	PTN              : 15000- 17000
+	交换机           ：11000- 12000
+	安全             ：10000- 11000
+	路由器           ：9000 - 10000
+	VMF设备          : 8000 - 9000
+	BMS设备          : 3000 - 6000
+	-->
+	<AREADESC areaname="ADD_OBJECT_CONF">
+			<DESC descname="DEV_TYPE_SORT">
+					<PARAS>
+				<!--NE value值越大，越靠上显示;目前S系列的暂不配置-->
+				<!--Eudemon系列(10999~10900)-->
+				
+				<PARA name="1237.$.1"  value="10999"/><!--Eudemon100E-->        		
+				<PARA name="1315.$.1"  value="10998"/><!--Eudemon200E-B-->
+				<PARA name="1315.$.2"  value="10997"/><!--Eudemon200E-C-->
+				<PARA name="1315.$.3"  value="10996"/><!--Eudemon200E-F-->
+				<PARA name="1315.$.4"  value="10995"/><!--Eudemon200E-F-D-->
+				<PARA name="1239.$.1"  value="10994"/><!--Eudemon200S-->
+				<PARA name="1244.$.1"  value="10993"/><!--Eudemon300-->        		
+				<PARA name="173.$.1"  value="10992"/><!--Eudemon500-->  
+				<PARA name="168.$.1"  value="10991"/><!--Eudemon1000-->      		
+				<PARA name="1312.$.1"  value="10990"/><!--Eudemon1000E-U2-->
+				<PARA name="1312.$.2"  value="10989"/><!--Eudemon1000E-U3-->
+				<PARA name="1312.$.3"  value="10988"/><!--Eudemon1000E-U5-->
+				<PARA name="1312.$.4"  value="10987"/><!--Eudemon1000E-U6-->        		
+				<PARA name="2691.$.1"  value="10986"/><!--Eudemon6080E-->
+				<PARA name="1240.$.1"  value="10985"/><!--Eudemon8040-->
+				<PARA name="1241.$.1"  value="10984"/><!--Eudemon8080-->
+				<PARA name="1307.$.2"  value="10983"/><!--Eudemon8080E-->
+				<PARA name="1307.$.3"  value="10982"/><!--Eudemon8160E-->
+				<PARA name="2703.$.1"  value="10981"/><!--Eudemon200E-BW-->
+				<PARA name="167.$.1"  value="10980"/><!--Eudemon200-->
+				<PARA name="2674.$.1"  value="10979"/><!--OP-ByPass-->
+				<PARA name="2706.$.1"  value="10978"/><!--Eudemon1000E-D-->
+				<PARA name="2707.$.1"  value="10977"/><!--Eudemon1000E-I-->
+				<!-- added by zhufeng for USG5500 Eudemon1000E-X 20101202 start-->
+				<PARA name="2708.$.1"  value="10976"/><!--Eudemon1000E-X3-->
+				<PARA name="2708.$.2"  value="10975"/><!--Eudemon1000E-X5-->
+				<PARA name="2708.$.3"  value="10974"/><!--Eudemon1000E-X6-->
+				<PARA name="2708.$.8"  value="10973"/><!--Eudemon1000E-X2-->
+				<PARA name="2708.$.9"  value="10972"/><!--Eudemon1000E-X2-D-->
+				<!-- added by zhufeng for USG5500 Eudemon1000E-X 20101202 end-->
+				<!-- added by zhufeng for Eudemon200E-X 20110228 start-->
+				<PARA name="2714.$.1"  value="10975"/><!--Eudemon200E-X1-->
+				<PARA name="2715.$.1"  value="10974"/><!--Eudemon200E-X1W-->
+				<PARA name="2716.$.1"  value="10973"/><!--Eudemon200E-X2-->
+				<PARA name="2717.$.1"  value="10972"/><!--Eudemon200E-X2W-->
+				<PARA name="2718.$.1"  value="10971"/><!--Eudemon200E-X3-->
+				<PARA name="2719.$.1"  value="10970"/><!--Eudemon200E-X5-->
+				<PARA name="2720.$.1"  value="10969"/><!--Eudemon200E-X6-->
+				<PARA name="2721.$.1"  value="10968"/><!--Eudemon200E-X7-->
+				<PARA name="2722.$.1"  value="10967"/><!--Eudemon200E-X5-D-->
+				<PARA name="2723.$.1"  value="10966"/><!--Eudemon200E-X6-D-->
+				<!-- added by zhufeng for Eudemon200E-X 20110228 end-->
+				<!-- added by chengxuehe for Eudemon200E-X1AGW-W/c start-->
+				<PARA name="2738.$.1"  value="10965"/><!--Eudemon200E-X1AGW-W-->
+				<PARA name="2739.$.1"  value="10964"/><!--Eudemon200E-X1AGW-c-->
+				<!-- added by chengxuehe for Eudemon200E-X1AGW-W/c  end-->  
+				<!-- added by chengxuehe for Eudemon8000E-X/USG9500 20110804 start-->
+				<PARA name="2724.$.1"  value="10963"/><!--Eudemon8000E-X3-->
+				<PARA name="2724.$.2"  value="10962"/><!--Eudemon8000E-X8-->
+				<PARA name="2724.$.3"  value="10961"/><!--Eudemon8000E-X16-->
+				<!-- added by chengxuehe for Eudemon8000E-X/USG9500 20110804 end  -->
+				<PARA name="2743.$.1"  value="10960"/><!--Eudemon200E-X1AW-->
+				<PARA name="2744.$.1"  value="10959"/><!--Eudemon200E-X2NEW-->
+				<PARA name="2745.$.1"  value="10958"/><!--Eudemon200E-X2WNEW-->
+				<PARA name="2708.$.4"  value="10957"/><!--Eudemon1000E-X7-->
+				<PARA name="2708.$.5"  value="10956"/><!--Eudemon1000E-X7-D-->
+				<PARA name="2708.$.6"  value="10955"/><!--Eudemon1000E-X8-->
+				<PARA name="2708.$.7"  value="10954"/><!--Eudemon1000E-X8-D-->
+				<PARA name="2724.$.4"  value="10953"/><!--Eudemon8000E-B-->
+				<PARA name="2724.$.5"  value="10952"/><!--Eudemon8000E-C-->
+				<PARA name="2724.$.6"  value="10951"/><!--Eudemon8000E-D-->
+				
+
+
+				<!--USG系列(10899~10600)-->	
+				<PARA name="1243.$.1"  value="10899"/><!--USG50-->						
+				<PARA name="2681.$.1"  value="10898"/><!--USG2110-->
+				<PARA name="2681.$.2"  value="10897"/><!--USG2130-->
+				<PARA name="2681.$.3"  value="10896"/><!--USG2160-->
+				<PARA name="2681.$.4"  value="10895"/><!--USG2130W-->
+				<PARA name="2681.$.5"  value="10894"/><!--USG2160W-->
+				<PARA name="2681.$.6"  value="10893"/><!--USG2130P-->
+				<PARA name="2681.$.7"  value="10892"/><!--USG2130WP-->
+				<PARA name="2681.$.8"  value="10891"/><!--USG2160P-->
+				<PARA name="2681.$.9"  value="10890"/><!--USG2160WP-->
+				<PARA name="2681.$.10"  value="10889"/><!--USG2120BSR-->
+				<PARA name="2681.$.11"  value="10888"/><!--USG2130BSR-->
+				<PARA name="2681.$.12"  value="10887"/><!--USG2130BSR-W-->
+				<PARA name="2681.$.13"  value="10886"/><!--USG2160BSR-->
+				<PARA name="2681.$.14"  value="10885"/><!--USG2160BSR-W-->
+				<PARA name="2681.$.15"  value="10884"/><!--USG2130HSR-->
+				<PARA name="2681.$.16"  value="10883"/><!--USG2130HSR-W-->
+				<PARA name="2681.$.17"  value="10882"/><!--USG2130HSR-P-->
+				<PARA name="2681.$.18"  value="10881"/><!--USG2130HSR-WP-->
+				<PARA name="2681.$.19"  value="10880"/><!--USG2160HSR-->
+				<PARA name="2681.$.20"  value="10879"/><!--USG2160HSR-W-->
+				<PARA name="2681.$.21"  value="10878"/><!--USG2160HSR-P-->
+				<PARA name="2681.$.22"  value="10877"/><!--USG2160HSR-WP-->        		
+				<PARA name="2682.$.1"  value="10876"/><!--USG2210-->
+				<PARA name="2682.$.2"  value="10875"/><!--USG2220-->
+				<PARA name="2682.$.3"  value="10874"/><!--USG2230-->
+				<PARA name="2682.$.4"  value="10873"/><!--USG2250-->
+				<PARA name="2682.$.5"  value="10872"/><!--USG2250-D-->
+				<PARA name="2682.$.6"  value="10871"/><!--USG2205BSR-->
+				<PARA name="2682.$.7"  value="10870"/><!--USG2220BSR-->
+				<PARA name="2682.$.8"  value="10869"/><!--USG2220BSR-D-->
+				<PARA name="1238.$.1"  value="10868"/><!--USG3030-->
+				<PARA name="1242.$.1"  value="10867"/><!--USG3040-->        		
+				<PARA name="2688.$.1"  value="10866"/><!--USG5120BSR-->
+				<PARA name="2688.$.2"  value="10865"/><!--USG5120BSR-D-->
+				<PARA name="2688.$.3"  value="10864"/><!--USG5120-->
+				<PARA name="2688.$.4"  value="10863"/><!--USG5120-D-->
+				<PARA name="2688.$.5"  value="10862"/><!--USG5150BSR-->
+				<PARA name="2688.$.6"  value="10861"/><!--USG5150-->
+				<PARA name="2713.$.1"  value="10860"/><!--USG5320-->
+				<PARA name="2713.$.2"  value="10859"/><!--USG5330-->
+				<PARA name="2713.$.3"  value="10858"/><!--USG5350-->
+				<PARA name="2713.$.4"  value="10857"/><!--USG5360-->
+				<PARA name="2673.$.1"  value="10856"/><!--USG9110-->
+				<PARA name="2673.$.2"  value="10855"/><!--USG9120-->       		
+				<!--<PARA name="2752.$.1"  value="10854"/>USG9210-->
+				<!--<PARA name="2752.$.2"  value="10853"/>USG9220-->
+				<PARA name="1309.$.1"  value="10852"/><!--USG9310-->
+				<PARA name="1309.$.2"  value="10851"/><!--USG9320-->
+				<PARA name="2682.$.9"  value="10850"/><!--USG2205HSR-->
+				<PARA name="2682.$.10"  value="10849"/><!--USG2220HSR-->
+				<PARA name="2682.$.11"  value="10848"/><!--USG2220HSR-D-->
+				<PARA name="2688.$.7"  value="10847"/><!--USG5120HSR-->
+				<PARA name="2688.$.8"  value="10846"/><!--USG5150HSR-->
+				<PARA name="2682.$.12"  value="10845"/><!--USG2210TSM-->
+				<PARA name="2682.$.13"  value="10844"/><!--USG2220TSM-->
+				<PARA name="2682.$.14"  value="10843"/><!--USG2230TSM-->
+				<PARA name="2682.$.15"  value="10842"/><!--USG2250TSM-->
+				<PARA name="2713.$.5"  value="10841"/><!--USG5310-->
+				<PARA name="2681.$.23"  value="10840"/><!--USG2110-F-->
+				<PARA name="2681.$.24"  value="10839"/><!--USG2110-F-W-->
+				<PARA name="2681.$.25"  value="10838"/><!--USG2110-A-W-->
+				<PARA name="2681.$.26"  value="10837"/><!--USG2110-A-GW-W-->
+				<PARA name="2681.$.27"  value="10836"/><!--USG2110-A-GW-C-->
+				<PARA name="2681.$.28"  value="10835"/><!--USG2110-A-GW-T-->
+				<PARA name="2688.$.9"  value="10834"/><!--USG5120HSR-D-->
+				<PARA name="2704.$.1"  value="10833"/><!--USG5300ADD-->
+				<PARA name="2705.$.1"  value="10832"/><!--USG5300ADI-->
+				<!-- added by zhufeng for USG5500 Eudemon1000E-X 20101202 start-->
+				<PARA name="2709.$.1"  value="10831"/><!--USG5530-->
+				<PARA name="2709.$.2"  value="10830"/><!--USG5550-->
+				<PARA name="2709.$.3"  value="10829"/><!--USG5560-->
+				<PARA name="2709.$.4"  value="10828"/><!--USG5530S-->
+				<PARA name="2709.$.5"  value="10827"/><!--USG5520S-->
+				<!-- added by zhufeng for USG5500 Eudemon1000E-X 20101202 end-->
+				<!-- added by chengxuehe for Eudemon200E-X1AGW-W/c &USG5160 start-->
+				<PARA name="2688.$.10"  value="10827"/><!--USG5160-->
+				<!-- added by chengxuehe for Eudemon200E-X1AGW-W/c &USG5160 end-->
+				<!-- added by chengxuehe for Eudemon8000E-X/USG9500 20110804 start-->
+				<PARA name="2725.$.1"  value="10826"/><!--USG9520-->
+				<PARA name="2725.$.2"  value="10825"/><!--USG9560-->
+				<PARA name="2725.$.3"  value="10824"/><!--USG9580-->
+				<!-- added by chengxuehe for Eudemon8000E-X/USG9500 20110804 end  -->
+				<PARA name="2682.$.16"  value="10823"/><!--USG2260-->
+				
+				
+				<!--SRG系列(10599~10400)-->	
+				<PARA name="2675.$.1"  value="10599"/><!--SRG1210-->
+				<PARA name="2675.$.2"  value="10598"/><!--SRG1210W-->
+				<PARA name="2675.$.3"  value="10597"/><!--SRG1220-->
+				<PARA name="2675.$.4"  value="10596"/><!--SRG1220W-->
+				<PARA name="2675.$.5"  value="10595"/><!--SRG1210-S-->
+				<PARA name="2675.$.6"  value="10594"/><!--SRG1210P-->
+				<PARA name="2675.$.7"  value="10593"/><!--SRG1210WP-->
+				<PARA name="2675.$.8"  value="10592"/><!--SRG1220P-->
+				<PARA name="2675.$.9"  value="10591"/><!--SRG1220WP-->
+				<PARA name="2676.$.1"  value="10590"/><!--SRG2220-->
+				<PARA name="2676.$.2"  value="10589"/><!--SRG2220-D-->
+				<PARA name="2676.$.3"  value="10588"/><!--SRG2210-->        		
+				<PARA name="2677.$.1"  value="10587"/><!--SRG20-10-->
+				<PARA name="2678.$.1"  value="10586"/><!--SRG20-11-->
+				<PARA name="2679.$.1"  value="10585"/><!--SRG20-12-->
+				<PARA name="2680.$.1"  value="10584"/><!--SRG20-15-->        		
+				<PARA name="2685.$.1"  value="10583"/><!--SRG20-20-->
+				<PARA name="2686.$.1"  value="10582"/><!--SRG20-21-->
+				<PARA name="2683.$.1"  value="10581"/><!--SRG20-30-->
+				<PARA name="2684.$.1"  value="10580"/><!--SRG20-31-->
+				<PARA name="2687.$.1"  value="10579"/><!--SRG20-31-D-->        		
+				<PARA name="2689.$.1"  value="10578"/><!--SRG3230-->
+				<PARA name="2689.$.2"  value="10577"/><!--SRG3230-D-->
+				<PARA name="2689.$.3"  value="10576"/><!--SRG3240-->
+				<PARA name="2689.$.4"  value="10575"/><!--SRG3240-D-->
+				<PARA name="2689.$.5"  value="10574"/><!--SRG3250-->
+				<PARA name="2689.$.6"  value="10573"/><!--SRG3260-->
+				<PARA name="2701.$.1"  value="10572"/><!--SRG20-12W-->
+				<PARA name="2702.$.1"  value="10571"/><!--SRG20-15W-->
+				
+				
+				<!--EGW系列(10399~10200)-->	
+				<PARA name="2690.$.1"  value="10399"/><!--EGW2130-->
+				<PARA name="2690.$.2"  value="10398"/><!--EGW2160-->
+				<PARA name="2690.$.3"  value="10397"/><!--EGW2112GW-->
+				<PARA name="2690.$.4"  value="10396"/><!--EGW2130W-->
+				<PARA name="2690.$.5"  value="10395"/><!--EGW2160W-->
+				<PARA name="2690.$.6"  value="10395"/><!--EGW2160DC-->
+				<PARA name="2699.$.1"  value="10394"/><!--EGW2210-->
+				<PARA name="2699.$.2"  value="10393"/><!--EGW2220-->
+				<PARA name="2699.$.3"  value="10392"/><!--EGW2220-D-->
+				<PARA name="2700.$.1"  value="10391"/><!--EGW3230-->
+				<PARA name="2700.$.2"  value="10390"/><!--EGW3240-->
+				<PARA name="2700.$.3"  value="10389"/><!--EGW3240-D-->
+				<PARA name="2700.$.4"  value="10388"/><!--EGW3250-->
+				<PARA name="2700.$.5"  value="10387"/><!--EGW3260-->
+				<PARA name="2690.$.6"  value="10386"/><!--EGW2112GW(VDF)-->
+				
+				
+				<!--SIG系列(10199~10130)-->	
+				<PARA name="1314.$.1"  value="10199"/><!--SIG9810-->
+				<PARA name="1314.$.2"  value="10198"/><!--SIG9820-->
+				<PARA name="1316.$.1"  value="10197"/><!--SIG Server-->
+				<PARA name="2692.$.1"  value="10196"/><!--RADIUS Proxy-->
+				<PARA name="2693.$.1"  value="10195"/><!--URL Classify Server-->
+				<PARA name="2740.$.1"  value="10194"/><!--SIG9800-X3-->
+				<PARA name="2741.$.1"  value="10193"/><!--SIG9800-X8-->
+				<PARA name="2742.$.1"  value="10192"/><!--SIG9800-X16-->
+								
+				<!--NE40E80E系列(10129~10100)-->	
+				<PARA name="2695.$.1"  value="10129"/><!--NE40E-DPI-->
+				<PARA name="2695.$.2"  value="10128"/><!--NE80E-DPI-->
+				<PARA name="2696.$.1"  value="10127"/><!--NE40E80E-DPI Server-->
+				<PARA name="2698.$.1"  value="10126"/><!--NE40E-FW-->
+				<PARA name="2698.$.2"  value="10125"/><!--NE80E-FW-->
+				<!-- added by zhufeng for RADIUS Proxy-DPI URL Classify Server-DPI 20110115 start-->
+				<PARA name="2711.$.1"  value="10124"/><!--RADIUS Proxy-DPI-->
+				<PARA name="2712.$.1"  value="10123"/><!--URL Classify Server-DPI-->
+				<!-- added by zhufeng for RADIUS Proxy-DPI URL Classify Server-DPI 20110115 end-->
+				
+				
+				<!--其他(10099~10050)-->	
+				<PARA name="1313.$.1"  value="10099"/><!--SVN3000-->
+				<PARA name="2674.$.1"  value="10098"/><!--OP-ByPass-->
+				<PARA name="2731.$.1"  value="10097"/><!--SVN2230-->
+				<PARA name="2731.$.2"  value="10096"/><!--SVN2260-->
+				<PARA name="2732.$.1"  value="10095"/><!--SVN5300-->
+				<PARA name="2735.$.1"  value="10094"/><!--SVN5530-->
+				<PARA name="2735.$.2"  value="10093"/><!--SVN5560-->
+				
+				<!-- iCache(10049~10000) -->	
+				<PARA name="2727.$.1"  value="10049"/><!--RSS9200-->
+				<PARA name="2728.$.1"  value="10048"/><!--DSS9200-->
+				<PARA name="2729.$.1"  value="10047"/><!--MSS9200-->
+				<PARA name="2730.$.1"  value="10046"/><!--CSS9200-HTTP-->
+				<PARA name="2730.$.2"  value="10045"/><!--CSS9200-BT-->
+				<PARA name="2730.$.3"  value="10044"/><!--CSS9200-EM-->
+				<PARA name="2730.$.4"  value="10043"/><!--CSS9200-WEB-->
+				<PARA name="2730.$.5"  value="10042"/><!--CSS9200-PPS-->
+				<PARA name="2730.$.6"  value="10041"/><!--CSS9200-PPL-->
+				<PARA name="2730.$.7"  value="10040"/><!--CSS9200-QQL-->
+				
+				<!-- ASG(9999~9950) -->	
+				<PARA name="2746.$.1"  value="9999"/><!--ASG2100-->
+				<PARA name="2747.$.1"  value="9998"/><!--ASG2200-->
+				<PARA name="2748.$.1"  value="9997"/><!--ASG2600-->
+				<PARA name="2749.$.1"  value="9996"/><!--ASG2800-->
+					</PARAS>
+				</DESC>
+		</AREADESC>
+	
+</COMMINIDATA>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Operation Object" name="Operation Object" isVisiable="true" isEditable="false" width="312" isNameModified="false" />
+  <column id="NE IP/LAN/Gateway IP" name="NE IP/LAN/Gateway IP" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="Type" name="Type" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="Type Version" name="Type Version" isVisiable="true" isEditable="true" width="143" isNameModified="false" />
+  <column id="User Name" name="User Name" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="Client IP" name="Client IP" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="Operation Name" name="Operation Name" isVisiable="true" isEditable="true" width="145" isNameModified="false" />
+  <column id="Start Time" name="Start Time" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="End Time" name="End Time" isVisiable="true" isEditable="true" width="145" isNameModified="false" />
+  <column id="Result" name="Result" isVisiable="true" isEditable="true" width="145" isNameModified="false" />
+  <column id="Details" name="Details" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="File Path" name="File Path" isVisiable="true" isEditable="true" width="143" isNameModified="false" />
+</table>
+

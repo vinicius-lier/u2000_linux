@@ -1,0 +1,15 @@
+# transproxy
+trans=transproxy
+trans_server=transproxy服务器
+trans_client=transproxy客户端
+trans_help=transproxy帮助
+
+#Display string for database name
+
+trans.InstallInfo=transproxy提供与网元使用trans协议通信代理功能。
+trans_server.InstallInfo=transproxy服务器
+trans_client.InstallInfo=transproxy客户端
+
+trans.UninstallInfo=transproxy提供与网元使用trans协议通信代理功能。
+trans_server.UninstallInfo=transproxy服务器
+trans_client.UninstallInfo=transproxy客户端

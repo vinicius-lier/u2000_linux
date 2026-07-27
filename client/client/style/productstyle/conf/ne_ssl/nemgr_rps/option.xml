@@ -1,0 +1,23 @@
+<?xml version="1.0"  encoding="utf-8"?>
+<COMMINIDATA>
+	<AREADESC areaname="ssl">
+		<DESC descname="options">
+			<PARAS>
+				<!--is use ssl flg -->
+				<PARA name="enableSSL" value="true"/>
+				<!--ssl version, supported versions are: "SSLv3", "TLSv1","TLSv1.1", "TLSv1.2", etc. Refer JDK docs for details -->
+				<PARA name="version" value="TLSv1.2"/>
+				<!--cipher list name, the name is defined in the cipherSuiteConfig.xml -->
+				<PARA name="encryptLevel" value="high"/>
+				<!--enable or disable authenticate the remote peer  -->
+				<PARA name="enableAuthPeer" value="false"/>
+				<!--set the session reuse option -->
+				<PARA name="enableSessionReuse" value="true"/>
+				<!--session resue valid duration, the unit is second, only affected in server side -->
+                <PARA name="sessionTimeout" value="300"/>
+                <!--enable or disable auto adapt SSL or non SSL port, only affected in server side -->
+                <PARA name="enableSSLPortAutoAdapt" value="false"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

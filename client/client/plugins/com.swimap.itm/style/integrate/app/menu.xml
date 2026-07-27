@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--DOCTYPE COMMINIDATA SYSTEM "commini.dtd" -->
+<!-- -->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="type" value="ResourceBundle"></PARA>
+        <PARA name="resourceBundleName" value="Res"></PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="mainMenu">
+      <PARAS>
+        <PARA name="name" value="main Menu"></PARA>
+        <PARA name="type" value="MenuSet"></PARA>
+      </PARAS>
+      <!-- define a menu have" name" and "mnemonic" attributes -->
+      <DESC descname="ScheduleTaskManage">
+        <PARAS>
+          <PARA name="name" value="ScheduleTaskManage" />
+          <PARA name="mnemonic" value="T" />
+          <PARA name="accelerator" value="VK_T"></PARA>
+          <PARA name="type" value="JMenu" />
+          <PARA name="serialnumber" value="760"></PARA>
+        </PARAS>
+        <DESC descname="integration task management">
+          <PARAS>
+            <PARA name="name" value="ITM..." />
+            <PARA name="command" value="Executing ITM command" />
+            <PARA name="type" value="JMenuItem" />
+            <PARA name="mnemonic" value="T" />
+            <PARA name="serialnumber" value="760-30"></PARA>
+            <PARA name="showInPortalPanel" value="true" />
+	    <PARA name="showBlankInternalFrame" value="false" />
+            <PARA name="isFavorite" value="true" />
+            <PARA name="favoriteIcon" value="icons/SystemTool.png" />
+            <PARA name="visibleApps">
+              <VALUE value="SysSetting"></VALUE>
+            </PARA>
+          </PARAS>
+        </DESC>
+      </DESC>
+    </DESC>
+    <!-- mainMenu MenuSet type ended -->
+  </AREADESC>
+</COMMINIDATA>

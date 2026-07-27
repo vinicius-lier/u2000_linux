@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+      <DESC descname="applicationInfo">
+				<PARAS>
+				  <PARA name="id" value="FixNetNECM"/> <!--: must be unique -->
+					<PARA name="name" value="FixNetNECM.name"/> <!-- appName its resource is obtained from res.properties-->
+					<PARA name="description" value="about.desc"/><!-- : description its resource is obtained from res.properties -->
+					<PARA name="icon" value="FixNetNECM.PNG"/> <!--: application icon path relative to style\locale\{en_US|zh_CN}\-->
+					<PARA name="serialnumber" value="331"/><!-- : Order for showing application button. -->
+				</PARAS>
+		</DESC>
+		
+		<DESC descname="blankPageInfo">
+			<PARAS>
+				<PARA name="name" value="blank.name.fixnetnecm"/>
+				<PARA name="description" value="blank.desc.fixnetnecm"/>
+			</PARAS>
+		</DESC>
+		
+    </AREADESC>
+</COMMINIDATA>

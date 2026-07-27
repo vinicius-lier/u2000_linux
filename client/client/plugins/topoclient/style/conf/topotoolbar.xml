@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="TopoMenuRes"></PARA>
+    </PARAS>
+</DESC>
+
+<DESC descname="mainTool">
+    <PARAS>
+       <PARA name="name" value="main Tool"></PARA>
+       <PARA name="type" value="ToolGroupSet"></PARA>
+       <PARA name="serialnumber" value="100"></PARA>
+    </PARAS>
+
+    <DESC descname="topoToolBar">
+        <PARAS>
+        <PARA name="id" value="topoToolBar"></PARA>
+        <PARA name="name" value="topoToolBar"></PARA>
+        <PARA name="mnemonic" value="L"></PARA>
+        <PARA name="type" value="JToolBar"></PARA>
+        <PARA name="serialnumber" value="100-200"></PARA>
+        </PARAS>
+
+      <DESC descname="Separator">
+            <PARAS>
+            <PARA name="name" value="Separator1"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="100-200"></PARA>
+          </PARAS>
+      </DESC>
+
+	 <!--define create-->
+	 <DESC descname="create">
+	    <PARAS>
+		   <PARA name="name" value="create"></PARA>
+		   <PARA name="description" value="create"/>
+		   <PARA name="icon" value="image/create.gif"/>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="serialnumber" value="100-230"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialCreatButton"></PARA>
+		</PARAS>
+	 </DESC>
+	 
+	 <!--define modify_view-->
+	 <DESC descname="modify_view">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_modifyView"></PARA>
+		   <PARA name="description" value="modify_view_tip"/>
+		   <PARA name="icon" value="image/modifyView.gif"/>
+		   <PARA name="command" value="show modify view dialog"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+       <PARA name="serialnumber" value="100-250"></PARA>
+		</PARAS>
+	</DESC>
+	 
+	 <!--define delete view-->
+	 <DESC descname="delete_view">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_deleteView"></PARA>
+		   <PARA name="description" value="delete_view_tip"/>
+		   <PARA name="icon" value="image/deleteView.gif"/>
+		   <PARA name="command" value="delete view"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-260"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<DESC descname="Separator">
+            <PARAS>
+            <PARA name="name" value="Separator2"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="100-300"></PARA>
+          </PARAS>
+    </DESC>
+        <DESC descname="back_memory">
+		<PARAS>
+		   <PARA name="name" value="back_memory"></PARA>
+		   <PARA name="description" value="backmemory"/>
+		   <PARA name="icon" value="image/back_memory.gif"/>
+		   <PARA name="command" value="back_memory"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-310"></PARA>
+           <PARA name="isSelected" value="false"></PARA>
+		</PARAS>
+	</DESC>
+	
+	    <DESC descname="forward_memory">
+		<PARAS>
+		   <PARA name="name" value="forward_memory"></PARA>
+		   <PARA name="description" value="forwardmemory"/>
+		   <PARA name="icon" value="image/forward_memory.gif"/>
+		   <PARA name="command" value="forward_memory"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-320"></PARA>
+           <PARA name="isSelected" value="false"></PARA>
+		</PARAS>
+	</DESC>
+    
+    <!--define back up-->
+    <DESC descname="back_up">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_backTrack"></PARA>
+		   <PARA name="description" value="back_up"/>
+		   <PARA name="icon" value="image/backTrack.gif"/>
+		   <PARA name="command" value="back parent"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-400"></PARA>
+		</PARAS>
+	</DESC>
+	
+    
+    <DESC descname="selectMove">
+	    <PARAS>
+		   <PARA name="name" value="selectMove"></PARA>
+		   <PARA name="description" value=""/>
+		   <PARA name="icon" value="image/select.gif"/>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="serialnumber" value="100-500"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialSelectButton"></PARA>
+		</PARAS>
+	 </DESC>
+    
+	
+	
+	<!--define print-->
+    <DESC descname="print">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_print"></PARA>
+		   <PARA name="description" value="print"/>
+		   <PARA name="icon" value="image/print.gif"/>
+		   <PARA name="command" value="print"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-800"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define printPreview-->
+    <DESC descname="printPreview">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_preview"></PARA>
+		   <PARA name="description" value="printPreview"/>
+		   <PARA name="icon" value="image/preview.gif"/>
+		   <PARA name="command" value="preview"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-900"></PARA>
+		</PARAS>
+	</DESC>
+	
+	
+	<!--define overview-->
+        <DESC descname="overview">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_overview"></PARA>
+		   <PARA name="description" value="overview"/>
+                   <PARA name="icon" value="image/overview.gif"/>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialOverviewButton"></PARA>
+		   <PARA name="serialnumber" value="100-1000"></PARA>
+		</PARAS>
+	</DESC>
+
+	<DESC descname="statistics">
+		<PARAS>
+		   <PARA name="name" value="statistics"></PARA>
+		   <PARA name="description" value="statistics"/>
+		   <PARA name="icon" value="image/DevStatisticsFrame.gif"/>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialStatisticsButton"></PARA>
+           <PARA name="serialnumber" value="100-1050"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define search-->
+    <DESC descname="search">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_search"></PARA>
+		   <PARA name="description" value="search"/>
+		   <PARA name="icon" value="image/search.gif"/>
+		   <PARA name="command" value="Show search panel"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-1100"></PARA>
+		</PARAS>
+	</DESC>
+	
+    <!--define refresh-->
+    <DESC descname="refresh">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_refresh"></PARA>
+		   <PARA name="description" value="refresh"/>
+		   <PARA name="icon" value="image/refresh.gif"/>
+		   <PARA name="command" value="refresh topo"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-1200"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define save-->
+    <DESC descname="save">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_save"></PARA>
+		   <PARA name="description" value="save"/>
+		   <PARA name="icon" value="image/save.gif"/>
+		   <PARA name="command" value="save position"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-1300"></PARA>
+		</PARAS>
+	</DESC>
+	
+    <!--define legend-->
+    <DESC descname="legend">
+		<PARAS>	
+		   <PARA name="description" value="legend"/>	
+		   <PARA name="name" value="legend"></PARA>
+		   <PARA name="icon" value="image/filterlegend.gif"/>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="serialnumber" value="100-1400"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialLegendButton"></PARA>
+		</PARAS>		
+	</DESC>
+	
+	<!--define showAlarmBrowse-->
+    <DESC descname="showAlarmBrowse">
+		<PARAS>
+		   <PARA name="description" value="showAlarmBrowse"/>
+		   <PARA name="name" value="showAlarmBrowse"></PARA>
+		   <PARA name="icon" value="image/showAlarmBrowse.gif"/>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="serialnumber" value="100-1500"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialAlarmButton"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define layout-->
+    <DESC descname="layout">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_layout"></PARA>
+		   <PARA name="description" value="layoutTip"/>
+		   <PARA name="icon" value="image/layout.gif"/>
+		   <PARA name="command" value="show set layout dialog"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-1600"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<DESC descname="Separator">
+            <PARAS>
+            <PARA name="name" value="Separator3"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="100-1700"></PARA>
+          </PARAS>
+    </DESC>
+	
+	<!--define zoomin-->
+    <DESC descname="zoomin">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_zoomin"></PARA>
+		   <PARA name="description" value="zoomin"/>
+		   <PARA name="icon" value="image/zoomin.gif"/>
+		   <PARA name="command" value="zoom in"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-1800"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define zoomout-->
+    <DESC descname="zoomout">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_zoomout"></PARA>
+		   <PARA name="description" value="zoomout"/>
+		   <PARA name="icon" value="image/zoomout.gif"/>
+		   <PARA name="command" value="zoom out"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-1900"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define zoombox-->
+    <DESC descname="zoombox">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_zoomBoxBtn"></PARA>
+		   <PARA name="description" value="zoombox"/>
+		   <PARA name="icon" value="image/zoombox.gif"/>
+		   <PARA name="command" value="zoom box"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-2000"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define unzoom-->
+	<!--
+    <DESC descname="unzoom">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_unzoom"></PARA>
+		   <PARA name="description" value="unzoom"/>
+		   <PARA name="icon" value="image/unzoom.gif"/>
+		   <PARA name="command" value="reset zoom"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-2100"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<DESC descname="zoomFitContent">
+		<PARAS>
+		   <PARA name="name" value="TM_TopoToolBar_fittocontent"></PARA>
+		   <PARA name="description" value="zoomFitContent"/>
+		   <PARA name="icon" value="image/fittocontent.gif"/>
+		   <PARA name="command" value="content zoom"/>
+		   <PARA name="mnemonic" value=""/>
+		   <PARA name="accelerator" value=""/>
+		   <PARA name="type" value="AbstractButton"/>
+           <PARA name="serialnumber" value="100-2300"></PARA>
+		</PARAS>
+	</DESC>
+	-->
+	
+	
+	<!--define zoomCombox-->
+    <DESC descname="zoomCombox">
+		<PARAS>		
+		   <PARA name="name" value="zoomCombox"></PARA>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="icon" value="image/percent.gif"/>
+		   <PARA name="serialnumber" value="100-2400"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialZoomBoxButton"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<!--define view_lock-->
+    <DESC descname="view_lock">
+        <PARAS>		
+		   <PARA name="name" value="viewlock"></PARA>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="icon" value="image/view_lock.gif"/>
+		   <PARA name="serialnumber" value="100-2500"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialLockButton"></PARA>
+		</PARAS>
+	</DESC>
+	
+	<DESC descname="Separator">
+            <PARAS>
+            <PARA name="name" value="Separator5"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="100-2550"></PARA>
+          </PARAS>
+    </DESC>
+	
+	<!--define path label-->
+    <DESC descname="path_label">
+		<PARAS>		
+		   <PARA name="name" value="path_label"></PARA>
+		   <PARA name="type" value="JComponent"></PARA>
+		   <PARA name="icon" value="image/path.gif"/>
+		   <PARA name="serialnumber" value="100-2600"></PARA>
+		   <PARA name="classname" value="com.swimap.topo.client.topoclient.form.toolbar.SpecialPathButton"></PARA>
+		</PARAS>
+	</DESC>
+	
+   </DESC>
+</DESC>
+</AREADESC>
+</COMMINIDATA>

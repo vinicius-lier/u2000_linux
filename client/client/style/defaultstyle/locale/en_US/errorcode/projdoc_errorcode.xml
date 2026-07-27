@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ProjDoc">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="117456897"   value="Failed to open the file." />
+                <PARA name="117456898"   value="Asn.1 decoding failed." />
+                <PARA name="117456899"   value="Asn.1 encoding failed." />
+                <PARA name="117456900"   value="The filename is invalid." />
+                <PARA name="117456901"   value="Querying database failed." />
+                <PARA name="117456902"   value="Failed to find the subnet data." />
+                <PARA name="117456903"   value="Exporting project document. Please try again later." />
+                <PARA name="117456904"   value="No NEs found in the system. " />
+                <PARA name="117456905"   value="The NE does not exist." />
+                <PARA name="117459713"   value="The filename includes some invalid character." />
+                <PARA name="117459714"   value="The response message is empty." />
+                <PARA name="117459715"   value="The suffix of the file name should be .xml." />
+                <PARA name="117456906"   value="Export failed because 1000 folders have been created on the server. Dump or delete existing folders." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

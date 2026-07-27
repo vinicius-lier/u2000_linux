@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin
+   id="servicelevel"
+   name="servicelevel"
+   version="1.0"
+   provider-name="servicelevel">
+   <requires>
+      <import plugin="Fault"/>
+   </requires>
+   <extension point="fault.explain.alarmhelpid">
+      <helpid class="com.huawei.n2000bms.device.fault.AlarmHelpIDExtension">
+      </helpid>
+   </extension>
+   <extension point="fault.query.advance.Fault">
+        <FaultList class="com.huawei.n2000bms.pf.servicelevel.ServiceLevelAlarmFilterProcessor" index="1601"/>
+   </extension>
+   <extension point="fault.query.advance.History">
+        <FaultList class="com.huawei.n2000bms.pf.servicelevel.ServiceLevelAlarmFilterProcessor" index="1601"/>
+   </extension>
+   <extension point="fault.query.advance.HistoryLog">
+        <FaultList class="com.huawei.n2000bms.pf.servicelevel.ServiceLevelAlarmFilterProcessor" index="1601"/>
+   </extension>
+   
+   <!-- 配置网元删除U2000接入实现类 -->
+   <extension  point="com.swimap.eam.NeDeletionType">
+      <NeDeletion 
+	      class="com.huawei.n2000bms.device.topo.delete.BMSNeDeletion">  
+      </NeDeletion>
+  </extension>
+  
+  <!-- 用于主拓扑右键菜单中删除菜单的鉴权 -->
+   <extension point="com.swimap.topo.TopoMenuItemValidCheck">
+      <TopoMenuItemValidCheck class="com.huawei.n2000bms.device.topo.delete.BMSTopoMenuItemValidCheck" priority="110"/>
+   </extension>
+  
+  <!-- 用于主拓扑主菜单中删除菜单的鉴权 -->
+   <extension point="com.swimap.topo.TopoActionStatusCheck">
+      <TopoTip class="com.huawei.n2000bms.device.topo.delete.BMSTopoActionStatusCheck" priority="120"/>
+   </extension>
+</plugin>

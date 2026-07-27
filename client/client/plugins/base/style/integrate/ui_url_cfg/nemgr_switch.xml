@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+    <DESC descname="UIUrlCfg">  
+    	<DESC descname="ui/cfg/v2/nes/([\d]+)/ports/(.*)/update">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+        
+                    <PARA name="procId" value="2604" />
+               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+              
+              <DESC descname="ui/cfg/v2/nes/([\d]+)/ports/(.*)/update">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+        
+                    <PARA name="procId" value="2605" />
+               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+                  
+       <DESC descname="ui/cfg/v2/nes/([\d]+)/viewresource/p\?&amp;main_type=([\d]+)&amp;sub_type=([+-]?\d+)&amp;fdn=(.*)">
+              <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+      
+                    <PARA name="procId" value="2604" />
+    
+                    <PARA name="moduleId" value="emlmodule" />
+              </PARAS>
+       </DESC>
+       <DESC descname="ui/cfg/v2/nes/([\d]+)/viewresource/p\?&amp;main_type=([\d]+)&amp;sub_type=([+-]?\d+)&amp;fdn=(.*)">
+              <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+      
+                    <PARA name="procId" value="2605" />
+    
+                    <PARA name="moduleId" value="emlmodule" />
+              </PARAS>
+       </DESC>
+       <DESC descname="ui/cfg/v2/nes/view/negraph/(.*)">
+              <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+      
+                    <PARA name="procId" value="2604" />
+    
+                    <PARA name="moduleId" value="emlmodule" />
+              </PARAS>
+       </DESC>
+       <DESC descname="ui/cfg/v2/nes/view/negraph/(.*)">
+              <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+      
+                    <PARA name="procId" value="2605" />
+    
+                    <PARA name="moduleId" value="emlmodule" />
+              </PARAS>
+       </DESC>
+       
+       <DESC descname="ui/cfg/v2/nes/([\d]+)/qosmgr">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+        
+                    <PARA name="procId" value="2604" />
+               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+            
+             <DESC descname="ui/cfg/v2/nes/([\d]+)/qosmgr">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+        
+                    <PARA name="procId" value="2605" />
+               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="ui/cfg/v2/nes/(.*)/view">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+      
+                    <PARA name="procId" value="2604" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>
+       		
+       		  <DESC descname="ui/cfg/v2/nes/(.*)/view">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_SWITCH" />
+      
+                    <PARA name="procId" value="2605" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>
+       		
+    </DESC>
+</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.resource"
+   name="resource"
+   version="1.0"
+   provider-name="swimap">
+
+   <extension-point id="com.swimap.resource.AlarmLevelInitializationExtension" name="AlarmLevelInitializationExtension" schema="schema/AlarmLevelInitializationExtension.exsd"/>
+
+   <extension point="com.swimap.color.manager">
+	      <com.swimap.color.manager
+	            class="com.swimap.resource.client.innerimpl.data.AlarmColorPluginManager"
+	            serialnumber="10" />
+   </extension>
+</plugin>

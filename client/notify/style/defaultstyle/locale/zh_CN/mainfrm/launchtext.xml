@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  
+      showdirection 0-LEFT_RIGHT 1-TOP_BOTTOM 2-BOTTOM_TOP
+-->
+
+<COMMINIDATA>
+
+  <AREADESC>
+      <DESC descname="launchtext">
+           <DESC descname="1">
+              <PARAS>
+                  <PARA name="description" value="综合网管应用平台"></PARA>
+                  <PARA name="font" value="Dialog-BOLD-40"></PARA>
+                  <PARA name="color" value="255-255-225"></PARA>
+                  <PARA name="x" value="45"></PARA>          
+                  <PARA name="y" value="290"></PARA>    
+                  <PARA name="showdirection" value="0"></PARA>
+              </PARAS>
+           </DESC>
+           <DESC descname="2">
+              <PARAS>
+                  <PARA name="description" value="Integrated Management Application Platform"></PARA>
+                  <PARA name="font" value="Dialog-PLAIN-12"></PARA>
+                  <PARA name="color" value="255-255-255"></PARA>
+                  <PARA name="x" value="150"></PARA>          
+                  <PARA name="y" value="320"></PARA>    
+                  <PARA name="showdirection" value="0"></PARA>
+              </PARAS>
+           </DESC>
+           <DESC descname="3">
+              <PARAS>
+                  <PARA name="description" value="2001-2012 华为技术有限公司 版权所有，侵权必究  Http://www.swimap.com"></PARA>
+                  <PARA name="font" value="Dialog-PLAIN-10"></PARA>
+                  <PARA name="color" value="255-255-255"></PARA>
+                  <PARA name="x" value="50"></PARA>          
+                  <PARA name="y" value="375"></PARA>    
+                  <PARA name="showdirection" value="0"></PARA>
+              </PARAS>
+           </DESC>
+      </DESC>
+  </AREADESC>
+</COMMINIDATA>
+
+

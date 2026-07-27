@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="MstpOperMstID" name="Instance ID" isVisiable="true" isEditable="false" width="88" isNameModified="false" />
+  <column id="ResDesc" name="Frame/Slot/Port" isVisiable="true" isEditable="true" width="111" isNameModified="false" />
+  <column id="PortState" name="STP State" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="PortPriority" name="Port Priority" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="PortPathCost" name="Path Cost (1-200000000)" isVisiable="true" isEditable="true" width="165" isNameModified="false" />
+  <column id="StpStatus" name="MSTP Switch" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="RootGuard" name="Root Guard" isVisiable="true" isEditable="true" width="89" isNameModified="false" />
+  <column id="LoopGuard" name="Loop Guard" isVisiable="true" isEditable="true" width="91" isNameModified="false" />
+</table>
+

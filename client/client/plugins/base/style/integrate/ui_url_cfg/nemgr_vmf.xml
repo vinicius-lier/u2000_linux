@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="UIUrlCfg">
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/ports/(.*)/update">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+        
+                    <PARA name="procId" value="622" />
+               
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/port_create/p\?port_type=([\d]+)">
+                <PARAS>
+           
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+        
+                    <PARA name="procId" value="622" />
+         
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+      
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/route_policys/(.*)/update">
+                <PARAS>
+          
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+          
+                    <PARA name="procId" value="622" />
+      
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/route_policy_create">
+                <PARAS>
+            
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+      
+                    <PARA name="procId" value="622" />
+       
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/tnl_policys/(.*)/update">
+                <PARAS>
+           
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+           
+                    <PARA name="procId" value="622" />
+        
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/tnl_policy_create">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+          
+                    <PARA name="procId" value="622" />
+         
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/pw_tmpls/(.*)/update">
+                <PARAS>
+
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+     
+                    <PARA name="procId" value="622" />
+
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/pw_tmpl_create">
+                <PARAS>
+    
+                    <PARA name="applicationId" value="FixNetNECM" />
+    
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+          
+                    <PARA name="procId" value="622" />
+          
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_ip_frefixs">
+                <PARAS>
+            
+                    <PARA name="applicationId" value="FixNetNECM" />
+      
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+     
+                    <PARA name="procId" value="622" />
+         
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_bgp_peergrps">
+                <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+          
+                    <PARA name="procId" value="622" />
+           
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_te_selectors">
+                <PARAS>
+ 
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+  
+                    <PARA name="procId" value="622" />
+    
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC> 
+            
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/bgpcfg/view">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+        
+                    <PARA name="procId" value="622" />
+               
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+			
+			 <DESC descname="ui/cfg/v2/nes/([\d]+)/viewresource/p\?&amp;main_type=([\d]+)&amp;sub_type=([+-]?\d+)&amp;fdn=(.*)">
+                <PARAS>
+ 
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+  
+                    <PARA name="procId" value="622" />
+    
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC> 
+			
+			 <DESC descname="ui/cfg/v2/nes/view/negraph/(.*)">
+                <PARAS>
+ 
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+  
+                    <PARA name="procId" value="622" />
+    
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+			<DESC descname="ui/cfg/v2/nes/(.*)/view">
+                <PARAS>
+ 
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+  
+                    <PARA name="procId" value="622" />
+    
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+			
+			<DESC descname="ui/cfg/v2/nes/(.*)/view/default">
+                <PARAS>
+ 
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+  
+                    <PARA name="procId" value="622" />
+    
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/performanceanalysis/p\?fdn=(.*)">
+                <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+      
+                    <PARA name="procId" value="622" />
+    
+                     <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>
+   
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/np/update/p\?types=([A-Za-z0-9;]+)">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+         
+                    <PARA name="procId" value="622" />
+   
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>	
+            
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_arps">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_VMF" />
+         
+                    <PARA name="procId" value="622" />
+   
+                    <PARA name="moduleId" value="vmfmgrmodule" />
+                </PARAS>
+            </DESC>	
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

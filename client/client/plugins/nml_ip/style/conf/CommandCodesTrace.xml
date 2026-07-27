@@ -1,0 +1,2836 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="CommandInfo">
+            <PARAS>
+                <DESC descname="2817772">
+                    <PARAS>
+                        <PARA name="description" value="QueryArp"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817773">
+                    <PARAS>
+                        <PARA name="description" value="MoveToService"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817774">
+                    <PARAS>
+                        <PARA name="description" value="QueryDHCPServer"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817775">
+                    <PARAS>
+                        <PARA name="description" value="QueryVrfFromNe"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817776">
+                    <PARAS>
+                        <PARA name="description" value="QueryVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817777">
+                    <PARAS>
+                        <PARA name="description" value="CheckComposite"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817778">
+                    <PARAS>
+                        <PARA name="description" value="BatchModifyService"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817779">
+                    <PARAS>
+                        <PARA name="description" value="ModifyVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817781">
+                    <PARAS>
+                        <PARA name="description" value="DoCheckBeforDeploy"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817797">
+                    <PARAS>
+                        <PARA name="description" value="DepolyL3vpn"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817798">
+                    <PARAS>
+                        <PARA name="description" value="UnDeployL3vpn"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817799">
+                    <PARAS>
+                        <PARA name="description" value="EnableL3vpn"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817801">
+                    <PARAS>
+                        <PARA name="description" value="SerachService"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817802">
+                    <PARAS>
+                        <PARA name="description" value="EnableVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817803">
+                    <PARAS>
+                        <PARA name="description" value="DisableVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817804">
+                    <PARAS>
+                        <PARA name="description" value="EnableInf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817805">
+                    <PARAS>
+                        <PARA name="description" value="DisableInf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817806">
+                    <PARAS>
+                        <PARA name="description" value="CreatTest"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817807">
+                    <PARAS>
+                        <PARA name="description" value="CreatTestTime"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817808">
+                    <PARAS>
+                        <PARA name="description" value="QueryTest"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817809">
+                    <PARAS>
+                        <PARA name="description" value="ReleteRpt"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817810">
+                    <PARAS>
+                        <PARA name="description" value="ReshRpt"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817811">
+                    <PARAS>
+                        <PARA name="description" value="QueryService"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817812">
+                    <PARAS>
+                        <PARA name="description" value="QueryAlarm"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817816">
+                    <PARAS>
+                        <PARA name="description" value="SyncDevL3vpn"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793549">
+                    <PARAS>
+                        <PARA name="description" value="RefreshRunningStatus"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794606">
+                    <PARAS>
+                        <PARA name="description" value="RefreshVrfRunningStatus"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793547">
+                    <PARAS>
+                        <PARA name="description" value="QueryFIB"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793517">
+                    <PARAS>
+                        <PARA name="description" value="QueryRouting"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793792">
+                    <PARAS>
+                        <PARA name="description" value="QuerySrvDetailsForTest"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793876">
+                    <PARAS>
+                        <PARA name="description" value="AutoCreateVpnPeer"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793877">
+                    <PARAS>
+                        <PARA name="description" value="AutoCreateNetStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793878">
+                    <PARAS>
+                        <PARA name="description" value="AutoCreateVpnFrr"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793888">
+                    <PARAS>
+                        <PARA name="description" value="VpnFrrSwitch"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793887">
+                    <PARAS>
+                        <PARA name="description" value="ViewVpnFrrStatus"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793965">
+                    <PARAS>
+                        <PARA name="description" value="DeployVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793966">
+                    <PARAS>
+                        <PARA name="description" value="UnDeployVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793963">
+                    <PARAS>
+                        <PARA name="description" value="ExportVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793971">
+                    <PARAS>
+                        <PARA name="description" value="ExportSrv"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794041">
+                    <PARAS>
+                        <PARA name="description" value="ViewL3vpnFrr"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817436">
+                    <PARAS>
+                        <PARA name="description" value="TestCase"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817813">
+                    <PARAS>
+                        <PARA name="description" value="GetCurrentAlarm"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817814">
+                    <PARAS>
+                        <PARA name="description" value="ViewHisAlarms"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793852">
+                    <PARAS>
+                        <PARA name="description" value="getResLabel"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794140">
+                    <PARAS>
+                        <PARA name="description" value="checkVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794239">
+                    <PARAS>
+                        <PARA name="description" value="queryTrackL2Enable"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794223">
+                    <PARAS>
+                        <PARA name="description" value="setMacAddress"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793761">
+                    <PARAS>
+                        <PARA name="description" value="refreshLink"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794320">
+                    <PARAS>
+                        <PARA name="description" value="AutoCreateNetStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794319">
+                    <PARAS>
+                        <PARA name="description" value="QueryServiceDetailFormNe"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794406">
+                    <PARAS>
+                        <PARA name="description" value="RouteloopCheck"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794333">
+                    <PARAS>
+                        <PARA name="description" value="ModifyVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794334">
+                    <PARAS>
+                        <PARA name="description" value="ModifyVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794335">
+                    <PARAS>
+                        <PARA name="description" value="ModifyVrf"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794402">
+                    <PARAS>
+                        <PARA name="description" value="QueryRouteSourceNe"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794403">
+                    <PARAS>
+                        <PARA name="description" value="CalAggRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794374">
+                    <PARAS>
+                        <PARA name="description" value="AddServiceLink"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794375">
+                    <PARAS>
+                        <PARA name="description" value="DeleteServiceLink"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794493">
+                    <PARAS>
+                        <PARA name="description" value="ConfigQosCombo"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794494">
+                    <PARAS>
+                        <PARA name="description" value="QueryPortQos"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794440">
+                    <PARAS>
+                        <PARA name="description" value="VpnPeerSetEcmp"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794478">
+                    <PARAS>
+                        <PARA name="description" value="viewVrfEcmpTunnel"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794503">
+                    <PARAS>
+                        <PARA name="description" value="enableEcmp"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794511">
+                    <PARAS>
+                        <PARA name="description" value="deploySap"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794512">
+                    <PARAS>
+                        <PARA name="description" value="undeploySap"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794513">
+                    <PARAS>
+                        <PARA name="description" value="deployPeer"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794514">
+                    <PARAS>
+                        <PARA name="description" value="undeployPeer"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794515">
+                    <PARAS>
+                        <PARA name="description" value="deployStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794516">
+                    <PARAS>
+                        <PARA name="description" value="undeployStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794517">
+                    <PARAS>
+                        <PARA name="description" value="deployFrr"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794518">
+                    <PARAS>
+                        <PARA name="description" value="undeployFrr"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794442">
+                    <PARAS>
+                        <PARA name="description" value="VPNFRRQueryStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794718">
+                    <PARAS>
+                        <PARA name="description" value="ChekVRF"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793705">
+                    <PARAS>
+                        <PARA name="description" value="lock_staticroute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793998">
+                    <PARAS>
+                        <PARA name="description" value="CompositeModifyL3vpnIF"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2799999">
+                    <PARAS>
+                        <PARA name="description" value="RouteloopCheck"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2799998">
+                    <PARAS>
+                        <PARA name="description" value="RouteloopCheck"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794690">
+                    <PARAS>
+                        <PARA name="description" value="AutoCreateNetStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794713">
+                    <PARAS>
+                        <PARA name="description" value="GetDetailDisableL3vpn"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794508">
+                    <PARAS>
+                        <PARA name="description" value="lock_sap"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794509">
+                    <PARAS>
+                        <PARA name="description" value="lock_peer"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794510">
+                    <PARAS>
+                        <PARA name="description" value="lock_frr"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794007">
+                    <PARAS>
+                        <PARA name="description" value="import_analyze"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794162">
+                    <PARAS>
+                        <PARA name="description" value="QuickCfgAutoCreateRouteAndFRR"/>
+                        <PARA name="moduleID" value="E2E-L3VPN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793592">
+                    <PARAS>
+                        <PARA name="description" value="queryswitch.status"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793596">
+                    <PARAS>
+                        <PARA name="description" value="Switch.ApsStatus"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794535">
+                    <PARAS>
+                        <PARA name="description" value="FlowSwitch.ApsStatus"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794182">
+                    <PARAS>
+                        <PARA name="description" value="Switch.PwRedundancyStatus"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817949">
+                    <PARAS>
+                        <PARA name="description" value="query.pwTemplate"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817950">
+                    <PARAS>
+                        <PARA name="description" value="create.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817951">
+                    <PARAS>
+                        <PARA name="description" value="copy.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817952">
+                    <PARAS>
+                        <PARA name="description" value="check.delete"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817953">
+                    <PARAS>
+                        <PARA name="description" value="delete.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793879">
+                    <PARAS>
+                        <PARA name="description" value="delete.and.backup"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793880">
+                    <PARAS>
+                        <PARA name="description" value="manual.backup"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817954">
+                    <PARAS>
+                        <PARA name="description" value="deploy.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818016">
+                    <PARAS>
+                        <PARA name="description" value="undeploy.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817955">
+                    <PARAS>
+                        <PARA name="description" value="enable.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818017">
+                    <PARAS>
+                        <PARA name="description" value="disable.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817956">
+                    <PARAS>
+                        <PARA name="description" value="query.serviceIdList"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817957">
+                    <PARAS>
+                        <PARA name="description" value="query.serviceBasicInfo"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817958">
+                    <PARAS>
+                        <PARA name="description" value="query.detail"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817959">
+                    <PARAS>
+                        <PARA name="description" value="query.detail.all"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817960">
+                    <PARAS>
+                        <PARA name="description" value="query.pwXC"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817961">
+                    <PARAS>
+                        <PARA name="description" value="query.pwOAM"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793659">
+                    <PARAS>
+                        <PARA name="description" value="query.pwBFD"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817962">
+                    <PARAS>
+                        <PARA name="description" value="query.sapDetail"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817963">
+                    <PARAS>
+                        <PARA name="description" value="search.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815878">
+                    <PARAS>
+                        <PARA name="description" value="import.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815885">
+                    <PARAS>
+                        <PARA name="description" value="title.impCutoverSvc"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817964">
+                    <PARAS>
+                        <PARA name="description" value="create.link"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817965">
+                    <PARAS>
+                        <PARA name="description" value="delete.link"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817966">
+                    <PARAS>
+                        <PARA name="description" value="Modify.service.access.point.parameters"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817967">
+                    <PARAS>
+                        <PARA name="description" value="modify.eth.serviceAttr"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817968">
+                    <PARAS>
+                        <PARA name="description" value="modify.cosMap"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817969">
+                    <PARAS>
+                        <PARA name="description" value="modify.linkPolicy"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817970">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwQoSPolicy"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817971">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwCar"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817972">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwAttr"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817973">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwBase"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817974">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwOAM"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815900">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwOAM.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793657">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwBFD"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817975">
+                    <PARAS>
+                        <PARA name="description" value="modify.serviceBase"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817976">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwTemplate"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817977">
+                    <PARAS>
+                        <PARA name="description" value="modify.tunnel"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817978">
+                    <PARAS>
+                        <PARA name="description" value="modify.link"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817979">
+                    <PARAS>
+                        <PARA name="description" value="query.runningStatus"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817980">
+                    <PARAS>
+                        <PARA name="description" value="query.discreateIdList"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817981">
+                    <PARAS>
+                        <PARA name="description" value="query.discreateBaseInfo"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817982">
+                    <PARAS>
+                        <PARA name="description" value="query.dicreateDetail"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817983">
+                    <PARAS>
+                        <PARA name="description" value="delete.discrateService"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817984">
+                    <PARAS>
+                        <PARA name="description" value="modify.dis2Unterm"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817985">
+                    <PARAS>
+                        <PARA name="description" value="query.pwTemplate"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817986">
+                    <PARAS>
+                        <PARA name="description" value="modify.mergeProtect"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817987">
+                    <PARAS>
+                        <PARA name="description" value="modify.disposeProtect"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817988">
+                    <PARAS>
+                        <PARA name="description" value="modify.configProtect"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817989">
+                    <PARAS>
+                        <PARA name="description" value="modify.protectGroup"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817990">
+                    <PARAS>
+                        <PARA name="description" value="modify.oamMapping"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817991">
+                    <PARAS>
+                        <PARA name="description" value="modify.repairDiscrete"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817992">
+                    <PARAS>
+                        <PARA name="description" value="notify.status"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817993">
+                    <PARAS>
+                        <PARA name="description" value="notify.baseInfo"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817994">
+                    <PARAS>
+                        <PARA name="description" value="notify.delete"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817995">
+                    <PARAS>
+                        <PARA name="description" value="notify.deleteDiscrete"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817996">
+                    <PARAS>
+                        <PARA name="description" value="notify.detail"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817997">
+                    <PARAS>
+                        <PARA name="description" value="notify.aclink"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817998">
+                    <PARAS>
+                        <PARA name="description" value="modify.ce"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817999">
+                    <PARAS>
+                        <PARA name="description" value="modify.sapQoS"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818000">
+                    <PARAS>
+                        <PARA name="description" value="query.bfdVrrp"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818001">
+                    <PARAS>
+                        <PARA name="description" value="query.test"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818002">
+                    <PARAS>
+                        <PARA name="description" value="query.pgGroupRes"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818003">
+                    <PARAS>
+                        <PARA name="description" value="query.pwKey"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818004">
+                    <PARAS>
+                        <PARA name="description" value="query.ethOam"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793768">
+                    <PARAS>
+                        <PARA name="description" value="enable.tpOam"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793769">
+                    <PARAS>
+                        <PARA name="description" value="clear.tpOam"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817806">
+                    <PARAS>
+                        <PARA name="description" value="cteate.test.suite"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817807">
+                    <PARAS>
+                        <PARA name="description" value="cteate.test.time"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818008">
+                    <PARAS>
+                        <PARA name="description" value="query.bandwidth"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816891">
+                    <PARAS>
+                        <PARA name="description" value="query.serviceIdList"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816892">
+                    <PARAS>
+                        <PARA name="description" value="AsnAddPrimaryTrailRsp"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816900">
+                    <PARAS>
+                        <PARA name="description" value="query.serviceBasicInfo"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816901">
+                    <PARAS>
+                        <PARA name="description" value="query.serviceIdList"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816897">
+                    <PARAS>
+                        <PARA name="description" value="create.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816903">
+                    <PARAS>
+                        <PARA name="description" value="Modify.sap.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816904">
+                    <PARAS>
+                        <PARA name="description" value="modify.ce.preset.trails.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816905">
+                    <PARAS>
+                        <PARA name="description" value="modify.sapQoS.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816906">
+                    <PARAS>
+                        <PARA name="description" value="modify.eth.serviceAttr.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816907">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwAttr.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816908">
+                    <PARAS>
+                        <PARA name="description" value="modify.cosMap.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816909">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwBase.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816910">
+                    <PARAS>
+                        <PARA name="description" value="query.test.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816911">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwCar.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816912">
+                    <PARAS>
+                        <PARA name="description" value="modify.pwQoSPolicy.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816915">
+                    <PARAS>
+                        <PARA name="description" value="modify.tunnel.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816916">
+                    <PARAS>
+                        <PARA name="description" value="modify.serviceBase.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816917">
+                    <PARAS>
+                        <PARA name="description" value="modify.protectGroup.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816918">
+                    <PARAS>
+                        <PARA name="description" value="create.link.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816919">
+                    <PARAS>
+                        <PARA name="description" value="delete.link.preset.trails"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816920">
+                    <PARAS>
+                        <PARA name="description" value="modify.link"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818005">
+                    <PARAS>
+                        <PARA name="description" value="query.current.alarm"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818006">
+                    <PARAS>
+                        <PARA name="description" value="query.history.alarm"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818009">
+                    <PARAS>
+                        <PARA name="description" value="modify.check.info"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818010">
+                    <PARAS>
+                        <PARA name="description" value="query.check.info"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818011">
+                    <PARAS>
+                        <PARA name="description" value="CommondSyncDev"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818012">
+                    <PARAS>
+                        <PARA name="description" value="querytempate"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818013">
+                    <PARAS>
+                        <PARA name="description" value="updatetemplate"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818014">
+                    <PARAS>
+                        <PARA name="description" value="create.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818015">
+                    <PARAS>
+                        <PARA name="description" value="copy.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818018">
+                    <PARAS>
+                        <PARA name="description" value="pg.queryInfo"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818019">
+                    <PARAS>
+                        <PARA name="description" value="pg.setAttr"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818020">
+                    <PARAS>
+                        <PARA name="description" value="pg.switch"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818022">
+                    <PARAS>
+                        <PARA name="description" value="queryPwRdncyPGSwitch"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815881">
+                    <PARAS>
+                        <PARA name="description" value="export.filter"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815883">
+                    <PARAS>
+                        <PARA name="description" value="export.cutoverFilter"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815882">
+                    <PARAS>
+                        <PARA name="description" value="title.ExptSvcDlgTitle"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815884">
+                    <PARAS>
+                        <PARA name="description" value="title.ExptSvcDlgTitle"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793516">
+                    <PARAS>
+                        <PARA name="description" value="pwe3.ifCurrentAram"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815889">
+                    <PARAS>
+                        <PARA name="description" value="pwe3.queryUsableAdminPw"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815888">
+                    <PARAS>
+                        <PARA name="description" value="pwe3.deleteBindingAdminPw"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815887">
+                    <PARAS>
+                        <PARA name="description" value="pwe3.bindAdminPw"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815890">
+                    <PARAS>
+                        <PARA name="description" value="cmdName.qryLoopBack"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815891">
+                    <PARAS>
+                        <PARA name="description" value="cmdName.setLoopBack"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815892">
+                    <PARAS>
+                        <PARA name="description" value="cmdName.testLoopBack"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818023">
+                    <PARAS>
+                        <PARA name="description" value="modifyPwe3All"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793655">
+                    <PARAS>
+                        <PARA name="description" value="filterbyctrlword"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793656">
+                    <PARAS>
+                        <PARA name="description" value="modifyctrlword"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793766">
+                    <PARAS>
+                        <PARA name="description" value="check.prefab.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793768">
+                    <PARAS>
+                        <PARA name="description" value="enable.tpoam"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793769">
+                    <PARAS>
+                        <PARA name="description" value="clear.tpoam"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793870">
+                    <PARAS>
+                        <PARA name="description" value="clear.recyle"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793871">
+                    <PARAS>
+                        <PARA name="description" value="restore.recycle"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793872">
+                    <PARAS>
+                        <PARA name="description" value="delete.recycle"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793922">
+                    <PARAS>
+                        <PARA name="description" value="switchtpoam.getpwkey"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793993">
+                    <PARAS>
+                        <PARA name="description" value="enable.biterror"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793994">
+                    <PARAS>
+                        <PARA name="description" value="disenable.biterror"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794028">
+                    <PARAS>
+                        <PARA name="description" value="view.tnlProtStat"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794040">
+                    <PARAS>
+                        <PARA name="description" value="check.vlan"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815893">
+                    <PARAS>
+                        <PARA name="description" value="disenable.biterror"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794020">
+                    <PARAS>
+                        <PARA name="description" value="synchronizeStaticRoute"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794132">
+                    <PARAS>
+                        <PARA name="description" value="query.TrailOIDByFDN"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818027">
+                    <PARAS>
+                        <PARA name="description" value="enableCac"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2818026">
+                    <PARAS>
+                        <PARA name="description" value="disableCac"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794242">
+                    <PARAS>
+                        <PARA name="description" value="query.bitError"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794297">
+                    <PARAS>
+                        <PARA name="description" value="checkCposTrunkInSameEAps"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794341">
+                    <PARAS>
+                        <PARA name="description" value="switchToOam1731"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794340">
+                    <PARAS>
+                        <PARA name="description" value="switchToOam1711"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793758">
+                    <PARAS>
+                        <PARA name="description" value="check.prefab.service"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794389">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.queryTrailInfo"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794381">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.create"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794382">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.queryBase"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794383">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.queryDetail"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794384">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.delete"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794385">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.modify"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794386">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.start"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794387">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.stop"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794534">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.forceStop"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794388">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.insertErrorCode"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794390">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.stopInsertErrorCode"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794405">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.queryIfCodeType"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794413">
+                    <PARAS>
+                        <PARA name="description" value="prbs.cmd.refresh"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794490">
+                    <PARAS>
+                        <PARA name="description" value="select.qos.package"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794492">
+                    <PARAS>
+                        <PARA name="description" value="cmd.ViewY1711OamStatus"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794607">
+                    <PARAS>
+                        <PARA name="description" value="cmd.ModifyServiceBandwidth"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794724">
+                    <PARAS>
+                        <PARA name="description" value="menu.checkbandwidth.hardpipe"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794835">
+                    <PARAS>
+                        <PARA name="description" value="Query.alarms.nm.alarms"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794734">
+                    <PARAS>
+                        <PARA name="description" value="deploy.discreteService"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794735">
+                    <PARAS>
+                        <PARA name="description" value="undeploy.discreteService"/>
+                        <PARA name="moduleID" value="E2E-PWE3"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794141">
+                    <PARAS>
+                        <PARA name="description" value="checkTunnelResource"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794133">
+                    <PARAS>
+                        <PARA name="description" value="queryTunnelBackupStatus"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794134">
+                    <PARAS>
+                        <PARA name="description" value="switchTunnelBackupStatus"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794135">
+                    <PARAS>
+                        <PARA name="description" value="clearswitchTunnelBackupStatus"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817464">
+                    <PARAS>
+                        <PARA name="description" value="enableTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817502">
+                    <PARAS>
+                        <PARA name="description" value="routeReopt"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817503">
+                    <PARAS>
+                        <PARA name="description" value="queryTnlInfoByTnlKey"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817496">
+                    <PARAS>
+                        <PARA name="description" value="enableTunnelAbility"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817495">
+                    <PARAS>
+                        <PARA name="description" value="enableMplsTeAbility"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817494">
+                    <PARAS>
+                        <PARA name="description" value="enableMplsAbility"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817505">
+                    <PARAS>
+                        <PARA name="description" value="Modify.basic.tunnel.information"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793720">
+                    <PARAS>
+                        <PARA name="description" value="Batch.Modify.basic.tunnel.information"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817465">
+                    <PARAS>
+                        <PARA name="description" value="disableTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817448">
+                    <PARAS>
+                        <PARA name="description" value="getTunnelID"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817544">
+                    <PARAS>
+                        <PARA name="description" value="getTunnelID.withProTnl"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817449">
+                    <PARAS>
+                        <PARA name="description" value="queryTunnelBaseInfoList"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817468">
+                    <PARAS>
+                        <PARA name="description" value="deleteTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817469">
+                    <PARAS>
+                        <PARA name="description" value="deleteNetTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817470">
+                    <PARAS>
+                        <PARA name="description" value="delDisperseService"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817473">
+                    <PARAS>
+                        <PARA name="description" value="createStaticTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817474">
+                    <PARAS>
+                        <PARA name="description" value="createStaticCRTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2816970">
+                    <PARAS>
+                        <PARA name="description" value="createStaticCRTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817475">
+                    <PARAS>
+                        <PARA name="description" value="createRSVPTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817476">
+                    <PARAS>
+                        <PARA name="description" value="createIPTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817477">
+                    <PARAS>
+                        <PARA name="description" value="createLDPTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817451">
+                    <PARAS>
+                        <PARA name="description" value="viewStaticTunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817452">
+                    <PARAS>
+                        <PARA name="description" value="viewStaticCRTunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817453">
+                    <PARAS>
+                        <PARA name="description" value="viewRSVPTunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794695">
+                    <PARAS>
+                        <PARA name="description" value="viewBatchStaticCRTunnelDetal"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817450">
+                    <PARAS>
+                        <PARA name="description" value="viewIPTunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817454">
+                    <PARAS>
+                        <PARA name="description" value="viewLDPTunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817455">
+                    <PARAS>
+                        <PARA name="description" value="viewGRETunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817487">
+                    <PARAS>
+                        <PARA name="description" value="getMPLSInterface"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817488">
+                    <PARAS>
+                        <PARA name="description" value="getTunnelInterface"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817472">
+                    <PARAS>
+                        <PARA name="description" value="getTunnelRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817480">
+                    <PARAS>
+                        <PARA name="description" value="editRSVPTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817478">
+                    <PARAS>
+                        <PARA name="description" value="editStaticTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817479">
+                    <PARAS>
+                        <PARA name="description" value="editStaticCRTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794857">
+                    <PARAS>
+                        <PARA name="description" value="adjustRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817481">
+                    <PARAS>
+                        <PARA name="description" value="editIPTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817482">
+                    <PARAS>
+                        <PARA name="description" value="editLDPTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817499">
+                    <PARAS>
+                        <PARA name="description" value="autoDiscoverTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817483">
+                    <PARAS>
+                        <PARA name="description" value="calcIsDiscrete"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817484">
+                    <PARAS>
+                        <PARA name="description" value="getMPLSDevice"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="10022">
+                    <PARAS>
+                        <PARA name="description" value="queryFlowQueue"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="10023">
+                    <PARAS>
+                        <PARA name="description" value="getAlarm"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817485">
+                    <PARAS>
+                        <PARA name="description" value="getExplicitPath"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817486">
+                    <PARAS>
+                        <PARA name="description" value="createExplicitPath"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817471">
+                    <PARAS>
+                        <PARA name="description" value="getVPN.Tunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793594">
+                    <PARAS>
+                        <PARA name="description" value="queryVPNByFiber"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794373">
+                    <PARAS>
+                        <PARA name="description" value="queryVPNByTwoLink"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794379">
+                    <PARAS>
+                        <PARA name="description" value="queryMplsRingByFiber"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794380">
+                    <PARAS>
+                        <PARA name="description" value="queryMplsRingByTwoLink"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815805">
+                    <PARAS>
+                        <PARA name="description" value="queryTunnelByFiber"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794154">
+                    <PARAS>
+                        <PARA name="description" value="queryTunnelByTwoLink"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="10027">
+                    <PARAS>
+                        <PARA name="description" value="isUsed"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="10034">
+                    <PARAS>
+                        <PARA name="description" value="assainRes"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817501">
+                    <PARAS>
+                        <PARA name="description" value="enableAutoFRR"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817500">
+                    <PARAS>
+                        <PARA name="description" value="viewFRRStatus"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817466">
+                    <PARAS>
+                        <PARA name="description" value="deployTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817467">
+                    <PARAS>
+                        <PARA name="description" value="undeployTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817806">
+                    <PARAS>
+                        <PARA name="description" value="creaeTestSuite"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817807">
+                    <PARAS>
+                        <PARA name="description" value="createTimeStragety"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817545">
+                    <PARAS>
+                        <PARA name="description" value="QueryGreTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817492">
+                    <PARAS>
+                        <PARA name="description" value="getResLabel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817493">
+                    <PARAS>
+                        <PARA name="description" value="Assign.resources.automatically.RSVP"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817491">
+                    <PARAS>
+                        <PARA name="description" value="Assign.tunnel.interfaces.automatically"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817546">
+                    <PARAS>
+                        <PARA name="description" value="CommondSyncDev"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793500">
+                    <PARAS>
+                        <PARA name="description" value="Query.static.routes.and.loopback.points4Tunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793502">
+                    <PARAS>
+                        <PARA name="description" value="Query.static.routes.and.loopback.points4PWE3"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793504">
+                    <PARAS>
+                        <PARA name="description" value="get.Port.Details"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793505">
+                    <PARAS>
+                        <PARA name="description" value="Query.or.set.loopback"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793506">
+                    <PARAS>
+                        <PARA name="description" value="Query.IDs.fibers.trail.traverses.on.trail.ID"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793507">
+                    <PARAS>
+                        <PARA name="description" value="OnQryL3vpnTrlRouteAndPortForLoop"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793508">
+                    <PARAS>
+                        <PARA name="description" value="OnQryVplsTrlRouteAndPortForLoop"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793509">
+                    <PARAS>
+                        <PARA name="description" value="Query.information.about.conflicting.trails"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815893">
+                    <PARAS>
+                        <PARA name="description" value="qry.loopbackinfo"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817542">
+                    <PARAS>
+                        <PARA name="description" value="title.loopback1"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817547">
+                    <PARAS>
+                        <PARA name="description" value="GetTunnelRunningStatus"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817506">
+                    <PARAS>
+                        <PARA name="description" value="Assign.tunnel.IDs.automatically"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794266">
+                    <PARAS>
+                        <PARA name="description" value="Query.Tnl.Base.Info"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793748">
+                    <PARAS>
+                        <PARA name="description" value="Query.Tnl.Base.Info.PWKey"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817542">
+                    <PARAS>
+                        <PARA name="description" value="GetTunnelOIDForPRG"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817456">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseTnlBase"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817457">
+                    <PARAS>
+                        <PARA name="description" value="queryDisperseTnlBaseInfo"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817458">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseIPTnlDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817459">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseStaticTnlDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817460">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseCRTnlDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817461">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseRSVPTnlDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817462">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseLDPTnlDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817463">
+                    <PARAS>
+                        <PARA name="description" value="viewDisperseGRETnlDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815798">
+                    <PARAS>
+                        <PARA name="description" value="viewStaticCRTunnelDetail"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815799">
+                    <PARAS>
+                        <PARA name="description" value="BulkAllocateResource"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815800">
+                    <PARAS>
+                        <PARA name="description" value="BulkCalNormalRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815802">
+                    <PARAS>
+                        <PARA name="description" value="CopyStaticCRTunnelAndPg"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815803">
+                    <PARAS>
+                        <PARA name="description" value="CopyStaticCRTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815804">
+                    <PARAS>
+                        <PARA name="description" value="CopyStaticTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815801">
+                    <PARAS>
+                        <PARA name="description" value="GetTnlLinkRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815958">
+                    <PARAS>
+                        <PARA name="description" value="GetTnlLinkRouteForExternal"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793535">
+                    <PARAS>
+                        <PARA name="description" value="GetTnlLinkRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815959">
+                    <PARAS>
+                        <PARA name="description" value="FCMD_VPN_QRYTNLANDPWBWSTAT"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793608">
+                    <PARAS>
+                        <PARA name="description" value="QueryTunnelRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793608">
+                    <PARAS>
+                        <PARA name="description" value="QueryTunnelRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817568">
+                    <PARAS>
+                        <PARA name="description" value="Create.clock.link"/>
+                        <PARA name="moduleID" value=""/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794120">
+                    <PARAS>
+                        <PARA name="description" value="Export.Tunnel.services"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817591">
+                    <PARAS>
+                        <PARA name="description" value="ExptSvcDlgTitle"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793609">
+                    <PARAS>
+                        <PARA name="description" value="QueryStaticCrTunnelsByFdnKey"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793942">
+                    <PARAS>
+                        <PARA name="description" value="ImportSvc"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817528">
+                    <PARAS>
+                        <PARA name="description" value="query.current.alarm"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817543">
+                    <PARAS>
+                        <PARA name="description" value="query.history.alarm"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793790">
+                    <PARAS>
+                        <PARA name="description" value="batchEnableTPOAM"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793791">
+                    <PARAS>
+                        <PARA name="description" value="batchClearTPOAM"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793848">
+                    <PARAS>
+                        <PARA name="description" value="queryBindableSPRing"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793849">
+                    <PARAS>
+                        <PARA name="description" value="bindSPRing"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793881">
+                    <PARAS>
+                        <PARA name="description" value="Query.Tunnelbaceinfo.HopKey"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793882">
+                    <PARAS>
+                        <PARA name="description" value="undoBindSPRing"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793897">
+                    <PARAS>
+                        <PARA name="description" value="TunnelReroute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793918">
+                    <PARAS>
+                        <PARA name="description" value="getTunnelResKey"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793933">
+                    <PARAS>
+                        <PARA name="description" value="QueryRSVPTunnelByAlarm"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793856">
+                    <PARAS>
+                        <PARA name="description" value="queryTnlByRing"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817043">
+                    <PARAS>
+                        <PARA name="description" value="srvIntAnalysis"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2815807">
+                    <PARAS>
+                        <PARA name="description" value="queryTnlByUniResID"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794043">
+                    <PARAS>
+                        <PARA name="description" value="Tnl.RsvpCalcRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794044">
+                    <PARAS>
+                        <PARA name="description" value="Tnl.RsvpPreviewRoute"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794045">
+                    <PARAS>
+                        <PARA name="description" value="Tnl.QuerySpandomain"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794046">
+                    <PARAS>
+                        <PARA name="description" value="Query.Devices.Order"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793987">
+                    <PARAS>
+                        <PARA name="description" value="TunnelbindVNode"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793985">
+                    <PARAS>
+                        <PARA name="description" value="queryRingTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794048">
+                    <PARAS>
+                        <PARA name="description" value="queryExportRelation"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794093">
+                    <PARAS>
+                        <PARA name="description" value="deleteTopoVirtualNE"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794126">
+                    <PARAS>
+                        <PARA name="description" value="QueryTnlByNEID"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794129">
+                    <PARAS>
+                        <PARA name="description" value="Tnl.RelateVPN.QuerySap"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794130">
+                    <PARAS>
+                        <PARA name="description" value="QueryTnlByHopFDN"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793921">
+                    <PARAS>
+                        <PARA name="description" value="QueryCommonLink"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817436">
+                    <PARAS>
+                        <PARA name="description" value="CreateTestCase"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794189">
+                    <PARAS>
+                        <PARA name="description" value="QueryTnlHopPMSResByPWKey"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794121">
+                    <PARAS>
+                        <PARA name="description" value="ExptSvcDlgTitle"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794298">
+                    <PARAS>
+                        <PARA name="description" value="QueryBWBalanceFlag"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794299">
+                    <PARAS>
+                        <PARA name="description" value="QueryGlobalLinkPolicy"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794300">
+                    <PARAS>
+                        <PARA name="description" value="SetGlobalLinkPolicy"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794323">
+                    <PARAS>
+                        <PARA name="description" value="SwitchOamType"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794395">
+                    <PARAS>
+                        <PARA name="description" value="getCopyTnlNumber"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794397">
+                    <PARAS>
+                        <PARA name="description" value="copyTnl"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794398">
+                    <PARAS>
+                        <PARA name="description" value="viewPrecreatedTnl"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794399">
+                    <PARAS>
+                        <PARA name="description" value="changePWAndTnlRel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794400">
+                    <PARAS>
+                        <PARA name="description" value="GetTnlDetailInfoByPWE3OID"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794481">
+                    <PARAS>
+                        <PARA name="description" value="ModifyTnlDetailInfo"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794443">
+                    <PARAS>
+                        <PARA name="description" value="filterTnlSharedPwe3service"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794468">
+                    <PARAS>
+                        <PARA name="description" value="InspectRsvpBitErrdeDetect"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794466">
+                    <PARAS>
+                        <PARA name="description" value="BatchEnableRsvpBitErrdeDetect"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794467">
+                    <PARAS>
+                        <PARA name="description" value="BatchDisableRsvpBitErrdeDetect"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794446">
+                    <PARAS>
+                        <PARA name="description" value="GetPeerTnlByBFD"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794483">
+                    <PARAS>
+                        <PARA name="description" value="ConfigQosCombo"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794504">
+                    <PARAS>
+                        <PARA name="description" value="getVPN.Port"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794505">
+                    <PARAS>
+                        <PARA name="description" value="queryHardPipeL2LinkRemainBW"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794776">
+                    <PARAS>
+                        <PARA name="description" value="SecondAuthary"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794598">
+                    <PARAS>
+                        <PARA name="description" value="deployTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794599">
+                    <PARAS>
+                        <PARA name="description" value="undeployTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794737">
+                    <PARAS>
+                        <PARA name="description" value="checkundeployTunnel"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794757">
+                    <PARAS>
+                        <PARA name="description" value="checkTunnelInRing"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794842">
+                    <PARAS>
+                        <PARA name="description" value="filterNoTnlSharedPwe3service"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794854">
+                    <PARAS>
+                        <PARA name="description" value="filterforRingbandwidth"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794855">
+                    <PARAS>
+                        <PARA name="description" value="bandwidthRelease"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794856">
+                    <PARAS>
+                        <PARA name="description" value="bandwidthOccupy"/>
+                        <PARA name="moduleID" value="E2E-Tunnel"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817649">
+                    <PARAS>
+                        <PARA name="description" value="EnableVplsService"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817650">
+                    <PARAS>
+                        <PARA name="description" value="DisableVplsService"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817651">
+                    <PARAS>
+                        <PARA name="description" value="EnableVsi"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817652">
+                    <PARAS>
+                        <PARA name="description" value="DisableVsi"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817653">
+                    <PARAS>
+                        <PARA name="description" value="EnablePw"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817654">
+                    <PARAS>
+                        <PARA name="description" value="DisablePw"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817655">
+                    <PARAS>
+                        <PARA name="description" value="EnableSap"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817656">
+                    <PARAS>
+                        <PARA name="description" value="DisableSap"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793981">
+                    <PARAS>
+                        <PARA name="description" value="DeployVsi"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793982">
+                    <PARAS>
+                        <PARA name="description" value="UndeployVsi"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817657">
+                    <PARAS>
+                        <PARA name="description" value="DeployVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817658">
+                    <PARAS>
+                        <PARA name="description" value="UnDeployVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817659">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsOIDList"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793935">
+                    <PARAS>
+                        <PARA name="description" value="Query.Tnl.WDMTrailinfo"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817660">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsBaseInfoList"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817661">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsDetail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817662">
+                    <PARAS>
+                        <PARA name="description" value="QueryVsiDetail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817663">
+                    <PARAS>
+                        <PARA name="description" value="QueryPwDetail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817664">
+                    <PARAS>
+                        <PARA name="description" value="QuerySapDetail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817665">
+                    <PARAS>
+                        <PARA name="description" value="QueryDisperseVplsOIDList"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817666">
+                    <PARAS>
+                        <PARA name="description" value="QueryDisperseVplsBaseInfoList"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817667">
+                    <PARAS>
+                        <PARA name="description" value="QueryDisperseVplsDetail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817668">
+                    <PARAS>
+                        <PARA name="description" value="DeleteDisperseVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817669">
+                    <PARAS>
+                        <PARA name="description" value="AdjustVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817670">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsFull"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817671">
+                    <PARAS>
+                        <PARA name="description" value="QueryPortInVlan"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817672">
+                    <PARAS>
+                        <PARA name="description" value="CreateVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817688">
+                    <PARAS>
+                        <PARA name="description" value="SychronizeNeData"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817673">
+                    <PARAS>
+                        <PARA name="description" value="DeleteVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817674">
+                    <PARAS>
+                        <PARA name="description" value="DeleteVplsFromE2E"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817675">
+                    <PARAS>
+                        <PARA name="description" value="ModifyVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794814">
+                    <PARAS>
+                        <PARA name="description" value="ModifyVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817676">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsDebugInfo"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817678">
+                    <PARAS>
+                        <PARA name="description" value="AutoDiscVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817679">
+                    <PARAS>
+                        <PARA name="description" value="BatchModifyVplsBaseInfo"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817680">
+                    <PARAS>
+                        <PARA name="description" value="QueryAdminVsi"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817692">
+                    <PARAS>
+                        <PARA name="description" value="GetStaticPWLabel"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817693">
+                    <PARAS>
+                        <PARA name="description" value="RefreshSrvRunningStatus"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2793983">
+                    <PARAS>
+                        <PARA name="description" value="AutoCalcTrail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794052">
+                    <PARAS>
+                        <PARA name="description" value="CheckEthVlanID"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794131">
+                    <PARAS>
+                        <PARA name="description" value="QueryVPLSByVSIFDN"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794147">
+                    <PARAS>
+                        <PARA name="description" value="Clear.VSI.Mac"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794148">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsDetail"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794202">
+                    <PARAS>
+                        <PARA name="description" value="BatchQueryPwQos"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794203">
+                    <PARAS>
+                        <PARA name="description" value="BatchModifyPwQos"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817684">
+                    <PARAS>
+                        <PARA name="description" value="GetCurrentAlarm"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817685">
+                    <PARAS>
+                        <PARA name="description" value="GetHistoryAlarm"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794232">
+                    <PARAS>
+                        <PARA name="description" value="QueryVplsGpon"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794482">
+                    <PARAS>
+                        <PARA name="description" value="ConfigQosCombo"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794747">
+                    <PARAS>
+                        <PARA name="description" value="PwCfgAdminVR"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794715">
+                    <PARAS>
+                        <PARA name="description" value="QuerySimpleVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794748">
+                    <PARAS>
+                        <PARA name="description" value="QueryAggrPortMember"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794756">
+                    <PARAS>
+                        <PARA name="description" value="VplsResourceCheck"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794760">
+                    <PARAS>
+                        <PARA name="description" value="VsiCopyGetDestService"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794761">
+                    <PARAS>
+                        <PARA name="description" value="VsiCopySendCfg"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794764">
+                    <PARAS>
+                        <PARA name="description" value="cmdName.queryVlanIF"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794758">
+                    <PARAS>
+                        <PARA name="description" value="cmdName.setVlanIF"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794765">
+                    <PARAS>
+                        <PARA name="description" value="vsiResourceCheck"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794776">
+                    <PARAS>
+                        <PARA name="description" value="SecondAuthary"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794777">
+                    <PARAS>
+                        <PARA name="description" value="SecondAutharyModifyVpls"/>
+                        <PARA name="moduleID" value="E2E-VPLS"/>
+                    </PARAS>
+                </DESC>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

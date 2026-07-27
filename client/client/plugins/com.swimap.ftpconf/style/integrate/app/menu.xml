@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="type" value="ResourceBundle"></PARA>
+        <PARA name="resourceBundleName" value="Res"></PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="mainMenu">
+      <PARAS>
+        <PARA name="name" value="main Menu"></PARA>
+        <PARA name="type" value="MenuSet"></PARA>
+      </PARAS>
+		  <!-- <DESC descname="SysOption">
+				<PARAS>
+				  <PARA name="name" value="SystemSettings"></PARA>
+				  <PARA name="mnemonic" value="E"></PARA>
+				  <PARA name="accelerator" value="VK_E"></PARA>
+				  <PARA name="type" value="JMenu"></PARA>
+				  <PARA name="serialnumber" value="740"></PARA>
+				</PARAS> 
+				<DESC descname="FtpConf">
+					<PARAS>
+						<PARA name="name" value="FtpConf"/>
+						<PARA name="type" value="JMenu"/>
+						<PARA name="mnemonic" value="F"/>
+						<PARA name="serialnumber" value="740-800"/>
+					</PARAS>
+					<DESC descname="LOCAL_FTP">
+						<PARAS>
+							<PARA name="name" value="LOCAL_FTP" />
+							<PARA name="icon" value="" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="L" />
+							<PARA name="command" value="local_ftp_action"/>
+							<PARA name="action" value="com.swimap.ftpconf.authentication.MenuAuthorityAction"></PARA>
+							<PARA name="serialnumber" value="740-800-10" />
+							<PARA name="showInPortalPanel" value="true" />
+							<PARA name="isFavorite" value="true" />
+							<PARA name="visibleApps">
+								<VALUE value="SysSetting"></VALUE>
+							</PARA>
+						</PARAS>
+					</DESC>
+					<DESC descname="THIRD_PARTY_FTP">
+							<PARAS>
+								<PARA name="name" value="THIRD_PARTY_FTP" />
+								<PARA name="icon" value="" />
+								<PARA name="type" value="JMenuItem" />
+								<PARA name="mnemonic" value="F" />
+								<PARA name="accelerator" value="VK_F"/>
+								<PARA name="command" value="third_ftp_action"/>
+								<PARA name="action" value="com.swimap.ftpconf.authentication.MenuAuthorityAction"></PARA>
+								<PARA name="serialnumber" value="740-800-20" />
+								<PARA name="showInPortalPanel" value="true" />
+								<PARA name="isFavorite" value="true" />
+								<PARA name="visibleApps">
+										<VALUE value="SysSetting"></VALUE>
+								</PARA>
+							</PARAS>
+						</DESC>	
+				</DESC>						
+		 </DESC> -->
+   </DESC>
+  </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,95 @@
+SEVERE: 2026-6-19 13:37:41: InmProfileFactory._getResourceURLByType(1285): Failed getResource URL from jar file. common/u2000/unitedmgr/profile/customizeboardcolor.ini
+SEVERE: 2026-6-19 13:37:41: InmProfileFactory.getFileDescObjectFromUser(384): Failed getFileDescObjectFromUser(). filename= common\u2000\unitedmgr\profile\customizeboardcolor.ini
+SEVERE: 2026-6-19 13:37:41: InmAreaDescObject.getAreaDescObjectFromUser(756): InmAreaDescObject getAreaDescObjectFromJar The fileDesc getAbsFileName() is not null AbsFileName = C:\U2000\client\client\bin\config.ini fileName = null areaName = LCT_Setting
+SEVERE: 2026-6-19 13:37:41: InmAreaDescObject.getAreaDescObjectFromJar(797): InmAreaDescObject getAreaDescObjectFromJar The fileDesc getAbsFileName() is not null AbsFileName = C:\U2000\client\client\bin\config.ini fileName = null areaName = LCT_Setting
+SEVERE: 2026-6-19 13:37:41: InmAreaDescObject.getDescObjectAgain(730): InmAreaDescObject.getDescObjectAgain() get InmDescObject is null  areaName = LCT_Setting fileName = null objectName = = LCTVersion
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): java.util.ResourceBundle.getObject(450)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): java.util.ResourceBundle.getString(407)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.swimap.iview.util.helpmanagement.HelpManager.getHelpID(868)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.huawei.imap12.utility.help.InmHelpMgr.getHelpIDRes(121)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.huawei.imap12.utility.help.InmHelpMgr.helpComponent(76)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.preferences.boardcolor.UMBoardColorPanel.<init>(87)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.preferences.boardcolor.UMBoardColorPanel.getInstance(105)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.preferences.boardcolor.UMBoardColorSettings.getSettingsPanel(49)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.swimap.iview.framework.systemsettingsmanagement.SystemSettingsManager.addClientModuleSettings(1709)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.swimap.iview.framework.systemsettingsmanagement.SystemSettingsManager.addClientModuleSettings(1900)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.UMUnitedMgrModule$3.run(812)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): java.util.concurrent.ThreadPoolExecutor.runWorker(1149)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): java.util.concurrent.ThreadPoolExecutor$Worker.run(624)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:42: InmHelpMgr.getHelpIDRes(131): java.lang.Thread.run(748)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_set_board_color
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): java.util.ResourceBundle.getObject(450)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): java.util.ResourceBundle.getString(407)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.swimap.iview.util.helpmanagement.HelpManager.getHelpID(868)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.imap12.utility.help.InmHelpMgr.getHelpIDRes(121)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.imap12.utility.help.InmHelpMgr.helpComponent(76)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.localnm.UMLocalNMPnl.jbInit(193)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.localnm.UMLocalNMPnl.<init>(181)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.localnm.UMLocalNMPropDetailPnl.addValueChangeEvent(215)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.swimap.imap.topo.facade.TopoPropertyPanelAdapter.<init>(56)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.swimap.imap.topo.customize.EmfTopoCustomizeManager.registerPropertyDetailPanel(1098)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.swimap.imap.topo.control.EmfTopoManager.registerPropertyDetailPanel(5282)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.localnm.UMLocalNMInitMgr.registerPropertyDetailPanel(303)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.localnm.UMLocalNMInitMgr.registerLocalNMToTopo(121)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): com.huawei.u2000.unitedmgr.UMUnitedMgrModule$3.run(840)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): java.util.concurrent.ThreadPoolExecutor.runWorker(1149)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): java.util.concurrent.ThreadPoolExecutor$Worker.run(624)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+SEVERE: 2026-6-19 13:37:45: InmHelpMgr.getHelpIDRes(131): java.lang.Thread.run(748)Can't find resource for bundle java.util.PropertyResourceBundle, key help_function_file_r_wguan
+
+{ -- SEQUENCE -- AsnLoadNMAttribRsp
+  result = { -- SEQUENCE -- AsnSingleReturn
+    isSuccess = true,
+,
+
+  },
+  nmList = { -- SEQUENCE OF -- AsnLoadNMAttribRspSeqOf
+    { -- SEQUENCE -- AsnNMAttrib
+      nmID = 1,
+      strName = 4F5353,
+      ipAddress = 2130706433,
+      isLocalNM = true,
+      strMemo = 
+    }
+  }
+}WARNING: 2026-6-19 13:38:09: TNModuleManager.getSDHCircuitInterface(190): Warning: Get sdhCircuit interactor failed!
+WARNING: 2026-6-19 13:38:09: TNModuleManager.getEthCircuitInterface(267): Warning: Get ethCircuit interactor failed!
+WARNING: 2026-6-19 13:38:09: TNModuleManager.getWDMCircuitInterface(291): Warning: Get wdmCircuit interactor failed!
+WARNING: 2026-6-19 13:38:10: TNModuleManager.getSDHCircuitInterface(190): Warning: Get sdhCircuit interactor failed!
+WARNING: 2026-6-19 13:38:10: TNModuleManager.getWDMCircuitInterface(291): Warning: Get wdmCircuit interactor failed!
+WARNING: 2026-6-19 13:38:10: TNModuleManager.getEthCircuitInterface(267): Warning: Get ethCircuit interactor failed!
+SEVERE: 2026-6-19 13:38:19: InmProfileFactory._getResourceURLByType(1285): Failed getResource URL from jar file. common/u2000/unitedmgr/profile/customizeboardcolor.ini
+SEVERE: 2026-6-19 13:38:19: InmProfileFactory.getFileDescObjectFromUser(384): Failed getFileDescObjectFromUser(). filename= common\u2000\unitedmgr\profile\customizeboardcolor.ini
+WARNING: 2026-6-19 13:49:44: TNModuleManager.getSDHCircuitInterface(190): Warning: Get sdhCircuit interactor failed!
+WARNING: 2026-6-19 13:49:44: TNModuleManager.getWDMCircuitInterface(291): Warning: Get wdmCircuit interactor failed!
+WARNING: 2026-6-19 13:49:44: TNModuleManager.getEthCircuitInterface(267): Warning: Get ethCircuit interactor failed!
+WARNING: 2026-6-19 13:49:45: InmMenuBar.removeMainMenu(614): MenuItem or JMenu with ID fiber_createfiber does not found.
+WARNING: 2026-6-19 13:49:45: InmMenuBar.removeMainMenu(614): MenuItem or JMenu with ID fiber_fibermgr does not found.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" []>
+
+<COMMINIDATA>
+	<AREADESC>		
+      <DESC descname="init">
+        <PARAS>
+          <PARA name="resetUnlockTimer" value="10000"></PARA>
+		</PARAS>
+	  </DESC>
+	</AREADESC>
+</COMMINIDATA>

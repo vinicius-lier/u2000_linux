@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="MainPortName" name="Master Port" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="AggrMode" name="Aggregation Mode" isVisiable="true" isEditable="true" width="125" isNameModified="false" />
+  <column id="WorkMode" name="Work Mode" isVisiable="true" isEditable="true" width="87" isNameModified="false" />
+</table>
+

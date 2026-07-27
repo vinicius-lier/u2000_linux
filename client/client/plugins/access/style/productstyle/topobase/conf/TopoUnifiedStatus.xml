@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="DisplayStyleConfig">
+		<DESC descname="Default">
+			<PARAS>
+				<PARA name="ViewID" value="-1"/>
+				<PARA name="ViewTypeID" value="-1"/>
+			</PARAS>
+			<DESC descname="NodeIconColor">
+				<DESC descname="2111">
+					<PARAS>
+						<PARA name="StatusNames" value="RemoteFrameStatus"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="NodeSmallIcon">
+				<!--分配规则为1～999 为平台；1000～1499 为M2000 1500～1999为CMC,2000~2499 为U2000 -->
+				<DESC descname="2020">  
+					<PARAS>
+						<PARA name="StatusNames" value="DevLoginStatus"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+	<AREADESC areaname="ExtendStatusDefine">
+		<!--从框的状态:自动发现-->
+		<DESC descname="StatusDefine">
+			<PARAS>
+				<PARA name="ViewID" value="-1"/>
+				<PARA name="ViewTypeID" value="-1"/>
+				<PARA name="Name" value="RemoteFrameStatus"/>
+				<PARA name="Class" value="NodeExtendStatus"/>
+				<PARA name="Mask" value="0x100000"/>
+				<PARA name="Position" value="1"/>
+				<PARA name="DislayStyle" value="NodeIconColor"/>
+				<PARA name="operation" value="add"/>
+			</PARAS>
+			<DESC descname="UniStatus_Enum">
+				<PARAS>
+					<PARA name="Name" value="RemoteFrameAutoFind"/>
+					<PARA name="Value" value="1"/>
+					<PARA name="Color" value="134,188,218"/>
+					<PARA name="Level" value="1"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="StatusDefine">
+			<PARAS>
+				<PARA name="ViewID" value="-1"/>
+				<PARA name="ViewTypeID" value="-1"/>
+				<PARA name="Name" value="DevLoginStatus"/>
+				<PARA name="Class" value="NodeExtendStatus"/>
+				<PARA name="Mask" value="0x7000000"/>
+				<PARA name="Position" value="1"/>
+				<PARA name="DislayStyle" value="NodeSmallIcon"/>
+				<PARA name="operation" value="add"/>
+			</PARAS>
+			<DESC descname="UniStatus_Enum">
+				<PARAS>
+					<PARA name="Value" value="4"/>
+					<PARA name="Icon" value="secstatus/DevLoginStatus_Serial.gif"/>
+					<PARA name="Level" value="1"/>
+				</PARAS>
+			</DESC>	
+			<DESC descname="UniStatus_Enum">
+				<PARAS>
+					<PARA name="Value" value="5"/>
+					<PARA name="Icon" value="secstatus/DevLoginStatus_Telnet.gif"/>
+					<PARA name="Level" value="1"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="UniStatus_Enum">
+				<PARAS>
+					<PARA name="Value" value="6"/>
+					<PARA name="Icon" value="secstatus/DevLoginStatus_SSH.gif"/>
+					<PARA name="Level" value="1"/>
+				</PARAS>
+			</DESC>		
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

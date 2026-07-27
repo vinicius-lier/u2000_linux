@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wizard>
+    <Page>com.swimap.cmf.cau.application.gui.page.SelectProductPage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.DeleteFilePage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.UninstallExitPage</Page>
+</Wizard>
+

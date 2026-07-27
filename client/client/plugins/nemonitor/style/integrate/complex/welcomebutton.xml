@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+	    <DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+		<!-- default not config start
+        <DESC descname="welcomebuttonsetting">
+         <DESC descname="NEMonitorWelComeButton">
+            <PARAS>
+            <PARA name="name" value="NEMonitor"></PARA>
+            <PARA name="description" value="NEMonitor"></PARA>
+            <PARA name="icon" value="image/nemonitor.png"></PARA>
+            <PARA name="category" value="WelcomeButtonSystem"></PARA>
+            <PARA name="command" value="showNemonitorFrame"></PARA>
+            <PARA name="serialnumber" value="71"></PARA>
+            <PARA name="linkseqnumber" value="50"></PARA>
+            </PARAS>
+        </DESC>
+     </DESC>
+     <DESC descname="categorysetting">
+	    <DESC descname="WelcomeButtonFile">
+				<PARAS>
+	    		<PARA name="linkseqnumber" value="600"></PARA>
+        </PARAS>
+    	</DESC>  	
+		</DESC>
+		default not config end -->
+    </AREADESC>
+</COMMINIDATA>

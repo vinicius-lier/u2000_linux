@@ -1,0 +1,6 @@
+NBI=北向接口
+nbi_tmf615_security=TMF615北向接口组件
+nbi_tmf615_security.InstallInfo=包括TMF615北向接口组件。
+nbi_tmf615_security.UninstallInfo=包括TMF615北向接口组件。
+nbi_tmf615_security_server= TMF615北向接口代理组件
+NorthBoundInterface=北向接口

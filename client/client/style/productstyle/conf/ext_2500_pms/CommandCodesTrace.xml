@@ -1,0 +1,1700 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "Commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="CommandInfo">
+            <DESC descname="61">
+                <PARAS>
+                    <PARA name="description" value="[RTP_DATA_NOTIFICATION]RTP data notification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="121">
+                <PARAS>
+                    <PARA name="description" value="[STOP_RTP_SESSION_FOR_NE_REMOVAL]Stop RTP session for NE removal"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="122">
+                <PARAS>
+                    <PARA name="description" value="[STOP_RTP_SESSION_FOR_NE_DELETION]Stop RTP session for NE deletion"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="191">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVICE_INFO]Get device information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="238">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_SET_CUST_PERIOD]Set RMON custom period"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="240">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_GRAN_CREATE_INSTANCE]Get granularity list for monitor instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="241">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_GRAN_DATA_QUERY]Get granularity list for data query"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="10865">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_INDICATORINFOLST_BY_RES]Get indicator information list by resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="29987">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_GET_INSTANCE_LIST_BY_GROUP_ID]Get instance list by group Id"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32257">
+                <PARAS>
+                    <PARA name="description" value="[SERVER_UP_NOTIFICATION]Server startup notification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32258">
+                <PARAS>
+                    <PARA name="description" value="[SCHEDULE_POLICY_CREATE]Create a schedule policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32259">
+                <PARAS>
+                    <PARA name="description" value="[SCHEDULE_POLICY_MODIFY]Modify a schedule policy "/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32260">
+                <PARAS>
+                    <PARA name="description" value="[SCHEDULE_POLICY_DEL]Delete a schedule policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32261">
+                <PARAS>
+                    <PARA name="description" value="[SCHEDULE_POLICY_INFO]Get the information of a schedule policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32272">
+                <PARAS>
+                    <PARA name="description" value="[GET_RES_ID_BY_MAIN_TYPE_SUB_TYPE_ID]Get resource ID by main type and sub type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32273">
+                <PARAS>
+                    <PARA name="description" value="[GET_RES_INO_BY_RES_TYPE_ID]Get resource information by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32274">
+                <PARAS>
+                    <PARA name="description" value="[GET_RES_TYPE_TREE]Get resource type tree"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32275">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDIRGROUPLIST_BY_RESTYPE]Get indicator group list by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32277">
+                <PARAS>
+                    <PARA name="description" value="[GET_EXT_RES_INFO_BY_RES_TYPE_ID]Get ext resource information by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32278">
+                <PARAS>
+                    <PARA name="description" value="[GET_INSTANCE_RESOUCELIST_ID]Get instance resource list"/>
+                    <PARA name="moduleID" value="Template Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32288">
+                <PARAS>
+                    <PARA name="description" value="[GET_DATA_MONITORING_TEMPLATE_LIST]Get data monitoring template list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32289">
+                <PARAS>
+                    <PARA name="description" value="[GET_TCA_MONITORING_TEMPLATE_LIST]Get TCA monitoring template list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32290">
+                <PARAS>
+                    <PARA name="description" value="[CREATE_DATA_MONITORING_TEMPLATE]Create a data monitoring template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32291">
+                <PARAS>
+                    <PARA name="description" value="[CREATE_TCA_MONITORING_TEMPLATE]Create a TCA monitoring template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32292">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_DATA_MONITORING_TEMPLATE]Modify a data monitoring template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32293">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_TCA_MONITORING_TEMPLATE]Modify TCA monitoring template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32294">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_DATA_MONITORING_TEMPLATE]Delete data monitoring template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32295">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_TCA_MONITORING_TEMPLATE]Delete TCA monitoring template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32296">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_DATA_MONITORING_TEMPLATE]Query data monitoring templates"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32297">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_TCA_MONITORING_TEMPLATE]Query TCA monitoring templates"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32304">
+                <PARAS>
+                    <PARA name="description" value="[CREATE_MONITORING_INSTANCE]Create monitoring instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32305">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_MONITORING_INSTANCE]Modify monitoring instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32306">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_MONITORING_INSTANCE]Delete monitoring instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32307">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_MONITORING_INSTANCE]Query monitoring instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32310">
+                <PARAS>
+                    <PARA name="description" value="[ENABLE_MONITORING_INSTANCE]Enable monitoring instance"/>
+                    <PARA name="moduleID" value="Template Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32311">
+                <PARAS>
+                    <PARA name="description" value="[DISABLE_MONITORING_INSTANCE]Suspend monitoring instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32314">
+                <PARAS>
+                    <PARA name="description" value="[GET_RESOURCE_LIST_FOR_DATA_QUERY]Get resource list for data query"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32325">
+                <PARAS>
+                    <PARA name="description" value="[TEST_MONITORING_INSTANCE]Test a monitoring instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32327">
+                <PARAS>
+                    <PARA name="description" value="[CMD_CREATE_SLA_PARAM_POLICY]Create SLA parameter policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32328">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_DEFAULT_SLA_PARAM]Get default SLA parameter"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32329">
+                <PARAS>
+                    <PARA name="description" value="[CMD_LOAD_SLA_PARAM_POLICY]Load SLA parameter policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32330">
+                <PARAS>
+                    <PARA name="description" value="[GET_SYNC_ANALYSIS]Get synchronization analysis"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32331">
+                <PARAS>
+                    <PARA name="description" value="[SYNCHRONIZE_RESOURCE]Synchronize resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32334">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_MEMBER_INSTANCE]Query member instances"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32335">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_VPN_MEMBER_SLA_INFO]Modify SLA information of member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32336">
+                <PARAS>
+                    <PARA name="description" value="[CMD_DELETE_SLA_PARAM_POLICY]Delete SLA policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32337">
+                <PARAS>
+                    <PARA name="description" value="[CMD_QUERY_PLUGIN_MENU]Query plugin menu"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32338">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_SLA_TEMPLATE_INFO]Get SLA template information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32339">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_SLA_PARAM]Get SLA parameter"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32340">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_LINK_RESOURCE]Delete a link resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32342">
+                <PARAS>
+                    <PARA name="description" value="[GET_COLUMN_INFO_BY_PMS_RES_TYPE_ID]Get column information by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32354">
+                <PARAS>
+                    <PARA name="description" value="[UPDATE_LINK_RESOURCE]Update a link resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32355">
+                <PARAS>
+                    <PARA name="description" value="[GET_LINK_RESOURCE_DETAIL]Get link resource details"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32356">
+                <PARAS>
+                    <PARA name="description" value="[GET_INSTANCE_INFO_BY_ROW_ID]Get instance information by row ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32359">
+                <PARAS>
+                    <PARA name="description" value="[ENABLE_VPN_MEMBER_INSTANCE]Resume member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32360">
+                <PARAS>
+                    <PARA name="description" value="[DISABLE_VPN_MEMBER_INSTANCE]Suspend member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32361">
+                <PARAS>
+                    <PARA name="description" value="[GET_USING_INSTANCE_ID]Get instance information by instance ID and resource type id"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32392">
+                <PARAS>
+                    <PARA name="description" value="[IS_MONITORING_TEMPALTE_OPTIONAL]Check whether the template is optional"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32393">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVICE_LIST_BY_RES_TYPE_ID]Get device list by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32394">
+                <PARAS>
+                    <PARA name="description" value="[GET_SELECTED_TEST_PATH_TYPE_LIST]Get selected test path type list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32400">
+                <PARAS>
+                    <PARA name="description" value="[GET_RESOURCE_LIST_BY_DEV_ID]Get resource list by device ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32401">
+                <PARAS>
+                    <PARA name="description" value="[GET_UNSUPPORTED_indicator_LIST]Get unsupported indicator list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32402">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDI_THRESHOLDINFO_DQ_EXCEPDATA]Get indicator threshold information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32528">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_DQ_MNGMNT_LINK_GET_RES_LIST_BY_RES_TYPE_ID]Get the resource list by resource type ID in sliding view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32529">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_RES_LIST_BY_RES_ID]Get resource IDs in a resource list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32530">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_DEV_LIST_BY_RES_TYPE_ID]Get device list by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32531">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_RES_LIST_BY_DEV_ID]Get the resource list by device ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32532">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_CREATE_TEMPLATE]Create a data query template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32533">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_MODIFY_TEMPLATE]Modify a data query template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32534">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_DELETE_TEMPLATE]Delete a data query template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32535">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_LIST_OF_TEMPLATE_BY_RESTYPE]Get the data query template list by resource type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32536">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_TMPL_INFO_BY_ID]Get the data query template information by ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32537">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_QUERY_DATA]Get query result"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32538">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_VPN_MEM_RES]Get member instances of VPN"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32540">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_FAILURE_REASON_BY_RES_LIST]Get failure reason by resource list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32542">
+                <PARAS>
+                    <PARA name="description" value="[CMD_MODIFY_TEMPLATE_OPERATION_COMPLETED]Completed listener for modify template operation"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32544">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_DQ_MNGMNT_VPN_GET_RES_LIST_BY_RES_TYPE_ID]Get the resource list by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32545">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_GET_INSTANCE_LIST_BY_RES_TYPE]Get the instance list by resource type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32546">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_GET_INSTANCE_LIST_BY_SCHEDULE_ID]Get the instance list by schedule ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32548">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_DELETE_INST_PROGRESS_LISTENER_ID]Delete instance from group listener"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32549">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVID_BY_IPADDRESS]Get device ID by IP address"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32550">
+                <PARAS>
+                    <PARA name="description" value="[HANDSHAKING_COMMAND]Handshake between the client and the server"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32553">
+                <PARAS>
+                    <PARA name="description" value="[GET_RES_TYPE_TREE_BY_SCENARIO]Get resource type tree by scenario"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32554">
+                <PARAS>
+                    <PARA name="description" value="[GET_FILTER_RES_TYPE_TREE]Get filtered resource type tree"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32555">
+                <PARAS>
+                    <PARA name="description" value="[GET_NE_INFO]Get NE information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32556">
+                <PARAS>
+                    <PARA name="description" value="[BULK_CHANGE_TEMPLATE]Bulk change template"/>
+                    <PARA name="moduleID" value="Template Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32594">
+                <PARAS>
+                    <PARA name="description" value="[GET_VPN_MEMBER_INSTANCE]Get member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32595">
+                <PARAS>
+                    <PARA name="description" value="[GET_MEMBER_COLUMN_NAME_INFO_RESP]Get column name information for member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32597">
+                <PARAS>
+                    <PARA name="description" value="[CHECK_INSTNACES_STATUS]Check instance status"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32598">
+                <PARAS>
+                    <PARA name="description" value="[GET_NE_NAME_BY_NE_ID]Get NE name by NE ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32599">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_VPN_MEMBER_INFO]Get member instance information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32600">
+                <PARAS>
+                    <PARA name="description" value="[LIFE_CYCLE_CONFIG_START_TASK]Configure life cycle"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32602">
+                <PARAS>
+                    <PARA name="description" value="[LIFE_CYCLE_CONFIG_GET_DEFAULT_CONF]Get the default life cycle configuration"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32603">
+                <PARAS>
+                    <PARA name="description" value="[LIFE_CYCLE_CONFIG_PROMPT_DUMP]Prompt a dump"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32604">
+                <PARAS>
+                    <PARA name="description" value="[LIFE_CYCLE_CONFIG_SET_DEFAULT_CONF]Set the default life cycle configuration"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32605">
+                <PARAS>
+                    <PARA name="description" value="[PROMPT_DUMP_GET_DEFAULT_CONF]Get default configuration"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32607">
+                <PARAS>
+                    <PARA name="description" value="[GET_VPN_MEMBER_INFO_LIST]Get VPN member information list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32612">
+                <PARAS>
+                    <PARA name="description" value="[IS_INSTANCE_EXISTS]Check whether the instance exists"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32613">
+                <PARAS>
+                    <PARA name="description" value="[IS_DEVICE_SUPPORTED_IN_PMS]Check whether the NE is supported in the PMS"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32674">
+                <PARAS>
+                    <PARA name="description" value="[DEV_CHANGE_NOTIFICATION]Device change notification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32675">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDICATORINFOLIST_FOR_RESID]Get indicator information list by resource ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32700">
+                <PARAS>
+                    <PARA name="description" value="[GET_LINK_DEVICE_LIST_BY_RES_TYPE_ID]Get link device list by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32701">
+                <PARAS>
+                    <PARA name="description" value="[GET_SUPPORTED_INDICATORS_CMD]Get supported indicators"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32702">
+                <PARAS>
+                    <PARA name="description" value="[GET_COLLECTOR_LIST]Get collector list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32704">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVICE_AND_CARD_DETAILS]Get device and card details"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32709">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_TOPN_DATA]Query top N data"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32712">
+                <PARAS>
+                    <PARA name="description" value="[GET_NE_TCA_CONFLICT_INFO]Get TCA conflict information from device"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32717">
+                <PARAS>
+                    <PARA name="description" value="[]Get interface description by resource information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32718">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVICE_DETAILS_FROM_RES_ID]Get device details by resource ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32719">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDICATORINFOLIST_FOR_RESTYPE]Get collected indicator information list by resource type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32720">
+                <PARAS>
+                    <PARA name="description" value="[GET_TCA_QUERY_INFO]Get TCA information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32721">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_GET_TCA_VIEW_DETAILS]Get alarm information for sliding view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32722">
+                <PARAS>
+                    <PARA name="description" value="[SAVE_TCA_QUERY_TEMPLATE]Save the TCA alarm query template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32723">
+                <PARAS>
+                    <PARA name="description" value="[QUERY_TCA_QUERY_TEMPLATE]Query TCA alarm query templates"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32724">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_TCA_QUERY_TEMPLATE]Delete TCA query template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32725">
+                <PARAS>
+                    <PARA name="description" value="[GET_TCA_TEMPLATE_DETAIL_BY_ID]Get TCA template detail by ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32727">
+                <PARAS>
+                    <PARA name="description" value="[GET_RES_INFO_BY_SUB_NAME]Get resource information by subnet name"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32728">
+                <PARAS>
+                    <PARA name="description" value="[GET_EXTERNAL_ATTR_LIST]Get external attribute list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32729">
+                <PARAS>
+                    <PARA name="description" value="[GET_LOGIC_ID_LIST_BY_RES_ID]Get logic ID list by resource ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32751">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_CUST_PERIOD]Get the RMON custom period"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32754">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_GRAN_FOR_TEMPLATE]Get the granularity list of templates"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32755">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_GRAN_FOR_INDI_GRP]Get the granularity list for indicator group"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32799">
+                <PARAS>
+                    <PARA name="description" value="[GET_SLA_TEST_PATH_INFO]Get SLA test path information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32800">
+                <PARAS>
+                    <PARA name="description" value="[GET_SUPPORTED_PERIOD_RESID]Get supported period by resource ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32801">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_GROUP_TEST_MATRIX_INDI_LST]Get group test matrix indicator list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="32802">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_GROUP_TEST_MATRIX_GRAN_LST]Get group test matrix granularity list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33001">
+                <PARAS>
+                    <PARA name="description" value="[GET_PERF_GRADE_DATA]Get performance grade data"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33002">
+                <PARAS>
+                    <PARA name="description" value="[GET_ALL_PERF_GRADE_STRATEGY]Get all grading strategy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33003">
+                <PARAS>
+                    <PARA name="description" value="[CREATE_GRADE_STRATEGY]Create grade strategy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33004">
+                <PARAS>
+                    <PARA name="description" value="[GET_KEY_INDICATORS]Get key indicators"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33006">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_GRADE_STRATEGY]Delete grade strategy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33007">
+                <PARAS>
+                    <PARA name="description" value="[UPDATE_GRADE_STRATEGY]Update the grading strategy of performance indicators"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33009">
+                <PARAS>
+                    <PARA name="description" value="[SLIDING_VIEW_GET_RES_LIST_BASED_ON_GRADE]Get resource details based on grade strategy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33011">
+                <PARAS>
+                    <PARA name="description" value="[PERF_GRADE_GET_RES_DETAILS]Get resources details for performance grade"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33013">
+                <PARAS>
+                    <PARA name="description" value="[PERF_GET_SV_COL_INFO_FOR_A_GRADE]Get the column information of sliding window for performance grade"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33014">
+                <PARAS>
+                    <PARA name="description" value="[PERF_GET_RES_TYPE_TREE]Get the resource type tree for performance grade"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33016">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_CREATE_GROUP_OR_FOLDER]Create a group or folder"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33017">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_RENAME_GROUP_OR_FOLDER]Rename a group or folder name"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33018">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_DELETE_GROUP_OR_FOLDER]Delete a group or folder"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33019">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_GET_GROUP_TREE]Get the group tree"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33020">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_ADD_INSTANCE_TO_GROUP]Add instances to the group"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33021">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_REMOVE_INSTANCE_FROM_GROUP]Remove instances from the group"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33022">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMNT_GET_RESOURCE_INFO_BY_GROUP]Get performance instances in the group"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33023">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_ISAUTOTMPL_EXIST]Check auto template exist"/>
+                    <PARA name="moduleID" value="Template Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33025">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_NOT_SUPPORT_QUERY_INDICATOR]Get all not supported indicator"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33027">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMT_GET_PERFORMANCE_DATA_MAX]Get max data for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33028">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMT_GET_PERFORMANCE_DATA_MIN]Get min data for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33029">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_IFINFO_BY_DEV_ID]Get interface information by device ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33030">
+                <PARAS>
+                    <PARA name="description" value="[GROUP_MGMT_GET_RESOURCE_DETAILS]Get resource details for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33111">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDICATORINFOLIST_BY_RESOURCEINFO]Get indicator information list by resource information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33113">
+                <PARAS>
+                    <PARA name="description" value="[GET_GRANULARITY_LIST_BY_RESOURCE]Get granularity list by resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33115">
+                <PARAS>
+                    <PARA name="description" value="[GET_PARENT_RESTYPEID_BY_MEMBER_INSTANCEID]Get parent resource type ID by member instance ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33120">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_GET_GRAN_RESTYPE_FILTER]Get the granularity list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33121">
+                <PARAS>
+                    <PARA name="description" value="[PQM_TEST_MATRIX_INSTANCE_WINDOW_DEVICES]Get device instance for text matrix"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33123">
+                <PARAS>
+                    <PARA name="description" value="[PQM_TEST_MATRIX_GROUP_WINDOW_DEVICES]Get device information for text matrix"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33124">
+                <PARAS>
+                    <PARA name="description" value="[PQM_TEST_MATRIX_INSTANCE_WINDOW_DATA]Get device data for text matrix"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33126">
+                <PARAS>
+                    <PARA name="description" value="[PQM_TEST_MATRIX_GROUP_WINDOW_DATA]Get resource information by resource Type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33127">
+                <PARAS>
+                    <PARA name="description" value="[GET_TREND_RES_INDI_CONFIG]Get trend resource indicator configuration"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33128">
+                <PARAS>
+                    <PARA name="description" value="[QUERY_TREND_DATA]Get trend data"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33129">
+                <PARAS>
+                    <PARA name="description" value="[TREND_MNGMNT_GET_LIST_OF_TEMPLATES]Get all trend data query templates"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33131">
+                <PARAS>
+                    <PARA name="description" value="[GET_INSTANCE_TREND_RESOUCELIST_ID]Get trend resource list of instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33132">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDICATORINFO_BY_RESTYPEID_DEVSERIES]Get indicator information by resource type ID and device series"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33133">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_REGISTER_CLIENT]Register PMS client"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33135">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_BULK_INSTANCE_SCHED_POLICY]Bulk modify schedule policy"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33208">
+                <PARAS>
+                    <PARA name="description" value="[CMD_VIEW_NE_CURRENT_DATA]View NE current data"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33210">
+                <PARAS>
+                    <PARA name="description" value="[CMD_DATA_QUERY_MNGMNT_GET_RES_ID_LIST_BY_LOGIC_ID]Get resource ID information list by logic ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33211">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_PROFILE_SETTING]Get profile setting"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33212">
+                <PARAS>
+                    <PARA name="description" value="[CMD_SET_PROFILE_SETTING]Set profile setting"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33213">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_GROUP_INFO_BY_INSTANCE_ID]Get group information by instance ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33214">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GROUP_MGMNT_SEND_NOTIFICATION]Group view change notification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33215">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GROUP_MGMT_GET_PERFORMANCE_DATA_SUM]Query the sum of performance data for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33216">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GROUP_MGMT_GET_PERFORMANCE_DATA_AVERAGE]Query average performance data for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33217">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_UNREGISTER_CLIENT_NEW]Unregister PMS client"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33218">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_CLIENT_HANDSHAKE_NEW]Client handshake"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="33220">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_TOPN_GRAN_LIST_BY_INDI_GRP_LST_NEW]Get top N granularity information by indicator group information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="34400">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_TOPO_INSTANCE_STATISTICS]Get TOPO instance statistics"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35001">
+                <PARAS>
+                    <PARA name="description" value="[SET_KPI_INDICATORS]Set KPI indicators"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35006">
+                <PARAS>
+                    <PARA name="description" value="[QUERY_TOPO_VIEW_MONITOR_RESOURCE_INSTANCE]Query monitor instance for TOPO resource view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35009">
+                <PARAS>
+                    <PARA name="description" value="[JUMPTO_TELNET]Jump to telnet"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35010">
+                <PARAS>
+                    <PARA name="description" value="[TOPO_MGMNT_GET_DEFAULT_TMPL_BY_RESTYPEID]Get default template by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35011">
+                <PARAS>
+                    <PARA name="description" value="[TOPO_MGMNT_DELETE_SUBNET_INFO]Delete the subnet template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35013">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_MONITORING_INSTANCE_LIST_TO_MODIFY]Get monitoring instance list to modify"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35014">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_INSTANCE_LIST_REMARKS]Modify the remarks of instances"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35015">
+                <PARAS>
+                    <PARA name="description" value="[NON_MONITOR_GET_COLUMN_INFO]Get unmonitored column information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35016">
+                <PARAS>
+                    <PARA name="description" value="[TOPO_VIEW_GET_UNMONITOR_RESOURCE]Get unmonitored resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35017">
+                <PARAS>
+                    <PARA name="description" value="[QUICK_CREATE_MONITOR_INSTANCE]Quick create monitor instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35018">
+                <PARAS>
+                    <PARA name="description" value="[QUICK_CREATE_NOTIFICATION]Quick create instance notification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35019">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEFAULT_TEMPLATE_BY_SUBNETID]Get default template information by subnet ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35020">
+                <PARAS>
+                    <PARA name="description" value="[QUICK_MODIFY_TCA_GET_TEMPLATE_DETAILS]Get template details for TCA instance quick modification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35021">
+                <PARAS>
+                    <PARA name="description" value="[QUICK_MODIFY_TCA_UPDATE_VALUE]Update value for TCA instance quick modification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35022">
+                <PARAS>
+                    <PARA name="description" value="[GET_LOGICAL_RESOURCE_BY_RESTYPE]Get logical resource by resource type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35023">
+                <PARAS>
+                    <PARA name="description" value="[CREATE_LOGICAL_AGG_RESOURCE]Create logical aggregation resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35024">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_LOGICAL_AGG_RESOURCE]Delete logical aggregation resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35025">
+                <PARAS>
+                    <PARA name="description" value="[SUSPEND_LOGICAL_AGG_RESOURCE]Suspend logical aggregation resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35026">
+                <PARAS>
+                    <PARA name="description" value="[RESUME_LOGICAL_AGG_RESOURCE]Resume logical aggregation resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35027">
+                <PARAS>
+                    <PARA name="description" value="[VIEW_LOGICAL_AGG_RESOURCE]View logical aggregation"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35028">
+                <PARAS>
+                    <PARA name="description" value="[ADD_MEMBER_LOGICAL_AGG_RESOURCE]Add member to aggregation resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35029">
+                <PARAS>
+                    <PARA name="description" value="[REMOVE_MEMBER_LOGICAL_AGG_RESOURCE]Remove member from aggregation resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35031">
+                <PARAS>
+                    <PARA name="description" value="[GET_TDT_PLUGIN_INFO_LIST]Get TDT plugin information list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35033">
+                <PARAS>
+                    <PARA name="description" value="[GET_SAVE_RESOURCEINSTANCE_INFO]Get saved resource and instance information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35034">
+                <PARAS>
+                    <PARA name="description" value="[GET_GROUPMGMT_SAVE_RESOURCEINSTANCE_INFO]Save resource and instance information for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35035">
+                <PARAS>
+                    <PARA name="description" value="[SET_CUST_COL]Set custom column in slip view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35036">
+                <PARAS>
+                    <PARA name="description" value="[GET_TOPOVIEW_GET_DEFAULT_RESTYPE_BYUSERID]Get default resource type by user ID for TOPO view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35037">
+                <PARAS>
+                    <PARA name="description" value="[GET_TOPOVIEW_SET_DEFAULT_RESTYPE_BYUSERID]Set default resource type by user ID for TOPO view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35038">
+                <PARAS>
+                    <PARA name="description" value="[TOPO_MGMNT_SET_DEFAULT_TMPL_BY_RESTYPEID]Set default template by resource type ID for TOPO view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35039">
+                <PARAS>
+                    <PARA name="description" value="[GET_TOPOVIEW_USER_AND_PMS_SUPPORTED_NE]Get user and PMS supported NE for TOPO view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35040">
+                <PARAS>
+                    <PARA name="description" value="[GET_KPI_COLOR_SETTING]Get KPI color setting"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35041">
+                <PARAS>
+                    <PARA name="description" value="[SET_KPI_COLOR_SETTING]Set KPI color setting"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35042">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_SUPPORTED_KPI_BY_RESTYPE]Get supported KPI by resource type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35043">
+                <PARAS>
+                    <PARA name="description" value="[CMD_IS_ONLY_IPDOMAIN_SUPPORTED]Checking whether the U2000 installation is only for IP domain"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35044">
+                <PARAS>
+                    <PARA name="description" value="[GET_AGG_INDICATORS_BY_RESTYPE]Get aggregation indicators by resource type"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35045">
+                <PARAS>
+                    <PARA name="description" value="[SV_RESOURCE_CHANGE_BROADCAST_NOTIFY]Slip view resource change broadcast notification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35051">
+                <PARAS>
+                    <PARA name="description" value="[CMD_RES_SPECIFIC_SLA_PARAM_MODIFY]Modify the resource specific SLA parameter"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35055">
+                <PARAS>
+                    <PARA name="description" value="[CMD_IS_NPMS_DEPLYED]Check whether the NPMS is deployed"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35056">
+                <PARAS>
+                    <PARA name="description" value="[CMD_EXPORT_ALL_INSTANCES]Export all instances to NPMS"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35057">
+                <PARAS>
+                    <PARA name="description" value="[CMD_EXPORT_SELECTED_INSTANCES]Export selected instances to NPMS"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35058">
+                <PARAS>
+                    <PARA name="description" value="[CMD_EXPORT_ALL_STATUS]Get the status of export all operation"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35059">
+                <PARAS>
+                    <PARA name="description" value="[CMD_STOP_OPERATION_STATUS]Get the status of stop operation"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35061">
+                <PARAS>
+                    <PARA name="description" value="[CMD_SYNCHRONIZE_INSTANCES]Synchronize instances to NPMS"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35064">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_SLA_PARAM_VIEW]Get SLA parameters for instance view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35065">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_SLA_PARAM_MEMBER_VIEW]Get SLA parameters for member instance view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35665">
+                <PARAS>
+                    <PARA name="description" value="[JUMPTO_RESOURCEDETAILS]Jump to the resource detail window"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35667">
+                <PARAS>
+                    <PARA name="description" value="[JUMP_MESSAGE_ID_TO_RTP]Jump to the RTP monitoring window"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35670">
+                <PARAS>
+                    <PARA name="description" value="[JUMP_MESSAGE_ID_TO_CHECK_DEV_VERSION_SUPPORTED_REQ]Jump to check device version interface request"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="35671">
+                <PARAS>
+                    <PARA name="description" value="[JUMP_MESSAGE_ID_TO_CHECK_DEV_VERSION_SUPPORTED_RSP]Jump to check device version interface response"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="39359">
+                <PARAS>
+                    <PARA name="description" value="[ENABLE_VPN_MEMBER_TREND_MONITORING]Resume trend monitor for VPN member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="39360">
+                <PARAS>
+                    <PARA name="description" value="[DISABLE_VPN_MEMBER_TREND_MONITORING]Suspend trend monitor for VPN member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="39361">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVICE_INFO_LIST]Get device information list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="39900">
+                <PARAS>
+                    <PARA name="description" value="[ENABLE_TREND_MONITORING]Resume trend monitoring"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="39911">
+                <PARAS>
+                    <PARA name="description" value="[DISABLE_TREND_MONITORING]Suspend trend monitor"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54016">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_VIEW_DATA_MONITORING_TEMPLATE]Modify an NE-level template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54030">
+                <PARAS>
+                    <PARA name="description" value="[GET_FILTER_FOR_NE_TEMPLATE_BY_RES_TYPE_ID]Get filter condition for NE-level template by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54031">
+                <PARAS>
+                    <PARA name="description" value="[DELETE_NELEVEL_MEMBER_INSTANCE]Delete member instances of an NE-level instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54033">
+                <PARAS>
+                    <PARA name="description" value="[SET_OR_UNSET_DEFAULT_TMPL]Set or unset the default template"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54034">
+                <PARAS>
+                    <PARA name="description" value="[IS_DEF_TMPL_EXISTS_BY_RESTYPE_ID]Check whether the default template exists"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54035">
+                <PARAS>
+                    <PARA name="description" value="[REAPPLY_MEMBER_INSTANCE_CONFIG]Reapply NE-level member instance configurations"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54036">
+                <PARAS>
+                    <PARA name="description" value="[BULK_CHANGE_TEMPLATE_MEMBER_INSTANCE]Modify a member instance of an NE-level instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54037">
+                <PARAS>
+                    <PARA name="description" value="[QUICK_MODIFY_TCA_GET_TEMPLATE_DETAILS_MEMBER_INSTANCE]Get template details for TCA member instance quick modification"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54038">
+                <PARAS>
+                    <PARA name="description" value="[MODIFY_BULK_INSTANCE_SCHED_POLICY_MEMBER_INSTANCE]Modify the schedule policy for an NE-level member instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54040">
+                <PARAS>
+                    <PARA name="description" value="[CHECK_INSTNACES_STATUS_MEMBER_INSTANCE]Get the selected member instance status"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54042">
+                <PARAS>
+                    <PARA name="description" value="[GET_VALID_INTERFACE_LIST_FOR_TESTPATH]Get valid interface list for test path instance creation"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54043">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVICE_SERIES_MEMBER_RESTYPE_ID]Get member resource type ID for device series resource"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54044">
+                <PARAS>
+                    <PARA name="description" value="[SV_DEVICE_SERIES_MEMBER_INFO]Get information of member"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54045">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDIRGROUPLIST_BY_RESTYPE_LIST]Get indicator group list by resource type list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54047">
+                <PARAS>
+                    <PARA name="description" value="[GET_INDICATOR_GRP_RESTRICTION_BY_RESTYPE]Get indicator group restriction by resource type ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54048">
+                <PARAS>
+                    <PARA name="description" value="[GET_Y1731_ATTRIBUTE]Get y1731 attribute"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54052">
+                <PARAS>
+                    <PARA name="description" value="[]Unregister a sliding window"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54067">
+                <PARAS>
+                    <PARA name="description" value="[PMS_ADV_RESOURCE_SYNCHRONIZATION]Synchronize NE-level or composite instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54068">
+                <PARAS>
+                    <PARA name="description" value="[PMS_ADV_RESOURCE_SYNCH_CANCEL]Cancel advance resource synchronization"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54071">
+                <PARAS>
+                    <PARA name="description" value="[ROLLBACK_NPMS]Rollback NPMS instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54075">
+                <PARAS>
+                    <PARA name="description" value="[PMS_DELETE_SYNCHRONIZE_TASK]Delete synchronized task"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54077">
+                <PARAS>
+                    <PARA name="description" value="[PMS_SYNCHRONIZE_TASK]Send synchronized task"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54081">
+                <PARAS>
+                    <PARA name="description" value="[]Stop RTP Collection"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54082">
+                <PARAS>
+                    <PARA name="description" value="[]Modify RTP Collection"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54083">
+                <PARAS>
+                    <PARA name="description" value="[]Suspend RTP Collection"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54084">
+                <PARAS>
+                    <PARA name="description" value="[]Resume RTP Collection"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54099">
+                <PARAS>
+                    <PARA name="description" value="[CONFIGURE_AUTOMONITOR_INSTANCE]Configure auto-monitor instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54103">
+                <PARAS>
+                    <PARA name="description" value="[GET_SUBMAP_INFO]Get submap information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54104">
+                <PARAS>
+                    <PARA name="description" value="[GET_HAAP_TRAFFIC_THRESHOLD_INDI_LIST]Get HAAP traffic threshold indicator list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54115">
+                <PARAS>
+                    <PARA name="description" value="[GET_PMS_SUPPORTED_FEATURES]Get PMS supported features"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54117">
+                <PARAS>
+                    <PARA name="description" value="[GET_TDT_RES_INFO]Get TDT resource information"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54122">
+                <PARAS>
+                    <PARA name="description" value="[GET_RES_TYPE_INFO_BY_RES_ID]Get resource type information by resource ID"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54125">
+                <PARAS>
+                    <PARA name="description" value="[GET_ATOMMETER_INTERFACE_BY_DEVLIST]Get atom-meter interface by device list"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54126">
+                <PARAS>
+                    <PARA name="description" value="[GET_DEVLIST_HAVING_ATOMMETER]Get device lists which having atom-meter"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54127">
+                <PARAS>
+                    <PARA name="description" value="[CMD_RECORD_OPER_LOG]Record the operation log"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54131">
+                <PARAS>
+                    <PARA name="description" value="[QUERY_STATISTIC_DATA_FOR_LICENSE]Get the license consumption statistics"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54132">
+                <PARAS>
+                    <PARA name="description" value="[QUERY_STATISTIC_DATA_FOR_EQUIVALENT_RECORD]Get the equivalent record statistics"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54133">
+                <PARAS>
+                    <PARA name="description" value="[CMD_GET_PMS_USER_CONFIG]Get the user configuration information of PMS"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54143">
+                <PARAS>
+                    <PARA name="description" value="[CMD_CONFIG_TWAMP_REQST]Config TWAMP"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54146">
+                <PARAS>
+                    <PARA name="description" value="[QUERY_AUTO_CREATE_RECORD]Query records of automatically created instance failed "/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54147">
+                <PARAS>
+                    <PARA name="description" value="[DATA_QUERY_MNGMNT_GET_BATCH_QUERY_DATA]Batch query history data for group view"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54148">
+                <PARAS>
+                    <PARA name="description" value="[CMD_LOCK_OPERATION]Lock operation for uTraffic instances"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="55555">
+                <PARAS>
+                    <PARA name="description" value="[SERVICE_QUICK_MONITORING]Quick create monitor instance"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="65599">
+                <PARAS>
+                    <PARA name="description" value="[SUSPEND_RTP_COLLECTION]Suspend RTP collection"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="65600">
+                <PARAS>
+                    <PARA name="description" value="[RESUME_RTP_COLLECTION]Resume RTP collection"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="11535897">
+                <PARAS>
+                    <PARA name="description" value="[QCmd_HandShake]Handshake request from the client to collectors"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="11537102">
+                <PARAS>
+                    <PARA name="description" value="[QCMD_EnableRTP_LMDM]Enable LMDM for RTP"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="11537595">
+                <PARAS>
+                    <PARA name="description" value="[QCMD_GetPortResource]Get port resource inventory info"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="11537596">
+                <PARAS>
+                    <PARA name="description" value="[QCMD_GET_DEVICE_TYPE_INFO]Get device type and name info"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="11537870">
+                <PARAS>
+                    <PARA name="description" value="[QCMD_NE_SYNC_STATE]Get Ne synchronization info by Ne List"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="11545249">
+                <PARAS>
+                    <PARA name="description" value="[CMD_PMS_TESTPATH_GET_DEFAULT_SLA_PARAM]Get SLA parameters for testpath"/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="54152">
+                <PARAS>
+                    <PARA name="description" value="[CMD_QUERY_TOPN_INSTANCE]Query Top N instances "/>
+                    <PARA name="moduleID" value="Performance Management"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

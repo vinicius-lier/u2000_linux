@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startsIviewLicense">
+			<PARAS>
+				<PARA name="isStartsIviewLicense" value="false"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="showTrial">
+			<PARAS>
+				<PARA name="isShowTrial" value="false"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="standalone">
+			<PARAS>
+				<PARA name="isStandalone" value="true"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="defaultTimeOut">
+			<PARAS>
+				<PARA name="isDefaultTimeOut" value="300000"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="neStateCount">
+			<PARAS>
+				<PARA name="isNeStateCount" value="6"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

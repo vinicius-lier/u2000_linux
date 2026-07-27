@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DESC> 
+   <PARAS>
+       <!--不支持抑制网元告警的网元类型ID值-->
+        <PARA name="notSupportSuppress">
+              <VALUE value="1976"/>
+        </PARA>
+    </PARAS>
+</DESC>

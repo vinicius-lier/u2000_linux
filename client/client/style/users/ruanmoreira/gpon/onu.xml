@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="GPON_ONT">
+			<PARAS>
+			</PARAS>
+		<DESC descname="DispAuthMethod">
+			<PARAS>
+				<PARA name="value" value="1"></PARA>
+				<PARA name="desc" value="Sn(1)"></PARA>
+				<PARA name="displayName" value="SN"></PARA>
+				<PARA name="classType" value="com.huawei.uflight.data.value.impl.EnumItem"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="PwRdtProfName">
+			<PARAS>
+				<PARA name="value" value="null"></PARA>
+				<PARA name="classType" value="com.huawei.n2000bms.util.memory.NullCoder"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="OntOpticAlarmProfileName">
+			<PARAS>
+				<PARA name="value" value="null"></PARA>
+				<PARA name="classType" value="com.huawei.n2000bms.util.memory.NullCoder"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Tr069ServerProfName">
+			<PARAS>
+				<PARA name="value" value="null"></PARA>
+				<PARA name="classType" value="com.huawei.n2000bms.util.memory.NullCoder"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="LineProfileName">
+			<PARAS>
+				<PARA name="classType" value="com.huawei.uflight.data.value.impl.DataObject"></PARA>
+			</PARAS>
+		<DESC descname="entry">
+			<PARAS>
+			</PARAS>
+		<DESC descname="key">
+			<PARAS>
+				<PARA name="value" value="LineProfileName"></PARA>
+				<PARA name="classType" value="java.lang.String"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="value">
+			<PARAS>
+				<PARA name="value" value="BRIDGE STAVIX"></PARA>
+				<PARA name="classType" value="java.lang.String"></PARA>
+			</PARAS>
+		</DESC>
+		</DESC>
+		</DESC>
+		<DESC descname="SrvProfileName">
+			<PARAS>
+				<PARA name="classType" value="com.huawei.uflight.data.value.impl.DataObject"></PARA>
+			</PARAS>
+		<DESC descname="entry">
+			<PARAS>
+			</PARAS>
+		<DESC descname="key">
+			<PARAS>
+				<PARA name="value" value="SrvProfileName"></PARA>
+				<PARA name="classType" value="java.lang.String"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="value">
+			<PARAS>
+				<PARA name="value" value="BRIDGE STAVIX"></PARA>
+				<PARA name="classType" value="java.lang.String"></PARA>
+			</PARAS>
+		</DESC>
+		</DESC>
+		</DESC>
+		<DESC descname="SrvLevelProfileName">
+			<PARAS>
+				<PARA name="classType" value="com.huawei.uflight.data.value.impl.DataObject"></PARA>
+			</PARAS>
+		<DESC descname="entry">
+			<PARAS>
+			</PARAS>
+		<DESC descname="key">
+			<PARAS>
+				<PARA name="value" value="SrvLevelProfileName"></PARA>
+				<PARA name="classType" value="java.lang.String"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="value">
+			<PARAS>
+				<PARA name="value" value="alarm-policy_0"></PARA>
+				<PARA name="classType" value="java.lang.String"></PARA>
+			</PARAS>
+		</DESC>
+		</DESC>
+		</DESC>
+		<DESC descname="AlarmProfileName">
+			<PARAS>
+				<PARA name="value" value="null"></PARA>
+				<PARA name="classType" value="com.huawei.n2000bms.util.memory.NullCoder"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="PowerSheddingProfName">
+			<PARAS>
+				<PARA name="value" value="null"></PARA>
+				<PARA name="classType" value="com.huawei.n2000bms.util.memory.NullCoder"></PARA>
+			</PARAS>
+		</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

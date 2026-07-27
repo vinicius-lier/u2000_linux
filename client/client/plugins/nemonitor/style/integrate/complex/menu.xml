@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="type" value="ResourceBundle"></PARA>
+        <PARA name="resourceBundleName" value="Res"></PARA>
+      </PARAS>
+    </DESC>
+
+    <!-- default not config start
+    <DESC descname="mainMenu">
+      <PARAS>
+        <PARA name="name" value="main Menu"></PARA>
+        <PARA name="type" value="MenuSet"></PARA>
+      </PARAS>
+       <DESC descname="SystemMenu">
+        <PARAS>
+          <PARA name="name" value="System"></PARA>
+          <PARA name="mnemonic" value="S"></PARA>
+          <PARA name="accelerator" value="VK_S"></PARA>
+          <PARA name="type" value="JMenu"></PARA>
+          <PARA name="serialnumber" value="600"></PARA>
+        </PARAS>
+		  			
+    <DESC descname="NE_Monitor">
+	   <PARAS>
+		<PARA name="name" value="NE_Monitor"/>
+		<PARA name="icon" value=""/>
+		<PARA name="command" value="showNemonitorFrame"/>
+		<PARA name="type" value="JMenuItem"/>
+	        <PARA name="mnemonic" value="N"/>
+		<PARA name="serialnumber" value="600-50"/>
+	   </PARAS>
+	  </DESC>
+	  </DESC>
+    </DESC>
+    default not config end-->
+  </AREADESC>
+</COMMINIDATA>
+

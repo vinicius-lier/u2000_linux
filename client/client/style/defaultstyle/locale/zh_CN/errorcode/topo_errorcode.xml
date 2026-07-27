@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Topo">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="101"   value="应答消息解码错误。" />
+                <PARA name="102"   value="ASN1编码错误。" />
+                <PARA name="103"   value="服务器无响应，请检查网络或服务器是否正常。" />
+  
+                <PARA name="67108619"   value="管理域数据错误。" />
+                <PARA name="67108862"   value="服务器操作失败，请稍后重试。" />
+                <PARA name="67108861"   value="访问数据库失败，请稍后重试。" />
+                <PARA name="67108860"   value="到数据库的网络连接中断，请稍后重试。" />
+                <PARA name="67108859"   value="无效的参数。" />
+                <PARA name="67108858"   value="该记录可能被其他用户删除。" />
+                <PARA name="67108857"   value="服务器资源不足，请稍后重试。" />
+                <PARA name="67108856"   value="网络传输失败，请稍后重试。" />
+                <PARA name="67108855"   value="网络传输失败，请稍后重试。" />
+                <PARA name="67108854"   value="网元已经存在。" />
+                <PARA name="67108853"   value="当前服务器端有自动搜索任务在执行，请稍后重试。" />
+                <PARA name="67108852"   value="当前设置的网元访问协议参数与网元实际参数不符，或网络不通，服务器无法连通网元。" />
+                <PARA name="67108851"   value="节点已经存在。" />
+                <PARA name="67108850"   value="请检查客户端和服务器版本是否配套。" />
+                <PARA name="67108849"   value="子网已经存在，请刷新拓扑视图后重试。" />
+                <PARA name="67108848"   value="父子网不存在，请刷新拓扑视图后重试。" />
+                <PARA name="67108622"   value="连接已存在。" />
+                <PARA name="67108617"   value="取网元名称失败。" />
+                <PARA name="67108616"   value="安全后台无响应。" />                
+                <PARA name="67108837"   value="SNMP Set-Request 失败。" />
+                <PARA name="67108839"   value="该视图下的路径不允许创建网元。" />
+                <PARA name="117440510"   value="服务器操作失败，请稍后重试。" />
+                <PARA name="117440509"   value="访问数据库失败，请稍后重试。" />
+                <PARA name="117440508"   value="资源已存在。" />
+                <PARA name="117440507"   value="父资源不存在。" />
+                <PARA name="117440506"   value="资源不存在。" />
+                <PARA name="117440466"   value="资源不存在。" />
+                <PARA name="117440505"   value="属性不存在。" />
+                <PARA name="117440504"   value="配置的资源数量已经达到最大容限。" />
+                <PARA name="117440503"   value="网络传输失败，请稍后重试。" />
+                <PARA name="117440502"   value="对根节点作非法操作。" />
+                <PARA name="117440501"   value="ASN编码失败。" />
+                <PARA name="117440500"   value="应答消息解码错误。" />
+                <PARA name="117440499"   value="服务器资源不足，请稍后重试。" />
+                <PARA name="117440494"   value="记录已经存在。" />
+                <PARA name="117440493"   value="非端口类型的资源不能修改子类型。" />
+                <PARA name="67108614"   value="同名模板参数已存在。" />
+                <PARA name="117440492"   value="无效的网元sysOID。" />
+                <PARA name="117440491"   value="记录太多，请用复杂的参数查找。" />
+                <PARA name="67108611"   value="记录已经存在。" />
+                <PARA name="67108610"   value="无效的物理框。" />
+                <PARA name="67108826"   value="用户自定义视图数量超过最大限制。" />
+                <PARA name="67108842"   value="不可删除非空子图。" />           
+                <PARA name="67108847"   value="存在拷贝节点。" />
+                <PARA name="67108607"   value="相同两端口不允许多连接。" />
+  	            <PARA name="67108606"   value="子网是容器。" />
+		            <PARA name="67108605"   value="Ping已经存在，请稍后重试。" />
+		            <PARA name="67108604"   value="Ping数量已经达到最大限制。" />
+  	            <PARA name="67108603"   value="Ping异常退出。" />
+                <PARA name="67108602"   value="网元不存在。" />
+                <PARA name="67108601"   value="握手超时。" />
+                <PARA name="67108600"   value="子网不存在。" />
+                <PARA name="67108597"   value="无可用license。" />
+                <PARA name="67108598"   value="操作部分成功，找不到选中的记录，请查看操作日志确认记录是否已经被删除。" />
+                <PARA name="67108599"   value="找不到选中的记录，请查看操作日志确认记录是否已经被删除。" />
+                <PARA name="117440495"  value="无效的名称。" />
+                <PARA name="117440496"  value="无效的资源ID。" />
+                <PARA name="117440497"  value="无效的资源主类型。" />
+                <PARA name="117440498"  value="对资源表中的密文解密失败。" />
+                <PARA name="67108836"   value="获取网元引擎ID失败。" />
+                <PARA name="67108838"   value="不能删除主节点。" />
+                <PARA name="67108840"   value="删除网元失败。" />
+                <PARA name="67108841"   value="创建网元失败。" />
+                <PARA name="67108843"   value="查询条件不足。" />
+                <PARA name="67108844"   value="无效的节点。" />
+                <PARA name="67108845"   value="缺少足够的节点。" />
+                <PARA name="67108846"   value="无效的容器。" />
+                <PARA name="67108591"   value="同名视图已经存在。" />
+                <PARA name="67108590"   value="同名子网已经存在。" />
+                <PARA name="67108589"   value="同名节点已经存在。" />
+                <PARA name="67108588"   value="获取网管根目录失败。" />
+                <PARA name="67108587"   value="系统缺省过滤树禁止修改和删除。" />
+                <PARA name="67108586"   value="部分操作失败。" />
+                <PARA name="67108585"   value="全部操作失败。" />
+                <PARA name="117440489"   value="无效的参数。" />
+                <PARA name="117440487"   value="维护人员信息不存在。" />
+                <PARA name="67108829"   value="SNMP错误。" />
+                <PARA name="67108835"   value="视图已经存在。" />
+                <PARA name="67108834"   value="子网已经存在。" />
+                <PARA name="67108833"   value="网元搜索被停止。" />
+                <PARA name="67108832"   value="这是网元的最后一个节点。" />
+                <PARA name="67108584"   value="该视图类型不允许创建此类型连接。" />
+                <PARA name="67108583"   value="该视图类型不允许修改此类型连接。" />
+                <PARA name="67108582"   value="该视图类型不允许创建此类型网元。" />
+                <PARA name="67108581"   value="该视图类型不允许修改此类型网元。" />
+                <PARA name="67108580"   value="名称重复，请指定唯一名称。" />
+                <PARA name="67108579"   value="网元后台无响应。" />
+                <PARA name="67108578"   value="调用安全模块的扩展点失败。" />
+                <PARA name="67108577"   value="网元引擎ID已经存在。" />
+                <PARA name="67108576"   value="父对象不存在。" />
+                <PARA name="67108612"   value="最后一个节点不允许删除。" />
+                <PARA name="67108620"   value="子网已存在。" />
+				<PARA name="67108574"   value="网元由QX协议通道管理，不支持SNMP协议测试。" />			
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

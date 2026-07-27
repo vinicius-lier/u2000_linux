@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="DefaultMDMHFCreation" name="MHF Creation Rule" isVisiable="true" isEditable="true" width="130" isNameModified="false" />
+  <column id="DefaultMDVLAN" name="VLAN ID (1-4094)" isVisiable="true" isEditable="true" width="121" isNameModified="false" />
+  <column id="DefaultMDLevel" name="Level" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

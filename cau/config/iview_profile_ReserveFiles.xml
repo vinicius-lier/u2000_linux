@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <bean id="ReserveFiles" class="java.util.HashSet">
+        <constructor-arg>
+        <set>
+            <!-- upgrade from V3R1 to V3R2 or higher, from V3R2 users profile saved in server, no need to handle-->
+            <value>client/style/all users</value>
+            <value>client/style/users</value>
+            
+            <!-- upgrade from V3R2 to V3R2 or higher -->
+            <value>client/client/style/all users</value>
+            <value>client/client/style/users</value>
+         </set>
+         </constructor-arg>
+    </bean>
+</beans>

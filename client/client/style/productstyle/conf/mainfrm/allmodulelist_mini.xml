@@ -1,0 +1,1880 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="dfwModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.dfw.proxy.ProxyModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="true"/>
+				<PARA name="serialnumber" value="500"/>
+				<PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+                </PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="LicenseModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.u2000.framework.license.internal.LicenseModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="100"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="true"/>
+				<PARA name="serialnumber" value="501"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm"/>
+                    <VALUE value="dfwModule"/>
+                </PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="FrameWorkModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.u2000.framework.module.FrameWorkModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="true"/>
+				<PARA name="serialnumber" value="502"/>
+        <PARA name="dependModules">
+            <VALUE value="dfwModule"/>
+        </PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="PnpModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.u2000.framepnp.PnpModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="serialnumber" value="503"/>
+				<PARA name="dependModules">
+					<VALUE value="dfwModule"/>
+        </PARA>
+			</PARAS>
+		</DESC>
+		
+		  <DESC descname="U2000_Profile_Module">
+            <PARAS>
+                <PARA name="ClassName"
+                    value="com.huawei.u2000.pf.frame.ProfileModule" />
+                <PARA name="RunInProcess" value="true" />
+                <PARA name="ProcessKey" value="1" />
+                <PARA name="ToBeLoaded" value="true" />
+                <PARA name="IsOrbModule" value="false" />
+                <PARA name="IsJavaModule" value="true" />
+                <PARA name="serialnumber" value="4030" />
+                <PARA name="dependModules">
+                    <VALUE value="dfwModule"/>
+                </PARA>
+            </PARAS>
+        </DESC>
+     
+     <DESC descname="united_common">
+		    <PARAS>
+			    <PARA name="ClassName" value="com.huawei.u2000.unitedmgr.UMUnitedMgrModule"/>
+			    <PARA name="RunInProcess" value="true"/>
+			    <PARA name="ProcessKey" value="1"/>
+			    <PARA name="ToBeLoaded" value="true"/>
+			    <PARA name="IsOrbModule" value="false"/>
+			    <PARA name="IsJavaModule" value="true"/>
+			    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="3022"/>
+			    <PARA name="serialnumber" value="1000" />
+                <PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+                    <VALUE value="com.swimap.adapter.message.fm"/>
+					<VALUE value="com.swimap.adapter.message.tm"/>
+					<VALUE value="dfwModule"/>
+					<VALUE value="FrameWorkModule"/>
+                </PARA>
+
+		    </PARAS>
+	    </DESC> 
+     
+        
+        
+		<DESC descname="united_customize">
+		    <PARAS>
+			    <PARA name="ClassName" value="com.huawei.u2000.umcustomize.UMCustomizeMgrModule"/>
+			    <PARA name="RunInProcess" value="true"/>
+			    <PARA name="ProcessKey" value="1"/>
+			    <PARA name="ToBeLoaded" value="true"/>
+			    <PARA name="IsOrbModule" value="false"/>
+			    <PARA name="IsJavaModule" value="true"/>
+			    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="3022"/>
+			    <PARA name="serialnumber" value="1200" />
+                <PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+                    <VALUE value="com.swimap.adapter.message.fm"/>
+					<VALUE value="com.swimap.adapter.message.tm"/>
+					<VALUE value="dfwModule"/>
+					<VALUE value="FrameWorkModule"/>
+					<VALUE value="united_common"/>
+                </PARA>
+		    </PARAS>
+	    </DESC> 
+	    
+<DESC descname="umunitedcbb">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.u2000.unitedcbb.UMUnitedCBBModule" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="true" />
+				<PARA name="IsOrbModule" value="false" />
+				<PARA name="ProcID" value="3022" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsMustLoad" value="false" />
+				<PARA name="serialnumber" value="1138" />
+                <PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.tm"/>
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+					<!-- VALUE value="dfwModule" type="optional"/>
+					<VALUE value="FrameWorkModule" type="optional"/ -->
+                </PARA>
+			</PARAS>
+		</DESC>	    
+
+<!--
+
+	<DESC descname="u2kFiberModule">
+			<PARAS>
+				<PARA name="ClassName"
+					value="com.huawei.u2000.inventory.fiber.TEFiberModule" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="true" />
+				<PARA name="IsOrbModule" value="false" />
+				<PARA name="ProcID" value="2400" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsMustLoad" value="false" />
+				<PARA name="serialnumber" value="1100" />
+                <PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.tm"/>
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+					<VALUE value="dfwModule"/>
+					<VALUE value="FrameWorkModule"/>
+					<VALUE value="united_common"/>
+                </PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="LinkModule">
+			<PARAS>
+				<PARA name="ClassName"
+					value="com.huawei.u2000.inventory.link.LinkModule" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="true" />
+				<PARA name="IsOrbModule" value="false" />
+				<PARA name="ProcID" value="100" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsMustLoad" value="false" />
+				<PARA name="serialnumber" value="1125" />
+				<PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.tm"/>
+					<VALUE value="united_common"/>
+                </PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="inventoryModule">
+			<PARAS>
+				<PARA name="ClassName"
+					value="com.huawei.u2000.inventory.UMInventoryModule" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="true" />
+				<PARA name="IsOrbModule" value="false" />
+				<PARA name="ProcID" value="0" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsMustLoad" value="false" />
+				<PARA name="serialnumber" value="1150" />
+                <PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+					<VALUE value="united_common"/>
+                </PARA>
+
+			</PARAS>
+		</DESC>
+	    
+	   <DESC descname="boardgraph">
+          	 <PARAS>
+                 <PARA name="ClassName" value="com.huawei.u2000.unitedmgr.negraph.TNNEModule"/>
+                 <PARA name="RunInProcess" value="true"/>
+                 <PARA name="ProcessKey" value="0"/>
+                 <PARA name="ToBeLoaded" value="true"/>
+                 <PARA name="IsJavaModule" value="true"/>
+                 <PARA name="IsOrbModule"  value="false"/>
+                 <PARA name="serialnumber" value="1606"/>
+                 <PARA name="dependModules">
+					        <VALUE value="united_common"/>
+                 </PARA>                 
+                 <PARA name="ProcID" value="3023"/>
+             </PARAS>
+          </DESC> 
+	   --> 
+	   <!-- IP -->
+	    <DESC descname="emlmodule">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.common.dmf.eml.base.EMLModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="true"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="5001"/>
+                    <PARA name="dependModules">
+                        <!--VALUE value="topoclient"/-->
+                        <VALUE value="LicenseModule"/>
+                        <VALUE value="dfwModule"/>
+                        <VALUE value="united_common"/>
+                        <!--VALUE value="Fault"/-->
+			                  <!--VALUE value="com.swimap.adapter.message.tm"/-->
+			                  <VALUE value="com.swimap.adapter.message.sm"/>
+                    </PARA>
+                </PARAS>
+       </DESC> 
+    	 <DESC descname="v8commonmodule">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.v8common.V8CommonNEmgrModel"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="true"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="ProcID" value="12345"/>
+                    <PARA name="serialnumber" value="12345"/>
+                    <PARA name="dependModules">
+                        <!--VALUE value="topoclient"/-->
+                        <VALUE value="LicenseModule"/>
+                        <VALUE value="inventoryModule"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="vmfmgrmodule">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.vmf.VMFNEmgrModel"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="true"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="ProcID" value="622"/>
+                    <PARA name="serialnumber" value="2008"/>
+                    <PARA name="dependModules">
+			                  <VALUE value="v8commonmodule"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="noderedun">
+                   <PARAS>
+                        <PARA name="ClassName" value="com.huawei.common.ipcommonfeature.eml.noderedun.NodeRedunModule"/>
+                        <PARA name="RunInProcess" value="true"/>
+                        <PARA name="ProcessKey" value="1"/>
+                        <PARA name="ToBeLoaded" value="true"/>
+                        <PARA name="IsJavaModule" value="true"/>
+                        <PARA name="IsOrbModule"  value="false"/>
+                        <PARA name="serialnumber" value="8127"/>
+                        <PARA name="dependModules">
+                        	  <VALUE value="FrameWorkModule" type="Required"/>
+                            <!--VALUE value="topoclient" type="optional"/-->
+                            <VALUE value="LicenseModule" type="optional"/>
+                            <VALUE value="dfwModule" type="optional"/>
+                            <VALUE value="united_common" type="optional"/>
+                            <VALUE value="emlmodule" type="optional"/>
+														<VALUE value="com.swimap.adapter.message.sm" type="Required"/>
+                       </PARA>            
+                   </PARAS>
+         </DESC>
+         
+         <!-- 传送 -->
+         
+             <DESC descname="teLicenseModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.common.license.TELicenseModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="18"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="united_common" type="optional"/>
+					<VALUE value="LicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+    <DESC descname="sbiinf">
+      <PARAS>
+        <PARA name="ClassName" value="com.huawei.te.common.TETraditionalBaseModule"/>
+        <PARA name="RunInProcess" value="true"/>
+        <PARA name="ProcessKey" value="1"/>
+        <PARA name="ToBeLoaded" value="true"/>
+        <PARA name="IsOrbModule" value="false"/>
+        <PARA name="ProcID" value="0"/>
+        <PARA name="IsJavaModule" value="true"/>
+        <PARA name="IsMustLoad" value="false"/>
+        <PARA name="dependModules">
+          <VALUE value="teLicenseModule" />
+        </PARA>
+      </PARAS>
+    </DESC>
+		<DESC descname="teCommonModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.common.data.TECommonDataLayerModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+					<VALUE value="com.swimap.adapter.message.tm" type="optional"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teCfgModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.config.TEConfigurationModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+			     	<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+	  <DESC descname="teATMModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.atm.TEATMModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm" />
+					<VALUE value="com.swimap.adapter.message.tm" type="optional"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teSpanModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.spanmodule.TESpanModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+					<VALUE value="teCfgModule" type="optional"/>
+					<VALUE value="transDataLayerModule" type="optional"/>
+					<VALUE value="slmDataLayerModule" type="optional"/>
+				</PARA>
+			</PARAS>
+		</DESC> 
+		<DESC descname="teTopoModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.topo.TETopoModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="tePerformModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.performance.TEPerformanceModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teSDHModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.sdh.TESDHModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teWDMModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.wdm.TEWDMModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teFaultModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.fault.TEFaultModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.fm" type="optional"/>
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teNeSecurityModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.nesecurity.TENESecurityModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teNecommModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.necomm.TENECommModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="tePingModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.ping.PingModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+				<VALUE value="com.swimap.adapter.message.sm" />
+					<VALUE value="com.swimap.adapter.message.tm" type="optional"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teRTNModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.rtn.operation.TERTNModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm" />
+					<VALUE value="com.swimap.adapter.message.tm" type="optional"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="tePTNModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.ptnnemgr.TEPTNModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="serialnumber" value="6000"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>	
+		<DESC descname="tePTNFaultModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.ptn.fault.TEPTNFaultModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="serialnumber" value="6002"/>
+				<PARA name="dependModules">
+				<VALUE value="com.swimap.adapter.message.sm"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="tePTNPerfModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.ptn.performance.TEPTNPerformanceModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="serialnumber" value="6003"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teEmsSDHAsonModule">
+			<PARAS>
+				<PARA name="ClassName"  value="com.huawei.te.osn.TEOsnEmsModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm"/>
+					<VALUE value="com.swimap.adapter.message.tm" type="optional"/>
+			</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teEmsWDMAsonModule">
+			<PARAS>
+				<PARA name="ClassName"  value="com.huawei.te.ason.module.wdm.TEAsonEmsModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.sm"/>
+					<VALUE value="com.swimap.adapter.message.tm" type="optional"/>
+			</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teV8PTNDataLayerModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.v8ptn.module.TEV8PTNDataLayerModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="serialnumber" value="6601"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teV8ModuleForPTN">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.v8ptn.module.TEV8ModuleForPTN"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teV8PTNModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.v8ptn.module.TEV8PTNModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+					<VALUE value="v8commonmodule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teV8TransDataLayerModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.v8trans.module.TEV8TransDataLayerModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="serialnumber" value="6601"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+				</PARA>
+			</PARAS>
+		</DESC> 
+		<DESC descname="teV8ModuleForTrans">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.v8trans.module.TEV8ModuleForTrans"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teV8TransModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.v8trans.module.TEV8TransModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule"/>
+					<VALUE value="v8commonmodule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="TEDiagnosisModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.diagnosis.sevdiagnosis.TEDiagnosisModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.fm" type="Reuqired"/>
+					<VALUE value="com.swimap.adapter.message.sm" type="Reuqired"/>
+					<VALUE value="dfwModule" type="Reuqired"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="slmDataLayerModule">
+				<PARAS>
+					<PARA name="ClassName" value="com.huawei.te.slm.data.TESLMDataLayerModule"/>
+					<PARA name="RunInProcess" value="true"/>
+					<PARA name="ProcessKey" value="1"/>
+					<PARA name="ToBeLoaded" value="true"/>
+					<PARA name="IsOrbModule" value="false"/>
+					<PARA name="ProcID" value="2500"/>
+					<PARA name="IsJavaModule" value="true"/>
+			     		<PARA name="dependModules">
+					<VALUE value="teCommonModule" />
+					</PARA>	
+				</PARAS>
+			</DESC>
+		<DESC descname="teSONETModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.sonet.TESONETModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule" />
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="teTL1WDMModule">
+			<PARAS>
+				<PARA name="ClassName" 
+					value="com.huawei.te.tl1wdm.TETL1WDMModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="ProcID" value="0"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="dependModules">
+					<VALUE value="teLicenseModule"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="transDataLayerModule">
+			<PARAS>
+				<PARA name="ClassName" value="com.huawei.te.base.transdata.TETransDataLayerModule"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="1"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsOrbModule" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="ProcID" value="2500"/>
+				<PARA name="dependModules">
+					<VALUE value="teCommonModule" />
+				</PARA>
+			</PARAS>
+		</DESC>
+         <!-- 接入 -->
+         <DESC descname="BMS_Ipms_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ipms.IpmsModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+      <DESC descname="BMS_Device_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.device.DeviceModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="true"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="com.swimap.adapter.message.tm"/>
+                        <VALUE value="united_common"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+		 <DESC descname="BMS_HIBERARCHY">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.hiberarchy.HiberarchyModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+		<DESC descname="BMS_FrameworkInitModule">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.framework.module.FrameworkInitModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="true"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="com.swimap.adapter.message.tm"/>
+                        <VALUE value="dfwModule"/>
+                        <VALUE value="LicenseModule"/>
+						<VALUE value="PnpModule"/>
+						<VALUE value="united_common" />
+                    </PARA>
+                </PARAS>
+        </DESC> 
+		<DESC descname="BMS_Global_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.commodule.resmanager.GlobalModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="true"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_FrameworkInitModule"/>
+                    </PARA>
+                </PARAS>
+        </DESC>
+	
+	    <!--接入光业务组-->
+        <DESC descname="BMS_SrvProv_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.srvprov.ServiceProvModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>     
+        <DESC descname="BMS_EPON_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.epon.EPONModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Device_Module"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_GEUPlinkPNP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.geuplinkpnp.GEUPlinkPNPModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+					<PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>
+        <DESC descname="BMS_IPIF_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.eth.ipinterface.common.IPInterfaceModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_ETH_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.eth.ETHModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>    
+        <DESC descname="BMS_GPON_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gpon.GPONModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Device_Module"/>
+                        <VALUE value="BMS_Inventory_Module"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+		<DESC descname="BMS_CPESVC">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.cpesvc.global.CpeSvcModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>
+		<DESC descname="BMS_FTTX_TOPO_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.xponcommon.fttxtopo.module.FttxTopoModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+		<!--接入铜缆组-->
+		 <DESC descname="BMS_VPLS_Module">
+            <PARAS>
+                <PARA name="ClassName" value="com.huawei.n2000bms.vpls.VplsModule" />
+                <PARA name="RunInProcess" value="true" />
+                <PARA name="ProcessKey" value="1" />
+                <PARA name="ToBeLoaded" value="false" />
+                <PARA name="IsOrbModule" value="false" />
+                <PARA name="IsJavaModule" value="true" />
+                <PARA name="IsMustLoad" value="false" />
+                <PARA name="ProcID" value="100" />
+                <PARA name="serialnumber" value="1000" />
+                <PARA name="dependModules">
+                    <VALUE value="BMS_Global_Module" />
+                </PARA>
+            </PARAS>
+        </DESC>
+        <DESC descname="BMS_TDMLink_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.tdmlink.TDMModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Atur_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.atur.AturModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_TDMGSHDSL_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.tdmgshdsl.TDMGSHDSLService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_HSLV35_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.hslv35.HSLV35Service"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_HSLDSLE1_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.hsldsle1.FE1Service"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_VOICECOMMON_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.voicecommon.main.VoiceCommonModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Tdm_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.tdm.TdmModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_DslMgr_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.dslportsecurity.JDSLPortSecurity"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_PWE3_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.pwe3.PWModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>  
+        <DESC descname="BMS_SPC_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.spc.main.SPCService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Test_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.test.TestModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_RRPP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.rrpp.RRPPModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_MPLS_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.mpls.MPLSModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Hgmp_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.hgmp.UcmManager"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_DHCP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.dhcp.main.DHCPModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_QACL_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.qacl.QACLModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_POTS_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.asl.pots.main.PotsService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_BFD_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.bfd.BFDModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_IGMP_IAS2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.igmpias2.IGMPModule"/>
+                    <PARA name="RunInProcess" value="false"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_IGMP_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_IGMP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.igmp.IGMPModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_IPIF_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.eth.ipinterface.common.IPInterfaceModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Adsl_51V1_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ma5100v1adsl.module.AdslModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Adsl_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Adsl_IAS2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.adslias2.AdslModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Adsl_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Adsl_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.adsl.AdslModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Device_Module"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_ANCP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ancp.AncpModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_HQOS_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.hqos.HqosModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>  
+        <DESC descname="BMS_BRAPORT_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.dsl.braport.main.BRAPortService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_VDSL2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.vdsl2.Vdsl2Module"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                        <VALUE value="com.swimap.adapter.message.sm"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_TDMoGEM_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.pvc.tdmogem.ToGModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_IpMacPool_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ipmacpool.IpMacPoolModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Vlan_51V1_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ma5100v1vlan.VLanModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Vlan_IAS2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.vlanias2.VLanModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Vlan_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Vlan_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.vlan.VLanModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_PITP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.pitp.PitpModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Shdsl_IAS2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gshdslias2.GshdslModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Shdsl_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Shdsl_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gshdsl.GshdslModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_TDMGNTE_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.tdmgnte.main.TDMGnteModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Pvc_51V1_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ma5100v1pvc.PvcModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                        <VALUE value="BMS_Pvc_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Pvc_IAS2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.pvcias2.PvcModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                        <VALUE value="BMS_Pvc_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Pvc_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.pvc.PvcModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_TDME1_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ces.tdme1.TDME1Service"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_CESV35_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ces.cesv35.CESV35Service"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_CESE1_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ces.cese1.CESE1Service"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_Vdsl_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.vdsl.VdslModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Device_Module"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_CMTS_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.cmts.CmstModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>
+        <DESC descname="BMS_EQAM_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.eqam.EQamModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>        
+        <DESC descname="BMS_ATMIFias2_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.atmifias2.AtmIfias2Module"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="ProcID" value="100"/>
+                    <PARA name="serialnumber" value="1000"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_ATMIF_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_ATMIF_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.atmif.AtmIfModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_V5IF_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gateway.v5if.main.V5IfService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_SPCMIF_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gateway.spcmif.main.SPCMIfService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_L2UA_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gateway.l2ua.common.L2UAService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_AG_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gateway.ag.common.MediaGateWayService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_VPRing_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.vpring.VpringModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                        <VALUE value="com.swimap.adapter.message.sm"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_MSTP_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.mstp.MSTPModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_ETHOAM_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ethoam.EthOamModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_StaticRoute_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.bmsroute.StaticRouteModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_IMA_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.ima.main.IMAService"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC> 
+        <DESC descname="BMS_GFAST_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.gfast.GfastModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Device_Module"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>
+        <DESC descname="BMS_VIDEOTEST_Module">
+                <PARAS>
+                    <PARA name="ClassName" value="com.huawei.n2000bms.videotest.VideoTestModule"/>
+                    <PARA name="RunInProcess" value="true"/>
+                    <PARA name="ProcessKey" value="1"/>
+                    <PARA name="ToBeLoaded" value="false"/>
+                    <PARA name="IsOrbModule" value="false"/>
+                    <PARA name="IsJavaModule" value="true"/>
+                    <PARA name="IsMustLoad" value="false"/>
+                    <PARA name="dependModules">
+                        <VALUE value="BMS_Device_Module"/>
+                        <VALUE value="BMS_Global_Module"/>
+                    </PARA>
+                </PARAS>
+        </DESC>
+	</AREADESC>
+</COMMINIDATA>

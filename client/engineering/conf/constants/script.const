@@ -1,0 +1,25 @@
+# the max lock time for the synchronize script(when synclock="DEFAULT" is set in the script item). (seconds)
+SCRIPT_LOCK_TIME=1800
+# the max timeout time to get lock for the synchronize script(when synclock="DEFAULT" is set in the script item). (seconds)
+SCRIPT_LOCK_TIMEOUT=7200
+# the default RPC call timeout time of the script manager proxy. (seconds)
+SCRIPT_RPC_TIMEOUT=7200
+# the path of the database error key file. (defines the error key messages of the database script logs)
+DB_ERR_KEY_FILE=engineering/conf/DBScriptError.xml
+# the path of the script log directory.
+SCRIPT_LOG_DIR=logs/scriptLog
+#size in MB
+GET_SCRIPT_SIZE=2
+
+DELETE_USER_SCRIPT_PATH = engineering/script/os/deleteUser.sh
+CREATE_USER_SCRIPT_PATH = engineering/script/os/createuser.sh
+CHECK_SYBASELANGUAGE_SCRIPT_PATH = engineering/script/os/checksybaselanguage.sh
+CHECK_SYBASECHARSET_SCRIPT_PATH = engineering/script/os/checksybasecharset.sh
+
+RSYNC_SCRIPT_PATH = engineering/script/os/rsyncfiles.sh
+
+MODIFY_NETWORK_SCRIPTS_PATH = @{INSTALLROOT}/server/tools/modify/
+MODIFY_NETWORK_BACKUPFILES_PATH = @{INSTALLROOT}/server/tools/modify/backup/
+MODIFY_ORACLEUSERPASSWD_SCRIPT_PATH = engineering/script/os/modifyOracleUserPwd.sh
+MODIFY_PERMISSIONS_SCRIPT_PATH = engineering/script/os/modifyPermissions.sh
+MODIFY_PERMISSIONS_U_SCRIPT_PATH = tools/common/modify_permission.sh

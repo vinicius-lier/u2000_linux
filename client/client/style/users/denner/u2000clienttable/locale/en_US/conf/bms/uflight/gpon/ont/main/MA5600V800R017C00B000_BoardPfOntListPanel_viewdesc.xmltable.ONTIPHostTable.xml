@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="IpHostID" name="IP Host ID" isVisiable="true" isEditable="false" width="81" isNameModified="false" />
+  <column id="VlanDefault" name="Default VLAN (1-4095)" isVisiable="true" isEditable="true" width="148" isNameModified="false" />
+  <column id="IPHostPriority" name="Priority (0-7)" isVisiable="true" isEditable="true" width="92" isNameModified="false" />
+</table>
+

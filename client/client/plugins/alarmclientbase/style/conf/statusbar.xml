@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+this is a style Information of a status Bar.
+ -->
+<COMMINIDATA>
+  <AREADESC areaname="statusbar">
+    <DESC descname="statusbar">
+      <PARAS>
+        <PARA name="type" value="StatusBar"/>
+      </PARAS>
+      <DESC descname="NotificationMessageItem">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="false"/>
+          <PARA name="layout" value="1"/>
+          <PARA name="minimumSize" value="400,20"/>
+          <PARA name="preferredSize" value="400,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="UserInfo">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="true"/>
+          <PARA name="layout" value="1"/>
+          <PARA name="minimumSize" value="100,20"/>
+          <PARA name="preferredSize" value="100,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="SecurityArea">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="true"/>
+          <PARA name="layout" value="1"/>
+          <PARA name="minimumSize" value="100,20"/>
+          <PARA name="preferredSize" value="100,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+        </PARAS>
+      </DESC>      
+      <DESC descname="TimerStatusItem">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.TimerDisplayStatusBarItem"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="false"/>
+          <PARA name="layout" value="-1"/>
+          <PARA name="minimumSize" value="100,20"/>
+          <PARA name="preferredSize" value="100,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+          <PARA name="delay" value="1000"/>
+        </PARAS>
+      </DESC>
+
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<PARAS>
+			</PARAS>	
+			        <DESC descname="plugins">
+          <PARAS>
+			 <PARA name="querydumptool"></PARA>
+          </PARAS>		  
+        </DESC>			
+        <DESC descname="features">
+            <PARAS>
+            </PARAS>
+        </DESC>
+        <DESC descname="productlibs">
+            <PARAS>
+            </PARAS>
+        </DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

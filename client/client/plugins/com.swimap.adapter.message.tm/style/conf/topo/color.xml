@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ColorConfig">
+        <DESC descname="POLL_NORMAL_STATUS">
+            <PARAS>
+                <PARA name="red" value="0"/>
+                <PARA name="green" value="250"/>
+                <PARA name="blue" value="0"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="POLL_UNKNOW_STATUS">
+            <PARAS>
+                <PARA name="red" value="0"/>
+                <PARA name="green" value="137"/>
+                <PARA name="blue" value="224"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="POLL_OFFLINE_STATUS">
+            <PARAS>
+                <PARA name="red" value="190"/>
+                <PARA name="green" value="190"/>
+                <PARA name="blue" value="190"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

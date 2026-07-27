@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="PonStatus" name="Status" isVisiable="true" isEditable="false" width="199" isNameModified="false" />
+  <column id="OntID" name="ONU ID" isVisiable="true" isEditable="true" width="199" isNameModified="false" />
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="395" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="437" isNameModified="false" />
+  <column id="VendorID" name="Vendor ID" isVisiable="true" isEditable="true" width="199" isNameModified="false" />
+  <column id="EquipmentID" name="Terminal Type" isVisiable="true" isEditable="true" width="202" isNameModified="false" />
+  <column id="MainSoftVersion" name="Software Version" isVisiable="true" isEditable="true" width="217" isNameModified="false" />
+  <column id="IsolationStatus" name="Isolation Status" isVisiable="true" isEditable="true" width="235" isNameModified="false" />
+</table>
+

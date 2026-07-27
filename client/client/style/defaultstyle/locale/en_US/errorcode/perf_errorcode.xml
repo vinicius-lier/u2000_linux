@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Security">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="0x0affaffe"   value="Request partially succeeded." />
+                <PARA name="0x0affaffd"   value="Request failed." />
+                <PARA name="0x0affaffc"   value="Time out while waiting response." />                
+                <PARA name="0x0aff9fee"   value="Failed to obtain the MIB index." />                
+                <PARA name="0x0aff9feb"   value="ASN decoding fails."/>
+                <PARA name="0x0aff9fec"   value="ASN coding fails."/>
+                <PARA name="0x0aff9ff0"   value="Failed to obtain the SNMP configuration data."/>
+                <PARA name="0x0affbffe"   value="An error occurs in memory allocation."/> 
+                <PARA name="0x0aff9ff6"   value="The performance index is not specified."/>
+                <PARA name="0x0affdfff"   value="Accessing database error."/>
+                <PARA name="0x0affdffe"   value="Initializing database error."/>
+                <PARA name="0x0affdffd"   value="Accessing performance template table error."/>
+                <PARA name="0x0affdffc"   value="Accessing performance indicator table error."/>
+                <PARA name="0x0affdffb"   value="Accessing association table between template and indicator error."/>
+                <PARA name="0x0affdffa"   value="Accessing MIB object table error."/>
+                <PARA name="0x0affdff9"   value="No record of the specified performance template found in database."/>
+                <PARA name="0x0affdff8"   value="No record of the specified performance indicator found in database."/>
+                <PARA name="0x0affdff7"   value="No record of the specified MIB object found in database."/>
+                <PARA name="0x0affdff6"   value="Getting device type from device ID failed."/>
+                <PARA name="0x0affdff5"   value="Getting device version from device ID failed."/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

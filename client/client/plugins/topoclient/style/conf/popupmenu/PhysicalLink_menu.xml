@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="Bundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="TopoMenuRes"/>
+			</PARAS>
+		</DESC>
+		<!--common PopupMenu on PhysicalLink Link -->
+		<DESC descname="PhysicalLink">
+			<PARAS>
+				<PARA name="name" value="PhysicalLink"/>
+				<PARA name="type" value="JPopupMenu"/>
+			</PARAS>
+			<DESC descname="delObject">
+				<PARAS>
+					<PARA name="name" value="deleteObject"/>
+					<PARA name="mnemonic" value="D"/>
+					<PARA name="command" value="Topo_delObject"/>
+					<PARA name="operationID" value="45"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60010"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="modifyObject">
+				<PARAS>
+					<PARA name="name" value="modifyObject"/>
+					<PARA name="mnemonic" value="P"/>
+					<PARA name="command" value="Topo_modifyObject"/>
+					<PARA name="operationID" value="20,25"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="70020"/>
+				</PARAS>
+			</DESC>
+			<!--DESC descname="Separator">
+				<PARAS>
+					<PARA name="name" value="Separator"/>
+					<PARA name="type" value="Separator"/>
+					<PARA name="serialnumber" value="60700"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="expandLink">
+				<PARAS>
+					<PARA name="name" value="expandLink"/>
+					<PARA name="mnemonic" value="E"/>
+					<PARA name="command" value="Topo_expandLink"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60710"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="aggregateLink">
+				<PARAS>
+					<PARA name="name" value="aggregateLink"/>
+					<PARA name="mnemonic" value="C"/>
+					<PARA name="command" value="Topo_aggregateLink"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60720"/>
+				</PARAS>
+			</DESC-->
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

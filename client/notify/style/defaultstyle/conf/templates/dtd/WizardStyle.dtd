@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT WizardStepInformation EMPTY >
+<!ATTLIST WizardStepInformation step_number NMTOKEN #REQUIRED >
+<!ATTLIST WizardStepInformation step_ui NMTOKEN #REQUIRED >
+
+<!ELEMENT wizard-info-panel ( dimension, step-icon? )>
+<!ATTLIST wizard-info-panel bg-image NMTOKEN #IMPLIED>
+<!ATTLIST wizard-info-panel step-list-visible NMTOKEN #IMPLIED>
+
+<!ELEMENT dimension EMPTY>
+<!ATTLIST dimension width NMTOKEN #REQUIRED>
+<!ATTLIST dimension height NMTOKEN #REQUIRED>
+
+<!ELEMENT step-icon EMPTY>
+<!ATTLIST step-icon finished NMTOKEN #IMPLIED>
+<!ATTLIST step-icon current NMTOKEN #IMPLIED>
+<!ATTLIST step-icon remaining NMTOKEN #IMPLIED>
+
+<!ELEMENT iViewWizard ( WizardStepInformation+, wizard-info-panel? ) >

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.smadapter"
+   name="smadapter"
+   version="1.0"
+   provider-name="swimap">
+   
+   <!--
+   <extension
+         point="com.swimap.topo.TopoLeftClick">
+      <TopoLeftClick
+            class="com.swimap.topo.adapterclient.mouseevent.SelectElementOnPhyTreeAdapter"
+            priority="100"/>
+   </extension>
+   -->
+
+</plugin>

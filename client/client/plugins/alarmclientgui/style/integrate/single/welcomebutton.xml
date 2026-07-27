@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+    <DESC descname="ResourceBundle">
+       <PARAS>
+       <PARA name="type" value="ResourceBundle"></PARA>
+       <PARA name="resourceBundleName" value="WelcomeButtonRes"></PARA>
+       </PARAS>
+    </DESC>
+
+        <DESC descname="welcomebuttonsetting">
+
+         <DESC descname="Alarm_List_Query">
+            <PARAS>
+            <PARA name="name" value="Alarm_List_Query"></PARA>
+            <PARA name="description" value="Alarm_List_Query"></PARA>
+            <PARA name="icon" value="common/AlarmList.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="FaultQuery"></PARA>
+            <PARA name="serialnumber" value="1"></PARA>
+            <PARA name="isUserEnable" value="false"></PARA>
+			<PARA name="linkseqnumber" value="10"></PARA>
+            </PARAS>
+         </DESC>
+
+         <DESC descname="Alarm_Logs">
+            <PARAS>
+            <PARA name="name" value="Alarm_Logs"></PARA>
+            <PARA name="description" value="Alarm_Logs"></PARA>
+            <PARA name="icon" value="common/AlarmQuery.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="HistoryQuery"></PARA>
+            <PARA name="serialnumber" value="2"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="20"></PARA>
+            </PARAS>
+        </DESC>
+        <DESC descname="History_Alarm">
+            <PARAS>
+            <PARA name="name" value="History_Logs"></PARA>
+            <PARA name="description" value="History_Logs"></PARA>
+            <PARA name="icon" value="common/AlarmQuery.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="HistoryLog"></PARA>
+            <PARA name="serialnumber" value="2"></PARA>
+            <PARA name="isUserEnable" value="false"></PARA>
+            <PARA name="linkseqnumber" value="21"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Event_Logs">
+            <PARAS>
+            <PARA name="name" value="Event_Logs"></PARA>
+            <PARA name="description" value="Event_Logs"></PARA>
+            <PARA name="icon" value="common/AlarmQuery.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="EventQuery"></PARA>
+            <PARA name="serialnumber" value="3"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="30"></PARA>
+            </PARAS>
+         </DESC>
+         <!--
+         <DESC descname="QuerySuppressed_AlarmLogs">
+            <PARAS>
+            <PARA name="name" value="QuerySuppressed_AlarmLogs"></PARA>
+            <PARA name="description" value="QuerySuppressed_AlarmLogs"></PARA>
+            <PARA name="icon" value="common/AlarmQuery.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="FilterAlarmQuery_Fault"></PARA>
+            <PARA name="serialnumber" value="4"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="80"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="QuerySuppressed_EventLogs">
+            <PARAS>
+            <PARA name="name" value="QuerySuppressed_EventLogs"></PARA>
+            <PARA name="description" value="QuerySuppressed_EventLogs"></PARA>
+            <PARA name="icon" value="common/AlarmQuery.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="FilterAlarmQuery_Event"></PARA>
+            <PARA name="serialnumber" value="5"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="90"></PARA>
+            </PARAS>
+         </DESC> -->
+         <DESC descname="BrowseAlarmList_Status">
+            <PARAS>
+            <PARA name="name" value="BrowseAlarmList_Status"></PARA>
+            <PARA name="description" value="BrowseAlarmList_Status"></PARA>
+            <PARA name="icon" value="common/AlarmList.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="BrowseFaultAlarm"></PARA>
+            <PARA name="serialnumber" value="6"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="110"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="BrowseAlarmList_Severity">
+            <PARAS>
+            <PARA name="name" value="BrowseAlarmList_Severity"></PARA>
+            <PARA name="description" value="BrowseAlarmList_Severity"></PARA>
+            <PARA name="icon" value="common/AlarmList.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="BrowseFaultAlarmByLevel"></PARA>
+            <PARA name="serialnumber" value="7"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="120"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Alarm_Statistic_Fault">
+            <PARAS>
+            <PARA name="name" value="Alarm_Statistic_Fault"></PARA>
+            <PARA name="description" value="Alarm_Statistic_Fault"></PARA>
+            <PARA name="icon" value="common/AlarmStatistic.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmStatistic_Fault"></PARA>
+            <PARA name="serialnumber" value="8"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="140"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Alarm_Statistic_Event">
+            <PARAS>
+            <PARA name="name" value="Alarm_Statistic_Event"></PARA>
+            <PARA name="description" value="Alarm_Statistic_Event"></PARA>
+            <PARA name="icon" value="common/AlarmStatistic.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmStatistic_Event"></PARA>
+            <PARA name="serialnumber" value="9"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="150"></PARA>
+            </PARAS>
+         </DESC>
+		 <DESC descname="Alarm_Statistic_Subnet">
+            <PARAS>
+            <PARA name="name" value="Alarm_Statistic_Subnet"></PARA>
+            <PARA name="description" value="Alarm_Statistic_Subnet"></PARA>
+            <PARA name="icon" value="common/AlarmStatistic.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmStatistic_Subnet"></PARA>
+            <PARA name="serialnumber" value="9"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="155"></PARA>
+            </PARAS>
+         </DESC>		 
+         <DESC descname="DownloadRNLog">
+            <PARAS>
+            <PARA name="name" value="DownloadRNLog"></PARA>
+            <PARA name="description" value="DownloadRNLog"></PARA>
+            <PARA name="icon" value="common/SynchronizeNEAlarm.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="DownloadRNLog"></PARA>
+            <PARA name="serialnumber" value="10"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="170"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Alarm_Board">
+            <PARAS>
+            <PARA name="name" value="Alarm_Board"></PARA>
+            <PARA name="description" value="Alarm_Board"></PARA>
+            <PARA name="icon" value="common/ShowAlarmBorad.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmBoard"></PARA>
+            <PARA name="serialnumber" value="10"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="190"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Alarm_Matrix">
+            <PARAS>
+            <PARA name="name" value="Alarm_Matrix"></PARA>
+            <PARA name="description" value="Alarm_Matrix"></PARA>
+            <PARA name="icon" value="common/AlarmHistogram.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmMatrix"></PARA>
+            <PARA name="serialnumber" value="11"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="200"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="NE_Synchronize">
+            <PARAS>
+            <PARA name="name" value="NE_Synchronize"></PARA>
+            <PARA name="description" value="NE_Synchronize"></PARA>
+            <PARA name="icon" value="common/SynchronizeNEAlarm.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="ProcessNESynchronize"></PARA>
+            <PARA name="serialnumber" value="12"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="230"></PARA>
+            </PARAS>
+         </DESC>
+
+         <!-- funcion set part is assigned in B02 by iveiw plugin
+         <DESC descname="AlarmOption">
+            <PARAS>
+            <PARA name="name" value="AlarmOption"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="13"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="ObjectGroup">
+            <PARAS>
+            <PARA name="name" value="ObjectGroup"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="14"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Template_managment">
+            <PARAS>
+            <PARA name="name" value="Template_managment"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="15"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Notifymanager">
+            <PARAS>
+            <PARA name="name" value="Notifymanager"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="16"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="ReDefineAlarmLevel">
+            <PARAS>
+            <PARA name="name" value="ReDefineAlarmLevel"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="17"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="CorrelationFunction">
+            <PARAS>
+            <PARA name="name" value="CorrelationFunction"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="18"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Postprocess">
+            <PARAS>
+            <PARA name="name" value="Postprocess"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="19"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="FilterCondition">
+            <PARAS>
+            <PARA name="name" value="FilterCondition"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="20"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="UpdateExperience">
+            <PARAS>
+            <PARA name="name" value="UpdateExperience"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="serialnumber" value="21"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="Event2ADMC">
+            <PARAS>
+            <PARA name="name" value="ReDefineAlarmLevel"></PARA>
+            <PARA name="description" value=""></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Category"></PARA>
+            <PARA name="command" value="AlarmFilter"></PARA>
+            <PARA name="Event2ADMC" value="22"></PARA>
+            </PARAS>
+         </DESC>
+         -->
+		 <!-- add new node for alarm setting-->
+         <DESC descname="AlarmOption">
+            <PARAS>
+            <PARA name="name" value="AlarmOption"></PARA>
+            <PARA name="description" value="AlarmOption"></PARA>
+            <PARA name="icon" value="common/AlarmSetting.png"></PARA>
+            <PARA name="category" value="Fault_Setting_Category"></PARA>
+            <PARA name="command" value="alarmOptions"></PARA>
+            <PARA name="serialnumber" value="13"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="10"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="ObjectGroup">
+            <PARAS>
+            <PARA name="name" value="ObjectGroup"></PARA>
+            <PARA name="description" value="ObjectGroup"></PARA>
+            <PARA name="icon" value="common/ShowAlarmBorad.png"></PARA>
+            <PARA name="category" value="Fault_Setting_Category"></PARA>
+            <PARA name="command" value="objectGroupManage"></PARA>
+            <PARA name="serialnumber" value="14"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="20"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="AlarmGroup">
+            <PARAS>
+            <PARA name="name" value="AlarmGroup"></PARA>
+            <PARA name="description" value="AlarmGroup"></PARA>
+            <PARA name="icon" value="common/ShowAlarmBorad.png"></PARA>
+            <PARA name="category" value="Fault_Setting_Category"></PARA>
+            <PARA name="command" value="alarmGroupManage"></PARA>
+            <PARA name="serialnumber" value="15"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="30"></PARA>
+            </PARAS>
+         </DESC>
+         <DESC descname="TemplateManagement4IFMS">
+            <PARAS>
+            <PARA name="name" value="Template_managment"></PARA>
+            <PARA name="description" value="Template_managment"></PARA>
+            <PARA name="icon" value="common/ShowAlarmBorad.png"></PARA>
+            <PARA name="category" value="Fault_Setting_Category"></PARA>
+            <PARA name="command" value="TemplateManagement"></PARA>
+            <PARA name="serialnumber" value="16"></PARA>
+            <PARA name="isUserEnable" value="true"></PARA>
+			<PARA name="linkseqnumber" value="40"></PARA>
+            </PARAS>
+         </DESC>
+
+        </DESC>
+
+	<DESC descname="categorysetting">
+		<DESC descname="Fault_Category">
+			<PARAS>
+			<PARA name="linkseqnumber" value="200"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Fault_Setting_Category">
+			<PARAS>
+			<PARA name="linkseqnumber" value="240"></PARA>
+            <PARA name="parent" value="Fault_Category"/>
+			</PARAS>
+		</DESC>
+	</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE InstallDisk SYSTEM "commini.dtd">
+<InstallDisk>
+    <!--  ######################### Client安装完毕 ##########################  -->
+    <!--  ########安装客户端软件后执行脚本########  -->
+    <!--  after all install client packages finish  -->
+    <PostInstallClientScript>
+    </PostInstallClientScript>
+	
+    <!--  ############################ 部署前后###########################  -->
+    <!--  ########部署前执行脚本#######  -->
+    <!--  execute the scripts before deploy  -->
+    <PreDeployScript>
+		<item>server/script/engineering/install/PreDeployScript_pre.xml</item>
+		<item>server/platform/init/engineering/install/PreScript_imap.xml</item>
+<!--imap平台  -->+
+		<item>server/script/engineering/install/PreDeployScript_cau.xml</item>	
+		<item>server/cbb/frame/share/PreDeployScript_Crossdomain.xml</item>
+		<item>server/script/engineering/install/PreDeployScript_post.xml</item>			
+    </PreDeployScript>
+
+
+    <!--  ########部署后执行脚本#######  -->
+    <!--  execute the scripts after deploy finished  -->
+    <PostDeployScript>
+		<item>server/script/engineering/install/PostDeployScript_imapEng.xml</item>
+		<item>server/nw/CBB/engineering/install/PostDeployScript_PMS.xml</item>
+		<item>server/nw/CBB/engineering/install/PostDeployScript_Trans.xml</item>
+		<item>server/nw/CBB/engineering/install/PostDeployScript_UM.xml</item>
+		<item>server/script/engineering/install/PostDeployScript_pre.xml</item>
+		<item>server/script/engineering/install/PostDeployScript_shortcut.xml</item>
+		<item>server/nw/CBB/engineering/install/PostDeployScript_DC.xml</item>
+		<item>server/nw/CBB/engineering/install/PostDeployScript_post_DC.xml</item>
+		<item>server/platform/init/engineering/install/PostDeployScript_imap.xml</item>
+		<item>uninstall/scripts/engineering/install/PostDeployScript_imap.xml</item>
+    </PostDeployScript>	
+    <!--  ############################# 安装完毕 ############################  -->
+    <!--  ########安装结束前执行脚本#######  -->
+    <!--  Before exit the installation  -->
+    <ExitScript>
+		<item>server/cbb/frame/share/ExitScript_Crossdomain.xml</item>
+		<item>server/script/engineering/install/ExitScript_configsybase.xml</item>
+		<item>server/script/engineering/install/ExitScript_backEngr.xml</item>
+		<item>server/script/engineering/install/ExitScript_pre.xml</item>
+		<item>server/platform/init/engineering/install/ExitScript_imap.xml</item>
+<!-- imap全局 -->
+		<item>server/script/engineering/install/ExitScript_post.xml</item>	
+	</ExitScript>
+    <!--  ############################# 卸载前后##########################  -->
+	<!--  ########卸载网管、去部署子域的前置脚本#######  -->
+    <PreUndeployScript>
+    </PreUndeployScript>
+    
+	<!--  ########卸载网管、去部署子域的后置脚本#######  -->
+	<PostUndeployScript>
+		<item>server/script/engineering/install/PostUnDeployScript_pre.xml</item>
+		<item>server/nw/CBB/engineering/install/PostUndeployScript_DC.xml</item> 
+		<item>server/nw/CBB/engineering/install/PostUndeployScript_post_DC.xml</item>
+		<item>server/script/engineering/install/PostUnDeployScript_post.xml</item>
+    </PostUndeployScript>
+ 
+    <!--  ########################### 添加节点前后置########################  -->
+    <!--  ########添加节点的前置脚本，注意这些脚本仅在新增的节点上执行########  -->
+    <PreAddNodeScript>
+        <item/>
+    </PreAddNodeScript>
+
+    <!--  ########添加节点的后置脚本，注意这些脚本仅在新增的节点上执行########  -->
+    <PostAddNodeScript>
+        <item>server/platform/init/engineering/install/PostAddNodeScript_imap.xml</item>
+    </PostAddNodeScript>
+
+
+
+    <!--  ########################### License校验 ###########################  -->
+    <!--  ########安装时网管License合法性检查属性#######  -->
+    <!--  NMS license attributes  -->
+    <License>
+        <!--  ########old表示使用原来的license策略，AdaptiveLM表示使用AdaptiveLM的license策略########  -->
+        <!--  old is use old license check rule, AdaptiveLM is use AdaptiveLM's license check rule  -->
+        <Strategy>AdaptiveLM</Strategy>
+        <!--  ########申请网管license时使用的产品名称########  -->
+        <!--  NMS license product name  -->
+        <ProductName>iManager U2000</ProductName>
+        <!--  ########申请网管license时使用的产品版本########  -->
+        <!--  NMS license version  -->
+        <ProductVersion>V200R017</ProductVersion>
+    </License>
+
+<InstallFolderName>InstallFolder2091855081</InstallFolderName>
+</InstallDisk>

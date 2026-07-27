@@ -1,0 +1,15 @@
+# engrlib.const: use for write software lib files
+
+# SQLServer install packages
+SQL2000_PATCH=patch\SQL2KSP4
+Windows_2003_EN=thirdparty\SQLServer\SQL2000_STD\SQL2000_STD_EN.zip
+Windows_2003_ZH=thirdparty\SQLServer\SQL2000_STD\SQL2000_STD_ZH.zip
+Windows_XP_EN=thirdparty\SQLServer\SQL2000_PER\SQL2000_PER_EN.zip
+Windows_XP_ZH=thirdparty\SQLServer\SQL2000_PER\SQL2000_PER_ZH.zip
+Windows_2008_EN=thirdparty\SQLServer\SQL2008_STD\SQL2008_STD_EN.zip
+Windows_2008_ZH=thirdparty\SQLServer\SQL2008_STD\SQL2008_STD_ZH.zip
+Windows_7_EN=thirdparty\SQLServer\SQL2008_EXP\SQL2008_EXP_EN.zip
+Windows_7_ZH=thirdparty\SQLServer\SQL2008_EXP\SQL2008_EXP_ZH.zip
+Windows_7_32bit_EN=thirdparty\SQLServer\SQL2008_EXP_32bit\SQL2008_EXP_32bit_EN.zip
+Windows_7_32bit_ZH=thirdparty\SQLServer\SQL2008_EXP_32bit\SQL2008_EXP_32bit_ZH.zip
+SQL2008_PATCH=patch\SQL2008SP1

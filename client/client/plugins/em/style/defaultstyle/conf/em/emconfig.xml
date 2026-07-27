@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="em">
+        <DESC descname="config">
+            <PARAS>
+                <!--true, pull model ; false ,push model-->
+                <PARA name="pull model" value="true" />
+                <PARA name="server port" value="31032" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

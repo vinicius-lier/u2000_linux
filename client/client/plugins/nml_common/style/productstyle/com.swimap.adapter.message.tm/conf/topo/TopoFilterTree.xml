@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="TopoFilterTree">
+   <DESC descname="FilterItem_DNINode">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_dni_node"/>
+           <PARA name="className" value="com.huawei.nml.common.topo.TNDNINodeFilter"/>
+       </PARAS>
+   </DESC>
+   <DESC descname="FilterItem_SNCPNode">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_sncp_node"/>
+           <PARA name="className" value="com.huawei.nml.common.topo.TNSNCPNodeFilter"/>
+       </PARAS>
+   </DESC>
+      <DESC descname="FilterItem_ClockType_Physical">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_ClockType_Physical"/>
+           <PARA name="className" value="com.huawei.nml.clock.TNClockTypeFilter"/>
+       </PARAS>
+   </DESC>
+      <DESC descname="FilterItem_ClockType_PON">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_ClockType_PON"/>
+           <PARA name="className" value="com.huawei.nml.clock.TNClockTypeFilter"/>
+       </PARAS>
+   </DESC>
+      <DESC descname="FilterItem_ClockType_PTP">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_ClockType_PTP"/>
+           <PARA name="className" value="com.huawei.nml.clock.TNClockTypeFilter"/>
+       </PARAS>
+   </DESC>
+      <DESC descname="FilterItem_ClockType_ACR">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_ClockType_ACR"/>
+           <PARA name="className" value="com.huawei.nml.clock.TNClockTypeFilter"/>
+       </PARAS>
+   </DESC>
+      <DESC descname="FilterItem_ClockTraceType_Current">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_ClockTraceType_Current"/>
+           <PARA name="className" value="com.huawei.nml.clock.TNClockTraceTypeFilter"/>
+       </PARAS>
+   </DESC>
+      <DESC descname="FilterItem_ClockTraceType_Backup">
+       <PARAS>
+           <PARA name="filterValue" value="TREE_CUSTOM_ClockTraceType_Backup"/>
+           <PARA name="className" value="com.huawei.nml.clock.TNClockTraceTypeFilter"/>
+       </PARAS>
+   </DESC>
+</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,2529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="IfmsRes"></PARA>
+			</PARAS>
+		</DESC>
+
+		<!--define a popupmenu for query alarm-->
+		<DESC descname="AlarmQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="AlarmQuery_PopUpMenu" />
+				<PARA name="name" value="AlarmQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC descname="AllSelect_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="AllSelect" />
+					<PARA name="command" type="" value="AllSelect" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="A"></PARA>
+					<!-- <PARA name="accelerator" value="C"/> -->
+					<PARA name="serialnumber" value="1000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1050"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Confirm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Confirm" />
+					<PARA name="command" type="" value="AlarmListConfirm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="C"></PARA>
+					<!-- <PARA name="accelerator" value="C"/> -->
+					<PARA name="serialnumber" value="1200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Linkage_Confirm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_ack" />
+					<PARA name="command" type="" value="LinkageAlarmListConfirm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="C"></PARA>
+					<!-- <PARA name="accelerator" value="C"/> -->
+					<PARA name="serialnumber" value="1250"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="UnConfirm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="UnConfirm" />
+					<PARA name="command" type="" value="AlarmListUnConfirm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="U"></PARA>
+					<!-- <PARA name="accelerator" type="" value="U"/> -->
+					<PARA name="serialnumber" value="1260"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Linkage_UnConfirm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_unack" />
+					<PARA name="command" type="" value="LinkageAlarmListUnConfirm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="U"></PARA>
+					<!-- <PARA name="accelerator" type="" value="U"/> -->
+					<PARA name="serialnumber" value="1270"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmRecoveryNo2device_Menu">
+				<PARAS>
+					<PARA name="name" type="" value="Recovery" />
+					<PARA name="command" type="" value="AlarmRecoveryNo2device" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="1280"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLinkageClearNo2Device_Menu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_clear_slightly" />
+					<PARA name="command" type="" value="AlarmLinkageClearNo2Device" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="1290"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmRecovery2device_Menu">
+				<PARAS>
+					<PARA name="name" type="" value="AlarmRecovery2device" />
+					<PARA name="command" type="" value="AlarmListRecovery" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="1300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLinkageClear_Menu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_clear" />
+					<PARA name="command" type="" value="AlarmLinkageClear" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="1350"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Shield_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Shield_Alarm" />
+					<PARA name="command" type="" value="AlarmShield" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="1400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FrequenceAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="serialnumber" value="1420"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FlashAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FlashAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="1440"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Synchronize_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Synchronize" />
+					<PARA name="command" type="" value="AlarmListSynchronize" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="K"></PARA>
+					<PARA name="serialnumber" value="1500"></PARA>
+				</PARAS>
+			</DESC>
+            <DESC descname="ModifyLevel_PopUpMenu">
+                <PARAS>
+                    <PARA name="name" type="" value="ModifyLevel" />
+                    <PARA name="command" type="" value="ModifyAlarmLevel" />
+                    <PARA name="type" type="" value="JMenuItem" />
+                    <PARA name="mnemonic" value="I"></PARA>
+                    <PARA name="serialnumber" value="1550"></PARA>
+                </PARAS>
+            </DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1620"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RootAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="RootAlarmLog"></PARA>
+					<PARA name="command" type="" value="RootAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="serialnumber" value="1750"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="MaskAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="MaskAlarmLog"></PARA>
+					<PARA name="command" type="" value="MaskAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Y"></PARA>
+					<PARA name="serialnumber" value="1800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RelatedLog">
+				<PARAS>
+					<PARA name="name" type="" value="RelatedLog"></PARA>
+					<PARA name="command" type="" value="RelatedLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Q"></PARA>
+					<PARA name="serialnumber" value="1850"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="MergeLog">
+				<PARAS>
+					<PARA name="name" type="" value="MergeLog"></PARA>
+					<PARA name="command" type="" value="MergeLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="G"></PARA>
+					<PARA name="serialnumber" value="1900"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogInnerView">
+				<PARAS>
+					<PARA name="name" type="" value="LogInnerView"></PARA>
+					<PARA name="type" type="" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1910"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator3">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1930"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="name" type="" value="LogDetail"></PARA>
+					<PARA name="command" type="" value="LogDetail" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1940"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Experience">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateExperience"></PARA>
+					<PARA name="command" type="" value="UpdateExperience" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="X"></PARA>
+					<PARA name="serialnumber" value="1950"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Memo">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateMemo"></PARA>
+					<PARA name="command" type="" value="UpdateMemo" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="serialnumber" value="2000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator4">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2010"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- Remote Notify Popup Menu -->
+			<DESC descname="SendNotification">
+				<PARAS>
+					<PARA name="name" value="SendNotification"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="command" value="SendEmailNotification"></PARA>
+					<PARA name="serialnumber" value="2100"></PARA>
+				</PARAS>
+				<DESC descname="SendEmailNotification">
+					<PARAS>
+						<PARA name="name" value="SendEmailNotification"></PARA>
+						<PARA name="command" value="SendEmailNotification"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="E"></PARA>
+						<PARA name="serialnumber" value="2100-100"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="SendSMSNotification">
+					<PARAS>
+						<PARA name="name" value="SendSMSNotification"></PARA>
+						<PARA name="command" value="SendSMSNotification"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="serialnumber" value="2100-200"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Separator5">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2110"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Save">
+				<PARAS>
+					<PARA name="name" value="Save"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="2510"></PARA>
+				</PARAS>
+			    <DESC descname="SaveSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveSelectedAlarm" />
+					    <PARA name="command" type="" value="SaveSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2510-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="SaveAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveAllRecord" />
+					    <PARA name="command" type="" value="SaveAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2510-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Print">
+				<PARAS>
+					<PARA name="name" value="Print"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2520"></PARA>
+				</PARAS>
+			    <DESC descname="PrintSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintSelectedAlarm" />
+					    <PARA name="command" type="" value="PrintSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2520-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="PrintAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintAllRecord" />
+					    <PARA name="command" type="" value="PrintAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2520-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Separator6">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2530"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator7">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="5000"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<!--define a popupmenu for event alarm-->
+		<DESC descname="EventQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="EventQuery_PopUpMenu" />
+				<PARA name="name" value="EventQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC descname="AllSelect_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="AllSelect" />
+					<PARA name="command" type="" value="AllSelect" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="1000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1050"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Shield_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Shield_Alarm" />
+					<PARA name="command" type="" value="AlarmShield" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="1400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FrequenceAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="serialnumber" value="1420"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RepeatEventAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="RepeatEventAnalysis"></PARA>
+					<PARA name="command" type="" value="RepeatEventAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="1460"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Event2ADMC_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Event2ADMC" />
+					<PARA name="command" type="" value="TransferEvent2ADMC" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="1460"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1620"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogInnerView">
+				<PARAS>
+					<PARA name="name" type="" value="LogInnerView"></PARA>
+					<PARA name="type" type="" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1910"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="name" type="" value="LogDetail"></PARA>
+					<PARA name="command" type="" value="LogDetail" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1940"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Experience">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateExperience"></PARA>
+					<PARA name="command" type="" value="UpdateExperience" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="X"></PARA>
+					<PARA name="serialnumber" value="1950"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Memo">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateMemo"></PARA>
+					<PARA name="command" type="" value="UpdateMemo" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="serialnumber" value="2000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator3">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2010"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SendNotification">
+				<PARAS>
+					<PARA name="name" value="SendNotification"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="command" value="SendEmailNotification"></PARA>
+					<PARA name="serialnumber" value="2100"></PARA>
+				</PARAS>
+				<DESC descname="SendEmailNotification">
+					<PARAS>
+						<PARA name="name" value="SendEmailNotification"></PARA>
+						<PARA name="command" value="SendEmailNotification"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="E"></PARA>
+						<PARA name="serialnumber" value="2100-100"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="SendSMSNotification">
+					<PARAS>
+						<PARA name="name" value="SendSMSNotification"></PARA>
+						<PARA name="command" value="SendSMSNotification"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="serialnumber" value="2100-200"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Separator4">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2110"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Save">
+				<PARAS>
+					<PARA name="name" value="Save"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="2510"></PARA>
+				</PARAS>
+			    <DESC descname="SaveSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveSelectedAlarm" />
+					    <PARA name="command" type="" value="SaveSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2510-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="SaveAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveAllRecord" />
+					    <PARA name="command" type="" value="SaveAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2510-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Print">
+				<PARAS>
+					<PARA name="name" value="Print"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2520"></PARA>
+				</PARAS>
+			    <DESC descname="PrintSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintSelectedAlarm" />
+					    <PARA name="command" type="" value="PrintSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2520-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="PrintAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintAllRecord" />
+					    <PARA name="command" type="" value="PrintAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2520-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Separator5">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2530"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<!--define a popupmenu for history alarm-->
+		<DESC descname="HistoryQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="HistoryQuery_PopUpMenu" />
+				<PARA name="name" value="HistoryQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+			<DESC descname="AllSelect_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="AllSelect" />
+					<PARA name="command" type="" value="AllSelect" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="A"></PARA>
+					<!-- <PARA name="accelerator" value="C"/> -->
+					<PARA name="serialnumber" value="1000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1050"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Shield_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Shield_Alarm" />
+					<PARA name="command" type="" value="AlarmShield" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="1400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FrequenceAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="serialnumber" value="1420"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FlashAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FlashAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="1440"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Synchronize_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Synchronize" />
+					<PARA name="command" type="" value="AlarmLogSynchronize" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="K"></PARA>
+					<PARA name="serialnumber" value="1500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1620"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RootAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="RootAlarmLog"></PARA>
+					<PARA name="command" type="" value="RootAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="serialnumber" value="1750"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="MaskAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="MaskAlarmLog"></PARA>
+					<PARA name="command" type="" value="MaskAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Y"></PARA>
+					<PARA name="serialnumber" value="1800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RelatedLog">
+				<PARAS>
+					<PARA name="name" type="" value="RelatedLog"></PARA>
+					<PARA name="command" type="" value="RelatedLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Q"></PARA>
+					<PARA name="serialnumber" value="1850"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogInnerView">
+				<PARAS>
+					<PARA name="name" type="" value="LogInnerView"></PARA>
+					<PARA name="type" type="" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1910"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="name" type="" value="LogDetail"></PARA>
+					<PARA name="command" type="" value="LogDetail" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1940"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Experience">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateExperience"></PARA>
+					<PARA name="command" type="" value="UpdateExperience" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="X"></PARA>
+					<PARA name="serialnumber" value="1950"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Memo">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateMemo"></PARA>
+					<PARA name="command" type="" value="UpdateMemo" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="serialnumber" value="2000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator3">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2010"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SendNotification">
+				<PARAS>
+					<PARA name="name" value="SendNotification"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="command" value="SendEmailNotification"></PARA>
+					<PARA name="serialnumber" value="2100"></PARA>
+				</PARAS>
+				<DESC descname="SendEmailNotification">
+					<PARAS>
+						<PARA name="name" value="SendEmailNotification"></PARA>
+						<PARA name="command" value="SendEmailNotification"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="E"></PARA>
+						<PARA name="serialnumber" value="2100-100"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="SendSMSNotification">
+					<PARAS>
+						<PARA name="name" value="SendSMSNotification"></PARA>
+						<PARA name="command" value="SendSMSNotification"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="serialnumber" value="2100-200"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Separator4">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2110"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LocateInActiveCurrentAlarm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="LocateInActiveCurrentAlarm" />
+					<PARA name="command" type="" value="LocateInActiveCurrentAlarm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="Q"></PARA>
+					<PARA name="serialnumber" value="2160"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Save">
+				<PARAS>
+					<PARA name="name" value="Save"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="2510"></PARA>
+				</PARAS>
+			    <DESC descname="SaveSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveSelectedAlarm" />
+					    <PARA name="command" type="" value="SaveSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2510-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="SaveAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveAllRecord" />
+					    <PARA name="command" type="" value="SaveAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2510-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Print">
+				<PARAS>
+					<PARA name="name" value="Print"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2520"></PARA>
+				</PARAS>
+			    <DESC descname="PrintSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintSelectedAlarm" />
+					    <PARA name="command" type="" value="PrintSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2520-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="PrintAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintAllRecord" />
+					    <PARA name="command" type="" value="PrintAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2520-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Separator5">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2530"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator6">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="5000"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+        <!--define a popupmenu for history alarm-->
+		<DESC descname="HistoryLog_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="HistoryQuery_PopUpMenu" />
+				<PARA name="name" value="HistoryQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+			<DESC descname="AllSelect_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="AllSelect" />
+					<PARA name="command" type="" value="AllSelect" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="A"></PARA>
+		            <!-- <PARA name="accelerator" value="C"/> -->
+					<PARA name="serialnumber" value="1000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1050"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Shield_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Shield_Alarm" />
+					<PARA name="command" type="" value="AlarmShield" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="1400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FrequenceAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FrequenceAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="serialnumber" value="1420"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashAlarmAnalysis">
+			    <PARAS>
+				    <PARA name="name" type="" value="FlashAlarmAnalysis"></PARA>
+					<PARA name="command" type="" value="FlashAlarmAnalysis"></PARA>
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="1440"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1620"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RootAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="RootAlarmLog"></PARA>
+					<PARA name="command" type="" value="RootAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="serialnumber" value="1750"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="MaskAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="MaskAlarmLog"></PARA>
+					<PARA name="command" type="" value="MaskAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Y"></PARA>
+					<PARA name="serialnumber" value="1800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RelatedLog">
+				<PARAS>
+					<PARA name="name" type="" value="RelatedLog"></PARA>
+					<PARA name="command" type="" value="RelatedLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Q"></PARA>
+					<PARA name="serialnumber" value="1850"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogInnerView">
+				<PARAS>
+					<PARA name="name" type="" value="LogInnerView"></PARA>
+					<PARA name="type" type="" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1910"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="name" type="" value="LogDetail"></PARA>
+					<PARA name="command" type="" value="LogDetail" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1940"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Experience">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateExperience"></PARA>
+					<PARA name="command" type="" value="UpdateExperience" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="X"></PARA>
+					<PARA name="serialnumber" value="1950"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Memo">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateMemo"></PARA>
+					<PARA name="command" type="" value="UpdateMemo" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="serialnumber" value="2000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator3">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2010"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Save">
+				<PARAS>
+					<PARA name="name" value="Save"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="2510"></PARA>
+				</PARAS>
+			    <DESC descname="SaveSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveSelectedAlarm" />
+					    <PARA name="command" type="" value="SaveSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2510-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="SaveAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveAllRecord" />
+					    <PARA name="command" type="" value="SaveAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2510-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Print">
+				<PARAS>
+					<PARA name="name" value="Print"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2520"></PARA>
+				</PARAS>
+			    <DESC descname="PrintSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintSelectedAlarm" />
+					    <PARA name="command" type="" value="PrintSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2520-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="PrintAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintAllRecord" />
+					    <PARA name="command" type="" value="PrintAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2520-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+		</DESC>
+		<!--define a popupmenu for correlative alarm-->
+		<DESC descname="CorrelativeQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="CorrelativeQuery_PopUpMenu" />
+				<PARA name="name" value="CorrelativeQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+			<!--
+			<DESC descname="Synchronize_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Synchronize" />
+					<PARA name="command" type="" value="AlarmLogSynchronize" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="K"></PARA>
+					<PARA name="serialnumber" value="1500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Shield_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Shield" />
+					<PARA name="command" type="" value="AlarmShield" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="1400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1620"></PARA>
+				</PARAS>
+			</DESC>
+			-->
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="name" type="" value="LogDetail"></PARA>
+					<PARA name="command" type="" value="LogDetail" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1940"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Experience">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateExperience"></PARA>
+					<PARA name="command" type="" value="UpdateExperience" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="X"></PARA>
+					<PARA name="serialnumber" value="1950"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Memo">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateMemo"></PARA>
+					<PARA name="command" type="" value="UpdateMemo" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="serialnumber" value="2000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator5">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2110"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LocateInCurrentAlarm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="LocateInCurrentAlarm" />
+					<PARA name="command" type="" value="LocateInCurrentAlarm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2150"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SaveAllRecord_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="SaveAllRecordSub" />
+					<PARA name="command" type="" value="SaveAllRecord" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="2515"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="PrintAllRecord_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="PrintAllRecordSub" />
+					<PARA name="command" type="" value="PrintAllRecord" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2525"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<!-- define a popupmenu for filter query -->
+		<!-- deleted by V3R1C01B01 story: correlation optimization -->
+		<!--
+		<DESC descname="FilterQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="FilterQuery_PopUpMenu" />
+				<PARA name="name" value="FilterQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="mnemonic" value="Q"></PARA>
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+			<DESC descname="RootAlarmLog">
+				<PARAS>
+					<PARA name="name" type="" value="RootAlarmLog"></PARA>
+					<PARA name="command" type="" value="RootAlarmLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Q"></PARA>
+					<PARA name="serialnumber" value="130"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RootEventLog">
+				<PARAS>
+					<PARA name="name" type="" value="RootEventLog"></PARA>
+					<PARA name="command" type="" value="RootEventLog" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Y"></PARA>
+					<PARA name="serialnumber" value="140"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="name" type="" value="LogDetail"></PARA>
+					<PARA name="command" type="" value="LogDetail" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="150"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Experience">
+				<PARAS>
+					<PARA name="name" type="" value="UpdateExperience"></PARA>
+					<PARA name="command" type="" value="UpdateExperience" />
+					<PARA name="type" type="" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="X"></PARA>
+					<PARA name="serialnumber" value="160"></PARA>
+				</PARAS>
+			</DESC><DESC descname="Separator">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="170"></PARA>
+				</PARAS>
+			</DESC><DESC descname="Save">
+				<PARAS>
+					<PARA name="name" value="Save"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="180"></PARA>
+				</PARAS>
+			    <DESC descname="SaveSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveSelectedAlarm" />
+					    <PARA name="command" type="" value="SaveSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2510-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="SaveAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="SaveAllRecord" />
+					    <PARA name="command" type="" value="SaveAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2510-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+			<DESC descname="Print">
+				<PARAS>
+					<PARA name="name" value="Print"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="190"></PARA>
+				</PARAS>
+			    <DESC descname="PrintSelectedAlarm_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintSelectedAlarm" />
+					    <PARA name="command" type="" value="PrintSelectedAlarm" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="S"></PARA>
+					    <PARA name="serialnumber" value="2520-100"></PARA>
+				    </PARAS>
+			    </DESC>
+			    <DESC descname="PrintAllRecord_PopUpMenu">
+				    <PARAS>
+					    <PARA name="name" type="" value="PrintAllRecord" />
+					    <PARA name="command" type="" value="PrintAllRecord" />
+					    <PARA name="type" type="" value="JMenuItem" />
+					    <PARA name="mnemonic" value="A"></PARA>
+					    <PARA name="serialnumber" value="2520-200"></PARA>
+				    </PARAS>
+			    </DESC>
+			</DESC>
+		</DESC>
+		-->
+
+		<!--define a popupmenu for history alarm-->
+		<!--
+		<DESC descname="NavigateTreePanel_PopupMenu">
+			<PARAS>
+				<PARA name="id" value="NavigateTreePanel_PopupMenu" />
+				<PARA name="name" value="NavigateTreePanel_PopupMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="400"></PARA>
+			</PARAS>
+			<DESC descname="NavigateTreeSynchronize">
+				<PARAS>
+					<PARA name="name" type="" value="Refresh_Navigate_Tree" />
+					<PARA name="command" type="" value="NavigateTreeSynchronize" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="accelerator" type="" value="R"/>
+					<PARA name="serialnumber" value="400-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="NESynchronize">
+				<PARAS>
+					<PARA name="name" type="" value="NE_Synchronize" />
+					<PARA name="command" type="" value="NESynchronize" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="accelerator" type="" value="N"/>
+					<PARA name="serialnumber" value="400-200"></PARA>
+				</PARAS>
+			</DESC>
+			</DESC>
+		-->
+		<DESC descname="AlarmBoard_PopupMenu_Stop">
+			<PARAS>
+				<PARA name="id" value="AlarmBoard_PopupMenu_Stop" />
+				<PARA name="name" value="AlarmBoard_PopupMenu_Stop" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="500"></PARA>
+			</PARAS>
+			<DESC descname="StopAlarmBoardSound">
+				<PARAS>
+					<PARA name="name" type="" value="Stop_Alarm_Board_Sound" />
+					<PARA name="command" type="" value="StopAlarmBoardSound" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" type="" value="S" />
+					<PARA name="serialnumber" value="500-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="StopAlarmBoardFlash">
+				<PARAS>
+					<PARA name="name" type="" value="Stop_Alarm_Board_Flash" />
+					<PARA name="command" type="" value="StopAlarmBoardFlash" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="accelerator" type="" value="F" />
+					<PARA name="serialnumber" value="500-200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="AlarmBoard_PopupMenu_StartSound">
+			<PARAS>
+				<PARA name="id" value="AlarmBoard_PopupMenu_StartSound" />
+				<PARA name="name" value="AlarmBoard_PopupMenu_StartSound" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="600"></PARA>
+			</PARAS>
+			<DESC descname="StopAlarmBoardSound">
+				<PARAS>
+					<PARA name="name" type="" value="Start_Alarm_Board_Sound" />
+					<PARA name="command" type="" value="StopAlarmBoardSound" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" type="" value="S" />
+					<PARA name="serialnumber" value="600-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="StopAlarmBoardFlash">
+				<PARAS>
+					<PARA name="name" type="" value="Stop_Alarm_Board_Flash" />
+					<PARA name="command" type="" value="StopAlarmBoardFlash" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="accelerator" type="" value="F" />
+					<PARA name="serialnumber" value="600-200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="AlarmBoard_PopupMenu_StartFlash">
+			<PARAS>
+				<PARA name="id" value="AlarmBoard_PopupMenu_StartFlash" />
+				<PARA name="name" value="AlarmBoard_PopupMenu_StartFlash" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="700"></PARA>
+			</PARAS>
+			<DESC descname="StopAlarmBoardSound">
+				<PARAS>
+					<PARA name="name" type="" value="Stop_Alarm_Board_Sound" />
+					<PARA name="command" type="" value="StopAlarmBoardSound" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" type="" value="S" />
+					<PARA name="serialnumber" value="700-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="StopAlarmBoardFlash">
+				<PARAS>
+					<PARA name="name" type="" value="Start_Alarm_Board_Flash" />
+					<PARA name="command" type="" value="StopAlarmBoardFlash" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="accelerator" type="" value="F" />
+					<PARA name="serialnumber" value="700-200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="AlarmBoard_PopupMenu_Start">
+			<PARAS>
+				<PARA name="id" value="AlarmBoard_PopupMenu_Start" />
+				<PARA name="name" value="AlarmBoard_PopupMenu_Start" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="800"></PARA>
+			</PARAS>
+			<DESC descname="StopAlarmBoardSound">
+				<PARAS>
+					<PARA name="name" type="" value="Start_Alarm_Board_Sound" />
+					<PARA name="command" type="" value="StopAlarmBoardSound" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" type="" value="S" />
+					<PARA name="serialnumber" value="800-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="StopAlarmBoardFlash">
+				<PARAS>
+					<PARA name="name" type="" value="Start_Alarm_Board_Flash" />
+					<PARA name="command" type="" value="StopAlarmBoardFlash" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="accelerator" type="" value="F" />
+					<PARA name="serialnumber" value="800-200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="CustomCorrelationRulePanel_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="1500"></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2200-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2200-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2200-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2200-600"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="propertyCorrelationRule"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2200-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="deleteCorrelationRule"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2200-900"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="InternalCorrelation_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="1500"></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2200-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2200-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2200-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_customCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2200-600"></PARA>
+				</PARAS>
+			</DESC>
+			<!--
+			<DESC descname="Separator">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="propertyCorrelationRule"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2200-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="deleteCorrelationRule"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2200-900"></PARA>
+				</PARAS>
+			</DESC>
+			 -->
+		</DESC>
+		<DESC descname="SynchronizeTopoObject_PopMenu">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="1600"></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC>
+				<PARAS>
+					<PARA name="name" value="NE_Synchronize"></PARA>
+					<PARA name="command" value="NESynchronize"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="N"></PARA>
+					<!-- <PARA name="accelerator" type="" value="N"/> -->
+					<PARA name="serialnumber" value="1600-100"></PARA>
+				</PARAS>
+			</DESC>
+			<!--
+				<DESC descname="Separator"> <PARAS> <PARA name="name"
+				value="Separator"></PARA> <PARA name="type"
+				value="Separator"></PARA> </PARAS> </DESC> <DESC> <PARAS> <PARA
+				name="name" value="Link Synchronize"></PARA> <PARA name="command"
+				value="LinkSynchronize"></PARA> <PARA name="type"
+				value="JMenuItem"></PARA> <PARA name="mnemonic" value="L"></PARA>
+				<PARA name="accelerator" type="" value="L"/> </PARAS> </DESC>
+			-->
+		</DESC>
+		<DESC descname="IfmsInternalFrame_Tab_PopMenu">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="1700"></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC>
+				<PARAS>
+					<PARA name="name" value="Fault_Browse"></PARA>
+					<PARA name="command" value="BrowseFaultAlarmInSubWindow"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="accelerator" value="VK_R"></PARA>
+					<PARA name="serialnumber" value="1700-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC>
+				<PARAS>
+					<PARA name="name" value="Event_Browse"></PARA>
+					<PARA name="command" value="BrowseEventAlarmInSubWindow"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="O"></PARA>
+					<PARA name="accelerator" value="VK_O"></PARA>
+					<PARA name="serialnumber" value="1700-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Query">
+				<PARAS>
+					<PARA name="name" value="Query"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="Q"></PARA>
+					<PARA name="accelerator" value="VK_Q"></PARA>
+					<PARA name="serialnumber" value="1700-200"></PARA>
+				</PARAS>
+				<DESC descname="Fault Query">
+					<PARAS>
+						<PARA name="name" value="Fault_Query"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="FaultQueryInSubWindow"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="C"></PARA>
+						<PARA name="accelerator" value="VK_C"></PARA>
+						<PARA name="serialnumber" value="1700-200-100"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="Event Query">
+					<PARAS>
+						<PARA name="name" value="Event_Query"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="EventQueryInSubWindow"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="E"></PARA>
+						<PARA name="accelerator" value="VK_E"></PARA>
+						<PARA name="serialnumber" value="1700-200-200"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="History Query">
+					<PARAS>
+						<PARA name="name" value="History_Query"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="HistoryQueryInSubWindow"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="H"></PARA>
+						<PARA name="accelerator" value="VK_H"></PARA>
+						<PARA name="serialnumber" value="1700-200-300"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="FilterAlarm Query">
+					<PARAS>
+						<PARA name="name" value="FilterAlarm_Query"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="FilterAlarmQueryInSubWindow"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="accelerator" value="VK_S"></PARA>
+						<PARA name="serialnumber" value="1700-200-400"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1700-300"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="RealTimeStatisticInternalFrame_PopUpMenu">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="1800"></PARA>
+			</PARAS>
+			<DESC descname="Filter_menuItem_id">
+				<PARAS>
+					<PARA name="name" value="Query_Cell_Menu"></PARA>
+					<PARA name="command" value="ShowPopupMenu"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="Q"></PARA>
+					<!-- <PARA name="accelerator" type="" value="I"/> -->
+					<PARA name="serialnumber" value="1800-100"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<!--    simple right click pop menu -->
+		<DESC descname="simpleCorrelation_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="1900"></PARA>
+			</PARAS>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_simpleCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="1900-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_simpleCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="1900-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_simpleCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="1900-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_simpleCorrelation"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="1900-400"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<!-- alarm filter right click menu -->
+		<DESC descname="alarmFilter_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2000"></PARA>
+			</PARAS>
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2200-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2200-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2200-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2200-600"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="propertyAlarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2200-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="AlarmFilterDelButton"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2200-900"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="operationLogs_Record">
+				<PARAS>
+					<PARA name="name" value="operationLogs_Record"></PARA>
+					<PARA name="command" value="AlarmFilterOperationLogs"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="O"></PARA>
+					<PARA name="serialnumber" value="2200-1000"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<DESC descname="severityRedefine_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2100"></PARA>
+			</PARAS>
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_levelRedefine"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1700-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_levelRedefine"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2100-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_levelRedefine"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2100-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_levelRedefine"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2100-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_levelRedefine"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2100-600"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2100-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="propertyLevelRedefine"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2100-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="LevelRedefineDelButton"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2100-900"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="remoteNotify_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2200"></PARA>
+			</PARAS>
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2200-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2200-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2200-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2200-600"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2200-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="property_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2200-800"></PARA>
+				</PARAS>
+			</DESC>
+			<!--  <DESC descname="add_Record">
+				<PARAS>
+					<PARA name="name" value="add_Record"></PARA>
+					<PARA name="command" value="add_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="serialnumber" value="2200-900"></PARA>
+				</PARAS>
+			</DESC>-->
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="delete_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2200-950"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="autoAck_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2300"></PARA>
+			</PARAS>
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1700-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="property_AutoAck"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2200-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="delete_AutoAck"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2200-900"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="postprocessing_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2400"></PARA>
+			</PARAS>
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_remoteNotify"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2200-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1700-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_post"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2400-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_post"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2400-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_post"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2400-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_post"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2400-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="1700-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="propertyPostprocess"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2200-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="PostDelButton"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2200-900"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="template_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2500"></PARA>
+			</PARAS>
+			<DESC descname="open_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Open"></PARA>
+					<PARA name="command" value="template_open_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="O"></PARA>
+					<PARA name="serialnumber" value="2500-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="new_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_New"></PARA>
+					<PARA name="command" value="template_new_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2500-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Delete"></PARA>
+					<PARA name="command" value="template_delete_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2500-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="saveas_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Saveas"></PARA>
+					<PARA name="command" value="template_saveas_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="2500-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="rename_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Rename"></PARA>
+					<PARA name="command" value="template_rename_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2500-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Property"></PARA>
+					<PARA name="command" value="template_property_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2500-600"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2500-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="monitor_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Set_Monitor"></PARA>
+					<PARA name="command" value="template_set_monitor_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="itemType" value="CheckBox" />
+					<PARA name="serialnumber" value="2500-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="default_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Set_Default"></PARA>
+					<PARA name="command" value="template_set_default_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="itemType" value="CheckBox" />
+					<PARA name="serialnumber" value="2500-900"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="autoload_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Set_Autoload"></PARA>
+					<PARA name="command" value="template_set_autoload_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="itemType" value="CheckBox" />
+					<PARA name="serialnumber" value="2500-1000"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="specific_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Set_Specific"></PARA>
+					<PARA name="command" value="template_set_specific_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="K"></PARA>
+					<PARA name="itemType" value="CheckBox" />
+					<PARA name="serialnumber" value="2500-1050"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2500-1100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="share_template">
+				<PARAS>
+					<PARA name="name" value="template_popupMenu_Set_Share"></PARA>
+					<PARA name="command" value="template_set_share_action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="itemType" value="CheckBox" />
+					<PARA name="serialnumber" value="2500-1200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="notifySetting_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2600"></PARA>
+			</PARAS>
+			<DESC descname="format_Setting">
+				<PARAS>
+					<PARA name="name" value="DeviceCommunicationSettings"></PARA>
+					<PARA name="command" value="set_notify_format"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="F"></PARA>
+					<PARA name="serialnumber" value="2600-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delay_Setting">
+				<PARAS>
+					<PARA name="name" value="RmoteNotify_DelaySetting"></PARA>
+					<PARA name="command" value="set_notify_delay"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2600-200"></PARA>
+				</PARAS>
+			</DESC>
+
+			<DESC descname="params_Setting">
+				<PARAS>
+					<PARA name="name" value="RmoteNotify_ParamsSetting"></PARA>
+					<PARA name="command" value="set_notify_params"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="C"></PARA>
+					<PARA name="serialnumber" value="2600-300"></PARA>
+				</PARAS>
+			</DESC>
+
+			<DESC descname="set_flowcontrol">
+				<PARAS>
+					<PARA name="name" value="set_flowcontrol_name"></PARA>
+					<PARA name="command" value="set_flowcontrol_cmd"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="W"></PARA>
+					<PARA name="serialnumber" value="2600-500"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<!-- northbound filter right click menu -->
+		<DESC descname="NorthboundFilter_rightClick_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="2700"></PARA>
+			</PARAS>
+			<DESC descname="selectAll_Record">
+				<PARAS>
+					<PARA name="name" value="selectAll_Record"></PARA>
+					<PARA name="command" value="selectAll_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="2700-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator1">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2700-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_Record">
+				<PARAS>
+					<PARA name="name" value="activePart_Record"></PARA>
+					<PARA name="command" value="activePart_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="serialnumber" value="2700-300"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_Record">
+				<PARAS>
+					<PARA name="name" value="deactivePart_Record"></PARA>
+					<PARA name="command" value="deactivePart_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="B"></PARA>
+					<PARA name="serialnumber" value="2700-400"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_Record">
+				<PARAS>
+					<PARA name="name" value="activeAll_Record"></PARA>
+					<PARA name="command" value="activeAll_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="2700-500"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_Record">
+				<PARAS>
+					<PARA name="name" value="deactiveAll_Record"></PARA>
+					<PARA name="command" value="deactiveAll_alarmFilter"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="2700-600"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Separator2">
+				<PARAS>
+					<PARA name="name" value="Separator"></PARA>
+					<PARA name="type" value="Separator"></PARA>
+					<PARA name="serialnumber" value="2700-700"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_Record">
+				<PARAS>
+					<PARA name="name" value="property_Record"></PARA>
+					<PARA name="command" value="NorthboundFilterProButton"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="2700-800"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_Record">
+				<PARAS>
+					<PARA name="name" value="delete_Record"></PARA>
+					<PARA name="command" value="NorthboundFilterDelButton"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="2700-900"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<!--topo alarm popup menu : Start-->
+		<DESC descname="TopoAlarm_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="TopoAlarm_PopUpMenu" />
+				<PARA name="name" value="TopoAlarm_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC descname="QueryTopoAlarm_MenuItem">
+				<PARAS>
+					<PARA name="name" value="QueryTopoAlarm_MenuItem"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="100-20"></PARA>
+				</PARAS>
+				<DESC descname="QueryAlarmList_MenuItem">
+					<PARAS>
+						<PARA name="name" value="QueryAlarmList_MenuItem"></PARA>
+						<PARA name="command" value="QueryAlarmList_MenuAction"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="A"></PARA>
+						<PARA name="serialnumber" value="100-20-10"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="QueryAlarmLog_MenuItem">
+					<PARAS>
+						<PARA name="name" value="QueryAlarmLog_MenuItem"></PARA>
+						<PARA name="command" value="QueryAlarmLog_MenuAction"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="L"></PARA>
+						<PARA name="serialnumber" value="100-20-20"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="QueryEventLog_MenuItem">
+					<PARAS>
+						<PARA name="name" value="QueryEventLog_MenuItem"></PARA>
+						<PARA name="command" value="QueryEventLog_MenuAction"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="E"></PARA>
+						<PARA name="serialnumber" value="100-20-30"></PARA>
+					</PARAS>
+				</DESC>
+				<!-- deleted by V3R1C01B01 story: correlation optimization -->
+				<!--
+				<DESC descname="QueryShieldedAlarm_MenuItem">
+					<PARAS>
+						<PARA name="name" value="QueryShieldedAlarm_MenuItem"></PARA>
+						<PARA name="command" value="QueryShieldedAlarm_MenuAction"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="serialnumber" value="100-100-40"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="QueryShieldedEvent_MenuItem">
+					<PARAS>
+						<PARA name="name" value="QueryShieldedEvent_MenuItem"></PARA>
+						<PARA name="command" value="QueryShieldedEvent_MenuAction"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="D"></PARA>
+						<PARA name="serialnumber" value="100-100-50"></PARA>
+					</PARAS>
+				</DESC>
+                                -->
+			</DESC>
+		</DESC>
+		<!--topo alarm popup menu : end-->
+
+		<!--topo alarm popup menu : end-->
+		<DESC descname="Ne_Synchronize_Popup">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			<DESC descname="Ne_Synchronize_Popup">
+				<PARAS>
+					<PARA name="name" value="Ne_Synchronize_Popup"></PARA>
+					<PARA name="command" value="Ne_Synchronize_Action"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="100-10-10"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<!--object group popup menu : start-->
+		<DESC descname="objectGroup_PopUp_MenuId">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			<DESC descname="add">
+				<PARAS>
+					<PARA name="name" value="addObjectGroup"></PARA>
+					<PARA name="command" value="addObjectGroup"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="A"></PARA>
+					<PARA name="serialnumber" value="100-10"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete">
+				<PARAS>
+					<PARA name="name" value="delObjectGroup"></PARA>
+					<PARA name="command" value="delObjectGroup"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="100-20"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="attribute">
+				<PARAS>
+					<PARA name="name" value="modifyObjectGroup"></PARA>
+					<PARA name="command" value="modifyObjectGroup"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="100-30"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="synchronize">
+				<PARAS>
+					<PARA name="name" value="synObjectGroup"></PARA>
+					<PARA name="command" value="synObjectGroup"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="100-40"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="refresh">
+				<PARAS>
+					<PARA name="name" value="refreshObjectGroup"></PARA>
+					<PARA name="command" value="refreshObjectGroup"></PARA>
+					<PARA name="type" value="JMenuItem"></PARA>
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="100-50"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<!--object group popup menu : end-->
+		<DESC descname="QueryTableHead_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="QueryTableHead_PopUpMenu" />
+				<PARA name="name" value="QueryTableHead_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="mnemonic" value=""></PARA>
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			<DESC descname="ConfigAlarmShowingItem_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Config_alarm_column" />
+					<PARA name="command" type="" value="AlarmConfigColumn" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="C"></PARA>
+					<PARA name="serialnumber" value="100-10"></PARA>
+				</PARAS>
+			</DESC>
+			<!--
+			<DESC descname="ConfigMixSortSettingItem_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="Config_mix_sort_setting" />
+					<PARA name="command" type="" value="mixSortAlarmConfig" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="M"></PARA>
+					<PARA name="serialnumber" value="100-20"></PARA>
+				</PARAS>
+			</DESC>
+			-->
+			<DESC descname="TimeType">
+				<PARAS>
+					<PARA name="name" value="timeType"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="100-30"></PARA>
+				</PARAS>
+				<DESC descname="NETime">
+					<PARAS>
+						<PARA name="name" value="NETime_titleCaps"></PARA>
+						<PARA name="command" value="displayNETime"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="N"></PARA>
+						<PARA name="itemType" value="RadioButton" />
+						<PARA name="serialnumber" value="100-30-10"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="serverTime">
+					<PARAS>
+						<PARA name="name" value="serverTime_titleCaps"></PARA>
+						<PARA name="command" value="displayServerTime"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="itemType" value="RadioButton" />
+						<PARA name="serialnumber" value="100-30-20"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="clientTime">
+					<PARAS>
+						<PARA name="name" value="clientTime_titleCaps"></PARA>
+						<PARA name="command" value="displayClientTime"></PARA>
+						<PARA name="type" type="" value="JMenuItem" />
+						<PARA name="mnemonic" value="C"></PARA>
+						<PARA name="itemType" value="RadioButton" />
+						<PARA name="serialnumber" value="100-30-30"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

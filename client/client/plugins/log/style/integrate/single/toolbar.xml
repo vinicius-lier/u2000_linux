@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+
+<!--define a Toolbar
+menuSet:
+        descname as the menuSet's id, must be unique.
+        must have a type para, and the value is "MenuSet"
+
+JMenu:(super class must be JMenu)
+        descname as the menuID.
+        must hava a type para, and the value is "JMenu"
+
+JMenu's sub element 
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+-->
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="Res"></PARA>
+    </PARAS>
+</DESC>
+
+<!--define a ToolbarGroup-->
+<DESC descname="mainTool">
+    <PARAS>
+    <PARA name="name" value="main Tool"></PARA>
+    <PARA name="type" value="ToolGroupSet"></PARA>
+    <PARA name="serialnumber" value="100"></PARA>
+    </PARAS>
+    
+    <DESC descname="Security">
+        <PARAS>
+        <PARA name="name" value="LogToolbar"></PARA>
+        <PARA name="type" value="JToolBar"></PARA>
+        <PARA name="icon" value="mainfrm/About16.gif"></PARA>
+        <PARA name="serialnumber" value="100-100"></PARA>
+        </PARAS>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="OperationLogQuery">
+            <PARAS>
+            <PARA name="name" value="MENU_OPERATION_LOG_QUERY_TITLE"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="MENU_OPERATION_LOG_QUERY_TITLE"></PARA>
+            <PARA name="icon" value="log/icon/QueryOperation.gif"></PARA>
+            <PARA name="command" value="Query Operation Logs"></PARA>
+            <PARA name="serialnumber" value="100-100-500"></PARA>
+            </PARAS>
+        </DESC>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="SystemLogQuery">
+            <PARAS>
+            <PARA name="name" value="MENU_SYSTEM_LOG_QUERY_TITLE"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="MENU_SYSTEM_LOG_QUERY_TITLE"></PARA>
+            <PARA name="icon" value="log/icon/QuerySystem.gif"></PARA>
+            <PARA name="command" value="Query System Logs"></PARA>
+            <PARA name="serialnumber" value="100-100-600"></PARA>
+            </PARAS>
+        </DESC>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="SecurityLogQuery">
+            <PARAS>
+            <PARA name="name" value="MENU_SECURITY_LOG_QUERY_TITLE"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="MENU_SECURITY_LOG_QUERY_TITLE"></PARA>
+            <PARA name="icon" value="log/icon/QuerySecurity.gif"></PARA>
+            <PARA name="command" value="Query Security Logs"></PARA>
+            <PARA name="serialnumber" value="100-100-700"></PARA>
+            </PARAS>
+        </DESC>  
+        
+        <!--define a toolbarButton-->
+        <DESC descname="OperationLogStatic">
+            <PARAS>
+            <PARA name="name" value="MENU_OPERATION_LOG_STATIC_TITLE"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="MENU_OPERATION_LOG_STATIC_TITLE"></PARA>
+            <PARA name="icon" value="log/icon/StatisticOperation.gif"></PARA>
+            <PARA name="command" value="Statistic Operation Log"></PARA>
+            <PARA name="serialnumber" value="100-100-800"></PARA>
+            </PARAS>
+        </DESC> 
+        
+        <!--define a toolbarButton-->
+        <DESC descname="SystemLogStatic">
+            <PARAS>
+            <PARA name="name" value="MENU_SYSTEM_LOG_STATIC_TITLE"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="MENU_SYSTEM_LOG_STATIC_TITLE"></PARA>
+            <PARA name="icon" value="log/icon/StatisticSystem.gif"></PARA>
+            <PARA name="command" value="Statistic System Log"></PARA>
+            <PARA name="serialnumber" value="100-100-900"></PARA>
+            </PARAS>
+        </DESC> 
+        
+        <!--define a toolbarButton-->
+        <DESC descname="SecurityLogStatic">
+            <PARAS>
+            <PARA name="name" value="MENU_SECURITY_LOG_STATIC_TITLE"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="MENU_SECURITY_LOG_STATIC_TITLE"></PARA>
+            <PARA name="icon" value="log/icon/StatisticSecurity.gif"></PARA>
+            <PARA name="command" value="Statistic Security Log"></PARA>
+            <PARA name="serialnumber" value="100-100-1000"></PARA>
+            </PARAS>
+        </DESC>                                
+                
+    </DESC>    
+</DESC>
+<!-- mainTool TooGroupSet type -->
+
+</AREADESC>
+</COMMINIDATA>

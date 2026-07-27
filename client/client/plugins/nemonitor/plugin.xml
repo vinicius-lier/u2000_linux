@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.nemonitor"
+   name="nemonitor"
+   version="1.0"
+   provider-name="swimap">
+   <extension-point id="com.swimap.nemonitor.NemonitorLocal" name="NemonitorLocal" schema="schema/NemonitorLocal.exsd"/>
+   <extension-point id="com.swimap.nemonitor.NemonitorState" name="NemonitorState" schema="schema/NemonitorState.exsd"/>
+
+   <!--default not config start
+   <extension point="com.swimap.topo.PopupMenuSupportor">
+		<TopoPopUpMenu
+			class="com.swimap.nemonitor.client.NemonitorMenuImp"
+			priority="100" />
+	</extension>
+  default not config end-->
+</plugin>

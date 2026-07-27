@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+  <column id="Alias" name="Alias" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="User Configuration Mode" name="User Configuration Mode" isVisiable="true" isEditable="true" width="157" isNameModified="false" />
+  <column id="Time of Last Quick Leave" name="Time of Last Quick Leave" isVisiable="true" isEditable="true" width="158" isNameModified="false" />
+  <column id="Authority" name="Authority" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="Max. Online Program" name="Max. Online Program" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+  <column id="Fast Leave Mode" name="Fast Leave Mode" isVisiable="true" isEditable="true" width="113" isNameModified="false" />
+  <column id="Log Switch" name="Log Switch" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="VPI" name="VPI" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="VCI" name="VCI" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="GEM Port" name="GEM Port" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+</table>
+

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="com.swimap.color" name="com.swimap.color" version="1.0" provider-name="swimap">
+    <extension-point id="com.swimap.color.manager" name="com.swimap.color.manager"/>
+    <extension point="com.swimap.color.manager">
+        <ColorManager class="com.swimap.iview.color.config.ColorConfigManager"/>
+    </extension>
+</plugin>

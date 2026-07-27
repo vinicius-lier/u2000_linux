@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"></PARA>
+				<PARA name="type" value="MenuSet"></PARA>
+			</PARAS>
+			
+			<!-- File Management begin-->
+			<DESC descname="FileMenu">
+				<PARAS>
+					<PARA name="name" value="File"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" value="VK_S"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="serialnumber" value="100"></PARA>
+				</PARAS>
+
+        <!--
+				<DESC descname="Browse_NE_List">
+					<PARAS>
+						<PARA name="name" value="Browse_NE_List"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="showEamNodeFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="E"/>
+						<PARA name="accelerator" value="VK_E"></PARA>
+						<PARA name="serialnumber" value="100-150"/>
+					  <PARA name="showInPortalPanel" value="true" />
+						<PARA name="isFavorite" value="true"/>
+					  <PARA name="favoriteIcon" value="image/EamNeList.png"/>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+        -->
+        
+			 <DESC descname="showNeAreaFrame">
+					<PARAS>
+						<PARA name="name" value="showNeAreaFrame"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="showNeAreaFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="A"/>
+						<PARA name="accelerator" value="VK_A"></PARA>
+						<PARA name="serialnumber" value="100-161"/>
+						<PARA name="showBlankInternalFrame" value="false"></PARA>
+					  <PARA name="showInPortalPanel" value="true" />
+						<PARA name="isFavorite" value="true"/>
+					  <PARA name="favoriteIcon" value="image/neAreaFrame.png"/>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+			
+				
+				<DESC descname="searchDev">
+					<PARAS>
+						<PARA name="name" value="searchDev"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="type" value="JMenu"></PARA>
+						<PARA name="mnemonic" value="D"></PARA>
+						<PARA name="accelerator" value="VK_D"></PARA>
+						<PARA name="serialnumber" value="100-170"></PARA>
+					</PARAS>
+					
+					<!--
+					<DESC descname="timeParamSetting">
+						<PARAS>
+							<PARA name="name" value="timeParamSetting"/>
+							<PARA name="icon" value=""/>
+							<PARA name="command" value="timeParamSetting"/>
+							<PARA name="type" value="JMenuItem"/>
+							<PARA name="mnemonic" value="T"/>
+							<PARA name="accelerator" value="VK_T"></PARA>
+							<PARA name="serialnumber" value="100-170-20"/>
+							<PARA name="showInPortalPanel" value="true" />
+							<PARA name="isFavorite" value="true"/>
+						        <PARA name="favoriteIcon" value="image/searchSnmpDev.png"/>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+				        -->
+					<!--Auto Discovery-->
+					<DESC descname="searchSnmpDev">
+						<PARAS>
+							<PARA name="name" value="searchSnmpDev"/>
+							<PARA name="icon" value=""/>
+							<PARA name="command" value="searchSnmpDev"/>
+							<PARA name="type" value="JMenuItem"/>
+							<PARA name="mnemonic" value="N"/>
+							<PARA name="accelerator" value="VK_N"></PARA>
+							<PARA name="serialnumber" value="100-170-10"/>
+							<PARA name="showInPortalPanel" value="true" />
+							<PARA name="isFavorite" value="true"/>
+						  <PARA name="favoriteIcon" value="image/searchSnmpDev.png"/>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+
+						</PARAS>
+					</DESC>
+					
+				</DESC>
+			</DESC>
+			
+		<!--DESC descname="SECURITY_MAINMENU">
+        <PARAS>
+              <PARA name="name" value="NMSUSER_MAINMENU"/>
+              <PARA name="mnemonic" value="C"/>
+              <PARA name="accelerator" value="VK_C"/>
+              <PARA name="type" value="JMenu"/>
+              <PARA name="serialnumber" value="600"/>
+        </PARAS>
+        <DESC descname="openMaintenanceTemplateDlg">
+					<PARAS>
+						<PARA name="name" value="openMaintenanceTemplateDlg"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="showMaintenanceFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="I"/>
+						<PARA name="accelerator" value="VK_I"></PARA>
+						<PARA name="serialnumber" value="600-140"/>
+						<PARA name="showBlankInternalFrame" value="false"></PARA>
+						<PARA name="showInPortalPanel" value="true" />
+						<PARA name="isFavorite" value="true"/>
+					        <PARA name="favoriteIcon" value="image/maintenance.png"/>
+						<PARA name="visibleApps">
+						   <VALUE value="SecurityMgr"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+
+				<DESC descname="openDeviceMaintenanceInfoDlg">
+					<PARAS>
+						<PARA name="name" value="openDeviceMaintenanceInfoDlg"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command"
+							value="openDeviceMaintenanceInfoDlg"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="M"/>
+						<PARA name="accelerator" value="VK_M"></PARA>
+						<PARA name="serialnumber" value="600-150"/>
+						<PARA name="showBlankInternalFrame" value="false"></PARA>
+						<PARA name="showInPortalPanel" value="true" />
+						<PARA name="isFavorite" value="true"/>
+					        <PARA name="favoriteIcon" value="image/resAttrSetting.png"/>
+						<PARA name="visibleApps">
+						   <VALUE value="SecurityMgr"/>				
+						</PARA>
+					</PARAS>
+				</DESC>	
+      </DESC-->
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin id="com.swimap.topo" name="topomessageadpater" version="1.0"
+	provider-name="swimap">
+
+	<extension point="com.swimap.topo.PopupMenuSupportor">
+		<TopoPopUpMenu
+			class="com.swimap.imap.topo.facade.PopupMenuSupportorAdapater"
+			priority="100" />
+	</extension>
+	
+    <extension point="com.swimap.topo.PopupMenuScheduler">
+		<MenuScheduler
+			class="com.swimap.imap.topo.facade.PopupMenuSchedulerAdapter"
+			priority="100" />
+	</extension>
+
+	<extension point="com.swimap.topo.StatusDecorator">
+		<StatusDecorator
+			class="com.swimap.imap.topo.facade.TpInsStatusDecoratorAdapter"
+			priority="100" />
+	</extension>
+
+	<extension point="com.swimap.topo.TopoObjectSelectListener">
+		<TopoObjectSelectListener
+			class="com.swimap.imap.topo.facade.TopoObjectSelectListenerAdapter"
+			priority="100" />
+	</extension>
+
+	<extension point="com.swimap.eam.SnmpDeviceCreationType">
+		<DefaultSnmpDeviceCreation
+			class="com.swimap.imap.topo.facade.CreateSnmpDeviceAdapter"
+			priority="100" />
+	</extension>
+
+	<extension point="com.swimap.topo.TopoAttributeItem">
+		<DefaultSnmpDeviceCreation
+			class="com.swimap.imap.topo.customize.EmfTopoAttributeItem"
+			priority="100" />
+	</extension>
+
+	<extension point="com.swimap.eam.SubnetDeletionType">
+	      <SubnetDeletion
+	            class="com.swimap.imap.topo.facade.IpSubnetDeletionAdaptor"
+	            priority="100" />
+	</extension>
+
+	<extension point="com.swimap.topo.TopoViewSwitchListener">
+	      <TopoViewSwitchListener
+	            class="com.swimap.imap.topo.facade.TopoViewSwitchListenerAdpater"
+	            priority="100" />
+	</extension>
+
+	<extension point="com.swimap.color.manager">
+	      <com.swimap.color.manager
+	            class="com.swimap.imap.topo.facade.StatusColorPluginManager"
+	            serialnumber="15" />
+	</extension>
+
+	<extension point="com.swimap.eam.GetDevFilterTypeFromAdapter">
+		<DevFilterTypeExtension
+			class="com.swimap.imap.topo.facade.EmfGetDevFilterTypeExtAdapter"
+			type="devFilterTypeExtTest" />
+	</extension>
+	
+	<extension point="com.swimap.topo.TopoLinkStyle">
+	      <TopoLinkStyle
+	            class="com.swimap.imap.topo.control.EmfTopoLinkStyleExtention"
+	            priority="100" />
+	</extension>
+
+	<extension point="com.swimap.topo.TopoSecStatusTip">
+	      <TopoSecStatusTip
+	            class="com.swimap.imap.topo.facade.TopoSecStatusTipAdapter"
+	            priority="100" />
+	</extension>
+	
+	<extension point="com.swimap.eam.AutoDectectConfIf">
+	      <AutoDectectConfIf
+	            class="com.swimap.imap.topo.facade.TopoAutoDectectConfImp"
+	            priority="100" />
+	</extension>
+	<extension point="com.swimap.eam.NeDeletionType">
+	      <NeDeletionType
+	            class="com.swimap.imap.topo.facade.NeDeletionAdaptor"
+	            priority="100" />
+	</extension>
+	<extension point="com.swimap.topo.TopoFilterChange">
+	      <NeDeletionType
+	            class="com.swimap.imap.topo.facade.EmfFilterTreeChangeAdapter"
+	            priority="100" />
+	</extension>
+	<extension point="com.swimap.topo.DevStatisticInfo">
+	      <NeDeletionType
+	            class="com.swimap.imap.topo.adapter.develop.EmfTopoDevStatisticInfoImp"
+	            priority="100" />
+	</extension>
+	<extension point="com.swimap.topo.LineWidthInfoReadEx">
+	      <NeDeletionType
+	            class="com.swimap.imap.topo.util.EmfTopoResManager"
+	            priority="100" />
+	</extension>
+	<extension point="com.swimap.topo.TopoFilterHandler">
+	      <NeDeletionType
+	            class="com.swimap.imap.topo.util.EmfTopoResManager"
+	            priority="100" />
+	</extension>
+</plugin>

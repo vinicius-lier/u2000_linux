@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VLAN L3 Interface" name="VLAN L3 Interface" isVisiable="true" isEditable="true" width="117" isNameModified="false" />
+  <column id="MAC Address Segment Name" name="MAC Address Segment Name" isVisiable="true" isEditable="true" width="184" isNameModified="false" />
+  <column id="Gateway of the MAC Address Segment" name="Gateway of the MAC Address Segment" isVisiable="true" isEditable="true" width="230" isNameModified="false" />
+</table>
+

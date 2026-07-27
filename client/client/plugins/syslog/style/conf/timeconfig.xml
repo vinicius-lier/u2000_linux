@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="syslog">
+        <DESC descname="timeConfig">
+            <PARAS>
+                  <PARA name="maxTime" value="720000" />
+            </PARAS>
+        </DESC>
+     </AREADESC>
+</COMMINIDATA>

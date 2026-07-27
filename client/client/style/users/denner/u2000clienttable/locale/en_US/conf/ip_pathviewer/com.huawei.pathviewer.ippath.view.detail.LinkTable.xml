@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Path Name" name="Path Name" isVisiable="true" isEditable="true" width="159" isNameModified="false" />
+  <column id="Link Type" name="Link Type" isVisiable="true" isEditable="true" width="62" isNameModified="false" />
+  <column id="Source/Sink" name="Source/Sink" isVisiable="true" isEditable="true" width="43" isNameModified="false" />
+  <column id="Device Name" name="Device Name" isVisiable="true" isEditable="true" width="79" isNameModified="false" />
+  <column id="Interface Description" name="Interface Description" isVisiable="true" isEditable="true" width="65" isNameModified="false" />
+  <column id="Interface Name" name="Interface Name" isVisiable="true" isEditable="true" width="132" isNameModified="false" />
+  <column id="Interface IP" name="Interface IP" isVisiable="true" isEditable="true" width="72" isNameModified="false" />
+  <column id="MTU" name="MTU" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Rate (bit/s)" name="Rate (bit/s)" isVisiable="true" isEditable="true" width="98" isNameModified="false" />
+  <column id="Bandwidth Usage (%)" name="Bandwidth Usage (%)" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="Unicast Rate (pkt/s)" name="Unicast Rate (pkt/s)" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="Broadcast Rate (pkt/s)" name="Broadcast Rate (pkt/s)" isVisiable="true" isEditable="true" width="98" isNameModified="false" />
+  <column id="Multicast Rate (pkt/s)" name="Multicast Rate (pkt/s)" isVisiable="true" isEditable="true" width="101" isNameModified="false" />
+  <column id="Board CPU Usage (%)" name="Board CPU Usage (%)" isVisiable="true" isEditable="true" width="120" isNameModified="false" />
+  <column id="Board Memory Usage (%)" name="Board Memory Usage (%)" isVisiable="true" isEditable="true" width="118" isNameModified="false" />
+  <column id="Performance Data Update time" name="Performance Data Update time" isVisiable="true" isEditable="true" width="128" isNameModified="false" />
+</table>
+

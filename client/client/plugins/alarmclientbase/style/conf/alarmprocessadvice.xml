@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="AlarmProcessAdviceConfig">
+        <!-- all the process advice info that can be configed -->
+        <DESC descname="AllProcessAdviceInfoID">
+            <PARAS/>
+            <DESC descname="ProcessAdvice">
+                <PARAS>
+                    <PARA name="Visible" value="true"/>
+                    <PARA name="Column_Renderer" value="System build in.Do not modify"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="MaintenanceExp">
+                <PARAS>
+                    <PARA name="Visible" value="true"/>
+                    <PARA name="Column_Renderer" value="System build in.Do not modify"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="ReasonType">
+                <PARAS>
+                    <PARA name="Visible" value="true"/>
+                    <PARA name="Column_Renderer" value="System build in.Do not modify"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="ReasonMeaning">
+                <PARAS>
+                    <PARA name="Visible" value="true"/>
+                    <PARA name="Column_Renderer" value="System build in.Do not modify"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+        <!-- group strategy, the item which not be configed will be in the defualt group show in the last -->
+        <DESC descname="GroupingStrategy">
+            <PARAS/>
+            <DESC descname="Group1">
+                <PARAS/>
+                <DESC descname="ReasonMeaning">
+                    <PARAS>
+                        <PARA name="Group_Index" value="1"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="ProcessAdvice">
+                    <PARAS>
+                        <PARA name="Group_Index" value="2"/>
+                    </PARAS>
+                </DESC>
+            </DESC>
+            <DESC descname="Group2">
+                <PARAS/>
+                <DESC descname="ReasonType">
+                    <PARAS>
+                        <PARA name="Group_Index" value=""/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="MaintenanceExp">
+                    <PARAS>
+                        <PARA name="Group_Index" value="2"/>
+                    </PARAS>
+                </DESC>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <!--
+            Description:the plugin despration
+            ID      the ID of the plugin ,it must set
+            Label   the Name of the plugin,it must set
+            IMage   the plugin image path ,it can select
+        -->
+        <DESC descname="feature">
+            <PARAS>
+                <PARA name="id" value="alarmclientgui"/>
+                <PARA name="label" value="alarmclient_name"/>
+                <PARA name="image" value="icon.gif"/>
+            </PARAS>
+        </DESC>
+        <!--
+            Description: the plugin other despration
+        -->
+        <DESC descname="extra">
+            <PARAS>
+                <!-- loading pic,it shows in loading dialog-->
+                <PARA name="image.loading" value="loading.png"/>
+                <!-- lock pic ,it shows in lock/unlock dialog-->
+                <PARA name="image.lock" value="lockdialog.gif"/>
+                <!-- exit pic,it shows at confirm dialog of exit-->
+                <PARA name="image.exit" value="logoutdialog.gif"/>
+                <!--the plugin version,it shows at about dialog-->
+                <PARA name="about.version" value="about.version"/>
+                <!-- the plugin description,it shows at about dialog-->
+                <PARA name="about.desc" value="about.desc"/>
+                <!-- the about pic,it shows at about dialog-->
+                <PARA name="about.image.banner" value="about_banner.gif"/>
+                <!-- the title pic of about dialog-->
+                <PARA name="about.image.title" value="about_title.png"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="plugins">
+            <PARAS>
+                <PARA name="alarmclientbase"/>
+                <PARA name="alarmclient"/>
+                <PARA name="alarmclientgui"/>
+                <PARA name="alarmclientextgui"/>
+                <PARA name="alarmclienttool"/>
+	        <PARA name="querydumptool"/>
+                <PARA name="authentication"/>
+                <PARA name="loginui"/>
+                <PARA name="clientutil"/>
+                <PARA name="com.swimap.rpc"/>
+                <PARA name="WelcomePage"/>
+            </PARAS>
+        </DESC>
+        <!--
+            Description:the plugin loading depends on plugins 
+            name=""the plugin name ,it must set
+        -->
+        <DESC descname="required-plugins">
+            <PARAS>
+                <PARA name="com.swimap.color"/>
+                <PARA name="com.swimap.sound"/>
+                <PARA name="com.swimap.extension.registry"/>
+                <PARA name="com.swimap.orbbase"/>
+                <PARA name="eam"/>
+                <PARA name="resource"/>
+                <PARA name="lm"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="feature">
+			<PARAS>
+				<PARA name="id"
+					value="com.swimap.adapter.message.projectdoc">
+				</PARA>
+				<PARA name="label" value="log_name"></PARA>
+				<PARA name="image" value="icon.gif"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="extra">
+			<PARAS>
+				<PARA name="image.loading" value="loading.png"></PARA>
+				<PARA name="image.lock" value="lockdialog.gif"></PARA>
+				<PARA name="image.exit" value="logoutdialog.gif"></PARA>
+				<PARA name="about.version" value="about.version"></PARA>
+				<PARA name="about.desc" value="about.desc"></PARA>
+				<PARA name="about.image.banner"
+					value="about_banner.gif">
+				</PARA>
+				<PARA name="about.image.title"
+					value="about_title.png">
+				</PARA>
+				<PARA name="about.show" value="false"/>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="plugins">
+			<PARAS>
+				<PARA name="com.swimap.adapter.message.projectdoc"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="required-plugins">
+			<PARAS>
+				<PARA name="com.swimap.adapter.message.tm"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

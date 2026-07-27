@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="DisplayStyle">
+		<DESC descname="DisplayStyleSetting">
+			<PARAS>
+				<PARA name="loadStyle" value="traditional"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

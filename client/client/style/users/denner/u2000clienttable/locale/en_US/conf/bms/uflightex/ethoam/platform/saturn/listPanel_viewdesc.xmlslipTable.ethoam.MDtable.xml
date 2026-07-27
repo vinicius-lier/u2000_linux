@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="MDMHFCreation" name="MHF Creation Rule" isVisiable="true" isEditable="false" width="130" isNameModified="false" />
+  <column id="MDName" name="MD Name" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+  <column id="MDDomainType" name="MD Location" isVisiable="true" isEditable="true" width="94" isNameModified="false" />
+  <column id="MDLevel" name="MD Level" isVisiable="true" isEditable="true" width="76" isNameModified="false" />
+  <column id="MDNameFormat" name="MD Name Format" isVisiable="true" isEditable="true" width="123" isNameModified="false" />
+</table>
+

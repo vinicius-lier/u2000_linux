@@ -1,0 +1,4 @@
+#Inventory Report Auto Export
+u2000\inventory\autoexport\autoexport.properties
+#Inventory Report Auto Export
+common\u2000\unitedmgr\profile\customizeboardcolor.ini

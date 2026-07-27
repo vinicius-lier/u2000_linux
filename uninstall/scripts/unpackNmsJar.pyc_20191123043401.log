@@ -1,0 +1,6 @@
+2019-11-23 04:34:01,132 T2144     INFO     Start D:\OSS\\engr\install\scripts\unpackNmsJar.pyc successfully.
+2019-11-23 04:34:06,161 T2176     ERROR    server_nmstrans.pack200lst does not exist.End this script
+2019-11-23 04:34:51,257 T2168     ERROR    unpack file server_nmsipsuccess.
+2019-11-23 04:34:52,551 T2172     ERROR    unpack file server_nmsaccesssuccess.
+2019-11-23 04:36:16,193 T2184     ERROR    unpack file server_nmsbasesuccess.
+2019-11-23 04:36:35,904 T2180     ERROR    unpack file server_nmscoresuccess.

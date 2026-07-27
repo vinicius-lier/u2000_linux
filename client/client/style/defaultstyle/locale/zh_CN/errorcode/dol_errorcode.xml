@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="DeviceOperationLog">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="117506079"   value="ASN文件解码失败。" />
+                <PARA name="117506080"   value="数据库操作失败。" />                    
+                <PARA name="117506081"   value="加载解析器动态库失败。" />
+                <PARA name="117506082"   value="手工同步正在进行中。" />
+                <PARA name="117506083"   value="自动同步正在进行中。" />
+                <PARA name="117506084"   value="SNMP日志文件不存在。\n MML日志源不存在。" />
+                <PARA name="117506085"   value="所有的网元服务器都没有响应或所有设备都没有同步成功。" />
+                <PARA name="117506086"   value="所有的网元服务器都没有响应或所有设备都没有同步成功。" />
+                <PARA name="117506087"   value="部分的网元服务器没有响应或部分设备没有同步成功。" />
+                <PARA name="117506088"   value="存在无效的记录，或存在重复的记录，或日志数已达到最大存储容量，或数据库操作失败。" />
+                <PARA name="117506089"   value="转储操作失败，没有生成转储文件的权限。" />
+                <PARA name="117506090"   value="转储操作失败，没有生成转储文件的权限。" />
+                <PARA name="117506093"   value="内存分配失败。" />
+                <PARA name="117506094"    value="设备日志后台操作失败。" />
+                <PARA name="117506095"   value="设备日志文件不存在。" />
+                <PARA name="117506096"   value="文件操作失败。" />
+                <PARA name="117506097"   value="输入的转储路径在服务器上不存在，请重新输入。" />
+                <PARA name="117506098"    value="没有找到网元后台。" />
+                <PARA name="117506099"   value="处理SNMP日志时，日志记录不正确。" />
+                <PARA name="117506100"   value="数据库中没有MML设备类型信息。" />
+                <PARA name="117506101"   value="调用平台接口返回错误。" />
+                <PARA name="117506102"   value="数据库中的日志信息更改，视图将更新。" />
+                <PARA name="117506104"   value="网元后台正忙。" />
+                <PARA name="117506105"   value="数据库中没有满足条件的记录。" />
+                <PARA name="117506106"   value="日志窗口不存在或前后台日志不一致，请先刷新，再进行操作。" />
+                <PARA name="117506107"   value="网元后台正忙。" />
+                <PARA name="117506145"   value="数据库中的设备没有动态库信息。" />
+                <PARA name="117506171"   value="服务器登录用户对设置的转储路径没有操作权限或路径名不合法或磁盘空间满，或发生其他磁盘问题。" />
+                <PARA name="117506172"   value="输入参数不合法，请检查。" />
+                <PARA name="117506173"   value="部分成功。" />                
+                <PARA name="117506174"   value="正在执行删除转储日志文件操作。" />               
+                <PARA name="117506175"   value="转储操作进行中。" />  
+                <PARA name="117506176"   value="文件删除失败。" />
+                <PARA name="117506177"   value="拒绝访问。" />
+                <PARA name="117506178"   value="删除转储文件失败。" />
+                <PARA name="117506225"   value="ASN文件编码失败。" />
+                <PARA name="117507000"   value="MML设备不存在。" />
+                <PARA name="117507001"   value="网元后台超时。" />
+                <PARA name="117507002"   value="存在无效的记录，或存在重复的记录，或日志数已达到最大存储容量，或数据库操作失败。" />
+                <PARA name="117507003"   value="命令统计正在进行中。" />
+                <PARA name="7501"   value="系统正在同步设备日志，请稍候再试。" />
+				<PARA name="7006"   value="同步设备日志失败。当前用户没有操作权限或安全服务未运行。请联系系统管理员。" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

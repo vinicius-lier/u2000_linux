@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="InnerVlanID" name="Inner Vlan ID" isVisiable="true" isEditable="false" width="96" isNameModified="false" />
+  <column id="SourcePort" name="Source Port" isVisiable="true" isEditable="true" width="90" isNameModified="false" />
+  <column id="DstPort" name="Dest Port" isVisiable="true" isEditable="true" width="77" isNameModified="false" />
+</table>
+

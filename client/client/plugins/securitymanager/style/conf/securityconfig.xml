@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+
+        <DESC descname="config">
+            <PARAS>                
+                <!--User  monitor panel have the greatest restrictions on the number of articles, the upper limit is 10000, the minimum is 1000, default 5000;
+				    the limit must between the upper and low limit when config it.
+                    There is no need to open configuration needs, we do not prescribe to the user profile; OperationMonitorDeleteCount following the same -->
+                <PARA name="OperationMonitorCount" value="5000" />
+                <!-- User monitoring panel be reached OperationMonitorCount; if this time a new data at this time be necessary to delete the old number, this number is specified, range between 1 to OperationMonitorCount, the default is 100 -->
+                <PARA name="OperationMonitorDeleteCount" value="100" />
+                <!--Config whether to show operation monitor. Generally, message in the adapter is set to false-->
+                <PARA name="ShowOperationMonitor" value="true" />
+            </PARAS>
+        </DESC>
+
+        <DESC descname="userdesc">
+            <PARAS>
+                <!-- Whether or not the user name input characters width limit is not supported by default, configured to true when the user name for the Chinese -->
+                <PARA name="ChineseCharVerified" value="false" />
+            </PARAS>
+        </DESC>    
+
+        <!--This configuration is platform-specific, non-opening to the outside world, products, testing may not modify, delete-->
+        <DESC descname="securityprivate">
+            <PARAS>
+                <PARA name="isShowDebugInfo" value="false" />
+            </PARAS>
+        </DESC>
+   
+        <!-- Topological configuration of the network element type is displayed on NEUser-->
+        <DESC descname="ValidNEUserDeviceType">
+            <PARAS>
+            </PARAS>
+        </DESC>      
+        
+         <!-- the default parameter setting  when create  a user -->
+         <DESC descname="DefaultCreateUser">
+            <PARAS>
+            	<!--Setting whether the new created user must change its original password. Must: "true"; Not Must: "false"(default)-->
+                <PARA name="mustChangePwd" value="true" />
+                <!--Setting the default maximum number of online users: [-1, 255] (default: -1 no limited)-->
+                <PARA name="defaultMaxOnlineUsers" value="1" />
+                <!--Setting whether the "maximum number of online users" item will be shown. Show: "true"(default); Not Show: "false"-->
+                <PARA name="showMaxOnlineUsers" value="true" />
+            </PARAS>
+        </DESC> 
+
+        <DESC descname="openAuthorizationHelpMenu">
+            <PARAS>
+                <PARA name="isShowHelpMenu" value="false" />
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="openAuthorizationDetailMenu">
+            <PARAS>
+                <PARA name="isShowDetailMenu" value="false" />
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="GrantAccess">
+            <PARAS>
+                <PARA name="isShowAllDomain" value="false" />
+            </PARAS>
+        </DESC>
+
+    </AREADESC>
+</COMMINIDATA>
+
+

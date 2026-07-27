@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!--
+    保留文件列表,指示那些文件在升级是应当被保留
+    Reserve files, indication witch file should be reserved after upgrade
+    -->
+    <bean id="ReserveFiles" class="java.util.HashSet">		
+        <constructor-arg>
+            <set>
+				<value>client/client/plugins/alarmclientbase/style/conf/alarmboxconfig.xml</value>
+				<value>client/plugins/alarmclientbase/style/conf/alarmboxconfig.xml</value>
+            </set>
+        </constructor-arg>
+    </bean>
+</beans>

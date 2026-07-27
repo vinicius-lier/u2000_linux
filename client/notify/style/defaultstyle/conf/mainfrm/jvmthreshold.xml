@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="memorythreshold">
+        <DESC descname="memorythreshold">
+            <PARAS>
+                <!-- The value to integer format, the range of 80 to 100. The default value is  100. 100 represent not gc for 1 min-->
+                <PARA name="HeapPercent" value="100"></PARA>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

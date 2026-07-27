@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="AP_WLANConfiguration__SSID" name="SSID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__AssociatedDeviceMACAddress" name="MAC" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__Uptime" name="Online Duration(s)" isVisiable="true" isEditable="true" width="127" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__RxRate" name="Receive Rate(Mbit/s)" isVisiable="true" isEditable="true" width="139" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__TxRate" name="Transmit Rate(Mbit/s)" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__RSSI" name="Signal(dBm)" isVisiable="true" isEditable="true" width="95" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__Noise" name="Noise(dBm)" isVisiable="true" isEditable="true" width="93" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__SNR" name="SNR(dB)" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_WLANConfiguration__AssociatedDevice__SingalQuality" name="Signal Quality(dBm)" isVisiable="true" isEditable="true" width="135" isNameModified="false" />
+</table>
+

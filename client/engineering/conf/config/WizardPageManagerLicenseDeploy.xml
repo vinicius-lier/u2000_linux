@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wizard>
+    <Page>com.oss.engineering.msuite.client.plugin.licensedeploy.LicenseDeploySelFIle</Page>
+	<Page>com.oss.engineering.msuite.client.plugin.licensedeploy.LicenseDeploySummary</Page>
+	<Page>com.oss.engineering.msuite.client.plugin.licensedeploy.LicenseDeployProcess</Page>
+	<Page>com.oss.engineering.msuite.client.plugin.licensedeploy.LicenseDeployFinish</Page>
+</Wizard>

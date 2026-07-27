@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+	    <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="Res" />
+            </PARAS>
+        </DESC>
+        <DESC descname="welcomebuttonsetting">
+        
+            <DESC descname="License_ThresholdCfg_Setting">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="thresholdSetting"></PARA>
+                    <PARA name="description" value="thresholdSetting"></PARA>
+                    <PARA name="icon" value="icons/NELicenseSetting.png"></PARA>
+                    <PARA name="command" value="lm:License_ThresholdCfg_Setting"></PARA>
+                    <PARA name="category" value="Help"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                    <PARA name="linkseqnumber" value="500"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="License">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="License_Welcome"></PARA>
+                    <PARA name="description" value="License_Welcome"></PARA>
+                    <PARA name="icon" value="icons/NELicenseSetting.png"></PARA>
+                    <PARA name="command" value="lm:License"></PARA>
+                    <PARA name="category" value="Help"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                    <PARA name="linkseqnumber" value="25"></PARA>
+                </PARAS>
+            </DESC>
+            
+        </DESC>
+        <DESC descname="categorysetting">
+            <DESC descname="Help">
+                <PARAS>
+                <PARA name="linkseqnumber" value="900"></PARA>
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

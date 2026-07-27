@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="ServiceTable">
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_serviceName" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_agentName" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="processmonitor_subSystem" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="ServiceDiscription" />
+				<PARA name="isSortable"   value="false" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_status" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="true" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_startMode" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_startupTimes" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="true" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="true" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_serverStartTime" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="true" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="servicemonitor_serverStopTime" />
+				<PARA name="isSortable"   value="true" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="true" />
+			</PARAS>
+		</DESC>
+		<DESC>
+			<PARAS>
+				<PARA name="columnName"   value="hostName" />
+				<PARA name="isSortable"   value="false" />
+				<PARA name="isNumber"   value="false" />
+				<PARA name="hasIcon"   value="false" />
+				<PARA name="isFormat"   value="false" />
+				<PARA name="isDate"   value="false" />
+			</PARAS>
+		</DESC>        
+	</AREADESC>
+</COMMINIDATA>

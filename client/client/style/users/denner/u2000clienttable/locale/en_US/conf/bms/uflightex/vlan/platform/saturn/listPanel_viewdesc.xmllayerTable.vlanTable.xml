@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VlanID" name="VLAN ID" isVisiable="true" isEditable="false" width="180" isNameModified="false" />
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="177" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="248" isNameModified="false" />
+  <column id="VlanType" name="Type" isVisiable="true" isEditable="true" width="178" isNameModified="false" />
+  <column id="Attribute" name="Attribute" isVisiable="true" isEditable="true" width="180" isNameModified="false" />
+  <column id="SuperVlanID" name="Super VLAN ID" isVisiable="true" isEditable="true" width="122" isNameModified="false" />
+</table>
+

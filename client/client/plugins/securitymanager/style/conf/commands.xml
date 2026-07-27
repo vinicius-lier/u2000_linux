@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+
+
+
+<!--
+four types of the command can be defined now
+
+sci:static class invoke
+ici:instance class invoke
+cic:cross invoke
+pic:process invoke
+ -->
+
+<!--
+ security info
+
+ name            present                            value
+"security"     securityType                0 always not allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+"moiID"        moi object ID
+"appID"        application object ID
+"oprID"        operation ID
+
+ -->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="system">
+      <PARAS/>
+      <!-- command id -->
+      <DESC descname="securitymodule:showSecurityFrame">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showSecurityFrame"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSecurityFrame" ></PARA>		         
+        </PARAS>
+      </DESC>
+
+      <DESC descname="securitymodule:sCreateUser">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sCreateUser"></PARA>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SecurityApplication"></PARA>
+          <PARA name="accessID" value="User_Create_Delete_Modify"></PARA>  
+        </PARAS>
+      </DESC>  
+      
+      <DESC descname="securitymodule:sCreateGroup">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sCreateGroup"></PARA>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SecurityApplication"></PARA>
+          <PARA name="accessID" value="UserGroup_Create_Delete_Modify"></PARA>  
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="securitymodule:sCreateDeviceSet">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sCreateDeviceSet"></PARA>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SecurityApplication"></PARA>
+          <PARA name="accessID" value="DeviceSet_Create_Delete_Modify"></PARA>  
+        </PARAS>
+      </DESC>   
+      
+      <DESC descname="securitymodule:sCreateOperationSet">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sCreateOperationSet"></PARA>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SecurityApplication"></PARA>
+          <PARA name="accessID" value="OperationSet_Create_Delete_Modify"></PARA>  
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="securitymodule:sQueryRightOwner">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sQueryRightOwner"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSecurityMgr" ></PARA>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="securitymodule:sCompareRight">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sCompareRight"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSecurityMgr" ></PARA>
+        </PARAS>
+      </DESC> 
+    
+      <DESC descname="securitymodule:showNELoginFrame">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showNELoginFrame"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <!--PARA name="appID" value="launchSecurity"></PARA-->
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSecurityMgr" ></PARA>		    
+        </PARAS>
+      </DESC>  
+      
+      <DESC descname="securitymodule:sCreateNEUser">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="sCreateNEUser"></PARA>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SecurityApplication"></PARA>
+          <PARA name="accessID" value="NEUser_Create_Delete_Modify"></PARA>  
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="securitymodule:show NE USER">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showNEUserFrame"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <!--PARA name="appID" value="launchSecurity"></PARA-->
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSecurityMgr" ></PARA>    
+        </PARAS>
+      </DESC>  
+      
+     <DESC descname="securitymodule:show user monitor frame">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showUserMonitorFrame"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.monitor.AuthorityForUserMonitor" ></PARA>		  
+        </PARAS>
+      </DESC>  
+
+      <DESC descname="securitymodule:show user operation monitor frame">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showUserOpMonitorFrame"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.monitor.AuthorityForUserMonitor" ></PARA>			  
+        </PARAS>
+       </DESC>
+
+      <DESC descname="securitymodule:Switch User">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="switchUser"></PARA>
+          <PARA name="security" value="3"></PARA>
+        </PARAS>
+      </DESC>
+    
+      <DESC descname="securitymodule:show security policy dialog">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showSecurityPolicyDlg"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <!--PARA name="appID" value="launchSecurity"></PARA>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SecurityApplication"></PARA>
+          <PARA name="accessID" value="Security_Policy_Edit"></PARA-->  
+        </PARAS>
+      </DESC>
+
+      <DESC descname="securitymodule:showACLDialog">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showACLDialog"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSecurityMgr" ></PARA>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="securitymodule:showExportUserAndGroupInfoDialog">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showExportUserAndGroupInfoDialog"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.transferossinfo.AuthorityForTransferossinfo" ></PARA>			    
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="securitymodule:showImportUserAndGroupInfoDialog">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showImportUserAndGroupInfoDialog"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.transferossinfo.AuthorityForTransferossinfo" ></PARA>			    
+        </PARAS>
+      </DESC>
+      
+       <DESC descname="securitymodule:showSecondaryAuthCFGFrame">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="securitymanager"></PARA>
+          <PARA name="methodName" value="showSecondaryAuthCFGFrame"></PARA>
+          <PARA name="security" value="1"></PARA>
+          <PARA name="authorityView" value= "com.swimap.sm.client.mgr.secondaryauth.SecondaryAuthCFGMenuController" ></PARA>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="securitymodule:export auth info">
+        <PARAS>
+         <PARA name="actionType" value="cic"></PARA>
+         <PARA name="moduleID" value="securitymanager"></PARA>
+         <PARA name="methodName" value="exportAuthInfo"></PARA>
+         <PARA name="security" value="1"></PARA>
+         <!--PARA name="appID" value="launchSecurity"></PARA-->
+         <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForExport" ></PARA> 
+        </PARAS>
+      </DESC>
+  
+      <DESC descname="securitymodule:syn user and userGroup info">
+        <PARAS>
+         <PARA name="actionType" value="cic"></PARA>
+         <PARA name="moduleID" value="securitymanager"></PARA>
+         <PARA name="methodName" value="synUserAndGroupInfo"></PARA>
+         <PARA name="security" value="1"></PARA>
+         <!--PARA name="appID" value="launchSecurity"></PARA-->
+         <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForSynUserAndGroupInfo" ></PARA> 
+        </PARAS>
+      </DESC>
+	  <DESC descname="securitymodule:support remote auth config">
+        <PARAS>
+         <PARA name="actionType" value="cic"></PARA>
+         <PARA name="moduleID" value="securitymanager"></PARA>
+         <PARA name="methodName" value="supportRemoteAuthConfig"></PARA>
+         <PARA name="security" value="1"></PARA>
+         <PARA name="authorityView" value= "com.swimap.sm.client.mgr.AuthorityForRemoteAuthConfig" ></PARA>		
+        </PARAS>
+      </DESC>
+ 
+    </DESC>
+<!-- End The commond of log management -->
+  </AREADESC>
+</COMMINIDATA>
+  

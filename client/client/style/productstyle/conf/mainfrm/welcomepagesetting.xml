@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="welcomepage">
+        <DESC descname="pagesetting">
+            <PARAS>
+				        <PARA name="enableMenuCopy" value="true"/>
+				        <PARA name="isWorkBenchCloseable" value="false" />
+				        <PARA name="loadWelcomeButtonThread" value="true" />
+            </PARAS>
+       
+           </DESC>
+    </AREADESC>
+</COMMINIDATA>

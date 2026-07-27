@@ -1,0 +1,15 @@
+# netconfproxy
+netconf=netconfproxy
+netconf_server=netconfproxy服务器
+netconf_client=netconfproxy客户端
+netconf_help=netconfproxy帮助
+
+#Display string for database name
+
+netconf.InstallInfo=netconfproxy提供与网元使用netconf协议通信代理功能。
+netconf_server.InstallInfo=netconfproxy服务器
+netconf_client.InstallInfo=netconfproxy客户端
+
+netconf.UninstallInfo=netconfproxy提供与网元使用netconf协议通信代理功能。
+netconf_server.UninstallInfo=netconfproxy服务器
+netconf_client.UninstallInfo=netconfproxy客户端

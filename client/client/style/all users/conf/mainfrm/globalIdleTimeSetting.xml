@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="globalIdleTimesetting">
+			<PARAS>
+				<PARA name="isEnabled" value="false"></PARA>
+				<PARA name="globalTime" value="10"></PARA>
+				<PARA name="globalSettingStatus" value="0"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

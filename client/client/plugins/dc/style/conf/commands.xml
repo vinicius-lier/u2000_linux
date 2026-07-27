@@ -1,0 +1,579 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+  <AREADESC>
+   <DESC descname="system">
+      <PARAS/>
+
+      <DESC descname="showDeviceInfoPan">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="methodName" value="showDeviceInfoPan"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="TaskManagement">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="taskManagement"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="browseLog">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="browseLog"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="SoftwareArchiveManagemnt">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="softwareArchiveManagement"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      <DESC descname="configureMXUUpgradePolicy">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="configureMXUUpgradePolicy"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="Option">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="Option"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="configurationPolicy">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="configurationPolicy"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      <DESC descname="SystemSetting">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="systemSetting"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      <DESC descname="showHAPolicyLogInfo">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="showHAPolicyLogInfo"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="importLicenseFile">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="licenseInfo"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>      
+      <DESC descname="configureDefaultPolicy">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="configureDefaultPolicy"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="configureUserPolicy">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="configureUserPolicy"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="LicenseInfo">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="licenseInfo"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      <DESC descname="Run Policy">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="runPolicy"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="Suspend Policy">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="suspendPolicy"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="recover">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="recover"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+       
+        <DESC descname="version">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="version"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="SoftwareDowngrade">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="softwareDowngrade"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="PatchUpdate">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="patchUpdate"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="UserDefinedTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="userDefinedTask"/>
+           <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="SoftwareUpgrade">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="softwareUpgrade"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+       <DESC descname="oltAgentUpgrade">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="oltAgentUpgrade"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="copyTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="copyTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="pauseTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="pauseTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>     
+      
+      <DESC descname="continueTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="continueTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>        
+      
+      <DESC descname="modifyTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="modifyTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="viewTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="viewTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+      
+      <DESC descname="taskStatistics">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="taskStatistics"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="deleteTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="deleteTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+   
+      
+      <DESC descname = "Software Statistics">
+      <PARAS>
+      	 <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="softwareStatistics"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="startTask">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="startTask"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+
+      <DESC descname="moveToCompleted">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="moveToCompleted"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+       <DESC descname="refreshTree">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="refreshTree"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="printDC">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="print"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="setupPage">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="setupPage"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="showLegends">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="showLegends"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+       
+      <DESC descname="onlineBoardUpgrade">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="onlineBoardUpgrade"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="retry">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="retry"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="remove">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="remove"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="displayOnlineBoard">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="displayOnlineBoard"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="deviceAccessProtocol">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="deviceAccessProtocol"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC> 
+<DESC descname="loadBoardSoft">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="loadBoardSoft"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      
+       <DESC descname="loadBoardPatch">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="loadBoardPatch"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      
+     <DESC descname="showTL1Frame">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="showTL1Frame"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="tkLicenseManage">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="tkLicenseManage"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+       
+        <DESC descname="tkLogManage">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="tkLogManage"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+        <DESC descname="addDevices">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="addDevices"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+        <DESC descname="searchDevice">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="searchDevice"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+        <DESC descname="modifyDevice">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="modifyDevice"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+        <DESC descname="deleteDevices">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="deleteDevices"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+        <DESC descname="importDevices">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="importDevices"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+        <DESC descname="exportDevices">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="exportDevices"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+        </DESC>
+        
+         <DESC descname="Exit">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="datacentermodule"/>
+          <PARA name="className" value=""/>
+          <PARA name="Processor"/>
+          <PARA name="methodName" value="exitSystem"/>
+          <PARA name="processID" value="0x12"/>
+        </PARAS>
+      </DESC>
+    </DESC>   
+  </AREADESC>
+</COMMINIDATA>

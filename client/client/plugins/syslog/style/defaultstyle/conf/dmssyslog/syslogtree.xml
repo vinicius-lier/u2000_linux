@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<node Res="dmssyslog/dmssyslog">
+	
+		<node><!-- Syslog -->
+			<name>node.syslogMgr</name>
+			<icon>dmssyslog/image/syslogManagement.gif</icon>
+			<toolTip>node.syslogMgr</toolTip>
+			<id>110</id>
+			<node>
+				<name>node.syslog</name>
+				<icon>dmssyslog/image/syslog.gif</icon>
+				<toolTip>node.syslog</toolTip>
+				
+				<frame>com.huawei.syslog.view.SyslogQueryWnd</frame>
+				<!--
+				<frame>com.huawei.d2000.dms.syslog.view.SyslogQueryWnd_Ex</frame>
+				--><popupMenu>true</popupMenu>
+				<id>111</id>
+			</node>     
+	        
+		</node><!-- end of Syslog -->
+</node>

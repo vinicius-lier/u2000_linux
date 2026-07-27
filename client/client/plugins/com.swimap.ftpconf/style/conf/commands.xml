@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" []>
+
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="local_ftp">
+		<DESC descname="local_ftp_action">
+			<PARAS>
+				<PARA name="actionType" value="cic"></PARA>
+				<PARA name="moduleID" value="com.swimap.ftpconf"></PARA>
+				<PARA name="methodName" value="openLocalFtpDlg"></PARA>
+				<PARA name="security" value="1"></PARA>
+			</PARAS>
+		</DESC>  
+		<DESC descname="third_ftp_action">
+			<PARAS>
+				<PARA name="actionType" value="cic"></PARA>
+				<PARA name="moduleID" value="com.swimap.ftpconf"></PARA>
+				<PARA name="methodName" value="openThirdPartyFtpDlg"></PARA>
+				<PARA name="security" value="1"></PARA>
+			</PARAS>
+		</DESC> 
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>
+  

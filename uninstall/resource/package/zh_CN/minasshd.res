@@ -1,0 +1,15 @@
+# minasshd
+minasshd=minasshd
+minasshd_server=minasshd服务器
+minasshd_client=minasshd客户端
+minasshd_help=minasshd帮助
+
+#Display string for database name
+
+minasshd.InstallInfo=提供windows下sftp服务功能。
+minasshd_server.InstallInfo=minasshd服务器
+minasshd_client.InstallInfo=minasshd客户端
+
+minasshd.UninstallInfo=提供windows下sftp服务功能。
+minasshd_server.UninstallInfo=minasshd服务器
+minasshd_client.UninstallInfo=minasshd客户端

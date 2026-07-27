@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device-panel>
+  <type-descriptor>
+    <card>
+      <child-position>
+        <bound>
+          <w>18</w>
+          <x>5</x>
+          <h>400</h>
+          <y>80</y>
+        </bound>
+      </child-position>
+      <label>PILA</label>
+      <popupmenu-ref />
+      <type>4_148653</type>
+      <compatibility>H901PILA</compatibility>
+    </card>
+    <card>
+      <child-position>
+        <bound>
+          <w>400</w>
+          <x>5</x>
+          <h>18</h>
+          <y>80</y>
+        </bound>
+      </child-position>
+      <label>PILA</label>
+      <popupmenu-ref />
+      <type>4_148653_HUBO</type>
+      <compatibility>H901PILA</compatibility>
+    </card>
+  </type-descriptor>
+</device-panel>
+

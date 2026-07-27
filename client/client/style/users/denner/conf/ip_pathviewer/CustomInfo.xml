@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="com.huawei.pathviewer.ippath.view.config.InterfaceVisionPnl.chk_DisDetailIfInfo ">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.PerformanceThresholdPnl.jtf_MemoryUsage">80</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.InterfaceVisionPnl.chk_DisLinkIpInfo">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.OperatePreferencePnl.chk_AutoExpan">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.MainPanel.jHorizontalSplitPane">0.6</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.PerformanceThresholdPnl.ckb_BandwidthUsage">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.diag.PathDiagPanel.splitPane.vertical">0.5991471215351812</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.PerformanceThresholdPnl.ckb_MemoryUsage">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.PerformanceThresholdPnl.ckb_CPUUsage">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.InterfaceVisionPnl.chk_DisLinkServInfo">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.PerformanceThresholdPnl.jtf_BandwidthUsage">60</entry>
+<entry key="com.huawei.pathviewer.ippath.view.MainPanel.jVerticalSplitPane">1.0</entry>
+<entry key="com.huawei.pathviewer.ippath.view.layout.LayoutUtil.preLayoutType">4</entry>
+<entry key="com.huawei.pathviewer.ippath.view.layout.LayoutUtil.preSplitServLayoutType">4</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.OperatePreferencePnl.chk_TopoLinkage">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.PerformanceThresholdPnl.jtf_CPUUsage">80</entry>
+<entry key="com.huawei.pathviewer.ippath.view.layout.LayoutUtil.layoutType">4</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.InterfaceVisionPnl.chk_DisLinkIfInfo">true</entry>
+<entry key="com.huawei.pathviewer.ippath.view.config.InterfaceVisionPnl.chk_DisLinkTunnelInfo">true</entry>
+</properties>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <!-- 应用信息 -->
+        <DESC descname="applicationInfo">
+            <PARAS>
+                <!-- 应用的唯一标识（必填） -->
+                <PARA name="id" value="BearerServiceCM"/>
+                <!-- 序列号，定制应用图标在Portal面板上的展示顺序 -->
+                <PARA name="serialnumber" value="332"/>
+                <!-- 展示给用户的名称（必填） -->
+                <PARA name="name" value="E2E.Application.Name"/>
+                <!-- 应用的描述信息 -->
+                <PARA name="description" value=""/>
+                <!-- 展示在Portal面板上的icon图标 -->
+                <PARA name="icon" value="E2EView.PNG"/>
+            </PARAS>
+        </DESC>
+		<!-- 空白页描述 -->
+		<DESC descname="blankPageInfo">
+			<PARAS>
+				<PARA name="name" value="blank.name.e2e"/>
+				<PARA name="description" value="blank.desc.e2e"/>
+				<!--PARA name="helpid" value="iVIEW.topo.blankPage"/-->
+			</PARAS>
+		</DESC>
+    </AREADESC>
+</COMMINIDATA>

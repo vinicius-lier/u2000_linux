@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="PortIPInfo" name="IP" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="PortMacInfo" name="MAC" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="PortVlanIdInfo" name="VLAN ID (0-4095)" isVisiable="true" isEditable="true" width="121" isNameModified="false" />
+</table>
+

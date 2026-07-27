@@ -1,0 +1,2344 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="CommandInfo">
+            <PARAS>
+                <DESC descname="8393715">
+                    <PARAS>
+                        <PARA name="description" value="Query static LSP segments"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393716">
+                    <PARAS>
+                        <PARA name="description" value="Query static Lsp detail segments"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393717">
+                    <PARAS>
+                        <PARA name="description" value="Create a static LSP segment"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585588">
+                    <PARAS>
+                        <PARA name="description" value="Configure a static LSP segment"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393718">
+                    <PARAS>
+                        <PARA name="description" value="Delete static LSP segment"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393726">
+                    <PARAS>
+                        <PARA name="description" value="getLabelRangeCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393730">
+                    <PARAS>
+                        <PARA name="description" value="getMplsIfCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586233">
+                    <PARAS>
+                        <PARA name="description" value="Start bidirectional LSP loopback detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586234">
+                    <PARAS>
+                        <PARA name="description" value="Stop bidirectional LSP loopback detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586227">
+                    <PARAS>
+                        <PARA name="description" value="View LSP loopback details"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393724">
+                    <PARAS>
+                        <PARA name="description" value="Query MPLS information of NEs"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585216">
+                    <PARAS>
+                        <PARA name="description" value="Query LDP information of equipment"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393725">
+                    <PARAS>
+                        <PARA name="description" value="Query MPLS TE information of NEs"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393709">
+                    <PARAS>
+                        <PARA name="description" value="Configure MPLS capability of NEs"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585217">
+                    <PARAS>
+                        <PARA name="description" value="Configure LDP capabilities of equipment"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393711">
+                    <PARAS>
+                        <PARA name="description" value="Configure MPLS TE capability of NEs"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392806">
+                    <PARAS>
+                        <PARA name="description" value="Refresh LSP statistics"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392807">
+                    <PARAS>
+                        <PARA name="description" value="View LSP statistics details"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392804">
+                    <PARAS>
+                        <PARA name="description" value="Collect LSP statistics"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392805">
+                    <PARAS>
+                        <PARA name="description" value="Delete LSP statistics"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392809">
+                    <PARAS>
+                        <PARA name="description" value="View LDP session information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393713">
+                    <PARAS>
+                        <PARA name="description" value="Query MPLS interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393714">
+                    <PARAS>
+                        <PARA name="description" value="Query MPLS detail interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393710">
+                    <PARAS>
+                        <PARA name="description" value="Configure MPLS capability of interface"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393549">
+                    <PARAS>
+                        <PARA name="description" value="Enable MPLS capability of interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393550">
+                    <PARAS>
+                        <PARA name="description" value="Disable MPLS capability of interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586027">
+                    <PARAS>
+                        <PARA name="description" value="Enable MPLS TE capability of interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586028">
+                    <PARAS>
+                        <PARA name="description" value="Disable MPLS TE capability of interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586030">
+                    <PARAS>
+                        <PARA name="description" value="Enable MPLS LDP capability of interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586031">
+                    <PARAS>
+                        <PARA name="description" value="Disable MPLS LDP capability of interfaces"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393771">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the MPLS OAM egress detection list"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393773">
+                    <PARAS>
+                        <PARA name="description" value="Obtain details of MPLS OAM egress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393765">
+                    <PARAS>
+                        <PARA name="description" value="Create MPLS OAM egress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585377">
+                    <PARAS>
+                        <PARA name="description" value="Configure MPLS OAM Egress Detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393767">
+                    <PARAS>
+                        <PARA name="description" value="Delete MPLS OAM egress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393769">
+                    <PARAS>
+                        <PARA name="description" value="Start/Stop MPLS OAM egress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585830">
+                    <PARAS>
+                        <PARA name="description" value="Query information about bidirectional LSP detection using MPLS OAM"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585831">
+                    <PARAS>
+                        <PARA name="description" value="Create bidirectional LSP detection using MPLS OAM"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585832">
+                    <PARAS>
+                        <PARA name="description" value="Configure bidirectional LSP detection using MPLS OAM"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585833">
+                    <PARAS>
+                        <PARA name="description" value="Delete bidirectional LSP detection using MPLS OAM"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393770">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the MPLS OAM ingress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393772">
+                    <PARAS>
+                        <PARA name="description" value="Obtain details of MPLS OAM ingress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393764">
+                    <PARAS>
+                        <PARA name="description" value="Create MPLS OAM ingress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585376">
+                    <PARAS>
+                        <PARA name="description" value="Configure MPLS OAM Ingress Dectection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393766">
+                    <PARAS>
+                        <PARA name="description" value="Delete MPLS OAM ingress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393768">
+                    <PARAS>
+                        <PARA name="description" value="Start/Stop MPLS OAM ingress detection"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393777">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the protection group list"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393778">
+                    <PARAS>
+                        <PARA name="description" value="Obtain protection group details"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393774">
+                    <PARAS>
+                        <PARA name="description" value="Create a protection group"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585378">
+                    <PARAS>
+                        <PARA name="description" value="Configure MPLS Protect Group"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393775">
+                    <PARAS>
+                        <PARA name="description" value="Delete a protection group"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393776">
+                    <PARAS>
+                        <PARA name="description" value="Switch/Clear a switching protection group"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585757">
+                    <PARAS>
+                        <PARA name="description" value="Refresh MPLS TE protection group configurations"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393746">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the MPLS TE tunnel list"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393742">
+                    <PARAS>
+                        <PARA name="description" value="TETunnel.queryDetailCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393738">
+                    <PARAS>
+                        <PARA name="description" value="Create a MPLS TE tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393739">
+                    <PARAS>
+                        <PARA name="description" value="Configure a MPLS TE tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393740">
+                    <PARAS>
+                        <PARA name="description" value="Delete MPLS TE tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8395008">
+                    <PARAS>
+                        <PARA name="description" value="Obtain automatically assigned tunnel IDs"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393741">
+                    <PARAS>
+                        <PARA name="description" value="Reset MPLS TE Tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393744">
+                    <PARAS>
+                        <PARA name="description" value="Refresh MPLS TE tunnel configurations"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585808">
+                    <PARAS>
+                        <PARA name="description" value="Global tunnel re-optimization"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585868">
+                    <PARAS>
+                        <PARA name="description" value="Tunnel re-optimization"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585721">
+                    <PARAS>
+                        <PARA name="description" value="Display mpls te cspf destination"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393719">
+                    <PARAS>
+                        <PARA name="description" value="View label FIB information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393545">
+                    <PARAS>
+                        <PARA name="description" value="NeMplsExternalIf.queryCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393757">
+                    <PARAS>
+                        <PARA name="description" value="LspCar.queryCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393759">
+                    <PARAS>
+                        <PARA name="description" value="Add LSP CAR"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393760">
+                    <PARAS>
+                        <PARA name="description" value="Delete LSP CAR"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393761">
+                    <PARAS>
+                        <PARA name="description" value="MplsQos.queryCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393762">
+                    <PARAS>
+                        <PARA name="description" value="MplsQos.modifyCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585543">
+                    <PARAS>
+                        <PARA name="description" value="View global LDP debugging information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585686">
+                    <PARAS>
+                        <PARA name="description" value="Reset LDP"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585541">
+                    <PARAS>
+                        <PARA name="description" value="View the command output about LDP debugging details"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585547">
+                    <PARAS>
+                        <PARA name="description" value="View LDP local peer information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585545">
+                    <PARAS>
+                        <PARA name="description" value="View LDP peer information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585546">
+                    <PARAS>
+                        <PARA name="description" value="View remote LDP peer information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585544">
+                    <PARAS>
+                        <PARA name="description" value="View LDP adjacency information"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393562">
+                    <PARAS>
+                        <PARA name="description" value="Delete explicit path"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393560">
+                    <PARAS>
+                        <PARA name="description" value="Create explicit path"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393561">
+                    <PARAS>
+                        <PARA name="description" value="Modify explicit path"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393557">
+                    <PARAS>
+                        <PARA name="description" value="TETunnel.queryExpathDetailCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585707">
+                    <PARAS>
+                        <PARA name="description" value="Perform tunnel protection switching"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585708">
+                    <PARAS>
+                        <PARA name="description" value="Query tunnel protection switching status"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393581">
+                    <PARAS>
+                        <PARA name="description" value="TETunnel.viewTunnelInfo"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454378">
+                    <PARAS>
+                        <PARA name="description" value="Bulk enable interface performance statistics and set intervals"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585612">
+                    <PARAS>
+                        <PARA name="description" value="Obtain MPLS ring configurations from an NE"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585613">
+                    <PARAS>
+                        <PARA name="description" value="Obtain details about a single MPLS ring"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585617">
+                    <PARAS>
+                        <PARA name="description" value="Configure an MPLS ring"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585615">
+                    <PARAS>
+                        <PARA name="description" value="Modify MPLS ring configurations"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585614">
+                    <PARAS>
+                        <PARA name="description" value="Delete MPLS ring configurations in batches from an NE"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585616">
+                    <PARAS>
+                        <PARA name="description" value="Switch traffic on an MPLS ring"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585975">
+                    <PARAS>
+                        <PARA name="description" value="Create GRE tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585977">
+                    <PARAS>
+                        <PARA name="description" value="Delete GRE tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585978">
+                    <PARAS>
+                        <PARA name="description" value="Modify GRE tunnel"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585983">
+                    <PARAS>
+                        <PARA name="description" value="NeGre.queryDetailCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585982">
+                    <PARAS>
+                        <PARA name="description" value="NeGre.queryCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585979">
+                    <PARAS>
+                        <PARA name="description" value="NeGre.synchronizeCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585980">
+                    <PARAS>
+                        <PARA name="description" value="NeGre.refreshStatusCommand"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585834">
+                    <PARAS>
+                        <PARA name="description" value="Query L2VPN configurations"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585835">
+                    <PARAS>
+                        <PARA name="description" value="Modify L2VPN configurations"/>
+                        <PARA name="moduleID" value="V5_MPLS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="50401">
+                    <PARAS>
+                        <PARA name="description" value="Query global LLDP configurations"/>
+                        <PARA name="moduleID" value="V5_LLDP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="50399">
+                    <PARAS>
+                        <PARA name="description" value="Configure LLDP globally"/>
+                        <PARA name="moduleID" value="V5_LLDP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="50400">
+                    <PARAS>
+                        <PARA name="description" value="Set LLDP parameters on an interface"/>
+                        <PARA name="moduleID" value="V5_LLDP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="50402">
+                    <PARAS>
+                        <PARA name="description" value="Query LLDP configurations on an interface"/>
+                        <PARA name="moduleID" value="V5_LLDP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="50403">
+                    <PARAS>
+                        <PARA name="description" value="Obtain LLDP management IP addresses"/>
+                        <PARA name="moduleID" value="V5_LLDP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51089">
+                    <PARAS>
+                        <PARA name="description" value="Create a PW template"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51090">
+                    <PARAS>
+                        <PARA name="description" value="Delete a PW template"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51091">
+                    <PARAS>
+                        <PARA name="description" value="Configure a PW template"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51092">
+                    <PARAS>
+                        <PARA name="description" value="Query the PW template list"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51093">
+                    <PARAS>
+                        <PARA name="description" value="View PW template information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51094">
+                    <PARAS>
+                        <PARA name="description" value="Reset a PW template"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51097">
+                    <PARAS>
+                        <PARA name="description" value="Create MAC address binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51098">
+                    <PARAS>
+                        <PARA name="description" value="Delete MAC address binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51099">
+                    <PARAS>
+                        <PARA name="description" value="Query MAC address binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51100">
+                    <PARAS>
+                        <PARA name="description" value="Query the MAC address binding list"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51103">
+                    <PARAS>
+                        <PARA name="description" value="Create a PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51104">
+                    <PARAS>
+                        <PARA name="description" value="Delete a PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51105">
+                    <PARAS>
+                        <PARA name="description" value="Configure a PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51106">
+                    <PARAS>
+                        <PARA name="description" value="Query the PW List"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51107">
+                    <PARAS>
+                        <PARA name="description" value="View PWE3 information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51108">
+                    <PARAS>
+                        <PARA name="description" value="Query whether PWE3 is configured on an interface"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51109">
+                    <PARAS>
+                        <PARA name="description" value="Query advanced PWE3 settings"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51705">
+                    <PARAS>
+                        <PARA name="description" value="Add PWE3Ping Test Case"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51722">
+                    <PARAS>
+                        <PARA name="description" value="Run Temporary Test Case"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585492">
+                    <PARAS>
+                        <PARA name="description" value="Create Management PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585527">
+                    <PARAS>
+                        <PARA name="description" value="Modify Management PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51110">
+                    <PARAS>
+                        <PARA name="description" value="Create a binding relationship between UPW and management VRRP"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51111">
+                    <PARAS>
+                        <PARA name="description" value="Delete the binding relationship between UPW and VRRP"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51112">
+                    <PARAS>
+                        <PARA name="description" value="Modify the binding relationship between UPW and VRRP"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51113">
+                    <PARAS>
+                        <PARA name="description" value="Query the VRRP list"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51116">
+                    <PARAS>
+                        <PARA name="description" value="Create a route"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51117">
+                    <PARAS>
+                        <PARA name="description" value="Delete a route"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51118">
+                    <PARAS>
+                        <PARA name="description" value="Modify a route"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51119">
+                    <PARAS>
+                        <PARA name="description" value="Query the route list"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51122">
+                    <PARAS>
+                        <PARA name="description" value="Create OAM mapping"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51123">
+                    <PARAS>
+                        <PARA name="description" value="Delete OAM mapping"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51124">
+                    <PARAS>
+                        <PARA name="description" value="Modify OAM mapping"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51125">
+                    <PARAS>
+                        <PARA name="description" value="Query the OAM mapping list"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585458">
+                    <PARAS>
+                        <PARA name="description" value="Create UPW QoS"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585459">
+                    <PARAS>
+                        <PARA name="description" value="Delete UPW QoS"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585460">
+                    <PARAS>
+                        <PARA name="description" value="Modify UPW QoS"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585463">
+                    <PARAS>
+                        <PARA name="description" value="Query the UPW QoS list"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585595">
+                    <PARAS>
+                        <PARA name="description" value="Create APS information for interface binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585597">
+                    <PARAS>
+                        <PARA name="description" value="Delete APS information for interface binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585596">
+                    <PARAS>
+                        <PARA name="description" value="Modify APS information for interface binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585598">
+                    <PARAS>
+                        <PARA name="description" value="Query APS information for interface binding"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585629">
+                    <PARAS>
+                        <PARA name="description" value="Add dynamic BFD for the PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585631">
+                    <PARAS>
+                        <PARA name="description" value="Delete dynamic BFD from the PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585632">
+                    <PARAS>
+                        <PARA name="description" value="Modify dynamic BFD for the PW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586135">
+                    <PARAS>
+                        <PARA name="description" value="Enable physical-layer fault notification"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585456">
+                    <PARAS>
+                        <PARA name="description" value="Create an SPW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585461">
+                    <PARAS>
+                        <PARA name="description" value="Modify SPW QoS on NEs"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586090">
+                    <PARAS>
+                        <PARA name="description" value="Modify the NE SPW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585457">
+                    <PARAS>
+                        <PARA name="description" value="Delete an SPW"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585462">
+                    <PARAS>
+                        <PARA name="description" value="Query SPWs"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8394844">
+                    <PARAS>
+                        <PARA name="description" value="Create CCC configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8394845">
+                    <PARAS>
+                        <PARA name="description" value="Delete CCC configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8394846">
+                    <PARAS>
+                        <PARA name="description" value="Query CCC configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585518">
+                    <PARAS>
+                        <PARA name="description" value="Modify CCC configuration"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585590">
+                    <PARAS>
+                        <PARA name="description" value="Create APS information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585592">
+                    <PARAS>
+                        <PARA name="description" value="Delete APS information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585593">
+                    <PARAS>
+                        <PARA name="description" value="Query APS information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585591">
+                    <PARAS>
+                        <PARA name="description" value="Modify APS information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585600">
+                    <PARAS>
+                        <PARA name="description" value="APS operation and maintenance"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585687">
+                    <PARAS>
+                        <PARA name="description" value="Query APS bind PW information"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585688">
+                    <PARAS>
+                        <PARA name="description" value="Refresh APS status"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585652">
+                    <PARAS>
+                        <PARA name="description" value="Configure PW link detection"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585655">
+                    <PARAS>
+                        <PARA name="description" value="Delete PW link detection configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585658">
+                    <PARAS>
+                        <PARA name="description" value="Query PW link detection configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585654">
+                    <PARAS>
+                        <PARA name="description" value="Modify PW link detection configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585656">
+                    <PARAS>
+                        <PARA name="description" value="Start PW link detection"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585657">
+                    <PARAS>
+                        <PARA name="description" value="Stop PW link detection"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454500">
+                    <PARAS>
+                        <PARA name="description" value="Set the PW TTL value"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454501">
+                    <PARAS>
+                        <PARA name="description" value="Delete the PW TTL value"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585734">
+                    <PARAS>
+                        <PARA name="description" value="Set alarm thresholds for CES PW services"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585851">
+                    <PARAS>
+                        <PARA name="description" value="Configure loopback detection for PW services"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586176">
+                    <PARAS>
+                        <PARA name="description" value="Configure load balancing"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586177">
+                    <PARAS>
+                        <PARA name="description" value="Query load balancing configurations"/>
+                        <PARA name="moduleID" value="V5_PW"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51857">
+                    <PARAS>
+                        <PARA name="description" value="Create a VRF"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51858">
+                    <PARAS>
+                        <PARA name="description" value="Delete a VRF"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51859">
+                    <PARAS>
+                        <PARA name="description" value="Modify a VRF"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51861">
+                    <PARAS>
+                        <PARA name="description" value="Query the VRF List"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51860">
+                    <PARAS>
+                        <PARA name="description" value="Query VRF Details"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51862">
+                    <PARAS>
+                        <PARA name="description" value="Verify parameter logic for a VRF"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51863">
+                    <PARAS>
+                        <PARA name="description" value="Query bound interfaces used by equipment"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392954">
+                    <PARAS>
+                        <PARA name="description" value="Add ICMP VRF Ping Test Case"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51722">
+                    <PARAS>
+                        <PARA name="description" value="Run Temporary Test Case"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585794">
+                    <PARAS>
+                        <PARA name="description" value="View All the Vpn Instance of Vpn-targete"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585807">
+                    <PARAS>
+                        <PARA name="description" value="NeVrf.viewTrafficStatistics"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585809">
+                    <PARAS>
+                        <PARA name="description" value="Reset traffic statistics about a VPN instance"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585372">
+                    <PARAS>
+                        <PARA name="description" value="Create VPN group configurations"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585374">
+                    <PARAS>
+                        <PARA name="description" value="Delete VPN group configurations"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585373">
+                    <PARAS>
+                        <PARA name="description" value="Modify VPN group configurations"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585371">
+                    <PARAS>
+                        <PARA name="description" value="Query VPN group configurations"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585368">
+                    <PARAS>
+                        <PARA name="description" value="Query traffic behavior associated with a VPN group"/>
+                        <PARA name="moduleID" value="V5_VRF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51963">
+                    <PARAS>
+                        <PARA name="description" value="Create a VSI"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51964">
+                    <PARAS>
+                        <PARA name="description" value="Delete a VSI"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51965">
+                    <PARAS>
+                        <PARA name="description" value="Configure a VSI"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51966">
+                    <PARAS>
+                        <PARA name="description" value="Query VSI details"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51967">
+                    <PARAS>
+                        <PARA name="description" value="Query the VSI list"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51968">
+                    <PARAS>
+                        <PARA name="description" value="Enable VSI"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51969">
+                    <PARAS>
+                        <PARA name="description" value="Disable VSI"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51971">
+                    <PARAS>
+                        <PARA name="description" value="NeVsi.VerifyVsiInfoCommand"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51972">
+                    <PARAS>
+                        <PARA name="description" value="Query VCs"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51973">
+                    <PARAS>
+                        <PARA name="description" value="Query bound interfaces"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51702">
+                    <PARAS>
+                        <PARA name="description" value="Add MACPing Test Case"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51722">
+                    <PARAS>
+                        <PARA name="description" value="Run Temporary Test Case"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392946">
+                    <PARAS>
+                        <PARA name="description" value="Add the service ping test case"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585427">
+                    <PARAS>
+                        <PARA name="description" value="Synchronize NE VPLS features"/>
+                        <PARA name="moduleID" value="V5_VSI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52156">
+                    <PARAS>
+                        <PARA name="description" value="Create a tunnel policy"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52157">
+                    <PARAS>
+                        <PARA name="description" value="Delete a tunnel policy"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52158">
+                    <PARAS>
+                        <PARA name="description" value="Modify a tunnel policy"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52159">
+                    <PARAS>
+                        <PARA name="description" value="Filter query of tunnel policies"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52160">
+                    <PARAS>
+                        <PARA name="description" value="Query details of a tunnel policy"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585486">
+                    <PARAS>
+                        <PARA name="description" value="TunnelPolicy.queryBWCommand"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586170">
+                    <PARAS>
+                        <PARA name="description" value="Verify Tunnel Policies"/>
+                        <PARA name="moduleID" value="V5_TunnelPolicy"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52058">
+                    <PARAS>
+                        <PARA name="description" value="Create an OSPF process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52059">
+                    <PARAS>
+                        <PARA name="description" value="Modify an OSPF process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52060">
+                    <PARAS>
+                        <PARA name="description" value="Delete an OSPF process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52061">
+                    <PARAS>
+                        <PARA name="description" value="Query OSPF processes"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52062">
+                    <PARAS>
+                        <PARA name="description" value="View information of an OSPF process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52100">
+                    <PARAS>
+                        <PARA name="description" value="Restart an OSPF process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52063">
+                    <PARAS>
+                        <PARA name="description" value="Create an OSPF interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52064">
+                    <PARAS>
+                        <PARA name="description" value="Delete an OSPF interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52065">
+                    <PARAS>
+                        <PARA name="description" value="Configure an OSPF interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52066">
+                    <PARAS>
+                        <PARA name="description" value="Query OSPF interfaces"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52067">
+                    <PARAS>
+                        <PARA name="description" value="Create a static route"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52068">
+                    <PARAS>
+                        <PARA name="description" value="Delete a static route"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52069">
+                    <PARAS>
+                        <PARA name="description" value="Configure a static route"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52070">
+                    <PARAS>
+                        <PARA name="description" value="Query static routes"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52071">
+                    <PARAS>
+                        <PARA name="description" value="Query basic BGP information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52103">
+                    <PARAS>
+                        <PARA name="description" value="Config basic BGP information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585416">
+                    <PARAS>
+                        <PARA name="description" value="Query information of a BGP IPV4 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585417">
+                    <PARAS>
+                        <PARA name="description" value="Configure the IPv4 unicast address family of BGP"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52072">
+                    <PARAS>
+                        <PARA name="description" value="Create a peer"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52073">
+                    <PARAS>
+                        <PARA name="description" value="Delete a peer"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52074">
+                    <PARAS>
+                        <PARA name="description" value="Modify a peer"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52075">
+                    <PARAS>
+                        <PARA name="description" value="Query peers"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52104">
+                    <PARAS>
+                        <PARA name="description" value="View peers"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52076">
+                    <PARAS>
+                        <PARA name="description" value="Enable peer VPLS"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52077">
+                    <PARAS>
+                        <PARA name="description" value="Disable peer VPLS"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392722">
+                    <PARAS>
+                        <PARA name="description" value="View BGP peer information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392724">
+                    <PARAS>
+                        <PARA name="description" value="View BGP peer groups"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392723">
+                    <PARAS>
+                        <PARA name="description" value="View BGP peer logs"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392725">
+                    <PARAS>
+                        <PARA name="description" value="View BGP peer statistics"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392727">
+                    <PARAS>
+                        <PARA name="description" value="Set Flapping Times to 0"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52078">
+                    <PARAS>
+                        <PARA name="description" value="Create a peer group"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52079">
+                    <PARAS>
+                        <PARA name="description" value="Delete a peer group"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52080">
+                    <PARAS>
+                        <PARA name="description" value="Configure a peer group"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52081">
+                    <PARAS>
+                        <PARA name="description" value="Query peer groups"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52105">
+                    <PARAS>
+                        <PARA name="description" value="View peer groups"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52082">
+                    <PARAS>
+                        <PARA name="description" value="Enable a VPLS group"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52083">
+                    <PARAS>
+                        <PARA name="description" value="Disable a VPLS group"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52084">
+                    <PARAS>
+                        <PARA name="description" value="Create route distribution"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52085">
+                    <PARAS>
+                        <PARA name="description" value="Delete route distribution"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52086">
+                    <PARAS>
+                        <PARA name="description" value="Query route distribution information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52087">
+                    <PARAS>
+                        <PARA name="description" value="Create route import"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52088">
+                    <PARAS>
+                        <PARA name="description" value="Delete route import"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52089">
+                    <PARAS>
+                        <PARA name="description" value="Configure route import"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52090">
+                    <PARAS>
+                        <PARA name="description" value="Query route import information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585795">
+                    <PARAS>
+                        <PARA name="description" value="Create BGP instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585796">
+                    <PARAS>
+                        <PARA name="description" value="Delete BGP instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585798">
+                    <PARAS>
+                        <PARA name="description" value="Modify BGP instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585797">
+                    <PARAS>
+                        <PARA name="description" value="Query BGP instance details"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585853">
+                    <PARAS>
+                        <PARA name="description" value="Query peer status"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52091">
+                    <PARAS>
+                        <PARA name="description" value="Query VPN IPv4 address families"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585801">
+                    <PARAS>
+                        <PARA name="description" value="Add VPNv4 unicast instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52092">
+                    <PARAS>
+                        <PARA name="description" value="Modify BGPVPNV4 configurations"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585802">
+                    <PARAS>
+                        <PARA name="description" value="Delete VPNv4 unicast instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586081">
+                    <PARAS>
+                        <PARA name="description" value="Query BGP IPv6 unicast address families"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586082">
+                    <PARAS>
+                        <PARA name="description" value="Add BGP IPv6 unicast address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586084">
+                    <PARAS>
+                        <PARA name="description" value="Modify BGP IPv6 unicast address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586083">
+                    <PARAS>
+                        <PARA name="description" value="Delete BGP IPv6 unicast address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585472">
+                    <PARAS>
+                        <PARA name="description" value="Query BGP VPLS address families"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585803">
+                    <PARAS>
+                        <PARA name="description" value="Add BGP VPLS address family instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585471">
+                    <PARAS>
+                        <PARA name="description" value="Configure the BGP VPLS address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585804">
+                    <PARAS>
+                        <PARA name="description" value="Delete BGP VPLS address family instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586169">
+                    <PARAS>
+                        <PARA name="description" value="Query BGP VPN Target address family instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586166">
+                    <PARAS>
+                        <PARA name="description" value="Add BGP VPN Target address family instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586168">
+                    <PARAS>
+                        <PARA name="description" value="Modify BGP VPN Target address family instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586167">
+                    <PARAS>
+                        <PARA name="description" value="Delete BGP VPN Target address family instance"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586226">
+                    <PARAS>
+                        <PARA name="description" value="Query L2VPN-AD address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586223">
+                    <PARAS>
+                        <PARA name="description" value="Create L2VPN-AD address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586225">
+                    <PARAS>
+                        <PARA name="description" value="Configure L2VPN-AD address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586224">
+                    <PARAS>
+                        <PARA name="description" value="Delete L2VPN-AD address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52093">
+                    <PARAS>
+                        <PARA name="description" value="Create a VPN instance IPV4 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52094">
+                    <PARAS>
+                        <PARA name="description" value="Delete a VPN instance IPV4 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52095">
+                    <PARAS>
+                        <PARA name="description" value="Configure a VPN instance IPV4 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52096">
+                    <PARAS>
+                        <PARA name="description" value="Query VPN instance IPV4 address families"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52097">
+                    <PARAS>
+                        <PARA name="description" value="View a VPN instance IPV4 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52101">
+                    <PARAS>
+                        <PARA name="description" value="Check whether IPV4 addresses family of a BGP VPN instance exists"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586047">
+                    <PARAS>
+                        <PARA name="description" value="Create VPN instance IPv6 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586048">
+                    <PARAS>
+                        <PARA name="description" value="Delete VPN instance IPv6 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586049">
+                    <PARAS>
+                        <PARA name="description" value="Configure VPN instance IPv6 address family"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586050">
+                    <PARAS>
+                        <PARA name="description" value="Query VPN instance IPv6 address families"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52099">
+                    <PARAS>
+                        <PARA name="description" value="Query routing policies"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52102">
+                    <PARAS>
+                        <PARA name="description" value="Query routing information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392707">
+                    <PARAS>
+                        <PARA name="description" value="Query basic information of an IS-IS process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392708">
+                    <PARAS>
+                        <PARA name="description" value="Query details of an IS-IS process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392704">
+                    <PARAS>
+                        <PARA name="description" value="Add an IS-IS process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392706">
+                    <PARAS>
+                        <PARA name="description" value="Modify an IS-IS process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392705">
+                    <PARAS>
+                        <PARA name="description" value="Delete an IS-IS process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392709">
+                    <PARAS>
+                        <PARA name="description" value="Restart an IS-IS process"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392739">
+                    <PARAS>
+                        <PARA name="description" value="View the IS-IS link status database"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585714">
+                    <PARAS>
+                        <PARA name="description" value="View IS-IS peer"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585715">
+                    <PARAS>
+                        <PARA name="description" value="View IS-IS statistics"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392738">
+                    <PARAS>
+                        <PARA name="description" value="View IS-IS summary"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392736">
+                    <PARAS>
+                        <PARA name="description" value="View IS-IS interface information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392737">
+                    <PARAS>
+                        <PARA name="description" value="View neighbor information associated with IS-IS interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585491">
+                    <PARAS>
+                        <PARA name="description" value="IsisProcess.queryAreaIdRepeat"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392717">
+                    <PARAS>
+                        <PARA name="description" value="Query IS-IS interface configurations"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392710">
+                    <PARAS>
+                        <PARA name="description" value="Add an IS-IS interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392715">
+                    <PARAS>
+                        <PARA name="description" value="Modify an IS-IS interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392714">
+                    <PARAS>
+                        <PARA name="description" value="Delete an IS-IS interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392721">
+                    <PARAS>
+                        <PARA name="description" value="Query IP prefixes"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392718">
+                    <PARAS>
+                        <PARA name="description" value="Add an IP prefix"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392720">
+                    <PARAS>
+                        <PARA name="description" value="Change an IP prefix"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392719">
+                    <PARAS>
+                        <PARA name="description" value="Delete an IP prefix"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392741">
+                    <PARAS>
+                        <PARA name="description" value="Query the routing table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392742">
+                    <PARAS>
+                        <PARA name="description" value="View statistics of the routing table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392743">
+                    <PARAS>
+                        <PARA name="description" value="View the OSPF routing table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392745">
+                    <PARAS>
+                        <PARA name="description" value="View the IS-IS routing table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392746">
+                    <PARAS>
+                        <PARA name="description" value="View the FIB table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392747">
+                    <PARAS>
+                        <PARA name="description" value="View FIB statistics"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392748">
+                    <PARAS>
+                        <PARA name="description" value="View configurations"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392744">
+                    <PARAS>
+                        <PARA name="description" value="View the BGP routing table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393803">
+                    <PARAS>
+                        <PARA name="description" value="Query slot numbers"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585719">
+                    <PARAS>
+                        <PARA name="description" value="View  BGP VPLS information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585720">
+                    <PARAS>
+                        <PARA name="description" value="Display rm interface information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585730">
+                    <PARAS>
+                        <PARA name="description" value="View ARP information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585741">
+                    <PARAS>
+                        <PARA name="description" value="Query ICMP statistics"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586080">
+                    <PARAS>
+                        <PARA name="description" value="Query IPv6 routing table"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392711">
+                    <PARAS>
+                        <PARA name="description" value="Add a policy"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392713">
+                    <PARAS>
+                        <PARA name="description" value="Modify a routing policy"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392712">
+                    <PARAS>
+                        <PARA name="description" value="Delete a routing policy"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392729">
+                    <PARAS>
+                        <PARA name="description" value="View information of an OSPF area"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392730">
+                    <PARAS>
+                        <PARA name="description" value="View information of an OSPF interface"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392731">
+                    <PARAS>
+                        <PARA name="description" value="View information of an OSPF neighbor"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392732">
+                    <PARAS>
+                        <PARA name="description" value="View OSPF summary"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392733">
+                    <PARAS>
+                        <PARA name="description" value="View the OSPF link status database"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392734">
+                    <PARAS>
+                        <PARA name="description" value="View OSPF virtual links"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392735">
+                    <PARAS>
+                        <PARA name="description" value="View OSPF error information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585716">
+                    <PARAS>
+                        <PARA name="description" value="View OSPF Statistics information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585717">
+                    <PARAS>
+                        <PARA name="description" value="View OSPF RunInfo information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585718">
+                    <PARAS>
+                        <PARA name="description" value="View OSPF peer infomation"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585382">
+                    <PARAS>
+                        <PARA name="description" value="Modify a global routing configuration"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585383">
+                    <PARAS>
+                        <PARA name="description" value="Query global routing configurations"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585622">
+                    <PARAS>
+                        <PARA name="description" value="MacTableInfo.viewMacAddressUsage"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585623">
+                    <PARAS>
+                        <PARA name="description" value="Query brief information about MAC addresses"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585624">
+                    <PARAS>
+                        <PARA name="description" value="Query dynamic MAC table information"/>
+                        <PARA name="moduleID" value="V5_ROUTE"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585511">
+                    <PARAS>
+                        <PARA name="description" value="Automatically discover EAPS configurations"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585512">
+                    <PARAS>
+                        <PARA name="description" value="McAps.queryCommand"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585513">
+                    <PARAS>
+                        <PARA name="description" value="McAps.queryDetailCommand"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585514">
+                    <PARAS>
+                        <PARA name="description" value="Create APS group configurations"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585515">
+                    <PARAS>
+                        <PARA name="description" value="Delete E-APS group configurations"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585517">
+                    <PARAS>
+                        <PARA name="description" value="Modify APS group configurations"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393412">
+                    <PARAS>
+                        <PARA name="description" value="Query LACP parameters of an NE"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585528">
+                    <PARAS>
+                        <PARA name="description" value="Set E-APS Switching"/>
+                        <PARA name="moduleID" value="V5_E-APS"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393416">
+                    <PARAS>
+                        <PARA name="description" value="Discover E-Trunk group configurations automatically"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393410">
+                    <PARAS>
+                        <PARA name="description" value="Query an E-Trunk group"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393411">
+                    <PARAS>
+                        <PARA name="description" value="Query E-Trunk group members"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393413">
+                    <PARAS>
+                        <PARA name="description" value="Create E-Trunk group configurations"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393414">
+                    <PARAS>
+                        <PARA name="description" value="Delete E-Trunk group configurations"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393415">
+                    <PARAS>
+                        <PARA name="description" value="Modify E-Trunk group configurations"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8393412">
+                    <PARAS>
+                        <PARA name="description" value="Query LACP parameters of an NE"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="48979">
+                    <PARAS>
+                        <PARA name="description" value="Query the VSIs bound to dynamic MAC addresses"/>
+                        <PARA name="moduleID" value="V5_E-TRUNK"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52602">
+                    <PARAS>
+                        <PARA name="description" value="Query domain resources"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52603">
+                    <PARAS>
+                        <PARA name="description" value="Query domain resource details"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52599">
+                    <PARAS>
+                        <PARA name="description" value="Create a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52600">
+                    <PARAS>
+                        <PARA name="description" value="Delete a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52601">
+                    <PARAS>
+                        <PARA name="description" value="Modify a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51706">
+                    <PARAS>
+                        <PARA name="description" value="Add MPing Test Case"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52604">
+                    <PARAS>
+                        <PARA name="description" value="Query link interface info of a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52608">
+                    <PARAS>
+                        <PARA name="description" value="Deploy a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52606">
+                    <PARAS>
+                        <PARA name="description" value="Query interface configurations of a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52605">
+                    <PARAS>
+                        <PARA name="description" value="Query non-link interface info of a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52607">
+                    <PARAS>
+                        <PARA name="description" value="Update a domain resource"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52592">
+                    <PARAS>
+                        <PARA name="description" value="Create a QoS profile"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52593">
+                    <PARAS>
+                        <PARA name="description" value="Delete a QoS profile"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52594">
+                    <PARAS>
+                        <PARA name="description" value="Modify a QoS profile"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52595">
+                    <PARAS>
+                        <PARA name="description" value="Query IP QoS profiles"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52612">
+                    <PARAS>
+                        <PARA name="description" value="Query the default value of an interface queue"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="52613">
+                    <PARAS>
+                        <PARA name="description" value="Query the default value of a DS domain"/>
+                        <PARA name="moduleID" value="V5_QOS-Profile"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585586">
+                    <PARAS>
+                        <PARA name="description" value="Collect optical module statistics for the IP domain"/>
+                        <PARA name="moduleID" value="V5_OpticalModule"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585587">
+                    <PARAS>
+                        <PARA name="description" value="Query optical modules for the IP domain"/>
+                        <PARA name="moduleID" value="V5_OpticalModule"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8394971">
+                    <PARAS>
+                        <PARA name="description" value="Set the user remarks and label of a port"/>
+                        <PARA name="moduleID" value="V5_OpticalModule"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585785">
+                    <PARAS>
+                        <PARA name="description" value="Refresh optical power for an optical module on the Physical Inventory tab page"/>
+                        <PARA name="moduleID" value="V5_OpticalModule"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454630">
+                    <PARAS>
+                        <PARA name="description" value="Set baseline value for the optical power."/>
+                        <PARA name="moduleID" value="V5_OpticalModule"/>
+                    </PARAS>
+                </DESC>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

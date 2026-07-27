@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="topo">
+        <DESC descname="topo">
+            <PARAS>
+                <!-- 平台默认不支持自定义视图, U2000定制打开 DTS2011111104235 -->
+                <PARA name="support_customview" value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>
+
+

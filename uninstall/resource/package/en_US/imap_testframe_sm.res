@@ -1,0 +1,2 @@
+imap_testframe_sm=imap_testframe_sm
+imap_testframe_sm.InstallInfo=imap_testframe_sm

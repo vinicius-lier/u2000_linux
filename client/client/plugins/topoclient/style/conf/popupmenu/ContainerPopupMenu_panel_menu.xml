@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="Bundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="TopoMenuRes"/>
+			</PARAS>
+		</DESC>
+		<!-- Node Popup Menu on Navigate Tree Panel    the operationID setting should by topoClient -->
+		<DESC descname="ContainerPopupMenu_panel">
+			<PARAS>
+				<PARA name="name" value="ContainerPopupMenu_panel"/>
+				<PARA name="type" value="JPopupMenu"/>
+			</PARAS>
+			
+			<DESC descname="New">
+				<PARAS>
+					<PARA name="name" value="New"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="mnemonic" value="N"/>
+					<PARA name="serialnumber" value="60001"/>
+					<PARA name="operationID" value="7"/>
+				</PARAS>
+				<DESC descname="device">
+					<PARAS>
+						<PARA name="name" value="menu_device"/>
+						<PARA name="mnemonic" value="N"/>
+						<PARA name="command" value="Topo_createNode"/>
+						<PARA name="operationID" value="5,7"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="60001-10"/>
+					</PARAS>
+				</DESC>
+
+				<DESC descname="submap">
+					<PARAS>
+						<PARA name="name" value="menu_submap"/>
+						<PARA name="mnemonic" value="S"/>
+						<PARA name="command" value="Topo_createSubmap"/>
+						<PARA name="operationID" value="2,3"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="60001-20"/>
+					</PARAS>
+				</DESC>
+
+				<DESC descname="link">
+					<PARAS>
+						<PARA name="name" value="menu_link"/>
+						<PARA name="mnemonic" value="L"/>
+						<PARA name="command" value="Topo_createLink"/>
+						<PARA name="operationID" value="1"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="60001-30"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+			
+			
+			
+			<DESC descname="delObject">
+				<PARAS>
+					<PARA name="name" value="deleteObject"/>
+					<PARA name="mnemonic" value="D"/>
+					<PARA name="command" value="Topo_delObject"/>
+					<PARA name="operationID" value="43,44,48"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60010"/>
+				</PARAS>
+			</DESC>
+
+			<DESC descname="ShowLinkInfo">
+				<PARAS>
+					<PARA name="name" value="ShowLinkInfo"/>
+					<PARA name="mnemonic" value="S"/>
+					<PARA name="command" value="Topo_ShowLinkInfo"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60020"/>
+				</PARAS>
+			</DESC>
+				
+			<DESC descname="Separator">
+				<PARAS>
+					<PARA name="type" value="Separator"/>
+					<PARA name="serialnumber" value="60030"/>
+				</PARAS>
+			</DESC>
+			<!--default not config
+			<DESC descname="refreshStatus">
+				<PARAS>
+					<PARA name="name" value="refreshStatus"/>
+					<PARA name="mnemonic" value="H"/>
+					<PARA name="command" value="Topo_refreshStatus"/>
+					<PARA name="operationID" value="103"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60035"/>
+				</PARAS>
+			</DESC>
+			-->
+			<DESC descname="cutObject">
+				<PARAS>
+					<PARA name="name" value="cutObject"/>
+					<PARA name="mnemonic" value="T"/>
+					<PARA name="command" value="Topo_cutObject"/>
+					<PARA name="operationID" value="42"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60040"/>
+				</PARAS>
+			</DESC>	
+			
+			<DESC descname="pasteObject">
+			  <PARAS>
+				  <PARA name="name" value="pasteObject"/>
+				  <PARA name="mnemonic" value="P"/>
+				  <PARA name="command" value="Topo_pasteObject"/>
+				  <PARA name="operationID" value="41"/>
+				  <PARA name="type" value="JMenuItem"/>
+				  <PARA name="serialnumber" value="60050"/>
+				</PARAS>
+			</DESC>			
+			
+			<DESC descname="moveObjectTo">
+				  <PARAS>
+					  <PARA name="name" value="moveObjectTo"/>
+					  <PARA name="mnemonic" value="V"/>
+					  <PARA name="command" value="Topo_moveObjectTo"/>
+					  <PARA name="operationID" value="42"/>
+					  <PARA name="type" value="JMenuItem"/>
+					  <PARA name="serialnumber" value="60060"/>
+				  </PARAS>
+			</DESC>
+			
+		 <DESC descname="Separator">
+				<PARAS>
+					<PARA name="type" value="Separator"/>
+					<PARA name="serialnumber" value="60070"/>
+				</PARAS>
+			</DESC>
+			
+			<DESC descname="expandSub">
+				  <PARAS>
+	  				<PARA name="name" value="openSubChilderen"/>
+					  <PARA name="mnemonic" value="O"/>
+					  <PARA name="command" value="Topo_expand"/>
+					  <PARA name="operationID" value="0"/>
+					  <PARA name="type" value="JMenuItem"/>
+					  <PARA name="serialnumber" value="60300"/>
+				  </PARAS>
+			  </DESC>
+
+			<DESC descname="collapseSub">
+			    <PARAS>
+				<PARA name="name" type="" value="closeSubChilderen"/>
+				<PARA name="command" type="" value="Topo_collapse"/>
+				<PARA name="type"  value="JMenuItem"/>
+				<PARA name="operationID" value="0"/>
+				<PARA name="mnemonic" value="O"></PARA>
+		        	<PARA name="serialnumber" value="60310"></PARA>
+			    </PARAS>
+			</DESC>
+			
+			<DESC descname="Separator">
+				<PARAS>
+					<PARA name="type" value="Separator"/>
+					<PARA name="serialnumber" value="60315"/>
+				</PARAS>
+			</DESC>	
+
+			<DESC descname="setstartsubnet">
+				<PARAS>
+					<PARA name="name" value="setMyStartSubmap"/>
+					<PARA name="mnemonic" value="M"/>
+					<PARA name="command" value="Topo_setStartSubnet"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60320"/>
+				</PARAS>
+			</DESC>
+
+			<!-- Backgroung -->		  
+			  <DESC descname="setBackground">
+					<PARAS>
+						<PARA name="name" value="setBackground"/>
+						<PARA name="mnemonic" value="G"/>
+						<PARA name="command" value="Topo_setBackground"/>
+						<PARA name="operationID" value="51"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="60350"/>
+					</PARAS>
+			</DESC>			
+			
+			<DESC descname="Separator">
+				<PARAS>
+					<PARA name="type" value="Separator"/>
+					<PARA name="serialnumber" value="60355"/>
+				</PARAS>
+			</DESC>	
+			
+			<!-- SRAN -->
+			<DESC descname="Separator">
+				<PARAS>
+					<PARA name="type" value="Separator"/>
+					<PARA name="serialnumber" value="60370"/>
+				</PARAS>
+			</DESC>				
+			
+			<DESC descname="selectAssociatedNE">
+				<PARAS>
+					<PARA name="name" value="selectAssociatedNE"/>
+					<PARA name="mnemonic" value="S"/>
+					<PARA name="command" value="Topo_selectAssociatedNE"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="60380"/>
+				</PARAS>
+			</DESC>		
+			
+			<DESC descname="remarkObject">
+				<PARAS>
+					<PARA name="name" value="remarkObject"/>
+					<PARA name="mnemonic" value="K"/>
+					<PARA name="command" value="Topo_remarkObject"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="70010"/>
+				</PARAS>
+			</DESC>				
+			
+			<!--default not config
+			<DESC descname="nemonitor">
+				<PARAS>
+					<PARA name="name" value="nemonitor"/>
+					<PARA name="mnemonic" value="I"/>
+					<PARA name="command" value="Topo_nemonitor"/>
+					<PARA name="operationID" value="0"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="serialnumber" value="30"/>
+				</PARAS>
+			</DESC>			
+			-->	
+			
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

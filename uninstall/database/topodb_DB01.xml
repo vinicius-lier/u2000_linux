@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>topodb</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>topodbdata</devicename>
+	<filename>topodb_data.mdf</filename>
+	<dbsize>300</dbsize>
+	<dbmaxsize>1500</dbmaxsize>
+	<dbthreshold>50</dbthreshold>
+	<dbfilegrowth>100</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>topodblog</logdevicename>
+	<logfilename>topodb_log.ldf</logfilename>
+	<logsize>400</logsize>
+	<logmaxsize>400</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

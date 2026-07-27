@@ -1,0 +1,2298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="AlarmColumnConfig">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="resourceBundleName" value=""></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="AllAlarmColumnID">
+			<PARAS />
+			<DESC descname="0">
+				<PARAS>
+					<PARA name="Column_Name" value="column_CSN" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="logId" />
+					<PARA name="isVisibleInColumn" value="true" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="1">
+				<PARAS>
+					<PARA name="Column_Name" value="column_LinkName" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="2">
+				<PARAS>
+					<PARA name="Column_Name" value="column_LinkTypeName" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="3">
+				<PARAS>
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="neDn" />
+				</PARAS>
+			</DESC>
+			<DESC descname="4">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Ne_Type" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="neType" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="5">
+				<PARAS>
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="agentSn" />
+					<PARA name="isVisibleInColumn" value="true" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="6">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Event_Name" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="alarmName" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="7">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Alarm_Name" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="alarmName" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="8">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Category" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="eventSubType" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="9">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Type" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="functionType" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="10">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Level" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="severity" />
+					<PARA name="isAlwaysVisible" value="true" />
+					<!--
+						This column should be always visible
+					-->
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="11">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Last_Occurrence_time" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="occurServerTime" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="12">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Clearance_time" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="clearServerTime" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="13">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Acknowledgement_time" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="ackUtcTime" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="14">
+				<PARAS>
+					<PARA name="Column_Name" value="column_ClearUser" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="clearOperator" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="15">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AckUser" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="ackOperator" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="18">
+				<PARAS>
+					<PARA name="Column_Name" value="location_Infromation" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+				</PARAS>
+			</DESC>
+			<!--
+				the column ID from 19 to 49 has preserved,because they may be used
+				by other module
+			-->
+			<DESC descname="51">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AlarmToken" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isAlwaysFirstColumn" value="true" />
+					<!--
+						This column should always be the first one
+					-->
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="53">
+				<PARAS>
+					<PARA name="Column_Name" value="column_ConfirmStatus" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="ackStatus" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="54">
+				<PARAS>
+					<PARA name="Column_Name" value="column_ClearStatus" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="clearStatus" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="55">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AlarmClearCategory" />
+					<PARA name="Column_Renderer"
+						value="com.swimap.iview.ifms.alarmTable.cell.AlarmTableAlarmClearCategoryCell" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="56">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AlarmClearType" />
+					<PARA name="Column_Renderer"
+						value="com.swimap.iview.ifms.alarmTable.cell.AlarmTableAlarmClearTypeCell" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="57">
+				<PARAS>
+					<PARA name="Column_Name" value="column_ObjectInstanceType" />
+					<PARA name="Column_Renderer"
+						value="com.swimap.iview.ifms.alarmTable.cell.AlarmTableObjectInstanceTypeCell" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="58">
+				<PARAS>
+					<PARA name="Column_Name" value="column_IsAffectOperationFlag" />
+					<PARA name="Column_Renderer"
+						value="com.swimap.iview.ifms.alarmTable.cell.AlarmTableIsAffectOperationFlagCell" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="59">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AppendInfo" />
+					<PARA name="Column_Renderer"
+						value="com.swimap.iview.ifms.alarmTable.cell.AlarmTableAppendInfoCell" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInColumn" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="60">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AlarmID" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="alarmId" />
+					<PARA name="isVisibleInColumn" value="true" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="61">
+				<PARAS>
+					<PARA name="Column_Name" value="column_repeatTime" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="occurCount" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="62">
+				<PARAS>
+					<PARA name="Column_Name" value="column_AlarmListID" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="listId" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="63">
+				<PARAS>
+					<PARA name="Column_Name" value="column_First_Occurrence_time" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="firstOccurServerTime" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="65">
+				<PARAS>
+					<PARA name="Column_Name" value="column_arrive_time" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="arrivedUtcTime" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="67">
+				<PARAS>
+					<PARA name="Column_Name" value="column_ne_address" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="68">
+				<PARAS>
+					<PARA name="Column_Name" value="column_short_comment" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetailDialog" value="false" />
+				</PARAS>
+			</DESC>
+						<!-- the column ID from 210 to 216 used by alarm name selector table-->		
+			<DESC descname="210">
+				<PARAS>
+					<PARA name="Column_Name" value="column_ProcessAdvice" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInColumn" value="false" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="211">
+				<PARAS>
+					<PARA name="Column_Name" value="column_SpecialAlarmStatus" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="specialAlarmStatus" />
+					<PARA name="isVisibleInColumn" value="true" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="212">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Repeat_Times" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInColumn" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="213">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Region_Name" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="region" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="214">
+				<PARAS>
+					<PARA name="Column_Name" value="column_explain" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInColumn" value="true" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="215">
+				<PARAS>
+					<PARA name="Column_Name" value="column_clearadvice" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInColumn" value="false" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+			<DESC descname="216">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Topo_Trail_Name" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+
+			<DESC descname="217">
+				<PARAS>
+					<PARA name="Column_Name" value="column_Persistance_time" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="persistanceTime" />
+					<PARA name="isVisibleInDetail" value="false" />
+				</PARAS>
+			</DESC>
+
+			<DESC descname="218">
+				<PARAS>
+					<PARA name="Column_Name" value="column_related_gid_Name" />
+					<PARA name="Column_Renderer" value="System build in.Do not modify" />
+					<PARA name="Column_Sort_Index" value="CorrId" />
+					<PARA name="isVisibleInDetail" value="false" />
+					<PARA name="isSupportMiniSys" value="false" />
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="ColumnForWindow">
+			<PARAS />
+			<DESC descname="Fault">
+				<PARAS />
+				<DESC descname="51">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="50" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="10"/>
+						<PARA name="Column_Name" value=" " />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="10"/>
+					</PARAS>
+				</DESC>
+				<DESC descname="10">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="1" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="60">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="7">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="118" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="3">
+					<PARAS>
+						<PARA name="Column_Name" value="column_alarm_source" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="3" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="18">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="148" />
+						<PARA name="View_Column_Index" value="4" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+						<PARA name="Column_Sort_Index" value="location" />
+					</PARAS>
+				</DESC>
+				<DESC descname="59">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="4" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="61">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="63">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="172" />
+						<PARA name="View_Column_Index" value="6" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="120" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="11">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="177" />
+						<PARA name="View_Column_Index" value="7" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="12">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="152" />
+						<PARA name="View_Column_Index" value="8" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="13">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="180" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="14">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="122" />
+						<PARA name="View_Column_Index" value="10" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="15">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="166" />
+						<PARA name="View_Column_Index" value="11" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="54">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="133" />
+						<PARA name="View_Column_Index" value="12" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="53">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="173" />
+						<PARA name="View_Column_Index" value="13" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="62">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="14" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="0">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="162" />
+						<PARA name="View_Column_Index" value="15" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="5">
+					<PARAS>
+							<PARA name="Column_Name" value="column_Equipment_alarm_SN" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="221" />
+						<PARA name="View_Column_Index" value="16" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="1">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="17" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<!-- l?`? -->
+				<DESC descname="2">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="18" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="4">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="19" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="20" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="55">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="21" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="70" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="70" />
+					</PARAS>
+				</DESC>
+				<DESC descname="56">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="22" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<!-- ??`? -->
+				<DESC descname="57">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="23" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<!-- ?????? -->
+				<DESC descname="58">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="24" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="65">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="26" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="120" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="67">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="260" />
+						<PARA name="View_Column_Index" value="28" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="68">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="29" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="210">
+					<PARAS>
+						<PARA name="Visible" value="fasle" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="211">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="30" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="140" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="140" />
+					</PARAS>
+				</DESC>
+				<DESC descname="212">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="31" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="213">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="160" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="160" />
+					</PARAS>
+				</DESC>
+				<DESC descname="214">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="200" />
+						<PARA name="View_Column_Index" value="33" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="19" />
+					</PARAS>
+				</DESC>
+				<DESC descname="215">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="216">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="217">
+					<PARAS>
+						<PARA name="Visible" value="false"/>
+						<PARA name="Width" value="160"/>
+						<PARA name="View_Column_Index" value="38"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Event">
+				<PARAS />
+				<DESC descname="51">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="50" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="10"/>
+						<PARA name="Column_Name" value=" " />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="10"/>
+					</PARAS>
+				</DESC>
+				<DESC descname="10">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="111" />
+						<PARA name="View_Column_Index" value="1" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="60">
+					<PARAS>
+						<PARA name="Column_Name" value="column_EventID" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="6">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="111" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="1" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="1" />
+					</PARAS>
+				</DESC>
+				<DESC descname="3">
+					<PARAS>
+						<PARA name="Column_Name" value="column_event_source" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="4" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="18">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="154" />
+						<PARA name="View_Column_Index" value="6" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="59">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="6" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="11">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="177" />
+						<PARA name="View_Column_Index" value="10" />
+						<PARA name="Column_Name" value="column_Occurrence_time" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="0">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="162" />
+						<PARA name="View_Column_Index" value="7" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="5">
+					<PARAS>
+						<PARA name="Column_Name" value="column_Equipment_event_SN" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="221" />
+						<PARA name="View_Column_Index" value="8" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="1">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="2">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="10" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="4">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="11" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="57">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="12" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="58">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="13" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="65">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="15" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="120" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="67">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="260" />
+						<PARA name="View_Column_Index" value="17" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="68">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="18" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="210">
+					<PARAS>
+						<PARA name="Visible" value="fasle" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+							<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+							<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="211">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="30" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="140" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="140" />
+					</PARAS>
+				</DESC>
+				<DESC descname="212">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="31" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="213">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="160" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="160" />
+					</PARAS>
+				</DESC>
+				<!--DESC descname="214">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="19" />
+					</PARAS>
+				</DESC-->
+				<DESC descname="215">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="216">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="History">
+				<PARAS />
+				<DESC descname="51">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="50" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Column_Name" value=" "></PARA>
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="10"/>
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="10"/>
+					</PARAS>
+				</DESC>
+				<DESC descname="10">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="1" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="60">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="7">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="103" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="3">
+					<PARAS>
+						<PARA name="Column_Name" value="column_alarm_source" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="142" />
+						<PARA name="View_Column_Index" value="3" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="18">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="152" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="59">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="11">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="177" />
+						<PARA name="View_Column_Index" value="6" />
+						<PARA name="Column_Name" value="column_Occurrence_time" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="12">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="155" />
+						<PARA name="View_Column_Index" value="7" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="13">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="178" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="14">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="144" />
+						<PARA name="View_Column_Index" value="8" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="15">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="170" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="54">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="133" />
+						<PARA name="View_Column_Index" value="10" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="53">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="175" />
+						<PARA name="View_Column_Index" value="11" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="62">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="12" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="0">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="162" />
+						<PARA name="View_Column_Index" value="13" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="5">
+					<PARAS>
+						<PARA name="Column_Name" value="column_Equipment_alarm_SN" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="221" />
+						<PARA name="View_Column_Index" value="14" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="1">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="15" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="2">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="16" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="4">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="4" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="8">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="18" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="19" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="55">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="20" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="70" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="70" />
+					</PARAS>
+				</DESC>
+				<DESC descname="56">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="21" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="57">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="22" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="58">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="23" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="65">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="25" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="120" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="67">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="260" />
+						<PARA name="View_Column_Index" value="27" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="68">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="28" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="210">
+					<PARAS>
+						<PARA name="Visible" value="fasle" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="211">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="30" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="140" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="140" />
+					</PARAS>
+				</DESC>
+				<DESC descname="212">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="31" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="213">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="160" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="160" />
+					</PARAS>
+				</DESC>
+				<DESC descname="214">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="200" />
+						<PARA name="View_Column_Index" value="33" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="19" />
+					</PARAS>
+				</DESC>
+				<DESC descname="215">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="216">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="217">
+					<PARAS>
+						<PARA name="Visible" value="false"/>
+						<PARA name="Width" value="160"/>
+						<PARA name="View_Column_Index" value="38"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="HistoryLog">
+				<PARAS />
+				<DESC descname="51">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="50" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Column_Name" value=" "></PARA>
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="10"/>
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="10"/>
+					</PARAS>
+				</DESC>
+				<DESC descname="10">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="1" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="60">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="7">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="103" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="3">
+					<PARAS>
+					    <PARA name="Column_Name" value="column_alarm_source" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="142" />
+						<PARA name="View_Column_Index" value="3" />
+					    <PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+					    <PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="18">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="152" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="59">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="11">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="177" />
+						<PARA name="View_Column_Index" value="6" />
+						<PARA name="Column_Name" value="column_Occurrence_time" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="12">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="155" />
+						<PARA name="View_Column_Index" value="7" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="13">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="178" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="14">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="144" />
+						<PARA name="View_Column_Index" value="8" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="15">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="170" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="54">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="133" />
+						<PARA name="View_Column_Index" value="10" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="53">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="175" />
+						<PARA name="View_Column_Index" value="11" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="62">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="12" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="0">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="162" />
+						<PARA name="View_Column_Index" value="13" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="5">
+					<PARAS>
+					    <PARA name="Column_Name" value="column_Equipment_alarm_SN" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="221" />
+						<PARA name="View_Column_Index" value="14" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="1">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="15" />
+					    <PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+					    <PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="2">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="16" />
+					    <PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+					    <PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="4">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="4" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="8">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="18" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="19" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="55">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="20" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="70" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="70" />
+					</PARAS>
+				</DESC>
+				<DESC descname="56">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="21" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="57">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="22" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="58">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="23" />
+					    <PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+					    <PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="65">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="25" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="120" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="67">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="260" />
+						<PARA name="View_Column_Index" value="27" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="68">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="28" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="210">
+					<PARAS>
+						<PARA name="Visible" value="fasle" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="211">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="30" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="140" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="140" />
+					</PARAS>
+				</DESC>
+				<DESC descname="212">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="31" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="213">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="160" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="160" />
+					</PARAS>
+				</DESC>
+				<DESC descname="214">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="200" />
+						<PARA name="View_Column_Index" value="33" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="19" />
+					</PARAS>
+				</DESC>
+				<DESC descname="215">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="216">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="217">
+					<PARAS>
+						<PARA name="Visible" value="false"/>
+						<PARA name="Width" value="160"/>
+						<PARA name="View_Column_Index" value="38"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+		    <DESC descname="CorrelativeAlarm">
+				<PARAS />
+				<DESC descname="51">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Column_Name" value=" "></PARA>
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="10"/>
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="10"/>
+					</PARAS>
+				</DESC>
+				<DESC descname="10">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="1" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="60">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="7">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="103" />
+						<PARA name="View_Column_Index" value="2" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="10" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="10" />
+					</PARAS>
+				</DESC>
+				<DESC descname="3">
+					<PARAS>
+						<PARA name="Column_Name" value="column_alarm_source" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="142" />
+						<PARA name="View_Column_Index" value="3" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="18">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="152" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="59">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="5" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="11">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="177" />
+						<PARA name="View_Column_Index" value="6" />
+						<PARA name="Column_Name" value="column_Occurrence_time" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="12">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="155" />
+						<PARA name="View_Column_Index" value="7" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="13">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="178" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="14">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="144" />
+						<PARA name="View_Column_Index" value="8" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="15">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="170" />
+						<PARA name="View_Column_Index" value="9" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="54">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="133" />
+						<PARA name="View_Column_Index" value="10" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="53">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="175" />
+						<PARA name="View_Column_Index" value="11" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="62">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="12" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="90" />
+					</PARAS>
+				</DESC>
+				<DESC descname="0">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="162" />
+						<PARA name="View_Column_Index" value="13" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="100" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="5">
+					<PARAS>
+							<PARA name="Column_Name" value="column_Equipment_alarm_SN" />
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="221" />
+						<PARA name="View_Column_Index" value="14" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="110" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="110" />
+					</PARAS>
+				</DESC>
+				<DESC descname="1">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="15" />
+							<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="30" />
+							<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="30" />
+					</PARAS>
+				</DESC>
+				<DESC descname="2">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="16" />
+							<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+							<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="4">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="4" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="40" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="8">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="18" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="130" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="130" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="19" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="55">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="20" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="70" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="70" />
+					</PARAS>
+				</DESC>
+				<DESC descname="56">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="100" />
+						<PARA name="View_Column_Index" value="21" />
+						<PARA name="Detail_Group_Id" value="2" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="2" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="57">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="91" />
+						<PARA name="View_Column_Index" value="22" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="50" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="50" />
+					</PARAS>
+				</DESC>
+				<DESC descname="58">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="23" />
+							<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="60" />
+							<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="60" />
+					</PARAS>
+				</DESC>
+				<DESC descname="65">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="141" />
+						<PARA name="View_Column_Index" value="25" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="120" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="67">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="260" />
+						<PARA name="View_Column_Index" value="27" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="68">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="28" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="90" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="210">
+					<PARAS>
+						<PARA name="Visible" value="fasle" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="0" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="20" />
+						<PARA name="DetailDialog_Group_Id" value="1" />
+						<PARA name="DetailDialog_Index_In_Group" value="20" />
+					</PARAS>
+				</DESC>
+				<DESC descname="211">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="30" />
+						<PARA name="Detail_Group_Id" value="3" />
+						<PARA name="Detail_Index_In_Group" value="140" />
+						<PARA name="DetailDialog_Group_Id" value="3" />
+						<PARA name="DetailDialog_Index_In_Group" value="140" />
+					</PARAS>
+				</DESC>
+				<DESC descname="212">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="0" />
+						<PARA name="View_Column_Index" value="31" />
+						<PARA name="Detail_Group_Id" value="1" />
+						<PARA name="Detail_Index_In_Group" value="80" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="213">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="150" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="160" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="160" />
+					</PARAS>
+				</DESC>
+				<DESC descname="216">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="32" />
+						<PARA name="Detail_Group_Id" value="" />
+						<PARA name="Detail_Index_In_Group" value="170" />
+						<PARA name="DetailDialog_Group_Id" value="" />
+						<PARA name="DetailDialog_Index_In_Group" value="170" />
+					</PARAS>
+				</DESC>
+				<DESC descname="217">
+					<PARAS>
+						<PARA name="Visible" value="false"/>
+						<PARA name="Width" value="160"/>
+						<PARA name="View_Column_Index" value="38"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

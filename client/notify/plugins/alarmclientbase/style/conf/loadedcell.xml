@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ConfigData">
+        <DESC descname="IsEnableRegion">
+            <PARAS>
+                <PARA name="value" value="false"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="OptionPanel">
+            <PARAS/>
+            <DESC descname="AlarmBox">
+                <PARAS>
+                    <PARA name="displayName" value="AlarmBox"/>
+                    <PARA name="classPath" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.alarmoption.AlarmBoxSetPanel"/>
+                </PARAS>
+            </DESC>
+
+            <DESC descname="AlarmLifecycle">
+                <PARAS>
+                    <PARA name="displayName" value="AlarmLifecycle"/>
+                    <PARA name="classPath" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.alarmoption.AlarmLifecycleSetPanel"/>
+                </PARAS>
+            </DESC>
+
+            <DESC descname="AutoAcknowledge">
+                <PARAS>
+                    <PARA name="displayName" value="AutoAcknowledge"/>
+                    <PARA name="classPath" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.alarmoption.autoconfirm.AutoConfirmSetPanel"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="AutoSynchronize">
+                <PARAS>
+                    <PARA name="displayName" value="AutoSynchronize"/>
+                    <PARA name="classPath" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.alarmoption.AutoSynchronizeSetPanel"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                    <!-- default unvisible, setting is for product module-->
+                    <PARA name="visible" value="false"/>
+                </PARAS>
+            </DESC>
+	    <DESC descname="CurAlmThresholdNotify">
+                <PARAS>
+                    <PARA name="displayName" value="CurAlmThresholdNotify"/>
+                    <PARA name="classPath" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.alarmoption.CurAlmThresholdPromptSetPanel"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                    <PARA name="visible" value="true"/>
+                </PARAS>
+            </DESC>			
+        </DESC>
+        <DESC descname="CellName">
+            <PARAS/>
+            <DESC descname="RemoteNotify">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.remotenotify.RemoteNotifySetPanel"/>
+                    <PARA name="View_Index" value="10"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="AdvancedCorrelationSetPanel">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.correlation.CorrelationRulePanel"/>
+                    <PARA name="View_Index" value="40"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="LevelRedefine">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.levelredefine.LevelRedefinePanel"/>
+                    <PARA name="View_Index" value="30"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmFilter">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.alarmfilter.AlarmFilterSetPanel"/>
+                    <PARA name="View_Index" value="61"/>
+                </PARAS>
+            </DESC>
+
+            <DESC descname="NBIFilter">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.nbifilter.NBIFilterSetPanel"/>
+                    <PARA name="View_Index" value="65"/>
+                    <PARA name="isSupportMiniSys" value="true"/>
+                </PARAS>
+            </DESC>
+
+            <DESC descname="PostProcess">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.postprocess.PostprocessSetPanel"/>
+                    <PARA name="View_Index" value="50"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="KnowledgeExplain">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.KnowledgeExplainPanel"/>
+                    <PARA name="View_Index" value="70"/>
+                </PARAS>
+            </DESC>
+            <DESC descname="Event2ADMCSetting">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.Event2ADMCSetting"/>
+                    <PARA name="View_Index" value="90"/>
+                    <PARA name="isSupportMiniSys" value="false"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+        <DESC descname="CustomCorrelationRulePanel">
+            <PARAS/>
+            <DESC descname="AdvancedCorrelationSetPanel">
+                <PARAS>
+                    <PARA name="class" value="com.swimap.iview.ifms.dialog.alarmsettingdialog.correlation.AdvancedCorrelationSetPanel"/>
+                    <PARA name="View_Index" value="10"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+        <!-- ******************************************Follow configuration is used by products **********************************-->
+        <DESC descname="EnableAlarmBox">
+            <PARAS>
+                <PARA name="isEnableAlarmBox" value="false"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="BoardMatrixShowing">
+            <PARAS>
+                <PARA name="isShowAlarmBoard" value="true"/>
+                <PARA name="isShowAlarmMatrix" value="true"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="AsynchronismProgress">
+            <PARAS>
+                <PARA name="visible" value="true"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Correlative">
+            <PARAS>
+                <!-- whether show the checkbox named 'Display Correlative Alarm' -->
+                <PARA name="isDisplayCorrelativeAlarm" value="false"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="DumpPath">
+            <PARAS>
+                <!-- unenable default -->
+                <PARA name="editable" value="false"/>
+            </PARAS>
+        </DESC>
+
+        <!-- default time model 1:server time; 2:ne time; 3:client time
+        <DESC descname="DefaultTimeMode">
+            <PARAS>
+                <PARA name="value" value="1" />
+            </PARAS>
+        </DESC>
+        -->
+
+        <!-- enable searthing for mask rule , true enable, false unenable-->
+        <DESC descname="FilterRuleSearch">
+            <PARAS>
+                <PARA name="value" value="true"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="ButtonConfig">
+            <PARAS/>
+            <DESC descname="ClearButton">
+                <PARAS>
+                    <PARA name="visible" value="true"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+	<!-- The align sytle of Detail Infromation isn't afford since V300R002C00-->
+	<!--
+        <DESC descname="AlarmDetailAlign">
+            <PARAS>
+                <PARA name="align" value="right"/>
+            </PARAS>
+        </DESC>
+	-->
+        <DESC descname="IsShowRules">
+            <PARAS>
+                <PARA name="visible" value="true"/>
+            </PARAS>
+        </DESC>
+
+        <!-- true : stop flashing when stop sounding.
+             false: flashing will not be stopped when stop sounding. -->
+        <DESC descname="SoundFlashCombination">
+            <PARAS>
+                <PARA name="isCombined" value="true"/>
+            </PARAS>
+        </DESC>
+
+        <!--
+        <DESC descname="CUSTOM_SOUND_DIRECTORY" >
+            <PARAS>
+                <PARA name="value" value="" />
+           </PARAS>
+        </DESC>
+        -->
+        <!--whether set ModifyAlarmLevel item visible on FMPopupMenu. -->
+        <DESC descname="ModifyAlarmLevel">
+            <PARAS>
+                <PARA name="isVisible" value="true"/>
+            </PARAS>
+        </DESC>
+
+        <!--
+        <DESC descname="Is_U2100_Mode" >
+            <PARAS>
+                <PARA name="value" value="true" />
+           </PARAS>
+        </DESC>
+        -->
+        <DESC descname="EventLamp" >
+            <PARAS>
+                <PARA name="visible" value="false" />
+           </PARAS>
+        </DESC>
+        <!-- whether enable history alarm template -->
+        <DESC descname="ShowHisTemplate">
+            <PARAS>
+                <PARA name="isEnable" value="true" />
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Experience">
+            <PARAS>
+                <PARA name="isShowReasonAndAdvicePanel" value="true"/>
+            </PARAS>
+        </DESC>
+        
+        <!--whether show the icon of the root alarm. -->
+        <!-- 
+        <DESC descname="Correlative">
+            <PARAS>
+                <PARA name="isDisplayRootAlarmFlag" value="false"/>
+            </PARAS>
+        </DESC>
+        -->
+        <!--whether to set the Maximum limit of external interface in FaultAdapterModule, including ackAlarmByFDN & openCurrentAlarmBrowseWindow. -->
+        <!--
+        <DESC descname="LimitOfFaultAdapter">
+            <PARAS>
+                <PARA name="setLimitOfFaultAdapter" value="true"/>
+            </PARAS>
+        </DESC>
+        -->
+    </AREADESC>
+</COMMINIDATA>

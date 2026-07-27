@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- define a alarm box config
+
+PortName:
+
+        define serial port by which the alarm box device connect to the PC.
+        
+        type can be "COM1","COM2".  default is "COM1"
+
+
+BaudRate:
+
+        define baud rate.
+        
+        type can be "4800","19200".  default is "4800"
+        
+
+Stop:
+
+        define stop bit.
+        
+        type can be "1","2".  default is "1"
+        
+        
+Check:
+
+        define stop bit.
+        
+        type can be "0"(PARITY_NONE),"1"(PARITY_ODD),"2"(PARITY_EVEN).  default is "1"
+                   
+        
+
+ -->
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="AlarmBoxConfig">
+            <PARAS>
+                <PARA name="PortName"  value="COM1"   />
+                <PARA name="Baudrate"  value="4800"   />
+                <PARA name="Stop"  value="1"   />
+                <PARA name="Check"  value="0"   />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

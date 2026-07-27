@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC areaname="LINE_SETTING">
+  <!-- Line Gap Width,Support [1,10],default is 6 pels-->
+    <DESC descname="LINE_INTERVAL">
+      <PARAS>
+        <PARA name="LineGapWidth"
+              value="6" />
+        <PARA name="DefaultWidth"
+              value="6" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="ICON_SIZE">
+    <DESC descname="ICON_PICTURE">
+      <PARAS>
+        <PARA name="0"
+              value="setSmallIcon.gif" />
+        <PARA name="1"
+              value="setMedium_SmallIcon.gif" />
+        <PARA name="2"
+              value="setMediumIcon.gif" />
+        <PARA name="3"
+              value="setLargeIcon.gif" />     
+      </PARAS>
+    </DESC>
+    <!--default "ICON_SIZE" value is 1.-->
+    <DESC descname="ICON_SIZE">
+      <PARAS>
+        <PARA name="ICON_SIZE"
+              value="1" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="ELECTRIC_MAP">
+    <DESC descname="ELECTRIC_MAP">
+      <PARAS>
+        <PARA name="startupEmap"
+              value="false" />
+        <PARA name="displayRegionName"
+              value="true" />
+	<PARA name="displayWoofAndLongitude"
+              value="true" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="VIEW_PARAMETER">
+    <DESC descname="VIEW_PARAMETER">
+      <PARAS>
+        <PARA name="BORDER_COLOR"
+              value="0,0,160" />
+        <PARA name="ALARM_BUBBLE"
+              value="false" />
+        <PARA name="BREVIARY_NAME_WIDTH"
+              value="72" />
+        <PARA name="NODE_FONT_SIZE"
+              value="12" />
+        <PARA name="LABEL_COLOR"
+              value="0,0,0" />
+        <PARA name="BREVIARY_LABEL_CHECK"
+              value="true" />
+        <PARA name="ICON_RULE"
+              value="1" />
+        <PARA name="LABEL_COMPOSE"
+              value="1" />
+        <PARA name="SHOW_ALIAS"
+              value="false" />
+      </PARAS>
+    </DESC>
+    <DESC descname="DEFAULT_VIEW_PARAMETER">
+      <PARAS>
+        <PARA name="BORDER_COLOR"
+              value="0,0,160" />
+        <PARA name="ICON_SIZE"
+              value="1" />
+        <PARA name="NODE_FONT_SIZE"
+              value="12" />
+        <PARA name="LABEL_COLOR"
+              value="0,0,0" />
+        <PARA name="BREVIARY_NAME_WIDTH"
+              value="72" />
+        <PARA name="BREVIARY_LABEL_CHECK"
+              value="true" />
+        <PARA name="ALARM_BUBBLE"
+              value="false" />
+        <PARA name="ICON_RULE"
+              value="1" />
+        <PARA name="LABEL_COMPOSE"
+              value="1" />
+        <PARA name="SHOW_ALIAS"
+              value="false" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+  <!--setting view background color-->
+  <AREADESC areaname="BACKGROUND_COLOR">
+    <DESC descname="BACKGROUND_COLOR_SELECTED">
+      <PARAS>
+        <PARA name="customization"
+              value="false" />
+        <PARA name="selected_color"
+              value="229,229,229" />
+      </PARAS>
+    </DESC>
+    <DESC descname="BACKGROUND_COLOR_DEFAULT">
+      <PARAS>
+        <PARA name="gray"
+              value="229,229,229" />
+        <PARA name="blue"
+              value="75,119,142" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="SUBMAPEXPANDSHOWBORDER">
+    <DESC descname="SUBMAPEXPANDSHOWBORDER">
+      <PARAS>
+        <PARA name="showborder"
+              value="true" />
+        <PARA name="DefaultShowBorder"
+              value="true" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+ 
+  <AREADESC areaname="STATISTIC_INFO">
+    <DESC descname="STATISTIC_INFO">
+      <PARAS>
+        <PARA name="LOCATION" value="" />
+        <PARA name="SHOW_DEVICE_PANEL" value="false" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="CUSTOMER_STATUS_SETTTING">
+    <DESC descname="IS_TWINKLE">
+      <PARAS>
+        <PARA name="SELECT"
+              value="false" />
+        <PARA name="DEFAULT_SELECT"
+              value="false" />
+      </PARAS>
+    </DESC>
+    <DESC descname="SHOW_UNACK_ALARM">
+      <PARAS>
+        <PARA name="SELECT"
+              value="true" />
+        <PARA name="DEFAULT_SELECT"
+              value="true" />
+      </PARAS>
+    </DESC>
+	<DESC descname="SHOW_UNCLEAR_ALARM">
+      <PARAS>
+        <PARA name="SELECT"
+              value="true" />
+        <PARA name="DEFAULT_SELECT"
+              value="true" />
+      </PARAS>
+    </DESC>
+    <DESC descname="SHOWCOLOR">
+      <PARAS>
+        <PARA name="SELECT"
+              value="true" />
+        <PARA name="DEFAULT_SELECT"
+              value="true" />
+      </PARAS>
+    </DESC>
+    <DESC descname="SHOWICON">
+      <PARAS>
+        <PARA name="SELECT"
+              value="false" />
+        <PARA name="DEFAULT_SELECT"
+              value="false" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

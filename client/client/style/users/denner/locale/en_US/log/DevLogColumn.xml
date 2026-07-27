@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="LOG_LogQueryPanel_LogRecordTable044(BT_N/BT_R/BT_T)">
+		<DESC descname="Device Name">
+			<PARAS>
+				<PARA name="colName" value="Device Name"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="120"></PARA>
+				<PARA name="index" value="0"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Time">
+			<PARAS>
+				<PARA name="colName" value="Time"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="150"></PARA>
+				<PARA name="index" value="1"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="User Name">
+			<PARAS>
+				<PARA name="colName" value="User Name"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="150"></PARA>
+				<PARA name="index" value="2"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Access Method">
+			<PARAS>
+				<PARA name="colName" value="Access Method"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="140"></PARA>
+				<PARA name="index" value="3"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="IP Address">
+			<PARAS>
+				<PARA name="colName" value="IP Address"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="130"></PARA>
+				<PARA name="index" value="4"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="User Command">
+			<PARAS>
+				<PARA name="colName" value="User Command"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="120"></PARA>
+				<PARA name="index" value="5"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="User Command Details">
+			<PARAS>
+				<PARA name="colName" value="User Command Details"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="150"></PARA>
+				<PARA name="index" value="6"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

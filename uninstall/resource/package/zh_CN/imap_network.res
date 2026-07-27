@@ -1,0 +1,2 @@
+imap_network=U2000适配包
+imap_network.InstallInfo=U2000适配包

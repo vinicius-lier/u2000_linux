@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wizard>
+	<Page if="isBCP">com.oss.engineering.business.storage.client.pages.BackupWizardPage</Page>
+	<Page>com.oss.engineering.business.storage.client.pages.BackupMediumPage</Page>
+	<Page>com.oss.engineering.business.storage.client.pages.BackupProgressPage</Page>	
+	<Page>com.oss.engineering.business.storage.client.pages.BackupExitPage</Page>
+</Wizard>

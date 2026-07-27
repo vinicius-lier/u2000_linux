@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="countries">
+        <DESC descname="1">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="China" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="China" />
+                <PARA name="DISPLAYNAME_ZH" value="中国" />
+                -->
+            </PARAS>
+        </DESC>
+        <DESC descname="2">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Afghanistan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Afghanistan" />
+                <PARA name="DISPLAYNAME_ZH" value="阿富汗" />                
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="3">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Algeria" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Algeria" />
+                <PARA name="DISPLAYNAME_ZH" value="阿尔及利亚" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="4">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Argentina" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Argentina" />
+                <PARA name="DISPLAYNAME_ZH" value="阿根廷" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="5">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Australia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Australia" />
+                <PARA name="DISPLAYNAME_ZH" value="澳大利亚" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="6">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Austria" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Austria" />
+                <PARA name="DISPLAYNAME_ZH" value="奥地利" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="7">
+            <PARAS>
+
+            </PARAS>
+        </DESC>	
+	<DESC descname="8">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Bahrain" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Bahrain" />
+                <PARA name="DISPLAYNAME_ZH" value="巴林群岛" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="9">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Bangladesh" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Bangladesh" />
+                <PARA name="DISPLAYNAME_ZH" value="孟加拉" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="10">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Belgium" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Belgium" />
+                <PARA name="DISPLAYNAME_ZH" value="比利时" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="11">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Bolivia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Bolivia" />
+                <PARA name="DISPLAYNAME_ZH" value="玻利维亚" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="12">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Brazil" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Brazil" />
+                <PARA name="DISPLAYNAME_ZH" value="巴西" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="13">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Brunei" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Brunei" />
+                <PARA name="DISPLAYNAME_ZH" value="文莱" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="14">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Bulgaria" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Bulgaria" />
+                <PARA name="DISPLAYNAME_ZH" value="保加利亚" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="15">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Canada" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Canada" />
+                <PARA name="DISPLAYNAME_ZH" value="加拿大" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="16">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Chile" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Chile" />
+                <PARA name="DISPLAYNAME_ZH" value="智利" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="17">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Colombia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Colombia" />
+                <PARA name="DISPLAYNAME_ZH" value="哥伦比亚" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="18">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Czech" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Czech" />
+                <PARA name="DISPLAYNAME_ZH" value="捷克" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="19">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Slovakia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Slovakia" />
+                <PARA name="DISPLAYNAME_ZH" value="斯洛伐克" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="20">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Denmark" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Denmark" />
+                <PARA name="DISPLAYNAME_ZH" value="丹麦" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="21">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Ecuador" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Ecuador" />
+                <PARA name="DISPLAYNAME_ZH" value="厄瓜多尔" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="22">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Egypt" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Egypt" />
+                <PARA name="DISPLAYNAME_ZH" value="埃及" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="23">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Finland" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Finland" />
+                <PARA name="DISPLAYNAME_ZH" value="芬兰" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="24">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="France" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="France" />
+                <PARA name="DISPLAYNAME_ZH" value="法国" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="25">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Germany" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Germany" />
+                <PARA name="DISPLAYNAME_ZH" value="德国" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="26">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Ghana" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Ghana" />
+                <PARA name="DISPLAYNAME_ZH" value="加纳" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="27">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Netherlands" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Netherlands" />
+                <PARA name="DISPLAYNAME_ZH" value="荷兰" />
+                -->
+            </PARAS>
+        </DESC>	
+	<DESC descname="28">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="NewZealand" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="New Zealand" />
+                <PARA name="DISPLAYNAME_ZH" value="新西兰" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="29">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Nicaragua" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Nicaragua" />
+                <PARA name="DISPLAYNAME_ZH" value="尼加拉瓜" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="30">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Niger" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Niger" />
+                <PARA name="DISPLAYNAME_ZH" value="尼日尔" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="31">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Nigeria" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Nigeria" />
+                <PARA name="DISPLAYNAME_ZH" value="尼日利亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="32">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Norway" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Norway" />
+                <PARA name="DISPLAYNAME_ZH" value="挪威" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="33">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Oman" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Oman" />
+                <PARA name="DISPLAYNAME_ZH" value="阿曼" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="34">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Pakistan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Pakistan" />
+                <PARA name="DISPLAYNAME_ZH" value="巴基斯坦" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="35">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Panama" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Panama" />
+                <PARA name="DISPLAYNAME_ZH" value="巴拿马" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="36">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="PapuaNewGuinea" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Papua New Guinea" />
+                <PARA name="DISPLAYNAME_ZH" value="巴布亚新几内亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="37">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Paraguay" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Paraguay" />
+                <PARA name="DISPLAYNAME_ZH" value="巴拉圭" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="38">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Peru" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Peru" />
+                <PARA name="DISPLAYNAME_ZH" value="秘鲁" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="39">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Philippines" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Philippines" />
+                <PARA name="DISPLAYNAME_ZH" value="菲律宾" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="40">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Poland" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Poland" />
+                <PARA name="DISPLAYNAME_ZH" value="波兰" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="41">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Portugal" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Portugal" />
+                <PARA name="DISPLAYNAME_ZH" value="葡萄牙" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="42">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Qatar" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Qatar" />
+                <PARA name="DISPLAYNAME_ZH" value="卡塔尔" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="43">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="SaudiArabia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Saudi Arabia" />
+                <PARA name="DISPLAYNAME_ZH" value="沙特阿拉伯" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="44">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Singapore" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Singapore" />
+                <PARA name="DISPLAYNAME_ZH" value="新加坡" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="45">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="SouthAfrica" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="South Africa" />
+                <PARA name="DISPLAYNAME_ZH" value="南非" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="46">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Spain" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Spain" />
+                <PARA name="DISPLAYNAME_ZH" value="西班牙" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="47">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="SriLanka" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Sri Lanka" />
+                <PARA name="DISPLAYNAME_ZH" value="斯里兰卡" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="48">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Sudan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Sudan" />
+                <PARA name="DISPLAYNAME_ZH" value="苏丹" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="49">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Sweden" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Sweden" />
+                <PARA name="DISPLAYNAME_ZH" value="瑞典" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="50">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Switzerland" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Switzerland" />
+                <PARA name="DISPLAYNAME_ZH" value="瑞士" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="51">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Greece" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Greece" />
+                <PARA name="DISPLAYNAME_ZH" value="希腊" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="52">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Guatemala" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Guatemala" />
+                <PARA name="DISPLAYNAME_ZH" value="危地马拉" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="53">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Hungary" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Hungary" />
+                <PARA name="DISPLAYNAME_ZH" value="匈牙利" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="54">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Iceland" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Iceland" />
+                <PARA name="DISPLAYNAME_ZH" value="冰岛" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="55">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="India" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="India" />
+                <PARA name="DISPLAYNAME_ZH" value="印度" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="56">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Indonesia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Indonesia" />
+                <PARA name="DISPLAYNAME_ZH" value="印尼" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="57">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Iran" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Iran" />
+                <PARA name="DISPLAYNAME_ZH" value="伊朗" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="58">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Iraq" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Iraq" />
+                <PARA name="DISPLAYNAME_ZH" value="伊拉克" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="59">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Ireland" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Ireland" />
+                <PARA name="DISPLAYNAME_ZH" value="爱尔兰" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="60">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Italy" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Italy" />
+                <PARA name="DISPLAYNAME_ZH" value="意大利" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="61">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Japan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Japan" />
+                <PARA name="DISPLAYNAME_ZH" value="日本" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="62">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Jordan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Jordan" />
+                <PARA name="DISPLAYNAME_ZH" value="约旦" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="63">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Kenya" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Kenya" />
+                <PARA name="DISPLAYNAME_ZH" value="肯尼亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="64">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Korea(North)" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Korea(North)" />
+                <PARA name="DISPLAYNAME_ZH" value="朝鲜" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="65">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Korea(South)" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Korea(South)" />
+                <PARA name="DISPLAYNAME_ZH" value="韩国" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="66">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Kuwait" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Kuwait" />
+                <PARA name="DISPLAYNAME_ZH" value="科威特" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="67">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Lebanon" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Lebanon" />
+                <PARA name="DISPLAYNAME_ZH" value="黎巴嫩" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="68">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Libya" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Libya" />
+                <PARA name="DISPLAYNAME_ZH" value="利比亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="69">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Luxembourg" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Luxembourg" />
+                <PARA name="DISPLAYNAME_ZH" value="卢森堡公国" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="70">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Malaysia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Malaysia" />
+                <PARA name="DISPLAYNAME_ZH" value="马来西亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="71">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Mexico" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Mexico" />
+                <PARA name="DISPLAYNAME_ZH" value="墨西哥" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="72">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Mongolia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Mongolia" />
+                <PARA name="DISPLAYNAME_ZH" value="蒙古" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="73">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Morocco" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Morocco" />
+                <PARA name="DISPLAYNAME_ZH" value="摩洛哥" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="74">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Nepal" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Nepal" />
+                <PARA name="DISPLAYNAME_ZH" value="尼泊尔" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="75">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Syria" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Syria" />
+                <PARA name="DISPLAYNAME_ZH" value="叙利亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="76">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Tanzania" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Tanzania" />
+                <PARA name="DISPLAYNAME_ZH" value="坦桑尼亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="77">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Thailand" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Thailand" />
+                <PARA name="DISPLAYNAME_ZH" value="泰国" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="78">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Tunisia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Tunisia" />
+                <PARA name="DISPLAYNAME_ZH" value="突尼斯" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="79">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Turkey" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Turkey" />
+                <PARA name="DISPLAYNAME_ZH" value="土耳其" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="80">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Uganda" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Uganda" />
+                <PARA name="DISPLAYNAME_ZH" value="乌干达" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="81">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="U.A.E" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="U.A.E" />
+                <PARA name="DISPLAYNAME_ZH" value="阿联酋" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="82">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="UnitedKingdom" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="United Kingdom" />
+                <PARA name="DISPLAYNAME_ZH" value="英国" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="83">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="U.S.A" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="United Kingdom" />
+                <PARA name="DISPLAYNAME_EN" value="U.S.A" />
+                <PARA name="DISPLAYNAME_ZH" value="美国" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="84">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Russia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Russia" />
+                <PARA name="DISPLAYNAME_ZH" value="俄罗斯" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="85">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Azerbaijan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Azerbaijan" />
+                <PARA name="DISPLAYNAME_ZH" value="阿塞拜疆" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="86">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Byelorussia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Byelorussia" />
+                <PARA name="DISPLAYNAME_ZH" value="白俄罗斯" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="87">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Estonia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Estonia" />
+                <PARA name="DISPLAYNAME_ZH" value="爱沙尼亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="88">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Georgia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Georgia" />
+                <PARA name="DISPLAYNAME_ZH" value="乔治亚苏维埃社会主义共和国" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="89">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Kazakhstan" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Kazakhstan" />
+                <PARA name="DISPLAYNAME_ZH" value="哈萨克斯坦" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="90">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Latvia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Latvia" />
+                <PARA name="DISPLAYNAME_ZH" value="拉脱维亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="91">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Uruguay" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Uruguay" />
+                <PARA name="DISPLAYNAME_ZH" value="乌拉圭" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="92">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Venezuela" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Venezuela" />
+                <PARA name="DISPLAYNAME_ZH" value="委内瑞拉" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="93">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Vietnam" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Vietnam" />
+                <PARA name="DISPLAYNAME_ZH" value="越南" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="94">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Yemen" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Yemen" />
+                <PARA name="DISPLAYNAME_ZH" value="也门" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="95">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Bosnia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Bosnia" />
+                <PARA name="DISPLAYNAME_ZH" value="波斯尼亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="96">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Zaire" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Zaire" />
+                <PARA name="DISPLAYNAME_ZH" value="扎伊尔" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="97">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Zambia" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Zambia" />
+                <PARA name="DISPLAYNAME_ZH" value="赞比亚" />
+                -->
+            </PARAS>
+        </DESC>	
+		<DESC descname="98">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Zimbabwe" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Zimbabwe" />
+                <PARA name="DISPLAYNAME_ZH" value="津巴布韦" />
+                -->
+            </PARAS>
+        </DESC>	
+        <DESC descname="99">
+            <PARAS>
+                <PARA name="DISPLAYNAME" value="Mauritania" />
+                <!--
+                <PARA name="DISPLAYNAME_EN" value="Mauritania" />
+                <PARA name="DISPLAYNAME_ZH" value="毛利塔尼亚" />
+                -->
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

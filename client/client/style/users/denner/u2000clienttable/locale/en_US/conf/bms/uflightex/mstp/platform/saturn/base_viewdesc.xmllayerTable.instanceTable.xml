@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="hwMstpInstanceID" name="Instance ID" isVisiable="true" isEditable="false" width="88" isNameModified="false" />
+  <column id="BridgePriority" name="Bridge Priority" isVisiable="true" isEditable="true" width="102" isNameModified="false" />
+  <column id="RootPathCost" name="Path Cost to Root Bridge" isVisiable="true" isEditable="true" width="161" isNameModified="false" />
+  <column id="RootType" name="Bridge Type" isVisiable="true" isEditable="true" width="91" isNameModified="false" />
+  <column id="RemainingHops" name="Remaining Hops of Instance" isVisiable="true" isEditable="true" width="183" isNameModified="false" />
+</table>
+

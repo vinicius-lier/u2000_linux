@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT iViewProgressDialog ( ProgressDialogInformation ) >
+
+<!ELEMENT ProgressDialogInformation EMPTY >
+<!ATTLIST ProgressDialogInformation model CDATA #IMPLIED >
+<!ATTLIST ProgressDialogInformation increment_steps NMTOKEN #IMPLIED >
+<!ATTLIST ProgressDialogInformation maximum_value NMTOKEN #REQUIRED >
+<!ATTLIST ProgressDialogInformation minimum_value NMTOKEN #REQUIRED >
+<!ATTLIST ProgressDialogInformation modal NMTOKEN #IMPLIED >
+<!ATTLIST ProgressDialogInformation dialog_title CDATA #IMPLIED >
+<!ATTLIST ProgressDialogInformation display_count NMTOKEN #IMPLIED >
+<!ATTLIST ProgressDialogInformation auto_dispose NMTOKEN #IMPLIED >
+

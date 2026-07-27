@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="FUNCEXTEND_CONF">
+    </AREADESC>
+	<AREADESC areaname="ADD_OBJECT_CONF">
+	</AREADESC>
+	<AREADESC areaname="DEV_PROTOCOL_PARAM">
+		<DESC descname="FILTER_DEV_TYPE">
+			<PARAS>
+				<!-- PARA name="FILTER_DEV_TYPE" value="256,258" /-->
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	<!--data load style : 1(default) wait until loading finished; 2: do not wait -->
+	<AREADESC areaname="DATA_LOAD_STYLE_PARAM">
+		<DESC descname="DATA_LOAD_STYLE">
+			<PARAS>
+				<PARA name="STYLE" value="1"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+<!--  switch over from run flow to "client\plugins\com.swimap.adapter.message.tm\bin",
+run "u2000.bat " to create delete object for message adapter flow ,
+or run "m2000.bat" for core disposal flow -->
+</COMMINIDATA>

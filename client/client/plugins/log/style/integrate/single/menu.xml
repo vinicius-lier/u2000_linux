@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle" />
+				<PARA name="resourceBundleName" value="Res" />
+			</PARAS>
+		</DESC>
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu" />
+				<PARA name="type" value="MenuSet" />
+			</PARAS>
+			<!-- define a menu have" name" and "mnemonic" attributes -->
+			
+			<DESC descname="LogQueryMenu">
+				<PARAS>
+					<PARA name="name" value="LogQueryMenu" />
+					<PARA name="mnemonic" value="Q" />
+					<PARA name="accelerator" value="VK_Q" />
+					<PARA name="type" value="JMenu" />
+					<PARA name="serialnumber" value="200" />
+				</PARAS>
+					<DESC descname="Query Operation Logs">
+						<PARAS>
+							<PARA name="name" value="MENU_OPERATION_LOG_QUERY" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Query Operation Logs" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="Q" />
+							<PARA name="accelerator" value="VK_Q" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="200-70-10" />
+						</PARAS>
+					</DESC>
+					<DESC descname="Query System Logs">
+						<PARAS>
+							<PARA name="name" value="MENU_SYSTEM_LOG_QUERY" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Query System Logs" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="U" />
+							<PARA name="accelerator" value="VK_U" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="200-70-20" />
+						</PARAS>
+					</DESC>
+					<DESC descname="Query Security Logs">
+						<PARAS>
+							<PARA name="name" value="MENU_SECURITY_LOG_QUERY" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Query Security Logs" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="E" />
+							<PARA name="accelerator" value="VK_E" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="200-70-30" />
+						</PARAS>
+					</DESC>				
+			</DESC>				
+			<DESC descname="LogStatMenu">
+					<PARAS>
+						<PARA name="name" value="LogStatMenu" />
+						<PARA name="icon" value="" />
+						<PARA name="type" value="JMenu" />
+						<PARA name="mnemonic" value="S" />
+						<PARA name="accelerator" value="VK_S" />
+						<PARA name="serialnumber" value="300" />
+					</PARAS>
+					<DESC descname="Statistic Operation Log">
+						<PARAS>
+							<PARA name="name" value="MENU_OPERATION_LOG_STATIC" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Statistic Operation Log" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="S" />
+							<PARA name="accelerator" value="VK_S" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="300-80-50" />
+						</PARAS>
+					</DESC>
+					<DESC descname="Statistic System Log">
+						<PARAS>
+							<PARA name="name" value="MENU_SYSTEM_LOG_STATIC" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Statistic System Log" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="T" />
+							<PARA name="accelerator" value="VK_T" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="300-80-60" />
+						</PARAS>
+					</DESC>
+					<DESC descname="Statistic Security Log">
+						<PARAS>
+							<PARA name="name" value="MENU_SECURITY_LOG_STATIC" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Statistic Security Log" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="A" />
+							<PARA name="accelerator" value="VK_A" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="300-80-70" />
+						</PARAS>
+					</DESC>
+			</DESC>
+				
+			
+		</DESC>
+		<!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

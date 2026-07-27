@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="com.swimap.iview.ifms.util.custommenuRes"></PARA><!--string recourse class path -->
+    </PARAS>
+</DESC>
+
+<!--define a popupmenu for query or browse fault alarm-->
+<DESC descname="AlarmQuery_PopUpMenu">                          <!--do not modify -->
+	<PARAS>
+		<PARA name="id" value="AlarmQuery_PopUpMenu"/>  <!--do not modify -->
+		<PARA name="name" value="AlarmQuery_PopUpMenu"/><!--do not modify -->
+		<PARA name="type" value="JPopupMenu"/>          <!--do not modify -->
+
+	</PARAS>
+                <!-- for example define a menuitem
+	<DESC descname="myMenuItem1">//menuitem ID
+		<PARAS>
+		<PARA name="name" type="" value="myMenuItem1_name"/>// menuitem display name,It can be a key in recourse class
+		<PARA name="command" type="" value="function 1"/>   // function ally,
+		<PARA name="type" type="" value="JMenuItem"/>       // define menu type
+		<PARA name="accelerator" value="C"/>                //define accelerator key
+		</PARAS>
+	</DESC>
+		-->
+</DESC>
+
+<!--define a popupmenu for event alarm-->
+<DESC descname="EventQuery_PopUpMenu">
+	<PARAS>
+		<PARA name="id" value="EventQuery_PopUpMenu"/>
+		<PARA name="name" value="EventQuery_PopUpMenu"/>
+		<PARA name="type" value="JPopupMenu"/>
+
+	</PARAS>
+
+</DESC>
+
+<!--define a popupmenu for history alarm-->
+<DESC descname="HistoryQuery_PopUpMenu">
+	<PARAS>
+		<PARA name="id" value="HistoryQuery_PopUpMenu"/>
+		<PARA name="name" value="HistoryQuery_PopUpMenu"/>
+		<PARA name="type" value="JPopupMenu"/>
+	</PARAS>
+
+
+</DESC>
+
+</AREADESC>
+</COMMINIDATA>
+
+

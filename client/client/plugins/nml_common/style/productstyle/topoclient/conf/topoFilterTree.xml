@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="TREE">
+        <DESC descname="TREE_ROOT" >
+		<DESC descname="TREE_CUSTOM_ClockType" >
+		    <PARAS>
+									<PARA name="name"   value="TREE_CUSTOM_ClockType" />									
+				 					<!-- 仅支持时钟视图 -->
+									<PARA name="ViewID"   value="23" />  
+		    </PARAS>
+		    
+		    <DESC descname="TREE_CUSTOM_ClockType_Physical" >
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockType_Physical" />
+		         </PARAS>
+		  </DESC>
+        <DESC descname="TREE_CUSTOM_ClockType_PTP">
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockType_PTP" />
+		         </PARAS>
+		   </DESC>
+		    <DESC descname="TREE_CUSTOM_ClockType_PON" >
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockType_PON" />
+		         </PARAS>
+		   </DESC>
+        <!-- TREE_CUSTOM_LinkClass_17002放到最后，因为它对应“ACR时钟,此时钟在新需求里显示在最后” -->
+		    <DESC descname="TREE_CUSTOM_ClockType_ACR" >
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockType_ACR" />
+		         </PARAS>
+		   </DESC>
+		   
+		    <DESC descname="TREE_CUSTOM_ClockType_ATR" >
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockType_ATR" />
+		         </PARAS>
+		   </DESC>
+		   
+		</DESC>    
+		<DESC descname="TREE_CUSTOM_ClockTraceType" >
+		    <PARAS>
+									<PARA name="name"   value="TREE_CUSTOM_ClockTraceType" />									
+				 					<!-- 仅支持时钟视图 -->
+									<PARA name="ViewID"   value="23" />  
+		    </PARAS>
+		    
+		    <DESC descname="TREE_CUSTOM_ClockTraceType_Current" >
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockTraceType_Current" />
+		         </PARAS>
+		  </DESC>
+        <DESC descname="TREE_CUSTOM_ClockTraceType_Backup">
+		         <PARAS>
+				 					<PARA name="name"   value="TREE_CUSTOM_ClockTraceType_Backup" />
+		         </PARAS>
+		   </DESC>		    
+		</DESC> 
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

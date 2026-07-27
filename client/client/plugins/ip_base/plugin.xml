@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?eclipse version="3.3"?>
+<plugin id="common" name="common" version="1.0" provider-name="common">
+    <requires>
+        <import plugin="Fault" />
+    </requires>
+    <!-- <extension point="fault.explain.alarmhelpid"> <helpid class="com.huawei.te.fault.common.TEFaultHelpIDHandle"> </helpid> </extension> -->
+    <extension point="fault.query.alarmtable.popupmenu">
+        <All class="com.huawei.ipalarm.ext.AlarmTablePopupMenuLocDevPnl" />
+        <All class="com.huawei.ipalarm.ext.AlarmTablePopupMenuLocTelnet" />
+
+        <Fault class="com.huawei.ipalarm.faultlocate.processor.AlarmTablePopupMenuFaultLoc" />
+        <History class="com.huawei.ipalarm.faultlocate.processor.AlarmTablePopupMenuFaultLoc" />
+        <HistoryLog class="com.huawei.ipalarm.faultlocate.processor.AlarmTablePopupMenuFaultLoc" />
+        <!-- <All class="com.huawei.ipalarm.faultlocate.processor.AlarmTablePopupMenuFaultLoc" /> -->
+        <Fault class="com.huawei.ipalarm.ext.AlarmTablePopupMenu5MinAlarm" />
+        <Fault class="com.huawei.ipalarm.ext.AlarmTablePopupMenuTestSuite" />
+		<Fault class="com.huawei.ipalarm.ext.AlarmTablePopupMenuIGPPurge" />
+    </extension>
+    <!--extension point="fault.alarmsource.queryorstatistic"> 
+    <maskalarmsource class="com.huawei.ipalarm.masktemplate.AlarmSourceSelector" index="10"/> 
+    </extension -->
+   <extension point="com.swimap.eam.ISSHPreprocessor">
+      <SSHExtension
+            class="com.huawei.common.dmf.common.toolkit.TopoSSHExtension">
+      </SSHExtension>
+   </extension>
+</plugin>

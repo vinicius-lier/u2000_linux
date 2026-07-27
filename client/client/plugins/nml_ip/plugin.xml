@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="FaultJumpService" name="FaultJumpService" version="1.0" provider-name="swimap">
+    <requires>
+        <import plugin="Fault"/>
+    </requires>
+    <extension point="fault.query.alarmtable.popupmenu">
+        <All class="com.huawei.nml.ip.common.commonfunc.externalif.AlarmJumpServicePopMenu"/>
+    </extension>
+</plugin>

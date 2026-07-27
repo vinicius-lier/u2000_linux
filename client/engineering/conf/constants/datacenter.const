@@ -1,0 +1,19 @@
+# The constants for datacenter
+
+# The root folder of the running static data.
+STATIC_DATA_PATH = install/etc/package
+
+# The default source folder of the install package xml files.
+INSTALL_PACKAGE_FOLDER_PATH=install/etc/package
+
+# The default source folder of the install component xml files.
+COMPONENT_TREE_FOLDER_PATH=install/etc/ComponentTree
+
+# The default source folder of the service group xml files.
+SERVICEGROUP_FOLDER_PATH=install/etc/ServiceGroup
+
+# The prefix of HOSTID in global configurature files.
+HOSTID_PREFIX=HOST
+
+# The prefix of DBID in global configurature files.
+DBID_PREFIX=DB

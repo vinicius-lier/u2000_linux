@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="userprofile" >
+            <PARAS>            	
+                <PARA name="clientconfigurelocation"   value="com.swimap.iview.profile.RemoteAndLocalProfileParser" /> 
+                <PARA name="cacheconfigurelocation"  value="com.swimap.iview.profile.GUIProfileParser" /> 				
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>
+

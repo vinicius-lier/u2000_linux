@@ -1,0 +1,44 @@
+#Main Window Title
+conf\mainfrm\mainframesetting.xml
+#Output Window
+conf\mainfrm\outputpane.xml
+conf\mainfrm\SaveFileChooserConf.xml
+#Region Settings
+conf\mainfrm\regionusersetting.xml
+#Workbench
+conf\mainfrm\welcomepagesetting.xml
+#Menu Settings
+conf\mainfrm\menusettings.xml
+#Number Format, Time Mode
+conf\clientutil\regionconfig\locregcfg.xml
+#Topology Status Display, Topology Display Settings
+conf\topoclient\topoSet.xml
+#upgrade
+conf\authentication\authentication\upgradeinterval.xml
+#Lock Settings
+conf\mainfrm\terminalmanager.xml
+#Color Settings
+conf\resource\profileinfo.xml
+conf\com.swimap.adapter.message.tm\topo\color.xml
+#Sound Settings
+alarmclientbase\defaultuser.xml
+#Alarm Local Terminal Settings
+conf\alarmclientbase\defaultuser.xml
+#Disconnection Alert
+conf\com.swimap.rpc\ConnectionConfig.properties
+#Inventory Report Auto Export
+u2000\inventory\autoexport\autoexport.properties
+#System Monitor Local Setting
+sysmonitor\ServiceMonitorConfig.xml
+#TOPO files added
+conf\topoclient\filter*.xml
+conf\com.swimap.adapter.message.tm\topo\color.xml
+conf\resource\profileinfo.xml
+conf\topoclient\OtherFilerCondition.xml  
+conf\topoclient\startFilterTree.xml
+conf\topoclient\filtertreeLocation.xml
+conf\eam\user-config.xml
+integrate\complex\topoclient\topotoolbar.xml
+conf\nemonitor\use-config.xml
+conf\com.swimap.adapter.message.tm\topo\TopoSet.xml
+conf\systemmonitor\monitorService.xml

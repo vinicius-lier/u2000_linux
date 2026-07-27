@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT LegendBackgroundColor EMPTY >
+<!ATTLIST LegendBackgroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST LegendBackgroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST LegendBackgroundColor r NMTOKEN #REQUIRED >
+
+<!ELEMENT PieChart ( PieChartInformation ) >
+
+<!ELEMENT SeriesInformation EMPTY >
+<!ATTLIST SeriesInformation b NMTOKEN #REQUIRED >
+<!ATTLIST SeriesInformation label NMTOKEN #REQUIRED >
+<!ATTLIST SeriesInformation g NMTOKEN #REQUIRED >
+<!ATTLIST SeriesInformation r NMTOKEN #REQUIRED >
+
+<!ELEMENT PointLabels EMPTY >
+<!ATTLIST PointLabels Name NMTOKEN #REQUIRED >
+
+<!ELEMENT PieChartInformation ( PointLabels+, BackgroundColor, LegendBackgroundColor, SeriesInformation+ ) >
+<!ATTLIST PieChartInformation width NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation legend_font_style NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation legend_position NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation depth NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation start_angle NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation title NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation legend_font_size NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation elevation NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation legend_font_name NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation height NMTOKEN #REQUIRED >
+<!ATTLIST PieChartInformation rotation NMTOKEN #REQUIRED >
+
+<!ELEMENT BackgroundColor EMPTY >
+<!ATTLIST BackgroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor r NMTOKEN #REQUIRED >
+

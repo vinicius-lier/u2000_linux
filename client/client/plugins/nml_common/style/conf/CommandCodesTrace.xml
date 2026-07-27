@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="CommandInfo">
+            <PARAS>
+                <DESC descname="2817879">
+                    <PARAS>
+                        <PARA name="description" value="GetBGPInfoWithPeerCal"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817880">
+                    <PARAS>
+                        <PARA name="description" value="ModifyBGPInfo"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817881">
+                    <PARAS>
+                        <PARA name="description" value="GetBGPInfoWithOutPeerCal"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817774">
+                    <PARAS>
+                        <PARA name="description" value="GetASNumber"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794206">
+                    <PARAS>
+                        <PARA name="description" value="QueryCheckBgpInfo"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2794726">
+                    <PARAS>
+                        <PARA name="description" value="VpnFrrPing"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817748">
+                    <PARAS>
+                        <PARA name="description" value="CreateService"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817749">
+                    <PARAS>
+                        <PARA name="description" value="ConfigService"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817750">
+                    <PARAS>
+                        <PARA name="description" value="DeleteService"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817751">
+                    <PARAS>
+                        <PARA name="description" value="DeleteE2EService"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817752">
+                    <PARAS>
+                        <PARA name="description" value="QueryServiceIDList"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817753">
+                    <PARAS>
+                        <PARA name="description" value="QueryServiceBaseList"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817754">
+                    <PARAS>
+                        <PARA name="description" value="QueryServiceDetail"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817755">
+                    <PARAS>
+                        <PARA name="description" value="QueryDisServiceIDList"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817756">
+                    <PARAS>
+                        <PARA name="description" value="QueryDisServiceBaseList"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817757">
+                    <PARAS>
+                        <PARA name="description" value="QueryDisServiceDetail"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817758">
+                    <PARAS>
+                        <PARA name="description" value="DeleteDisreteService"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817759">
+                    <PARAS>
+                        <PARA name="description" value="QueryServiceDetailFormNe"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817760">
+                    <PARAS>
+                        <PARA name="description" value="ClearBgpPeer"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817761">
+                    <PARAS>
+                        <PARA name="description" value="ResetBgpPeer"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817762">
+                    <PARAS>
+                        <PARA name="description" value="QueryIsIsSession"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817763">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpSession"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817764">
+                    <PARAS>
+                        <PARA name="description" value="QueryOspfSession"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817765">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpADJRIBOUT"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817766">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpNLRI"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817767">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpAsPath"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817768">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpCommunity"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817769">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpExtendCommunity"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817770">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpUnknownCommunity"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="2817771">
+                    <PARAS>
+                        <PARA name="description" value="QueryBgpStatus"/>
+                        <PARA name="moduleID" value="E2E-BGP"/>
+                    </PARAS>
+                </DESC>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+
+	<AREADESC><!-- define a menuSet
+		
+		menuSet:
+		
+		descname as the menuSet's id, must be unique.
+		
+		must have a type para, and the value is "MenuSet"
+		
+		
+		
+		JMenu:(super class must be JMenu)
+		
+		descname as the menuID.
+		
+		must hava a type para, and the value is "JMenu"
+		
+		
+		
+		JMenu's sub element
+		
+		type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+		
+		
+		
+		-->
+		
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="TopoMenuRes"></PARA>
+			</PARAS>
+		</DESC><!-- mainMenu MenuSet type start  -->
+		
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"></PARA>
+				<PARA name="type" value="MenuSet"></PARA>
+			</PARAS><!-- define a menu have" name" and "mnemonic" attributes -->
+			
+			<DESC descname="FileMenu">
+				<PARAS>
+					<PARA name="name" value="File"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" value="VK_S"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="serialnumber" value="100"></PARA>
+				</PARAS>
+			<!--
+				<DESC descname="exportToFile">
+					<PARAS>
+						<PARA name="name" value="exportToFile"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="exportToFile"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="R"></PARA>
+						<PARA name="accelerator" value="VK_R"></PARA>
+						<PARA name="serialnumber" value="100-190"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				-->
+				<DESC descname="New">
+					<PARAS>
+						<PARA name="name" value="New"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="type" value="JMenu"></PARA>
+						<PARA name="mnemonic" value="N"></PARA>
+						<PARA name="accelerator" value="VK_S"></PARA>
+						<PARA name="serialnumber" value="100-200"></PARA>
+					</PARAS>
+					<DESC descname="create_view">
+						<PARAS>
+							<PARA name="name" value="create_view"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="show create view Dialog">
+							</PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="V"></PARA>
+							<PARA name="accelerator" value="VK_V"></PARA>
+							<PARA name="Class" value="JMenuItem"></PARA>
+							<PARA name="serialnumber" value="100-200-10"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="Separator">
+						<PARAS>
+							<PARA name="name" value="Separator"></PARA>
+							<PARA name="type" value="Separator"></PARA>
+							<PARA name="serialnumber" value="100-200-20"></PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="create_device">
+						<PARAS>
+							<PARA name="name" value="create_device"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command"
+								value="show create device Dialog"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="N"></PARA>
+							<PARA name="accelerator" value="VK_N"></PARA>
+							<PARA name="serialnumber" value="100-200-30"></PARA>
+							<PARA name="operationID" value="5,7"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="createSubnetMenuItem">
+						<PARAS>
+							<PARA name="name" value="createSubnetMenuItem"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command"
+								value="show create subnet dialog"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="S"></PARA>
+							<PARA name="accelerator" value="VK_S"></PARA>
+							<PARA name="serialnumber" value="100-200-40"></PARA>
+							<PARA name="operationID" value="2,3"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="createLinkMenuItem">
+						<PARAS>
+							<PARA name="name" value="createLinkMenuItem"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="show create link dialog">
+								</PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="L"></PARA>
+							<PARA name="accelerator" value="VK_L"></PARA>
+							<PARA name="serialnumber" value="100-200-50"></PARA>
+							<PARA name="operationID" value="1"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+				</DESC>
+			</DESC>
+			
+			<DESC descname="EditMenu">
+				<PARAS>
+					<PARA name="name" value="EditMenu"></PARA>
+					<PARA name="mnemonic" value="E"></PARA>
+					<PARA name="accelerator" value="VK_E"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="icon" value=""></PARA>
+					<PARA name="serialnumber" value="200"></PARA>
+				</PARAS>
+				<DESC descname="cutObject">
+					<PARAS>
+						<PARA name="name" value="cutObject"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="cutTopoObj"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="T"></PARA>
+						<PARA name="operationID" value="42"></PARA>
+						<PARA name="accelerator" value="control X"></PARA>
+						<PARA name="serialnumber" value="200-60"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="copyObject">
+					<PARAS>
+						<PARA name="name" value="copyObject"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="copyObject"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="C"></PARA>
+						<PARA name="operationID" value="40"></PARA>
+						<PARA name="accelerator" value="control C"></PARA>
+						<PARA name="serialnumber" value="200-70"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="copyTo">
+					<PARAS>
+						<PARA name="name" value="copyTo"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="copyTo"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="P"></PARA>
+						<PARA name="operationID" value="40"></PARA>
+						<PARA name="serialnumber" value="200-75"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="pasteObject">
+					<PARAS>
+						<PARA name="name" value="pasteObject"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="pasteTopoObj"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="P"></PARA>
+						<PARA name="operationID" value="41"></PARA>
+						<PARA name="accelerator" value="control V"></PARA>
+						<PARA name="serialnumber" value="200-80"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="moveObjectTo">
+					<PARAS>
+						<PARA name="name" value="moveObjectTo"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="moveObjectTo"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="V"></PARA>
+						<PARA name="accelerator" value="VK_V"></PARA>
+						<PARA name="operationID" value="42"></PARA>
+						<PARA name="serialnumber" value="200-90"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="selectAllObject">
+					<PARAS>
+						<PARA name="name" value="selectAllObject"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="selectAllObject"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="L"></PARA>
+						<PARA name="accelerator" value="control A"></PARA>
+						<PARA name="serialnumber" value="200-100"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="delete">
+					<PARAS>
+						<PARA name="name" value="delete"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="iMAPTopoDelete"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="D"></PARA>
+						<PARA name="serialnumber" value="200-110"></PARA>
+						<PARA name="operationID" value="43,44,45,46,48"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="Separator2">
+					<PARAS>
+						<PARA name="name" value="Separator2"></PARA>
+						<PARA name="type" value="Separator"></PARA>
+						<PARA name="serialnumber" value="200-130"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="customizeToolbar">
+					<PARAS>
+						<PARA name="name" value="customizeToolbar"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="customizeToolbar"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="U"></PARA>
+						<PARA name="accelerator" value="VK_U"></PARA>
+						<PARA name="serialnumber" value="200-140"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="ViewMenu">
+				<PARAS>
+					<PARA name="name" value="ViewMenu"></PARA>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="accelerator" value="VK_T"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="icon" value=""></PARA>
+					<PARA name="serialnumber" value="240"></PARA>
+				</PARAS>
+				<DESC descname="MainTopoTitle">
+					<PARAS>
+						<PARA name="name" value="MainTopoTitle"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="ShowMyTopoFrame"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="N"></PARA>
+						<PARA name="accelerator" value="VK_N"></PARA>
+						<PARA name="serialnumber" value="240-1"></PARA>
+						<PARA name="showBlankInternalFrame" value="false"></PARA>
+						<PARA name="showInPortalPanel" value="true"></PARA>
+						<PARA name="isFavorite" value="true"></PARA>
+					  <PARA name="favoriteIcon" value="image/TopoMap.png" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="Separator1">
+					<PARAS>
+						<PARA name="name" value="Separator1"></PARA>
+						<PARA name="type" value="Separator"></PARA>
+						<PARA name="serialnumber" value="240-10"></PARA>
+					</PARAS>
+				</DESC>
+				<!--
+				<DESC descname="modify_view">
+					<PARAS>
+						<PARA name="name" value="modify_view"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="show modify view dialog"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="F"></PARA>
+						<PARA name="serialnumber" value="240-30"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				-->
+				<!--
+				<DESC descname="delete_view">
+					<PARAS>
+						<PARA name="name" value="delete_view"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="delete view"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="I"></PARA>
+						<PARA name="serialnumber" value="240-40"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				-->
+				
+				<DESC descname="setStartSubnet">
+					<PARAS>
+						<PARA name="name" value="setStartSubnet"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="setSysStartSubnet"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="M"></PARA>
+						<PARA name="accelerator" value="VK_M"></PARA>
+						<PARA name="serialnumber" value="240-150"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="Separator3">
+					<PARAS>
+						<PARA name="name" value="Separator3"></PARA>
+						<PARA name="type" value="Separator"></PARA>
+						<PARA name="serialnumber" value="240-160"></PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="save_position">
+					<PARAS>
+						<PARA name="name" value="save_position"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="save position"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="E"></PARA>
+						<PARA name="accelerator" value="control S"></PARA>
+						<PARA name="serialnumber" value="240-210"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="searchObject">
+					<PARAS>
+						<PARA name="name" value="searchObject"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="Show search panel"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="S"></PARA>
+				    <PARA name="accelerator" value="control F"></PARA>
+						<PARA name="serialnumber" value="240-230"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="set_background">
+					<PARAS>
+						<PARA name="name" value="set_background"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="setBackGroundDialog"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="G"></PARA>
+						<PARA name="accelerator" value="VK_G"></PARA>
+						<PARA name="serialnumber" value="240-260"></PARA>
+						<PARA name="operationID" value="51"/>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+			
+				<DESC descname="Separator6">
+					<PARAS>
+						<PARA name="name" value="Separator6"></PARA>
+						<PARA name="type" value="Separator"></PARA>
+						<PARA name="serialnumber" value="240-290"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="save_picture">
+					<PARAS>
+						<PARA name="name" value="save_picture"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="save picture"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="serialnumber" value="240-300"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			
+			<DESC descname="review_view">
+				<PARAS>
+					<PARA name="name" value="review_view"></PARA>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="accelerator" value="VK_V"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="icon" value=""></PARA>
+					<PARA name="serialnumber" value="300"></PARA>
+				</PARAS>
+				<DESC descname="back_memory">
+					<PARAS>
+						<PARA name="name" value="back_memory"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="back_memory"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="P"></PARA>
+						<PARA name="accelerator" value="VK_P"></PARA>
+						<PARA name="serialnumber" value="300-168"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="forward_memory">
+					<PARAS>
+						<PARA name="name" value="forward_memory"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="forward_memory"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="N"></PARA>
+						<PARA name="accelerator" value="VK_N"></PARA>
+						<PARA name="serialnumber" value="300-169"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="back_parent">
+					<PARAS>
+						<PARA name="name" value="back_parent"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="back parent"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="B"></PARA>
+						<PARA name="accelerator" value="VK_B"></PARA>
+						<PARA name="serialnumber" value="300-170"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="back_top">
+					<PARAS>
+						<PARA name="name" value="back_top"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="back top"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="O"></PARA>
+						<PARA name="accelerator" value="VK_O"></PARA>
+						<PARA name="serialnumber" value="300-180"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="Separator4">
+					<PARAS>
+						<PARA name="name" value="Separator4"></PARA>
+						<PARA name="type" value="Separator"></PARA>
+						<PARA name="serialnumber" value="300-190"></PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="refresh_topo">
+					<PARAS>
+						<PARA name="name" value="refresh_topo"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="refresh topo"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="R"></PARA>
+						<PARA name="accelerator" value="VK_R"></PARA>
+						<PARA name="serialnumber" value="300-200"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>						
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="show_navigation">
+					<PARAS>
+						<PARA name="name" value="show_navigation"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="type" value="JMenu"></PARA>
+						<PARA name="mnemonic" value="W"></PARA>
+						<PARA name="accelerator" value="VK_W"></PARA>
+						<PARA name="serialnumber" value="300-240"></PARA>
+					</PARAS>
+					
+					<DESC descname="show_topo_tree">
+						<PARAS>
+							<PARA name="name" value="show_topo_tree"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="show topo tree"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="T"></PARA>
+							<PARA name="accelerator" value="VK_T"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="true"/>
+							<PARA name="serialnumber" value="300-240-10"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="show_overview">
+						<PARAS>
+							<PARA name="name" value="show_overview"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="show overview"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="O"></PARA>
+							<PARA name="accelerator" value="VK_O"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="false"/>
+							<PARA name="serialnumber" value="300-240-20"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					<DESC descname="show_device_Statistic">
+						<PARAS>
+							<PARA name="name" value="show_device_Statistic">
+								</PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="show device statistics">
+								</PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="S"></PARA>
+							<PARA name="accelerator" value="VK_S"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="false"/>
+							<PARA name="serialnumber" value="300-240-30"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					<DESC descname="show_alarm_list">
+						<PARAS>
+							<PARA name="name" value="show_alarm_list"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="show alarm browse"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="X"></PARA>
+							<PARA name="accelerator" value="VK_X"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="false"/>
+							<PARA name="serialnumber" value="300-240-40"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="Separator5">
+						<PARAS>
+							<PARA name="name" value="Separator5"></PARA>
+							<PARA name="type" value="Separator"></PARA>
+							<PARA name="serialnumber" value="300-240-50"></PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="show_legend">
+						<PARAS>
+							<PARA name="name" value="show_legend"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="showLegendAndFilter">
+								</PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="L"></PARA>
+							<PARA name="accelerator" value="VK_L"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="false"/>
+							<PARA name="serialnumber" value="300-240-60"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="show_filter">
+						<PARAS>
+							<PARA name="name" value="show_filter"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="showFilter"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="F"></PARA>
+							<PARA name="accelerator" value="VK_F"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="false"/>
+							<PARA name="serialnumber" value="300-240-70"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="show_attribute">
+						<PARAS>
+							<PARA name="name" value="show_attribute"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="showAttribute"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="P"></PARA>
+							<PARA name="accelerator" value="VK_P"></PARA>
+							<PARA name="itemType" value="CheckBox"/>
+							<PARA name="checked" value="false"/>
+							<PARA name="serialnumber" value="300-240-80"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+				</DESC>		
+				
+				<DESC descname="Layout">
+					<PARAS>
+						<PARA name="name" value="Layout"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="show set layout dialog">
+						 </PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="Y"></PARA>
+						<PARA name="accelerator" value="VK_Y"></PARA>
+						<PARA name="serialnumber" value="300-250"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="zoom">
+					<PARAS>
+						<PARA name="name" value="zoom"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="type" value="JMenu"></PARA>
+						<PARA name="mnemonic" value="Z"></PARA>
+						<PARA name="accelerator" value="VK_Z"></PARA>
+						<PARA name="serialnumber" value="300-270"></PARA>
+					</PARAS>
+					
+					<DESC descname="zoom_in">
+						<PARAS>
+							<PARA name="name" value="zoom_in"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="zoom in"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="I"></PARA>
+							<PARA name="accelerator" value="VK_I"></PARA>
+							<PARA name="serialnumber" value="300-270-10"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="zoom_out">
+						<PARAS>
+							<PARA name="name" value="zoom_out"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="zoom out"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="O"></PARA>
+							<PARA name="accelerator" value="VK_O"></PARA>
+							<PARA name="serialnumber" value="300-270-20"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="zoom_box">
+						<PARAS>
+							<PARA name="name" value="zoom_box"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="zoom box"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="L"></PARA>
+							<PARA name="accelerator" value="VK_L"></PARA>
+							<PARA name="serialnumber" value="300-270-30"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="reset_zoom">
+						<PARAS>
+							<PARA name="name" value="reset_zoom"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="reset zoom"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="R"></PARA>
+							<PARA name="accelerator" value="VK_R"></PARA>
+							<PARA name="serialnumber" value="300-270-40"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+					
+					<DESC descname="content_zoom">
+						<PARAS>
+							<PARA name="name" value="content_zoom"></PARA>
+							<PARA name="icon" value=""></PARA>
+							<PARA name="command" value="content zoom"></PARA>
+							<PARA name="type" value="JMenuItem"></PARA>
+							<PARA name="mnemonic" value="C"></PARA>
+							<PARA name="accelerator" value="VK_C"></PARA>
+							<PARA name="serialnumber" value="300-270-50"></PARA>
+							<PARA name="showInPortalPanel" value="false"></PARA>
+							<PARA name="isFavorite" value="false"></PARA>
+						  <PARA name="favoriteIcon" value="" ></PARA>
+							<PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							</PARA>
+						</PARAS>
+					</DESC>
+				</DESC>
+				<DESC descname="lockUnLock_view">
+					<PARAS>
+						<PARA name="name" value="lockUnLock_view"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="command" value="lockUnLock view"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="K"></PARA>
+						<PARA name="accelerator" value="VK_K"></PARA>
+						<PARA name="itemType" value="CheckBox"/>
+						<PARA name="checked" value="false"/>
+						<PARA name="serialnumber" value="300-220"></PARA>
+						<PARA name="showInPortalPanel" value="false"></PARA>
+						<PARA name="isFavorite" value="false"></PARA>
+					  <PARA name="favoriteIcon" value="" ></PARA>
+						<PARA name="visibleApps">
+						   <VALUE value="TopoView"/>				
+						</PARA>
+					</PARAS>
+				</DESC>	
+		  </DESC>		
+		</DESC><!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

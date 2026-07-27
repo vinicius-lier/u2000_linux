@@ -1,0 +1,6 @@
+NBI=Northbound Interface
+nbi_tmf615_security=TMF615 Northbound Interface Component
+nbi_tmf615_security.InstallInfo=This component include TMF615 northbound interface component.
+nbi_tmf615_security.UninstallInfo=This component include TMF615 northbound interface component.
+nbi_tmf615_security_server=TMF615 Northbound Interface Agent.
+NorthBoundInterface=Northbound Interface

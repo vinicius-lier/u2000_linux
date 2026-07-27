@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="">
+      <PARAS>
+        <PARA name="BTHint" value="You have accessed this computer operated by BT. You are required to have a personal authorization from the system administrator before you use this computer and you are strictly limited to the use set out in that written authorization. Unauthorized access to or misuse of this system is prohibited and constitutes an offence under the Computer Misuse Act 1990. Unauthorized access to information is defined within BT Security Standard 'Information Security'. If you disclose customer or BT information without authority you may be sacked and prosecuted. Are you authorized to use this computer as detailed above?"></PARA>
+        
+        <!--Config the error info of update user's password-->
+        <PARA name="SM_I2000_Exception1" value="Operation failed! Communication with NE failed due to network problems."></PARA>
+        <PARA name="SM_I2000_Exception2" value="Operation failed! The NE user password stored in the server is different from that in the actual NE. To modify the password in the server only, do not select 'Synchronize NE Password'."></PARA>
+        <PARA name="SM_I2000_Exception3" value="Operation failed! New NE user password does not comply with password policy."></PARA>
+        <PARA name="SM_I2000_Exception4" value="Operation failed! Unknown error occurred."></PARA>
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

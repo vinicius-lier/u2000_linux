@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="SynAlarmNENumberConf">
+			<PARAS>
+				<PARA name="Prompt_Value" value="300"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

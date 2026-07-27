@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="OnuLocation" name="ONU Frame/Slot/Port" isVisiable="true" isEditable="false" width="141" isNameModified="false" />
+  <column id="OnuID" name="ONU ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="OnuName" name="ONU Name" isVisiable="true" isEditable="true" width="90" isNameModified="false" />
+  <column id="ChnlIpAddress" name="IP Address" isVisiable="true" isEditable="true" width="86" isNameModified="false" />
+  <column id="ChnlHttpPort" name="Service Port Number (0-65528)" isVisiable="true" isEditable="true" width="196" isNameModified="false" />
+  <column id="ChnlVlan" name="VLAN (1-4094)" isVisiable="true" isEditable="true" width="106" isNameModified="false" />
+  <column id="ChnlDuration" name="Valid duration (min) (1-120)" isVisiable="true" isEditable="true" width="176" isNameModified="false" />
+  <column id="ChnlUserName" name="ONU Account Name" isVisiable="true" isEditable="true" width="136" isNameModified="false" />
+</table>
+

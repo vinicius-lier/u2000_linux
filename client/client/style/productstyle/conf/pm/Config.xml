@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>    
+    <AREADESC areaname="PMSCONFIG">
+    	<DESC descname="ENABLE_SWITCH_MODE">
+            <PARAS>
+        	    <!--Setting the Mode for unit switch -->
+                <PARA name="ENABLEUNITFORMAT"   value="1" />
+			 <!--Setting the MAX Selection for Resources  Story Name: Creation dialog support selected number statistic -->
+			 <!-- If the specified value is not within the range of Max Value and Min Value then it will 
+			 		get the Default value-->
+                <PARA name="MAX_INSTANCE_FOR_PTN"   value="20000" />  <!--Max= 20000 , Min= 50 , Default= 20000 -->
+			 <PARA name="MAX_INSTANCE_FOR_INTERFACE"   value="20000" /> <!--Max= 20000 , Min= 1000 , Default= 20000 -->
+			 <PARA name="MAX_INSTANCE_FOR_TESTPATH"   value="10000" /> <!--Max= 10000 , Min= 1000 , Default= 10000 -->
+			 <PARA name="MAX_INSTANCE_FOR_NORMAL"   value="5000" /> <!--Max= 10000 , Min= 1000 , Default= 5000 -->
+			  <PARA name="MAX_INSTANCE_FOR_COMPOSITE"   value="200" /> <!--Max= 500  , Min= 50 , Default= 200 -->
+			  <PARA name="MAX_INSTANCE_FOR_USERGROUP" value="1000"/> <!--Max= 2000  , Min= 100 , Default= 1000 -->
+			  <PARA name="MAX_INSTANCE_FOR_NEGLOBAL"   value="100" /> <!--Max= 500 , Min= 50 , Default= 100 -->
+			  <PARA name="MAX_INSTANCE_FOR_LINK"   value="10000" /> <!--Max= 10000 , Min= 1000 , Default= 10000 -->
+			  <!-- This count fopr L3VPN PE-PE link and PE-CE Link -->
+			  <PARA name="MAX_INSTANCE_FOR_COMPOSITE_PECELINK"   value="5000" /><!--Max= 5000 , Min= 500 , Default= 5000 -->
+			  <PARA name="MAX_INSTANCE_FOR_DEVICESERIES"   value="200" /> 
+			  <PARA name="MAX_SUPPORTED_INSTANCE_78000"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_78001"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_78002"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_78003"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_78004"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_78005"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_77002"   value="2000" />
+			  <PARA name="MAX_SUPPORTED_INSTANCE_77003"   value="2000" />
+			  <!--=============================================================================-->
+			  <!--1st Bit from left stands for  Group View -->
+			  <!--2nd Bit from left stands for 	Resource View -->
+			  <!--3rd Bit from left stands for  Topo View -->
+			  <!--===========================================================================-->
+			  <!-- BinaryBit Decimal  supported views     	valid/Invalid-->
+			  <!-- 000      		0     No View   					  Invalid -->
+			  <!-- 001          1     Group    							Invalid -->
+			  <!-- 010          2     Resource    					Valid -->
+			  <!-- 011          3     Resource,Group    		Valid -->
+			  <!-- 100          4     Topo       						Invalid -->
+			  <!-- 101          5     Topo,Group       			Invalid -->
+			  <!-- 110          6     Topo,Resource       	Valid -->
+			  <!-- 111          7     Topo,Resource,Group   Valid -->
+			  <!--============================================================================-->
+			  <!--Default value id 7 -->
+			  <!--============================================================================-->
+			  <PARA name="PMS_VIEWTYPE_VISIBILITY" value="7"/>	
+			  <PARA name="MAX_DQ_SESSIONS" value="5"/>	 <!--Max= 10 , Min= 1 , Default= 5 -->	
+			  <PARA name="MAX_CUSTOMIZE_COLUMNS" value="20"/>	 <!--Max= 25 , Min= 10 , Default= 20 -->	
+			  <PARA name="UNITSFORCONFIGARATION" value="pkt/s,bit/s,number,packet,bits/s,frame,byte,bits/ms,octets,bytes/s,bps,bits/ms,frames,packets,bit,bytes,包/秒,比特/秒,个,包,帧,字节,比特/毫秒,字节/秒,比特/秒,比特"/>
+			  <PARA name="MAX_TELNET_SESSION" value="10"/>	 <!--Max= 20 , Min= 5 , Default= 10 -->
+			  <PARA name="FETCH_RESOURCESTATISTIC_STATUS_INTERVAL" value="3"/><!--  max=10, min=1, default=3 -->
+			  <PARA name="VALUEMODE_TDT_KEY" value=",IP-PTN,V8PTN,"/><!-- this should have only PTN,TRANSMIT,TRANSMISSION,IP-PTN, TDT Names should be specified by &quot;,&quot; -->
+			  <!-- if all the selected resources support value mode then value mode combo box will be enabled, otherwise disabled  -->
+			  <PARA name="VALUEMODE_DEVICETYPE_KEY" value="1882,1883,1887,1895,1908,1946,1947,1948,1949,1953,1954,1955,1956,1971,1972,1978,1980,1982,1987"/><!-- select * from TDT_DEVICE_TYPE WHERE DEV_TYPE_NAME LIKE &apos;%RTN%&apos; -->
+			  <PARA name="RAW_DATAMODE_ENABLED" value="0"/> <!-- 0- Disable , 1- enable -->
+ 			  <PARA name="RAW_DATA_NO_SAMPLES" value="1440"/><!-- by default 1440 which is for the CR-123 : CR20120906047 max allowed 8000 and min is 100-->
+			  <PARA name="MXU_SUPPORTED" value="0"/><!-- By default is 0(Disable) If MXU is supported then the value should be 1(Enable) otherwise false-->
+			  <PARA name="DUMMY_DATA_MODE_ENABLED" value="0"/><!-- By default is 0(Disable) If dummy data will be inserted into graph panel the value should be 1(Enable) otherwise false-->
+			  <PARA name="HANDSHAKE_PERIOD" value="3600000"/><!-- By default is every one hour handshake happens between client and server-->
+			  <!--  By default value is 200 min=80,max=200,default = 200 -->
+			  <!-- If the specified value is not within the range of Max Value and Min Value then it will 
+			 		get the Default value-->
+			  <PARA name="MAX_INSTANCE_SELECT" value="200"/>
+			  <PARA name="MAX_INSTANCE_SELECT_LIMIT" value="10000"/><!--  By default value is 10000 ,max=10000,default = 10000 -->
+			  <!-- If the specified value is not within the range of Max Value and Min Value then it will 
+			 		get the Default value-->
+			  <PARA name="SAVE_ALL_NO_OF_PAGES_IN_ONE_PDF_FILE" value="1000"/><!-- Max=3000, Min=1, Default=1000-->
+			  <!-- The value of the SAVE_ALL_NO_OF_PAGES_IN_ONE_PDF_FILE should not be approx  3000, otherwise it may lead to OutOfMemoryError-->
+		      <PARA name="SAVE_ALL_NO_OF_ROWS_IN_ONE_CSV_FILE" value="65535"/><!-- Max=10000, Min=1, Default=3000-->
+			  <!-- The value of the SAVE_ALL_NO_OF_ROWS_IN_ONE_CSV_FILE should not be approx  10000, otherwise it may lead to OutOfMemoryError-->
+        
+               <!--Max= 1440 , Min= 5 , Default= 15    these values are in mins-->
+                <!-- If the specified value is not within the range of Max Value and Min Value then it will 
+                                        get the Default value-->
+				<PARA name="SLIDING_VIEW_REFRESH_INTERVAL"  value="15" />
+				<!--  By default value is 1000 min=100,max=5000,default 1000 will be considered if value is not in range #100-#5000 -->
+			  <PARA name="MAX_DELETE_FAILURE_INSTANCE_COUNT" value="1000"/>
+			  <PARA name="MAX_RESOURCE_SYNCHRONIZE" value="5000" /> <!-- Maximum resource for synchronization-->
+              
+	      	  <!-- Configuration to enable and disable TopNQuery, QueryTopNFaultyResource & PerformanceGrading -->
+	      	  <PARA name="TOP_N_AND_GRADING_SUPPORTED" value="0"/> <!-- 0- Not supported , 1- Supported -->
+              <PARA name="IS_MTN_IRAN_FEATURE_SUPPORTED" value="0" /> <!-- default =0 , 0- not supported 1- supported -->
+			  <PARA name="IS_MTN_IRAN_MODIFY_FEATURE_SUPPORTED" value="0" /> <!-- default =0 , 0- not supported 1- supported -->
+			  			  <PARA name="ENABLE_CREATEINSTANCE_RESULT_EXPORT" value="0"/> <!-- 0- Disable , 1- enable -->
+			  <PARA name="NO_OF_REQUESTS_FOR_PARTIAL_SUCCESS"   value="500" /><!-- No of request that can be sent to server to get failure reason for partial success instance creation  -->
+			  <!-- support selection instance number for modify instance template     max 5000 min 200 default 200 -->
+			  <PARA name="MAX_INSTANCE_SELECT_FOR_MODIFY" value="5000" />
+            </PARAS>
+        </DESC>
+    </AREADESC> 
+</COMMINIDATA>

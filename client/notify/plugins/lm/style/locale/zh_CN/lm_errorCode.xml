@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="DeviceOperationLog">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="-1"   value="操作失败。可能原因：1、后台服务运行不正常。2、前后台通信发生异常。请重新操作，如果问题依然存在，请联系系统管理员。" />
+                <PARA name="-2"   value="会话已过期，请重新登录。" />
+                <PARA name="67108867"    value="license文件不存在。" />
+                <PARA name="67108868"    value="license不合法，请选择合法的license进行更新。" />
+                <PARA name="67108870"    value="获取ESN错误。" />
+                <PARA name="67108872"    value="写license文件错误。" />
+                <PARA name="67108873"    value="连接数据库失败。" />
+                <PARA name="67108874"   value="读取license文件失败。" />
+                <PARA name="67108875"   value="写license文件失败。" />
+                <PARA name="67108876"   value="删除只读文件错误。" />
+                <PARA name="67108877"   value="获取license资源项信息失败。" />
+                <PARA name="67108878"   value="不允许从正式license文件更新到临时license文件。" />
+                <PARA name="67108879"   value="license的容量小于当前系统的消耗值，请选择合适的license进行更新。" /> 
+                <PARA name="67108882"   value="当前系统所需的license受控项不存在，请选择合适的license进行更新。" />
+                <PARA name="67108889"   value="加载扩展库失败。" /> 
+                <PARA name="67108890"   value="由于扩展库{0}校验失败，导致更新license失败。" /> 
+                <PARA name="67108891"   value="操作失败，您没有权限执行这项操作，请联系系统管理员。" /> 
+                <PARA name="67108897"   value="管理容量预警设置失败。" />
+                <PARA name="67108894"   value="license审计文件不存在。" />
+                <PARA name="67108895"   value="创建审计文件夹目录失败。" />
+                <PARA name="67108902"   value="License文件的ESN与系统设备的ESN匹配错误，将进入保活期，是否继续？" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

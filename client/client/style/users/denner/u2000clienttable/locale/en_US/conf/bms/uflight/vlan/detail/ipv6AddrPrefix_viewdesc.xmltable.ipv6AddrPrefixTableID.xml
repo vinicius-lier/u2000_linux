@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ipv6AddrPrefix" name="Address Prefix" isVisiable="true" isEditable="false" width="105" isNameModified="false" />
+  <column id="ipv6AddrPrefixLength" name="Prefix Length" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="ipv6AddrPrefixOnLinkFlag" name="Link Flag" isVisiable="true" isEditable="true" width="76" isNameModified="false" />
+  <column id="ipv6AddrPrefixAutonomousFlag" name="Autonomous Flag" isVisiable="true" isEditable="true" width="123" isNameModified="false" />
+  <column id="ipv6AddrPrefixAdvPreferredLifetime" name="Preferred Life Time" isVisiable="true" isEditable="true" width="131" isNameModified="false" />
+  <column id="ipv6AddrPrefixAdvValidLifetime" name="Valid Life Time" isVisiable="true" isEditable="true" width="107" isNameModified="false" />
+</table>
+

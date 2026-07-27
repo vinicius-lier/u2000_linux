@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) -->
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="createEamObject">
+			<PARAS>
+				<PARA name="id" value="createEamObject"/>
+				<PARA name="name" value="createEamObject"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			
+			<DESC descname="New">
+				<PARAS>
+					<PARA name="name" type="" value="New"/>
+					<PARA name="command" type="" value=""/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="serialnumber" value="100-90"></PARA>
+				</PARAS>
+				
+				<DESC descname="Create_subnet">
+					<PARAS>
+						<PARA name="name" type="" value="Create_subnet"/>
+						<PARA name="command" type=""
+							value="show_create_subnet_dialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="S"></PARA>
+						<PARA name="serialnumber" value="100-100"></PARA>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="Create_virtual_eam_object">
+					<PARAS>
+						<PARA name="name" type="" value="Create_Ne"/>
+						<PARA name="command" type=""
+							value="show_create_ne_dialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="N"></PARA>
+						<PARA name="serialnumber" value="100-200"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="Create_virtual_Link">
+					<PARAS>
+						<PARA name="name" type="" value="Create_Link"/>
+						<PARA name="command" type=""
+							value="show_create_link_dialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="L"></PARA>
+						<PARA name="serialnumber" value="100-300"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+		
+		<DESC descname="editEamObject">
+			<PARAS>
+				<PARA name="id" value="editEamObject"/>
+				<PARA name="name" value="editEamObject"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="500"></PARA>
+			</PARAS>
+			
+			<DESC descname="cutObject">
+				<PARAS>
+					<PARA name="name" type="" value="cutObject"/>
+					<PARA name="command" type="" value="cutEamObject"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="serialnumber" value="500-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="pasteObject">
+				<PARAS>
+					<PARA name="name" type="" value="pasteObject"/>
+					<PARA name="command" type="" value="pasteEamObject"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="500-200"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="moveObjectTo">
+				<PARAS>
+					<PARA name="name" type="" value="moveObjectTo"/>
+					<PARA name="command" type="" value="moveeamobjectto"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="V"></PARA>
+					<PARA name="serialnumber" value="500-250"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		
+		
+		
+		<DESC descname="tool">
+				<PARAS>	
+				<PARA name="id" value="tool"/>
+				<PARA name="name" value="tool"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="600"></PARA>							
+				</PARAS>
+			
+			
+			<DESC descname="tool">
+				<PARAS>
+					<PARA name="name" type="" value="tool"/>
+					<PARA name="command" type="" value=""/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="mnemonic" value="T"></PARA>
+					<PARA name="serialnumber" value="600-01"></PARA>
+				</PARAS>
+			
+			
+			
+				<DESC descname="pingDevice">
+					<PARAS>
+					<PARA name="name" type="" value="pingDevice"/>
+					<PARA name="command" type="" value="ping"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="600-10"></PARA>				
+				   </PARAS>
+				</DESC>
+				<DESC descname="tracert">
+					<PARAS>
+					<PARA name="name" type="" value="tracert"/>
+					<PARA name="command" type="" value="tracert"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="600-20"></PARA>			
+				    </PARAS>
+				</DESC>
+				<DESC descname="telnet">
+					<PARAS>
+						<PARA name="name" type="" value="telnet"/>
+						<PARA name="mnemonic" value="T"/>
+						<PARA name="command" type="" value="telnet"/>					
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="600-30"/>
+					</PARAS>
+				</DESC>
+				<DESC descname="ssh">
+					<PARAS>
+						<PARA name="name" type="" value="ssh"/>
+						<PARA name="mnemonic" type="" value="S"/>
+						<PARA name="command" value="ssh"/>				
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="600-40"/>
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+		
+		
+		<DESC descname="RootPasteObject">
+			<PARAS>
+				<PARA name="id" value="RootPasteObject"/>
+				<PARA name="name" type="" value="RootPasteObject"/>
+				<PARA name="command" type="" value=""/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="1400"></PARA>
+			</PARAS>
+			
+			<DESC descname="RootPasteObject">
+				<PARAS>
+					<PARA name="name" type="" value="pasteObject"/>
+					<PARA name="command" type="" value="pasteEamObject"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="1400-100"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="deleteNode">
+			<PARAS>
+				<PARA name="id" value="deleteNode"/>
+				<PARA name="name" type="" value="deleteNode"/>
+				<PARA name="command" type="" value=""/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="300"></PARA>
+			</PARAS>
+			
+			<DESC descname="delete">
+				<PARAS>
+					<PARA name="name" type="" value="Delete_Ne"/>
+					<PARA name="command" type="" value="eamDelete"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="300-100"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		
+		<DESC descname="modifyEamSubnet">
+			<PARAS>
+				<PARA name="id" value="modifyEamSubnet"/>
+				<PARA name="name" value="modifyEamSubnet"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="1300"></PARA>
+			</PARAS>
+			
+			<DESC descname="modifyEamSubnet">
+				<PARAS>
+					<PARA name="name" type="" value="Modify_subnet"/>
+					<PARA name="command" type="" value="eamAttribute"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="1300-100"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Delete_subnet">
+				<PARAS>
+					<PARA name="name" type="" value="Delete_subnet"/>
+					<PARA name="command" type="" value="eamDelete"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1300-200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		
+		<DESC descname="modifyNode">
+			<PARAS>
+				<PARA name="id" value="modifyNode"/>
+				<PARA name="name" value="modifyNode"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="1600"></PARA>
+			</PARAS>
+			
+			<DESC descname="Modify_virtual_eam_object">
+				<PARAS>
+					<PARA name="name" type="" value="Modify_Ne"/>
+					<PARA name="command" type="" value="eamAttribute"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="P"></PARA>
+					<PARA name="serialnumber" value="1600-100"></PARA>
+				</PARAS>
+			</DESC>
+			
+			<DESC descname="Delete_virtual_eam_object">
+				<PARAS>
+					<PARA name="name" type="" value="Delete_Ne"/>
+					<PARA name="command" type="" value="eamDelete"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="D"></PARA>
+					<PARA name="serialnumber" value="1600-200"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		
+	
+		<DESC descname="createObjectByToolbar">
+			<PARAS>
+				<PARA name="id" value="createObjectByToolbar"/>
+				<PARA name="name" value="createObjectByToolbar"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="30"></PARA>
+			</PARAS>
+			
+			<DESC descname="createSnByToolbar">
+				<PARAS>
+					<PARA name="name" type="" value="createSnByToolbar"/>
+					<PARA name="command" type="" value="createSnByToolbar"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="30-10"></PARA>
+				</PARAS>
+			</DESC>
+			
+			<DESC descname="createNeByToolbar">
+				<PARAS>
+					<PARA name="name" type="" value="createNeByToolbar"/>
+					<PARA name="command" type="" value="createNeByToolbar"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="serialnumber" value="30-20"></PARA>
+				</PARAS>
+			</DESC>
+			
+			<DESC descname="createLkByToolbar">
+				<PARAS>
+					<PARA name="name" type="" value="createLkByToolbar"/>
+					<PARA name="command" type="" value="createLkByToolbar"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="30-30"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+
+		<DESC descname="createEamObjectByButton">
+			<PARAS>
+				<PARA name="id" value="createEamObjectByButton"/>
+				<PARA name="name" value="createEamObjectByButton"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="20"></PARA>
+			</PARAS>
+			
+			<DESC descname="CreateSnByButton">
+				<PARAS>
+					<PARA name="name" type="" value="CreateSnByButton"/>
+					<PARA name="command" type="" value="CreateSnDlgByButton"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="serialnumber" value="20-20"></PARA>
+				</PARAS>
+			</DESC>
+			
+			<DESC descname="CreateNeByButton">
+				<PARAS>
+					<PARA name="name" type="" value="CreateNeByButton"/>
+					<PARA name="command" type="" value="CreateNeDlgByButton"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="mnemonic" value="N"></PARA>
+					<PARA name="serialnumber" value="20-30"></PARA>
+				</PARAS>
+			</DESC>
+			
+		</DESC>
+
+		<DESC descname="treeDispaly">
+			<PARAS>
+				<PARA name="id" value="treeDispaly"/>
+				<PARA name="name" value="treeDispaly"/>
+				<PARA name="type" value="JPopupMenu"/>
+				<PARA name="serialnumber" value="10"></PARA>
+			</PARAS>
+			
+			<DESC descname="subnetTree">
+				<PARAS>
+					<PARA name="name" type="" value="subnetTree"/>
+					<PARA name="command" type="" value="showSnTree"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="itemType" value="CheckBox"/>
+					<PARA name="serialnumber" value="10-20"></PARA>
+				</PARAS>
+			</DESC>
+			
+			<DESC descname="typeTree">
+				<PARAS>
+					<PARA name="name" type="" value="typeTree"/>
+					<PARA name="command" type="" value="showTypeTree"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="itemType" value="CheckBox"/>
+					<PARA name="serialnumber" value="10-30"></PARA>
+				</PARAS>
+			</DESC>
+			
+			<!--
+			<DESC descname="flowTree">
+				<PARAS>
+					<PARA name="name" type="" value="flowTree"/>
+					<PARA name="command" type="" value="showFlowTree"/>
+					<PARA name="type" value="JMenuItem"/>
+					<PARA name="itemType" value="CheckBox"/>
+					<PARA name="serialnumber" value="10-40"></PARA>
+				</PARAS>
+			</DESC-->
+		</DESC>
+		
+	</AREADESC>
+</COMMINIDATA>

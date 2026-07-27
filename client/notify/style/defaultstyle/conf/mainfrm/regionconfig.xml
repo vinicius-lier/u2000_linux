@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="en_US">
+        <DESC descname="TimeSetting">
+            <PARAS/>
+	    <DESC descname="TimeSeparateSymbol">
+		<PARAS>
+		    <PARA name="TimeSeparateSymbol0" value="0"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="TimeFormat">
+		<PARAS>
+		    <PARA name="TimeFormat0" value="0"/>
+		    <PARA name="TimeFormat1" value="1"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="AmFormat">
+		<PARAS>
+		    <PARA name="AmFormat0" value="0"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="PmFormat">
+		<PARAS>
+		    <PARA name="PmFormat0" value="0"/>
+		</PARAS>
+	    </DESC>
+        </DESC>
+
+        <DESC descname="DateSetting">
+            <PARAS/>
+	    <DESC descname="DateSeparateSymbol">
+		<PARAS>
+		    <PARA name="DateSeparateSymbol0" value="0"/>
+		    <PARA name="DateSeparateSymbol1" value="1"/>
+		    <PARA name="DateSeparateSymbol2" value="2"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="DateShowFormat">
+		<PARAS>
+		    <PARA name="DateShowFormat1" value="1"/>
+			<PARA name="DateShowFormat0" value="0"/>
+		    <PARA name="DateShowFormat2" value="2"/>    
+		</PARAS>
+	    </DESC>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="zh_CN">
+        <DESC descname="TimeSetting">
+            <PARAS/>
+	    <DESC descname="TimeSeparateSymbol">
+		<PARAS>
+		    <PARA name="TimeSeparateSymbol0" value="0"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="TimeFormat">
+		<PARAS>
+		    <PARA name="TimeFormat0" value="0"/>
+		    <PARA name="TimeFormat1" value="1"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="AmFormat">
+		<PARAS>
+		    <PARA name="AmFormat0" value="0"/>
+		    <PARA name="AmFormat1" value="1"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="PmFormat">
+		<PARAS>
+		    <PARA name="PmFormat0" value="0"/>
+		    <PARA name="PmFormat1" value="1"/>
+		</PARAS>
+	    </DESC>
+        </DESC>
+
+        <DESC descname="DateSetting">
+            <PARAS/>
+	    <DESC descname="DateSeparateSymbol">
+		<PARAS>
+		    <PARA name="DateSeparateSymbol0" value="0"/>
+		    <PARA name="DateSeparateSymbol1" value="1"/>
+		    <PARA name="DateSeparateSymbol2" value="2"/>
+		</PARAS>
+	    </DESC>
+	    <DESC descname="DateShowFormat">
+		<PARAS>
+		    <PARA name="DateShowFormat1" value="1"/>
+		    <PARA name="DateShowFormat0" value="0"/>
+		    <PARA name="DateShowFormat2" value="2"/>
+		</PARAS>
+	    </DESC>
+        </DESC>
+    </AREADESC>       
+</COMMINIDATA>

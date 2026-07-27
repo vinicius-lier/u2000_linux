@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessScripts>
+	<ScriptList name="PreHAJoin">
+		<item name="PreHAJoinScript" resName="PreHAJoin.PreHAJoinScript">engineering/conf/ha/script/veritas/vcs/PreHAJoinScript.sh</item>
+		<item name="CheckSybaseVersion" execOnBothNode="true" resName="PreHAJoin.CheckSybaseVersion">engineering/conf/ha/script/veritas/vcs/CheckSybaseVersion.sh</item>
+		<item name="CheckVxVMVersion" execOnBothNode ="true" resName="PreHAJoin.CheckVxVMVersion">engineering/conf/ha/script/veritas/vcs/CheckVxVMVersion.sh</item>
+		<item name="CheckVcsVersion" execOnBothNode ="true" resName="PreHAJoin.CheckVcsVersion">engineering/conf/ha/script/veritas/vcs/CheckVcsVersion.sh</item>
+	</ScriptList>
+	<ScriptList name="PostHAJoin">
+		<item name="PostHAJoinScript" resName="PostHAJoin.PostHAJoinScript">engineering/conf/ha/script/veritas/vcs/PostHAJoinScript.sh</item>
+	</ScriptList>
+	<ScriptList name="PreHADisJoin">
+		<item name="PreHADisJoinScript" resName="PreHADisJoin.PreHADisJoinScript">engineering/conf/ha/script/veritas/vcs/PreHADisJoinScript.sh</item>
+	</ScriptList>
+	<ScriptList name="PostHADisJoin">
+		<item name="PostHADisJoinScript" resName="PostHADisJoin.PostHADisJoinScript">engineering/conf/ha/script/veritas/vcs/PostHADisJoinScript.sh</item>
+	</ScriptList>
+	<ScriptList name="PostSyncFiles">
+		<item name="PostSyncFilesScript" resName="PostSyncFilesScript">../server/platform/bin/modify_ha_file.sh</item>
+	</ScriptList>
+	<ScriptList name="IsCanForceActive">
+		<item name="CheckSybaseVersion" execOnBothNode="true" resName="PreHAJoin.CheckSybaseVersion">engineering/conf/ha/script/veritas/vcs/CheckSybaseVersion.sh</item>
+		<item name="CheckVxVMVersion" execOnBothNode ="true" resName="PreHAJoin.CheckVxVMVersion">engineering/conf/ha/script/veritas/vcs/CheckVxVMVersion.sh</item>
+		<item name="CheckVcsVersion" execOnBothNode ="true" resName="PreHAJoin.CheckVcsVersion">engineering/conf/ha/script/veritas/vcs/CheckVcsVersion.sh</item>
+	</ScriptList>
+</BusinessScripts>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+   <AREADESC areaname="VIEW_OBJECT_TOOLTIP">
+   <DESC descname="OBJECT_TOOLTIP">
+      <PARAS>
+         <!--  elementType -1 node or submap;1 Node;2 submap;3 link  -->
+         <PARA name="elementType" value="-1"/>
+         <!--  objTypes "": all  -->
+         <PARA name="objTypes" value=""/>        
+         <PARA name="className" value="com.huawei.nml.clock.TNClockTopoTooltipMgr"/>
+      </PARAS>
+   	</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+ -->
+<COMMINIDATA>
+    <AREADESC areaname="updatelist">
+
+        <DESC descname="UpdateClient">
+            <PARAS>
+                <PARA name="ClassName" value="com.swimap.iview.framework.UpdateClient"/>
+                <PARA name="MethodName" value="update"/>
+                <PARA name="serialnumber" value="1"/>
+            </PARAS>
+        </DESC>    
+          
+    </AREADESC>
+</COMMINIDATA>
+

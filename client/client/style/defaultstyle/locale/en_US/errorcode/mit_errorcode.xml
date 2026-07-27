@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="mit">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="184549376"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549377"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549378"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549379"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549380"   value="Category name does not exist when creating an object."/>                                                                              
+                <PARA name="184549381"   value="System management function reaching its limit."/>                                                                                     
+                <PARA name="184549382"   value="Type definition error."/>                                                                                                             
+                <PARA name="184549383"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549384"   value="Data share conflicts, Maybe another user is deleting, uploading, copying or checking consistency on the NE, Please try again later."/>
+                <PARA name="184549385"   value="Data share conflicts, maybe another task is being processed or the object does not exist. Please try again later."/>                  
+                <PARA name="184549386"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549387"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549388"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549389"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549390"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549391"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549392"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549393"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549394"   value="Data share conflicts, maybe another task is being processed at the moment. Please try again later."/>                                 
+                <PARA name="184549395"   value="Database operation failed."/>                                                                                                         
+                <PARA name="184549396"   value="Command succeeded partially."/>                                                                                                       
+                <PARA name="184549397"   value="Data share conflicts, maybe another task is being processed at the moment,Please try again later."/>                                  
+                <PARA name="184549398"   value="Construct MIT tree in LAZY mode failed."/>                                                                                            
+                <PARA name="184549399"   value="Insert to table MIT INFO failed."/>                                                                                                   
+                <PARA name="184549400"   value="Deleting table mitinfo failed."/>                                                                                                     
+                <PARA name="184549401"   value="Delete failed because of relative data existed."/>                                                                                    
+                <PARA name="184549402"   value="MIT:Invalid parameter."/>                                                                                                             
+                <PARA name="184549888"   value="Export simple attribute failed."/>                                                                                                    
+                <PARA name="184549889"   value="Failed to get realtime runtime class information."/>                                                                                  
+                <PARA name="184549890"   value="Failed to get attribute info."/>                                                                                                      
+                <PARA name="184549891"   value="Export object hasn't been initialized."/>                                                                                             
+                <PARA name="184549892"   value="Failed to open the xml file."/>                                                                                                       
+                <PARA name="184549893"   value="Failed to export the location information."/>                                                                                         
+                <PARA name="184549894"   value="Failed to parse the xml file."/>                                                                                                      
+                <PARA name="184549895"   value="The xml file hasn't been parsed."/>                                                                                                   
+                <PARA name="184549896"   value="There's no meta information in the xml file."/>                                                                                       
+                <PARA name="184549897"   value="The location information in the xml file isn't right."/>                                                                              
+                <PARA name="184549898"   value="Failed to create mo."/>                                                                                                               
+                <PARA name="184549899"   value="The xml file's format is not right."/>                                                                                                
+                <PARA name="184549900"   value="There is no location information in the xml file."/>                                                                                  
+                <PARA name="184549901"   value="There is no mo information in the xml file."/>                                                                                        
+                <PARA name="184549902"   value="The meta information in the xml file isn't right."/>                                                                                  
+                <PARA name="184549903"   value="Failed to export attribute information."/>                                                                                            
+                <PARA name="184549904"   value="Invalid layer parameter."/>                                                                                                           
+  	            <PARA name="184549905"   value="Invalid MO parameter."/>                                                                                                              
+		        <PARA name="184549906"   value="MitEx: unknown error."/>                                                                                                              
+            </PARAS>                
+        </DESC>                     
+    </AREADESC>                     
+</COMMINIDATA>                      
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    

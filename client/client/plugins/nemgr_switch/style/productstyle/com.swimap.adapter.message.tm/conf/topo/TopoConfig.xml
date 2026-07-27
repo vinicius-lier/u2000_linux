@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC areaname="ADD_OBJECT_CONF">
+    <DESC descname="DEV_TYPE_SORT">
+      <PARAS>
+        <!-- 交换机设备范围段11000~12000 -->
+        <!-- 1311(S93)/1308(S53)原文件中已被注释暂不处理首部分为预留使用1-29 -->
+        <!--<PARA name="1311.$.1"  value="11030"/>-->
+        <!--<PARA name="1308.$.1"  value="11040"/>-->
+        <!-- S系列1284(S3900)/1285(S5600)/175(S2000C)/192(S5500)/ -->
+        
+        <!-- S系列1324(S_VASP对应的DevType)排在第一个,前29个预留 -->
+        <PARA name="1324.$.1"  value="11030"/>
+
+        <!-- 删除下面定义的设备类型，S系列按照字母顺序排列
+        <PARA name="1284.$.1"  value="11050"/>
+        <PARA name="1285.$.1"  value="11060"/>
+        <PARA name="175.$.1"  value="11070"/>
+        <PARA name="192.$.1"  value="11080"/>
+        -->
+        <!--
+        <PARA name="1316.$.1"  value="11090"/>
+        <PARA name="1314.$.2"  value="11100"/>
+        <PARA name="1314.$.1"  value="11110"/> 
+        -->
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>
+

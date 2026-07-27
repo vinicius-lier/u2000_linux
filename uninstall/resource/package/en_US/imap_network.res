@@ -1,0 +1,3 @@
+#组件选择页面，左侧组件树上组件节点显示的名称
+imap_network=U2000 Adapter
+imap_network.InstallInfo=U2000 Adapter

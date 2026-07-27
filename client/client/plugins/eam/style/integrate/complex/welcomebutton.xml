@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="welcomebuttonsetting">
+			<PARAS>
+			</PARAS>
+<!--
+			<DESC descname="EamNeWelComeButton">
+				<PARAS>
+					<PARA name="name" value="MainEamNeTitle"></PARA>
+					<PARA name="description" value="MainEamNeTitle"></PARA>
+          <PARA name="icon" value="image/EamNeList.png"></PARA>
+          <PARA name="category" value="WelcomeButtonFile"></PARA>
+					<PARA name="command" value="showEamNodeFrame"></PARA>
+					<PARA name="serialnumber" value="81"></PARA>
+					<PARA name="linkseqnumber" value="150"></PARA>
+				</PARAS>
+			</DESC>
+-->
+
+		</DESC>
+
+		<DESC descname="categorysetting">
+	    <DESC descname="WelcomeButtonFile">
+				<PARAS>
+	    		<PARA name="linkseqnumber" value="100"></PARA>
+        </PARAS>
+    	</DESC>
+    	
+		</DESC>
+
+	</AREADESC>
+</COMMINIDATA>

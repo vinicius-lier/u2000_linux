@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.topo"
+   name="topoclient"
+   version="1.0"
+   provider-name="swimap">
+   <requires>
+      <import plugin="com.swimap.iview.ifms"/>
+      <import plugin="com.swimap.eam"/>
+   </requires>
+   <extension-point id="com.swimap.topo.TopoFrameExtensionPanel" name="TopoFrameExtensionPanel" schema="schema/TopoFrameExtensionPanel.exsd"/>
+   <extension-point id="com.swimap.topo.TopoPopUpMenu" name="TopoPopUpMenu" schema="schema/TopoPopUpMenu.exsd"/>
+   <extension-point id="com.swimap.topo.TopoTip" name="TopoTip" schema="schema/TopoTip.exsd"/>
+   <extension-point id="com.swimap.topo.TopoAttribute" name="TopoAttribute" schema="schema/TopoAttribute.exsd"/>
+   <extension-point id="com.swimap.topo.TopoDubleClick" name="TopoDubleClick" schema="schema/TopoDubleClick.exsd"/>
+   <extension-point id="com.swimap.topo.StatusDecorator" name="StatusDecorator" schema="schema/StatusDecorator.exsd"/>
+   <extension-point id="com.swimap.topo.LayoutPanelIF" name="LayoutPanel" schema="schema/LayoutPanel.exsd"/>
+   <extension-point id="com.swimap.topo.PopupMenuSupportor" name="PopupMenuSupportor" schema="schema/PopupMenuSupportor.exsd"/> 
+   <extension-point id="com.swimap.topo.PopupMenuScheduler" name="PopupMenuScheduler" schema="schema/PopupMenuScheduler.exsd"/>
+   <extension-point id="com.swimap.topo.LayoutPanel" name="LayoutPanel" schema="schema/LayoutPanel.exsd"/>
+   <extension-point id="com.swimap.topo.TopoViewFilter" name="TopoViewFilter" schema="schema/TopoViewFilter.exsd"/>
+   <extension-point id="com.swimap.topo.TopoLeftClick" name="TopoLeftClick" schema="schema/TopoLeftClick.exsd"/>
+   <extension-point id="com.swimap.topo.TopoRightClick" name="TopoRightClick" schema="schema/TopoRightClick.exsd"/>   
+   <extension-point id="com.swimap.topo.TopoGraphNodeRender" name="TopoGraphNodeRender" schema="schema/TopoGraphNodeRender.exsd"/>
+   <extension-point id="com.swimap.topo.TopoGraphLinkRender" name="TopoGraphLinkRender" schema="schema/TopoGraphLinkRender.exsd"/>
+   <extension-point id="com.swimap.topo.TopoGraphAlarmRender" name="TopoGraphAlarmRender" schema="schema/TopoGraphAlarmRender.exsd"/>
+   <extension-point id="com.swimap.topo.IntegratedLogic" name="IntegratedLogic" schema="schema/IntegratedLogic.exsd"/>
+   <extension-point id="com.swimap.topo.CreatePopoupMenuSupportor" name="CreatePopoupMenuSupportor" schema="schema/CreatePopoupMenuSupportor.exsd"/>
+   <extension-point id="com.swimap.topo.TopoMove" name="TopoMove" schema="schema/TopoMove.exsd"/>
+   <extension-point id="com.swimap.topo.TopoTreeINodeRender" name="TopoTreeINodeRender" schema="schema/TopoTreeINodeRender.exsd"/>
+   <extension-point id="com.swimap.topo.TopoMapOpenHandler" name="TopoMapOpenHandler" schema="schema/TopoMapOpenHandler.exsd"/>
+   <extension-point id="com.swimap.topo.TopoObjectFilter" name="TopoObjectFilter" schema="schema/TopoObjectFilter.exsd"/>
+   <extension-point id="com.swimap.topo.TopoObjectAttributeFilter" name="TopoObjectAttributeFilter" schema="schema/TopoObjectAttributeFilter.exsd"/>
+   <extension-point id="com.swimap.topo.TopoDevStatistic" name="TopoDevStatistic" schema="schema/TopoDevStatistic.exsd"/>
+   <extension-point id="com.swimap.topo.TopoAttributePanel" name="TopoAttributePanel" schema="schema/TopoAttributePanel.exsd"/>
+   <extension-point id="com.swimap.topo.TopoAttributeItem" name="TopoAttributeItem" schema="schema/TopoAttributeItem.exsd"/>
+   <extension-point id="com.swimap.topo.TopoObjectSelectListener" name="TopoObjectSelectListener" schema="schema/TopoObjectSelectListener.exsd"/>
+   <extension-point id="com.swimap.topo.TopoViewSwitchListener" name="TopoViewSwitchListener" schema="schema/TopoViewSwitchListener.exsd"/> 
+   <extension-point id="com.swimap.topo.TopoSecStatusTip" name="TopoSecStatusTip" schema="schema/TopoSecStatusTip.exsd"/>
+   <extension-point id="com.swimap.topo.TopoLinkStyle" name="TopoLinkStyle" schema="schema/TopoLinkStyle.exsd"/>  
+   <extension-point id="com.swimap.topo.TopoViewExpanShap" name="TopoViewExpanShap" schema="schema/TopoViewExpanShap.exsd"/>
+   <extension-point id="com.swimap.topo.TopofilterExtend" name="TopofilterExtend" schema="schema/SearchResultExt.exsd"/>
+   <extension-point id="com.swimap.topo.ViewDisplayStrategy" name="ViewDisplayStrategy" schema="schema/ViewDisplayStrategy.exsd"/>
+   <extension-point id="com.swimap.topo.TopoActionStatusCheck" name="TopoActionStatusCheck" schema="schema/TopoActionStatusCheck.exsd"/>
+   <extension-point id="com.swimap.topo.TopoMenuItemValidCheck" name="TopoMenuItemValidCheck" schema="schema/TopoMenuItemValidCheck.exsd"/>
+   <extension-point id="com.swimap.topo.ShowContainerSelfRule" name="ShowContainerSelfRule" schema="schema/ShowContainerSelfRule.exsd"/>
+   <extension-point id="com.swimap.topo.TopoRefreshHandler" name="TopoRefreshHandler" schema="schema/TopoRefreshHandler.exsd"/>
+   <extension-point id="com.swimap.topo.TopoParentPathSelect" name="TopoParentPathSelect" schema="schema/TopoParentPathSelect.exsd"/>
+   <extension-point id="com.swimap.topo.TopoFilterChange" name="TopoFilterChange" schema="schema/TopoFilterChange.exsd"/>
+   <extension-point id="com.swimap.topo.DevStatisticInfo" name="DevStatisticInfo" schema="schema/DevStatisticInfo.exsd"/>
+   <extension-point id="com.swimap.topo.LineWidthInfoReadEx" name="LineWidthInfoReadEx" schema="schema/LineWidthInfoReadEx.exsd"/>
+   <extension-point id="com.swimap.topo.TopoFilterHandler" name="TopoFilterHandler" schema="schema/TopoFilterHandler.exsd"/>
+   <extension-point id="com.swimap.topo.TopoAttributeItemValidCheck" name="TopoAttributeItemValidCheck" schema="schema/TopoAttributeItemValidCheck.exsd"/>
+   <extension-point id="com.swimap.topo.AttributeItemEditable" name="AttributeItemEditable" schema="schema/AttributeItemEditable.exsd"/>
+   <extension-point id="com.swimap.topo.RelateViewExtention" name="RelateViewExtention" schema="schema/RelateViewExtention.exsd"/>
+   <extension
+         point="com.swimap.topo.TopoTip">
+      <TopoTip
+            class="com.swimap.topo.client.topoclient.util.topotip.TopoTipExtension"
+            priority="100"/>
+   </extension>
+   
+     <extension
+         point="com.swimap.topo.TopoAttributePanel">
+      <TopoAttribute
+            class="com.swimap.topo.client.topoclient.form.interaction.attribute.TopoDetailAttributeFactory"
+            priority="100"/>
+   </extension>
+ 
+   <extension
+         point="com.swimap.topo.TopoAttribute">
+      <TopoAttribute
+            class="com.swimap.topo.client.topoclient.form.attribute.AttributeSupport"
+            priority="100"/>
+   </extension>
+   <extension
+         point="com.swimap.topo.TopoDubleClick">
+      <TopoDubleClick
+            class="com.swimap.topo.client.topoclient.view.mapview.MapDubleClickTool"
+            priority="100"/>
+   </extension>
+      <extension
+         point="com.swimap.topo.TopoLeftClick">
+      <TopoDubleClick
+            class="com.swimap.topo.client.topoclient.view.mapview.MapLeftClickTool"
+            priority="100"/>
+   </extension>
+      <extension
+         point="com.swimap.topo.TopoRightClick">
+      <TopoDubleClick
+            class="com.swimap.topo.client.topoclient.view.mapview.MapRightClickTool"
+            priority="100"/>
+   </extension>
+   <extension
+         point="com.swimap.topo.StatusDecorator">
+      <StatusDecorator
+            class="com.swimap.topo.client.topoclient.view.mapview.TpInsStatusDecorator"
+            priority="100"/>
+   </extension>
+
+   <extension
+         point="fault.query.alarmtable.popupmenu">
+      <All
+            class="com.swimap.topo.client.topoclient.pluginmgr.TopoLocalByDnImpl"
+            priority="100"/>
+   </extension>
+ <!--  
+   <extension
+         point="com.swimap.eam.SubnetAttributeType">
+      <StatusDecorator
+            class="com.swimap.topo.client.topoclient.pluginmgr.PhysicalViewModifyImpl"
+            priority="100"/>
+   </extension>
+      
+   <extension
+         point="com.swimap.eam.NeAttributeType">
+      <StatusDecorator
+            class="com.swimap.topo.client.topoclient.pluginmgr.PhysicalViewModifyImpl"
+            priority="100"/>
+   </extension>
+   -->
+   
+      <extension
+         point="com.swimap.eam.GetDevDnFromTopoExtensionType">
+      <GetDevDnFromTopoExtensionType
+            class="com.swimap.topo.client.topoclient.pluginmgr.TopoGetSelDevDnImpl"
+            priority="100"/>
+   </extension>
+   
+   
+   <extension
+         point="com.swimap.topo.LayoutPanel">
+      <LayoutPanel
+            class="com.swimap.topo.client.topobase.viewcomponent.topolayout.TableLayout"
+            priority="100"/>
+      <LayoutPanel
+            class="com.swimap.topo.client.topobase.viewcomponent.topolayout.TreeLayout"
+            priority="100"/>
+      <LayoutPanel
+            class="com.swimap.topo.client.topobase.viewcomponent.topolayout.StarLayout"
+            priority="100"/>
+      <LayoutPanel
+            class="com.swimap.topo.client.topobase.viewcomponent.topolayout.RingLayout"
+            priority="100"/> 
+   </extension>
+    <!--extension
+         point="com.swimap.nemonitor.NemonitorLocal">
+      <StatusDecorator
+            class="com.swimap.topo.client.topoclient.pluginmgr.TopoNemoLocal"
+            priority="100"/>
+   </extension-->
+    <extension
+          point="com.swimap.eam.PonitComponent">
+       <PonitComponent
+             class="com.swimap.topo.client.topoclient.pluginmgr.SelPonitComponentImpl"
+             name="PonitComponent">
+       </PonitComponent>
+    </extension>
+    <extension
+          point="com.swimap.eam.SelectNEComponent">
+       <SelectNEComponent
+             class="com.swimap.topo.client.topobase.SelectNE"
+             name="SelectNEComponent">
+       </SelectNEComponent>
+    </extension>
+	 <extension point="com.swimap.eam.AutoFindDevPathForTopo">
+       <autoFindDevPathInfo
+             class="com.swimap.topo.client.topoclient.autofind.EamAutoFindDevPathForTopo"
+             name="AutoFindDevPathDefine">
+       </autoFindDevPathInfo>
+    </extension>
+    <extension point="com.swimap.eam.Alias">
+       <Alias
+             class="com.swimap.topo.client.topoclient.form.aliasComImp.AliasCompImp"
+             name="Alias">
+       </Alias>
+    </extension>
+</plugin>

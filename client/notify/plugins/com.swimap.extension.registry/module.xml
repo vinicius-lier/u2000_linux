@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName"
+					value="">
+				</PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="com.swimap.extension.registry">
+			<PARAS>
+				<PARA name="ClassName"
+					value="com.swimap.iview.framework.registry.RegistryPluginActivator" />
+				<PARA name="RunInProcess" value="true"></PARA>
+				<PARA name="ProcessKey" value="0"></PARA>
+				<PARA name="ToBeLoaded" value="true"></PARA>
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsOrbModule" value="false" />
+				<PARA name="serialnumber" value="01" />
+				<PARA name="IsMustLoad" value="true"></PARA>
+				<PARA name="SpecificLoadingStates">
+                        		<VALUE value="1"/>
+                        	</PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+
+

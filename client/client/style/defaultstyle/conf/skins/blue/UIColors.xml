@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+
+    <AREADESC areaname="description">
+ 
+            <DESC descname="ResourceBundle">
+				<PARAS>					
+					<PARA name="resourceBundleName" value="skins/blue/Res"></PARA>
+				</PARAS>
+			 </DESC>
+
+         	<DESC descname="description">
+			<PARAS>
+				<PARA name="name" value="BLUE_NAME" />
+			</PARAS>
+        	</DESC>        
+    </AREADESC> 
+
+
+    <AREADESC areaname="UIColors">
+    
+            <!--
+				This is the UI Style settings file.
+				If the optional Color settings are not set or invalid it will take default settings
+			-->
+
+        	<DESC descname="MAIN_BACKGROUD_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="178,195,196" />
+			</PARAS>
+        	</DESC>
+        	
+			<DESC descname="TOOLBAR_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="178,195,196" />
+			</PARAS>			
+        	</DESC>
+
+			<DESC descname="DESKTOP_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="102,122,122" />
+			</PARAS>			
+        	</DESC>
+
+        	<DESC descname="HYPERLINK_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="0,102,153" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="SELECTED_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="52,97,139" />
+			</PARAS>	
+        	</DESC> 
+        	
+        	<DESC descname="EDIT_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="227,232,233" />
+			</PARAS>	
+        	</DESC> 
+
+			<DESC descname="TREE_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="227,232,233" />
+			</PARAS>			
+        	</DESC> 
+
+			<DESC descname="TREE_TEXT_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="227,232,233" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="BORDER_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="102,102,102" />
+			</PARAS>
+        	</DESC>
+        	
+        	<DESC descname="TABLE_HEADER_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="178,195,196" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="DISABLED_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="227,232,233" />
+			</PARAS>								
+        	</DESC> 
+        	
+        	<DESC descname="DISABLED_FOREGROUND">
+			<PARAS>
+				<PARA name="rgb" value="92,92,92" />
+			</PARAS>		
+        	</DESC>   
+
+			<DESC descname="ProgressBar.background">
+			<PARAS>
+				<PARA name="rgb" value="227,232,233" />
+			</PARAS>		
+        	</DESC>
+			
+			<DESC descname="Table.background">
+			<PARAS>
+				<PARA name="rgb" value="227,232,233" />
+			</PARAS>		
+        	</DESC> 
+
+			<DESC descname="EditorPane.selectionBackground">
+			<PARAS>
+				<PARA name="rgb" value="52,97,139" />
+			</PARAS>		
+        	</DESC> 
+        
+			<DESC descname="TextField.inactiveBackground">
+			<PARAS>
+				<PARA name="rgb" value="208,208,208" />
+			</PARAS>		
+        	</DESC>
+        	 
+			<DESC descname="TextArea.inactiveBackground">
+			<PARAS>
+				<PARA name="rgb" value="208,208,208" />
+			</PARAS>		
+        	</DESC> 
+
+
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="linktypeID_10">
+			<PARAS/>
+			<DESC descname="Topo_modifyObject">
+                <PARAS>
+                    <PARA name="actionType" value="cic"/>
+                    <PARA name="moduleID" value="topoclient"/>
+                    <PARA name="className"/>
+                    <PARA name="processName"/>
+                    <PARA name="methodName" value="modifyObject"/>
+                    <PARA name="operationID" value="0"/>
+                </PARAS>
+            </DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+	    <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="dmssyslog/dmssyslog" />
+            </PARAS>
+        </DESC>
+        
+        <!--创建目录-->
+        <DESC descname="categorysetting">
+        	   <!--系统-->
+		        <DESC descname="SystemMenu">
+				        <PARAS>
+		                <PARA name="linkseqnumber" value="6000"></PARA>
+	              </PARAS>
+		        </DESC>
+		        
+		        <!--物理存量-->
+		        <DESC descname="NeSecuritySetting">
+				        <PARAS>
+		                <PARA name="parent" value="SystemMenu"></PARA>
+		                <PARA name="linkseqnumber" value="300"></PARA>
+	              </PARAS>
+		        </DESC>
+		        
+        </DESC>
+        
+        <DESC descname="welcomebuttonsetting">
+            <!--SYSLOG-->
+            <DESC descname="SyslogManage">
+                  <PARAS>
+                    <PARA name="name" value="SyslogManage"/>
+                    <PARA name="icon" value="u2000\unitedmgr\icons\system.png"></PARA>
+                    <PARA name="command" value="SyslogManage"/>
+                    <PARA name="category" value="NeSecuritySetting"/>
+                    <PARA name="linkseqnumber" value="70"></PARA>
+                    <PARA name="isUserEnable" value="true" />
+                 </PARAS>
+            </DESC>
+        </DESC>               
+    </AREADESC>
+</COMMINIDATA>

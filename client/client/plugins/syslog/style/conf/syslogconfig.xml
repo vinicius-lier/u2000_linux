@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="syslog">
+			<PARAS>
+				<!--flag of show multi file query tab; 0, don't show; 1, show; default value 0 -->
+				<PARA name="showMultiFileQueryTab" value="0" />
+				<!--flag of show telnet popup menu; 0, don't show; 1, show; default value 0 -->
+				<PARA name="showTelnetPopupMenu" value="0" />
+				<!--flag of show SSH popup menu; 0, don't show; 1, show; default value 0 -->
+				<PARA name="showSSHPopupMenu" value="0" />
+			</PARAS>
+		</DESC>
+		<!--
+		<DESC descname="NEACLCheckImpl">
+			<PARAS>
+				<PARA name="classname" value="" />
+			</PARAS>
+		</DESC>
+		-->
+	</AREADESC>
+</COMMINIDATA>

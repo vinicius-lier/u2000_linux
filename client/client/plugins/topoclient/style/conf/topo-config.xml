@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="topo">
+        <DESC descname="topo">
+            <PARAS>                
+                <!-- Max merged count, default is 1000, merge update will be disabled if count is 0 -->
+                <PARA name="max_merged_count" value="1000" />
+                <!--Set the topo tip delay time , the default time is 1000ms,the time must between [200ms, 3000ms]-->
+                <PARA name="TOOLTIP_INITIAL_DELAY_TIME" value="1000" />
+                <!--flag of support customview; false do not support; true support customview -->
+                <PARA name="support_customview" value="false" />
+                <!-- show equipment statistical info-->
+                <PARA name="showStatistic" value="false" />
+                <!-- flag of show remark; 0, do not show remark; 1, can show remark; default value 0  -->
+                <PARA name="showRemark" value="0" />
+                <!--the flag:if converger the color of the filtered link to the convergeLink true:converger filtered link color false : do not converger filtered link color.default is true-->
+                <PARA name="isConvergeFilterStatus" value="true" />
+                <!-- if 'false' is configured for  alarm list ,no show  customization topo orientation.-->                       
+				        <PARA name="isShowAlarmTopoLocationMenu" value="true" />
+                <!-- support NE name composed by dn. true:show ; false :no show -->
+                <PARA name="isSupportShowDn" value="false" />
+                <!-- use normal color for running state or not -->
+                <PARA name="commonStatusShowColor" value="true" />
+
+                <!-- topo map size -->
+                <PARA name="TOPOMAP_SIZE" value="3" />
+                <!-- topo map critical num, saved when map size over the value -->
+                <PARA name="TOPOMAP_CRITICAL_NUM" value="5000" />
+                <!-- treeRowHeight -->
+                <PARA name="treeRowHeight" value="24" />
+                <!-- isShowIconSizeSelectPanel -->
+                <PARA name="isShowIconSizeSelectPanel" value="true" />
+                <!--  delete objectfor'number for one operation in a batch of deletions,default number is 50-->
+                <PARA name="deleteTopoObjNum" value="500" />
+                <!-- if value is equal to 'false',it not create custom's view-->  
+                <PARA name="isSupportCustomViewCreateLink" value= "true" />
+                <!-- set subnet to show 'tip' when it is expanded,default value is 'false' -->
+                <PARA name="groupShowTip" value="false" />
+                <!-- support or not to show alarm with icon.-->
+                <PARA name="isSupportShowAlarmIcon" value="false" /> 
+                <!-- set subnet to show status icon when it is expanded, default value is 'false' -->
+                <PARA name="groupShowStatusIcon" value="false" />
+                <!-- set timer to refresh device statistics info, the time must between [0ms, 3000ms]-->
+                <PARA name="DevStatDelayTime" value="500" />
+                
+                <!-- flag of show alias; 0, do not show alias; 1, can show alias; default value 0  -->
+                <PARA name="supportAlias" value="0" />
+                <!-- flag of restrict move NE; true, can not move over 6000 NEs for once; false, don't restrict-->
+                <PARA name="isSupportLimitMoveNodeNum" value="false" />
+                <!-- flag of restrict open node; true, can not open the layer which contains over 6000 NEs; false, don't restrict-->
+                <PARA name="isSupportLimitOpenNodeNum" value="false" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+
+		<AREADESC areaname="batchEamAttribute">
+		<DESC descname="batchEamAttribute">
+			<PARAS>               
+                <PARA name="VERSION" value="false" />
+                <PARA name="TIMEZONE" value="flase" />
+                <PARA name="LOCATION" value="false" />                                
+                <PARA name="PRIMARY_STATUS" value="false" />
+                <PARA name="SECOND_STATUS" value="false" />              
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	<!--
+	<AREADESC areaname="ProductCustomViewList">
+		<DESC descname="ProductCustomViewList">
+			<PARAS>
+				<PARA name="M2000" value="3192,3005,3193" />
+				<PARA name="CMC" value="3201" />
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	-->
+	<AREADESC areaname="right">
+		<DESC descname="right">
+			<PARAS>               
+                <!-- topo  right-->
+                                       
+                <PARA name="Create_View" value="Create_View" />
+                <PARA name="Modify_View" value="Modify_View" />
+                <PARA name="Delete_View" value="Delete_View" />                
+                <PARA name="Modify_object_position" value="Modify_object_position" />
+                <PARA name="LockUnLock_object_position" value="LockUnLock_View" />               
+                <PARA name="ImpExp_Active" value="ImpExp_Active" />
+                <PARA name="MoveEamObject" value="MoveEamObject" />
+                <PARA name="Set_backGround" value="Set_backGround" />                  
+                <PARA name="Copy_topo_object" value="Copy_topo_object" />  
+                
+                <!-- eam right -->
+				<PARA name="Create_Ne" value="Create_Ne" />
+				<PARA name="Modify_Ne" value="Modify_Ne" />
+                <PARA name="Delete_Ne" value="Delete_Ne" />
+                <PARA name="Create_subnet" value="Create_subnet" />
+				<PARA name="Modify_subnet" value="Modify_subnet" />                
+                <PARA name="Delete_subnet" value="Delete_subnet" />               
+                <PARA name="Create_Link" value="Create_Link" />
+				<PARA name="Modify_Link" value="Modify_Link" />
+                <PARA name="Delete_Link" value="Delete_Link" />                  
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	
+  <!--set the zoom in value-->
+	<!-- "VIEW_MIN_SCALE" config range of value : 0.25 - 1 default value is 0.48 -->
+	<!-- "view_min_label_scale" config range of value : 0.25 - 1  default value is 0.48 -->
+  <!--
+	<AREADESC areaname="viewzZoomScaleParam">
+ 	     <DESC descname="viewzZoomScaleParam" >
+            <PARAS>
+                <PARA name="view_min_scale"   value="0.48" />
+                <PARA name="view_min_label_scale"   value="0.48" />
+            </PARAS>
+	      </DESC>
+ </AREADESC>
+ -->
+ 
+</COMMINIDATA>
+
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+     <DESC descname="system">
+		<DESC descname="SyslogManage">
+			<PARAS>
+			  <PARA name="actionType" value="cic"/>
+			  <PARA name="moduleID" value="syslogmodule"/>
+			  <PARA name="className" value=""/>
+			  <PARA name="processName" value=""/>
+			  <PARA name="methodName" value="openSyslogMgrAction"/>
+			  <PARA name="operationID" value=""/> 
+			  <PARA name="security" value="1"/>
+			</PARAS>
+      		</DESC>
+      </DESC>
+  </AREADESC>
+</COMMINIDATA>

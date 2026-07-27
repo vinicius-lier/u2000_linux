@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="applicationInfo">
+			<PARAS>
+				<!-- appName its resource is obtained from res.properties-->
+				<PARA name="name" value="alarmclientapp_name"/>
+				<!-- order for showing application button-->
+				<PARA name="serialnumber" value="101"/>
+				<!-- must be unique -->
+				<PARA name="id" value="AlarmMonitor"/>
+				<!-- description its resource is obtained from res.properties-->
+				<PARA name="description" value="about.desc"/>
+				<!-- application icon path relative to style\locale\{en_US|zh_CN}\-->
+				<PARA name="icon" value="alarmclientapp.png"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="blankPageInfo">
+			<PARAS>
+				<PARA name="name" value="blank.name.fault"/>
+				<PARA name="description" value="blank.desc.fault"/>
+				<PARA name="helpid" value="help.fault"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

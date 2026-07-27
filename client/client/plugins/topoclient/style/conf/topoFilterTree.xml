@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="TREE">
+        <DESC descname="TREE_ROOT" >
+            <PARAS>
+                <PARA name="value"   value="-100" />
+                <PARA name="name"   value="TREE_ROOT_NODE" />
+            </PARAS>
+            <DESC descname="TREE_BACKGROUND" >
+                <PARAS>
+                    <PARA name="value"   value="-200" />
+                    <PARA name="name"   value="TREE_BACKGROUND" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="TREE_SECONDSTATE" >
+                <PARAS>
+                    <PARA name="value"   value="-210" />
+                    <PARA name="name"   value="TREE_SECONDSTATE" />
+                </PARAS>
+                <!--DESC descname="TREE_SECONDSTATE_CHILD1" >
+                     <PARAS>
+                        <PARA name="name"   value="extendStatus1_10" />
+		             </PARAS>
+                </DESC>
+                <DESC descname="TREE_SECONDSTATE_CHILD2" >
+                	 <PARAS>
+                        <PARA name="name"   value="extendStatus1_11" />
+		             </PARAS>
+                </DESC-->
+            </DESC>            
+
+            <DESC descname="TREE_OBJECT_NAME" >
+                <PARAS>
+                    <PARA name="value"   value="-220" />
+                    <PARA name="name"   value="TREE_OBJECT_NAME" />
+                </PARAS>
+				<DESC descname="TREE_LINK_NAME" >
+	                <PARAS>
+	                    <PARA name="value"   value="-219" />
+	                    <PARA name="name"   value="TREE_LINK_NAME" />
+	                </PARAS>
+            	</DESC>
+ 				<DESC descname="TREE_NODE_NAME" >
+	                <PARAS>
+	                    <PARA name="value"   value="-218" />
+	                    <PARA name="name"   value="TREE_NODE_NAME" />
+	                </PARAS>
+            	</DESC>
+				<DESC descname="TREE_SUBNET_NAME" >
+	                <PARAS>
+	                    <PARA name="value"   value="-217" />
+	                    <PARA name="name"   value="TREE_SUBNET_NAME" />
+	                </PARAS>
+            	</DESC>
+            </DESC>    
+	    <DESC descname="TREE_LINK_PORT_NAME" >
+                <PARAS>
+                    <PARA name="value"   value="-230" />
+                    <PARA name="name"   value="TREE_LINK_PORT_NAME" />
+		    <PARA name="selected"   value="false" />
+                </PARAS>
+	    </DESC>
+	    <DESC descname="TREE_SUBNET" >
+                <PARAS>
+                    <PARA name="value"   value="-300" />
+                    <PARA name="name"   value="TREE_SUBNET" />
+                </PARAS>
+		<DESC descname="TREE_SUBNET_TYPE" >
+	                <PARAS>
+	                    <PARA name="value"   value="-310" />
+	                    <PARA name="name"   value="TREE_SUBNET_TYPE" />
+	                </PARAS>
+            	</DESC>
+                <DESC descname="TREE_MAIN_STATE" >
+	                <PARAS>
+	                    <PARA name="value"   value="-320" />
+	                    <PARA name="name"   value="TREE_MAIN_STATE" />
+	                </PARAS>    
+	            	<DESC descname="TREE_UC_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-330" />
+		                    <PARA name="name"   value="TREE_UC_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>  
+		        <DESC descname="TREE_UA_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-340" />
+		                    <PARA name="name"   value="TREE_UA_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>
+	          <DESC descname="TREE_UC_UA_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-800" />
+		                    <PARA name="name"   value="TREE_UC_UA_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC> 
+		        <DESC descname="TREE_RUN_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-350" />
+		                    <PARA name="name"   value="TREE_RUN_STATE" />
+		                </PARAS>
+	            	</DESC>
+		</DESC>
+                <!--
+                <DESC descname="TREE_PHSICAL_COMMON_SUBNET" >
+                    <PARAS>
+                        <PARA name="value"   value="" />
+                        <PARA name="label"   value="TREE_PHSICAL_COMMON_SUBNET" />
+                        <PARA name="method"   value="filterPhsicalSubnet" />
+                        <PARA name="class"   value="" />
+                        <PARA name="selected"   value="false" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="TREE_LOGICAL_VIEW_SUBNET" >
+                    <PARAS>
+                        <PARA name="value"   value="" />
+                        <PARA name="label"   value="TREE_LOGICAL_VIEW_SUBNET" />
+                        <PARA name="method"   value="filterLogicalViewSubnet" />
+                        <PARA name="class"   value="" />
+                        <PARA name="selected"   value="false" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="TREE_LOGICAL_COMMON_SUBNET" >
+                    <PARAS>
+                        <PARA name="value"   value="" />
+                        <PARA name="label"   value="TREE_LOGICAL_COMMON_SUBNET" />
+                        <PARA name="method"   value="filterLogicalCommonSubnet" />
+                        <PARA name="class"   value="" />
+                        <PARA name="selected"   value="false" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="TREE_MACHINE_COMMON_SUBNET" >
+                    <PARAS>
+                        <PARA name="value"   value="" />
+                        <PARA name="label"   value="TREE_MACHINE_COMMON_SUBNET" />
+                        <PARA name="method"   value="filterMachineCommonSubnet" />
+                        <PARA name="class"   value="" />
+                        <PARA name="selected"   value="false" />
+                    </PARAS>
+                </DESC>
+                -->
+            </DESC>
+            <DESC descname="TREE_NODE" >
+                <PARAS>
+                    <PARA name="value"   value="-400" />
+                    <PARA name="name"   value="TREE_NODE" />
+                </PARAS>
+		<DESC descname="TREE_NODE_TYPE" >
+	                <PARAS>
+	                    <PARA name="value"   value="-410" />
+	                    <PARA name="name"   value="TREE_NODE_TYPE" />
+	                </PARAS>
+            	</DESC>
+                <DESC descname="TREE_MAIN_STATE" >
+	                <PARAS>
+	                    <PARA name="value"   value="-420" />
+	                    <PARA name="name"   value="TREE_MAIN_STATE" />
+	                </PARAS>    
+	            	<DESC descname="TREE_UC_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-430" />
+		                    <PARA name="name"   value="TREE_UC_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>  
+		        <DESC descname="TREE_UA_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-440" />
+		                    <PARA name="name"   value="TREE_UA_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>  
+	          <DESC descname="TREE_UC_UA_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-810" />
+		                    <PARA name="name"   value="TREE_UC_UA_ALARM_STATE" />
+		                </PARAS>
+	          </DESC> 
+		        <DESC descname="TREE_RUN_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-450" />
+		                    <PARA name="name"   value="TREE_RUN_STATE" />
+		                </PARAS>
+	            	</DESC>
+		</DESC>
+	    </DESC>
+            <DESC descname="TREE_LINK" >
+                <PARAS>
+                    <PARA name="value"   value="-500" />
+                    <PARA name="name"   value="TREE_LINK" />
+                </PARAS>
+		          <DESC descname="TREE_LINK_TYPE" >
+	                <PARAS>
+	                    <PARA name="value"   value="-510" />
+	                    <PARA name="name"   value="TREE_LINK_TYPE" />
+	                </PARAS>
+            	</DESC>
+               <DESC descname="TREE_MAIN_STATE" >
+	                <PARAS>
+	                    <PARA name="value"   value="-520" />
+	                    <PARA name="name"   value="TREE_MAIN_STATE" />
+	                </PARAS>    
+	            	<!--DESC descname="TREE_UC_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-530" />
+		                    <PARA name="name"   value="TREE_UC_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>  
+		             <DESC descname="TREE_UA_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-540" />
+		                    <PARA name="name"   value="TREE_UA_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>
+	            	<DESC descname="TREE_UC_UA_ALARM_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-820" />
+		                    <PARA name="name"   value="TREE_UC_UA_ALARM_STATE" />
+		                </PARAS>
+	            	</DESC>-->
+		             <DESC descname="TREE_RUN_STATE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-550" />
+		                    <PARA name="name"   value="TREE_RUN_STATE" />
+		                </PARAS>
+	            	</DESC>
+	           </DESC>   
+						<DESC descname="TREE_LINK_CONNECTION" >
+		                <PARAS>
+		                    <PARA name="value"   value="-570" />
+		                    <PARA name="name"   value="LINK_CONNECTION" />
+		                </PARAS>
+		                		<DESC descname="TREE_LINK_NODE_NODE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-571" />
+		                    <PARA name="name"   value="LINK_CONNECTION_NODE_NODE" />
+		                </PARAS>
+	            	</DESC>
+	            			<DESC descname="TREE_LINK_SUBNET_NODE" >
+		                <PARAS>
+		                    <PARA name="value"   value="-572" />
+		                    <PARA name="name"   value="LINK_CONNECTION_SUBNET_NODE" />
+		                </PARAS>
+	            	</DESC>
+	            			<DESC descname="TREE_LINK_SUBNET_SUBNET" >
+		                <PARAS>
+		                    <PARA name="value"   value="-573" />
+		                    <PARA name="name"   value="LINK_CONNECTION_SUBNET_SUBNET" />
+		                </PARAS>
+	            	</DESC>
+	           </DESC>       	 
+            </DESC>            
+            <DESC descname="TREE_SHOW_LINK_ICON" >
+                <PARAS>
+                    <PARA name="value"   value="-600" />
+                    <PARA name="name"   value="TREE_SHOW_LINK_ICON" />
+                </PARAS>
+            </DESC>
+            <!--DESC descname="TREE_SHOW_LINK_NAME" >
+                <PARAS>
+                    <PARA name="value"   value="-700" />
+                    <PARA name="name"   value="TREE_SHOW_LINK_NAME" />
+                </PARAS>
+            </DESC-->
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

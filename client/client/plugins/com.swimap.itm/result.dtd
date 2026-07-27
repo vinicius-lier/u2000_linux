@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!ELEMENT TaskResult (StartTime,EndTime,ExecResult,(ExecDetail)*)>
+<!ELEMENT StartTime (#PCDATA) >
+<!ELEMENT EndTime (#PCDATA) >
+<!ELEMENT ExecResult (#PCDATA) >
+<!ELEMENT ExecDetail ((PARA)*,(NELIST)?,(NELIST)?,(PARA)*)>
+<!ELEMENT PARA EMPTY>
+<!ATTLIST PARA name CDATA #REQUIRED>
+<!ATTLIST PARA value CDATA #REQUIRED>
+<!ELEMENT NELIST (NE)*>
+<!ATTLIST NELIST type (FAILURE|SUCCESS) #REQUIRED>
+<!ELEMENT NE EMPTY>
+<!ATTLIST NE name CDATA #REQUIRED>
+<!ATTLIST NE message CDATA #REQUIRED>
+	

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" []>
+
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="system">
+			<PARAS/>
+			<DESC descname="WelcomePage:getWelcomePage">
+				<PARAS>
+					<PARA name="actionType" value="cic"/>
+          			<PARA name="moduleID" value="WelcomePage"/>
+          			<PARA name="methodName" value="getWelcomePage"/>
+          			<PARA name="security" value="1"/>
+				</PARAS>
+			</DESC>
+			
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<!-- name: plugin列表 -->
+			<DESC descname="plugins">
+				<PARAS>
+				    <PARA name="pms"/>
+					<PARA name="com.swimap.adapter.message.sm"></PARA>
+					<PARA name="com.swimap.adapter.message.fm"></PARA>
+					<PARA name="com.swimap.adapter.message.tm"></PARA>
+					<PARA name="eam"></PARA>
+					<PARA name="topoclient"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- name: productlib 文件夹列表 -->
+			<DESC descname="productlibs">
+				<PARAS>
+				    <PARA name="pm"/>
+					<PARA name="PMS"/>
+					<PARA name="PMSDataQuery"/>
+					<PARA name="PMSRTP"/>
+					<PARA name="PMSUtility"/>
+					<PARA name="commonplugin"/>
+					<PARA name="defaultplugin"/>
+					<PARA name="linkplugin"/>
+					<PARA name="RemoteCollector"/>
+					<PARA name="sliptable"/>
+					<PARA name="testpathplugin"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

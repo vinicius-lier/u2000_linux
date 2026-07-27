@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="QuidView">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="201326588"   value="内存分配失败" />
+                <PARA name="201326585"   value="数据库操作失败。" />
+                <PARA name="201326584"   value="数据库操作未取到记录。" />
+                <PARA name="201326583"   value="无可用的网元ID。" />
+                <PARA name="201326582"   value="ASN 编码错误。" />
+                <PARA name="201326581"   value="ASN 解码错误。" />
+                <PARA name="201326580"   value="在后台的网元列表中没有发现对应的网元。" />
+                <PARA name="201326579"   value="接口列表为空。" />
+                <PARA name="201326578"   value="参数错误。" />
+                <PARA name="201326577"   value="其它后台无响应。" />
+                <PARA name="201326575"   value="网元正在刷新。" />
+                <PARA name="201326574"   value="SNMP 初始化失败。" />
+                <PARA name="201326573"   value="网元无响应。" />
+                <PARA name="201326572"   value="输入的IP地址错误。" />
+                <PARA name="201326571"   value="拓扑后台无响应。" />
+                <PARA name="201326570"   value="安全后台无响应。" />
+                <PARA name="201326569"   value="无可用license。" />
+                <PARA name="201326568"   value="接受到的消息错误，无SNMP参数。" />
+                <PARA name="201326567"   value="发送网元ID失败。" />
+                <PARA name="201326566"   value="网元已经存在。" />
+                <PARA name="201326565"   value="创建网元时使用的设备类型不恰当。" />
+                <PARA name="201326564"   value="网元无有效的接口(即无有效的IP地址)。" />
+                <PARA name="201326563"   value="无效的SNMP网元(输入的IP地址不在接口地址表中)。" />
+                <PARA name="201326562"   value="不支持的SNMP版本。" />
+                <PARA name="201326561"   value="取网元信息错误。" />
+                <PARA name="201326560"   value="网元为集群成员，不能删除。" />
+                <PARA name="201326558"   value="为HGMPV1 client网元，暂不支持。" />
+                <PARA name="201326557"   value="在指定视图中没有找到节点。" />
+                <PARA name="201326556"   value="注册告警失败。" />
+                <PARA name="201326555"   value="网元正忙，请稍后再试。" />
+                <PARA name="201326554"   value="此设备类型不支持待部署状态。" />
+                <PARA name="201326553"   value="网元IP地址不能是环回地址。" />
+                <PARA name="201326552"   value="手工创建SNMP网元时候，选择类型错误。请重新选择。" />
+                <PARA name="201326576"  value="设置任务状态错误。" />
+                <PARA name="201326590"  value="失败（操作失败）。" />
+                <PARA name="201326551"  value="该记录已存在于接口地址表中。" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

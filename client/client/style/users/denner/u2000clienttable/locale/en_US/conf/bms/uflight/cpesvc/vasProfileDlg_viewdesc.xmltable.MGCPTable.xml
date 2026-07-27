@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="MGCP_InterfaceName" name="Interface Name" isVisiable="true" isEditable="true" width="110" isNameModified="false" />
+  <column id="MGCP_MGDomain" name="MG Domain name" isVisiable="true" isEditable="true" width="126" isNameModified="false" />
+  <column id="MGCP_CallAgent1" name="Primary MGC" isVisiable="true" isEditable="true" width="98" isNameModified="false" />
+  <column id="MGCP_CallAgentPort1" name="Primary MGC port" isVisiable="true" isEditable="true" width="122" isNameModified="false" />
+  <column id="MGCP_CallAgent2" name="Secondary MGC" isVisiable="true" isEditable="true" width="114" isNameModified="false" />
+  <column id="MGCP_CallAgentPort2" name="Secondary MGC port" isVisiable="true" isEditable="true" width="138" isNameModified="false" />
+  <column id="MGCP_WANPortName" name="Associate WAN Interface" isVisiable="true" isEditable="true" width="160" isNameModified="false" />
+</table>
+

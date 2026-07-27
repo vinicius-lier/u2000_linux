@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC areaname="MapArea">
+    	
+        <DESC descname="IP">
+            <PARAS>
+                <PARA name="routernemgr" value="NEMGR_ROUTER"/>
+				<PARA name="secnemgr" value="SECNEMGR"/>
+				<PARA name="switchnemgr" value="NEMGR_SWITCH"/>
+				<PARA name="vmfnemgr" value="NEMGR_VMF"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Access">
+            <PARAS>
+               <PARA name="nemgrsubsystem" value="ACCESS"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Transport">
+            <PARAS>
+             <PARA name="commonsubsystem" value="TRANS_COMMON"/>
+			 <PARA name="ptnsubsystem" value="NEMGR_PTN"/>
+            </PARAS>
+        </DESC>
+        
+	   <DESC descname="VMF">
+            <PARAS>
+               <PARA name="vmfsubsystem" value="nemgr_vmf"/>
+            </PARAS>
+        </DESC>
+		
+    </AREADESC>
+</COMMINIDATA>

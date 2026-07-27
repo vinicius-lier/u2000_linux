@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="com.swimap.sound" name="com.swimap.sound" version="1.0" provider-name="swimap">
+    <extension-point id="com.swimap.sound.manager" name="com.swimap.sound.manager"/>
+    <extension-point id="com.swimap.sound.advancesetting" name="com.swimap.sound.advancesetting"/>
+    <extension point="com.swimap.sound.manager">
+        <ColorManager class="com.swimap.iview.sound.config.SoundConfigManager"/>
+    </extension>
+</plugin>

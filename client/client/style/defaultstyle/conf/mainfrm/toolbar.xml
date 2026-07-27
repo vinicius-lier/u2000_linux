@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+
+<!--define a Toolbar
+menuSet:
+        descname as the menuSet's id, must be unique.
+        must have a type para, and the value is "MenuSet"
+
+JMenu:(super class must be JMenu)
+        descname as the menuID.
+        must hava a type para, and the value is "JMenu"
+
+JMenu's sub element 
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+-->
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="mainfrm/iview/framework/toolbarmanagement/Res"></PARA>
+    </PARAS>
+</DESC>
+
+<!--define a ToolbarGroup-->
+<DESC descname="mainTool">
+    <PARAS>
+    <PARA name="name" value="main Tool"></PARA>
+    <PARA name="type" value="ToolGroupSet"></PARA>
+    <PARA name="serialnumber" value="100"></PARA>
+    </PARAS>
+    
+    <DESC descname="System">
+        <PARAS>
+        <PARA name="name" value="SystemToolbar"></PARA>
+        <PARA name="type" value="JToolBar"></PARA>
+        <PARA name="icon" value="mainfrm/About16.gif"></PARA>
+        <PARA name="serialnumber" value="100-100"></PARA>
+        </PARAS>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="Exit">
+            <PARAS>
+            <PARA name="name" value="mainfrm_Exit"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="description" value="Exit"></PARA>
+            <PARA name="icon" value="mainfrm/exit.gif"></PARA>
+            <PARA name="command" value="iview mfrm exit"></PARA>
+            <PARA name="serialnumber" value="100-100-100"></PARA>
+            </PARAS>
+        </DESC>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="Logout">
+            <PARAS>
+            <PARA name="name" value="mainfrm_Logout"></PARA>
+            <PARA name="description" value="Logout"></PARA>
+            <PARA name="icon" value="mainfrm/logout.gif"></PARA>
+            <PARA name="command" value="mainframe:logout"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="serialnumber" value="100-100-200"></PARA>
+            </PARAS>
+        </DESC>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="LockTerminal">
+            <PARAS>
+            <PARA name="name" value="mainfrm_LockTerminal"></PARA>
+            <PARA name="description" value="Lock_Terminal"></PARA>
+            <PARA name="icon" value="mainfrm/termlock.gif"></PARA>
+            <PARA name="command" value="mainframe:lockterminal"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="serialnumber" value="100-100-300"></PARA>
+            </PARAS>
+        </DESC>
+        
+        <!--define a toolbarButton-->
+        <DESC descname="FullScreen">
+            <PARAS>
+            <PARA name="name" value="mainfrm_FullScreen"></PARA>
+            <PARA name="description" value="Full_Screen"></PARA>
+            <PARA name="icon" value="mainfrm/fullscreen.gif"></PARA>
+            <PARA name="command" value="mainframe:fullscreen"></PARA>
+            <PARA name="type" value="AbstractButton"></PARA>
+            <PARA name="serialnumber" value="100-100-400"></PARA>
+            </PARAS>
+        </DESC>       
+        
+        <!--define a toolbarButton for Window navigation Backward-->
+        <DESC descname="BackNavigation">
+	     <PARAS>
+	     <PARA name="name" value="BackNavigation"></PARA>
+	     <PARA name="type" value="JComponent"></PARA>
+	     <PARA name="icon" value="mainfrm/Left.png"></PARA>
+	     <PARA name="serialnumber" value="100-500"></PARA>
+	     <PARA name="classname" value="com.swimap.iview.framework.windowmanagement.navigation.BackButton"></PARA>
+	     </PARAS>
+	</DESC>
+	    
+	<!--define a toolbarButton for Window navigation Forward-->
+	<DESC descname="FrontNavigation">
+	     <PARAS>
+	     <PARA name="name" value="FrontNavigation"></PARA>
+	     <PARA name="type" value="JComponent"></PARA>
+	     <PARA name="icon" value="mainfrm/Right.png"></PARA>
+	     <PARA name="serialnumber" value="100-600"></PARA>
+	     <PARA name="classname" value="com.swimap.iview.framework.windowmanagement.navigation.ForwardButton"></PARA>
+	     </PARAS>
+	</DESC> 
+    </DESC>
+    
+    
+</DESC>
+<!-- mainTool TooGroupSet type -->
+
+</AREADESC>
+</COMMINIDATA>

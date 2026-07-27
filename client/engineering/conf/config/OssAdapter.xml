@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- NMS adapter scripts. It defines the scripts related to installdisk and NMS initialization, which can modify the configuration of NMS -->
+<OssAdapter>
+
+   <!-- Add node adapter scripts, used for adding master,slave node info of NMS configuration -->
+   <AddNodeScript>
+   </AddNodeScript>
+
+   <!-- Add database adapter scripts, used for adding database info of NMS configuration -->
+   <AddDatabaseScript>
+   </AddDatabaseScript>
+
+</OssAdapter>

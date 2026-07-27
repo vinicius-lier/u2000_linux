@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+	    <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="u2000/unitedmgr/welcomebuttonres" />
+            </PARAS>
+        </DESC>
+        
+        <!--创建目录-->
+        <DESC descname="categorysetting">
+        	  <!--系统-->
+		        <DESC descname="SystemMenu">
+				        <PARAS>
+		                <PARA name="linkseqnumber" value="6000"></PARA>
+	              </PARAS>
+		        </DESC>
+		        
+		        <!--任务计划-->
+		        <DESC descname="ScheduleTaskManage">
+				        <PARAS>
+		                <PARA name="parent" value="SystemMenu"></PARA>
+		                <PARA name="linkseqnumber" value="800"></PARA>
+	              </PARAS>
+		        </DESC>
+		        
+        </DESC>
+        
+        <DESC descname="welcomebuttonsetting">
+        	  <!--集中任务管理-->
+            <DESC descname="integrationtaskmanagementUM">
+                <PARAS>
+                <PARA name="name" value="integrationtaskmanagementUM"></PARA>            
+                <PARA name="icon" value="u2000\unitedmgr\icons\system.png"></PARA>
+                <PARA name="command" value="Executing ITM command"></PARA>
+                <PARA name="category" value="ScheduleTaskManage"/>
+                <PARA name="linkseqnumber" value="10"></PARA>
+                <PARA name="isUserEnable" value="true" />
+                </PARAS>
+            </DESC>
+            
+        </DESC>               
+    </AREADESC>
+</COMMINIDATA>

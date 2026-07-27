@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+        <DESC descname="tabMenuSetting" >
+            <PARAS>
+                <PARA name="tabMenuEnable"   value="true"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

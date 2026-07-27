@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+<?eclipse version="3.3"?> 
+
+<plugin id="WelcomePage" name="WelcomePage" version="1.0" provider-name="iview">
+
+<extension-point id="com.iview.welcomepage.iwblauncher" name="com.iview.welcomepage.iwblauncher" /> 
+<extension-point id="com.iview.welcomepage.iwbmenu" name="com.iview.welcomepage.iwbmenu" /> 
+
+</plugin>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<!--Define State's Type, the areaname can't be changed-->
+
+<!--Define Alarm's Level, the areaname can't be changed-->
+<AREADESC areaname="AlarmLevel">
+   <DESC descname="Level1">
+      <PARAS>
+       <PARA name="id" value="1"/>
+       <PARA name="label" value="Critical"/>
+       <!--the value must be a char which will displayed in alarm Bumbble of ne-->
+       <PARA name="synopsis" value="C"/>
+       <PARA name="color" value="196-48-45"/>
+       <PARA name="sound" value="style/conf/Critical.wav"/>
+       <PARA name="sound-delay" value="60"/>
+       <PARA name="isSounding" value="true"/>
+       <!-- highLightTime,default value is 1 minute-->
+       <PARA name="highLightTime" value="1"/>
+       <PARA name="sound-interval"  value="0"/>
+       <PARA name="soundStatus"  value="1"/>
+       <PARA name="isLongPeriodSettingEnable" value="false"/>  
+       <PARA name="longTimeAlarmStatus" value="1"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Level2">
+      <PARAS>
+       <PARA name="id" value="2"/>
+       <PARA name="label" value="Major"/>
+       <PARA name="synopsis" value="M"/>
+       <PARA name="color" value="222-149-34"/>
+       <PARA name="sound" value="style/conf/Major.wav"/>
+       <PARA name="sound-delay" value="60"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="1"/>
+       <PARA name="sound-interval"  value="0"/>
+       <PARA name="soundStatus"  value="1"/>
+       <PARA name="isLongPeriodSettingEnable" value="false"/>  
+       <PARA name="longTimeAlarmStatus" value="1"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Level3">
+      <PARAS>
+       <PARA name="id" value="3"/>
+       <PARA name="label" value="Minor"/>
+       <PARA name="synopsis" value="N"/>
+       <PARA name="color" value="228-220-138"/>
+       <PARA name="sound" value="style/conf/Minor.wav"/>
+       <PARA name="sound-delay" value="60"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="1"/>
+       <PARA name="sound-interval"  value="0"/>
+       <PARA name="soundStatus"  value="1"/>
+       <PARA name="isLongPeriodSettingEnable" value="false"/>  
+       <PARA name="longTimeAlarmStatus" value="1"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Level4">
+      <PARAS>
+       <PARA name="id" value="4"/>
+       <PARA name="label" value="Warning"/>
+       <PARA name="synopsis" value="W"/>
+       <PARA name="color" value="151-178-191"/>
+       <PARA name="sound" value="style/conf/Warning.wav"/>
+       <PARA name="sound-delay" value="60"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="1"/>
+       <PARA name="sound-interval"  value="0"/>
+       <PARA name="soundStatus"  value="1"/>
+       <PARA name="isLongPeriodSettingEnable" value="false"/>  
+       <PARA name="longTimeAlarmStatus" value="1"/>
+      </PARAS>
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="ContainAlarmStateType">
+   <DESC descname="containCriticalAlarm">
+      <PARAS>
+       <PARA name="id" value="1"/>
+       <PARA name="label" value="containCriticalAlarm"/>
+       <PARA name="icon" value="image/alarm.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="containMajorAlarm">
+      <PARAS>
+       <PARA name="id" value="2"/>
+       <PARA name="label" value="containMajorAlarm"/>
+       <PARA name="icon" value="image/alarm.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="containMinorAlarm">
+      <PARAS>
+       <PARA name="id" value="3"/>
+       <PARA name="label" value="containMinorAlarm"/>
+       <PARA name="icon" value="image/alarm.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="containWarningAlarm">
+      <PARAS>
+       <PARA name="id" value="4"/>
+       <PARA name="label" value="containWarningAlarm"/>
+       <PARA name="icon" value="image/alarm.gif"/>
+      </PARAS>
+   </DESC>
+</AREADESC>
+</COMMINIDATA>
+

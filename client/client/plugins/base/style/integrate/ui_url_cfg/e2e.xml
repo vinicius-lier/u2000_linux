@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+    <DESC descname="UIUrlCfg">
+        <DESC descname="^ui/e2e/v2/saps/s\?port_id=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="ResMgrModule" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/tunnels/s\?port_id=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="TunnelModule" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/tunnels/s\?tunnel_key=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="TunnelModule" />
+            </PARAS>
+        </DESC>
+		<DESC descname="^ui/e2e/v2/rings/s\?ring_key=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="RingModule" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/vpls/s\?vsi_key=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="VplsModule" />
+            </PARAS>
+        </DESC>
+	 <DESC descname="^ui/e2e/v2/vpls/s\?port_id=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="VplsModule" />
+            </PARAS>
+        </DESC>
+		 <DESC descname="^ui/e2e/v2/vpls/s\?board_id=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_ip" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="VplsModule" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/sdh/s\?trailid_list=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/otn/s\?trailid_list=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/sdh/s\?dispersive_xc_list=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_sdh" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="sdhcircuit" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/otn/manage/s\?path=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/sdh/manage/s\?path=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/otn/manage/s\?protection=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/otn/manage/s\?fiber_list=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/sdh/manage/s\?fiber_list=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/otn/manage/s\?fdn=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/sdh/manage/s\?fdn=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/otn/SwitchTrail/s\?fiber_list=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <PARA name="subSystemId" value="nml_common" />
+                <PARA name="procId" value="20" />
+                <PARA name="moduleId" value="nbiinf" />
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/pwe3/s\?pwe3_key=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_ip"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="Pwe3Module"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/protectsubnet/s\?para=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_common"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="nbiinf"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/waveprotectsubnet/s\?para=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_common"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="nbiinf"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/protectsubnetbylink/s\?para=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_common"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="nbiinf"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/manage/querytrailbyborad/s\?fdn=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_common"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="nbiinf"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/pwe3/s\?port_key=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_ip"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="Pwe3Module"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/pwe3/s\?board_id=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_ip"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="Pwe3Module"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="^ui/e2e/v2/manage/querytrailbyne/s\?fdn=.*">
+            <PARAS>
+                <PARA name="applicationId" value="BearerServiceCM"/>
+                <PARA name="subSystemId" value="nml_common"/>
+                <PARA name="procId" value="20"/>
+                <PARA name="moduleId" value="nbiinf"/>
+            </PARAS>
+        </DESC>
+    </DESC>
+</AREADESC>
+</COMMINIDATA>

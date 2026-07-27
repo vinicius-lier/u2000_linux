@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<PARAS>
+			</PARAS>				
+       
+        <DESC descname="plugins">
+          <PARAS>
+          	   <PARA name="lm"/>
+          	   <PARA name="com.swimap.adapter.message.resource"/>
+          	   <PARA name="resource"/>
+          	   <PARA name="securitymanager"/>
+          	   <PARA name="com.swimap.color"/>
+          	   <PARA name="inventoryModule"/>
+                   <PARA name="com.swimap.adapter.message.fm"/>
+          	   <PARA name="com.swimap.adapter.message.sm"/>
+                   <PARA name="com.swimap.adapter.message.tm"/>        
+          	   <PARA name="eam"/>
+          	   <PARA name="u2kFiberModule"/>
+          	   <PARA name="topoclient"/>
+          	   <PARA name="com.swimap.adapter.message.common"/>
+          	   <PARA name="com.swimap.extension.registry"/>
+          	   <PARA name="united_common"/>
+          	   <PARA name="Fault"/>
+          	   
+          	   <!-- 
+                   <PARA name="com.swimap.adapter.message.fm"/>
+          	   <PARA name="com.swimap.adapter.message.sm"/>
+                   <PARA name="com.swimap.adapter.message.tm"/>        
+                     <PARA name="u2000nelicense"/>
+                       		-->         
+          </PARAS>
+        </DESC>
+       
+        <DESC descname="features">
+            <PARAS>
+            	      	 	<!--   
+           		<PARA name="sysmonitor"></PARA>
+           		<PARA name="com.swimap.itm"></PARA>
+           		<PARA name="clientutil"></PARA>
+           		-->
+            </PARAS>
+        </DESC>
+       
+        <DESC descname="productlibs">
+            <PARAS>
+            	<PARA name="pm"></PARA>
+            	<PARA name="base"></PARA>
+            	<PARA name="cbb"></PARA>
+             
+            </PARAS>
+        </DESC>
+
+		</DESC>
+		
+		<DESC descname="startupcommands">
+			<PARAS>
+           		<PARA name="command" value="IPMS_MonitorConfiguration"></PARA>
+			</PARAS>
+		</DESC>
+		
+	
+		
+	</AREADESC>
+</COMMINIDATA>

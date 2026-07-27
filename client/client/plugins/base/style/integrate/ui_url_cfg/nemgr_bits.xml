@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>  
+	<DESC descname="UIUrlCfg">  
+    <DESC descname="^ui/cfg/v2/nes/view/negraph/([A-Za-z0-9,;=|-]+)">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="nemgr_bits" />
+     
+                    <PARA name="procId" value="236" />
+    
+                    <PARA name="moduleId" value="BITS_Inventory_Module" />
+                </PARAS>
+    </DESC>
+    <DESC descname="^ui/cfg/v2/nes/([\d]+)/view">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="nemgr_bits" />
+     
+                    <PARA name="procId" value="236" />
+    
+                    <PARA name="moduleId" value="BITS_WebLCT_Module" />
+                </PARAS>
+    </DESC>
+    <DESC descname="^ui/cfg/v2/nes/([\d]+)/view/default">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="nemgr_bits" />
+     
+                    <PARA name="procId" value="236" />
+    
+                    <PARA name="moduleId" value="BITS_WebLCT_Module" />
+                </PARAS>
+    </DESC>
+    <DESC descname="^ui/cfg/v2/nes/view/negraph/fdn=([A-Za-z0-9,;/=|-]+)&amp;alarmid=([0-9]+)">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="nemgr_bits" />
+     
+                    <PARA name="procId" value="236" />
+    
+                    <PARA name="moduleId" value="BITS_WebLCT_Module" />
+                </PARAS>
+    </DESC>  
+    </DESC>    
+</AREADESC>
+</COMMINIDATA>

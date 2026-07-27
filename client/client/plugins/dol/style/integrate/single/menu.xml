@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle" />
+				<PARA name="resourceBundleName" value="Res" />
+			</PARAS>
+		</DESC>
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu" />
+				<PARA name="type" value="MenuSet" />
+			</PARAS>
+			<!-- define a menu have" name" and "mnemonic" attributes -->
+			
+			<DESC descname="DeviceLog">
+					<PARAS>
+						<PARA name="name" value="DeiveLogMenuSigle" />
+						<PARA name="icon" value="" />
+						<PARA name="type" value="JMenu" />
+						<PARA name="mnemonic" value="D" />
+						<PARA name="accelerator" value="VK_D" />
+						<PARA name="serialnumber" value="300" />
+					</PARAS>
+					<DESC descname="QueryDeviceLog">
+						<PARAS>
+							<PARA name="name" value="MENU_QUERY_DEVICE_LOG" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Query Device Log" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="B" />
+							<PARA name="accelerator" value="VK_B" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="400-90-90" />
+						</PARAS>
+					</DESC>
+					<DESC descname="SynchronizeSNMPDeviceLog">
+						<PARAS>
+							<PARA name="name" value="MENU_SYN_SNMP_DEV_LOG" />
+							<PARA name="icon" value="" />
+							<PARA name="command" value="Synchronize SNMP Device Log" />
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="D" />
+							<PARA name="accelerator" value="VK_D" />
+							<PARA name="Class" value="IViewJMenuItemEx" />
+							<PARA name="serialnumber" value="400-90-100" />
+						</PARAS>
+					</DESC>
+			</DESC>
+			
+		</DESC>
+		<!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

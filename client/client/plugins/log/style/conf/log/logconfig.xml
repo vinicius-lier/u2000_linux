@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+
+
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="NELOG">
+            <PARAS>
+                <PARA name="HAVENELOG" value="true" />
+				<!-- true: show "Operate Type" column -->
+				<PARA name="ShowOperateType" value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

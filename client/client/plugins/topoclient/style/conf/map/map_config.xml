@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="topomap">
+		   <DESC descname="topomapfile">
+			    <PARAS>
+				    <PARA name="filenames" value="electron_map/province.MIF"></PARA>
+			    </PARAS>
+	           </DESC>
+    </AREADESC>
+</COMMINIDATA>

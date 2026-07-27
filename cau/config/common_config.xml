@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COMMINIDATA>
+    <AREADESC areaname="CAU">
+        <DESC descname="Client,DataCenter" >
+            <PARAS>
+                <PARA name="PORT"   value="9803" />
+                <PARA name="SSL"   value="true" />
+            </PARAS>
+        </DESC>
+        <!--For sysmonitor-->
+        <DESC descname="Monitor" >
+            <PARAS>
+        		<PARA name="portData"   value="31030" />
+				<PARA name="ssl_portData"   value="31080" />
+                <PARA name="securityMode"   value="commonservermode" />
+                <PARA name="LastLoginUserName"   value="" />
+                <PARA name="IsLastLoginServer"   value="true" />
+            </PARAS>
+        </DESC>
+	<!--Login information-->
+	<DESC descname="login">
+	    <PARAS>
+	        <PARA name="portData"   value="31037" />
+			<PARA name="ssl_portData"   value="31039" />
+                <PARA name="securityMode"   value="commonservermode" />
+                <PARA name="LastLoginUserName"   value="" />
+               <PARA name="IsLastLoginServer"   value="true" />
+	    </PARAS>
+	</DESC>
+    </AREADESC>
+</COMMINIDATA>

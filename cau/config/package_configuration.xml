@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?> 
+ <packagegroup>
+ <package name="common">
+ <install>
+ <windows ostype="all">
+ <scripts>
+ <postscripts>
+  </postscripts>
+  <exitscripts>
+     <!--设置cau下载维护工具登录默认ip-->
+	<item>client/engineering/script/setMsuitIP.bat</item>
+	<item>client/engineering/script/delDynamicBackupFile.bat</item>
+	<item>client/engineering/script/deleteauconfiguration.bat </item>
+  </exitscripts>
+  </scripts>
+  </windows>
+  </install>
+   <upgrade>
+ <windows ostype="all">
+ <scripts>
+ <postscripts>
+  </postscripts>
+  <exitscripts>
+    <!--设置cau下载维护工具登录默认ip-->
+	<item>client/engineering/script/setMsuitIP.bat</item>
+	<item>client/engineering/script/delDynamicBackupFile.bat</item>
+	<item>client/engineering/script/deleteauconfiguration.bat</item>
+  </exitscripts>
+  </scripts>
+ </windows>
+  </upgrade>
+  </package>  
+  </packagegroup>

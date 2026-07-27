@@ -1,0 +1,53 @@
+#Display string for package name
+CMF=OSS
+cmf_cau=客户端自动升级工具
+cmf_cau.InstallInfo=CAU为客户端提供安装/升级功能
+cmf_cau.UninstallInfo=CAU为客户端提供安装/升级功能
+
+cmf_cau_base=客户端自动升级工具客户端
+cmf_cau_base.InstallInfo=客户端自动升级工具客户端
+cmf_cau_base.UninstallInfo=客户端自动升级工具客户端
+cmf_cau_server=客户端自动升级工具服务端
+cmf_cau_server_DIST=客户端自动升级工具服务端
+cmf_cau_server.InstallInfo=客户端自动升级工具服务端
+cmf_cau_server.UninstallInfo=客户端自动升级工具服务端
+
+cmf_cau_client=客户端自动升级工具客户端
+cmf_cau_client.InstallInfo=客户端自动升级工具客户端
+cmf_cau_client.UninstallInfo=客户端自动升级工具客户端
+
+cmf_caucfg_server=客户端自动升级工具服务端配置文件
+cmf_caucfg_server.InstallInfo=客户端自动升级工具服务端配置文件
+cmf_caucfg_server.UninstallInfo=客户端自动升级工具服务端配置文件
+
+cmf_caucfg_client=客户端自动升级工具客户端配置文件
+cmf_caucfg_client.InstallInfo=客户端自动升级工具客户端配置文件
+cmf_caucfg_client.UninstallInfo=客户端自动升级工具客户端配置文件
+
+cmf_cau_tomcat=客户端自动升级工具Web服务
+cmf_cau_tomcat_DIST=客户端自动升级工具Web服务
+cmf_cau_server_webfilter=客户端自动升级工具Web服务过滤器
+cmf_cau_server_webfilter_DIST=客户端自动升级工具Web服务过滤器
+cau_uninstall_package = CAU 卸载包
+imap_cau_server = 客户端自动升级工具服务端
+imap_cau_server_DIST=客户端自动升级工具服务端
+
+imap_cau_client = 客户端自动升级工具客户端
+
+imap_caucfg_client = 客户端自动升级工具服务端配置文件
+
+
+imap_cau_webservice=客户端自动升级工具Web服务
+imap_cau_webservice_DIST=客户端自动升级工具Web服务
+
+iMap_CAU=CAU为客户端提供安装/升级功能
+iMap_CAU.InstallInfo=CAU为客户端提供安装/升级功能
+iMap_CAU.UninstallInfo=CAU为客户端提供安装/升级功能
+
+iMap_WEBSERVICE = 客户端自动升级工具Web服务
+iMap_WEBSERVICE.InstallInfo = 客户端自动升级工具Web服务
+iMap_WEBSERVICE.UninstallInfo = 客户端自动升级工具Web服务
+
+engr_cau=客户端自动升级工具
+engr_cau.InstallInfo=CAU为客户端提供安装/升级功能
+engr_cau.UninstallInfo=CAU为客户端提供安装/升级功能

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+	<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+-->
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName"
+					value="nelicense/Res">
+				</PARA>
+			</PARAS>
+		</DESC>
+    <DESC descname="u2000nelicense">
+      <PARAS>
+        <PARA name="ClassName"
+              value="com.huawei.u2000.nelicense.NWLicenseModuleForU2000" />
+        <PARA name="RunInProcess"
+              value="true"></PARA>
+        <PARA name="ProcessKey"
+              value="0"></PARA>
+        <PARA name="ToBeLoaded"
+              value="true"></PARA>
+        <PARA name="IsJavaModule"
+              value="true" />
+        <PARA name="IsOrbModule"
+              value="false" />
+        <PARA name="serialnumber"
+              value="4" />
+        <PARA name="IsMustLoad"
+              value="false"></PARA>
+        <PARA name="dependModules">
+          <VALUE value="com.swimap.adapter.message.sm" />
+				</PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

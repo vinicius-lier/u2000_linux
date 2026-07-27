@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<!-- 
+   
+    
+    List of plugin beans, one config file can contains many plugins 
+-->
+<beans>
+	<!-- 
+	    
+	       	    
+	    Plugin bean, config where and when to run 
+        id,a token that diferent with other plugin in one config file
+        class,full path name of plugin's class define,must inherit from com.swimap.cmf.cau.plugin.Plugin
+	-->	
+	<bean id="pluginExample1" class="com.swimap.cau.unrecoverfile.plugin">	
+	    <!--
+	          
+	               
+	        Scene 1:update Upgrade Resource Swatch on server
+	               Where:on server machine
+	               When :after install or update NMS client with installdisk 
+	    -->
+		<property name="updateUpgradeResourceSwatch">
+		    <props>
+		        <!--
+		            
+		            Occasion 1: after NMS client has been install/updated,
+		                        before update upgrade resource swatch
+		                        
+		                     
+		            Valid Value:a number of int, specify the order of current plugin' execution in crrent occation
+		                        auto,decide by plugin manager
+		                        false,default value,won't run in crrent occation
+		        -->
+				<prop key="pre">false</prop>
+				
+		        <!--
+		            	        
+		            Occasion 2: after update upgrade resource swatch,
+		                        before installdisk to exit		           
+		                        
+		                   
+		            Valid Value:a number of int, specify the order of current plugin' execution in crrent occation
+		                        auto,decide by plugin manager
+		                        false,default value,won't run in crrent occation
+		        -->
+				<prop key="post">false</prop>			
+			</props>			
+		</property>
+		
+		<!--
+		    
+	               
+		    Scene 2:update Upgrade Resource Copy on client
+	               Where:on client machine
+	               When :after install or update NMS client with installdisk 
+	    -->
+		<property name="updateUpgradeResourceCopy">
+		    <props>
+		        <!--
+		           
+		            Occasion 1: after NMS client has been install/updated,
+		                        before update upgrade resource copy
+		                        		                        
+		                   
+		            Valid Value:a number of int, specify the order of current plugin' execution in crrent occation
+		                        auto,decide by plugin manager
+		                        false,default value,won't run in crrent occation
+		        -->
+				<prop key="pre">false</prop>
+				
+		        <!--
+		            
+		            Occasion 2: after update upgrade resource copy,
+		                        before installdisk to exit
+		                        
+		                     
+		            Valid Value:a number of int, specify the order of current plugin' execution in crrent occation
+		                        auto,decide by plugin manager
+		                        false,default value,won't run in crrent occation
+		        -->
+				<prop key="post">false</prop>				
+			</props>			
+		</property>
+		
+		<!--
+		      
+		
+		    Scene 3:update Application Copy(NMS Client) on client
+	               Where:on client machine
+	               When :after Java Web Start download or updated local jar files 
+	    -->
+		<property name="updateApplicationCopy">
+		    <props>
+		        <!--
+		                    
+		            Occasion 1: after Java Web Start download or updated local jar files,
+		                        before update application client(NMS Client)
+		                        
+		                   
+		            Valid Value:a number of int, specify the order of current plugin' execution in crrent occation
+		                        auto,decide by plugin manager
+		                        false,default value,won't run in crrent occation
+		        -->
+				<prop key="pre">false</prop>
+				
+		        <!--
+		            
+		            Occasion 2: after update application client(NMS Client),
+		                        before Java Web Start to exit
+		                        
+		                   
+		            Valid Value:a number of int, specify the order of current plugin' execution in crrent occation
+		                        auto,decide by plugin manager
+		                        false,default value,won't run in crrent occation
+		        -->
+				<prop key="post">false</prop>				
+			</props>			
+		</property>
+	</bean>
+</beans>

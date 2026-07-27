@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+ -->
+<COMMINIDATA>
+    <AREADESC areaname="modulelist">
+          <DESC descname="ResourceBundle">
+               <PARAS>
+                   <PARA name="type" value="ResourceBundle"></PARA>
+                   <PARA name="resourceBundleName" value="NotifyRes"></PARA>
+              </PARAS>
+          </DESC>
+          <DESC descname="Notify">
+              <PARAS>
+                        <PARA name="ClassName" value="com.swimap.iview.ifms.notify.notifyclientmanager.NotifyClientManager"/>
+                        <PARA name="SpecificLoadingStates">
+                           <VALUE value="1"/>
+                        </PARA>
+                        <PARA name="RunInProcess" value="true"/>
+                        <PARA name="ProcessKey" value="0"/>
+                        <PARA name="ToBeLoaded" value="true"/>
+                        <PARA name="IsJavaModule" value="true"/>
+                        <PARA name="IsOrbModule"  value="true"/>
+                        <PARA name="serialnumber" value="41"/>
+                        <PARA name="dependModules">
+                            <VALUE value="com.swimap.extension.registry"/>
+                        </PARA>
+              </PARAS>
+          </DESC>
+    </AREADESC>
+</COMMINIDATA>
+

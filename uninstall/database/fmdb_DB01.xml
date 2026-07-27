@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>fmdb</databasename>
+	<databaseinstancetype>0</databaseinstancetype>
+	<filepath>D:\data</filepath>
+	<devicename>fmdbdata</devicename>
+	<filename>fmdb_data.mdf</filename>
+	<dbsize>800</dbsize>
+	<dbmaxsize>3000</dbmaxsize>
+	<dbthreshold>200</dbthreshold>
+	<dbfilegrowth>200</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>fmdblog</logdevicename>
+	<logfilename>fmdb_log.ldf</logfilename>
+	<logsize>400</logsize>
+	<logmaxsize>400</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

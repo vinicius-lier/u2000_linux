@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="startupresources">
+
+		<DESC descname="startupjars">
+			<PARAS>
+			</PARAS>
+				<DESC descname="./../lib">
+					<PARAS>
+						<PARA name="baseutil.jar"></PARA>
+						<PARA name="misctool.jar"></PARA>						
+						<PARA name="imapsslapp.jar"></PARA>
+						<PARA name="imapsslbase.jar"></PARA>
+						<PARA name="imap-xrpc-client.jar"></PARA>						
+						<PARA name="iview.jar"></PARA>
+						<PARA name="startup.jar"></PARA>
+						<PARA name="runclientinDS.jar"></PARA>					
+					</PARAS>
+				</DESC>
+
+<!--relative to the client path-->
+				<DESC descname="./../lib/3rd_tools">
+					<PARAS>
+						<PARA name="anopenorb_ssl-1.3.1_patch.jar"></PARA>
+						<PARA name="aopenorb_ssl-1.3.1.jar"></PARA>
+						<PARA name="apatchforopenorb131.jar"></PARA>
+						<PARA name="avalon-framework.jar"></PARA>
+						<PARA name="logkit.jar"></PARA>
+						<PARA name="openorb-1.3.1.jar"></PARA>
+						<PARA name="openorb_notify-1.4.0.jar"></PARA>
+						<PARA name="openorb_tools-1.3.1.jar"></PARA>
+						<PARA name="commons-net-3.3.jar"></PARA>
+						<PARA name="jsch-0.1.54.jar"></PARA>
+						<PARA name="commons-httpclient-3.0.1.jar"></PARA>
+						<PARA name="jcl-over-slf4j-1.7.22.jar"></PARA>
+						<PARA name="slf4j-api-1.7.22.jar"></PARA>
+						<PARA name="slf4j-log4j12-1.7.22.jar"></PARA>
+						<PARA name="fstrucomm.jar"></PARA>
+						<PARA name="xercesImpl.jar"></PARA>
+						<PARA name="jdom.jar"></PARA>
+						<PARA name="iviewidl_oem.jar"></PARA>
+						<PARA name="jhall.jar"></PARA>
+						<PARA name="log4j-1.2.17.jar"></PARA>
+						<PARA name="jcchart.jar"></PARA>
+						<PARA name="jfreechart-1.0.19.jar"></PARA>
+						<PARA name="xml-apis.jar"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="./patch">
+					<PARAS>
+						<PARA></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="./../../cau/lib">
+					<PARAS>
+						<PARA name="cau.jar"></PARA>				
+					</PARAS>
+				</DESC>
+		</DESC>		
+		<DESC descname="startupplugins">
+		<PARAS>
+			</PARAS>
+				<DESC descname="securityplugins">
+					<PARAS>
+		 			<!-- configure all the normal plugins used for security-->
+					<!--example 	<PARA name ="lm"></PARA>-->
+					<PARA name="securitymanager"></PARA>				
+					<PARA name="authentication"></PARA>
+					<PARA name="loginui"></PARA>
+					<PARA name="clientutil"></PARA>		
+					<PARA name="com.swimap.orbbase"></PARA>
+					<PARA name="com.swimap.rpc"></PARA>		
+					<PARA name="lm"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="requiredplugins">
+					<PARAS>
+						<!--example  <PARA name="resource"></PARA> -->
+						<PARA name="com.swimap.sound"></PARA>	
+						<PARA name="com.swimap.extension.registry"/>
+						<PARA name="com.swimap.adapter.message.sm"/>
+						<PARA name="com.swimap.adapter.message.common"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="portalStartupPlugins">
+					<PARAS>
+						<PARA name="portalPlugin"></PARA>
+					</PARAS>
+				 </DESC>
+				
+				   
+			</DESC>				
+	</AREADESC>
+</COMMINIDATA>
+
+

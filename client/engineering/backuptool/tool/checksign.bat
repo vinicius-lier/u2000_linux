@@ -1,0 +1,1 @@
+%IMAP_JAVA_HOME%/bin/java -Xms10m -Xmx15m -classpath CheckSign.jar;./lib/bcpg-jdk15on-153.jar;./lib/bcprov-jdk15on-153.jar checksum.util.MainClass  %1

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="clientConfig">
+        <DESC descname="email">
+            <PARAS>
+                <PARA name="isSend" value="false" />
+            </PARAS>
+        </DESC>
+        <DESC descname="gsmmodem">
+            <PARAS>
+                <PARA name="isSend" value="false" />
+                <PARA name="serialNo" value="1" />
+                <PARA name="baudRate" value="9600" />
+            </PARAS>
+        </DESC>
+        <DESC descname="cdmamodem">
+            <PARAS>
+                <PARA name="isSend" value="false" />
+                <PARA name="serialNo" value="1" />
+                <PARA name="baudRate" value="9600" />
+            </PARAS>
+        </DESC>
+        <DESC descname="smcenter">
+            <PARAS>
+                <PARA name="isSend" value="false" />
+            </PARAS>
+        </DESC>
+        <DESC descname="datacard" >
+            <PARAS>
+                <PARA name="serialNo"   value="1" />
+                <PARA name="baudRate"   value="9600" />
+                <PARA name="serialName"   value="COM1" />
+                <PARA name="isSend"   value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

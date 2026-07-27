@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+	<bean id="UninstallPlugin" class="com.swimap.cmf.cau.plugin.UninstallPlugin">	
+		<property name="updateApplicationCopy">
+		    <props>
+				<prop key="pre">true</prop>
+				<prop key="post">true</prop>				
+			</props>			
+		</property>
+		<property name="updateUpgradeResourceSwatch">
+		    <props>		       
+				<prop key="pre">true</prop>			
+				<prop key="post">true</prop>			
+			</props>			
+		</property>
+		<property name="updateUpgradeResourceCopy">
+		    <props>
+				<prop key="pre">true</prop>
+				<prop key="post">true</prop>				
+			</props>			
+		</property>
+	</bean>
+</beans>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="notifyclient"
+   name="notifyclient"
+   version="1.0"
+   provider-name="swimap">
+   <extension-point id="fault.notify.devicesetting" name="fault.notify.devicesetting" schema="schema/fault.notify.devicesetting.exsd"/>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.EmailNotifyProcessor"
+            devicename="email"
+            notifytype="Email"
+            priority="500">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMSNotifyProcessor"
+            devicename="gsmmodem"
+            notifytype="SMS"
+            priority="400">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMSNotifyProcessor"
+            devicename="cdmamodem"
+            notifytype="SMS"
+            priority="300">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMCNotifyProcessor"
+            devicename="smcenter"
+            notifytype="SMS"
+            priority="200">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMSNotifyProcessor"
+            devicename="datacard"
+            notifytype="SMS"
+            priority="100">
+      </NotifyDeviceSetting>
+   </extension>
+</plugin>

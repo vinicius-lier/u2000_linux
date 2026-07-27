@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <!-- sub system basic information: identifier, name, image --> 
+    <DESC descname="feature">
+      <PARAS>
+        <PARA name="id" value="log"></PARA>
+        <PARA name="label" value="log_name"></PARA>
+        <PARA name="image" value="icon.gif"></PARA>       
+      </PARAS>
+    </DESC>
+    
+    		<!-- other information -->
+		<DESC descname="extra">
+			<PARAS>
+				<PARA name="image.loading" value="loading.png"></PARA>
+				
+				<PARA name="image.lock" value="lockdialog.gif"></PARA>
+				
+				<PARA name="image.exit" value="logoutdialog.gif"></PARA>
+				
+				<PARA name="about.version" value="about.version"></PARA>
+				
+				<PARA name="about.desc" value="about.desc"></PARA>
+				
+				<PARA name="about.image.banner" value="about_banner.gif"></PARA>
+				
+				<PARA name="about.image.title" value="about_title.png"></PARA>
+			</PARAS>
+		</DESC>
+    
+    <DESC descname="plugins">
+      <PARAS>
+				<PARA name="log"></PARA>				
+				<PARA name="authentication"></PARA>
+				<PARA name="loginui"></PARA>	
+				<PARA name="clientutil"></PARA>		
+				<PARA name="com.swimap.orbbase"></PARA>
+				<PARA name="com.swimap.rpc"></PARA>		
+     </PARAS>
+    </DESC>
+    
+    <!-- required module plugins -->
+    <DESC descname="required-plugins">
+      <PARAS>      
+      	<PARA name="com.swimap.sound"></PARA>	
+	    <PARA name="com.swimap.extension.registry"/>  
+	    <PARA name="lm"></PARA>
+        <PARA name="U2000_Solution"></PARA>
+     </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

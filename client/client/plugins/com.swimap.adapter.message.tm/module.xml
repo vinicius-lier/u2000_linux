@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+ -->
+<COMMINIDATA>
+    <AREADESC areaname="modulelist">
+        <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle"></PARA>
+                <PARA name="resourceBundleName" value="Res"></PARA>
+            </PARAS>
+        </DESC>
+ 
+        <DESC descname="com.swimap.adapter.message.tm">
+			<PARAS>
+				<PARA name="ClassName"
+					value="com.swimap.imap.topo.control.EmfTopoManager" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="true" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="serialnumber" value="32" />
+				<PARA name="dependModules">
+            <VALUE  value="topoclient" />		
+            <VALUE  value="com.swimap.adapter.message.sm" />
+            <VALUE  value="com.swimap.adapter.message.resource" />	
+	      </PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

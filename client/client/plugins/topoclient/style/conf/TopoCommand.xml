@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+
+<DESC descname="TopoCommand">
+        <DESC descname="Topo_refreshStatus">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="refreshStatus"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_copyObject">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="copyObject"/>
+            <!-- <PARA name="operationID" value="31"/>-->
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_cutObject">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="cutObject"/>
+            <!-- <PARA name="operationID" value="31"/> -->
+            <PARA name="operationID" value="0"/>             
+            </PARAS>
+        </DESC>   
+
+        <DESC descname="Topo_pasteObject">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="pasteObject"/>
+            <!-- <PARA name="operationID" value="31"/> -->
+           <PARA name="operationID" value="0"/>          
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Topo_copyObjectTo">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="copyObjectTo"/>
+            <!-- <PARA name="operationID" value="31"/> -->
+            <PARA name="security" value="3"></PARA>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>   
+        
+        <DESC descname="Topo_moveObjectTo">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="moveObjectTo"/>
+            <!-- <PARA name="operationID" value="31"/> -->
+            <PARA name="operationID" value="0"/>   
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Topo_delObject">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="delObject"/>
+            <!-- <PARA name="operationID" value="397"/> -->
+            <PARA name="operationID" value="0"/>            
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_delDevice">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="delDevice"/>
+            <!-- <PARA name="operationID" value="397"/> -->
+          <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_modifyObject">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="modifyObject"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>   
+        
+        <DESC descname="Topo_expandLink">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="expandLink"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_aggregateLink">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="collapseLink"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>   
+
+        <DESC descname="Topo_pingDevice">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="ping"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+	<DESC descname="Topo_tracert">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="tracert"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>   
+
+	<DESC descname="Topo_telnet">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="telnet"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+
+	<DESC descname="Topo_SSH">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="ssh"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+
+        <DESC descname="Topo_backTrack">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="backTrack"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_createNode">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="createNode"/>
+            <!-- <PARA name="operationID" value="395"/> -->
+            <PARA name="operationID" value="0"/>          
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_createLink">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="createLink"/>
+            <PARA name="operationID" value="0"/>
+            <!-- don't author,code author
+            <PARA name="security" value="3"></PARA>
+            <PARA name="objectClassName" value="EAMAPP"></PARA>
+            <PARA name="accessID" value="Create_Link"></PARA> -->          
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_createSubmap">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="createSubmap"/>
+            <!-- <PARA name="operationID" value="395"/> -->
+           <PARA name="operationID" value="0"/>                      
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_saveTopoView">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="saveTopoView"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="Topo_ShowLinkInfo">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="showLinkInfo"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_showLayoutDialog">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="showLayoutDilog"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_setBackground">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="setBackground"/>
+            <!-- <PARA name="operationID" value="399"/> -->
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+
+        <DESC descname="Topo_setStartSubnet">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="setStartSubnet"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+
+        <DESC descname="Topo_expand">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="expand"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+
+        <DESC descname="Topo_collapse">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="collapse"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="Topo_getAlarmDialog">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="getAlarmDialog"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>  
+        
+        <DESC descname="Topo_remarkObject">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="remarkObject"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>  
+        
+        <!--
+        <DESC descname="Topo_nemonitor">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="nemonitor"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+        --> 
+        
+        <DESC descname="Topo_showLinkSet">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="showLinkSet"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+        
+        <DESC descname="Topo_createView">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="createView"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+        
+        <DESC descname="Topo_showHideRegionName">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="showHideRegionName"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+
+        <DESC descname="Topo_showHideLatiLongiLines">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="showHideLatiLongiLines"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC> 
+        
+        <!-- SRAN -->
+        <DESC descname="Topo_selectAssociatedNE">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="setTreeNodeSelected"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Topo_openInBrowser">
+            <PARAS>
+            <PARA name="actionType" value="ici"/>
+            <PARA name="moduleID" value="topoclient"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="methodName" value="openInBrowser"/>
+            <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Topo_addCrossLayerLink">
+            <PARAS>
+                <PARA name="actionType" value="ici"/>
+                <PARA name="moduleID" value="topoclient"/>
+                <PARA name="className"/>
+                <PARA name="processName"/>
+                <PARA name="methodName" value="addCrossLayerLink"/>
+                <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Topo_delCrossLayerLink">
+            <PARAS>
+                <PARA name="actionType" value="ici"/>
+                <PARA name="moduleID" value="topoclient"/>
+                <PARA name="className"/>
+                <PARA name="processName"/>
+                <PARA name="methodName" value="delCrossLayerLink"/>
+                <PARA name="operationID" value="0"/>
+            </PARAS>
+        </DESC>
+        
+</DESC>
+</AREADESC>
+</COMMINIDATA>

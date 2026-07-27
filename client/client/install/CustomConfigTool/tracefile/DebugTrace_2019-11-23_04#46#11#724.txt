@@ -1,0 +1,878 @@
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /upgrade/supportComponent values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/loginui/conf/loginui/loginuiconfig.xml  nodePath = /DoubleServerConfig/isSupportSecondaryServer values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /login/ShowLoginInfo values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /clientupgrade_mutex_paras/ClientUpgradeClassName values = {attribute0=com.swimap.update.ui.UpdateWizardFrame}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /clientupgrade_mutex_paras/ClientMainFrameClassName values = {attribute0=com.swimap.iview.framework.mainframe.MDIFrame}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /ShowTime/ShowOSTime values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml  nodePath = /config/ShowOperationMonitor values = {attribute0=false}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml  nodePath = /GrantAccess/isShowAllDomain values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /login/requiredPwdWhenSwitchServer values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /ShowIpServernameParam/ShowState values = {attribute0=1}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /ShowIpParam/PrefixOrPostfix values = {attribute0=2}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /ALLOW_LOGIN_FAILED_SETTING/ALLOW_LOGIN_FAILED_TIMES values = {attribute0=3}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml  nodePath = /ALLOW_UNLOCK_FAILED_SETTING/ALLOW_UNLOCK_FAILED_TIMES values = {attribute0=3}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/authentication/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/lm/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml  nodePath = /config/OperationMonitorCount values = {attribute0=5000}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml  nodePath = /config/OperationMonitorDeleteCount values = {attribute0=100}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/securitymanager/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/log/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/nelicense/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/log4j.properties  nodePath =  values = {log4j.logger.org.apache.commons=error, log4j.appender.file.File=var/log/DebugTrace.txt, log4j.rootLogger=debug,file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/locale/en_US/mainfrm/Res.properties
+client/style/productstyle/locale/zh_CN/mainfrm/Res.properties  nodePath =  values = {VersionID=U2000 200R013C00SPC210, AboutDialog_Version_Informatoin=U2000 200R013C00SPC210}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/abouttabpage.xml  nodePath =  values = {page2=delete, page1=delete}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = startup_all_global.sh
+  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = 
+startup_all_global.bat  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = startup_sysmonitor_global.sh  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = startup_sysmonitor_global.bat  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/sysmonitor/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/clientutil/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.ftpconf/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.iscript.app/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.itm/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/transmitlog/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/porttrunking/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/search/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/features/sysmonitor/feature.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/welcomepagesetting.xml  nodePath = welcomepage/pagesetting/ values = {isWorkBenchCloseable=false, enableMenuCopy=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/debugtracerfileconf.xml  nodePath = /debugTracerFileDelete/ values = {isDTFileToBeRemoved=false, totalNoOfFileToZip=20, maxNoOfZipFiles=2, maxSize=500, totalNoOfFileToRemove=20, totalNoOfZipFileToRemove=1}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/displaystylesettings.xml  nodePath = DisplayStyle/DisplayStyleSetting/loadStyle values = {attribute0=traditional}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/terminalmanager.xml  nodePath = /idleTimeSetting/idleTime values = {attribute0=10}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/UISkin.xml  nodePath = skin/skin/enable values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/security/SecurityConfig.xml  nodePath =  values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/style/productstyle/conf/mainfrm/clientsettingslist.xml  nodePath = /clientSettingsList/UpgradeSettingModule/ values = {clientSettingClassId=com.swimap.sm.client.base.upgradecheck.UpgradeSettingModule, moduleId=UpgradeSettingModule, sequenceId=6000}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/sysmonitor/conf/sys.xml  nodePath = /SystemMonitorConfigItems/startOrStopProcessTimeOutSecond values = {attribute0=600}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/sysmonitor/conf/sys.xml  nodePath = /SystemMonitorConfigItems/showDescriptionInDBPanel values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/sysmonitor/conf/sys.xml  nodePath = /SystemMonitorConfigItems/isShowSubSystemColumn values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/sysmonitor/style/productstyle/sysmonitor/conf/sys.xml  nodePath = /SystemMonitorConfigItems/startOrStopProcessTimeOutSecond values = {attribute0=600}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/sysmonitor/style/productstyle/sysmonitor/conf/sys.xml  nodePath = /SystemMonitorConfigItems/showDescriptionInDBPanel values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/sysmonitor/style/productstyle/sysmonitor/conf/sys.xml  nodePath = /SystemMonitorConfigItems/isShowSubSystemColumn values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/Experience/isShowReasonAndAdvicePanel values = {attribute0=false}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/IsEnableRegion/value values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/Correlative/isDisplayCorrelativeAlarm values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/popupmenu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/locale/zh_CN/IfmsAlarmQueryRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/locale/zh_CN/IfmsRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/integrate/complex/toolbar.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/locale/zh_CN/WelcomeButtonRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/locale/zh_CN/IfmsRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientgui/locale/zh_CN/WelcomeButtonRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientgui/locale/zh_CN/IfmsRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/complex/toolbar.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/app/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/defaultuser.xml  nodePath = AlarmDisplayModeSettins/AlarmDisplayMode/displayMode values = {attribute0=1}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/defaultuser.xml  nodePath = AlarmDisplayModeSettins/AlarmDisplayMode/ values = {ackAndclear=193-249-203, ackAndUnclear=227-231-232, unAckAndclear=193-249-203, unAckAndUnclear=227-231-232}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/EventLamp/visible values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/OptionPanel/AutoSynchronize/visible values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/IsDispUnclearSumOnLamp/value values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/defaultuser.xml  nodePath = AlarmLampSetting/AlarmLampTipsMode/displayMode values = {attribute0=1}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/alarmcolumn.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/popupmenu.xm  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml  nodePath = ConfigData/DumpPath/editable values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/alarmstatistic.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/integrate/app/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/locale/zh_CN/Res.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/locale/zh_CN/welcomebuttonres.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/nemonitor/integrate/complex/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/integrate/app/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/locale/zh_CN/TopoMenuRes.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.tm/conf/topo/TopoConfig.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.tm/locale/zh_CN/topo/topores.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/locale/zh_CN/welcomebuttonres.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/integrate/complex/menu.xml/welcomebutton.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.projectdoc/integrate/complex/menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.projectdoc/locale/zh_CN/projdoc/projdocres.properties  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = topo/topo/TOOLTIP_INITIAL_DELAY_TIME values = {attribute0=200}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = topo/topo/support_customview values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = topo/topo/showStatistic values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = topo/topo/isConvergeFilterStatus values = {attribute0=false}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = topo/topo/supportAlias values = {attribute0=1}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = viewzZoomScaleParam/viewzZoomScaleParam/ values = {view_min_scale=0.25}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = viewzZoomScaleParam/viewzZoomScaleParam/ values = {view_min_label_scale=1}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topoSet.xml  nodePath = STATISTIC_INFO/STATISTIC_INFO/SHOW_DEVICE_PANEL values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topotoolbar.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/submap_bg_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/SubmapPopupMenu_panel_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/SubmapPopupMenu_view_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/TwoObjectPopupMenu_panel_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/TwoObjectPopupMenu_view_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/NodePopupMenu_panel_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/NodePopupMenu_view_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ContainerPopupMenu_panel_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ContainerPopupMenu_view_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ObjectCommonPopupMenu_panel_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ObjectCommonPopupMenu_view_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/PhysicalLink_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/DisplayLink_menu.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/resource/conf/commonresource.xml  nodePath =  values = {attribute0=file}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/conf/eam-config.xml  nodePath = common/common/NAME_LENGTH values = {attribute0=128}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/eam/conf/eam-config.xml  nodePath = DISPLAY_JOIN_SEARCH_CHECKBOX/DISPLAY_JOIN_SEARCH_CHECKBOX/ values = {DISPLAY_JOIN_SEARCH_CHECKBOX=false}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml  nodePath = topo/topo/isSupportShowAlarmIcon values = {attribute0=true}  
+[main]11-23-2019 04:46:11 | INFO  | ProductCustomFileFactory | loadConfigFile | parse config infoConfigFileInfo  destPath = script/config/productconfig/gui/online/gui_config.properties  nodePath =  values = {ShowiSStarServerTaskPanel=false}  
+[main]11-23-2019 04:46:11 | INFO  | Utils | handleFileRename |  rename failed : gui_config.properties  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryProperties | custom |   
+java.io.FileNotFoundException: D:\OSS\client\script\config\productconfig\gui\online\gui_config.properties.saltedfish (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.swimap.iview.util.FortifyTools.createFileInPutstream(FortifyTools.java:148)
+	at com.swimap.iview.util.FileEncodingDetector.detectEncodingFromFile(FileEncodingDetector.java:91)
+	at com.swimap.iview.util.FileEncodingDetector.detect(FileEncodingDetector.java:124)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryProperties.custom(ModifyProductCustomEntryProperties.java:66)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryProperties | custom | trace Exception.  
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryProperties | custom | D:\OSS\client\script/config/productconfig/gui/online/gui_config.propertiesis not found =_=!!!  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topo-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\loadedcell.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\defaultuser.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\defaultuser.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\alarmclientbase\conf\defaultuser.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\loginui\conf\loginui\loginuiconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\authentication\conf\authentication\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\sysmonitor\conf\sys.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\sysmonitor\conf\sys.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\sysmonitor\conf\sys.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | DEBUG | IVIEW | FileEncodingDetector | detectEncodingFromFile | Encoding of file:D:\OSS\client\client\log4j.properties.saltedfish is :ASCII  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\topoclient\conf\topoSet.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\eam\conf\eam-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\eam\conf\eam-config.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\securitymanager\conf\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\securitymanager\conf\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\securitymanager\conf\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+java.io.FileNotFoundException: D:\OSS\client\client\plugins\U2000_Solution\style\productstyle\securitymanager\conf\securityconfig.xml (The system cannot find the path specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:72)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:11 | INFO  | Utils | handleFileRename |  rename failed : Res.properties  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryProperties | custom |   
+java.io.FileNotFoundException: D:\OSS\client\client\style\productstyle\locale\en_US\mainfrm\Res.properties
+client\style\productstyle\locale\zh_CN\mainfrm\Res.properties.saltedfish (The filename, directory name, or volume label syntax is incorrect)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at com.swimap.iview.util.FortifyTools.createFileInPutstream(FortifyTools.java:148)
+	at com.swimap.iview.util.FileEncodingDetector.detectEncodingFromFile(FileEncodingDetector.java:91)
+	at com.swimap.iview.util.FileEncodingDetector.detect(FileEncodingDetector.java:124)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryProperties.custom(ModifyProductCustomEntryProperties.java:66)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryProperties | custom | trace Exception.  
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryProperties | custom | D:\OSS\client\client/style/productstyle/locale/en_US/mainfrm/Res.properties
+client/style/productstyle/locale/zh_CN/mainfrm/Res.propertiesis not found =_=!!!  
+[main]11-23-2019 04:46:11 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:11 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  
+[main]11-23-2019 04:46:12 | ERROR | ModifyProductCustomEntryXML | writeNormalConfig |   
+org.jdom2.input.JDOMParseException: Error on line 2: DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:232)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:253)
+	at org.jdom2.input.SAXBuilder.build(SAXBuilder.java:1091)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.writeNormalConfig(ModifyProductCustomEntryXML.java:74)
+	at com.swimap.install.config.customentry.ModifyProductCustomEntryXML.custom(ModifyProductCustomEntryXML.java:53)
+	at com.swimap.install.config.customentry.ProductCustomFile.custom(ProductCustomFile.java:56)
+	at com.swimap.install.config.Starter.main(Starter.java:59)
+Caused by: org.xml.sax.SAXParseException; lineNumber: 2; columnNumber: 10; DOCTYPE is disallowed when the feature "http://apache.org/xml/features/disallow-doctype-decl" set to true.
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.createSAXParseException(ErrorHandlerWrapper.java:203)
+	at com.sun.org.apache.xerces.internal.util.ErrorHandlerWrapper.fatalError(ErrorHandlerWrapper.java:177)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:400)
+	at com.sun.org.apache.xerces.internal.impl.XMLErrorReporter.reportError(XMLErrorReporter.java:327)
+	at com.sun.org.apache.xerces.internal.impl.XMLScanner.reportFatalError(XMLScanner.java:1472)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl$PrologDriver.next(XMLDocumentScannerImpl.java:914)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentScannerImpl.next(XMLDocumentScannerImpl.java:602)
+	at com.sun.org.apache.xerces.internal.impl.XMLNSDocumentScannerImpl.next(XMLNSDocumentScannerImpl.java:112)
+	at com.sun.org.apache.xerces.internal.impl.XMLDocumentFragmentScannerImpl.scanDocument(XMLDocumentFragmentScannerImpl.java:505)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:842)
+	at com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(XML11Configuration.java:771)
+	at com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(XMLParser.java:141)
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(AbstractSAXParser.java:1213)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(SAXParserImpl.java:643)
+	at org.jdom2.input.sax.SAXBuilderEngine.build(SAXBuilderEngine.java:217)
+	... 6 more
+[main]11-23-2019 04:46:12 | INFO  | ModifyProductCustomEntryXML | writeNormalConfig | trace Exception.  

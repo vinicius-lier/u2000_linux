@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>logdb</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>logdbdata</devicename>
+	<filename>logdb_data.mdf</filename>
+	<dbsize>300</dbsize>
+	<dbmaxsize>2000</dbmaxsize>
+	<dbthreshold>100</dbthreshold>
+	<dbfilegrowth>100</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>logdblog</logdevicename>
+	<logfilename>logdb_log.ldf</logfilename>
+	<logsize>300</logsize>
+	<logmaxsize>300</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

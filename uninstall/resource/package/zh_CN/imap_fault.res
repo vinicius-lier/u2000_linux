@@ -1,0 +1,2 @@
+imap_fault=故障管理子系统
+imap_fault.InstallInfo=提供监控网管告警、处理告警和设置告警自动处理等功能

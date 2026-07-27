@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+
+<!--define a menuSet
+menuSet:
+        descname as the menuSet's id, must be unique.
+        must have a type para, and the value is "MenuSet"
+
+JMenu:(super class must be JMenu)
+        descname as the menuID.
+        must hava a type para, and the value is "JMenu"
+
+JMenu's sub element
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+-->
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="IfmsRes"></PARA>
+    </PARAS>
+</DESC>
+
+<!--mainMenu MenuSet type start -->
+<DESC descname="mainMenu">
+    <PARAS>
+    <PARA name="name" value="main Menu"></PARA>
+    <PARA name="type" value="MenuSet"></PARA>
+    </PARAS>
+
+    <DESC descname="AlarmListMenu">
+        <PARAS>
+        <PARA name="name" value="AlarmListMenu"></PARA>
+        <PARA name="mnemonic" value="A"></PARA>
+        <PARA name="accelerator" value="VK_A"></PARA>
+        <PARA name="type" value="JMenu"></PARA>
+        <PARA name="icon" value=""></PARA>
+        <PARA name="serialnumber" value="200"></PARA>
+        </PARAS>
+           <DESC descname="Fault Query">
+                   <PARAS>
+                   <PARA name="name" value="Fault_Query"></PARA>
+                   <PARA name="icon" value=""></PARA>
+                   <PARA name="command" value="FaultQuery"></PARA>
+                   <PARA name="type" value="JMenuItem"></PARA>
+                   <PARA name="mnemonic" value="W"></PARA>
+                   <PARA name="accelerator" value="VK_C"></PARA>
+                   <PARA name="serialnumber" value="200-10"></PARA>
+                   </PARAS>
+           </DESC>
+
+
+
+          <DESC descname="Fault_Browse">
+                  <PARAS>
+                  <PARA name="name" value="Fault_Browse"></PARA>
+                  <PARA name="icon" value=""></PARA>
+                  <PARA name="command" value="BrowseFaultAlarm"></PARA>
+                  <PARA name="type" value="JMenuItem"></PARA>
+                  <PARA name="mnemonic" value="R"></PARA>
+                  <PARA name="accelerator" value="VK_R"></PARA>
+                  <PARA name="serialnumber" value="200-70"></PARA>
+                  </PARAS>
+          </DESC>
+
+
+
+          <DESC descname="Separator">
+                  <PARAS>
+                  <PARA name="name" value="Separator"></PARA>
+                  <PARA name="type" value="Separator"></PARA>
+                  <PARA name="serialnumber" value="200-90"></PARA>
+                  </PARAS>
+          </DESC>
+
+          <DESC descname="Alarm Board">
+                  <PARAS>
+                  <PARA name="name" value="Alarm_Board"></PARA>
+                  <PARA name="icon" value=""></PARA>
+                  <PARA name="command" value="AlarmBoard"></PARA>
+                  <PARA name="type" value="JMenuItem"></PARA>
+                  <PARA name="mnemonic" value="B"></PARA>
+                  <PARA name="itemType" value="CheckBox"/>
+                  <PARA name="accelerator" value="VK_B"></PARA>
+                  <PARA name="serialnumber" value="200-130"></PARA>
+                  </PARAS>
+          </DESC>
+          
+          <DESC descname="Separator">
+                  <PARAS>
+                  <PARA name="name" value="Separator"></PARA>
+                  <PARA name="type" value="Separator"></PARA>
+                  <PARA name="serialnumber" value="200-150"></PARA>
+                  </PARAS>
+          </DESC>
+          
+          <DESC descname="Stop_Alarm_Board_Sonund">
+                  <PARAS>
+                  <PARA name="name" value="Stop_Alarm_Board_Sonund"></PARA>
+                  <PARA name="icon" value=""></PARA>
+                  <PARA name="command" value="StopAlarmBoardSound"></PARA>
+                  <PARA name="type" value="JMenuItem"></PARA>
+                  <PARA name="mnemonic" value="T"></PARA>
+                  <PARA name="itemType" value="CheckBox"/>
+                  <PARA name="accelerator" value="VK_T"></PARA>
+                  <PARA name="serialnumber" value="200-140"></PARA>
+                  </PARAS>
+          </DESC>
+
+    </DESC>
+    <DESC descname="AlarmLogMeun">
+        <PARAS>
+        <PARA name="name" value="AlarmLogMeun"></PARA>
+        <PARA name="mnemonic" value="L"></PARA>
+        <PARA name="accelerator" value="VK_L"></PARA>
+        <PARA name="type" value="JMenu"></PARA>
+        <PARA name="icon" value=""></PARA>
+        <PARA name="serialnumber" value="200"></PARA>
+        </PARAS>
+           <DESC descname="History Query">
+                   <PARAS>
+                   <PARA name="name" value="History_Query"></PARA>
+                   <PARA name="icon" value=""></PARA>
+                   <PARA name="command" value="HistoryQuery"></PARA>
+                   <PARA name="type" value="JMenuItem"></PARA>
+                   <PARA name="mnemonic" value="H"></PARA>
+                   <PARA name="accelerator" value="VK_H"></PARA>
+                   <PARA name="serialnumber" value="200-20"></PARA>
+                   </PARAS>
+           </DESC>
+           <DESC descname="Event Query">
+                   <PARAS>
+                   <PARA name="name" value="Event_Query"></PARA>
+                   <PARA name="icon" value=""></PARA>
+                   <PARA name="command" value="EventQuery"></PARA>
+                   <PARA name="type" value="JMenuItem"></PARA>
+                   <PARA name="mnemonic" value="E"></PARA>
+                   <PARA name="accelerator" value="VK_E"></PARA>
+                   <PARA name="serialnumber" value="200-30"></PARA>
+                   </PARAS>
+           </DESC>
+
+
+          <DESC descname="Separator">
+                  <PARAS>
+                  <PARA name="name" value="Separator"></PARA>
+                  <PARA name="type" value="Separator"></PARA>
+                  <PARA name="serialnumber" value="200-60"></PARA>
+                  </PARAS>
+          </DESC>
+
+          <DESC descname="Alarm_Statistic_Fault">
+                  <PARAS>
+                  <PARA name="name" value="Alarm_Statistic_Fault"></PARA>
+                  <PARA name="icon" value=""></PARA>
+                  <PARA name="command" value="AlarmStatistic_Fault"></PARA>
+                  <PARA name="type" value="JMenuItem"></PARA>
+                  <PARA name="mnemonic" value="U"></PARA>
+                  <PARA name="accelerator" value="VK_A"></PARA>
+                  <PARA name="serialnumber" value="200-100"></PARA>
+                  </PARAS>
+          </DESC>
+
+          <DESC descname="Alarm_Statistic_Event">
+                  <PARAS>
+                  <PARA name="name" value="Alarm_Statistic_Event"></PARA>
+                  <PARA name="icon" value=""></PARA>
+                  <PARA name="command" value="AlarmStatistic_Event"></PARA>
+                  <PARA name="type" value="JMenuItem"></PARA>
+                  <PARA name="mnemonic" value="V"></PARA>
+                  <PARA name="accelerator" value="VK_V"></PARA>
+                  <PARA name="serialnumber" value="200-110"></PARA>
+                  </PARAS>
+          </DESC>
+		  
+		  <DESC descname="Alarm_Statistic_Subnet">
+			<PARAS>
+				<PARA name="name" value="Alarm_Statistic_Subnet" />
+				<PARA name="icon" value="" />
+				<PARA name="command" value="AlarmStatistic_Subnet" />
+				<PARA name="type" value="JMenuItem" />
+				<PARA name="mnemonic" value="B" />
+				<PARA name="accelerator" value="VK_B" />
+				<PARA name="serialnumber" value="200-115" />
+			</PARAS>
+		  </DESC>
+
+          <DESC descname="Separator">
+                  <PARAS>
+                  <PARA name="name" value="Separator"></PARA>
+                  <PARA name="type" value="Separator"></PARA>
+                  <PARA name="serialnumber" value="200-120"></PARA>
+                  </PARAS>
+          </DESC>
+
+        <DESC descname="NE_Synchronize">
+                <PARAS>
+                <PARA name="name" value="NE_Synchronize"/>
+                <PARA name="icon" value=""/>
+                <PARA name="command" value="ProcessNESynchronize"/>
+                <PARA name="mnemonic" value="N"/>
+                <PARA name="accelerator" value="VK_N"/>
+     		        <PARA name="type" value="JMenuItem"/>
+                <PARA name="serialnumber" value="200-180"></PARA>
+                </PARAS>
+        </DESC>
+    </DESC>
+    <DESC descname="AlarmSettingMenu">
+        <PARAS>
+        <PARA name="name" value="AlarmSettingMenu"></PARA>
+        <PARA name="mnemonic" value="E"></PARA>
+        <PARA name="accelerator" value="VK_E"></PARA>
+        <PARA name="type" value="JMenu"></PARA>
+        <PARA name="icon" value=""></PARA>
+        <PARA name="serialnumber" value="200"></PARA>
+        </PARAS>
+
+
+          <DESC descname="Alarm Box">
+                  <PARAS>
+                  <PARA name="name" value="Alarm_Box"></PARA>
+                  <PARA name="icon" value=""></PARA>
+                  <PARA name="command" value="AlarmBoxManager"></PARA>
+                  <PARA name="type" value="JMenuItem"></PARA>
+                  <PARA name="mnemonic" value="X"></PARA>
+                  <PARA name="accelerator" value="VK_X"></PARA>
+                  <PARA name="serialnumber" value="200-160"></PARA>
+                  </PARAS>
+          </DESC>
+          <DESC descname="Separator">
+                  <PARAS>
+                  <PARA name="name" value="Separator"></PARA>
+                  <PARA name="type" value="Separator"></PARA>
+                  <PARA name="serialnumber" value="200-120"></PARA>
+                  </PARAS>
+          </DESC>
+
+    </DESC>
+</DESC>
+<!-- mainMenu MenuSet type ended -->
+
+</AREADESC>
+</COMMINIDATA>

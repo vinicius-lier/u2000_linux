@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="DeviceOperationLog">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="-1"   value="Operation failed. Possible causes: 1. The server does not work properly. 2. The client fails to communicate with the server. If the problem remains unsolved, please contact the administrator." />
+                <PARA name="67108867"    value="license file is not exist!" />
+                <PARA name="67108868"    value="The license is invalid. Please select a valid license for update. " />
+                <PARA name="67108870"    value="get ESN error!" />
+                <PARA name="67108872"   value="write license file error." />
+                <PARA name="67108873"    value="Database operation failed." />
+                <PARA name="67108874"   value="Read license file fail." />
+                <PARA name="67108875"   value="write license file fail." />
+                <PARA name="67108876"   value="Failed to unlink file, Maybe old file is read-only." />
+                <PARA name="67108877"   value="can't get the License item information" />
+                <PARA name="67108878"   value="It is not allowed to update a formal license file to a temporary license file." />
+                <PARA name="67108879"   value="The quantity defined in the license is smaller than the consumption of the system. Please select an appropriate license for update." />                                                                            	
+                <PARA name="67108882"   value="The license control item required by the system does not exist. Please select an appropriate license for update." />                                                                            	
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

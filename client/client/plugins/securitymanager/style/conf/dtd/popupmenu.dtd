@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<!ELEMENT popupMenu ( menu*) >
+
+<!ELEMENT menu ( name , nodeType*, menuItem* , separator* ) >
+
+<!ELEMENT separator (operator? , (previous-item | next-item)? )>
+
+<!ELEMENT menuItem ( name, operator? , (previous-item | next-item)? , mnemonic?, methodName, objectClassName?, accessID? ,extraType?) >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT nodeType ( #PCDATA ) >
+
+<!ELEMENT mnemonic ( #PCDATA ) >
+
+<!ELEMENT methodName ( #PCDATA ) >
+
+<!ELEMENT objectClassName ( #PCDATA ) >
+
+<!ELEMENT accessID ( #PCDATA ) >
+
+<!ELEMENT extraType ( #PCDATA ) >
+
+<!ELEMENT operator ( #PCDATA ) >
+
+<!ELEMENT previous-item ( #PCDATA ) >
+
+<!ELEMENT next-item ( #PCDATA ) >
+
+
+
+
+

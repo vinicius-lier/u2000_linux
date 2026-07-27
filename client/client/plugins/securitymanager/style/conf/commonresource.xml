@@ -1,0 +1,359 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+
+<AREADESC areaname="ProductType">
+  <DESC descname="OMCS">
+      <PARAS>
+         <PARA name="id" value="2"/>
+         <PARA name="label" value="OSSES"/>
+         <PARA name="netype-list" value="0,1,2,3,4,5,6,7,8" type ="reserved" />
+      </PARAS>
+  </DESC>
+  <DESC descname="OMC">
+      <PARAS>
+         <PARA name="id" value="6"/>
+         <PARA name="label" value="OSS"/>
+         <PARA name="netype-list" value="100000"/>
+      </PARAS>
+  </DESC>
+</AREADESC>
+
+
+<!--Define Subnet's Type, the areaname can't be changed-->
+<AREADESC areaname="SubnetType">
+  <DESC descname="physical-root">
+      <PARAS>
+         <PARA name="id" value="0"/>
+         <!-- -1: Physical-Root, -2: Logical-Root,0: Physical Subnet, 1: Logical Subnet, 2: Machine Subnet -->
+         <PARA name="kind" value="-1"/>
+         <PARA name="label" value="Root"/>
+         <PARA name="tree-icon" value="image/subnet/root16x16.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="logical-root">
+      <PARAS>
+         <PARA name="id" value="1"/>
+         <PARA name="kind" value="-2"/>
+         <PARA name="label" value="Root"/>
+         <PARA name="tree-icon" value="image/subnet/root16x16.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="machine-root">
+      <PARAS>
+         <PARA name="id" value="2"/>
+         <PARA name="kind" value="-3"/>
+         <PARA name="label" value="Root"/>
+         <PARA name="tree-icon" value="image/subnet/root16x16.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="PhysicalCommonSubnet">
+      <PARAS>
+         <PARA name="id" value="200"/>
+         <!-- -1: Physical-Root, -2: Logical-Root,0: Physical Subnet, 1: Logical Subnet, 2: Machine Subnet -->
+         <PARA name="kind" value="0"/>
+         <PARA name="label" value="ordinary"/>
+         <PARA name="tree-icon" value="image/subnet/physicalsubnet16x16.gif"/>
+         <PARA name="map-icon" value="image/subnet/physicalsubnet24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="LogicalViewSubnet">
+      <PARAS>
+         <PARA name="id" value="260"/>
+         <!-- 0: Physical Subnet, 1: Logical Subnet, 2: Machine Subnet -->
+         <PARA name="kind" value="1"/>
+         <PARA name="label" value="logical_view"/>
+         <PARA name="tree-icon" value="image/subnet/logicview16x16.gif"/>
+         <PARA name="map-icon" value="image/subnet/logicview24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="LogicalCommonSubnet">
+      <PARAS>
+         <PARA name="id" value="250"/>
+         <!-- 0: Physical Subnet, 1: Logical Subnet, 2: Machine Subnet -->
+         <PARA name="kind" value="1"/>
+         <PARA name="label" value="logical_subnet"/>
+         <PARA name="tree-icon" value="image/subnet/logicviewsubnet16x16.gif"/>
+         <PARA name="map-icon" value="image/subnet/logicviewsubnet24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="MachineCommonSubnet">
+      <PARAS>
+         <PARA name="id" value="300"/>
+         <!-- 0: Physical Subnet, 1: Logical Subnet, 2: Machine Subnet -->
+         <PARA name="kind" value="2"/>
+         <PARA name="label" value="ordinary"/>
+         <PARA name="tree-icon" value="image/subnet/physicalsubnet16x16.gif"/>
+         <PARA name="map-icon" value="image/subnet/physicalsubnet24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <!--attention: you must put the special type at the last postion--> 
+  <DESC descname="mscpool-root">
+      <PARAS>
+         <PARA name="id" value="203"/>
+         <!-- -1: Physical-Root, -2: Logical-Root,0: Physical Subnet, 1: Logical Subnet, 2: Machine Subnet -->
+         <PARA name="kind" value="0"/>
+         <PARA name="label" value="Root"/>
+         <PARA name="tree-icon" value="image/subnet/root16x16.gif"/>
+      </PARAS>
+  </DESC>
+   
+</AREADESC>
+
+<!--Define Link's Type, the areaname can't be changed-->
+<AREADESC areaname="LinkType">
+  <DESC descname="VirtulLink">
+      <PARAS>
+         <PARA name="id" value="10"/>
+         <PARA name="label" value="virtual_link"/>
+         <!--The default value is true if not define alarm-enable -->
+         <PARA name="alarm-enable" value="false"/>
+         <PARA name="tree-icon" value="image/link/virtuallink16x16.gif"/>
+         <PARA name="map-icon" value="image/link/virtuallink24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="LinkSet">
+      <PARAS>
+         <PARA name="id" value="-1"/>
+         <PARA name="label" value="link_set"/>
+         <PARA name="isContainer" value="true"/>
+         <PARA name="tree-icon" value="image/link/linkset16x16.gif"/>
+         <PARA name="map-icon" value="image/link/linkset24x24.gif"/>
+      </PARAS>
+  </DESC>
+</AREADESC>
+
+<!--Define NE's Type, the areaname can't be changed-->
+<AREADESC areaname="NEType">
+  <DESC descname="VirtulNE">
+      <PARAS>
+         <PARA name="id" value="301"/>
+         <PARA name="label" value="virtual_node"/>
+         <!--The default value is true if not define alarm-enable -->
+         <PARA name="alarm-enable" value="false"/>
+         <PARA name="NESynchronize-enable" value="false" />
+         <PARA name="AlarmSynchronize-enable" value="false" />
+         <PARA name="isTrueNE" value="false" />
+         <PARA name="tree-icon" value="image/node/virtualnode16x16.gif"/>
+         <PARA name="map-icon" value="image/node/virtualnode24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="OMC">
+      <PARAS>
+         <PARA name="id" value="100000"/>
+         <PARA name="label" value="OSS"/>
+         <PARA name="tree-icon" value="image/node/nms16x16.gif"/>
+         <PARA name="map-icon" value="image/node/nms24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="MSC">
+      <PARAS>
+         <PARA name="id" value="1000"/>
+         <PARA name="label" value="MSC"/>
+         <PARA name="tree-icon" value="image/node/msc16x16.gif"/>
+         <PARA name="map-icon" value="image/node/msc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="RNC">
+      <PARAS>
+         <PARA name="id" value="1001"/>
+         <PARA name="label" value="RNC"/>
+         <PARA name="tree-icon" value="image/node/rnc16x16.gif"/>
+         <PARA name="map-icon" value="image/node/rnc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <!--<DESC descname="NodeB">
+      <PARAS>
+         <PARA name="id" value="2"/>
+         <PARA name="label" value="NodeB"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="SGSN">
+      <PARAS>
+         <PARA name="id" value="3"/>
+         <PARA name="label" value="SGSN"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="GGSN">
+      <PARAS>
+         <PARA name="id" value="4"/>
+         <PARA name="label" value="GGSN"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="CG">
+      <PARAS>
+         <PARA name="id" value="5"/>
+         <PARA name="label" value="CG"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="SoftX">
+      <PARAS>
+         <PARA name="id" value="6"/>
+         <PARA name="label" value="SoftX"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="MGW">
+      <PARAS>
+         <PARA name="id" value="7"/>
+         <PARA name="label" value="MGW"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>
+  <DESC descname="HLR">
+      <PARAS>
+         <PARA name="id" value="8"/>
+         <PARA name="label" value="HLR"/>
+         <PARA name="tree-icon" value="image/omc16x16.gif"/>
+         <PARA name="map-icon" value="image/omc24x24.gif"/>
+      </PARAS>
+  </DESC>-->
+</AREADESC>
+
+<!--Define State's Type, the areaname can't be changed-->
+<AREADESC areaname="StateType">
+   <DESC descname="NotConfigurated">
+      <PARAS>
+       <PARA name="id" value="1001"/>
+       <PARA name="label" value="NotConfigurated"/>
+       <PARA name="icon" value="image/state/state_ne_non_configured.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Configurated">
+      <PARAS>
+       <PARA name="id" value="1002"/>
+       <PARA name="label" value="Configurated"/>
+       <PARA name="icon" value="image/state/state_ne_configured.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="ContainAlarm">
+      <PARAS>
+       <PARA name="id" value="1125"/>
+       <PARA name="label" value="ContainAlarm"/>
+       <PARA name="icon" value="image/alarm.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="UnknownType">
+      <PARAS>
+       <PARA name="id" value="1135"/>
+       <PARA name="label" value="UnknownType"/>
+       <PARA name="icon" value="image/unknowntype.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="ThreeStates">
+      <PARAS>
+       <PARA name="id" value="1145"/>
+       <PARA name="label" value="ThreeStates"/>
+       <PARA name="icon" value="image/state/three_states.png"/>
+      </PARAS>
+   </DESC>
+</AREADESC>
+
+<!--Define  Link State's Type, the areaname can't be changed-->
+<AREADESC areaname="LinkStateType">
+   <!--
+   <DESC descname="NotConfigurated">
+      <PARAS>
+       <PARA name="id" value="1001"/>
+       <PARA name="label" value="NotConfigurated"/>
+       <PARA name="icon" value="image/state/state_ne_non_configured.gif"/>
+      </PARAS>
+   </DESC>
+   -->
+</AREADESC>
+
+<!--Define Alarm's Level, the areaname can't be changed-->
+<AREADESC areaname="AlarmLevel">
+   <DESC descname="Level1">
+      <PARAS>
+       <PARA name="id" value="1"/>
+       <PARA name="label" value="Critical"/>
+       <!--the value must be a char which will displayed in alarm Bumbble of ne-->
+       <PARA name="synopsis" value="C"/>
+       <PARA name="color" value="196-48-45"/>
+       <PARA name="sound" value="style/defaultstyle/conf/alarmclient/Critical.wav"/>
+       <PARA name="sound-delay" value="1"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="0"/>
+       <PARA name="sound-interval"  value="0"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Level2">
+      <PARAS>
+       <PARA name="id" value="2"/>
+       <PARA name="label" value="Major"/>
+       <PARA name="synopsis" value="M"/>
+       <PARA name="color" value="222-149-34"/>
+       <PARA name="sound" value="style/defaultstyle/conf/alarmclient/Major.wav"/>
+       <PARA name="sound-delay" value="1"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="0"/>
+       <PARA name="sound-interval"  value="0"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Level3">
+      <PARAS>
+       <PARA name="id" value="3"/>
+       <PARA name="label" value="Minor"/>
+       <PARA name="synopsis" value="N"/>
+       <PARA name="color" value="228-220-138"/>
+       <PARA name="sound" value="style/defaultstyle/conf/alarmclient/Minor.wav"/>
+       <PARA name="sound-delay" value="1"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="0"/>
+       <PARA name="sound-interval"  value="0"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Level4">
+      <PARAS>
+       <PARA name="id" value="4"/>
+       <PARA name="label" value="Warning"/>
+       <PARA name="synopsis" value="W"/>
+       <PARA name="color" value="151-178-191"/>
+       <PARA name="sound" value="style/defaultstyle/conf/alarmclient/Warning.wav"/>
+       <PARA name="sound-delay" value="1"/>
+       <PARA name="isSounding" value="true"/>
+       <PARA name="highLightTime" value="0"/>
+       <PARA name="sound-interval"  value="0"/>
+      </PARAS>
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="ContainAlarmStateType">
+   <DESC descname="containCriticalAlarm">
+      <PARAS>
+       <PARA name="id" value="1"/>
+       <PARA name="label" value="containCriticalAlarm"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="containMajorAlarm">
+      <PARAS>
+       <PARA name="id" value="2"/>
+       <PARA name="label" value="containMajorAlarm"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="containMinorAlarm">
+      <PARAS>
+       <PARA name="id" value="3"/>
+       <PARA name="label" value="containMinorAlarm"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="containWarningAlarm">
+      <PARAS>
+       <PARA name="id" value="4"/>
+       <PARA name="label" value="containWarningAlarm"/>
+      </PARAS>
+   </DESC>
+</AREADESC>
+</COMMINIDATA>
+

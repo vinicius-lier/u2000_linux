@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<!--
+			子系统的基本内容描述，
+			ID      表示子系统的唯一标识,该属性是必须的
+			Label   该子系统的名字，该属性是必须的
+			IMage   子系统图标对应的文件位置，这个是可选的
+		-->
+		<DESC descname="feature">
+			<PARAS>
+				<PARA name="id" value="nml_otn"></PARA>
+				<PARA name="label" value="nml_otn"></PARA>
+			</PARAS>
+		</DESC>
+		<!-- 子系统的其他属性描述 -->
+		<DESC descname="extra">
+			<PARAS>
+				<!-- 子系统版本，用于显示在关于对话框中 -->
+				<PARA name="about.version" value="about.version"></PARA>
+				<!-- 子系统描述，用于显示在关于对话框中 -->
+				<PARA name="about.desc" value="about.desc"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="plugins">
+			<PARAS>
+			  <PARA name="nml_otn"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

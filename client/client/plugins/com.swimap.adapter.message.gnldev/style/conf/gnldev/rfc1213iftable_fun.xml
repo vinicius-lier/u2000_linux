@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="rfc1213iftable">
+			<PARAS />
+			<DESC descname="rfc1213iftable">
+				<PARAS>
+					<PARA name="HelpID" value="rfc1213iftable.helpid" />
+					<PARA name="Refresh" value="0" />
+				</PARAS>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="0" />
+						<PARA name="AttribName" value="ifIndex" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+						<PARA name="ObjLevel" value="ID1" />
+						<PARA name="AttribType" value="ObjTag" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="1" />
+						<PARA name="AttribName" value="ifDescr" />
+						<PARA name="Sort" value="No" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="" />
+						<PARA name="LengthMax" value="255" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="2" />
+						<PARA name="AttribName" value="ifType" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DataType" value="Enum" />
+						<PARA name="DefaultValue" value="other" />
+						<PARA name="EnumValue"
+							value="other,regular1822,hdh1822,ddn-x25,rfc877-x25,ethernet-csmacd,iso88023-csmacd,iso88024-tokenBus,iso88025-tokenRing,iso88026-man,starLan,proteon-10Mbit,proteon-80Mbit,hyperchannel,fddi,lapb,sdlc,ds1,e1,basicISDN,primaryISDN,propPointToPointSerial,ppp,softwareLoopback,eon,ethernet-3Mbit,nsip,slip,ultra,ds3,sip,frame-relay" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="3" />
+						<PARA name="AttribName" value="ifMtu" />
+						<PARA name="Sort" value="No" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="4" />
+						<PARA name="AttribName" value="ifSpeed" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="5" />
+						<PARA name="AttribName" value="ifPhysAddress" />
+						<PARA name="Sort" value="No" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DataType" value="Hex" />
+						<PARA name="DefaultValue"
+							value="00-00-00-00-00-00" />
+						<PARA name="Length" value="6" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="6" />
+						<PARA name="AttribName" value="ifAdminStatus" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DataType" value="Enum" />
+						<PARA name="DefaultValue" value="up" />
+						<PARA name="EnumValue" value="up,down,testing" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="7" />
+						<PARA name="AttribName" value="ifOperStatus" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DataType" value="Enum" />
+						<PARA name="DefaultValue" value="up" />
+						<PARA name="EnumValue" value="up,down,testing" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="8" />
+						<PARA name="AttribName" value="ifLastChange" />
+						<PARA name="Sort" value="No" />
+						<PARA name="DataType" value="DateTime" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Now" />
+						<PARA name="DateTimeType" value="Time" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="9" />
+						<PARA name="AttribName" value="ifInOctets" />
+						<PARA name="Sort" value="No" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="10" />
+						<PARA name="AttribName" value="ifInUcastPkts" />
+						<PARA name="Sort" value="No" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="11" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifInNUcastPkts" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="12" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifInDiscards" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="13" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifInErrors" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="14" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName"
+							value="ifInUnknownProtos" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="15" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifOutOctets" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="16" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifOutUcastPkts" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="17" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifOutNUcastPkts" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="18" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifOutDiscards" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="19" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifOutErrors" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="20" />
+						<PARA name="Sort" value="No" />
+						<PARA name="AttribName" value="ifOutQLen" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="999999999" />
+						<PARA name="ValueMin" value="0" />
+					</PARAS>
+				</DESC>
+				<DESC descname="ObjectLevel">
+					<PARAS>
+						<PARA name="ID0" value="NE" />
+						<PARA name="ID1" value="LGCINDEX" />
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

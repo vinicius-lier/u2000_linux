@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<!--
+			子系统的基本内容描述， ID 表示子系统的唯一标识,该属性是必须的 Label 该子系统的名字，该属性是必须的 IMage
+			子系统图标对应的文件位置，这个是可选的
+		-->
+		<DESC descname="feature">
+			<PARAS>
+				<PARA name="id" value="com.swimap.ftp"></PARA>
+				<PARA name="label" value="omc_name"></PARA>
+				<PARA name="image" value="icon.gif"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="extra">
+			<PARAS>
+				<!--由于流通的需要，这2项是必须的；用于此feature的版本和描述，和组件名称保持一致-->
+				<PARA name="about.version" value="about.version" />
+				<PARA name="about.desc" value="about.desc" />
+			</PARAS>
+		</DESC>
+		<DESC descname="plugins">
+			<PARAS>
+				<PARA name="com.swimap.ftp"></PARA>
+				<PARA name="com.swimap.ftpconf"></PARA>				
+			</PARAS>
+		</DESC>
+		<DESC descname="required-plugins">
+			<PARAS>		
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

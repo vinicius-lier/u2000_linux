@@ -1,0 +1,4 @@
+call env.bat
+cd ..\
+
+start javaw -classpath .\startuploader.jar -Xdebug -Xverify:all -Dparsertype=2 -Xms24m -Xmx256m -XX:+UseSerialGC -Dsun.java2d.noddraw=true -Dhelpapp=run_help.bat -XX:+HeapDumpOnOutOfMemoryError -Djava.library.path=..\cau\lib;.\update\lib;..\lib;..\script\lib\core\itf  -DExtesnionRigestry.debug=false -Djava.system.class.loader=com.swimap.startup.StartupClassLoader -DExtesionRegistry.cacheUse=true -Dscript.name="%~fp0" -DDSIP=tcp://127.0.0.1 -DDSPORT=31037 -DSingleFileChooserPath=true com.swimap.startclientinds.Main -debuglevel 1 -showtrace false -enabledebug false -tracefile DebugTrace.txt %*

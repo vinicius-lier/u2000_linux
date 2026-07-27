@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>     
+	<DESC descname="CommandInfo">
+                <DESC descname="49850">
+                    <PARAS>
+                         <PARA name="description" value="Query ATM interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49851">
+                    <PARAS>
+                         <PARA name="description" value="Query ATM interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49852">
+                    <PARAS>
+                         <PARA name="description" value="Configure ATM interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49853">
+                    <PARAS>
+                         <PARA name="description" value="Add ATM subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49854">
+                    <PARAS>
+                         <PARA name="description" value="Delete ATM subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49855">
+                    <PARAS>
+                         <PARA name="description" value="Query ATM PVC"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49858">
+                    <PARAS>
+                         <PARA name="description" value="Query Atm Service information"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49930">
+                    <PARAS>
+                         <PARA name="description" value="Query Interface Information of Common"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49931">
+                    <PARAS>
+                         <PARA name="description" value="Query General Interface Details"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49932">
+                    <PARAS>
+                         <PARA name="description" value="Configure interface information"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49933">
+                    <PARAS>
+                         <PARA name="description" value="Modify interface administrative status"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="11538749">
+                    <PARAS>
+                         <PARA name="description" value="Enable/Disable the function of suppressing interface Up/Down ala"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49938">
+                    <PARAS>
+                         <PARA name="description" value="Query Unnumbered IP Address"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49939">
+                    <PARAS>
+                         <PARA name="description" value="Add common interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49770">
+                    <PARAS>
+                         <PARA name="description" value="Query Cpos Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49771">
+                    <PARAS>
+                         <PARA name="description" value="Query Cpos Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49772">
+                    <PARAS>
+                         <PARA name="description" value="Configure Cpos Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49830">
+                    <PARAS>
+                         <PARA name="description" value="Query E1 Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49831">
+                    <PARAS>
+                         <PARA name="description" value="Query E1 Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49832">
+                    <PARAS>
+                         <PARA name="description" value="Configure E1 Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49835">
+                    <PARAS>
+                         <PARA name="description" value="Add E1 Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49836">
+                    <PARAS>
+                         <PARA name="description" value="Delete E1 Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49733">
+                    <PARAS>
+                         <PARA name="description" value="Add Ethernet subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49730">
+                    <PARAS>
+                         <PARA name="description" value="Query Ethernet Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49731">
+                    <PARAS>
+                         <PARA name="description" value="Query Ethernet Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49732">
+                    <PARAS>
+                         <PARA name="description" value="Configure Ethernet interface information"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49734">
+                    <PARAS>
+                         <PARA name="description" value="Add Ethernet sub-interfaces in batches"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49735">
+                    <PARAS>
+                         <PARA name="description" value="Delete Ethernet subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49737">
+                    <PARAS>
+                         <PARA name="description" value="NE_INTERFACE_CMD_SYNC_ETHERNET_INF"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49810">
+                    <PARAS>
+                         <PARA name="description" value="Query LoopBack Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49811">
+                    <PARAS>
+                         <PARA name="description" value="Query LoopBack Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49812">
+                    <PARAS>
+                         <PARA name="description" value="Add LoopBack Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49813">
+                    <PARAS>
+                         <PARA name="description" value="Delete LoopBack Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49814">
+                    <PARAS>
+                         <PARA name="description" value="Configure LoopBack Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49790">
+                    <PARAS>
+                         <PARA name="description" value="Query POS Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49791">
+                    <PARAS>
+                         <PARA name="description" value="Query POS Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49792">
+                    <PARAS>
+                         <PARA name="description" value="Configure POS Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49900">
+                    <PARAS>
+                         <PARA name="description" value="Query Serial Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49901">
+                    <PARAS>
+                         <PARA name="description" value="Query Serial Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49902">
+                    <PARAS>
+                         <PARA name="description" value="Configure Serial Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49750">
+                    <PARAS>
+                         <PARA name="description" value="Query trunk Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49751">
+                    <PARAS>
+                         <PARA name="description" value="Query trunk Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49752">
+                    <PARAS>
+                         <PARA name="description" value="Add trunk interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49753">
+                    <PARAS>
+                         <PARA name="description" value="Delete trunk interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49754">
+                    <PARAS>
+                         <PARA name="description" value="Configure trunk interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49755">
+                    <PARAS>
+                         <PARA name="description" value="Add Eth-Trunk subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49756">
+                    <PARAS>
+                         <PARA name="description" value="Delete Eth-Trunk subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49757">
+                    <PARAS>
+                         <PARA name="description" value="Configure Eth-Trunk subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49758">
+                    <PARAS>
+                         <PARA name="description" value="Query the trunk member interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47128">
+                    <PARAS>
+                         <PARA name="description" value="Query RPR Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47121">
+                    <PARAS>
+                         <PARA name="description" value="Delete RPR Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47122">
+                    <PARAS>
+                         <PARA name="description" value="Add RPR Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47133">
+                    <PARAS>
+                         <PARA name="description" value="Configure RPR Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47123">
+                    <PARAS>
+                         <PARA name="description" value="Configure RPR DataFrame"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47130">
+                    <PARAS>
+                         <PARA name="description" value="Add RPR StaticSelect"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47131">
+                    <PARAS>
+                         <PARA name="description" value="Delete RPR StaticSelect"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47124">
+                    <PARAS>
+                         <PARA name="description" value="Configure RPR FairArith"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47125">
+                    <PARAS>
+                         <PARA name="description" value="Configure RPR TopoFind"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="47126">
+                    <PARAS>
+                         <PARA name="description" value="Configure RPR Protect and Recovery"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49870">
+                    <PARAS>
+                         <PARA name="description" value="Query Tunnel Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49871">
+                    <PARAS>
+                         <PARA name="description" value="Query Tunnel Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49872">
+                    <PARAS>
+                         <PARA name="description" value="Add Tunnel Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49873">
+                    <PARAS>
+                         <PARA name="description" value="Delete Tunnel Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49874">
+                    <PARAS>
+                         <PARA name="description" value="Configure Tunnel Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49880">
+                    <PARAS>
+                         <PARA name="description" value="Query VE Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49881">
+                    <PARAS>
+                         <PARA name="description" value="Query VE Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49882">
+                    <PARAS>
+                         <PARA name="description" value="Add VE Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49883">
+                    <PARAS>
+                         <PARA name="description" value="Delete VE Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49884">
+                    <PARAS>
+                         <PARA name="description" value="Configure VE Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49888">
+                    <PARAS>
+                         <PARA name="description" value="Delete VE subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49889">
+                    <PARAS>
+                         <PARA name="description" value="Configure VE subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49887">
+                    <PARAS>
+                         <PARA name="description" value="Add VE subinterface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49910">
+                    <PARAS>
+                         <PARA name="description" value="Query VT Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49911">
+                    <PARAS>
+                         <PARA name="description" value="Query VT Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49912">
+                    <PARAS>
+                         <PARA name="description" value="Add VT Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49913">
+                    <PARAS>
+                         <PARA name="description" value="Delete VT Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49914">
+                    <PARAS>
+                         <PARA name="description" value="Configure VT Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49890">
+                    <PARAS>
+                         <PARA name="description" value="Query Vlan Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49891">
+                    <PARAS>
+                         <PARA name="description" value="Query Vlan Interface Detail"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49892">
+                    <PARAS>
+                         <PARA name="description" value="Add Vlan Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49893">
+                    <PARAS>
+                         <PARA name="description" value="Delete Vlan Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49894">
+                    <PARAS>
+                         <PARA name="description" value="Configure Vlan Interface"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49942">
+                    <PARAS>
+                         <PARA name="description" value="Enable IPv6"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49943">
+                    <PARAS>
+                         <PARA name="description" value="Disable IPv6"/>  
+						 <PARA name="moduleID" value="V5_IF_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49989">
+                    <PARAS>
+                         <PARA name="description" value="Refresh Card List Information"/>  
+						 <PARA name="moduleID" value="V5_Entity_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="49351">
+                    <PARAS>
+                         <PARA name="description" value="View Slot Details"/>  
+						 <PARA name="moduleID" value="V5_Entity_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="51533">
+                    <PARAS>
+                         <PARA name="description" value="Query the frame info"/>  
+						 <PARA name="moduleID" value="V5_Entity_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="11538663">
+                    <PARAS>
+                         <PARA name="description" value="Querying the VLAN switch"/>  
+						 <PARA name="moduleID" value="V5_Entity_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="11538665">
+                    <PARAS>
+                         <PARA name="description" value="Deleting a VLAN switch"/>  
+						 <PARA name="moduleID" value="V5_Entity_SW"/>						
+                    </PARAS>
+                </DESC>
+                <DESC descname="11538664">
+                    <PARAS>
+                         <PARA name="description" value="Adding a VLAN switch"/>  
+						 <PARA name="moduleID" value="V5_Entity_SW"/>						
+                    </PARAS>
+                </DESC>
+    </DESC>
+    </AREADESC>
+</COMMINIDATA>

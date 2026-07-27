@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.adapter.message"
+   name="gnldev"
+   version="1.0"
+   provider-name="swimap">
+</plugin>

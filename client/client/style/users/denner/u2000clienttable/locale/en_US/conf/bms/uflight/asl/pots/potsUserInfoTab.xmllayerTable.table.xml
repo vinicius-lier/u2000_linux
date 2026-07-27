@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="POTSStatus" name="Status" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="POTSCallState" name="Call Status" isVisiable="true" isEditable="true" width="86" isNameModified="false" />
+  <column id="POTSPhyReferenceList" name="Interface ID" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="POTSDirectoryNumber" name="Directory Number      " isVisiable="true" isEditable="true" width="140" isNameModified="false" />
+  <column id="strSIPURI" name="URI" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

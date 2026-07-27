@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+		<AREADESC>
+			<DESC descname="ResourceBundle">
+			    <PARAS>
+			    <PARA name="type" value="ResourceBundle"></PARA>
+			    <PARA name="resourceBundleName" value="Res"></PARA>
+			    </PARAS>
+			</DESC>
+			
+			<DESC descname="mainTool">
+			    <PARAS>
+				    <PARA name="name" value="main Tool"></PARA>
+				    <PARA name="type" value="ToolGroupSet"></PARA>
+				    <PARA name="serialnumber" value="100"></PARA>
+			    </PARAS>
+			    <DESC descname="Topo">
+			        <PARAS>
+			        <PARA name="id" value="TopoFunction"></PARA>
+			        <PARA name="name" value="MainTopoTitle"></PARA>
+			        <PARA name="mnemonic" value="T"></PARA>
+			        <PARA name="type" value="JToolBar"></PARA>
+			        <PARA name="serialnumber" value="100-100"></PARA>
+			        </PARAS>
+			
+				      <DESC descname="Separator">
+				            <PARAS>
+				            <PARA name="name" value="Separator"></PARA>
+				            <PARA name="type" value="Separator"></PARA>
+				            <PARA name="serialnumber" value="100-100-100"></PARA>
+				          </PARAS>
+				      </DESC>
+			
+					    <DESC descname="ShowMainTopoFrame">
+								<PARAS>
+								<PARA name="description" value="MainTopoTitle"/>
+								<PARA name="icon" value="image/maintopo.gif"/>
+								<PARA name="command" value="ShowMyTopoFrame"/>
+								<PARA name="mnemonic" value="M"/>
+								<PARA name="accelerator" value="VK_M"/>
+								<PARA name="type" value="AbstractButton"/>
+								<PARA name="name" value="ShowMainTopoFrame"/>
+						    <PARA name="serialnumber" value="100-100-1000"></PARA>
+						    <PARA name="showInPortalPanel" value="false" />
+								<PARA name="isFavorite" value="false"/>
+							  <PARA name="favoriteIcon" value=""/>
+							  <PARA name="visibleApps">
+							   <VALUE value="TopoView"/>				
+							  </PARA>
+								</PARAS>
+							
+							
+					    </DESC>
+			   </DESC>
+			</DESC>
+		</AREADESC>
+</COMMINIDATA>

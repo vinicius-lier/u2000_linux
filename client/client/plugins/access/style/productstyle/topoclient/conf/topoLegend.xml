@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>  
+  <AREADESC areaname="PonPortStatusDGI">
+    <DESC descname="PonPortStatusDGI">
+      <PARAS>
+        <PARA name="label"
+              value="PonPortStatusDGI" />
+        <PARA name="ViewTypeID"
+              value="3001" />
+      </PARAS>
+      <DESC descname="open">
+        <PARAS>
+          <PARA name="label"
+                value="open" />
+          <PARA name="icon"
+                value="secstatus/opened.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="close">
+        <PARAS>
+          <PARA name="label"
+                value="access.close" />
+          <PARA name="icon"
+                value="secstatus/closed.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="DevMgrStatus">
+    <DESC descname="DevMgrStatus">
+      <PARAS>
+        <PARA name="label"
+              value="DevMgrStatus" />
+        <PARA name="ViewTypeID"
+              value="3001" />
+      </PARAS>
+      <DESC descname="predeploy">
+        <PARAS>
+          <PARA name="label"
+                value="predeploy" />
+          <PARA name="icon"
+                value="secstatus/DevManageState_2_16.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="DGI">
+        <PARAS>
+          <PARA name="label"
+                value="DGI" />
+          <PARA name="icon"
+                value="secstatus/DGIStatus_1_16.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="DevLoginStatus">
+    <DESC descname="DevLoginStatus">
+      <PARAS>
+        <PARA name="label"
+              value="DevLoginStatus" />
+        <PARA name="ViewTypeID"
+              value="3001" />
+      </PARAS>
+      <DESC descname="Serial">
+        <PARAS>
+          <PARA name="label"
+                value="Serial" />
+          <PARA name="icon"
+                value="secstatus/DevLoginStatus_Serial.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="Telnet">
+        <PARAS>
+          <PARA name="label"
+                value="Telnet" />
+          <PARA name="icon"
+                value="secstatus/DevLoginStatus_Telnet.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="SSH">
+        <PARAS>
+          <PARA name="label"
+                value="SSH" />
+          <PARA name="icon"
+                value="secstatus/DevLoginStatus_SSH.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="DualProtect">
+    <DESC descname="DualProtect">
+      <PARAS>
+        <PARA name="label"
+              value="DualProtect" />
+        <PARA name="ViewTypeID"
+              value="3001" />
+      </PARAS>
+      <DESC descname="active">
+        <PARAS>
+          <PARA name="label"
+                value="active" />
+          <PARA name="icon"
+                value="secstatus/dualprotect_active.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="standby">
+        <PARAS>
+          <PARA name="label"
+                value="standby" />
+          <PARA name="icon"
+                value="secstatus/dualprotect_standby.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="fault">
+        <PARAS>
+          <PARA name="label"
+                value="fault" />
+          <PARA name="icon"
+                value="secstatus/dualprotect_fault.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+      <DESC descname="detect">
+        <PARAS>
+          <PARA name="label"
+                value="detect" />
+          <PARA name="icon"
+                value="secstatus/dualprotect_detect.gif" />
+          <PARA name="ViewTypeID"
+                value="3001" />
+        </PARAS>
+      </DESC>
+
+    </DESC>
+  </AREADESC>
+  <!--从框的状态:自动发现-->
+   <AREADESC areaname="RemoteFrameStatus">
+    <DESC descname="RemoteFrameStatus">
+      <PARAS>
+        <PARA name="label"
+              value="RemoteFrameStatus" />
+      </PARAS>      
+      <!--从框的状态:离线-->
+			<DESC descname="RemoteFrameOffline">
+				<PARAS>
+					<PARA name="label" value="RemoteFrameOffline"/>
+					<PARA name="icon" value="secstatus/frame_offline.gif"/>
+				</PARAS>
+			</DESC>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

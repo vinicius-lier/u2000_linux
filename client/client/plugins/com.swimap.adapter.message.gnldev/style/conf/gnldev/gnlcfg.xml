@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="gnlcfg">
+		<DESC descname="gnlcfg">
+			<PARAS>
+				<PARA name="TIME_OUT" value="900000" />
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

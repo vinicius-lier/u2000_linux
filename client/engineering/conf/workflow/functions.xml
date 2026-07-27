@@ -1,0 +1,842 @@
+<functions>
+  <!--function: init macro data map-->
+  <function name="InitInstallData" resName="Function.InitInstallData">
+    <taskqueue>
+      <task name="InitStaticMacroData" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.InitStaticMacroData
+      </task>
+      <task name="CreateImapServiceExForNMS" type="master;subnode;standby" resName="Task.CreateImapServiceExForNMS">com.oss.engineering.business.publictask.install.CreateImapServiceExForNMS
+      </task>
+      <task name="CreateDatabaseInterface" type="master;subnode;standby" resName="Task.CreateDatabaseInterface">com.oss.engineering.core.actionbundle.Action.CreateDatabaseInterface
+      </task>
+      <!-- PreInitInstall include create ossdbuser -->
+      <task name="PreInitInstall" type="master;subnode;standby" resName="Task.PreInitInstall">com.oss.engineering.core.actionbundle.Action.PreInitInstall</task>
+    </taskqueue>
+  </function>
+  <function name="CopyEngrFilesAction" resName="Task.CopyEngrFilesAction">
+  	<taskqueue>
+      <!-- new task, Init static macros-->
+      <task name="CopyEngrFilesAction" type="master;subnode;standby" resName="Task.CopyEngrFilesAction">com.oss.engineering.core.actionbundle.Action.CopyEngrFilesAction
+      </task>
+   </taskqueue>
+	</function>
+	
+  <!--function: init macro data map-->
+  <function name="InitReinstallData" resName="Function.InitInstallData">
+    <taskqueue>
+      <!-- new task, Init static macros-->
+      <task name="InitStaticMacroData" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.InitStaticMacroData
+      </task>
+      <task name="CreateDatabaseInterface" type="master;subnode;standby" resName="Task.CreateDatabaseInterface">com.oss.engineering.core.actionbundle.Action.CreateDatabaseInterface
+      </task>
+	  <task name="UpdateSysconfigureForNMS" type="master" resName="Task.UpdateSysconfigureForNMS">com.oss.engineering.business.deployservice.action.UpdateSysconfigureForNMS
+      </task>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes
+      </task>
+      <task name="PreInitInstall" type="master;subnode;standby" resName="Task.PreInitInstall">com.oss.engineering.core.actionbundle.Action.PreInitReInstall</task>
+    </taskqueue>
+  </function>
+
+  <function name="InstanceData" level="initdeploypackage" type="master" resName="Function.InstanceData">
+    <taskqueue>
+      <!--
+      new task , 1. Init InstanceInfo objects and data. Add the InstanceInfo List to context. 2. Init dynamic macros for
+      instances.
+      -->
+      <task name="InitInstanceData" resName="Task.InitInstanceData">com.oss.engineering.business.instancemgr.deploy.impl.InitInstanceDataTask</task>
+    </taskqueue>
+  </function>
+
+  <function name="UnzipClientForUpgradeInstall" level="clientpackage" type="master" resName="Function.InstallClient">
+    <taskqueue>
+      <!--Unzip the packages-->
+      <task name="UnzipSubsystemFile" resName="Task.Unzip">com.oss.engineering.core.actionbundle.Action.UnzipFilesForUpgradeInstall</task>
+      
+      <task name="UnzipSubsystemFile" resName="Task.Unzip">com.oss.engineering.core.actionbundle.Action.Unpack200Task
+      </task>
+      
+      <!--Replace the file macros. Defined in <config_file> tag -->
+      <task name="ReplaceFileMacro" resName="Task.ReplaceFileMacro">com.oss.engineering.core.actionbundle.Action.ReplaceFileMacro</task>
+      </taskqueue>
+  </function>
+
+  <!-- unzip client-->
+  <function name="UnzipServerForUpgradeInstall" level="serverpackage" type="master;subnode;standby" resName="Function.InstallServer">
+    <taskqueue>
+      <!--Unzip the packages-->
+      <task name="UnzipSubsystemFile" resName="Task.Unzip">com.oss.engineering.core.actionbundle.Action.UnzipFilesForUpgradeInstall</task>
+      
+      <task name="UnzipSubsystemFile" resName="Task.Unzip">com.oss.engineering.core.actionbundle.Action.Unpack200Task
+      </task>
+      <!--Replace the file macros. Defined in <config_file> tag -->
+      <task name="ReplaceFileMacro" resName="Task.ReplaceFileMacro">com.oss.engineering.core.actionbundle.Action.ReplaceFileMacro</task>
+      </taskqueue>
+  </function>
+   <function name="Unzip" level="normal" type="master;subnode;standby" resName="Function.Unzip">
+    <taskqueue>
+      <!--Unzip the packages-->
+      <task name="UnzipSubsystemFile" resName="Task.Unzip">com.oss.engineering.core.actionbundle.Action.TransferUnzip
+      </task>
+        <task name="UnzipSubsystemFile" resName="Task.Unzip">com.oss.engineering.core.actionbundle.Action.Unpack200Task
+      </task>
+      </taskqueue>
+  </function>
+  
+  <!-- unzip client-->
+  <function name="ReplaceFileMacroClient" level="clientpackage" type="master" resName="Function.InstallClient">
+    <taskqueue>
+      <!--Replace the file macros. Defined in <config_file> tag -->
+      <task name="ReplaceFileMacro" resName="Task.ReplaceFileMacro">com.oss.engineering.core.actionbundle.Action.ReplaceFileMacro</task>
+      </taskqueue>
+  </function>
+
+  <!-- unzip client-->
+  <function name="ReplaceFileMacroServer" level="initdeploypackage" type="master;subnode;standby" resName="Function.InstallServer">
+    <taskqueue>
+      <!--Replace the file macros. Defined in <config_file> tag -->
+      <task name="ReplaceFileMacro" resName="Task.ReplaceFileMacro">com.oss.engineering.core.actionbundle.Action.ReplaceFileMacro</task>
+    </taskqueue>
+  </function>
+  
+    <!-- unzip client-->
+  <function name="ModifyPermissionForOSS" type="master;subnode;standby" resName="Function.ModifyPermissionForOSS">
+    <taskqueue>
+      <!-- new task, chanme defalut permission -->
+      <task name="ModifyPermissionForOSS" resName="Task.ModifyPermissionForOSS">com.oss.engineering.business.publictask.os.ModifyPermissionForOSS
+      </task>
+      </taskqueue>
+  </function>
+  
+   <function name="InstallVCREDI" type="master" resName="Function.InstallVCREDI">
+    <taskqueue>
+      <task name="InstallVCREDI" resName="Task.InstallVCREDI">com.oss.engineering.business.publictask.deploy.InstallVCREDI
+      </task>
+      </taskqueue>
+  </function>
+
+  <!-- install client-->
+  <function name="InstallClient" level="clientpackage" type="master" resName="Function.InstallClient">
+    <taskqueue>
+      <!--Set environments. Defined in <envitems> tag-->
+      <task name="RegedtiEnvironment" resName="Task.RegedtiEnvironment">com.oss.engineering.core.actionbundle.Action.RegeditEnvironment</task>
+      <!--Modify reg item. Defined in <registeritems> tag-->
+      <task name="RegeditItem" resName="Task.RegeditItem">com.oss.engineering.core.actionbundle.Action.RegeditItem</task>
+      <!--Execute the postinstall script. Defined in <postinstallscript> tag-->
+      <task name="Postinstallscript" resName="Task.Postinstallscript">com.oss.engineering.core.actionbundle.Action.PostInstallScript</task>
+      <!--Create shortcut. Defined in <shortcuts> tag-->
+      <task name="CreateShortCut" resName="Task.Createshutcut">com.oss.engineering.core.actionbundle.Action.CreateShortCut</task>
+    </taskqueue>
+  </function>
+
+  <!-- install server-->
+  <function name="InstallServer" level="initdeploypackage" type="master;subnode;standby" resName="Function.InstallServer">
+    <taskqueue>
+      <!--Execute the postinstall script. Defined in <postinstallscript> tag-->
+      <task name="Postinstallscript" resName="Task.Postinstallscript">com.oss.engineering.core.actionbundle.Action.PostInstallScript</task>
+    </taskqueue>
+  </function>
+
+  <!--function: add subsystem to datamodel-->
+  <function name="SetInstalledSubsystem" type="master" level="normal" resName="Task.SetInstalledSubsystem">
+    <taskqueue>
+      <task name="AddSubsystemDataModel" resName="Task.AddSubsystemDataModel">com.oss.engineering.core.actionbundle.Action.SetInstalledSubsystem
+      </task>
+    </taskqueue>
+  </function>
+
+  <!--function: Exec postInstallClient in install.xml after install client-->
+  <function name="PostInstallClient" resName="Function.postInstallClient">
+    <taskqueue>
+      <!-- new task, execute <PostInstallClientScript> in InstallDisk.xml-->
+      <task name="PostInstallClientScript" resName="Task.PostInstallClientScript">com.oss.engineering.core.actionbundle.Action.GlobalPostInstallClient
+      </task>
+    </taskqueue>
+  </function>
+  <!--function: Operatino before instal server-->
+  <function name="PreInstallServer" type="master;subnode;standby" resName="Function.PreInstallServer">
+    <taskqueue>
+      <!-- new task, execute <PreInstallScript> in InstallDisk.xml-->
+      <task name="PreInstallServerScript" resName="Task.PreInstallServerScript">com.oss.engineering.core.actionbundle.Action.GlobalPreInstallServer
+      </task>
+    </taskqueue>
+  </function>
+  <!--function: Operatino after instal server-->
+  <function name="PostInstallServer" type="master;subnode;standby" resName="Function.PostInstallServer">
+    <taskqueue>
+      <!-- new task, Exec PostInstallServer in install.xml after install server-->
+      <task name="CopyUninstallContent" resName="Task.CopyUninstallContent">com.oss.engineering.core.actionbundle.Action.CopyUninstallContent
+      </task>
+      <task name="CopyUninstallContentToLocal" resName="Task.CopyUninstallContentToLocal">com.oss.engineering.core.actionbundle.Action.CopyUninstallContentToLocal
+      </task>
+      <task name="PackageSerializeAction" resName="Task.PackageSerializeAction">com.oss.engineering.core.actionbundle.Action.PackageSerializeAction
+      </task>
+      <task name="PostInstallServerScript" resName="Task.PostInstallServerScript">com.oss.engineering.core.actionbundle.Action.GlobalPostInstallServer
+      </task>
+    </taskqueue>
+  </function>
+
+  <!--function: Operatino before deploy instances-->
+  <function name="GlobalPreDeploy" resName="Function.GlobalPreDeploy">
+    <taskqueue>
+      <!--create database connection when install-->
+      <task name="InstallDBConnection" type="master;subnode" resName="Task.InstallDBConnection">com.oss.engineering.business.publictask.deploy.CreateDBConnectionTask</task>
+      <!-- new task, Exec PreDeployInstance in install.xml before deploy instances-->
+      <task name="PreDeployInstanceScript" type="master;subnode;standby" resName="Task.PreDeployInstanceScript">com.oss.engineering.business.publictask.deploy.GlobalPreDeploy</task>
+    </taskqueue>
+  </function>
+
+  <function name="GlobalPreUndeploy" resName="Function.GlobalPreUndeploy">
+    <taskqueue>
+      <!-- new task, Exec PreDeployInstance in install.xml before deploy instances-->
+      <task name="GlobalPreUninstallServerTask" resName="Task.GlobalPreUndeployTask">com.oss.engineering.business.publictask.deploy.GlobalPreUndeployScript</task>
+    </taskqueue>
+  </function>
+  
+  <function name="UndeployByDomain" level="undeploypackage" type="master;subnode;standby" resName="Function.UndeployByDomain">
+    <taskqueue>
+      <task name="UninstallScriptsTask" resName="Task.UndeployTask">com.oss.engineering.business.publictask.deploy.UndeployScriptTask</task>
+    </taskqueue>
+  </function>
+  
+  <function name="GlobalPostUndeploy" resName="Function.GlobalPostUndeploy">
+    <taskqueue>
+      <!-- new task, Exec PreDeployInstance in install.xml before deploy instances-->
+      <task name="GlobalPostUninstallServerTask" resName="Task.GlobalPostUndeployTask">com.oss.engineering.business.publictask.deploy.GlobalPostUndeployScript</task>
+    </taskqueue>
+  </function>
+  
+  <!--function: Operatino after deploy instances-->
+  <function name="PostDeployInstance" type="master;subnode;standby" resName="Function.PostDeployInstance">
+    <taskqueue>
+      <!-- new task, execute <PreDeployScript> in InstallDisk.xml-->
+      <task name="PostDeployInstanceScript" resName="Task.PostDeployInstanceScript">com.oss.engineering.business.publictask.deploy.GlobalPostDeploy</task>
+    </taskqueue>
+  </function>
+  
+    <function name="GlobalPostDeploy" type="master;subnode;standby" resName="Function.GlobalPostDeploy">
+    <taskqueue>
+      <!-- new task, execute <PreDeployScript> in InstallDisk.xml-->
+      <task name="PostDeployInstanceScript" resName="Task.PostDeployInstanceScript">com.oss.engineering.business.publictask.deploy.GlobalPostDeploy</task>
+    </taskqueue>
+  </function>
+
+  <function name="AddNode_SubNode" type="master;subnode;standby" resName="Function.AddNode_SubNode">
+    <taskqueue>
+      <task name="PostSyncNodeNMSFiles" resName="Task.PostSyncNodeNMSFiles">com.oss.engineering.business.deployservice.action.PostSyncNodeNMSFiles
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="GlobalPostAddNode" type="master;subnode;standby" resName="Function.GlobalPostAddNode">
+    <taskqueue>
+      <!-- new task, execute <PreDeployScript> in InstallDisk.xml-->
+      <task name="GlobalPostAddNodeScript" resName="Task.GlobalPostAddNodeScript">com.oss.engineering.business.deployservice.action.GlobalPostAddNodeScript
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="GlobalPreAddNode" type="master;subnode;standby" resName="Function.GlobalPreAddNode">
+    <taskqueue>
+      <!-- new task, execute <PreDeployScript> in InstallDisk.xml-->
+      <task name="GlobalPreAddNodeScript" resName="Task.GlobalPreAddNodeScript">com.oss.engineering.business.deployservice.action.GlobalPreAddNodeScript
+      </task>
+    </taskqueue>
+  </function>
+
+  <!--function: Operatino after install nms-->
+  <function name="ExitInstall" type="master;subnode;standby" resName="Function.ExitInstall">
+    <taskqueue>
+      <task name="ConfigNICIP" type="master;subnode;standby" resName="Task.ConfigNICIP">com.oss.engineering.core.actionbundle.Action.ConfigNICIP</task>
+      <task name="SaveDynamicMacroTask" resName="Task.SaveDynamicMacroTask">com.oss.engineering.core.actionbundle.Action.SaveDynamicMacroTask
+      </task>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes
+      </task>
+    </taskqueue>
+  </function>
+  
+  <function name="GlobalExit" type="master;subnode;standby" resName="Function.ExitInstall">
+    <taskqueue>
+      <!-- ExitInstallScript must be the last task!!!!!!!!!!!!!!!!!!!!!!! -->
+      <task name="ExitInstallScript" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+  
+   <!--function: Operatino after install nms-->
+  <function name="PostDeployByDomain" type="master;subnode;standby" resName="Function.PostDeployByDomain">
+    <taskqueue>
+      <!-- new task, execute <ExitScript> in InstallDisk.xml-->
+      <task name="PostEngrAddInstanceScript" type="master;subnode;standby" resName="Task.PostEngrAddInstanceScript">com.oss.engineering.business.deployservice.action.PostEngrAddInstanceScript</task>
+      <task name="ExitInstallScript" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+      <task name="UnfreezeAndFlushHAServiceGroup" type="master" resName="Function.UnfreezeAndFlushHAServiceGroup">com.oss.engineering.business.deployservice.action.UnfreezeAndFlushHAServiceGroup</task>
+    </taskqueue>
+  </function>
+
+  <function name="PreDeployInstance" level="initdeploypackage" type="master;subnode;standby" resName="Function.PreDeployInstance">
+    <taskqueue>
+        <task name="PreDeployScript" resName="Task.PreDeployScript">com.oss.engineering.business.publictask.deploy.PreDeployScript</task>
+    </taskqueue>
+  </function>
+  
+  <function name="Adjustdeploypackage" level="redeploypackage" type="master;subnode;standby" resName="Function.Adjustdeploypackage">
+    <taskqueue>
+        <task name="Adjustdeploypackage" resName="Task.Adjustdeploypackage">com.oss.engineering.business.publictask.deploy.AdjustDeployScript</task>
+    </taskqueue>
+  </function>
+  
+  <function name="InitDeploypackage" level="initdeploypackage" type="master;subnode;standby" resName="Function.InitDeploypackage">
+    <taskqueue>
+        <task name="InitDeployScript" resName="Task.InitDeployScript">com.oss.engineering.business.publictask.deploy.InitDeployScript</task>
+    </taskqueue>
+  </function>
+  
+  <!--function: add Subsystem Instance and execute give attention to their dependence relation-->
+  <function name="AddSubsystemInstance" level="initdeploypackage" type="master;subnode;standby" resName="Function.addSubsystemInstance">
+    <taskqueue>
+      <task name="RegeditEnvironment" resName="Task.RegedtiEnvironment">com.oss.engineering.core.actionbundle.Action.RegeditEnvironment</task>
+      <task name="RegeditItem" resName="Task.RegeditItem">com.oss.engineering.core.actionbundle.Action.RegeditItem</task>
+      <task name="PreDBScript" resName="Task.Predbscript">com.oss.engineering.business.publictask.deploy.PreDBScript</task>
+      <task name="CreateInstanceDatabaseTask" match="deploynodetype" type="master;subnode" resName="Task.CreateDB">com.oss.engineering.business.instancemgr.deploy.impl.CreateInstanceDatabaseTask</task>
+      <!--new task ,delete PostCreateDbScript-->
+      <task name="PostDBScript" resName="Task.PostDBScript">com.oss.engineering.business.publictask.deploy.PostDBScript</task>
+      <!--new task-->
+      <task name="InitDeployScript" resName="Task.InitDeployScript">com.oss.engineering.business.publictask.deploy.InitDeployScript</task>
+      <task name="DeployScript" resName="Task.DeployScript">com.oss.engineering.business.publictask.deploy.DeployScript</task>
+      <task name="CreateShortCut" type="master" resName="Task.Createshutcut">com.oss.engineering.core.actionbundle.Action.CreateShortCut</task>
+    </taskqueue>
+  </function>
+
+  <function name="Uninstallserver_allnode" level="undeploypackage" type="master;subnode;standby" resName="Function.unistallserver">
+    <taskqueue>
+      <!-- exec undeploy script in subsystem script files -->
+      <task name="UninstallScriptsTask" resName="Task.UndeployTask">com.oss.engineering.business.publictask.deploy.UndeployScriptTask
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="Preuninstallserver" type="master;subnode;standby" resName="Function.Preuninstallserver">
+    <taskqueue>
+      <!-- new task, Init static macros-->
+      <task name="InitStaticMacroData" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.InitStaticMacroData
+      </task>
+      <!-- exec script in installdisk.xml-->
+      <task name="GlobalPreUninstallServerTask" resName="Task.GlobalPreUndeployTask">com.oss.engineering.business.publictask.deploy.GlobalPreUndeployScript
+      </task>
+      <!-- drop nms seivice -->
+      <task name="UninstallServiceTask" resName="Task.UninstallServiceTask">com.oss.engineering.business.uninstall.Action.UninstallServiceTask
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="Postuninstallserver" type="master;subnode;standby" resName="Function.Postuninstallserver">
+    <taskqueue>
+      <!-- exec script in installdisk.xml-->
+      <task name="GlobalPostUninstallServerTask" resName="Task.GlobalPostUndeployTask">com.oss.engineering.business.publictask.deploy.GlobalPostUndeployScript
+      </task>
+      <!-- clear nms files -->
+      <task name="UninstallFilesTask" resName="Task.UninstallFilesTask">com.oss.engineering.business.uninstall.Action.UninstallFilesTask</task>
+    </taskqueue>
+  </function>
+
+  <function name="preDeployByDomain" type="master;subnode;standby" resName="Function.preDeployByDomain">
+    <taskqueue>
+      <task name="FreezeHAServiceGroup" type="master" resName="Function.FreezeHAServiceGroup">com.oss.engineering.business.deployservice.action.FreezeHAServiceGroup</task>
+      <!-- new task, Init static macros-->
+      <task name="ReloadStaticMacroTask" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.InitStaticMacroData</task>
+      <!-- exec engineering script in DeployInstance.xml-->
+      <task name="PreEngrAddInstanceScript" type="master;subnode;standby" resName="Task.PreEngrAddInstanceScript">com.oss.engineering.business.deployservice.action.PreEngrAddInstanceScript</task>
+    </taskqueue>
+  </function>
+
+  <!--function: Operation after add node-->
+  <function name="ExitAddNode" type="master;subnode;standby" resName="Function.ExitAddNode">
+    <taskqueue>
+      <task name="ConfigNICIP" type="master;subnode;standby" resName="Task.ConfigNICIP">com.oss.engineering.core.actionbundle.Action.ConfigNICIP</task>
+      <task name="SaveDynamicMacroTask" type="master" resName="Task.SaveDynamicMacroTask">com.oss.engineering.core.actionbundle.Action.SaveDynamicMacroTask
+      </task>
+      <!-- new task, execute <ExitScript> in InstallDisk.xml-->
+      <task name="ModifyPermissionForOSS" resName="Task.ModifyPermissionForOSS">com.oss.engineering.business.publictask.os.ModifyPermissionForOSS
+      </task>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes
+      </task>
+    </taskqueue>
+  </function>
+  
+  <function name="GlobalExitAddNode" type="master;subnode;standby" resName="Function.ExitAddNode">
+    <taskqueue>
+      <!-- Exit install script must be the last task!!!!!!!!!!!!!!!!!!!!!!! -->
+      <task name="ExitInstallScript" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+
+  <!--function: Operation after add instance-->
+  <function name="ExitAddInstance" resName="Function.ExitAddInstance">
+    <taskqueue>
+      <task name="SaveDynamicMacroTask" type="master" resName="Task.SaveDynamicMacroTask">com.oss.engineering.core.actionbundle.Action.SaveDynamicMacroTask</task>
+      <task name="MarkDeployedFlagForInstallSummary" type="master" resName="Task.MarkDeployedFlagForInstallSummary">com.oss.engineering.business.publictask.deploy.MarkDeployedFlagForInstallSummary</task>
+      <!-- exec engineering script in DeployInstance.xml-->
+      <task name="PostEngrAddInstanceScript" type="master;subnode;standby" resName="Task.PostEngrAddInstanceScript">com.oss.engineering.business.deployservice.action.PostEngrAddInstanceScript</task>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes</task>
+      <task name="UnfreezeAndFlushHAServiceGroup" type="master" resName="Function.UnfreezeAndFlushHAServiceGroup">com.oss.engineering.business.deployservice.action.UnfreezeAndFlushHAServiceGroup</task>
+      <task name="ExitInstallScript" type="master;subnode;standby" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+
+  <!-- Delete instance previous operate -->
+  <function name="preUndeployByDomain" resName="Function.PreunDeployByDomain">
+    <taskqueue>
+      <task name="FreezeHAServiceGroup" type="master" resName="Function.FreezeHAServiceGroup">com.oss.engineering.business.deployservice.action.FreezeHAServiceGroup</task>
+      <!-- new task, Init static macros-->
+      <task name="ReloadStaticMacroTask" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.InitStaticMacroData</task>
+      <task name="InstallDBConnection" type="master;subnode" resName="Task.InstallDBConnection">com.oss.engineering.business.publictask.deploy.CreateDBConnectionTask</task>
+      <!-- exec engineering script in DeployInstance.xml-->
+      <task name="PreEngrDeleteInstanceScript" type="master;subnode;standby" resName="Task.PreEngrDeleteInstanceScript">com.oss.engineering.business.deployservice.action.PreEngrDeleteInstanceScript</task>
+    </taskqueue>
+  </function>
+
+  <!-- Delete instance -->
+  <function name="DeleteSubsystemInstance" type="master;subnode;standby" level="subsystem" resName="Function.DeleteInstance">
+    <taskqueue>
+      <task name="UnDeployInstanceScript" resName="Task.UnDeployInstanceScript">com.oss.engineering.business.deployservice.action.UnDeployInstanceScript</task>
+      <task name="UnDeployScript" resName="Task.UnDeployScript">com.oss.engineering.business.deployservice.action.UnDeployScript</task>
+      <!--delete subsystem instance-->
+      <task name="DeleteSubsystemInstance" type="master" resName="Task.DeleteInstance">com.oss.engineering.business.deployservice.action.DeleteSubsInstanceTDTTask</task>
+      <!--move deployed flag for InstallSummary.xml-->
+      <task name="MoveDeployedFlagForInstallSummary" type="master" resName="Task.MoveDeployedFlagForInstallSummary">com.oss.engineering.business.publictask.deploy.MoveDeployedFlagForInstallSummary</task>
+      <task name="DeleteInstanceToDatamodel" type="master" resName="Task.Addinstancetodatamodel">com.oss.engineering.business.deployservice.action.DeleteInstanceFromDataModelTask</task>
+      <task name="DeleteInstanceDynamicMacro" type="master" resName="Task.DeleteInstanceDynamicMacro">com.oss.engineering.business.deployservice.action.DeleteInstanceDynamicMacro</task>
+    </taskqueue>
+  </function>
+
+  <!-- Delete instance post operate -->
+  <function name="postUndeployByDomain" type="master;subnode;standby" resName="Function.postUndeployByDomain">
+    <taskqueue>
+      <!-- exec engineering script in DeployInstance.xml-->
+      <task name="PostEngrDeleteInstanceScript" resName="Task.PostEngrDeleteInstanceScript">com.oss.engineering.business.deployservice.action.PostEngrDeleteInstanceScript</task>
+      <task name="UnfreezeAndFlushHAServiceGroup" type="master" resName="Function.UnfreezeAndFlushHAServiceGroup">com.oss.engineering.business.deployservice.action.UnfreezeAndFlushHAServiceGroup</task>
+    </taskqueue>
+  </function>
+
+  <!-- Delete instance exit operate -->
+  <function name="ExitDeleteInstance" type="master" resName="Function.ExitDeleteInstance">
+    <taskqueue>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes</task>
+      <task name="ExitInstallScript" type="master;subnode;standby" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+
+  <!--patch install start-->
+  
+    <function name="PatchMacroInitDataMap" type="master;subnode;slave"  resName="Function.initMacroData">
+    <taskqueue>
+      <task name="initMacroData" resName="Function.initMacroData">com.oss.engineering.base.patch.action.PatchMacroInitDataMap</task>
+    </taskqueue>
+    </function>
+  
+  <function name="TransferPatchFiles" type="master"  resName="Function.TransferPatchFiles">
+    <taskqueue>
+      <task name="TransferPatchFiles" resName="Function.TransferPatchFiles">com.oss.engineering.base.patch.action.TransferPatchFiles</task>
+    </taskqueue>
+    </function>
+  
+  <function name="BackupConfigFiles"  type="master;subnode;slave" level="subsystem" resName="Task.BackupConfigFiles">       
+    <taskqueue>
+      <task name="BackupConfigFiles" resName="Task.BackupConfigFiles">com.oss.engineering.base.framew.action.BackupConfigfileTask</task>
+    </taskqueue>
+  </function>
+
+  <function name="ParallBackupFile"  type="master;subnode;slave" level="subsystem" resName="Task.ParallBackupFile">       
+    <taskqueue>
+      <task name="ParallBackupFile" resName="Task.ParallBackupFile">com.oss.engineering.base.framew.action.ParallelBackupConfigfileTask</task>
+    </taskqueue>
+  </function>
+  
+    <function name="ExitPatchInstall" type="master;subnode;slave" resName="Function.PostPatchInstall">
+    <taskqueue>
+      <!-- ExitInstallScript must be the last task!!!!!!!!!!!!!!!!!!!!!!! -->
+      <task name="ExitInstallScript" resName="Function.PostPatchInstall">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+  <function name="PatchBackup" type="master;subnode;standby" resName="Function.PatchBackup">
+    <taskqueue>
+      <task name="PrePatchBackupDB" type="master" resName="Task.PrePatchBackupDB">com.oss.engineering.base.patch.action.PrePatchBackupDB
+    </task>
+    <task name="PatchBackupDatabase" type="master" resName="Task.PatchbackupDatabase">com.oss.engineering.base.patch.action.PatchBackupDatabase
+      </task>
+      <task name="PostPatchBackupDB" type="master" resName="Task.PostPatchBackupDB">com.oss.engineering.base.patch.action.PostPatchBackupDB
+      </task>
+      <task name="PreBackupApplication" resName="Task.PreBackupApplication">com.oss.engineering.base.patch.action.PreBackupApplication</task>
+      <task name="PatchBackupApplication" type="master;subnode;standby" resName="Task.PatchBackupApplication">com.oss.engineering.base.patch.action.PatchBackupApplication
+      </task>
+      <task name="PostBackupApplication" resName="Task.PostBackupApplication">com.oss.engineering.base.patch.action.PostBackupApplication</task>
+      <task name="PatchBackupdatamodel" type="master;subnode;standby" resName="Task.StorePatchInfo">com.oss.engineering.base.patch.action.PatchDataModelBackup
+      </task>
+    </taskqueue>
+  </function>
+  
+  <function name="SerializeData" type="master" resName="Function.initSerializeData">
+    <taskqueue>
+      <task name="SerializeData" resName="Function.initSerializeData">com.oss.engineering.base.patch.action.CheckToBeSerializeAction</task>
+    </taskqueue>
+  </function>
+  
+  <function name="PatchUnzipFiles" type="master;subnode;standby" level="subsystem"  resName="Function.PatchUnzipFiles">
+    <taskqueue>
+      <task name="PatchUnzipFiles" resName="Task.PatchUnzipFiles">com.oss.engineering.base.framew.action.PatchUnzipFiles</task>
+      
+     <task name="PatchUnzipFiles" resName="Task.PatchUnzipFiles">com.oss.engineering.base.framew.action.Unpack200Task</task>
+     
+      
+    </taskqueue>
+  </function>
+  
+  <function name="ParallelPatchInstall" type="master;subnode;standby" level="subsystem" resName="Function.ParallelPatchInstall">
+    <taskqueue>
+      <task name="ParallelPatchInstall" resName="Function.ParallelPatchInstall">com.oss.engineering.base.framew.action.ParallelInstallScriptTask</task>
+    </taskqueue>
+  </function>
+  
+  <function name="AfterPatchInstall" type="master;subnode;standby" level="subsystem" resName="Task.AfterPatchInstall">
+    <taskqueue>
+      <task name="AfterPatchInstall" type="master;subnode;standby" resName="Task.AfterPatchInstall">com.oss.engineering.base.framew.action.PatchAfterInstallScriptTask</task>
+    </taskqueue>
+  </function>
+  
+  <function name="PatchUpgradeScriptTask" type="master;subnode;standby" level="subsystem" resName="Function.PatchUpgradeScriptTask">
+    <taskqueue>
+      <task name="PatchUpgradeScriptTask" resName="Function.PatchUpgradeScriptTask">com.oss.engineering.base.framew.action.PatchUpgradeScriptTask</task>
+    </taskqueue>
+  </function>
+  
+  <function name="PatchPostUpgradeScriptTask" type="master;subnode;standby" level="subsystem" resName="Function.PatchPostUpgradeScriptTask">
+    <taskqueue>
+      <task name="PatchPostUpgradeScriptTask" resName="Function.PatchPostUpgradeScriptTask">com.oss.engineering.base.framew.action.PatchpostUpgradeScriptTask</task>
+    </taskqueue>
+  </function>
+  <!--patch install end-->
+
+  <!--patch roll back start-->
+  <function name="PrePatchRollBack" type="master;subnode;standby" resName="Function.PrePatchRollBack">
+    <taskqueue>
+      <task name="PrePatchRollBack" resName="Function.PrePatchRollBack">com.oss.engineering.base.patch.action.PrePatchRollBack</task>
+    </taskqueue>
+  </function>
+  
+  
+    <function name="PreInstallScripts" type="master;subnode;standby" resName="Function.PreInstallScripts">
+    <taskqueue>
+      <task name="PreInstallScripts" resName="Function.PreInstallScripts">com.oss.engineering.base.patch.action.PrePatchInstall</task>
+    </taskqueue>
+  </function>
+  
+   <function name="PrePatchBackupDBScripts" type="master;subnode;standby" resName="Function.PrePatchBackupDBScripts">
+    <taskqueue>
+      <task name="PrePatchBackupDBScripts" resName="Function.PrePatchBackupDBScripts">com.oss.engineering.base.patch.action.PrePatchBackupDB</task>
+    </taskqueue>
+  </function>
+  
+   <function name="PostPatchBackupDBScripts" type="master;subnode;standby" resName="Function.PostPatchBackupDBScripts">
+    <taskqueue>
+      <task name="PostPatchBackupDBScripts" resName="Function.PostPatchBackupDBScripts">com.oss.engineering.base.patch.action.PostPatchBackupDB</task>
+    </taskqueue>
+  </function>
+  
+     <function name="PrePackageExecuteScripts" type="master;subnode;standby" resName="Function.PrePackageExecuteScripts">
+    <taskqueue>
+      <task name="PrePackageExecuteScripts" resName="Function.PrePackageExecuteScripts">com.oss.engineering.base.patch.action.PrePackageExecuteScripts</task>
+    </taskqueue>
+  </function>
+  
+       <function name="PostPackageExecuteScripts" type="master;subnode;standby" resName="Function.PostPackageExecuteScripts">
+    <taskqueue>
+      <task name="PostPackageExecuteScripts" resName="Function.PostPackageExecuteScripts">com.oss.engineering.base.patch.action.PostPackageExecuteScripts</task>
+    </taskqueue>
+  </function>
+  
+       <function name="PostInstallScripts" type="master;subnode;standby" resName="Function.PostInstallScripts">
+    <taskqueue>
+      <task name="PostInstallScripts" resName="Function.PostInstallScripts">com.oss.engineering.base.patch.action.PostPatchInstall</task>
+    </taskqueue>
+  </function>
+  
+  
+  
+
+  <function name="PatchRollBack" type="master;subnode;standby" resName="Function.PatchRollBack">
+    <taskqueue>
+      <task name="PatchRollbackdatamodel" type="master;subnode;standby" resName="Task.PatchRollbackdatamodel">com.oss.engineering.base.patch.action.PatchRollbackDatamodel
+      </task>
+      <task name="PrePatchRollBackDB" type="master" resName="Task.PrePatchRollBackDB">com.oss.engineering.base.patch.action.PrePatchRollBackDB
+      </task>
+      <task name="PatchRollBackDB" type="master" resName="Task.PatchRollBackDB">com.oss.engineering.base.patch.action.PatchRollBackDatabase
+      </task>
+      <task name="PostPatchRollBackDB" type="master" resName="Task.PostPatchRollBackDB">com.oss.engineering.base.patch.action.PostPatchRollBackDB
+      </task>
+      <task name="PrePatchRollBackApplication" type="master;subnode;standby" resName="Task.PrePatchRollBackApplication">com.oss.engineering.base.patch.action.PrePatchRollBackApplication
+      </task>
+      <task name="PatchRollBackApplication" type="master;subnode;standby" resName="Task.PatchRollBackApplication">com.oss.engineering.base.patch.action.PatchRollBackApplication
+      </task>
+      <task name="PostPatchRollBackApplication" type="master;subnode;standby" resName="Task.PostPatchRollBackApplication">com.oss.engineering.base.patch.action.PostPatchRollBackApplication
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="PostPatchRollBack" type="master;subnode;standby" resName="Function.PostPatchRollBack">
+    <taskqueue>
+      <task name="PostPatchRollBack" resName="Function.PostPatchRollBack">com.oss.engineering.base.patch.action.PostPatchRollBack</task>
+    </taskqueue>
+  </function>
+  <!--patch roll back end-->
+
+  <function name="TransferRemote" resName="Function.TransferFromRemote">
+    <taskqueue>
+      <task name="transferdata" type="master" resName="Task.transferdata">com.oss.engineering.business.storage.action.TransferWholeZipDataAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="UncompressData" resName="Function.UncompressData">
+    <taskqueue>
+      <task name="checksum" type="master" resName="Task.checksum">com.oss.engineering.business.storage.action.ChecksumAction
+      </task>
+      <task name="uncompressData" type="master" resName="Task.uncompressdata">com.oss.engineering.business.storage.action.DecompressDataAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="CompareBackupInfos" resName="Function.CompareBackupInfos">
+    <taskqueue>
+      <task name="CompareBackupInfos" type="master" resName="Task.CompareBackupInfos">com.oss.engineering.business.storage.action.CompareBackupInfosAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="PreRestore" resName="Function.PreRestore">
+    <taskqueue>
+      <task name="FreezeHAServiceGroup" type="master" resName="Function.FreezeHAServiceGroup">com.oss.engineering.business.deployservice.action.FreezeHAServiceGroup
+      </task>
+      <!-- new task, Init static macros-->
+      <task name="CheckDBSpaceRequired" type="master" resName="Task.CheckDatabaseSizeAction">com.oss.engineering.business.storage.action.RestoreCheckDatabaseSizeAction
+      </task>
+      <task name="CheckTablesSpaceRequired" type="master" resName="Task.RestoreCheckTablesAction">com.oss.engineering.business.storage.action.RestoreCheckTablesAction
+      </task>
+    </taskqueue>
+  </function>
+
+
+  <function name="CheckDatabaseInUse" resName="Function.CheckDatabaseInUse">
+    <taskqueue>
+      <task name="KillDBConnection" type="master" resName="Task.KillDBConnection">com.oss.engineering.business.storage.action.KillAllDbProcess
+      </task>
+      <task name="DatabaseInUse" type="master" resName="Task.DatabaseInUse">com.oss.engineering.business.storage.action.CheckDatabaseInUseAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="DisableArchiveLog" resName="Function.DisableArchiveLog">
+    <taskqueue>
+      <task name="disableArchiveLog" type="master" resName="Task.disablearichivelogs">com.oss.engineering.business.storage.action.DisableLogHandleAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="AddInstanceAction" resName="Function.AddInstance">
+    <taskqueue>
+      <task name="addInstance" type="master" resName="Task.instanceAction">com.oss.engineering.business.storage.action.AddInstanceAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="RestoreSubsystemDatabase" resName="Function.RestoreSubsystemDatabase">
+    <taskqueue>
+      <task name="preRestoreDatabaseScript" type="master" resName="Task.ExecPreRestoreDatabaseScript">com.oss.engineering.business.storage.action.ExecPreRestoreDatabaseScript
+      </task>
+      <task name="syncDatabase" type="master" resName="Task.syncdatabase">com.oss.engineering.business.storage.action.SyncDatabaseAction
+      </task>
+      <task name="prepareRestoreDatabase" type="master" resName="Task.PrepareRestoreDatabase">com.oss.engineering.business.storage.action.PrepareRestoreDatabase
+      </task>
+      <task name="restoreSubsystemDatabaseParallel" type="master" resName="Task.restoresubsysdb">com.oss.engineering.business.storage.action.RestoreParallelDatabaseAction
+      </task>
+      <task name="postRestoreDatabaseScript" type="master" resName="Task.ExecPostRestoreDatabaseScript">com.oss.engineering.business.storage.action.ExecPostRestoreDatabaseScript
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="DecompressSubsystemFiles" resName="Function.TransferSubsystemFiles">
+    <taskqueue>
+      <task name="preRestoreFilesScript" type="master" resName="Task.ExecPreRestoreFilesScript">com.oss.engineering.business.storage.action.ExecPreRestoreFilesScript
+      </task>
+      <task name="transferfile" type="master" resName="Task.transferfile">com.oss.engineering.business.storage.action.TransferSubsystemFilesAction
+      </task>
+      <task name="decompressFile" type="master;subnode;standby" resName="Task.decompressfile">com.oss.engineering.business.storage.action.DecompressDataAction
+      </task>
+      <task name="deleteTempFile" type="master;subnode;standby" resName="Task.deletetempfile">com.oss.engineering.business.storage.action.DeleteTempFileAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="EnableArchiveLog" resName="Function.EnableArchiveLog">
+    <taskqueue>
+      <task name="enableArchiveLog" type="master" resName="Task.enablearchivelogs">com.oss.engineering.business.storage.action.EnableArchiveLogHandleAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="ExecAddInstanceScript" level="subsystem" resName="Function.addInstance">
+    <taskqueue>
+      <task name="execAddInstanceScript" type="master;subnode;standby" resName="Task.ExecAddInstanceScript">com.oss.engineering.business.storage.action.ExecAddInstanceScriptAction
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="PostRestore" resName="Function.PostRestore">
+    <taskqueue>
+
+      <task name="deleteRestoreTmp" type="master" resName="Task.deleterestoretmp">com.oss.engineering.business.storage.action.DeleteTempFileAction
+      </task>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes
+      </task>
+      <task name="postRestoreFilesScript" type="master" resName="Task.ExecPostRestoreFilesScript">com.oss.engineering.business.storage.action.ExecPostRestoreFilesScript
+      </task>
+      <task name="UnfreezeAndFlushHAServiceGroup" type="master" resName="Function.UnfreezeAndFlushHAServiceGroup">com.oss.engineering.business.deployservice.action.UnfreezeAndFlushHAServiceGroup
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="PreInitDatabase" resName="Function.PreInitDatabase">
+    <taskqueue>
+      <task name="FreezeHAServiceGroup" type="master" resName="Function.FreezeHAServiceGroup">com.oss.engineering.business.deployservice.action.FreezeHAServiceGroup
+      </task>
+      <!-- new task, Init static macros-->
+	  <task name="InitStaticMacroData" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.InitStaticMacroData
+      </task>
+      <task name="InstallDBConnection" type="master;subnode" resName="Task.InstallDBConnection">com.oss.engineering.business.publictask.deploy.CreateDBConnectionTask
+      </task>
+      <task name="PreDeployInstanceScript" type="master" resName="Task.PreDeployInstanceScript">com.oss.engineering.business.publictask.deploy.GlobalPreDeploy</task>
+    </taskqueue>
+  </function>
+
+  <function name="CreateDatabase" level="serverpackage" resName="Function.CreateDatabase">
+    <taskqueue>
+      <task name="PreDBScript" type="master;subnode;standby" resName="Task.Predbscript">com.oss.engineering.business.publictask.deploy.PreDBScript
+      </task>
+      <task name="CreateDatabase" type="master" resName="Task.CreateDatabase">com.oss.engineering.business.initdb.business.action.CreateDatabaseAction</task>
+    </taskqueue>
+  </function>
+
+  <function name="ExecDatabaseScript" level="serverpackage" type="master;subnode;standby" resName="Function.ExecDatabaseScript">
+    <taskqueue>
+      <!--new task ,delete PostCreateDbScript-->
+      <task name="InitDeployScript" resName="Task.InitDeployScript">com.oss.engineering.business.publictask.deploy.InitDeployScript
+      </task>
+    </taskqueue>
+  </function>
+
+  <function name="PostInitDatabase" type="master;subnode;standby" resName="Function.PostInitDatabase">
+    <taskqueue>
+      <!-- new task, execute <PreDeployScript> in InstallDisk.xml-->
+      <task name="PostDeployInstanceScript" resName="Task.PostDeployInstanceScript">com.oss.engineering.business.publictask.deploy.GlobalPostDeploy
+      </task>
+      <task name="ExitInstallScript" type="master;subnode;standby" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+      <task name="UnfreezeAndFlushHAServiceGroup" type="master" resName="Function.UnfreezeAndFlushHAServiceGroup">com.oss.engineering.business.deployservice.action.UnfreezeAndFlushHAServiceGroup
+      </task>
+    </taskqueue>
+  </function>
+
+  <!-- Delete component previous operate -->
+  <function name="PreDeleteComponent" type="master;subnode;standby" resName="Function.PreDeleteComponent">
+    <taskqueue>
+      <!-- new task, Init static macros-->
+      <task name="ReloadStaticMacroTask" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.ReloadStaticMacroTask</task>
+    </taskqueue>
+  </function>
+  <!-- Delete component -->
+  <function name="DeleteSubsystem" level="subsystem" resName="Task.DeleteSubsystem">
+    <taskqueue>
+        <!-- exec prescript in deployPackage config file preuninstallscript-->
+      <task name="PreUninstallServer" type="master;subnode;standby" resName="Task.GlobalPreUninstallServerTask">com.oss.engineering.business.deployservice.action.PreUnInstallServer</task>
+      
+      <task name="DeleteSubsystemTask" type="master;subnode;standby" resName="Task.DeleteSubsystem">com.oss.engineering.business.deployservice.action.DeleteSubsystemTask</task>
+     
+      <!-- exec postscript in deployPackage config file postuninstallscript-->
+      <task name="PostUninstallServer"  type="master;subnode;standby" resName="Task.GlobalPostUninstallServerTask">com.oss.engineering.business.deployservice.action.PostUnInstallServer</task>
+    </taskqueue>
+  </function>
+  <!-- Delete component post operate -->
+  <function name="PostDeleteComponent" type="master;subnode;standby" resName="Function.PostDeleteComponent">
+    <taskqueue>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes</task>
+      <task name="ExitInstallScript" type="master;subnode;standby" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+
+  <!-- Delete Node previous operate -->
+  <function name="InitDeleteNodeData" resName="Function.InitDeleteNodeData">
+    <taskqueue>
+      <!-- new task, Init static macros-->
+      <task name="ReloadStaticMacroTask" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.ReloadStaticMacroTask</task>
+    </taskqueue>
+  </function>
+  <function name="GlobalPreDelNode" resName="Task.GlobalPreDelNode">
+    <taskqueue>
+      <task name="GlobalPreDelNodeTask" type="master;subnode;standby" resName="Task.GlobalPreDelNode">com.oss.engineering.business.deployservice.action.GlobalPreDelNodeScript</task>
+    </taskqueue>
+  </function>
+  <function name="DelNode_SubNode" resName="Task.DelNode_SubNode">
+    <taskqueue>
+      <task name="DelNode_SubNodeTask" type="subnode;standby" resName="Task.DelNode_SubNode">com.oss.engineering.business.deployservice.action.DelSubNodeOSS</task>
+    </taskqueue>
+  </function>
+  <function name="DelNode_Master" resName="Task.DelNode_Master">
+    <taskqueue>
+      <task name="DelNode_MasterTask" type="master" resName="Task.DelNode_Master">com.oss.engineering.business.deployservice.action.DelNMSFilesSubNodeInfo</task>
+      <task name="DelEngrSubNodeTask" type="master" resName="Task.DelEngrSubNode">com.oss.engineering.business.deployservice.action.DelEngrSubNode</task>
+    </taskqueue>
+  </function>
+  <function name="GlobalPostDelNode" resName="Task.GlobalPostDelNode">
+    <taskqueue>
+      <task name="GlobalPostDelNodeTask" type="master;subnode;standby" resName="Task.GlobalPostDelNode">com.oss.engineering.business.deployservice.action.GlobalPostDelNodeScript</task>
+      <task name="SyncGlobalFileForNodes" type="master" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes</task>
+      <task name="ExitInstallScript" type="master;subnode;standby" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+
+  <!-- Move instance previous operate -->
+  <function name="InitialMoveInstance" resName="Function.InitialMoveInstance">
+    <taskqueue>
+      <task name="FreezeHAServiceGroup" type="master" resName="Task.FreezeHAServiceGroup">com.oss.engineering.business.deployservice.action.FreezeHAServiceGroup</task>
+      <task name="ReloadStaticMacroTask" type="master;subnode;standby" resName="Task.InitStaticMacroData">com.oss.engineering.business.publictask.deploy.ReloadStaticMacroTask</task>
+      <task name="InstallDBConnection" type="master;subnode" resName="Task.InstallDBConnection">com.oss.engineering.business.publictask.deploy.CreateDBConnectionTask</task>
+    </taskqueue>
+  </function>
+  <!-- Move instance -->
+  <function name="MoveInstance" type="master;subnode" resName="Function.MoveInstance">
+    <taskqueue>
+      <!-- Execute previous srcipt <premoveinstance> 1.Stop instance process,2.Run previous operate in source node,3.Delete service info from imapservice_svc_ex.xml -->
+      <task name="moveInsPreScriptOnNode" resName="Task.executeMoveInsPreScript">com.oss.engineering.business.deployservice.action.MoveInsPreScriptOnNodeTask</task>
+      <!-- Modify datamodel -->
+      <task name="moveInsModifyDataModel" type="master" resName="Task.modifyDataModel">com.oss.engineering.business.deployservice.action.MoveInsModifyDataModelTask</task>
+      <!-- Modify InstallSummary -->
+      <task name="moveInsModifyInstallSummary" type="master" resName="Task.modifyInstallSummary">com.oss.engineering.business.deployservice.action.MoveInsModifyInstallSummary</task>
+      <!-- Execute post script <postmoveinstance>
+      1.Run post operate in dest node,2.Add service info to imapservice_svc_ex.xm,3.Import service info from imapservice_svc_ex.xml,Refresh service list,4.Start instance process -->
+      <task name="moveInsPostScriptOnNode" resName="Task.executeMoveInsPostScript">com.oss.engineering.business.deployservice.action.MoveInsPostScriptOnNodeTask</task>
+    </taskqueue>
+  </function>
+  <!-- Move instance post operate -->
+  <function name="ExitMoveInstance" type="master" resName="Function.ExitMoveInstance">
+    <taskqueue>
+      <task name="SaveDynamicMacroTask" resName="Task.SaveDynamicMacroTask">com.oss.engineering.core.actionbundle.Action.SaveDynamicMacroTask</task>
+      <task name="SyncGlobalFileForNodes" resName="Task.SyncGlobalFileForNodes">com.oss.engineering.business.publictask.distribute.SyncGlobalFileForNodes</task>
+      <task name="UnfreezeAndFlushHAServiceGroup" resName="Task.UnfreezeAndFlushHAServiceGroup">com.oss.engineering.business.deployservice.action.UnfreezeAndFlushHAServiceGroup</task>
+      <task name="ExitInstallScript" type="master;subnode;standby" resName="Task.ExitInstallScript">com.oss.engineering.core.actionbundle.Action.GlobalExitScript</task>
+    </taskqueue>
+  </function>
+
+  <function name="PublicOperation" type="master;subnode;standby" resName="Function.PublicOperation">
+    <taskqueue>
+      <task name="PublicOperation" resName="Task.PublicOperation">com.oss.engineering.business.publictask.distribute.PublicOperationAction</task>
+      <task name="ModifyPermissionForOSS" resName="Task.ModifyPermissionForOSS">com.oss.engineering.business.publictask.os.ModifyPermissionForENGR
+      </task>
+    </taskqueue>
+  </function>
+</functions>
+

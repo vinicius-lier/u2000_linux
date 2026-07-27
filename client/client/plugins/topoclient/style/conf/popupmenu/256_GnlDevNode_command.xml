@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+
+<DESC descname="256_GnlDevNode">                       
+        <DESC descname="ifParameterMgr">           
+            <PARAS>
+          	<PARA name="actionType" value="sci"/>           	
+          	<PARA name="methodName" value="start"/>
+          	<PARA name="className" value="com.swimap.imap.gnldev.IGCfMenuCmdRsp"/>
+          	<PARA name="processName" value=""/>
+		<PARA name="operationID" value="1801" />
+		<PARA name="security" value="1" />
+            </PARAS>
+        </DESC>
+</DESC>
+</AREADESC>
+</COMMINIDATA>

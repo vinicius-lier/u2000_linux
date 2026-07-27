@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="projdoccfg">
+        <DESC descname="projdoccfg">
+            <PARAS>
+                <PARA name="TIME_OUT" value="180000" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="PROJDOC_DEBUG">
+        <DESC descname="LOG_LEVEL">
+            <PARAS>
+                <PARA name="LOG_LEVEL" value="WARN" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LOGFILE_COUNT">
+            <PARAS>
+                <PARA name="LOGFILE_COUNT" value="10" />
+            </PARAS>
+        </DESC>        
+    </AREADESC>
+    
+</COMMINIDATA>

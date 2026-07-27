@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ipv6GlobalAddrAddressLeaf" name="Global Unicast Address" isVisiable="true" isEditable="false" width="156" isNameModified="false" />
+  <column id="ipv6GlobalAddrPfxLength" name="Prefix Length (1-64)" isVisiable="true" isEditable="true" width="133" isNameModified="false" />
+  <column id="ipv6GlobalAddrEuiFlag" name="Eui Flag" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

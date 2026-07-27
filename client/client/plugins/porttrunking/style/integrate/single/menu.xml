@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+
+  <AREADESC><!-- define a menuSet
+
+menuSet:
+
+        descname as the menuSet's id, must be unique.
+
+        must have a type para, and the value is "MenuSet"
+
+
+
+JMenu:(super class must be JMenu)
+
+        descname as the menuID.
+
+        must hava a type para, and the value is "JMenu"
+
+
+
+JMenu's sub element
+
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+ -->
+
+    <DESC descname="ResourceBundle">
+
+      <PARAS>
+
+        <PARA name="type" value="ResourceBundle"></PARA>
+
+        <PARA name="resourceBundleName" value="Res"></PARA>
+
+      </PARAS>
+
+    </DESC><!-- mainMenu MenuSet type start  -->
+
+    <DESC descname="mainMenu">
+
+      <PARAS>
+
+        <PARA name="name" value="main Menu"></PARA>
+
+        <PARA name="type" value="MenuSet"></PARA>
+
+      </PARAS><!-- define a menu have" name" and "mnemonic" attributes -->
+      
+      <DESC descname="SystemMenu">
+      
+        <PARAS>
+
+          <PARA name="name" value="Security"></PARA>
+
+          <PARA name="mnemonic" value="E"></PARA>
+
+          <PARA name="accelerator" value="VK_E"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+          
+          <PARA name="serialnumber" value="400"></PARA>
+          
+          <!-- PARA name="isEnableShortcut" value="true"></PARA>
+          <PARA name="ShortcutTitle" value="System"></PARA>
+          <PARA name="ShortcutIcon" value="icons/System.gif"></PARA>
+          <PARA name="ShortcutDescription" value="System"></PARA>
+           -->
+
+        </PARAS>
+        
+       
+
+            <DESC descname="Porttrunking">
+						<PARAS>
+							<PARA name="name" value="Porttrunking ACL"/>
+							<PARA name="icon" value=""/>
+							<PARA name="command" value="Porttrunking ACL"/>
+							<PARA name="type" value="JMenuItem" />
+							<PARA name="mnemonic" value="C"/>
+							<PARA name="accelerator" value="VK_C"/>
+							<PARA name="Class" value="IViewJMenuItemEx"/>
+							<PARA name="serialnumber" value="400-100"/>
+						</PARAS>
+					</DESC>     
+    </DESC><!--  mainMenu MenuSet type ended  -->
+   </DESC>
+  </AREADESC>
+
+</COMMINIDATA>

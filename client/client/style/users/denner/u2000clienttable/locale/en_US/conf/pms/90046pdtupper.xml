@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="RES_NAME" name="Resource Name" isVisiable="true" isEditable="true" width="136" isNameModified="false" />
+  <column id="Frame" name="Frame" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+  <column id="Slot" name="Slot" isVisiable="true" isEditable="true" width="66" isNameModified="false" />
+  <column id="Port" name="Port" isVisiable="true" isEditable="true" width="67" isNameModified="false" />
+  <column id="ONUID" name="ONU ID" isVisiable="true" isEditable="true" width="87" isNameModified="false" />
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="79" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="72" isNameModified="false" />
+  <column id="VendorID" name="Vendor ID" isVisiable="true" isEditable="true" width="99" isNameModified="false" />
+  <column id="EquipmentID" name="Terminal Type" isVisiable="true" isEditable="true" width="123" isNameModified="false" />
+  <column id="MainSoftVersion" name="Software Version" isVisiable="true" isEditable="true" width="138" isNameModified="false" />
+  <column id="DevName" name="NE Name" isVisiable="true" isEditable="true" width="99" isNameModified="false" />
+  <column id="SrvProfileName" name="Service Profile" isVisiable="true" isEditable="true" width="123" isNameModified="false" />
+  <column id="SubNet" name="Subnet Name" isVisiable="true" isEditable="true" width="121" isNameModified="false" />
+  <column id="RunStatus" name="Run Status" isVisiable="true" isEditable="true" width="106" isNameModified="false" />
+  <column id="DevType" name="Device Type" isVisiable="true" isEditable="true" width="111" isNameModified="false" />
+  <column id="DevIP" name="Device IP" isVisiable="true" isEditable="true" width="96" isNameModified="false" />
+  <column id="IS_MONITOR" name="Is Monitored" isVisiable="true" isEditable="true" width="112" isNameModified="false" />
+</table>
+

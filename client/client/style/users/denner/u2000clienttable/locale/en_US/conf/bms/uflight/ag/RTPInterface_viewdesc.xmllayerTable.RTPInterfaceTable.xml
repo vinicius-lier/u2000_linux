@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="WANInterface" name="WAN Info" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="InitialFixedJB" name="Initial Fixed JB(ms)" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+  <column id="MaxAdaptiveJB" name="Max Adaptive JB(ms)" isVisiable="true" isEditable="true" width="113" isNameModified="false" />
+  <column id="MinAdaptiveJB" name="Min Adaptive JB(ms)" isVisiable="true" isEditable="true" width="111" isNameModified="false" />
+  <column id="InitialAdaptiveJB" name="Initial Adaptive JB(ms)" isVisiable="true" isEditable="true" width="121" isNameModified="false" />
+</table>
+

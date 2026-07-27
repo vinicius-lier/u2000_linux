@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+
+<DESC descname="submap_11002">           
+        <DESC descname="DeleteCluster">
+            <PARAS>
+            <PARA name="actionType" value="cic"/>
+            <PARA name="moduleID" value="BMS_Hgmp_Module"/>
+            <PARA name="className"/>
+            <PARA name="processName"/>
+            <PARA name="objectTypeID" value="1" />
+            <PARA name="objectSubtypeID" value="225" />
+            <PARA name="methodName" value="DeleteCluster"/>
+            <PARA name="operationID" value="45290"/>
+            </PARAS>
+        </DESC>   
+
+</DESC>
+</AREADESC>
+</COMMINIDATA>

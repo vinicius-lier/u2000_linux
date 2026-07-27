@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="umacAddress" name="User MAC Address" isVisiable="true" isEditable="false" width="130" isNameModified="false" />
+  <column id="vmacAddress" name="Virtual MAC Address" isVisiable="true" isEditable="true" width="137" isNameModified="false" />
+</table>
+

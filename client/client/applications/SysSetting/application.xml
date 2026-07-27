@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<PARAS>
+			</PARAS>				
+       
+        <DESC descname="plugins">
+          <PARAS>
+          	<!--       	
+        		<PARA name="loginui"></PARA>
+        		<PARA name="com.swimap.orbbase"></PARA>
+        		<PARA name="com.swimap.mrb"></PARA>
+        		<PARA name="em"></PARA>
+        		<PARA name="sysmonitor"></PARA>
+
+        		<PARA name="com.swimap.itm"> </PARA>
+        		<PARA name="com.swimap.iscript"> </PARA>       
+        		<PARA name="eam"> </PARA>
+        		<PARA name="authentication"></PARA>
+        		<PARA name="loginui"></PARA>
+        		<PARA name="clientutil"></PARA>
+        		<PARA name="com.swimap.orbbase"></PARA>
+        		<PARA name="com.swimap.rpc"></PARA>
+        		<PARA name="com.swimap.extension.registry"></PARA>
+        		<PARA name="em"></PARA>
+        		<PARA name="clientutilAdapter"></PARA>
+        		<PARA name="com.swimap.orbbase"></PARA>
+        		<PARA name="com.swimap.corba"></PARA>
+		      	<PARA name="com.swimap.sound"></PARA>
+      			<PARA name="resource"> </PARA>
+        		<PARA name="lm"></PARA>
+        		<PARA name="alarmclientbase"></PARA>
+        		<PARA name="com.swimap.iscript.app"> </PARA>
+    				
+        		<PARA name="com.swimap.rpc"></PARA>
+        		<PARA name="clientutil"></PARA>
+        		<PARA name="transmitlog"></PARA>
+        		<PARA name="search"></PARA>    				
+          	-->
+          
+        		<PARA name="com.swimap.ftp"></PARA>
+        		<PARA name="transmitlog"></PARA>
+        		<PARA name="PreferencePlugin"></PARA>
+				<PARA name="com.swimap.iscript.app"></PARA> 
+				<PARA name="com.swimap.iscript"></PARA>
+				<PARA name="com.swimap.ftpconf"></PARA>
+          </PARAS>
+        </DESC>
+       
+        <DESC descname="features">
+            <PARAS>
+           		<PARA name="sysmonitor"></PARA>
+           		<PARA name="com.swimap.itm"></PARA>
+           		<PARA name="clientutil"></PARA>
+            </PARAS>
+        </DESC>
+       
+        <DESC descname="productlibs">
+            <PARAS>
+             
+            </PARAS>
+        </DESC>
+
+		</DESC>
+		
+		<DESC descname="startupcommands">
+			<PARAS>
+           		<PARA name="command" value="show system monitor frame"></PARA>
+				<PARA name="showBlankInternalFrame" value="false"></PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="ApplicationCallBacks">
+			<PARAS>
+           		<PARA name="com.swimap.iview.sound.main.SoundApplicationCallBack"></PARA>
+			</PARAS>
+		</DESC>
+		
+	</AREADESC>
+</COMMINIDATA>

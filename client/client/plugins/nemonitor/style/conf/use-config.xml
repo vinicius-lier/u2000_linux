@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="nemonitor">
+        <DESC descname="nemonitorfilter">
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

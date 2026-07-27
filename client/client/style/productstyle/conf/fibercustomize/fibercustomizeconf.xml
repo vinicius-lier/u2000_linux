@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="CustomizeRTNConf">
+			<PARAS>
+			  <!-- 用于IP域对微波链路前台新建 链接的显示 -1:不显示(注意同时要修改微波链路的后台脚本) 其它值为显示 -->
+				<PARA name="RTNValue" value="0"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="CustomizeJumperBtnConf">
+			<PARAS>
+			  <!-- 用于定制线缆的新建、删除跳接局按钮 -1:不显示这两个按钮，其他显示 -->
+				<PARA name="JumperBtnValue" value="0"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

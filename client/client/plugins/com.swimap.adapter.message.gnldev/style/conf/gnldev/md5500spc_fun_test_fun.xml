@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="md5500spc">
+			<PARAS />
+			<DESC descname="md5500spc">
+
+				<PARAS>
+					<PARA name="HelpID" value="mapviewer.Preparative" />
+					<PARA name="TableCanModify" value="Yes" />
+					<PARA name="Synchronize" value="15414" />
+					<PARA name="Refresh" value="15414" />
+					<PARA name="Modify" value="15415" />
+					<PARA name="Apply" value="15415" />
+					<PARA name="Delete" value="15417" />
+					<PARA name="Create" value="15416" />
+				</PARAS>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwEndLevel1NetHw" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="254" />
+						<PARA name="ValueMin" value="0" />
+						<PARA name="SpinStep" value="1" />
+						<PARA name="DangerOperation" value="Yes" />
+
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwStartBsn" />
+						<PARA name="DataType" value="Real" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="33.0" />
+						<PARA name="ValueMax" value="45678.0" />
+						<PARA name="ValueMin" value="7.8" />
+						<PARA name="DecimalLength" value="2" />
+						<PARA name="ApplyRule" value="RuleIndexName1" />
+						<PARA name="DangerOperation" value="Yes" />
+						<PARA name="Appearance" value="Message" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwEndLevel1NetTs" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="ValueMax" value="254" />
+						<PARA name="ValueMin" value="0" />
+						<PARA name="ApplyRule" value="RuleIndexName1" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwEndLevel2NetUpTs" />
+						<PARA name="DataType" value="DateTime" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Now" />
+						<PARA name="DateTimeType" value="DateAndTime" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwStartFrameID" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="DynamicQuery" />
+						<PARA name="AttribType" value="Attrib" />
+						<PARA name="ObjMainType" value="FRAME" />
+						<PARA name="ObjLevel" value="ID1" />
+						<PARA name="ApplyRule" value="GetV5IdofAN1" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwStartSlotID" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="DynamicQuery" />
+						<PARA name="AttribType" value="Attrib" />
+						<PARA name="ObjMainType" value="SLOT" />
+						<PARA name="ObjLevel" value="ID2" />
+						<PARA name="ApplyRule" value="GetV5IdofAN1" />
+					</PARAS>
+				</DESC>
+
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwOprType" />
+						<PARA name="DataType" value="Enum" />
+						<PARA name="EnumValue"
+							value="NoOperation,Connect,Disconnect" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="No" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Idle" />
+						<PARA name="Appearance" value="Menu" />
+						<PARA name="DangerOperation" value="Yes" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwEndLevel2NetDownTs" />
+						<PARA name="DataType" value="DateTime" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Now" />
+						<PARA name="DateTimeType" value="Date" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwEndLevel2NetDownHw" />
+						<PARA name="DataType" value="DateTime" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Now" />
+						<PARA name="DateTimeType" value="Time" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwApptype" />
+						<PARA name="DataType" value="Enum" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Normal" />
+						<PARA name="EnumValue"
+							value="Normal,CommonLine,MChannelTransparent" />
+						<PARA name="ApplyRule"
+							value="ControlOtherAttrib" />
+						<PARA name="ApplyRule"
+							value="ControlTransmitGain" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="UpV5InterfaceID" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="DynamicQuery" />
+						<PARA name="AttribType" value="Attrib" />
+						<PARA name="ObjMainType" value="LGCINDEX" />
+						<PARA name="ObjLevel" value="ID1" />
+						<PARA name="ApplyRule" value="GetV5IdofAN" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwStartLevel2NetUpHw" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DataType" value="Hex" />
+						<PARA name="DefaultValue"
+							value="08-00-00-00-00-01" />
+						<PARA name="Length" value="6" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwSpcNo" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="SpinStep" value="6" />
+						<PARA name="DefaultValue" value="03456" />
+						<PARA name="ValueMax" value="1023" />
+						<PARA name="ValueMin" value="0" />
+						<PARA name="ObjLevel" value="ID1" />
+						<PARA name="AttribType" value="ObjTag" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName"
+							value="hwEndLevel2NetUpHw" />
+						<PARA name="DataType" value="Integer" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="5556" />
+						<PARA name="ValueMax" value="1023" />
+						<PARA name="ValueMin" value="0" />
+						<PARA name="ObjLevel" value="ID1" />
+						<PARA name="AttribType" value="ObjTag" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwFailCause" />
+						<PARA name="DataType" value="IP" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="127.0.0.1" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwStartPort" />
+						<PARA name="DataType" value="MultiEnum" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0.1.2" />
+						<PARA name="StateType" value="TwoState" />
+						<PARA name="LineCount" value="3" />
+						<PARA name="EnumValue"
+							value="Item1,Item2,Item3" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwSPCName" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="23" />
+						<PARA name="LengthMax" value="8" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwSpctype" />
+						<PARA name="DataType" value="Enum" />
+						<PARA name="EnumValue"
+							value="Internal,V5Spc,V5Preconnect,LeaseLine" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="Internal" />
+						<PARA name="ApplyRule"
+							value="ControlTransmitGain" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="AttribGroup">
+					<PARAS>
+						<PARA name="GroupName" value="End" />
+						<PARA name="AttribName"
+							value="hwEndLevel2NetUpHw" />
+						<PARA name="AttribName" value="hwFailCause" />
+					</PARAS>
+				</DESC>
+				<DESC descname="ObjectLevel">
+					<PARAS>
+						<PARA name="ID0" value="NE" />
+						<PARA name="ID1" value="LGCINDEX" />
+					</PARAS>
+				</DESC>
+
+			</DESC>
+
+			<DESC descname="md5500spc1">
+
+				<PARAS>
+					<PARA name="HelpID" value="mapviewer.Preparative" />
+					<PARA name="TableCanModify" value="Yes" />
+					<PARA name="Query" value="15414" />
+					<PARA name="Modify" value="15415" />
+					<PARA name="Delete" value="15417" />
+					<PARA name="Create" value="15416" />
+				</PARAS>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribName" value="hwSPCName1" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="Yes" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="23" />
+						<PARA name="LengthMax" value="8" />
+					</PARAS>
+				</DESC>
+
+
+
+			</DESC>
+		</DESC>
+
+		<DESC descname="RuleGroup">
+			<PARAS />
+
+			<DESC descname="ControlOtherAttrib">
+				<PARAS>
+					<PARA name="RuleType" value="DisableState" />
+				</PARAS>
+				<DESC descname="Connect">
+					<PARAS>
+						<PARA name="EnumValue" value="CommonLine" />
+						<PARA name="AttribName"
+							value="hwStartLevel2NetUpHw" />
+					</PARAS>
+				</DESC>
+			</DESC>
+
+			<DESC descname="GetV5IdofAN">
+				<PARAS>
+					<PARA name="RuleType" value="QueryResource" />
+					<PARA name="BaseObjectType" value="NE" />
+					<PARA name="ID1" value="UpV5InterfaceID" />
+				</PARAS>
+			</DESC>
+
+			<DESC descname="GetV5IdofAN1">
+				<PARAS>
+					<PARA name="RuleType" value="QueryResource" />
+					<PARA name="BaseObjectType" value="NE" />
+					<PARA name="ID0" value="hwStartFrameID" />
+					<PARA name="ID1" value="hwStartSlotID" />
+				</PARAS>
+			</DESC>
+
+			<DESC descname="ControlTransmitGain">
+				<PARAS>
+					<PARA name="RuleType" value="EnumCtrlEnum" />
+					<PARA name="MainAttribName" value="hwApptype" />
+					<PARA name="SecAttribName" value="hwSpctype" />
+				</PARAS>
+
+				<DESC descname="Connect">
+					<PARAS>
+						<PARA name="MainEnumValue"
+							value="Normal,CommonLine" />
+						<PARA name="SecEnumValue"
+							value="Internal,V5Spc,V5Preconnect" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Connect">
+					<PARAS>
+						<PARA name="MainEnumValue"
+							value="MChannelTransparent" />
+						<PARA name="SecEnumValue" value="LeaseLine" />
+					</PARAS>
+				</DESC>
+			</DESC>
+
+			<DESC descname="RuleIndexName1">
+				<PARAS>
+					<PARA name="RuleType" value="CompareValue" />
+					<PARA name="CompareType" value="Great" />
+					<PARA name="MainAttrib" value="hwStartBsn" />
+					<PARA name="OtherAttrib" value="hwEndLevel1NetTs" />
+				</PARAS>
+			</DESC>
+		</DESC>
+
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,2 @@
+imap_testframe_sm=iMAP安全测试框架
+imap_testframe_sm.InstallInfo=iMAP安全测试框架

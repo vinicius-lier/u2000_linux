@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Scheduler">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="268531200"   value="定时任务的调度时间错误。任务的调度时间遵循如下规则：\n1、任务的调度时间以服务器端的时间为基准。\n2、任务的运行时间需要比(服务器端的)当前时间至少晚5分钟。" />
+                <PARA name="268531201"   value="定时任务不存在。" />
+                <PARA name="268531202"   value="定时任务正在运行，不能进行删除、修改、启动等操作。" />
+                <PARA name="268531203"   value="同名的定时任务已经存在。" />
+                <PARA name="268531204"   value="定时任务运行失败。" />
+                <PARA name="268531205"   value="定时任务运行超时。" />
+                <PARA name="268531206"   value="数据库操作失败。" />
+                <PARA name="268531207"   value="启动定时任务超时。" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

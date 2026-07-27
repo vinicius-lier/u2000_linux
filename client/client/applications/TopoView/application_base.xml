@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+      <DESC descname="applicationInfo">
+				<PARAS>
+				  <PARA name="id" value="TopoView"/> <!--: must be unique -->
+					<PARA name="name" value="TopoView.name"/> <!-- appName its resource is obtained from res.properties-->
+					<PARA name="description" value="about.desc"/><!-- : description its resource is obtained from res.properties -->
+					<PARA name="icon" value="TopoView.PNG"/> <!--: application icon path relative to style\locale\{en_US|zh_CN}\-->
+					<PARA name="serialnumber" value="102"/><!-- : Order for showing application button. -->
+				</PARAS>
+			</DESC>
+			<DESC descname="blankPageInfo">
+				<PARAS>
+					<PARA name="name" value="blank.name"/>
+					<PARA name="description" value="blank.desc"/>
+					<PARA name="helpid" value="iVIEW.topo.blankPage"/>
+				</PARAS>
+			</DESC>
+    </AREADESC>
+</COMMINIDATA>

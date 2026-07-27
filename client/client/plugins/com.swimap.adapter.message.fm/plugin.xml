@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin id="Fault" name="Fault" version="1.0" provider-name="swimap">
+    <requires>
+        <import plugin="com.swimap.iview.ifms"/>
+    </requires>
+    <extension point="fault.query.alarmtable.popupmenu">
+        <Fault   class="com.swimap.adapter.message.fm.window.extension.popupmenu.AlarmListPopupMenu"/>
+        <History class="com.swimap.adapter.message.fm.window.extension.popupmenu.AlarmLogPopupMenu"/>
+        <Event   class="com.swimap.adapter.message.fm.window.extension.popupmenu.EventLogPopupMenu"/>
+        <HistoryLog   class="com.swimap.adapter.message.fm.window.extension.popupmenu.AlarmHistoryPopupMenu"/>
+    </extension>
+    <extension point="fault.query.alarmtable.button">
+        <Fault   class="com.swimap.adapter.message.fm.window.extension.button.AlarmListButtons"/>
+        <History class="com.swimap.adapter.message.fm.window.extension.button.AlarmLogButtons"/>
+        <Event   class="com.swimap.adapter.message.fm.window.extension.button.EventLogButtons"/>
+        <HistoryLog   class="com.swimap.adapter.message.fm.window.extension.button.AlarmHistoryButtons"/>
+    </extension>
+</plugin>

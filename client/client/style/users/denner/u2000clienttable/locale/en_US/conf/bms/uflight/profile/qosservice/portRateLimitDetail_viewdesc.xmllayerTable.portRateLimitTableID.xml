@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="RateInboundValue" name="Rate Limit of Inband (Kbit/s)" isVisiable="true" isEditable="false" width="178" isNameModified="false" />
+  <column id="RateValue" name="Rate Limit of Outband (Kbit/s)" isVisiable="true" isEditable="true" width="187" isNameModified="false" />
+</table>
+

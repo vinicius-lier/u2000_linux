@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="digitalID" name="Out digital ID" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="digitalName" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="alarmIndex" name="Alarm Index" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="alarmName" name="Alarm Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="state" name="State" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

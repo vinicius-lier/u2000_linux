@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ALL name="Menu">
+    <AREADESC descname="Fault">
+        <PARA menuClassName="com.swimap.tool.ifms.menu.FaultMenu" />
+        <PARA menuItemClassName="com.swimap.tool.ifms.menu.QueryDumpAlmLogsMenuItem" />
+        <PARA menuItemClassName="com.swimap.tool.ifms.menu.QueryExportAlmLogsMenuItem" />
+        <PARA menuItemClassName="com.swimap.tool.ifms.menu.QueryDumpEvtLogsMenuItem" />
+        <PARA menuItemClassName="com.swimap.tool.ifms.menu.QueryExportEvtLogsMenuItem" />
+    </AREADESC>
+    <AREADESC descname="Security">
+        <PARA menuClassName="com.swimap.tool.sm.menu.SecurityMenu" />
+        <PARA menuItemClassName="com.swimap.tool.sm.menu.QueryDumpOptLogsMenuItem" />
+        <PARA menuItemClassName="com.swimap.tool.sm.menu.QueryExportOptLogsMenuItem" />
+    </AREADESC>
+</ALL>

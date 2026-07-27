@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<!--
+		          SubSystem's  discription of base content.
+			ID    means subSystem unique identifier, the properties is necessary.
+			Label   the subSystem's name, this properties is necessary.
+			IMage    the subSystem's icon file's path, this feature is optional .
+		-->
+		<DESC descname="feature">
+			<PARAS>
+        <PARA name="id"
+              value="u2000nelicense"></PARA>
+        <PARA name="label"
+              value="u2000nelicense_name"></PARA>
+        <PARA name="image"
+              value="icon.gif"></PARA>
+			</PARAS>
+		</DESC>
+
+		<!-- the subSystem's other properties  description-->
+		<DESC descname="extra">
+			<PARAS>
+				<!-- the picture of  load dialog, which use to display the process dialog after login in -->
+				<PARA name="image.loading" value="loading.png"></PARA>
+				<!-- the picture of lock dialog , which use to display the lock dialog/unlock dialog-->
+				<PARA name="image.lock" value="lockdialog.gif"></PARA>
+				<!-- the picture  of  exit dialog, which use to display the exit dialog-->
+				<PARA name="image.exit" value="logoutdialog.gif"></PARA>
+				<!-- the version of subSystem, which is used to show in  about dialog-->
+				<PARA name="about.version" value="about.version"></PARA>
+				<!-- the version of subSystem， using to show in  about dialog -->
+				<PARA name="about.desc" value="about.desc"></PARA>
+				<!-- the picture of about dialog，which is used to show in about dialog-->
+				<PARA name="about.image.banner"
+					value="about_banner.gif">
+				</PARA>
+				<!-- the  title picture of about dialog，which is used to show in about dialog-->
+				<PARA name="about.image.title"
+					value="about_title.png">
+				</PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="plugins">
+			<PARAS>			        
+        <PARA name="u2000nelicense"></PARA>
+				<PARA name="authentication"></PARA>
+				<PARA name="loginui"></PARA>
+				<PARA name="clientutil"></PARA>		
+				<PARA name="com.swimap.orbbase"></PARA>
+				<PARA name="com.swimap.rpc"></PARA>		
+			</PARAS>
+		</DESC>
+
+		<!-- 
+			the model list that subSystem need when start.
+			name=""   templet's  unique identifier, which is necessary.       
+		-->
+		<DESC descname="required-plugins">
+			<PARAS>			        
+				<PARA name="resource"></PARA>
+				<PARA name="lm"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

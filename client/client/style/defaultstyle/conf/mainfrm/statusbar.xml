@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+this is a style Information of a status Bar.
+ -->
+<COMMINIDATA>
+  <AREADESC areaname="statusbar">
+    <DESC descname="statusbar">
+      <PARAS>
+        <PARA name="type" value="StatusBar"/>
+      </PARAS>
+      <DESC descname="NotificationMessageItem">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="false"/>
+          <PARA name="layout" value="1"/>
+          <PARA name="minimumSize" value="270,20"/>
+          <PARA name="preferredSize" value="270,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+          <PARA name="serialnumber" value="10"/>
+        </PARAS>
+      </DESC>
+       
+      <DESC descname="ProgressStatusBar">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.ProgressStatusBarItem"/>
+          <PARA name="with_stop_button" value="false"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="true"/>
+          <PARA name="layout" value="1"/>
+          <PARA name="minimumSize" value="70,20"/>
+          <PARA name="preferredSize" value="70,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+          <PARA name="serialnumber" value="10"/>
+          <PARA name="initialVisible" value="false"/>
+        </PARAS>
+      </DESC>
+      <DESC descname="MultiProgressStatusBar">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.ProgressStatusBarItem"/>
+          <PARA name="with_stop_button" value="false"/>
+          <PARA name="messageFont" value="myFont4"/>
+          <PARA name="messageColor" value="black"/>
+          <PARA name="flash" value="true"/>
+          <PARA name="layout" value="1"/>
+         <PARA name="minimumSize" value="70,20"/>
+          <PARA name="preferredSize" value="70,20"/>
+          <PARA name="maximumSize" value="32767, 32767"/>
+          <PARA name="serialnumber" value="20"/>
+          <PARA name="initialVisible" value="false"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="Bubble">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.BubbleStatusBarItem"/>
+          <PARA name="messageColor" value="black"/> 
+          <PARA name="flash" value="false"/>
+          <PARA name="layout" value="0"/>
+          <PARA name="minimumSize" value="30,20"/>
+          <PARA name="preferredSize" value="30,20"/>
+          <PARA name="maximumSize" value="30, 20"/>
+          <PARA name="serialnumber" value="70"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="Logo">
+        <PARAS>
+          <PARA name="type" value="StatusBarItem"/>
+          <PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+          <PARA name="messageColor" value="black"/> 
+          <PARA name="messageIcon" value="LOGOMIN"/> 
+          <PARA name="flash" value="false"/>
+          <PARA name="layout" value="0"/>
+          <PARA name="minimumSize" value="30,20"/>
+          <PARA name="preferredSize" value="30,20"/>
+          <PARA name="maximumSize" value="30, 20"/>
+          <PARA name="serialnumber" value="100"/>
+        </PARAS>
+      </DESC>
+
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

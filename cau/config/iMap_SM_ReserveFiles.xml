@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!--
+    保留文件列表,指示那些文件在升级是应当被保留
+    Reserve files, indication witch file should be reserved after upgrade
+    -->
+    <bean id="ReserveFiles" class="java.util.HashSet">		
+        <constructor-arg>
+            <set>
+                <!--网管客户端中保留集成客户端和系统监控客户端的服务器列表，还有登录框相关配置-->
+                <value>client/client/plugins/loginui/style/conf/loginui/loginserverinfo.xml</value>
+                <value>client/client/plugins/loginui/style/conf/loginui/MonitorModule_loginserverinfo.xml</value>
+                <value>client/client/plugins/loginui/style/conf/loginui/loginuiconfig.xml</value>
+
+                <!--远程通知客户端中保留服务器列表和登录框相关配置-->
+                <value>client/notify/plugins/loginui/style/conf/loginui/loginserverinfo.xml</value>
+                <value>client/notify/plugins/loginui/style/conf/loginui/loginuiconfig.xml</value>
+            </set>
+        </constructor-arg>
+    </bean>
+</beans>

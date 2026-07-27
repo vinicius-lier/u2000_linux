@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+
+    <AREADESC areaname="description">
+	        
+			<DESC descname="ResourceBundle">
+				<PARAS>					
+					<PARA name="resourceBundleName" value="skins/gray/Res"></PARA>
+				</PARAS>
+			 </DESC>
+
+         	<DESC descname="description">
+			<PARAS>				
+				<PARA name="name" value="GRAY_NAME" />
+			</PARAS>
+        	</DESC>        
+    </AREADESC> 
+
+    <AREADESC areaname="UIColors">
+    
+
+            <!--
+				This is the UI Style settings file.
+				If the optional Color settings are not set or invalid it will take default settings
+			-->
+
+        	<DESC descname="MAIN_BACKGROUD_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="239,239,239" />
+			</PARAS>
+        	</DESC>
+        	
+			<DESC descname="TOOLBAR_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="239,239,239" />
+			</PARAS>			
+        	</DESC>
+
+			<DESC descname="DESKTOP_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="224,224,224" />
+			</PARAS>			
+        	</DESC>
+
+        	<DESC descname="HYPERLINK_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="0,102,153" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="SELECTED_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="0,102,153" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="EDIT_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="255,255,255" />
+			</PARAS>			
+        	</DESC> 
+
+			<DESC descname="TREE_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="255,255,255" />
+			</PARAS>			
+        	</DESC> 
+
+			<DESC descname="TREE_TEXT_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="255,255,255" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="BORDER_COLOR">
+			<PARAS>
+				<PARA name="rgb" value="119,119,119" />
+			</PARAS>			
+        	</DESC>
+        	
+        	<DESC descname="TABLE_HEADER_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="239,239,239" />
+			</PARAS>			
+        	</DESC> 
+        	
+        	<DESC descname="DISABLED_BACKGROUND">
+			<PARAS>
+				<PARA name="rgb" value="252,251,253" />
+			</PARAS>							
+        	</DESC> 
+        	
+        	<DESC descname="DISABLED_FOREGROUND">
+			<PARAS>
+				<PARA name="rgb" value="92,92,92" />
+			</PARAS>			
+        	</DESC>            
+    </AREADESC>
+</COMMINIDATA>

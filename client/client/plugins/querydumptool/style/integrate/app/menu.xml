@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+
+<COMMINIDATA>
+
+	<AREADESC>
+		<!-- define a menuSet
+			menuSet:
+			descname as the menuSet's id, must be unique.
+			must have a type para, and the value is "MenuSet"
+			JMenu:(super class must be JMenu)
+			descname as the menuID.
+			must hava a type para, and the value is "JMenu"
+			JMenu's sub element
+			type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+		-->
+
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"></PARA>
+				<PARA name="type" value="MenuSet"></PARA>
+			</PARAS>
+
+			<!-- define a menu have" name" and "mnemonic" attributes -->
+			<DESC descname="SystemMenu">
+				<PARAS>
+					<PARA name="name" value="System"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" value="VK_S"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="serialnumber" value="700"></PARA>
+				</PARAS>				
+			</DESC>
+		</DESC>
+		<!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

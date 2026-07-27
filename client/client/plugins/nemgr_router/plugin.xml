@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="nemgr_router" name="nemgr_router" version="1.0" provider-name="nemgr_router">
+   <requires>
+      <import plugin="Fault"/>
+   </requires>
+   <extension point="fault.query.alarmtable.popupmenu">
+      <Fault class="com.huawei.ipbatchconf.qos.profile.common.alarm.AlarmTableExtPopupMenu"/>
+   </extension>
+   <extension point="fault.query.alarmtable.popupmenu">
+      <Fault class="com.huawei.routermgr.healthinfo.runinfo.brasinfo.alarmext.BrasInfoAlarmExtPopupMenu"/>
+   </extension>
+   <extension point="com.swimap.eam.NeDeletionType">
+        <NeDeletion class="com.huawei.common.dmf.eml.base.NeDeletion">
+       </NeDeletion>
+   </extension>
+</plugin>

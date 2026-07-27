@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="IPv4v6WanName" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="X_HW_SERVICELIST" name="Service Type" isVisiable="true" isEditable="true" width="95" isNameModified="false" />
+  <column id="ConnectionType" name="Connection Type" isVisiable="true" isEditable="true" width="118" isNameModified="false" />
+  <column id="ConnectionStatus" name="IPv4 Connection Status" isVisiable="true" isEditable="true" width="153" isNameModified="false" />
+  <column id="IPv4ExternalIPAddress" name="IPv4 Address" isVisiable="true" isEditable="true" width="98" isNameModified="false" />
+  <column id="IPv6ConnectionStatus" name="IPv6 Connection Status" isVisiable="true" isEditable="true" width="153" isNameModified="false" />
+  <column id="IPv6IPAddress" name="IPv6 Address" isVisiable="true" isEditable="true" width="98" isNameModified="false" />
+  <column id="X_HW_VLAN" name="VLAN ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="X_HW_PRI" name="Priority" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="X_HW_VenderClassID" name="Option60" isVisiable="true" isEditable="true" width="76" isNameModified="false" />
+  <column id="IPv4v6WanEnable" name="Admin State" isVisiable="true" isEditable="true" width="92" isNameModified="false" />
+  <column id="IPv4v6WanMACAddress" name="MAC Address" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="DNSServers" name="IPv4 DNS Server" isVisiable="true" isEditable="true" width="116" isNameModified="false" />
+  <column id="IPv6DNS" name="IPv6 DNS Server" isVisiable="true" isEditable="true" width="116" isNameModified="false" />
+</table>
+

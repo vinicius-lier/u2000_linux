@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!--
+    保留文件列表,指示那些文件在升级是应当被保留
+    Reserve files, indication witch file should be reserved after upgrade
+    -->
+    <bean id="ReserveFiles" class="java.util.HashSet">		
+        <constructor-arg>
+            <set>
+            	  <!--网管客户端中保留集成客户端拓扑背景图的图片文件-->
+            	  <!-- upgrade from V3R1 to V3R2 or higher, from V3R2 users profile saved in server, no need to handle-->
+                <value>client/plugins/topoclient/style/locale/en_US/image/background</value>
+                <value>client/plugins/topoclient/style/locale/zh_CN/image/background</value>
+                
+                <!-- upgrade from V3R2 to V3R2 or higher -->
+                <value>client/client/plugins/topoclient/style/locale/en_US/image/background</value>
+                <value>client/client/plugins/topoclient/style/locale/zh_CN/image/background</value>
+            </set>
+        </constructor-arg>
+    </bean>
+</beans>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="NE Name" name="NE Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="NE Description" name="NE Description" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="NE Type" name="NE Type" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Version" name="Version" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ESN" name="ESN" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="License Status" name="License Status" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

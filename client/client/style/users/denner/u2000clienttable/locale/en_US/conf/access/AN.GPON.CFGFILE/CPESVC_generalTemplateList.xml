@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="false" width="176" isNameModified="false" />
+  <column id="Alias" name="Alias" isVisiable="true" isEditable="true" width="176" isNameModified="false" />
+  <column id="Profile Type" name="Profile Type" isVisiable="true" isEditable="true" width="187" isNameModified="false" />
+</table>
+

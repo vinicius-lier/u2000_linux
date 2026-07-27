@@ -1,0 +1,1 @@
+%IMAP_JAVA_HOME%/bin/java -Xms10m -Xmx100m -classpath compressBackupFiles.jar;./lib/ant.jar engineering.compress.MainClass  %1

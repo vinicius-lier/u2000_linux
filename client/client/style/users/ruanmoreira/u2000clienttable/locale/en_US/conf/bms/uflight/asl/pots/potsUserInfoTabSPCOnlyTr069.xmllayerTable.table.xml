@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="PotsMGID" name="MG ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="PotsUserID" name="User ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="PotsPtpAdmState" name="Management Status" isVisiable="true" isEditable="true" width="136" isNameModified="false" />
+  <column id="PotsCallState" name="Connection Status" isVisiable="true" isEditable="true" width="127" isNameModified="false" />
+  <column id="PotsCtpSrvState" name="Service Status" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+  <column id="PotsUserName" name="User Alias" isVisiable="true" isEditable="true" width="83" isNameModified="false" />
+  <column id="POTSPhyReferenceList" name="Interface ID" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="POTSDirectoryNumber" name="Directory Number      " isVisiable="true" isEditable="true" width="140" isNameModified="false" />
+  <column id="strSIPURI" name="URI" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="DeviceOperationLog">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="-1"   value="Operation failed. Possible causes: 1. The server does not work properly. 2. The client failed to communicate with the server. Please try again, if the problem remains unresolved, contact the system administrator." />
+                <PARA name="-2"    value="The session has expired. You must log in again." />               
+                <PARA name="67108867"    value="The license file does not exist." />
+                <PARA name="67108868"    value="The license is invalid. Please select a valid license for an update. " />
+                <PARA name="67108870"    value="Error in obtaining the ESN." />
+                <PARA name="67108872"   value="Error in writing the license file." />
+                <PARA name="67108873"    value="Failed to connect to the database." />
+                <PARA name="67108874"   value="Failed to read the license file." />
+                <PARA name="67108875"   value="Failed to write the license file." />
+                <PARA name="67108876"   value="Failed to unlink the file. The old file may be read-only." />
+                <PARA name="67108877"   value="Cannot obtain the license item information." />
+                <PARA name="67108878"   value="It is not allowed to update an official license file to a temporary license file." />
+                <PARA name="67108879"   value="The quantity defined in the license is smaller than the consumption quantity of the system. Please select an appropriate license for an update." />
+                <PARA name="67108882"   value="The license control item required by the system does not exist. Please select an appropriate license for an update." />
+                <PARA name="67108889"   value="Failed to load the extended library." />                                                                     
+                <PARA name="67108890"   value="Failed to update the license file due to the failure to verify extended library {0}." /> 
+                <PARA name="67108891"   value="Operation failed. You are not authorized to perform the operation. Please contact the system administrator." /> 
+                <PARA name="67108897"   value="Operation failed in Management Capacity Alarm Settings." />
+                <PARA name="67108894"   value="The license audit file does not exist." />
+                <PARA name="67108895"   value="Failed to create the audit folder catalogue." />
+                <PARA name="67108902"   value="The ESN in the license file does not match that in system equipment, and the license will enter the grace period. Are you sure you want to continue?" />
+			</PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

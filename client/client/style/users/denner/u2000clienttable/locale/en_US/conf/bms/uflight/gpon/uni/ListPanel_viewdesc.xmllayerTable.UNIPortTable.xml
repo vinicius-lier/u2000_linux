@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="PonStatus" name="Status" isVisiable="true" isEditable="false" width="203" isNameModified="false" />
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="203" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="216" isNameModified="false" />
+  <column id="DistNearest" name="Min. Distance (km)" isVisiable="true" isEditable="true" width="256" isNameModified="false" />
+  <column id="DistFarthest" name="Max. Distance (km)" isVisiable="true" isEditable="true" width="258" isNameModified="false" />
+  <column id="DnFecEn" name="Downstream FEC" isVisiable="true" isEditable="true" width="252" isNameModified="false" />
+  <column id="AutofindOntEn" name="ONU Auto Discovery" isVisiable="true" isEditable="true" width="266" isNameModified="false" />
+</table>
+

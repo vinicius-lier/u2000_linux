@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="mainMenu">
+			<PARAS>
+			</PARAS>
+		<DESC descname="SystemMenu">
+			<PARAS>
+			</PARAS>
+		<DESC descname="SecurityParaSetting">
+			<PARAS>
+			</PARAS>
+		<DESC descname="SECURITY_MANAGER_UM">
+			<PARAS>
+				<PARA name="activityCount" value="9"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="USER_OPERATION_MONITOR">
+			<PARAS>
+				<PARA name="activityCount" value="7"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="USER_MONITOR">
+			<PARAS>
+				<PARA name="activityCount" value="9"></PARA>
+			</PARAS>
+		</DESC>
+		</DESC>
+		</DESC>
+		<DESC descname="FileMenu">
+			<PARAS>
+			</PARAS>
+		<DESC descname="searchObject">
+			<PARAS>
+				<PARA name="activityCount" value="10"></PARA>
+			</PARAS>
+		</DESC>
+		</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

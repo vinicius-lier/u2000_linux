@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="alarmclient/IfmsRes"></PARA>
+    </PARAS>
+</DESC>
+
+<DESC descname="mainTool">
+    <PARAS>
+    <PARA name="name" value="main Tool"></PARA>
+    <PARA name="type" value="ToolGroupSet"></PARA>
+    <PARA name="serialnumber" value="100"></PARA>
+    </PARAS>
+    <DESC descname="Fault">
+        <PARAS>
+        <PARA name="id" value="Function"></PARA>
+        <PARA name="name" value="FaultToolBar"></PARA>
+        <PARA name="mnemonic" value="L"></PARA>
+        <PARA name="type" value="JToolBar"></PARA>
+        <PARA name="serialnumber" value="100-100"></PARA>
+        </PARAS>
+
+      <DESC descname="Separator">
+            <PARAS>
+            <PARA name="name" value="Separator"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="100-100-100"></PARA>
+          </PARAS>
+      </DESC>
+
+	<!--define menuitem
+    	<DESC descname="Configurations ...">
+		<PARAS>
+		<PARA name="description" value="Open_Fault_Configuration_Dialog"/>
+		<PARA name="icon" value="alarmclient/SysMng.gif"/>
+		<PARA name="command" value="SystemSetting"/>
+		<PARA name="mnemonic" value="g"/>
+		<PARA name="accelerator" value="VK_g"/>
+		<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-200"></PARA>
+		</PARAS>
+	</DESC>
+
+    	<DESC descname="AlarmSetting">
+		<PARAS>
+	    	<PARA name="description" value="Open_Alarm_Setting_Dialog"/>
+	    	<PARA name="icon" value="alarmclient/AlmSet.gif"/>
+	    	<PARA name="command" value="AlarmSetting"/>
+	    	<PARA name="mnemonic" value="A"/>
+	    	<PARA name="accelerator" value="VK_A"/>
+	    	<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-300"></PARA>
+	    	</PARAS>
+    	</DESC>
+
+        <DESC descname="Separator">
+             <PARAS>
+             <PARA name="name" value="Separator"></PARA>
+             <PARA name="type" value="Separator"></PARA>
+             <PARA name="serialnumber" value="100-100-400"></PARA>
+             </PARAS>
+        </DESC>
+        -->
+	<!--define menuitem-->
+    	<DESC descname="FaultQuery">
+		<PARAS>
+	    	<PARA name="description" value="Query_Fault_Alarm"/>
+	    	<PARA name="icon" value="alarmclient/QryCurAlm.gif"/>
+	    	<PARA name="command" value="FaultQuery"/>
+	    	<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-500"></PARA>
+	    	</PARAS>
+    	</DESC>
+
+    	<DESC descname="EventQuery">
+		<PARAS>
+	    	<PARA name="description" value="Query_Event_Alarm"/>
+	    	<PARA name="icon" value="alarmclient/queryeventalarm.gif"/>
+	    	<PARA name="command" value="EventQuery"/>
+	    	<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-600"></PARA>
+	    	</PARAS>
+    	</DESC>
+
+    	<DESC descname="FaultBrowse">
+		<PARAS>
+	    	<PARA name="description" value="Browse_Fault_Alarm"/>
+	    	<PARA name="icon" value="alarmclient/browsecurrentalarm.gif"/>
+	    	<PARA name="command" value="BrowseFaultAlarm"/>
+	    	<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-700"></PARA>
+	    	</PARAS>
+    	</DESC>
+
+<!--
+    	<DESC descname="EventBrowse">
+		<PARAS>
+	    	<PARA name="description" value="Browse_Event_Alarm"/>
+	    	<PARA name="icon" value="alarmclient/browseeventalarm.gif"/>
+	    	<PARA name="command" value="BrowseEventAlarm"/>
+	    	<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-800"></PARA>
+	    	</PARAS>
+    	</DESC>
+
+        <DESC descname="Separator">
+             <PARAS>
+             <PARA name="name" value="Separator"></PARA>
+             <PARA name="type" value="Separator"></PARA>
+             <PARA name="serialnumber" value="100-100-900"></PARA>
+             </PARAS>
+        </DESC>
+-->
+	<DESC descname="AlarmStatistic">
+		<PARAS>
+		<PARA name="description" value="Alarm_Statistic"/>
+		<PARA name="icon" value="alarmclient/Statistic.gif"/>
+		<PARA name="command" value="AlarmStatistic_Fault"/>
+		<PARA name="mnemonic" value="S"/>
+		<PARA name="accelerator" value="VK_S"/>
+		<PARA name="type" value="AbstractButton"/>
+                <PARA name="serialnumber" value="100-100-1000"></PARA>
+		</PARAS>
+	</DESC>
+
+    </DESC>
+</DESC>
+</AREADESC>
+</COMMINIDATA>

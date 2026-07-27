@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="Fault" name="Fault" version="1.0" provider-name="swimap">
+    <requires>
+        <import plugin="com.swimap.topo"/>
+    </requires>
+    <extension-point id="fault.query.alarmtable.popupmenu" name="fault.query.alarmtable.popupmenu" schema="schema/fault.query.alarmtable.popupmenu.exsd"/>
+    <extension-point id="fault.query.alarmtable.button" name="fault.query.alarmtable.button" schema="schema/fault.query.alarmtable.button.exsd"/>
+    <extension-point id="fault.query.alarmtable.button.index" name="fault.query.alarmtable.button.index" schema="schema/fault.query.alarmtable.button.index.exsd"/>
+    <extension-point id="fault.query.advance.Fault" name="fault.query.advance.Fault" schema="schema/fault.query.advance.Fault.exsd"/>
+    <extension-point id="fault.query.advance.Event" name="fault.query.advance.Event" schema="schema/fault.query.advance.Event.exsd"/>
+    <extension-point id="fault.query.advance.History" name="fault.query.advance.History" schema="schema/fault.query.advance.History.exsd"/>
+    <extension-point id="fault.query.advance.HistoryLog" name="fault.query.advance.HistoryLog" schema="schema/fault.query.advance.HistoryLog.exsd"/>
+    <extension-point id="fault.query.advance.FaultStatistic" name="fault.query.advance.FaultStatistic" schema="schema/fault.query.advance.FaultStatistic.exsd"/>
+    <extension-point id="fault.query.advance.EventStatistic" name="fault.query.advance.EventStatistic" schema="schema/fault.query.advance.EventStatistic.exsd"/>
+    <extension-point id="fault.query.advance.U2100FaultStatistic" name="fault.query.advance.U2100FaultStatistic" schema="schema/fault.query.advance.U2100FaultStatistic.exsd"/>
+    <extension-point id="fault.query.advance.SubnetFaultStatistic" name="fault.query.advance.SubnetFaultStatistic" schema="schema/fault.query.advance.SubnetFaultStatistic.exsd"/>
+	<extension-point id="fault.query.advance.FaultFilterAlarm" name="fault.query.advance.FaultFilterAlarm" schema="schema/fault.query.advance.FaultFilterAlarm.exsd"/>
+    <extension-point id="fault.query.advance.EventFilterAlarm" name="fault.query.advance.EventFilterAlarm" schema="schema/fault.query.advance.EventFilterAlarm.exsd"/>
+    <extension-point id="fault.query.advance.RemoteNotify" name="fault.query.advance.RemoteNotify" schema="schema/fault.query.advance.RemoteNotify.exsd"/>
+    <extension-point id="fault.query.advance.AlarmRedefine" name="fault.query.advance.AlarmRedefine" schema="schema/fault.query.advance.AlarmRedefine.exsd"/>
+    <extension-point id="fault.query.advance.AlarmFilter" name="fault.query.advance.AlarmFilter" schema="schema/fault.query.advance.AlarmFilter.exsd"/>
+    <extension-point id="fault.query.advance.NorthBoundFilter" name="fault.query.advance.NorthBoundFilter" schema="schema/fault.query.advance.NorthBoundFilter.exsd"/>
+    <extension-point id="fault.query.advance.AutoConfirm" name="fault.query.advance.AutoConfirm" schema="schema/fault.query.advance.AutoConfirm.exsd"/>
+    <extension-point id="fault.alarmsource.queryorstatistic" name="fault.alarmsource.queryorstatistic" schema="schema/fault.alarmsource.queryorstatistic.exsd"/>
+    <extension-point id="fault.alarmsource.remotenotify" name="fault.alarmsource.remotenotify" schema="schema/fault.alarmsource.remotenotify.exsd"/>
+    <extension-point id="fault.alarmsource.alarmfilter" name="fault.alarmsource.alarmfilter" schema="schema/fault.alarmsource.alarmfilter.exsd"/>
+    <extension-point id="fault.alarmsource.northboundfilter" name="fault.alarmsource.northboundfilter" schema="schema/fault.alarmsource.northboundfilter.exsd"/>
+    <extension-point id="fault.alarmsource.alarmredefine" name="fault.alarmsource.alarmredefine" schema="schema/fault.alarmsource.alarmredefine.exsd"/>
+    <extension-point id="fault.alarmsource.autoack" name="fault.alarmsource.autoack" schema="schema/fault.alarmsource.autoack.exsd"/>
+    <extension-point id="fault.alarmsource.toporelate" name="fault.alarmsource.toporelate" schema="schema/fault.alarmsource.toporelate.exsd"/>
+    <extension-point id="fault.alarmsource.postprocessing" name="fault.alarmsource.postprocessing" schema="schema/fault.alarmsource.postprocessing.exsd"/>
+    <extension-point id="fault.notify.addresspanel" name="fault.notify.addresspanel" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.notify.addresspanel.exsd"/>
+    <extension-point id="fault.explain.alarmhelpid" name="fault.explain.alarmhelpid" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/com.swimap.iview.ifms.util.alarmhelpidprocessor.exsd"/>
+    <extension-point id="fault.alarmdetail.faultlist" name="fault.alarmdetail.faultlist" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmdetail.faultlist.exsd"/>
+    <extension-point id="fault.alarmdetail.filterlog" name="fault.alarmdetail.filterlog" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmdetail.faultfilter.exsd"/>
+    <extension-point id="fault.alarmdetail.faultlog" name="fault.alarmdetail.faultlog" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmdetail.faultlog.exsd"/>
+    <extension-point id="fault.alarmdetail.historylog" name="fault.alarmdetail.historylog" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmdetail.historylog.exsd"/>
+    <extension-point id="fault.alarmdetail.eventlog" name="fault.alarmdetail.eventlog" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmdetail.eventlog.exsd"/>
+    <extension-point id="fault.alarmdetail.ackbutton" name="fault.alarmdetail.ackbutton" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.detail.ackbutton.exsd"/>
+    <extension-point id="fault.alarmsource.devicedatasource" name="fault.alarmsource.devicedatasource" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmsource.devicedatasource.exsd"/>
+    <extension-point id="fault.alarmsetting.devicedatasource" name="fault.alarmsetting.devicedatasource" schema="impl/client/release/alarm_client/client/plugins/alarmclient/schema/fault.alarmsetting.devicedatasource.exsd"/>
+    <extension-point id="fault.notify.devicesetting" name="fault.notify.devicesetting" schema="schema/fault.notify.devicesetting.exsd"/>
+    <extension-point id="fault.alarmcolumn.hook" name="fault.alarmcolumn.hook" schema="schema/fault.alarmcolumn.hook.exsd"/>
+    <extension-point id="fault.popumenu.mask.alarmsource" name="fault.popumenu.mask.alarmsource" schema="schema/fault.popumenu.mask.alarmsource.exsd"/>
+    <extension-point id="fault.alarms.synchronize" name=" fault.alarms.synchronize " schema="schema/fault.alarms.synchronize.exsd"/>
+    <extension-point id="fault.advancedcorrlation.subresource" name="fault.advancedcorrlation.subresource" schema="schema/fault.advancedcorrlation.subresource.exsd"/>
+    <extension-point id="fault.query.innerview.Fault" name="fault.query.innerview.Fault" schema="schema/fault.query.innerview.Fault.exsd"/>
+    <extension-point id="fault.query.innerview.History" name="fault.query.innerview.History" schema="schema/fault.query.innerview.History.exsd"/>
+    <extension-point id="fault.query.innerview.HistoryLog" name="fault.query.innerview.HistoryLog" schema="schema/fault.query.innerview.HistoryLog.exsd"/>
+    <extension-point id="fault.query.innerview.Event" name="fault.query.innerview.Event" schema="schema/fault.query.innerview.Event.exsd"/>
+    <extension-point id="fault.statistic.item" name="fault.statistic.item" schema="schema/fault.statistic.item.exsd"/>
+    <extension-point id="fault.query.sortable.Fault" name="fault.query.sortable.Fault" schema="schema/fault.query.sortable.Fault.exsd"/>
+    <extension point="com.swimap.topo.TopoFrameExtensionPanel">
+        <TopoFrameExtensionPanel class="com.swimap.iview.ifms.toporelate.BrowseAlarmOnTopo" priority="100"/>
+    </extension>
+     <extension point="com.swimap.resource.AlarmLevelInitializationExtension">
+        <AlarmLevelInitializationExtension class="com.swimap.iview.ifms.toporelate.TopoAlarmLevelSupporter"/>
+    </extension>
+    <extension point="fault.query.advance.Fault">
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmTokenConditionProcessor" index="40"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.FirstOccurTimeProcessor" index="60" show="whenMerge"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.OccurTimesProcessor" index="70" show="whenMerge"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementTimeProcessor" index="80"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementUserProcessor" index="100"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmIDProcessor" index="110"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="120"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="130"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.ClearTypeCondtionProcessor" index="150"/>
+    </extension>
+    <extension point="fault.query.advance.Event">
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.EventTokenConditionProcessor" index="40"/>
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.EventIDProcessor" index="60"/>
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="70"/>
+        <EventLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="80"/>
+    </extension>
+    <extension point="fault.query.advance.History">
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmTokenConditionProcessor" index="40"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LogTypeProcessor" index="60"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementTimeProcessor" index="70"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementUserProcessor" index="90"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmIDProcessor" index="100"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="110"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="120"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.ClearTypeCondtionProcessor" index="150"/>
+    </extension>
+    <extension point="fault.query.advance.HistoryLog">
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmTokenConditionProcessor_history" index="40"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementTimeProcessor" index="50"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementUserProcessor" index="70"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmIDProcessor" index="80"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="90"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="100"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.ClearTypeCondtionProcessor" index="150"/>
+    </extension>
+    <extension point="fault.query.advance.FaultStatistic">
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmTokenConditionProcessor" index="40"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementTimeProcessor" index="50"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LogTypeProcessor" index="60"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementUserProcessor" index="80"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="90"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="100"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.ClearTypeCondtionProcessor" index="150"/>
+    </extension>
+    <extension point="fault.query.advance.EventStatistic">
+        <EventStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <EventStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <EventStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <EventStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.EventTokenConditionProcessor" index="40"/>
+        <EventStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="80"/>
+        <EventStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="90"/>
+    </extension>
+    <extension point="fault.query.advance.U2100FaultStatistic">
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmTokenConditionProcessor" index="40"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementTimeProcessor" index="50"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LogTypeProcessor" index="60"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementUserProcessor" index="80"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="90"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="100"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.ClearTypeCondtionProcessor" index="150"/>
+    </extension>
+    <extension point="fault.query.advance.SubnetFaultStatistic">
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AlarmTokenConditionProcessor" index="40"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementTimeProcessor" index="50"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LogTypeProcessor" index="60"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AcknowledgementUserProcessor" index="80"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="90"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="100"/>
+        <FaultStatistic class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.ClearTypeCondtionProcessor" index="150"/>
+    </extension>    
+    <extension point="fault.query.advance.FaultFilterAlarm">
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="50"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="60"/>
+    </extension>
+    <extension point="fault.query.advance.EventFilterAlarm">
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.TimeTypeConditionProcessor" index="10"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.SerialConditionProcessor" index="20"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="30"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.NeAddressConditionProcessor" index="50"/>
+        <FaultLog class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.AppendInfoProcessor" index="60"/>
+    </extension>
+    <extension point="fault.query.advance.RemoteNotify">
+        <RemoteNotify class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="20"/>
+    </extension>
+    <extension point="fault.query.advance.AlarmRedefine">
+        <AlarmFilter class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforSettingProcessor" index="20"/>
+    </extension>
+    <extension point="fault.query.advance.AlarmFilter">
+        <AlarmFilter class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforProcessor" index="20"/>
+    </extension>
+    <extension point="fault.query.advance.NorthBoundFilter">
+        <AlarmFilter class="com.swimap.iview.ifms.alarmquery.advance.conditionplugin.LocationInforSettingProcessor" index="20"/>
+    </extension>
+    <extension point="com.swimap.topo.PopupMenuSupportor">
+        <TopoPopupMenu name="TopoAlarmPopupMenuSupporter" class="com.swimap.iview.ifms.toporelate.TopoAlarmPopupMenuSupporter"/>
+    </extension>
+    <extension point="fault.alarmsource.queryorstatistic">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+        <objectgroup class="com.swimap.iview.ifms.alarmsource.ObjectGroupSelector" index="30"/>
+    </extension>
+    <extension point="fault.alarmsource.remotenotify">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+    </extension>
+    <extension point="fault.alarmsource.alarmfilter">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+    </extension>
+    <extension point="fault.alarmsource.northboundfilter">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+    </extension>
+    <extension point="fault.alarmsource.alarmredefine">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+    </extension>
+    <extension point="fault.alarmsource.autoack">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+    </extension>
+    <extension point="fault.alarmsource.postprocessing">
+        <topo class="com.swimap.iview.ifms.alarmsource.TopoSelector" index="10"/>
+        <netype class="com.swimap.iview.ifms.alarmsource.NeTypeSelector" index="20"/>
+    </extension>
+    <extension point="fault.notify.addresspanel">
+        <email class="com.swimap.iview.ifms.remotenotify.addresspanel.EmailNotifyAddressPanel" notifytype="Email"/>
+        <sms class="com.swimap.iview.ifms.remotenotify.addresspanel.SMSNotifyAddressPanel" notifytype="SMS"/>
+    </extension>
+    <extension point="com.swimap.sound.manager">
+        <ColorManager class="com.swimap.iview.ifms.resource.sound.IfmsSoundConfigManager"/>
+    </extension>
+    <extension point="fault.statistic.item">
+        <item class="com.swimap.iview.ifms.alarmstatstics.item.SubNetStatisticItem" index="1"/>
+    </extension>
+    <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.EmaiNotifyBasicProcessor"
+            devicename="email"
+            notifytype="Email"
+            priority="500">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMSNotifyBasicProcessor"
+            devicename="gsmmodem"
+            notifytype="SMS"
+            priority="400">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMSNotifyBasicProcessor"
+            devicename="cdmamodem"
+            notifytype="SMS"
+            priority="300">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMCNotifyBasicProcessor"
+            devicename="smcenter"
+            notifytype="SMS"
+            priority="200">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension
+         point="fault.notify.devicesetting">
+      <NotifyDeviceSetting
+            class="com.swimap.iview.ifms.notify.notifyprocessor.SMSNotifyBasicProcessor"
+            devicename="datacard"
+            notifytype="SMS"
+            priority="100">
+      </NotifyDeviceSetting>
+   </extension>
+   <extension point="fault.query.innerview.Fault">
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.DetailInnerQuery" index="0"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.RootLogInnerQuery" index="100"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.MaskLogInnerQuery" index="200"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.RelatedLogInnerQuery" index="300"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.MergeLogInnerQuery" index="400"/>
+    </extension>
+    <extension point="fault.query.innerview.History">
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.DetailInnerQuery" index="0"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.RootLogInnerQuery" index="100"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.MaskLogInnerQuery" index="200"/>
+    </extension>
+    <extension point="fault.query.innerview.HistoryLog">
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.DetailInnerQuery" index="0"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.RootLogInnerQuery" index="100"/>
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.MaskLogInnerQuery" index="200"/>
+    </extension>
+    <extension point="fault.query.innerview.Event">
+        <FaultList class="com.swimap.iview.ifms.alarmquery.innerquery.DetailInnerQuery" index="0"/>
+    </extension>
+
+</plugin>

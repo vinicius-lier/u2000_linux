@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+    <DESC descname="UIUrlCfg">
+                        
+        <DESC descname="^ui/cfg/v2/nes/sync/s\?ne_id=\{[0-9;]*\}">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetPM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="UniteUitlDM" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3022" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="united_common" />
+            </PARAS>
+        </DESC>  
+
+		<DESC descname="^ui/inv/v2/fiber/jumptofibermgr/s\?para=.*">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="BearerServiceCM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="IM_PHY" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3023" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="u2kFiberModule" />
+            </PARAS>
+        </DESC>  
+		
+		<DESC descname="ui/fm/v2/nes/view/alarm/logids">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="AlarmtoNM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="UniteUitlDM" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3003" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="united_common" />
+            </PARAS>
+        </DESC>  
+	</DESC>        
+</AREADESC>
+</COMMINIDATA>

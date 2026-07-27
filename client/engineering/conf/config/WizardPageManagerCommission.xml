@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wizard>
+	<Action>com.oss.engineering.business.commission.client.pages.SetConditionPage</Action>
+	<Page>com.oss.engineering.business.commission.client.pages.WelcomePage</Page>
+	<Page>com.deploy.commission.pages.DeployPage</Page>
+	<Page>com.deploy.commission.pages.UnDeployPage</Page>
+	<Page>com.u2k.engineering.business.commission.client.pages.ControllerPage</Page>
+	<Page if="isM4000M5000 OR isArrayExist">com.u2k.engineering.business.commission.client.pages.AlarmConfigPage</Page>
+	<Page if="isVCS">com.u2k.engineering.business.commission.client.pages.VCSLicensePage</Page>
+	<Page>com.oss.app.msuite.nbiplugins.debug.pages.DeployNbiInstancePage</Page>
+	<Page>com.oss.engineering.business.commission.client.pages.DateTimeZonePage</Page>
+	<Page if="isVirusSoftCheck">com.u2k.engineering.business.commission.client.pages.VirusSoftCheckPage</Page>
+	<Page>com.oss.engineering.business.commission.client.pages.ChangePValuePage</Page>
+	<!--
+	<Page>com.u2k.engineering.business.commission.client.pages.ReplaceNMSLicensePage</Page>
+	-->
+	<Page>com.oss.app.msuite.umplugins.ssl.ui.UMSSLGUIWizardPage</Page>
+	<Page if="isTRANS" optional="true">com.oss.engineering.plugin.transssl.impl.TransSSLTestMS</Page>
+	<Page if="isTRANS" optional="true">com.huawei.trans.mml.ssl.MMLSSLTestMS</Page>
+	<Page>com.oss.app.msuite.pmplugins.ssl.ui.PMSCertificatePage</Page>
+	<Page>com.u2k.engineering.business.commission.client.pages.SecuritySetPage</Page>
+	<Page>com.oss.engineering.business.commission.client.pages.ChangeNTPPage</Page>
+	<Page>com.oss.engineering.business.commission.client.pages.ConfigRoutePage</Page>
+	<Page>com.u2k.engineering.business.commission.client.pages.ConfigNetworkPage</Page>
+	<Page>com.oss.engineering.business.commission.client.pages.ModifyHostnamePage</Page>
+	<Page if="isNotVirtualOS AND isNotWindowsOS">com.u2k.engineering.business.commission.client.pages.ActiveNicPage</Page>
+	<Page>com.oss.engineering.business.commission.client.pages.SummaryPage</Page>
+</Wizard>

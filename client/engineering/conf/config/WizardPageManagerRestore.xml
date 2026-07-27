@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wizard>
+	<Page if="isBCP AND support_bcp_restore">com.oss.engineering.business.storage.client.pages.RestoreWizardPage</Page>
+	<Page>com.oss.engineering.business.storage.client.pages.RestoreSelFilePage</Page>
+	<Page>com.oss.engineering.business.storage.client.pages.RestorePreCheck</Page>
+	<Page>com.oss.engineering.business.storage.client.pages.RestorePreProgressPage</Page>	
+	<Page>com.oss.engineering.business.storage.client.pages.RestoreProgressPage</Page>	
+	<Page>com.oss.engineering.business.storage.client.pages.RestoreExitPage</Page>
+</Wizard>

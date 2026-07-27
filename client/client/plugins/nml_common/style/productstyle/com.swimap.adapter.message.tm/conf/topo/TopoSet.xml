@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ASSISTANT_LINE_POOL_DISPLAY">
+        <DESC descname="ASSISTANT_LINE_POOL_DISPLAY" >
+            <PARAS>
+                <PARA name="ASSISTANT_LINE_POOL_DISPLAY"   value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+
+
+
+<!--
+four types of the command can be defined now
+
+sci:static class invoke
+ici:instance class invoke
+cic:cross invoke
+pic:process invoke
+ -->
+
+<!--
+ security info
+
+ name            present                            value
+"security"     securityType                0 always not allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+"moiID"        moi object ID
+"appID"        application object ID
+"oprID"        operation ID
+
+ -->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="system">
+      <PARAS/>
+      <!-- command id -->
+      <DESC descname="iview mfrm toggle windowtabbedbar">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowtabbedmanager"/>
+          <PARA name="methodName" value="toggleTabbedBarVisible"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+      
+      
+      <DESC descname="iview mfrm toggle messagearea">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainoutputbarmanager"/>
+          <PARA name="methodName" value="displayOutputWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+    
+      <DESC descname="iview mfrm system setting">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainsystemsettingmanager"/>
+          <PARA name="methodName" value="launchSystemSettingsDialog"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="iview mfrm exit">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="moduleID" value=""/>
+          <PARA name="methodName" value="exitInstanceWithConfirm"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm launch help">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="methodName" value="showHelpFrame"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm show about">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="methodName" value="showAboutDialog"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="mainframe:logout">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="methodName" value="logout"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="mainframe:lockterminal">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainterminalmanager"/>
+          <PARA name="methodName" value="lockTerminal"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="mainframe:fullscreen">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="fullScreenActiveWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="mainframe:printPreview">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="previewActivateWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="mainframe:print">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="printActivateWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="mainframe:pageSetup">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="pageSetupActivateWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+    </DESC>
+
+
+<!-- Begin The commond of toolbar management -->
+    <DESC descname="toolbarmanagement">
+      <PARAS/>
+      <!-- command id -->
+      <DESC descname="iview mfrm customize toolbar">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="maintoolbarmanager"/>
+          <PARA name="methodName" value="launchCustomizeDialog"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+     
+      <DESC descname="show system monitor frame">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="MonitorModule"/>
+          <PARA name="methodName" value="showMonitorFrame"/>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="SystemMaintenance"></PARA>
+	  <PARA name="moiID" value="0"></PARA>
+	  <PARA name="accessID" value="Show system monitor"></PARA>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="show system monitor setting dialog">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="MonitorModule"/>
+          <PARA name="methodName" value="showMonitorSettingDialog"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+       
+      <DESC descname="MonitorSettingDialog:confirmButton">
+        <PARAS>
+           <PARA name="actionType" value="ici"></PARA>
+           <PARA name="moduleID"></PARA>
+           <PARA name="className"></PARA>
+           <PARA name="processName"></PARA>
+           <PARA name="methodName" value="confirmButton_actionPerformed"></PARA>
+           <PARA name="security" value="3"></PARA>
+           <PARA name="objectClassName" value="SystemMaintenance"></PARA>
+           <PARA name="accessID" value="SysSetParameter"></PARA>
+        </PARAS>
+      </DESC>
+           
+    </DESC>
+<!-- End The commond of toolbar management -->
+
+<!-- Begin The commond of windows management -->
+    <DESC descname="windowmanagement">
+      <PARAS/>
+      <!-- command id -->
+      <DESC descname="iview mfrm close window">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="closeActivateWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm close all windows">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="closeAllWindows"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm tile horizontal window">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="tileWindows"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+     <DESC descname="iview mfrm tile frames">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="tileFrames"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+  
+      <DESC descname="iview mfrm tile vertical window">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="tileVerticalWindows"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm cascade windows">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="cascadeWindows"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm minimizeActivateWindow">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="minimizeActivateWindow"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="iview mfrm minimizeAllWindows">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="minimizeAllWindows"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+      
+       
+        <!--<DESC descname="iview DefaultStyle">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="mainwindowmanager"/>
+          <PARA name="methodName" value="setDefaultStyle"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>-->
+    </DESC>
+<!-- End The commond of windows management -->
+
+  </AREADESC>
+</COMMINIDATA>

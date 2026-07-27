@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="Res"></PARA>
+    </PARAS>
+</DESC>
+<DESC descname="nemonitor">	
+
+	    <PARAS>
+				<PARA name="name" value="nemonitor"/>
+				<PARA name="type" value="JPopupMenu"/>
+			</PARAS>
+			
+	   <DESC descname="nemonitor">
+	     <PARAS>
+		      <PARA name="name" type="" value="nemonitor"/>
+		      <PARA name="command" type="" value="localNeInFrame"/>
+		      <PARA name="type" type="" value="JMenuItem"/>
+		      <PARA name="mnemonic" value="I"></PARA>
+          <PARA name="serialnumber" value="800"></PARA>
+	     </PARAS>
+     </DESC>      
+</DESC>
+</AREADESC>
+</COMMINIDATA>

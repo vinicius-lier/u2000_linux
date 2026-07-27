@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launcher>
+
+	<module name="base" autoload="true" location="engineering/modules/base">
+		<exclude name="org.eclipse.osgi_3.9.1.v20130814-1242.jar" />
+	</module>
+
+	<module name="platform" autoload="true" location="engineering/modules/platform">
+		<exclude name="StartDSServer*" />
+	</module>
+
+	<module name="framework" autoload="true" location="engineering/modules/framework">
+	</module>
+
+	<module name="public" autoload="true" location="engineering/modules/public">
+		<exclude name="com.oss.engineering.business.jobcreator*" />
+		<exclude name="com.oss.engineering.business.publictask*" />
+	</module>
+
+	<module name="business" autoload="true" location="engineering/plugins">
+		<exclude name="BusinessConfigLogic*" />
+		<exclude name="BusinessConfigManager*" />
+		<exclude name="businessDefaultPlugin*" />
+		<exclude name="BusinessDeploymentService*" />
+		<exclude name="businessDeploymentToolServer*" />
+		<exclude name="BusinessDeployWorkflowCreator*" />
+		<exclude name="BusinessDeployWorkflowServer*" />
+		<exclude name="BusinessInitDBBusiness*" />
+		<exclude name="BusinessInstallClient*" />
+		<exclude name="businessInstallManager*" />
+		<exclude name="BusinessInstallPages*" />
+		<exclude name="BusinessInstallWorkflowCreator*" />
+		<exclude name="BusinessInstallWorkFlowServer*" />
+		<exclude name="businessInstanceManager*" />
+		<exclude name="BusinessMOConvert*" />
+		<exclude name="BusinessNMSSysInfoManager*" />
+		<exclude name="businessNodeConfigManager*" />
+		<exclude name="BusinessStorageAction*" />
+		<exclude name="BusinessStorageBusiness*" />
+		<exclude name="BusinessUninstallPages*" />
+		<exclude name="BusinessUninstallService*" />
+		<exclude name="com.oss.engineering.business.jobcreator*" />
+		<exclude name="com.oss.engineering.business.publictask*" />
+		<exclude name="InstallDiskStarter*" />
+		<exclude name="InstallStarter*" />
+		<exclude name="LaunchCheck*" />
+		<exclude name="PatchInstallBusiness*" />
+		<exclude name="Patchpages*" />
+		<exclude name="PatchStarter*" />
+		<exclude name="PatchWorkflowCreator*" />
+		<exclude name="PreInstall*" />
+		<exclude name="PreUpgrade*" />
+		<exclude name="PreUpgradeCopyEngr*" />
+		<exclude name="UninstallClient*" />
+		<exclude name="upgradeFramework*" />
+		<exclude name="upgradePages*" />
+		<exclude name="UpgradeStarter*" />
+		<exclude name="UpgradeWorkFlowServer*" />
+		<exclude name="vcsalarm*" />
+		<exclude name="DomainDeployService*" />
+	</module>
+
+	<module name="product_client" autoload="true" location="engineering/product_msuiteclient"/>
+
+</launcher>

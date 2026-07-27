@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+
+<!--
+four types of the command can be defined now
+
+sci:static class invoke
+ici:instance class invoke
+cic:cross invoke
+pic:process invoke
+ -->
+
+<!--
+ security info
+
+ name            present                            value
+"security"     securityType                0 always not allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+"moiID"        moi object ID
+"appID"        application object ID
+"oprID"        operation ID
+ -->
+<COMMINIDATA>
+    <AREADESC>
+
+        <!-- Begin The commond of systemmonit management -->
+        <DESC descname="Porttrunking ACL">
+            <PARAS/>
+						<DESC descname="Porttrunking ACL">
+						<PARAS>
+							<PARA name="actionType" value="cic" /> 
+							<PARA name="moduleID" value="porttrunking" /> 
+							<PARA name="methodName" value="showPortTrunkDialog" /> 
+							<PARA name="security" value="3" /> 
+          					<PARA name="objectClassName" value="SecurityApplication"></PARA>
+          					<PARA name="accessID" value="Security_Policy_Edit"></PARA>  
+				</PARAS>
+			</DESC>         
+        </DESC>
+        <!-- End The commond of systemmonit management -->
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle" />
+				<PARA name="resourceBundleName" value="Res" />
+			</PARAS>
+		</DESC>
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu" />
+				<PARA name="type" value="MenuSet" />
+			</PARAS>
+			<!-- define a menu have" name" and "mnemonic" attributes -->
+		
+			<DESC descname="Help">
+				<PARAS>
+					<PARA name="name" value="Help"/>
+					<PARA name="mnemonic" value="H"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="accelerator" value="VK_H"/>
+					<PARA name="icon" value=""/>
+					<PARA name="serialnumber" value="900"/>
+				</PARAS>
+				<!-- define a menuitem -->
+				<DESC descname="LicenseMgr">
+					<PARAS>
+						<PARA name="name" value="LicenseMgr" />
+						<PARA name="icon" value="" />
+						<PARA name="type" value="JMenu" />
+						<PARA name="mnemonic" value="M" />
+						<PARA name="accelerator" value="VK_M" />
+						<PARA name="serialnumber" value="900-25" />
+				  </PARAS>
+				  <DESC descname="License">
+					  <PARAS>
+						  <PARA name="name" value="License"/>
+						  <PARA name="icon" value=""/>
+						  <PARA name="command" value="lm:License"/>
+						  <PARA name="type" value="JMenuItem"/>
+						  <PARA name="mnemonic" value="L"/>
+						  <PARA name="accelerator" value="VK_L"/>
+						  <PARA name="Class" value="IViewJMenuItemEx"/>
+						  <PARA name="serialnumber" value="900-25-10"/>
+					  </PARAS>
+				  </DESC>
+				  <DESC descname="License_ThresholdCfg_Setting">
+					<PARAS>
+						<PARA name="name" value="License_ThresholdCfg_Setting"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="lm:License_ThresholdCfg_Setting"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="S"/>
+						<PARA name="accelerator" value="VK_S"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="900-25-20"/>
+					</PARAS>
+				</DESC>
+				  <DESC descname="INVALID_LICENSE_STATUS_MENU">
+					  <PARAS>
+						  <PARA name="name" value="INVALID_LICENSE_STATUS_MENU"/>
+						  <PARA name="icon" value=""/>
+						  <PARA name="command" value="lm:Query_License_invalid_code"/>
+						  <PARA name="type" value="JMenuItem"/>
+						  <PARA name="mnemonic" value="Q"/>
+						  <PARA name="accelerator" value="VK_Q"/>
+						  <PARA name="Class" value="IViewJMenuItemEx"/>
+						  <PARA name="serialnumber" value="900-25-40"/>
+					  </PARAS>
+				  </DESC>
+				  <DESC descname="VALID_LICENSE_STATUS_MENU">
+					  <PARAS>
+						  <PARA name="name" value="VALID_LICENSE_STATUS_MENU"/>
+						  <PARA name="icon" value=""/>
+						  <PARA name="command" value="lm:Enable_License"/>
+						  <PARA name="type" value="JMenuItem"/>
+						  <PARA name="mnemonic" value="E"/>
+						  <PARA name="accelerator" value="VK_E"/>
+						  <PARA name="Class" value="IViewJMenuItemEx"/>
+						  <PARA name="serialnumber" value="900-25-60"/>
+					  </PARAS>
+				  </DESC>
+				  <DESC descname="EXPORT_LICENSE_FILE_MENU">
+					<PARAS>
+						<PARA name="name" value="EXPORT_LICENSE_FILE_MENU"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="lm:Export_License"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="X"/>
+						<PARA name="accelerator" value="VK_X"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="900-25-80"/>
+					</PARAS>
+				  </DESC>
+				  <DESC descname="LIC_SERVICE_CONTROL_MENU">
+					<PARAS>
+						<PARA name="name" value="LIC_SERVICE_CONTROL_MENU"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="lm:Query_Lic_Service_Control"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="V"/>
+						<PARA name="accelerator" value="VK_V"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="900-25-100"/>
+					</PARAS>
+				  </DESC>
+				</DESC>
+			</DESC>
+		</DESC>
+		<!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

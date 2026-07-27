@@ -1,0 +1,49 @@
+<AREADESC>    
+    <DESC descname="HideMenu">
+  <!-- 屏蔽框节点的删除菜单 -->
+  <DESC descname="DevType">
+            <PARAS>
+                <PARA name="value" value="1319:2" />
+                <PARA name="MenuKeys" value="deleteObject" />
+                <PARA name="operation" value="add"/>
+            </PARAS>
+        </DESC>
+  <DESC descname="DevType">
+      <PARAS>
+           <PARA name="value" value="1319:3" />
+           <PARA name="MenuKeys" value="deleteObject" />
+           <PARA name="operation" value="add" />
+      </PARAS>
+  </DESC>
+  <!-- 屏蔽框节点的"链路信息"菜单 -->
+  <DESC descname="DevType">
+            <PARAS>
+                <PARA name="value" value="1319:2" />
+                <PARA name="MenuKeys" value="ShowLinkInfo" />
+                <PARA name="operation" value="add" />
+            </PARAS>
+        </DESC>
+  <DESC descname="DevType">
+      <PARAS>
+           <PARA name="value" value="1319:3" />
+           <PARA name="MenuKeys" value="ShowLinkInfo" />
+           <PARA name="operation" value="add" />
+      </PARAS>
+  </DESC>
+  <!-- 屏蔽框节点的"创建连接"菜单 -->
+  <DESC descname="DevType">
+            <PARAS>
+                <PARA name="value" value="1319:2" />
+                <PARA name="MenuKeys" value="createLink" />
+                <PARA name="operation" value="add" />
+            </PARAS>
+        </DESC>
+  <DESC descname="DevType">
+      <PARAS>
+           <PARA name="value" value="1319:3" />
+           <PARA name="MenuKeys" value="createLink" />
+           <PARA name="operation" value="add" />
+      </PARAS>
+  </DESC>
+    </DESC>        
+</AREADESC>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="MDName" name="MD Name" isVisiable="true" isEditable="false" width="81" isNameModified="false" />
+  <column id="MDNameFormat" name="MD Name Format" isVisiable="true" isEditable="true" width="123" isNameModified="false" />
+  <column id="MAName" name="MA Name" isVisiable="true" isEditable="true" width="79" isNameModified="false" />
+  <column id="MANameFormat" name="MA Name Format" isVisiable="true" isEditable="true" width="121" isNameModified="false" />
+  <column id="MEPDomainType" name="MEP Location" isVisiable="true" isEditable="true" width="101" isNameModified="false" />
+  <column id="MEPID" name="MEP ID (1-8191)" isVisiable="true" isEditable="true" width="116" isNameModified="false" />
+  <column id="PortInfo" name="Interface Info" isVisiable="true" isEditable="true" width="96" isNameModified="false" />
+  <column id="MAVLAN" name="Associated VLAN (0-4094)" isVisiable="true" isEditable="true" width="170" isNameModified="false" />
+  <column id="MEPVpi" name="VPI (0-4095)" isVisiable="true" isEditable="true" width="94" isNameModified="false" />
+  <column id="MEPVci" name="VCI (32-65535)" isVisiable="true" isEditable="true" width="109" isNameModified="false" />
+  <column id="MEPDirection" name="Interface Direction" isVisiable="true" isEditable="true" width="125" isNameModified="false" />
+  <column id="MEPVlantag1" name="VLAN TAG1 (1-4095)" isVisiable="true" isEditable="true" width="139" isNameModified="false" />
+  <column id="MEPVlantag2" name="VLAN TAG2 (1-4095)" isVisiable="true" isEditable="true" width="139" isNameModified="false" />
+  <column id="MEPCcmLtmPriority" name="CCM And LTM Priority" isVisiable="true" isEditable="true" width="143" isNameModified="false" />
+</table>
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+		<DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="Res" />
+            </PARAS>
+        </DESC>
+		<DESC descname="workbenchsetting">   
+		<DESC descname="_default_iview_workbenches">         
+	            <PARAS>
+      	      		<PARA name="name" value="Default_Workbench_Name"></PARA>
+            		<PARA name="description" value="Default_Workbench_Description"></PARA>					
+					<PARA name="isUserEnable" value="false"></PARA>
+					<PARA name="isRemovable" value="false"></PARA>
+	            </PARAS>
+		</DESC>		
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

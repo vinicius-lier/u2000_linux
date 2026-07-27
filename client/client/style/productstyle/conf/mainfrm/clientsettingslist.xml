@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="clientSettingsList">
+      <!-- Add Upgrade to Preferences -->
+      <DESC descname="UpgradeSettingModule">
+         <PARAS>
+           <PARA name="clientSettingClassId" value="com.swimap.sm.client.base.upgradecheck.UpgradeSettingModule"/>
+           <PARA name="moduleId" value="UpgradeSettingModule"/>
+           <PARA name="sequenceId" value="6000"/>
+        </PARAS>
+      </DESC> 
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

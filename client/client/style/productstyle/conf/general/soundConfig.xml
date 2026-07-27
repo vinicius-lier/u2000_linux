@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+        <DESC descname="Current_Sound_Config" >
+
+            <DESC descname="SEVERITY_CRITICAL" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_CRITICAL" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SEVERITY_MAJOR" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_MAJOR" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SEVERITY_MINOR" >
+                <PARAS>
+                    <PARA name="flag"   value="0" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_MINOR" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SEVERITY_WARNING" >
+                <PARAS>
+                    <PARA name="flag"   value="0" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_WARNING" />
+                </PARAS>
+            </DESC>
+            <DESC descname="EXCEPTION_EVENT" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="EXCEPTION_EVENT" />
+                </PARAS>
+            </DESC>
+            <DESC descname="LOGIN_FAILED_WARNING" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="LOGIN_FAILED_WARNING" />
+                </PARAS>
+            </DESC>
+            <DESC descname="UNLOCK_FAILED_WARNING" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="UNLOCK_FAILED_WARNING" />
+                </PARAS>
+            </DESC>
+        </DESC>
+        <DESC descname="Default_Sound_Config" >
+
+            <DESC descname="SEVERITY_CRITICAL" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="/fault/sound/CriticalAlarm.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_CRITICAL" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SEVERITY_MAJOR" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="/fault/sound/MajorAlarm.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_MAJOR" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SEVERITY_MINOR" >
+                <PARAS>
+                    <PARA name="flag"   value="0" />
+                    <PARA name="name"   value="/fault/sound/MinorAlarm.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_MINOR" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SEVERITY_WARNING" >
+                <PARAS>
+                    <PARA name="flag"   value="0" />
+                    <PARA name="name"   value="/fault/sound/WarningAlarm.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="SEVERITY_WARNING" />
+                </PARAS>
+            </DESC>
+            <DESC descname="EXCEPTION_EVENT" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="/fault/sound/SpaceMusic.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="EXCEPTION_EVENT" />
+                </PARAS>
+            </DESC>
+            <DESC descname="LOGIN_FAILED_WARNING" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="/security/media/Bark.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="LOGIN_FAILED_WARNING" />
+                </PARAS>
+            </DESC>
+            <DESC descname="UNLOCK_FAILED_WARNING" >
+                <PARAS>
+                    <PARA name="flag"   value="1" />
+                    <PARA name="name"   value="/security/media/Bark.au" />
+                    <PARA name="time"   value="60" />
+                    <PARA name="desc"   value="UNLOCK_FAILED_WARNING" />
+                </PARAS>
+            </DESC>
+
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

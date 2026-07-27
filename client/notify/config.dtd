@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="GB2312" ?>
+
+<!ELEMENT device-panel ( type-descriptor, assembly-descriptor,isfacility-panel?, link-file*) >
+
+<!ELEMENT type-descriptor ( description?, frame+, env-item*, shelf+, card*, buckled-card*, port* ) >
+<!ELEMENT isfacility-panel ( #PCDATA ) >
+
+<!ELEMENT link-file ( #PCDATA ) >
+<!ELEMENT frame ( description?, type, class-name?, area-height, popupmenu-ref, child-position+, compatibility?) >
+
+<!ELEMENT area-height ( #PCDATA ) >
+
+<!ELEMENT env-item ( description?, type, class-name?, icon?, popupmenu-ref, fontSize? ) >
+
+<!ELEMENT shelf ( description?, type, class-name?, popupmenu-ref, slot-position?, front, back?, environmentItem-visible?, compatibility?) >
+
+<!ELEMENT front ( child-position+ ) >
+
+<!ELEMENT back ( child-position+ ) >
+
+<!ELEMENT environmentItem-visible ( #PCDATA ) >
+
+<!ELEMENT card ( description?, type,label?, class-name?, labelVisible?, occupied-two-slots?, icon-renderer?, compose-icon?, popupmenu-ref, child-position*, compatibility?, label-font?, label-direction?, label-point?, drawLabelOnImage? ) >
+
+<!ELEMENT occupied-two-slots ( #PCDATA ) >
+
+<!ELEMENT labelVisible ( #PCDATA ) >
+
+<!ELEMENT drawLabelOnImage ( #PCDATA ) >
+
+<!ELEMENT label-point ( x?, y? ) >
+
+<!ELEMENT icon-renderer ( icon, direction?, renderer-length? ) >
+
+<!ELEMENT compose-icon ( icon, direction?, renderer-length? ) >
+
+<!ELEMENT direction ( #PCDATA ) >
+
+<!ELEMENT label-direction ( #PCDATA ) >
+
+<!ELEMENT renderer-length ( #PCDATA ) >
+
+<!ELEMENT buckled-card ( description?, type, class-name?, visible-allowed?, icon?, popupmenu-ref, child-position*, compatibility? ,occupied-two-slots? ,w? ,h? ,extends_direction?) >
+
+<!ELEMENT visible-allowed ( #PCDATA ) >
+
+<!ELEMENT port ( description?, type, class-name?, icon?, icon-base-color?, popupmenu-ref, compatibility?, label-font? ) >
+
+<!ELEMENT icon-base-color ( color, colorOffset?, filteDegree? ) >
+
+<!ELEMENT colorOffset ( #PCDATA ) >
+
+<!ELEMENT filteDegree ( #PCDATA ) >
+
+<!ELEMENT description ( #PCDATA ) >
+
+<!ELEMENT type ( #PCDATA ) >
+
+<!ELEMENT child-position ( bound, empty-config?, slotVisible?, direction?, slot-label?, slot-position? ) >
+
+<!ELEMENT bound ( x, y, w, h ) >
+
+<!ELEMENT x ( #PCDATA ) >
+
+<!ELEMENT y ( #PCDATA ) >
+
+<!ELEMENT w ( #PCDATA ) >
+
+<!ELEMENT h ( #PCDATA ) >
+
+<!ELEMENT extends_direction ( #PCDATA ) >
+
+<!ELEMENT empty-config ( class-name?, popupmenu-ref ) >
+
+<!ELEMENT slotVisible ( #PCDATA ) >
+
+<!ELEMENT slot-label ( #PCDATA ) >
+
+<!ELEMENT slot-position ( #PCDATA ) >
+
+<!ELEMENT class-name ( #PCDATA ) >
+
+<!ELEMENT popupmenu-ref ( #PCDATA ) >
+
+<!ELEMENT compatibility ( #PCDATA ) >
+
+<!ELEMENT assembly-descriptor ( panel-descriptor, emulationalPanel-descriptor?, state-descriptor, alarm-descriptor, popupmenu-descriptor, locale-descriptor? ) >
+
+<!ELEMENT panel-descriptor ( size, background, resource-directory?, shelfLableFont?, slotLableFont?, popupmenu-ref? ) >
+
+<!ELEMENT emulationalPanel-descriptor ( shelfLableFont?, slotLableFont? ) >
+
+<!ELEMENT resource-directory ( #PCDATA ) >
+
+<!ELEMENT size ( width, height ) >
+
+<!ELEMENT label-font ( font?, color? ) >
+
+<!ELEMENT shelfLableFont ( font, color ) >
+
+<!ELEMENT slotLableFont ( font, color ) >
+
+<!ELEMENT font ( fontName, fontSize, fontStyle ) >
+
+<!ELEMENT fontName ( #PCDATA ) >
+
+<!ELEMENT fontSize ( #PCDATA ) >
+
+<!ELEMENT fontStyle ( #PCDATA ) >
+
+<!ELEMENT background ( color ) >
+
+<!ELEMENT width ( #PCDATA ) >
+
+<!ELEMENT height ( #PCDATA ) >
+
+<!ELEMENT state-descriptor ( state+ ) >
+
+<!ELEMENT state ( allowed-display?, value, name, color ) >
+
+<!ELEMENT allowed-display ( #PCDATA ) >
+
+<!ELEMENT color ( r, g, b ) >
+
+<!ELEMENT r ( #PCDATA ) >
+
+<!ELEMENT g ( #PCDATA ) >
+
+<!ELEMENT b ( #PCDATA ) >
+
+<!ELEMENT alarm-descriptor ( display-alarm-legend?, without-alarm, alarm+ ) >
+
+<!ELEMENT display-alarm-legend (#PCDATA) >
+
+<!ELEMENT without-alarm ( value+ ) >
+
+<!ELEMENT alarm ( value, name, icon ) >
+
+<!ELEMENT value ( #PCDATA ) >
+
+<!ELEMENT icon ( #PCDATA ) >
+
+<!ELEMENT popupmenu-descriptor ( popupmenu+ ) >
+
+<!ELEMENT popupmenu ( name, response-object-class-name, ( menu | separator | menuitem )+ ) >
+
+<!ELEMENT menu ( name, label-text, mnemonic?, ( menu | separator | menuitem )+ ) >
+
+<!ELEMENT separator EMPTY >
+
+<!ELEMENT menuitem ( name, label-text, mnemonic?, response-object-class-name?, method-name ) >
+
+<!ELEMENT label-text ( #PCDATA ) >
+
+<!ELEMENT mnemonic ( #PCDATA ) >
+
+<!ELEMENT response-object-class-name ( #PCDATA ) >
+
+<!ELEMENT method-name ( #PCDATA ) >
+
+<!ELEMENT name ( #PCDATA ) >
+
+<!ELEMENT locale-descriptor ( locale+ ) >
+
+<!ELEMENT locale (language-country, resource-directory?, resfilename?, pair*) >
+
+<!ELEMENT language-country ( #PCDATA ) >
+
+<!ELEMENT resfilename (#PCDATA)>
+
+<!ELEMENT pair ( name, label ) >
+
+<!ELEMENT label ( #PCDATA ) >

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ipv6NetToMediaNetAddress" name="Net Address" isVisiable="true" isEditable="true" width="94" isNameModified="false" />
+  <column id="ipv6NetToMediaPhysAddress" name="Physical Address" isVisiable="true" isEditable="true" width="121" isNameModified="false" />
+  <column id="ipv6NetToMediaType" name="Mapping Mode" isVisiable="true" isEditable="true" width="106" isNameModified="false" />
+  <column id="ipv6IfNetToMediaState" name="ND Status" isVisiable="true" isEditable="true" width="82" isNameModified="false" />
+  <column id="ipv6IfNetToMediaLastUpdated" name="Last Update Time" isVisiable="true" isEditable="true" width="124" isNameModified="false" />
+  <column id="ipv6NetToMediaValid" name="Validity" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

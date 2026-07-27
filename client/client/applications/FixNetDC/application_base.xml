@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="applicationInfo">
+      <PARAS>
+        <PARA name="id"
+              value="FixNetDC" />
+        <!--: must be unique -->
+        <PARA name="name"
+              value="FixNetDC.name" />
+        <!-- appName its resource is obtained from res.properties-->
+        <PARA name="description"
+              value="about.desc" />
+        <!-- : description its resource is obtained from res.properties -->
+        <PARA name="icon"
+              value="FixNetDC.png" />
+        <!--: application icon path relative to style\locale\{en_US|zh_CN}\-->
+        <PARA name="serialnumber"
+              value="531" />
+        <!-- : Order for showing application button. -->
+      </PARAS>
+    </DESC>
+    <DESC descname="blankPageInfo">
+      <PARAS>
+        <PARA name="name"
+              value="blank.name.sys" />
+        <PARA name="description"
+              value="blank.desc.sys" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

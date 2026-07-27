@@ -1,0 +1,5 @@
+SELECT_LANGUAGE_PATH 		= engineering/conf/config/SelectLanguage.xml
+SERVER_ETC_CONF_PATH		= server/etc/conf
+SERVER_ETC_CONF_LOCALE_PATH	= server/etc/conf/locale/
+IMAP_SERVICE_SVC_XMLPATH = server/etc/conf/imapservice_svc_ex.xml
+ADDNODEEXCLUDEFILES=engineering/conf/config/addNodeExcludeFiles.cfg

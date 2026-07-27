@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="en_US">
+		<DESC descname="ZoneDSTSetting">
+			<PARAS>
+				<PARA name="ShowZone" value="0"/>
+				<PARA name="ShowDST" value="0"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

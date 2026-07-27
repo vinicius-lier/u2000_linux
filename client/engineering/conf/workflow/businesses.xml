@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<businesses>
+	<business name="install">
+		<function name="InitInstallData" />
+		<function name="InstanceData" />
+		<function name="PreInstallServer" />
+		<function name="Unzip" />
+		<function name="CopyEngrFilesAction" />
+		<function name="ReplaceFileMacroClient" />
+		<function name="ModifyPermissionForOSS" />
+		<function name="InstallVCREDI" />
+		<function name="InstallClient" />
+		<function name="PostInstallClient" />
+		<function name="ReplaceFileMacroServer" />
+		<function name="InstallServer" />
+		<function name="PostInstallServer" />
+		<function name="GlobalPreDeploy" />
+		<function name="PreDeployInstance" />
+		<function name="AddSubsystemInstance" />
+		<function name="PostDeployInstance" />
+		<function name="ExitInstall" />
+		<function name="GlobalExit" />
+		<function name="PublicOperation" />
+	</business>
+
+	<business name="upgradeinstall">
+		<function name="InitInstallData" />
+		<function name="InstanceData" />
+		<function name="PreInstallServer" />
+		<function name="Unzip" />
+		<function name="CopyEngrFilesAction" />
+		<function name="ReplaceFileMacroClient" />
+		<function name="ModifyPermissionForOSS" />
+		<function name="InstallClient" />
+		<function name="PostInstallClient" />
+		<function name="ReplaceFileMacroServer" />
+		<function name="InstallServer" />
+		<function name="PostInstallServer" />
+		<function name="GlobalPreDeploy" />
+		<function name="PreDeployInstance" />
+		<function name="AddSubsystemInstance" />
+		<function name="PostDeployInstance" />
+		<function name="ExitInstall" />
+		<function name="GlobalExit" />
+		<function name="PublicOperation" />
+	</business>
+
+	<business name="AddNode">
+		<function name="GlobalPreAddNode" />
+		<function name="AddNode_SubNode" />
+		<function name="GlobalPostAddNode" />
+		<function name="InitReinstallData" />
+		<function name="InstanceData" />
+		<function name="GlobalPreDeploy" />
+		<function name="PreDeployInstance" />
+		<function name="Adjustdeploypackage" />
+		<function name="AddSubsystemInstance" />
+		<function name="PostDeployInstance" />
+		<function name="ExitAddNode" />
+		<function name="GlobalExitAddNode" />
+		<function name="PublicOperation" />
+	</business>
+
+	<business name="DelNode">
+		<function name="InitDeleteNodeData" />
+		<function name="GlobalPreDelNode" />
+		<function name="DelNode_SubNode" />
+		<function name="DelNode_Master"/>
+		<function name="GlobalPostDelNode" />
+	</business>
+
+	<business name="IncrementInstall">
+		<function name="InitReinstallData" />
+		<function name="InstanceData" />
+		<function name="PreInstallServer" />
+		<function name="Unzip" />
+		<function name="ModifyPermissionForOSS" />
+		<function name="InstallClient" />
+		<function name="PostInstallClient" />
+		<function name="InstallServer" />
+		<function name="PostInstallServer" />
+		<function name="Adjustdeploypackage" />
+		<function name="PreDeployInstance" />
+		<function name="AddSubsystemInstance" />
+		<function name="PostDeployInstance" />
+		<function name="ExitInstall" />
+		<function name="GlobalExit" />
+		<function name="PublicOperation" />
+	</business>
+
+	
+	<business name="deployByDomain">
+		<function name="preDeployByDomain" />
+		<function name="GlobalPreDeploy" />
+		<function name="PreDeployInstance" />
+		<function name="InitDeploypackage" />
+		<function name="Adjustdeploypackage" />
+		<function name="GlobalPostDeploy" />
+		<function name="PostDeployByDomain" />
+		<function name="PublicOperation" />
+	</business>
+	
+	<business name="undeployByDomain">
+		<function name="preUndeployByDomain" />
+		<function name="GlobalPreUndeploy" />
+		<function name="UndeployByDomain" />
+		<function name="GlobalPostUndeploy" />
+		<function name="postUndeployByDomain" />
+		<function name="PublicOperation" />
+	</business>
+	
+	<business name="addSubsystemInstance">
+		<function name="InitAddInstanceData" />
+		<function name="InstanceData" />
+		<function name="PreDeployInstance" />
+		<function name="AddSubsystemInstance" />
+		<function name="PostDeployInstance" />
+		<function name="ExitAddInstance" />
+	</business>
+
+	<business name="deleteSubsystemInstance">
+		<function name="PreDeleteInstance" />
+		<function name="DeleteSubsystemInstance" />
+		<function name="PostDeleteInstance" />
+		<function name="ExitDeleteInstance" />
+	</business>
+
+	<business name="MoveSubsystemInstance">
+		<function name="InitialMoveInstance" />
+		<function name="MoveInstance" />
+		<function name="ExitMoveInstance" />
+	</business>
+
+	<business name="PrepareRestore">
+		<function name="TransferRemote" />
+		<function name="UncompressData" />
+		<function name="CompareBackupInfos" />
+	</business>
+
+	<business name="DoRestore">
+		<function name="PreRestore" />
+		<function name="CheckDatabaseInUse" />
+		<function name="DisableArchiveLog" />
+		<function name="AddInstanceAction" />
+		<function name="RestoreSubsystemDatabase" />
+		<function name="EnableArchiveLog" />
+		<function name="DecompressSubsystemFiles" />
+		<function name="PostRestore" />
+		<function name="PublicOperation" />
+	</business>
+
+	<business name="uninstallserver">
+		<function name="Preuninstallserver" />
+		<!--del service-->
+		<function name="Uninstallserver_allnode" />
+		<function name="Postuninstallserver" />
+	</business>
+	<business name="PatchInstallFlow">
+	    
+		<function name="PreInstallScripts" />
+	    <!-- Initialize macros -->
+		<function name="PatchMacroInitDataMap" />
+		
+		<!-- Transfer patch package to slave/stand by machines -->
+		<!--<function name="TransferPatchFiles" /> -->
+		
+		<!-- Backup patch files -->
+		<function name="BackupConfigFiles" />
+		<!-- parallel script execution during backup -->
+		<function name="ParallBackupFile" />		
+		
+		<!-- Application backup and database backup-->
+					
+		<function name="PatchBackup" />
+				
+		<!-- Serialize data required for rollback -->
+		<function name="SerializeData" />	
+		
+	    <function name="PrePackageExecuteScripts" />
+		
+		
+	    <!-- Unzip files in all machine -->
+		<function name="PatchUnzipFiles" />
+		<function name="ModifyPermissionForOSS" />
+		<!-- parallel script execution during unzip -->
+		<function name="ParallelPatchInstall" />
+		
+		<!--  script execution after install-->
+		<function name="AfterPatchInstall" />
+		
+		<!--  upgrade script execution -->
+		<function name="PatchUpgradeScriptTask" />
+		
+		<function name="PostPackageExecuteScripts" />
+		
+		
+		<!--  postupgrade script execution -->
+		<function name="PatchPostUpgradeScriptTask" />
+		
+	    <function name="PostInstallScripts" />	
+
+	</business>
+	
+	<business name="PatchRollBackFlow">
+	
+	 
+	    <function name="PatchMacroInitDataMap" />
+		<function name="PrePatchRollBack" />
+		<!--back uo db ,app and datemodule-->
+		<function name="PatchRollBack" />
+		<!--remove patch installed information-->
+		<function name="serializeData" />
+		<function name="PostPatchRollBack" />
+	
+	</business>
+
+	<business name="InitAllDatabases">
+		<function name="PreInitDatabase" />
+		<function name="PreDeployInstance" />
+		<function name="ExecDatabaseScript" />
+		<function name="PostInitDatabase" />
+		<function name="PublicOperation" />
+	</business>
+
+	<business name="DeleteComponent">
+		<function name="PreDeleteComponent" />
+		<function name="DeleteSubsystem" />
+		<function name="PostDeleteComponent" />
+	</business>
+
+</businesses>

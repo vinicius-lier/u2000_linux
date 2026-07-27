@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="DstInterfaceType" name="Network Interface Type" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+  <column id="DstPortInfo" name="Network Interface Info" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="SrcPortInfo" name="User Interface Info" isVisiable="true" isEditable="true" width="500" isNameModified="false" />
+</table>
+

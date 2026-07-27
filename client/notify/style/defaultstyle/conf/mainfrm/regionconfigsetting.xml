@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+		<AREADESC areaname="RegionConfigSetting">
+		     <DESC descname="SupportZoneDST">
+							<PARAS>
+		    					<PARA name="SupportDST" value="true"/>
+		    					<PARA name="SupportZone" value="true"/>
+							</PARAS>
+         </DESC> 
+		     <DESC descname="RegionDataAccess">
+							<PARAS>
+		    					<PARA name="Class" value="com.swimap.iview.framework.regionconfig.datasource.DefaultImpl"/>
+							</PARAS>
+         </DESC> 
+		</AREADESC>
+</COMMINIDATA>
+

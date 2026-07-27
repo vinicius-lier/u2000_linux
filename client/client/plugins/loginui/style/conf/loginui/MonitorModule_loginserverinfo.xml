@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="ServerInfo">
+		<DESC descname="Server Information 0">
+			<PARAS>
+				<PARA name="customServerName" value="Localhost"/>
+				<PARA name="serverName" value="127.0.0.1"/>
+				<PARA name="portData" value="31080"/>
+				<PARA name="securityMode" value="sslservermode"/>
+				<PARA name="LastLoginUserName" value=""/>
+				<PARA name="IsLastLoginServer" value="false"/>
+			</PARAS>
+		</DESC>
+	<DESC descname="Server Information 1">
+<PARAS>
+<PARA name="IsLastLoginServer" value="true"/>
+<PARA name="portData" value="31080"/>
+<PARA name="securityMode" value="sslservermode"/>
+<PARA name="customServerName" value="192.168.10.107"/>
+<PARA name="serverName" value="192.168.10.107"/>
+<PARA name="LastLoginUserName" value=""/>
+</PARAS>
+</DESC>
+</AREADESC>
+</COMMINIDATA>

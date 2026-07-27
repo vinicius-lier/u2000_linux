@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+<COMMINIDATA>
+	<AREADESC>
+		<!-- define a menuSet
+
+menuSet:
+
+        descname as the menuSet's id, must be unique.
+
+        must have a type para, and the value is "MenuSet"
+
+
+
+JMenu:(super class must be JMenu)
+
+        descname as the menuID.
+
+        must hava a type para, and the value is "JMenu"
+
+
+
+JMenu's sub element
+
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+
+
+ -->
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="Res"/>
+			</PARAS>
+		</DESC>
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"/>
+				<PARA name="type" value="MenuSet"/>
+			</PARAS>
+			<!-- define a menu have" name" and "mnemonic" attributes -->
+			<!--NMSUSER_MAINMENU-->
+			<DESC descname="NMSUSER_MAINMENU">
+				<PARAS>
+					<PARA name="name" value="NMSUSER_MAINMENU_SINGLE"/>
+					<PARA name="mnemonic" value="C"/>
+					<PARA name="accelerator" value="VK_C"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="serialnumber" value="600"/>
+				</PARAS>
+         		        <!--BROWSE_SECURITY_INFO-->
+				<DESC descname="SECURITY_MANAGER">
+					<PARAS>
+						<PARA name="name" value="SECURITY_MANAGER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showSecurityFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="M"/>
+						<PARA name="accelerator" value="VK_M"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-10"/>
+					</PARAS>
+				</DESC>
+                                <!--CREATE_USER-->
+				<DESC descname="CREATE_USER">
+					<PARAS>
+						<PARA name="name" value="Toolbar_new_user"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sCreateUser"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="U"/>
+						<PARA name="accelerator" value="VK_U"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-20"/>
+					</PARAS>
+				</DESC>
+				<!--CREATE_GROUP-->
+				<DESC descname="CREATE_GROUP">
+					<PARAS>
+						<PARA name="name" value="Toolbar_new_usergrp"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sCreateGroup"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="G"/>
+						<PARA name="accelerator" value="VK_G"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-30"/>
+					</PARAS>
+				</DESC>
+				<!--CREATE_SOG-->
+				<DESC descname="CREATE_DeviceSet">
+					<PARAS>
+						<PARA name="name" value="toolBarCreateDevSet"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sCreateDeviceSet"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="S"/>
+						<PARA name="accelerator" value="VK_S"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-40"/>
+					</PARAS>
+				</DESC>
+				<!--CREATE_OPG-->
+				<DESC descname="CREATE_OperationSet">
+					<PARAS>
+						<PARA name="name" value="toolBarCreateOprSet"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sCreateOperationSet"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="O"/>
+						<PARA name="accelerator" value="VK_O"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-50"/>
+					</PARAS>
+				</DESC>
+				<!--QUERY_RIGHT_OWNER-->
+				<DESC descname="QUERY_RIGHT_OWNER">
+					<PARAS>
+						<PARA name="name" value="QUERY_RIGHT_OWNER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sQueryRightOwner"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="Q"/>
+						<PARA name="accelerator" value="VK_Q"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-60"/>
+					</PARAS>
+				</DESC>
+				<!--COMPARE_RIGHT-->
+				<DESC descname="COMPARE_RIGHT">
+					<PARAS>
+						<PARA name="name" value="COMPARE_RIGHT"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sCompareRight"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="A"/>
+						<PARA name="accelerator" value="VK_A"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-70"/>
+					</PARAS>
+				</DESC>
+				<!--DESC descname="EXPORT_AUTHINFO">
+					<PARAS>
+						<PARA name="name" value="EXPORT_AUTHINFO"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:export auth info"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="I"/>
+						<PARA name="accelerator" value="VK_I"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-80"/>
+					</PARAS>
+				</DESC-->
+				<DESC descname="SYN_USER_AND_USERGROUP_INFO">
+					<PARAS>
+						<PARA name="name" value="SYN_USER_AND_USERGROUP_INFO"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:syn user and userGroup info"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="Y"/>
+						<PARA name="accelerator" value="VK_Y"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-90"/>
+					</PARAS>
+				</DESC>				
+			</DESC>
+
+			<!--NEUSER_MAINMENU-->
+			<!-- default close ne user and ne login manager -->
+			<!--DESC descname="NE_Security">
+				<PARAS>
+					<PARA name="name" value="NE_Security"/>
+					<PARA name="mnemonic" value="E"/>
+					<PARA name="accelerator" value="VK_E"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="serialnumber" value="610"/>
+				</PARAS>
+				
+				<DESC descname="MENU_NE_USER_MANAGER">
+					<PARAS>
+						<PARA name="name" value="MENU_NE_USER_MANAGER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:show NE USER"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="R"/>
+						<PARA name="accelerator" value="VK_R"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="610-10"/>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="CREATE_NEUSER">
+					<PARAS>
+						<PARA name="name" value="CREATE_NEUSER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:sCreateNEUser"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="U"/>
+						<PARA name="accelerator" value="VK_U"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="610-20"/>
+					</PARAS>
+				</DESC>
+				
+				<DESC descname="Separator">
+          <PARAS>
+            <PARA name="name" value="Separator"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="610-30"></PARA>
+          </PARAS>
+
+        </DESC>
+        
+        <DESC descname="MENU_NE_LOGIN_MANAGER">
+					<PARAS>
+						<PARA name="name" value="MENU_NE_LOGIN_MANAGER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showNELoginFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="N"/>
+						<PARA name="accelerator" value="VK_N"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="610-40"/>
+					</PARAS>
+				</DESC>	 
+				                 			
+			</DESC-->
+
+			<!--MONITOR_MAINMENU-->
+			<DESC descname="MONITOR_MAINMENU">
+				<PARAS>
+					<PARA name="name" value="MONITOR_MAINMENU"/>
+					<PARA name="mnemonic" value="M"/>
+					<PARA name="accelerator" value="VK_M"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="serialnumber" value="630"/>
+				</PARAS>
+         		        <!--USER_MONITOR-->
+				<DESC descname="USER_MONITOR">
+					<PARAS>
+						<PARA name="name" value="USER_MONITOR"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:show user monitor frame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="U"/>
+						<PARA name="accelerator" value="VK_U"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="630-10"/>
+					</PARAS>
+				</DESC>				
+				
+				<DESC descname="USER_OPERATION_MONITOR">
+					<PARAS>
+						<PARA name="name" value="USER_OPERATION_MONITOR"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:show user operation monitor frame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="O"/>
+						<PARA name="accelerator" value="VK_O"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="630-10"/>
+					</PARAS>
+				</DESC>				
+			</DESC>
+
+			<!--SETTING_MAINMENU-->
+			<DESC descname="SETTING_MAINMENU">
+				<PARAS>
+					<PARA name="name" value="SETTING_MAINMENU"/>
+					<PARA name="mnemonic" value="S"/>
+					<PARA name="accelerator" value="VK_S"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="serialnumber" value="640"/>
+				</PARAS>
+         		        <!--POLICY_SETTING-->
+				<DESC descname="SYSTEM_ACL_DIALOG">
+					<PARAS>
+						<PARA name="name" value="SYSTEM_ACL_DIALOG"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showACLDialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="A"/>
+						<PARA name="accelerator" value="VK_A"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="640-10"/>
+					</PARAS>
+				</DESC>
+                                <!--ACL_SETTING-->
+				<DESC descname="POLICY_SETTING">
+					<PARAS>
+						<PARA name="name" value="POLICY_SETTING"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:show security policy dialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="P"/>
+						<PARA name="accelerator" value="VK_P"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="640-20"/>
+					</PARAS>
+				</DESC>	
+				<!--DESC descname="SECONDARY_AUTH_CFG">
+					<PARAS>
+						<PARA name="name" value="MENU_SECONDARY_AUTH_CFG"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showSecondaryAuthCFGFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="D"/>
+						<PARA name="accelerator" value="VK_D"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="640-30"/>
+					</PARAS>
+				</DESC-->
+				<DESC descname="SUPPORT_REMOTE_AUTH_CONFIG">
+					<PARAS>
+						<PARA name="name" value="SUPPORT_REMOTE_AUTH_CONFIG"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:support remote auth config"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="B"/>
+						<PARA name="accelerator" value="VK_B"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="640-40"/>
+					</PARAS>
+				</DESC>	
+			</DESC>
+			<!--DESC descname="TRANSFER_NMSINFO_MENU">
+					<PARAS>
+					<PARA name="name" value="TRANSFER_NMSINFO_MENU"/>
+					<PARA name="mnemonic" value="E"/>
+					<PARA name="accelerator" value="VK_E"/>
+					<PARA name="type" value="JMenu"/>
+					<PARA name="serialnumber" value="650"/>
+				  </PARAS>
+				  
+				  <DESC descname="EXPORT_NMSINFO_DIALOG">
+					<PARAS>
+						<PARA name="name" value="EXPORT_NMSINFO_DIALOG"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showExportUserAndGroupInfoDialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="X"/>
+						<PARA name="accelerator" value="VK_X"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="650-10"/>
+					</PARAS>					
+				  </DESC>
+				  
+				  <DESC descname="IMPORT_NMSINFO_DIALOG">
+					<PARAS>
+						<PARA name="name" value="IMPORT_NMSINFO_DIALOG"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showImportUserAndGroupInfoDialog"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="P"/>
+						<PARA name="accelerator" value="VK_P"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="650-20"/>
+					</PARAS>					
+				  </DESC>
+				</DESC-->				
+		</DESC>	
+	</AREADESC>
+</COMMINIDATA>

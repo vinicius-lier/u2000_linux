@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+	<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+-->
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="resource">
+			<PARAS>
+				<!-- DEFINE EMERGY SYSTEM-->
+				<PARA name="SpecificLoadingStates">
+                                   <VALUE value="1"/>
+                                </PARA>
+				<PARA name="ClassName"
+					value="com.swimap.resource.client.innerimpl.ResourceBaseModule" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="true" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsOrb" value="false" />
+				<PARA name="serialnumber" value="29" />
+				<PARA name="IsMustLoad" value="true" />
+				<PARA name="dependModules">
+					 <VALUE value="com.swimap.extension.registry"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

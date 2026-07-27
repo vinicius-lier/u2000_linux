@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <!-- 配置块中定制应用需要加载的模块和子系统信息 -->
+        <DESC descname="startupElementList">
+            <PARAS>
+            </PARAS>
+            <!-- name: plugin列表 -->
+            <DESC descname="plugins">
+                <PARAS>
+                    <PARA name="nml_eth"/>
+                </PARAS>
+            </DESC>
+            <!-- name: feature列表 -->
+            <DESC descname="features"/>
+            <!-- name: productlib 文件夹列表 -->
+            <DESC descname="productlibs">
+                <PARAS>
+                    <PARA name="nml_eth"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+        <DESC descname="startupcommands"> 
+            <PARAS> 
+                <PARA name="command" value=""/> 
+                <PARA name="action" value=""/> 
+                <PARA name="executable" value=""/> 
+            </PARAS> 
+        </DESC> 
+    </AREADESC>
+</COMMINIDATA>

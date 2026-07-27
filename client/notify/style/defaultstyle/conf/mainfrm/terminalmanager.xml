@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINI SYSTEM "commini.dtd">
+<COMMINI>
+    <AREADESC>
+        <DESC descname="idleTimeSetting">
+            <PARAS>
+                <PARA name="idleTime" value="3" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    
+    <AREADESC >
+        <DESC descname="mainWindowVisibilitySetting" >
+            <PARAS>
+                <PARA name="mainWindowVisible"   value="false" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINI>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="CustomizeRTNConf">
+			<PARAS>
+				<PARA name="RTNLinkValue" value="0"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="CustomizeVirtualConf">
+			<PARAS>
+				<PARA name="VirtualLinkValue" value="0"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="CustomizeJumperBtnConf">
+			<PARAS>
+				<PARA name="JumperBtnValue" value="0"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC areaname="MapArea">
+    	
+        <DESC descname="IP">
+            <PARAS>
+                <PARA name="routermgr" value="126"/>
+                <PARA name="securitymgr" value="2074"/>
+                <PARA name="sgmgr" value="36"/>
+                <PARA name="switchmgr_box" value="2604"/>
+                <PARA name="switchmgr_frame" value="2605"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Access">
+            <PARAS>
+                <PARA name="accessmgr" value="30"/>
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="Transport">
+            <PARAS>
+                <PARA name="SdhNemgr" value="188"/>
+                <PARA name="WdmNemgr" value="181"/>
+                <PARA name="RtnNemgr" value="184"/>
+                <PARA name="NgwdmNemgr" value="185"/>
+                <PARA name="ExtNemgr" value="186"/>
+                <PARA name="PtnNemgr" value="187"/>
+                <PARA name="MarineNemgr" value="189"/>
+            </PARAS>
+        </DESC>
+        
+    </AREADESC>
+</COMMINIDATA>

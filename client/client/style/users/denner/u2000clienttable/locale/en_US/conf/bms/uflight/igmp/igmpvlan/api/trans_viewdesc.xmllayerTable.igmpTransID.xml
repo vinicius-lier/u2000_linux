@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="IgmpVlanID" name="Multicast VLAN ID" isVisiable="true" isEditable="false" width="122" isNameModified="false" />
+  <column id="ProgramSourceIP" name="Program Source IP" isVisiable="true" isEditable="true" width="130" isNameModified="false" />
+  <column id="ProgramDestIP" name="Program Destination IP" isVisiable="true" isEditable="true" width="154" isNameModified="false" />
+  <column id="ProgramDestMAC" name="Program Destination MAC Address" isVisiable="true" isEditable="true" width="217" isNameModified="false" />
+  <column id="PortID" name="Port ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="PortType" name="Port Type" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="UserIP" name="User IP" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="OnlinePeriod" name="Online Period(s)" isVisiable="true" isEditable="true" width="116" isNameModified="false" />
+</table>
+

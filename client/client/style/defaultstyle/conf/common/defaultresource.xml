@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="iconKeys">
+      <PARAS>
+        <PARA name="breakicon" value="common/breakicon.gif"></PARA>
+		<PARA name="MenuArrow" value="mainfrm/addshortcut.gif"></PARA>
+        <PARA name="MainSplash" value="mainfrm/launch.gif"></PARA>
+        <PARA name="MainLoadingProgress" value="mainfrm/progressdialog.gif"></PARA>
+        <PARA name="ApplicationLoadingProgress" value="mainfrm/appprogresstitlebar.png"></PARA>
+        <PARA name="FrameIcon"  value=  "mainfrm/frameicon.gif"></PARA>
+	<PARA name="TaskbarIcon"  value=  "mainfrm/taskbaricon.gif"></PARA>
+        <PARA name="BusyFrameIcon"  value=  "mainfrm/busyframeicon.gif"></PARA>
+        <PARA name="ProductPicture" value="mainfrm/productpicture.gif"></PARA>
+        <PARA name="LOGO" value="mainfrm/logo.png"></PARA>
+        <PARA name="ExitDialog" value="mainfrm/logoutdialog.gif"></PARA>
+        <PARA name="LockDialog" value="mainfrm/lockdialog.gif"></PARA>
+        <PARA name="FullScrnPasswdDialog" value="mainfrm/password_dialog.png"></PARA>
+        <PARA name="ProductTitle"  value=  "mainfrm/producttitle.png"></PARA>
+        <PARA name="LOGOMIN" value="mainfrm/logomin.png"></PARA>
+        <PARA name="HelpIcon" value="mainfrm/helpicon.gif"></PARA>
+        <PARA name="DownIcon" value="mainfrm/down.gif"></PARA>
+        <PARA name="RightIcon" value="mainfrm/right.gif"></PARA>
+        <PARA name="LeftIcon" value="mainfrm/left.gif"></PARA>
+        
+        <PARA name="Alarmclientexit" value="alarmclient/exit.gif"></PARA>
+        <PARA name="AlarmSystemSetting" value="alarmclient/SysMng.gif"></PARA>
+        <PARA name="AlarmSetting" value="alarmclient/AlmSet.gif"></PARA>
+        <PARA name="AlarmQryCurAlm" value="alarmclient/QryCurAlm.gif"></PARA>
+        <PARA name="AlarmQryEvt" value="alarmclient/QryEvt.gif"></PARA>
+        <PARA name="AlarmQueryHis" value="alarmclient/QueryHis.gif"></PARA>
+        <PARA name="AlarmShowBrd" value="alarmclient/ShowBrd.gif"></PARA>
+        <PARA name="AlarmStatistic" value="alarmclient/Statistic.gif"></PARA>
+
+      </PARAS>
+    </DESC>
+    <DESC descname="fontKeys">
+      <PARAS>
+        <PARA name="myFont" value="Dialog-ITALIC-12"></PARA>
+        <PARA name="DEFAULT" value="Dialog-ITALIC-12"></PARA>
+        <PARA name="myFont1" value="Dialog-ITALIC-12"></PARA>
+        <PARA name="myFont2" value="Dialog-ITALIC-16"></PARA>
+        <PARA name="myFont3" value="Dialog-ITALIC-12"></PARA>
+        <PARA name="myFont4" value="Dialog-PLAIN-12"></PARA>
+        <PARA name="headFont" value="Dialog-BOLD-12"></PARA>
+        <PARA name="dataFont" value="Arial-PLAIN-12"></PARA>
+        <PARA name="titleFont" value="Tahoma-BOLD-16"></PARA>
+        <PARA name="pageNoFont" value="Arial Narrow-PLAIN-8"></PARA>
+     </PARAS>
+    </DESC>
+
+    <DESC descname="soundFileKeys">
+      <PARAS>
+        <PARA name="defaultSound" value="common/ding.wav"></PARA>
+        <PARA name="error" value="common/chord.wav"></PARA>
+        <PARA name="notify" value="common/notify.wav"></PARA>
+      </PARAS>
+    </DESC>
+
+    <DESC descname="colorKeys">
+      <PARAS>
+        <PARA name="myColor" value="white"></PARA>
+        <PARA name="mySecondColor" value="127-78-99"></PARA>
+        <PARA name="default" value="255-255-255"></PARA>
+        <PARA name="red" value="255-2-12"></PARA>
+        <PARA name="green" value="1-255-16"></PARA>
+        <PARA name="blue" value="0-2-255"></PARA>
+        <PARA name="black" value="0-0-0"></PARA>
+        <PARA name="myColor4" value="128-128-128"></PARA>
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

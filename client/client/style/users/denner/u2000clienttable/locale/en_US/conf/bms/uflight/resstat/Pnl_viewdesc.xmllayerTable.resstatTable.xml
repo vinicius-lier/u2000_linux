@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="TaskName" name="Task Name" isVisiable="true" isEditable="true" width="90" isNameModified="false" />
+  <column id="StatisticType" name="Statistical Type" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+  <column id="ExecuteType" name="Start Task" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+  <column id="Progress" name="Progress" isVisiable="true" isEditable="true" width="77" isNameModified="false" />
+  <column id="Status" name="Statistical Status" isVisiable="true" isEditable="true" width="117" isNameModified="false" />
+  <column id="ExecuteTime" name="Start at" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="CompleteTime" name="Complete Time" isVisiable="true" isEditable="true" width="111" isNameModified="false" />
+  <column id="UserName" name="Username" isVisiable="true" isEditable="true" width="85" isNameModified="false" />
+</table>
+

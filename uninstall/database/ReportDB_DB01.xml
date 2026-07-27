@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>ReportDB</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>ReportDBdata</devicename>
+	<filename>ReportDB_data.mdf</filename>
+	<dbsize>100</dbsize>
+	<dbmaxsize>100</dbmaxsize>
+	<dbthreshold>5</dbthreshold>
+	<dbfilegrowth>5</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>ReportDBlog</logdevicename>
+	<logfilename>ReportDB_log.ldf</logfilename>
+	<logsize>500</logsize>
+	<logmaxsize>500</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

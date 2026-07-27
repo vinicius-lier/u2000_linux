@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+*****************************************************************************
+*
+*   Important: Do not modify this file!
+*
+*   Copyright (c) 1988-2008 Huawei Technologies Co.,Ltd. All rights reserved
+*
+*****************************************************************************
+-->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="Bundle">
+      <PARAS>
+        <PARA name="type" value="ResourceBundle" />
+        <PARA name="resourceBundleName" value="dc/dc_welcomebutton"/>
+      </PARAS>
+    </DESC>
+    <!--start UI object definition -->
+    <DESC descname="mainMenu">
+      <PARAS>
+        <PARA name="name" value="mainMenu" />
+        <PARA name="type" value="MenuSet" />
+      </PARAS>
+
+        <DESC descname="datacenter">
+          <PARAS>	<PARA name="name"     value="DATACENTER_MENU" />
+					<PARA name="type"     value="JMenu" />
+					<PARA name="mnemonic"     value="S" />
+					<PARA name="serialnumber"     value="690" />
+					<PARA name="showInPortalPanel" value="true"/>
+					<PARA name="isFavorite" value="false"/>
+					<PARA name="visibleApps">
+						<VALUE value="FixNetDC"/>
+					</PARA>
+          </PARAS>
+          <DESC descname="DeviceOperation">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_BACKUP_RECOVER" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="D" /> 
+						<PARA name="serialnumber"       value="690-20-10" /> 
+						<PARA name="command"       value="showDeviceInfoPan" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="DeviceOperation" /> 
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>
+            </PARAS>
+          </DESC>
+          <DESC descname="TaskManagement">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_TASK_MANAGEMENT" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="T" /> 
+						<PARA name="serialnumber"       value="690-20-20" /> 
+						<PARA name="command"       value="TaskManagement" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="TaskManagement" /> 
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+          <DESC descname="SoftwareArchiveManagement">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_SOFTWARE_ARCHIVE_MANAGEMENT" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="A" /> 
+						<PARA name="serialnumber"       value="690-20-30" /> 
+						<PARA name="command"       value="SoftwareArchiveManagemnt" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="SoftwareArchiveManagement" /> 
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+          <DESC descname="BackupPolicyManagement">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_BACKUP_POLICY" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="C" /> 
+						<PARA name="serialnumber"       value="690-20-40" /> 
+						<PARA name="command"       value="policyManagement" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="policyManagement" /> 
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+          <DESC descname="OnlineBoardUpgrade">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ONLINE_BOARD_UPGRADE" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="O" /> 
+						<PARA name="serialnumber"       value="690-20-50" /> 
+						<PARA name="command"       value="displayOnlineBoard" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="OnlineBoardUpgrade" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" /> 
+						<PARA name="subsystem"       value="TRANS_COMMON" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+           <DESC descname="browseLog">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_BROWSE_LOG" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="L" /> 
+						<PARA name="serialnumber"       value="690-20-60" /> 
+						<PARA name="command"       value="browseLog" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="browseLog" /> 
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+          <DESC descname="Separator_690-20-70">
+            <PARAS> <PARA name="name"       value="Separator" /> 
+						<PARA name="type"       value="Separator" /> 
+						<PARA name="serialnumber"       value="690-20-70" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="false"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+          <DESC descname="MXUPolicy">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_MXU_UPGRADE_POLICY" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="G" /> 
+						<PARA name="serialnumber"       value="690-20-80" /> 
+						<PARA name="command"       value="configureMXUUpgradePolicy" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="MXUPolicy" /> 
+						<PARA name="subsystem"       value="NEMGR_ROUTER;IP_BASE" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>			   
+            </PARAS>
+          </DESC>
+          <DESC descname="SystemSetting">
+            <PARAS> <PARA name="name"       value="DATACENTER_MENU_ITEM_SYSTEM_SETTING" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="F" /> 
+						<PARA name="serialnumber"       value="690-20-90" /> 
+						<PARA name="command"       value="SystemSetting" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="datacenter_systemsetting" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>						
+            </PARAS>
+          </DESC>
+          <DESC descname="Separator_690-20-100">
+            <PARAS> 	<PARA name="name"       value="Separator" /> 
+						<PARA name="type"       value="Separator" /> 
+						<PARA name="serialnumber"       value="690-20-100" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="false"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>							
+            </PARAS>
+          </DESC>
+
+          <DESC descname="loadBoardSoft">
+            <PARAS> <PARA name="name"       value="LOAD_BOARD_SOFT_MENU" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="U" /> 
+						<PARA name="serialnumber"       value="690-20-130" /> 
+						<PARA name="command"       value="loadBoardSoft" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="toolkitboardupgrade" />		    
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" /> 
+						<PARA name="subsystem"       value="TRANS_COMMON" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>							
+            </PARAS>
+          </DESC>
+          <DESC descname="loadBoardPatch">
+            <PARAS> <PARA name="name"       value="LOAD_BOARD_PATCH_MENU" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="P" /> 
+						<PARA name="serialnumber"       value="690-20-140" /> 
+						<PARA name="command"       value="loadBoardPatch" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="toolkitpatchupgrade" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />	    
+						<PARA name="subsystem"       value="TRANS_COMMON" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>							
+            </PARAS>
+          </DESC>
+          <!-- DESC descname="tkLicense">
+            <PARAS> <PARA name="name"       value="TK_LICENSE_MANAGE_MENU" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="N" /> 
+						<PARA name="serialnumber"       value="690-20-150" /> 
+						<PARA name="command"       value="tkLicenseManage" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="toolkitlicense" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" /> 
+						<PARA name="subsystem"       value="TRANS_COMMON" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>							
+            </PARAS>
+          </DESC -->
+          <!--DESC descname="tkBacupLog">
+            <PARAS> <PARA name="name"       value="TK_LOG_MANAGE_MENU" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="K" /> 
+						<PARA name="serialnumber"       value="690-20-160" /> 
+						<PARA name="command"       value="tkLogManage" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="toolkitbackupLog" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />	     
+						<PARA name="subsystem"       value="TRANS_COMMON" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>					
+            </PARAS>
+          </DESC -->
+          <DESC descname="showTL1Frame">
+            <PARAS> <PARA name="name"       value="COMMAND_LINE_TL1_MENU" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="R" /> 
+						<PARA name="serialnumber"       value="690-20-170" /> 
+						<PARA name="command"       value="showTL1Frame" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="showTL1Frame" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" /> 
+						<PARA name="subsystem"       value="TRANS_COMMON" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>								
+            </PARAS>
+          </DESC>
+          <DESC descname="Separator_690-20-180">
+            <PARAS> <PARA name="name"       value="Separator" /> 
+						<PARA name="type"       value="Separator" /> 
+						<PARA name="serialnumber"       value="690-20-180" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="false"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>								
+            </PARAS>
+          </DESC>
+          <DESC descname="serviceManagement">
+            <PARAS> <PARA name="name"       value="SERVICE_MANGEMENT_MENU" /> 
+						<PARA name="type"       value="JMenuItem" /> 
+						<PARA name="mnemonic"       value="V" /> 
+						<PARA name="serialnumber"       value="690-20-190" /> 
+						<PARA name="command"       value="serviceManagement" /> 
+						<PARA name="Class"       value="IViewJMenuItemEx" /> 
+						<PARA name="ZiliaoID"       value="serviceManagement" />
+						<PARA name="action"       value="com.huawei.dc.common.MainMenuAuthorityAction" />
+						<PARA name="showInPortalPanel" value="true"/>
+						<PARA name="isFavorite" value="true"/>
+						<PARA name="favoriteIcon" value="images/system.png"/>
+						<PARA name="visibleApps">
+							<VALUE value="FixNetDC"/>
+						</PARA>								
+            </PARAS>
+          </DESC>
+        </DESC>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

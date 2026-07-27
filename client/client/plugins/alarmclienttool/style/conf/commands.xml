@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="alarmClientCommands">
+            <PARAS />
+            <DESC descname="AlarmGuiTool">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="AlarmGuiTool" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="showAlarmGuiTool" />
+                    <PARA name="security" value="3"></PARA>
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+                    <PARA name="moiID" value="0"></PARA>
+                    <PARA name="accessID" value="Manage_Fault"></PARA>
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

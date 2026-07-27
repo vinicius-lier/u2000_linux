@@ -1,0 +1,2 @@
+imap_rn=远程通知服务
+imap_rn.InstallInfo=iMAP通过邮件或短信的方式将告警信息发送给指定的接收者

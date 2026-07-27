@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.eam"
+   name="eam"
+   version="1.0"
+   provider-name="swimap">
+   <requires>
+   </requires>
+	 <extension-point id="com.swimap.eam.EamInfoExtensionDefine" name="EamInfoExtensionDefine" schema="schema/EamInfoExtensionDefine.exsd"/>
+	 <extension-point id="com.swimap.eam.DefaultParamSnmpExtension" name="DefaultParamSnmpExtension" schema="schema/DefaultParamSnmpExtension.exsd"/>
+	 <extension-point id="com.swimap.eam.ParamSnmpExtension" name="ParamSnmpExtension" schema="schema/ParamSnmpExtension.exsd"/>
+	 <extension-point id="com.swimap.eam.SnmpDeviceCreationType" name="SnmpDeviceCreationType" schema="schema/SnmpDeviceCreationType.exsd"/>
+	 <extension-point id="com.swimap.eam.GetDevDnFromTopoExtensionType" name="GetDevDnFromTopoExtension" schema="schema/GetDevDnFromTopoExtension.exsd"/>
+	 <extension-point id="com.swimap.eam.GetDevFilterTypeFromAdapter" name="GetDevFilterTypeFromAdapter" schema="schema/GetDevFilterTypeFromAdapter.exsd"/>
+	 <extension-point id="com.swimap.eam.DevSearchResultExtension" name="DevSearchResultExtension" schema="schema/DevSearchResultExtension.exsd"/>
+   <extension-point id="com.swimap.eam.NeDeletionType" name="NeDeletionType" schema="schema/NeDeletionType.exsd"/>
+   <extension-point id="com.swimap.eam.SubnetDeletionType" name="SubnetDeletionType" schema="schema/SubnetDeletionType.exsd"/>
+   <extension-point id="com.swimap.eam.SubnetAttributeType" name="SubnetAttributeType" schema="schema/SubnetAttributeType.exsd"/>
+   <extension-point id="com.swimap.eam.NeAttributeType" name="NeAttributeType" schema="schema/NeAttributeType.exsd"/>
+   <extension-point id="com.swimap.eam.LinkDeletionType" name="LinkDeletionType" schema="schema/LinkDeletionType.exsd"/>
+   <extension-point id="com.swimap.eam.LinkAttributeType" name="LinkAttributeType" schema="schema/LinkAttributeType.exsd"/>
+   <extension-point id="com.swimap.eam.EamObjectSearch" name="EamObjectSearch" schema="schema/EamObjectSearch.exsd"/>
+   <extension-point id="com.swimap.eam.PonitComponent" name="PonitComponent" schema="schema/PonitComponent.exsd"/>
+   <extension-point id="com.swimap.eam.SelectNEComponent" name="SelectNEComponent" schema="schema/SelectNEComponent.exsd"/>
+   <extension-point id="com.swimap.eam.SearchTypeExtend" name="SearchTypeExtend" schema="schema/SearchTypeExtend.exsd"/>
+   <extension-point id="com.swimap.eam.EamSearchResultLocate" name="EamSearchResultLocate" schema="schema/EamSearchResultLocate.exsd"/>
+   <extension-point id="com.swimap.eam.EamGlobalSearchObject" name="EamSearchObject" schema="schema/EamGlobalSearchObject.exsd"/>
+   <extension-point id="com.swimap.eam.AutoFindDevPathForTopo" name="AutoFindDevPathDefine" schema="schema/AutoFindDevPathForTopo.exsd"/>
+   <extension-point id="com.swimap.eam.Alias" name="Alias" schema="schema/Alias.exsd"/>
+   <extension-point id="com.swimap.eam.AutoDectectConfIf" name="Alias" schema="schema/Alias.exsd"/>
+   <!--this com.swimap.eam.NemonitorMenu entendPoint just been used by nemonitor-->
+   <extension-point id="com.swimap.eam.NemonitorMenu" name="NemonitorMenu" schema="schema/NemonitorMenu.exsd"/> 
+   <extension-point id="com.swimap.eam.DefaultParamSnmpButtonController" name="DefaultParamSnmpButtonController" schema="schema/DefaultParamSnmpButtonController.exsd"/> 
+   <extension-point id="com.swimap.eam.OperateNeSnmpParams" name="OperateNeSnmpParams " schema="schema/OperateNeSnmpParams.exsd"/>
+   <extension-point id="com.swimap.eam.ISSHPreprocessor" name="ISSHPreprocessor" schema="schema/ISSHPreprocessor.exsd"/>
+   <!-- define general info panel -->
+
+	<!--
+	<extension
+         point="com.swimap.eam.GetDevDnFromTopoExtensionType">
+      <DevMaintenExtension
+            class="com.swimap.eam.client.extension.DevMaintenInfoExtensionTest"
+            type="devmaintenInfoExtTest">
+      </DevMaintenExtension>
+    </extension>
+    -->
+	
+	<!--
+	<extension
+         point="com.swimap.eam.GetDevFilterTypeFromAdapter">
+      <DevFilterTypeExtension
+            class="com.swimap.eam.client.extension.DevFilterTypeExtensionTest"
+            type="devFilterTypeExtTest">
+      </DevFilterTypeExtension>
+    </extension>
+	-->
+	
+	<!-- define general info panel -->
+	<extension
+         point="com.swimap.eam.EamInfoExtensionDefine">
+      <InfoExtension
+            class="com.swimap.eam.client.view.facepanel.GeneralInfoPanel"
+            type="generalInfoPanel">
+      </InfoExtension>
+   </extension>
+   
+	<!-- define contain objects panel -->
+    <extension
+         point="com.swimap.eam.EamInfoExtensionDefine">
+      <InfoExtension
+            class="com.swimap.eam.client.view.facepanel.ContainObjsPanel"
+            type="containObjsPanel">
+      </InfoExtension>
+    </extension>
+	
+    <!-- define default protcol param Snmp v1 panel -->
+	<extension
+         point="com.swimap.eam.DefaultParamSnmpExtension">
+      <DefaultParamSnmpExtension
+            class="com.swimap.eam.client.view.paramtemplate.defaultparam.DefaultParamSnmpV1Panel"
+            type="DefaultParamSnmpV1Panel">
+      </DefaultParamSnmpExtension>
+    </extension>
+	
+    <!-- define default protcol param Snmp v2 panel -->
+	<extension
+         point="com.swimap.eam.DefaultParamSnmpExtension">
+      <DefaultParamSnmpExtension
+            class="com.swimap.eam.client.view.paramtemplate.defaultparam.DefaultParamSnmpV2Panel"
+            type="DefaultParamSnmpV2Panel">
+      </DefaultParamSnmpExtension>
+    </extension>
+	
+	<!-- define default protcol param Snmp v3 panel -->
+	<extension
+         point="com.swimap.eam.DefaultParamSnmpExtension">
+      <DefaultParamSnmpExtension
+            class="com.swimap.eam.client.view.paramtemplate.defaultparam.DefaultParamSnmpV3Panel"
+            type="DefaultParamSnmpV3Panel">
+      </DefaultParamSnmpExtension>
+    </extension>
+	
+	<!-- define protcol param Snmp V1 panel -->
+	<extension
+         point="com.swimap.eam.ParamSnmpExtension">
+      <ParamSnmpExtension
+            class="com.swimap.eam.client.view.paramtemplate.params.ParamSnmpPanelV1"
+            type="ParamSnmpV3Panel">
+      </ParamSnmpExtension>
+   </extension>
+	
+	<!-- define protcol param Snmp V2 panel -->
+	<extension
+         point="com.swimap.eam.ParamSnmpExtension">
+      <ParamSnmpExtension
+            class="com.swimap.eam.client.view.paramtemplate.params.ParamSnmpPanelV2"
+            type="ParamSnmpV3Panel">
+      </ParamSnmpExtension>
+   </extension>
+	
+	<!-- define protcol param Snmp V3 panel -->
+	<extension
+         point="com.swimap.eam.ParamSnmpExtension">
+      <ParamSnmpExtension
+            class="com.swimap.eam.client.view.paramtemplate.params.ParamSnmpPanelV3"
+            type="ParamSnmpV3Panel">
+      </ParamSnmpExtension>
+   </extension>
+	
+   <!-- snmp device browse panel -->
+   <extension
+         point="com.swimap.eam.DevSearchResultExtension">
+      <DevSearchResultExtension
+            class="com.swimap.eam.client.view.snmppanel.SnmpDeviceBrowsePanel"
+            type="devSearchSnmpResult">
+      </DevSearchResultExtension>
+   </extension>
+   
+   <extension
+         point="com.swimap.eam.NeDeletionType">
+      <NeDeletion
+            class="com.swimap.eam.client.interaction.objectmaintain.VirtualNeDeletion"
+            type="VirtualNeDeletion">
+      </NeDeletion>
+   </extension>
+   <extension
+         point="com.swimap.eam.SubnetDeletionType">
+      <SubnetDeletion
+            class="com.swimap.eam.client.interaction.objectmaintain.EamSubnetDeletion"
+            type="EamSubnetDeletion">
+      </SubnetDeletion>
+   </extension>
+   <extension
+         point="com.swimap.eam.LinkAttributeType">
+      <LinkAttribute
+            class="com.swimap.eam.client.interaction.objectmaintain.EamLinkAttribute"
+            type="EamLinkAttribute">
+      </LinkAttribute>
+   </extension>
+	
+	<!--
+   <extension
+         point="com.swimap.eam.SubnetAttributeType">
+      <SubnetAttribute
+            class="com.swimap.eam.client.interaction.objectmaintain.EamSubnetAttribute"
+            type="EamSubnetAttribute">
+      </SubnetAttribute>
+   </extension>
+   -->
+	
+	<!--
+   <extension
+         point="com.swimap.eam.NeAttributeType">
+      <NeAttribute
+            class="com.swimap.eam.client.interaction.objectmaintain.VirtualNeAttribute"
+            type="VirtualNeAttribute">
+      </NeAttribute>
+   </extension>
+   -->
+	
+   <extension
+         point="com.swimap.eam.LinkDeletionType">
+      <LinkDeletion
+            class="com.swimap.eam.client.interaction.objectmaintain.VirtualLinkDeletion"
+            type="r9svn_eam_client.LinkDeletion1">
+      </LinkDeletion>
+   </extension>
+   <extension
+         point="com.swimap.eam.EamObjectSearch">
+      <EamObjectSearch
+            SearchFashion="EamObjectSearchByName"
+            class="com.swimap.eam.client.interaction.search.SearchableByName">
+      </EamObjectSearch>
+   </extension>
+   <extension
+         point="com.swimap.eam.EamGlobalSearchObject">
+      <EamObjectSearch
+            SearchFashion="EamObjectSearchByName"
+            class="com.swimap.eam.client.eamsearch.SearchObjectByName">
+      </EamObjectSearch>
+   </extension>
+   
+	<!-- auto find device physic path extions-->
+	<extension point="com.swimap.eam.AutoFindDevPathForTopo">
+       <autoFindDevPathInfo
+             class="com.swimap.snmp.snmpdevsearch.client.dialog.EamAutoFindDevPathForEam"
+             name="AutoFindDevPathDefine">
+       </autoFindDevPathInfo>
+    </extension>
+    
+    <extension point="com.swimap.eam.OperateNeSnmpParams">
+      <OperateNeSnmpParams
+            class="com.swimap.eam.client.view.paramtemplate.params.DefaultNeSnmpParamsOperator"
+            priority="100">
+      </OperateNeSnmpParams>
+   </extension>
+ 
+</plugin>

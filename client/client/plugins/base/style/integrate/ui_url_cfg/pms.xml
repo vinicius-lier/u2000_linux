@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+    <DESC descname="UIUrlCfg">
+                        
+        <DESC descname="^ui/pm/v2/createinstance/p\?ne_id=([\d]+)&amp;main_type=([\d]+)&amp;sub_type=([+-]?[\d]+)&amp;tdt_name=.*&amp;fdn=.*">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetPM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="PMSDm" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3010" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="pms" />
+            </PARAS>
+        </DESC>  
+		                     
+        <DESC descname="^ui/pm/v2/viewmonitorconfig/p\?ne_id=([\d]+)&amp;main_type=([\d]+)&amp;sub_type=([+-]?[\d]+)&amp;tdt_name=.*&amp;fdn=.*">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetPM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="PMSDm" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3010" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="pms" />
+            </PARAS>
+        </DESC>  
+		
+		<DESC descname="^ui/pm/v2/realtimeperf/p\?ne_id=([\d]+)&amp;main_type=([\d]+)&amp;sub_type=([+-]?[\d]+)&amp;tdt_name=.*&amp;fdn=.*">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetPM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="PMSDm" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3010" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="pms" />
+            </PARAS>
+        </DESC>  
+     <DESC descname="^ui/pm/v2/historyperf/p\?ne_id=([\d]+)&amp;main_type=([\d]+)&amp;sub_type=([+-]?[\d]+)&amp;tdt_name=.*&amp;fdn=.*">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetPM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="PMSDm" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3010" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="pms" />
+            </PARAS>
+      </DESC> 
+	  <DESC descname="^ui/pm/v2/instances/view/.*">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetPM" />
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="PMSDm" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="3010" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="pms" />
+            </PARAS>
+      </DESC> 
+   
+    </DESC>
+</AREADESC>
+</COMMINIDATA>

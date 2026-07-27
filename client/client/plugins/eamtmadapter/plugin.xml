@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.eamtmadapter"
+   name="eamtmadapter"
+   version="1.0"
+   provider-name="swimap">
+
+   <extension point="com.swimap.topo.CreatePopoupMenuSupportor">
+      <CreatePopoupMenuSupportor class="com.swimap.eam.client.eamadapter.extension.CreateButtonMenuExt" priority="100"/>
+   </extension>
+   <extension point="com.swimap.topo.IntegratedLogic">
+      <IntegratedLogic class="com.swimap.external.eam.client.eamadapter.extension.PoolIntegratedLogic" priority="100"/>
+   </extension>
+   <extension point="com.swimap.nemonitor.NemonitorState">
+      <NemonitorState class="com.swimap.eam.client.eamadapter.extension.NeMoniterStateExt" priority="100"/>
+   </extension>
+   <extension point="com.swimap.topo.TopoRefreshHandler">
+      <TopoRefreshHandler class="com.swimap.eam.client.eamadapter.rpcmanager.EamRefreshHandler" priority="100"/>
+   </extension>
+</plugin>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="applicationInfo">
+			<PARAS>
+				<PARA name="id" value="FixNetPM" />
+				<PARA name="name" value="FixNetPM.name" />	
+				<PARA name="description" value="about.desc"/><!-- : description its resource is obtained from res.properties -->
+				<PARA name="icon" value="FixNetPM.PNG" />
+				<PARA name="serialnumber" value="431" />
+		</PARAS>
+		</DESC>
+		<DESC descname="blankPageInfo">
+				<PARAS>
+					<PARA name="name" value="blank.name"/>
+					<PARA name="description" value="blank.desc"/>
+					<PARA name="helpid" value=""/>
+				</PARAS>
+			</DESC>
+	</AREADESC>
+</COMMINIDATA>

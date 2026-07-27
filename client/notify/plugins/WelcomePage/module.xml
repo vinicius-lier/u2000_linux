@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="WelcomePage">
+    		<PARAS>
+				<PARA name="ClassName" value="com.swimap.iview.framework.windowmanagement.welcomepage.WelcomeManager"/>
+				<PARA name="RunInProcess" value="true"/>
+				<PARA name="ProcessKey" value="0"/>
+				<PARA name="ToBeLoaded" value="true"/>
+				<PARA name="IsMustLoad" value="false"/>
+				<PARA name="IsJavaModule" value="true"/>
+				<PARA name="IsOrbModule"  value="false"/>
+				<PARA name="serialnumber" value="10"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+
+
+

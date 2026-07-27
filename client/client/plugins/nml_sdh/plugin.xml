@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="nmlsdh" name="nmlsdh" version="1.0" provider-name="nmlsdh">
+   	<!-- 用于主拓扑(临时视图)切换的监听  -->
+   	<extension point="com.swimap.topo.TopoViewSwitchListener">
+        <TopoViewSwitchListener class="com.huawei.nml.sdhcircuit.TNSDHCircuitTemporaryTopoMgr" priority="200"/>
+        <TopoViewSwitchListener class="com.huawei.nml.sdhprotect.TNSDHProtectTemporaryTopoMgr" priority="205"/>
+        <TopoViewSwitchListener class="com.huawei.nml.cutover.TNCutoverTemporaryTopoMgr" priority="210"/>
+	  </extension>
+</plugin>

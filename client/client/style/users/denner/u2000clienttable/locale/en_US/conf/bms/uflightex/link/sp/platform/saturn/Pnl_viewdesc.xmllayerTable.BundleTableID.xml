@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="BundleID" name="Bundle ID" isVisiable="true" isEditable="false" width="80" isNameModified="false" />
+  <column id="BundleName" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+
+
+
+<!--
+four types of the command can be defined now
+
+sci:static class invoke
+ici:instance class invoke
+cic:cross invoke
+pic:process invoke
+ -->
+
+<!--
+security info
+
+name            present                            value
+"security"     securityType                0 always not allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+"moiIDorAppID"   moi object ID or appID
+"accessID"        access ID
+
+notice , the previous defined as below.but iMap1.5 changed the security information to only moiIDorAppID and accessID.
+so iVIEW security informatio changed to above information.
+
+name            present                            value
+"security"     securityType                0 always not allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+"moiID"        moi object ID
+"appID"        application object ID
+"oprID"        operation ID
+-->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="alarmClientCommands">
+      <PARAS/>
+
+      <DESC descname="sendSMS">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="Notify"/>
+          <PARA name="className" />
+          <PARA name="processName"/>
+          <PARA name="methodName" value="showSMSService"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="sendEmail">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="Notify"/>
+          <PARA name="className" />
+          <PARA name="processName"/>
+          <PARA name="methodName" value="showEmailService"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="onlineSender">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="Notify"/>
+          <PARA name="className" />
+          <PARA name="processName"/>
+          <PARA name="methodName" value="showOnlineSenders"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="correspondSetting">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="Notify"/>
+          <PARA name="className" />
+          <PARA name="processName"/>
+          <PARA name="methodName" value="showParamSetting"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="RemoteNotifyDeviceAdd">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="moduleID"/>
+          <PARA name="className"/>
+          <PARA name="processName"/>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+          <PARA name="moiID" value="0"></PARA>
+          <PARA name="accessID" value="Add_Device_Parameter"></PARA>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="RemoteNotifyDeviceMod">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="moduleID"/>
+          <PARA name="className"/>
+          <PARA name="processName"/>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+          <PARA name="moiID" value="0"></PARA>
+          <PARA name="accessID" value="Modify_Device_Parameter"></PARA>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="RemoteNotifyDeviceDel">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="moduleID"/>
+          <PARA name="className"/>
+          <PARA name="processName"/>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+          <PARA name="moiID" value="0"></PARA>
+          <PARA name="accessID" value="Delete_Device_Parameter"></PARA>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="StartStopNotifyService">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="moduleID"/>
+          <PARA name="className"/>
+          <PARA name="processName"/>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+	  	  <PARA name="moiID" value="0"></PARA>
+	      <PARA name="accessID" value="Start_or_Stop_Remote_Notification_Service"></PARA>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="TestDevice">
+        <PARAS>
+          <PARA name="actionType" value="ici"/>
+          <PARA name="moduleID"/>
+          <PARA name="className"/>
+          <PARA name="processName"/>
+          <PARA name="security" value="3"></PARA>
+          <PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+          <PARA name="moiID" value="0"></PARA>
+          <PARA name="accessID" value="Test_Device_Sending"></PARA>
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

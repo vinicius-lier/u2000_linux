@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wizard>
+    <Page>com.swimap.cmf.cau.application.gui.page.CopyRight</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.SelectInstallFolder</Page>
+	<Page>com.swimap.cmf.cau.application.gui.page.CreateShortcut</Page>
+	<!--Page>com.swimap.cmf.cau.application.gui.page.ComponentSelectionPage</Page-->
+    <Page>com.swimap.cmf.cau.application.gui.page.SummaryInfoPage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.PluginPage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.BackupPage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.UpgradePage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.PluginPage</Page>
+    <Page>com.swimap.cmf.cau.application.gui.page.ExitPage</Page>
+</Wizard>
+

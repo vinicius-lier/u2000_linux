@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <!--the implement class path for com.swimap.external.sm.client.loginui.ILoginBtnExt, M2000 use it for extend login diagnostic tools.-->
+        <DESC descname="ILoginBtnExtClassPath">
+            <PARAS>
+                <PARA name="classpath" value="" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

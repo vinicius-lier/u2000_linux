@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT LegendBackgroundColor EMPTY >
+<!ATTLIST LegendBackgroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST LegendBackgroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST LegendBackgroundColor r NMTOKEN #REQUIRED >
+
+<!ELEMENT SeriesInformation EMPTY >
+<!ATTLIST SeriesInformation b NMTOKEN #REQUIRED >
+<!ATTLIST SeriesInformation label NMTOKEN #REQUIRED >
+<!ATTLIST SeriesInformation g NMTOKEN #REQUIRED >
+<!ATTLIST SeriesInformation r NMTOKEN #REQUIRED >
+
+<!ELEMENT BarChart ( BarChartInformation ) >
+
+<!ELEMENT PointLabels EMPTY >
+<!ATTLIST PointLabels Name NMTOKEN #REQUIRED >
+
+<!ELEMENT BarChartInformation ( PointLabels+, BackgroundColor, LegendBackgroundColor, SeriesInformation+ ) >
+<!ATTLIST BarChartInformation bar_width NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation width NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation legend_font_style NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation legend_position NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation y_axis_label NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation depth NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation x_axis_label NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation title NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation legend_font_size NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation y_axis_scale NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation cluster_distance NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation elevation NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation legend_font_name NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation height NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation rotation NMTOKEN #REQUIRED >
+<!ATTLIST BarChartInformation x_axis_scale NMTOKEN #REQUIRED >
+
+<!ELEMENT BackgroundColor EMPTY >
+<!ATTLIST BackgroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor r NMTOKEN #REQUIRED >
+

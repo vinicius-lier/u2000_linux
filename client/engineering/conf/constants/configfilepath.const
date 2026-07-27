@@ -1,0 +1,6 @@
+UNINSTALL_CONFIG_FILE_PATH = engineering/conf/uninstall/uninstallClearFile.cfg
+WORKFLOW_BUSINESSES = engineering/conf/workflow/businesses.xml
+WORKFLOW_FUNCTIONS = engineering/conf/workflow/functions.xml
+ENGINEERINGDATABASECONFIG = engineering/conf/database/DatabaseDefaultValue.cfg
+
+UPGRADE_FILTER_CONFIG = engineering/conf/config/UpgradeScriptFilter.ini

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>     
+        <DESC descname="CommandInfo">
+		
+    	    <DESC descname="11534704">
+                <PARAS>
+                    <PARA name="description" value="Search for links" />
+                    <PARA name="moduleID" value="Inventory" />
+                </PARAS>
+            </DESC>
+			
+			<DESC descname="11535411">
+                <PARAS>
+                    <PARA name="description" value="Set the IP address range" />
+                    <PARA name="moduleID" value="Unitedmgr" />
+                </PARAS>
+            </DESC>
+			
+            <DESC descname="11534909">
+                <PARAS>
+                    <PARA name="description" value="Create a fiber/cable" />
+                    <PARA name="moduleID" value="Inventory" />
+                </PARAS>
+            </DESC>
+			
+			<DESC descname="11534928">
+                <PARAS>
+                    <PARA name="description" value="Create a fiber/cable on Main Topology" />
+                    <PARA name="moduleID" value="Inventory" />
+                </PARAS>
+            </DESC>
+			
+			<DESC descname="11534708">
+                <PARAS>
+                    <PARA name="description" value="Create a link" />
+                    <PARA name="moduleID" value="Inventory" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="11535533">
+                <PARAS>
+                    <PARA name="description" value="Update the link rate" />
+                    <PARA name="moduleID" value="Inventory" />
+                </PARAS>
+            </DESC>
+			
+            <DESC descname="11535384">
+                <PARAS>
+                    <PARA name="description" value="Exchange source and sink of a link" />
+                    <PARA name="moduleID" value="Inventory" />
+                </PARAS>
+            </DESC>
+			
+		</DESC>
+    </AREADESC>
+</COMMINIDATA>

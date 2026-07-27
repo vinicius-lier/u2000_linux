@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+	
+		<DESC descname="feature">
+			<PARAS>
+				<PARA name="id" value="clientutil"></PARA>
+				<PARA name="label" value="clientutil_name"></PARA>
+				<PARA name="image" value="icon.gif"></PARA>				
+			</PARAS>
+		</DESC>
+
+		
+		<DESC descname="extra">
+			<PARAS>
+				
+				<PARA name="image.loading" value="loading.png"></PARA>
+				<PARA name="image.lock" value="lockdialog.gif"></PARA>
+				<PARA name="image.exit" value="logoutdialog.gif"></PARA>
+				<PARA name="about.version" value="about.version"></PARA>				
+				<PARA name="about.desc" value="about.desc"></PARA>				
+				<PARA name="about.image.banner"
+					value="about_banner.gif">
+				</PARA>				
+				<PARA name="about.image.title"
+					value="about_title.png">
+				</PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="plugins">
+			<PARAS>
+			    <PARA name="com.swimap.rpc"></PARA>
+				<PARA name="clientutil"></PARA>
+				<PARA name="transmitlog"></PARA>
+				<PARA name="search"></PARA>
+                                <PARA name="porttrunking"></PARA>
+			</PARAS>
+		</DESC>
+
+		
+		<DESC descname="required-plugins">
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

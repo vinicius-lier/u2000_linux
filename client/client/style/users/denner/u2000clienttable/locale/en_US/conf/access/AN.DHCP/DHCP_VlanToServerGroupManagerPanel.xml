@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VLAN L3 Interface" name="VLAN L3 Interface" isVisiable="true" isEditable="true" width="117" isNameModified="false" />
+  <column id="DHCP Server Group No." name="DHCP Server Group No." isVisiable="true" isEditable="true" width="152" isNameModified="false" />
+  <column id="IP Address Check" name="IP Address Check" isVisiable="true" isEditable="true" width="118" isNameModified="false" />
+</table>
+

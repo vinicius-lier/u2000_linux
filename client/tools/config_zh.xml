@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--domains:用于配置要控制的组件,其中:clientstartbat、serverstartbat、serverstopbat可以以分号分隔来配置多个脚本路径,
+且支持环境变量,如%tmp%,当值为"null"时会忽略此项。-->
+<!--controllers:用于配置操作按钮,其中command中可直接写批处理路径,也可引用domain中的批处理(使用$domain$columnname),
+同时也可引用其它按钮的事件(使用$controller$id),可以用分号分隔多个事件,命令行可以携带参数,不过要紧接批处理脚本,且用
+[]标识,如XXX.bat[para]-->
+<configItem>
+  <domains>
+    <domain>
+      <id>trans</id>
+      <name>传送域</name>
+      <clientfolder>consts;frame;unitedmgr;t2000;nml;dc;pms;pqm;xftp</clientfolder>
+      <installpath>uninstall\database\nemgr_transDB_1_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_trans.bat</serverstartbat>
+      <serverstopbat>d</serverstopbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>marine</id>
+      <name>海缆</name>
+      <clientfolder>consts;frame;unitedmgr;t2000;nml;dc;pms;pqm;xftp;</clientfolder>
+      <installpath>uninstall\database\nemgr_marineDB_1_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_marine.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>switch</id>
+      <name>城域交换机</name>
+      <clientfolder>consts;frame;unitedmgr;common;diagnosis;gctl;hgmp;ipview;l2view;link;lspmgr;qos;rprview;sc;scdiagnosis;switchmgr;dc;pms;pqm;xftp;dmssyslog;deployment;batchconfig;crossneutil</clientfolder>
+      <installpath>uninstall\database\BoxSwitchMgrDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_switch.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>router</id>
+      <name>路由域</name>
+      <clientfolder>consts;frame;unitedmgr;common;diagnosis;gctl;hgmp;ipview;l2view;link;lspmgr;qos;routermgr;rprview;sc;scdiagnosis;sgmgr;dc;pms;pqm;xftp;dmssyslog;netacl;batchconfig;crossneutil</clientfolder>
+      <installpath>uninstall\database\RouterMgrDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_router.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>security</id>
+      <name>安全域</name>
+      <clientfolder>consts;frame;unitedmgr;common;gctl;securitymgr;secvpnmgr;secpolicymgr;dc;pms;pqm;xftp;dmssyslog;seccomm</clientfolder>
+      <installpath>uninstall\database\SecurityMgrDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_security.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>access</id>
+      <name>接入域</name>
+      <clientfolder>consts;frame;unitedmgr;access;dc;pms;pqm;xftp;</clientfolder>
+      <installpath>uninstall\database\BMSDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+  </domains>
+  <controllers>
+    <controller>
+      <id>startclient</id>
+      <name>启动客户端(L)</name>
+	  <command>%oss_root%\client\startup_all_global.bat</command>
+      <needdomainids>true</needdomainids>
+      <visible>true</visible>
+      <mustselectdomain>true</mustselectdomain>
+      <muststopserver>false</muststopserver>
+    </controller>
+    <controller>
+      <id>startserver</id>
+      <name>启动服务器(S)</name>
+      <command>%oss_root%\server\tools\domainctrl\DomainCtrlStart.bat</command>
+      <needdomainids>true</needdomainids>
+      <visible>true</visible>
+      <mustselectdomain>true</mustselectdomain>
+      <muststopserver>true</muststopserver>
+    </controller>
+    <controller>
+      <id>optimizesystem</id>
+      <name>强制内存优化(P)</name>
+      <command>%IMAP_ROOT%\tools\optimize\force_optimize.bat</command>
+      <needdomainids>false</needdomainids>
+      <promptmsg>强制内存优化将关闭一些不常用的服务,在您下次启动计算机时,这些服务将自动恢复,请确认是否继续?</promptmsg>
+      <suretitle>确认</suretitle>
+      <visible>false</visible>
+    </controller>
+    <controller>
+      <id>startclientserver</id>
+      <name>启动客户端和服务器(U)</name>
+      <command>$controller$startclient;$controller$startserver</command>
+      <needdomainids>true</needdomainids>
+      <visible>false</visible>
+      <mustselectdomain>true</mustselectdomain>
+      <muststopserver>true</muststopserver>
+    </controller>
+    <controller>
+      <id>closeserver</id>
+      <name>关闭服务器(X)</name>
+      <command>$domain$serverstopbat</command>
+      <needdomainids>true</needdomainids>
+      <visible>false</visible>
+    </controller>
+  </controllers>
+  <view>
+    <framewidth>399</framewidth>
+    <frameheight>271</frameheight>
+    <domainsColumn>2</domainsColumn>
+    <controllersColumn>3</controllersColumn>
+  </view>
+  <properties>
+    <title>U2000网管系统</title>
+    <cancelbtn>取消(C)</cancelbtn>
+    <needDomainPrompt>请选择需要启动的设备域</needDomainPrompt>
+    <borderTitle>请选择需要启动的设备域</borderTitle>
+    <commanderror>命令配置错误,请确认config.xml文件中controllers/controller下对应控制器的command配置正确.</commanderror>
+    <checkproc>网管后台服务正在运行,请先停止后再操作.</checkproc>
+  </properties>
+  <clientlinkpath>../style/productstyle/link.properties</clientlinkpath>
+  <clientlink>consts;frame;unitedmgr;t2000;nml;centralizedpolicyconfiguration;common;diagnosis;gctl;hgmp;ipview;l2view;link;lspmgr;qos;routermgr;rprview;sc;scdiagnosis;securitymgr;secvpnmgr;secpolicymgr;sgmgr;switchmgr;access;dc;pms;pqm;xftp;dmssyslog;deployment;netacl;batchconfig;crossneutil;seccomm</clientlink>
+  <cmdtext>$filename$</cmdtext>
+</configItem>
+

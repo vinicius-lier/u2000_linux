@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT CommonColumnProperties ( BackgroundColor, ForegroundColor ) >
+<!ATTLIST CommonColumnProperties column_selection_allowed NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties vertical_lines_visible NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties column_autoresize NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties row_margin NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties model CDATA #REQUIRED >
+<!ATTLIST CommonColumnProperties row_selection_allowed NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties multiple_row_selection_allowed NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties horizontal_lines_visible NMTOKEN #REQUIRED >
+<!ATTLIST CommonColumnProperties row_height NMTOKEN #REQUIRED >
+
+<!ELEMENT iViewTableProperties ( CommonColumnProperties, IndividualColumnProperties ) >
+
+<!ELEMENT TableCallbacks EMPTY >
+<!ATTLIST TableCallbacks double_click_action_function NMTOKEN #REQUIRED >
+<!ATTLIST TableCallbacks right_click_action_function NMTOKEN #REQUIRED >
+<!ATTLIST TableCallbacks click_action_object NMTOKEN #REQUIRED >
+<!ATTLIST TableCallbacks double_click_action_object NMTOKEN #REQUIRED >
+<!ATTLIST TableCallbacks right_click_action_object NMTOKEN #REQUIRED >
+<!ATTLIST TableCallbacks click_action_function NMTOKEN #REQUIRED >
+
+<!ELEMENT ForegroundColor EMPTY >
+<!ATTLIST ForegroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST ForegroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST ForegroundColor r NMTOKEN #REQUIRED >
+
+<!ELEMENT ColumnProperty EMPTY >
+<!ATTLIST ColumnProperty sorting_allowed NMTOKEN #IMPLIED >
+<!ATTLIST ColumnProperty maximum_column_width NMTOKEN #REQUIRED >
+<!ATTLIST ColumnProperty minimum_column_width NMTOKEN #REQUIRED >
+<!ATTLIST ColumnProperty column_name NMTOKEN #REQUIRED >
+<!ATTLIST ColumnProperty column_width NMTOKEN #REQUIRED >
+<!ATTLIST ColumnProperty cell_editor CDATA #REQUIRED >
+<!ATTLIST ColumnProperty cell_renderer CDATA #REQUIRED >
+<!ATTLIST ColumnProperty column_resizable NMTOKEN #REQUIRED >
+
+<!ELEMENT BackgroundColor EMPTY >
+<!ATTLIST BackgroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor r NMTOKEN #REQUIRED >
+
+<!ELEMENT iViewTable ( iViewTableProperties, iViewTableCallbacks ) >
+
+<!ELEMENT ColumnHeaderCallbacks EMPTY >
+<!ATTLIST ColumnHeaderCallbacks double_click_action_function NMTOKEN #REQUIRED >
+<!ATTLIST ColumnHeaderCallbacks right_click_action_function NMTOKEN #REQUIRED >
+<!ATTLIST ColumnHeaderCallbacks click_action_object NMTOKEN #REQUIRED >
+<!ATTLIST ColumnHeaderCallbacks double_click_action_object NMTOKEN #REQUIRED >
+<!ATTLIST ColumnHeaderCallbacks right_click_action_object NMTOKEN #REQUIRED >
+<!ATTLIST ColumnHeaderCallbacks click_action_function NMTOKEN #REQUIRED >
+
+<!ELEMENT IndividualColumnProperties ( ColumnProperty+ ) >
+
+<!ELEMENT iViewTableCallbacks ( TableCallbacks, ColumnHeaderCallbacks ) >
+

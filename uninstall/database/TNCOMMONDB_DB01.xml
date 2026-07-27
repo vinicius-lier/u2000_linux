@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>TNCOMMONDB</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>TNCOMMONDBdata</devicename>
+	<filename>TNCOMMONDB_data.mdf</filename>
+	<dbsize>300</dbsize>
+	<dbmaxsize>1000</dbmaxsize>
+	<dbthreshold>150</dbthreshold>
+	<dbfilegrowth>200</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>TNCOMMONDBlog</logdevicename>
+	<logfilename>TNCOMMONDB_log.ldf</logfilename>
+	<logsize>200</logsize>
+	<logmaxsize>200</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

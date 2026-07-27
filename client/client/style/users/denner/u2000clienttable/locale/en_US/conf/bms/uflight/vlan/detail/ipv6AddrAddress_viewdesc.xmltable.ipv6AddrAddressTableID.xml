@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ipv6AddrAddressLeaf" name="IPv6 Address" isVisiable="true" isEditable="false" width="98" isNameModified="false" />
+  <column id="ipv6AddrPfxLength" name="Prefix Length" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="ipv6AddrType" name="Address Type" isVisiable="true" isEditable="true" width="101" isNameModified="false" />
+  <column id="ipv6AddrAnycastFlag" name="Anycast Address Flag" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+  <column id="ipv6AddrStatus" name="Address Status" isVisiable="true" isEditable="true" width="110" isNameModified="false" />
+</table>
+

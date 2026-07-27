@@ -1,0 +1,2 @@
+# The size of the threadpool for ISyncPointService
+SYNCPOINT_THREADPOOL_SIZE = 30

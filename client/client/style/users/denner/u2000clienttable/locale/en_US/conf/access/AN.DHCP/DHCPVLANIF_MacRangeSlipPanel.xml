@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="MAC Address Segment Name" name="MAC Address Segment Name" isVisiable="true" isEditable="true" width="184" isNameModified="false" />
+  <column id="DHCP Server Group No." name="DHCP Server Group No." isVisiable="true" isEditable="true" width="152" isNameModified="false" />
+  <column id="Gateway IP" name="Gateway IP" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+</table>
+

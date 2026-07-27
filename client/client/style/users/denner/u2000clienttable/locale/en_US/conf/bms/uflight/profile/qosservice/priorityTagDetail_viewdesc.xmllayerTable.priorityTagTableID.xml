@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Direction" name="Direction" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="Dscp" name="DSCP Value " isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="IpPre" name="IP Priority" isVisiable="true" isEditable="true" width="77" isNameModified="false" />
+  <column id="IpPreFromCos" name="IP priority copies 802.1P priority" isVisiable="true" isEditable="true" width="197" isNameModified="false" />
+  <column id="Cos" name="802.1P Priority" isVisiable="true" isEditable="true" width="105" isNameModified="false" />
+  <column id="CosFromIpPre" name="802.1P priority copies IP priority" isVisiable="true" isEditable="true" width="197" isNameModified="false" />
+  <column id="LocaPre" name="Local Priority" isVisiable="true" isEditable="true" width="96" isNameModified="false" />
+  <column id="IpAclGrpIndex" name="IP ACL Rule Group Index" isVisiable="true" isEditable="true" width="161" isNameModified="false" />
+  <column id="IpAclIndex" name="IP ACL Rule Index" isVisiable="true" isEditable="true" width="124" isNameModified="false" />
+  <column id="LinkAclGrpIndex" name="L2 ACL Rule Group Index" isVisiable="true" isEditable="true" width="164" isNameModified="false" />
+  <column id="LinkAclIndex" name="L2 ACL Rule Index" isVisiable="true" isEditable="true" width="127" isNameModified="false" />
+  <column id="UserAclGrpIndex" name="User-Defined ACL Rule Group Index" isVisiable="true" isEditable="true" width="224" isNameModified="false" />
+  <column id="UserAclIndex" name="User-Defined ACL Rule Index" isVisiable="true" isEditable="true" width="187" isNameModified="false" />
+</table>
+

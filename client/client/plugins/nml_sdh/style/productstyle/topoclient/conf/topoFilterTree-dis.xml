@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="TREE">
+        <DESC descname="TREE_ROOT" >
+
+				<DESC descname="TREE_CUSTOM_LinkClass_7680" >
+		    		<PARAS>
+								<PARA name="name"   value="TREE_CUSTOM_LinkClass_7680" />		
+								<!-- 仅支持主视图类型和自定义视图类型 -->
+								<PARA name="ViewTypeID"   value="3001,3003" />  
+		    		</PARAS>
+					<DESC descname="TREE_CUSTOM_LinkClass_7681" >
+						 <PARAS>
+									 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7681" />
+									 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7682" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7682" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7683" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7683" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7684" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7684" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7685" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7685" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7686" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7686" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7687" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7687" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7688" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7688" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7689" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7689" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7690" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7690" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_LinkClass_7691" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_LinkClass_7691" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_sncp_node" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_sncp_node" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				   <DESC descname="TREE_CUSTOM_dni_node" >
+						 <PARAS>
+										 <PARA name="name"   value="TREE_CUSTOM_dni_node" />
+										 <PARA name="selected" value="false" />
+						 </PARAS>
+				   </DESC>
+				</DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

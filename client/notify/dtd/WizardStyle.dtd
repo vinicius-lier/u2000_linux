@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT WizardStepInformation EMPTY >
+<!ATTLIST WizardStepInformation step_number NMTOKEN #REQUIRED >
+<!ATTLIST WizardStepInformation step_ui NMTOKEN #REQUIRED >
+
+<!ELEMENT iViewWizard ( WizardStepInformation+ ) >
+

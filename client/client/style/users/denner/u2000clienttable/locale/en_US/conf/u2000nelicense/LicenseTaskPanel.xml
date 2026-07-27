@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Task ID" name="Task ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Operator" name="Operator" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Task Type" name="Task Type" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Execution Status" name="Execution Status" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Start Time" name="Start Time" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="NE Name" name="NE Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="NE Type" name="NE Type" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

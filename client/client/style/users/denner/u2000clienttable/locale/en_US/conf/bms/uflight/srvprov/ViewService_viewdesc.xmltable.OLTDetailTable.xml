@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="OLTLeftDetailItem" name="Name" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="OLTLeftDetailValue" name="Value" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="OLTRightDetailItem" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="OLTRightDetailValue" name="Value" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

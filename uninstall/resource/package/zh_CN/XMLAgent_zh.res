@@ -1,0 +1,6 @@
+NBI=北向接口
+nbi_xml_agent=XML北向接口组件
+nbi_xml_agent.InstallInfo=包括XML北向接口组件。
+nbi_xml_agent.UninstallInfo=包括XML北向接口组件。
+nbi_xml_agent_server = XML北向接口代理组件
+NorthBoundInterface=北向接口

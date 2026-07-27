@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ServicePort" name="Service Port ID" isVisiable="true" isEditable="false" width="106" isNameModified="false" />
+  <column id="BundleID" name="Bundle ID" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="MacAddr" name="MAC Address" isVisiable="true" isEditable="true" width="223" isNameModified="false" />
+  <column id="MacAddrType" name="MAC Address Type" isVisiable="true" isEditable="true" width="129" isNameModified="false" />
+  <column id="Frame" name="Frame" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Slot" name="Slot" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Port" name="Port" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="VCI" name="VCI/GemPort ID" isVisiable="true" isEditable="true" width="112" isNameModified="false" />
+  <column id="VPI" name="VPI/ONU ID" isVisiable="true" isEditable="true" width="89" isNameModified="false" />
+  <column id="VlanID" name="VLAN ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

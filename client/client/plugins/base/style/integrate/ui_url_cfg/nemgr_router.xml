@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="UIUrlCfg">
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/ports/(.*)/update">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+        
+                    <PARA name="procId" value="126" />
+               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/port_create/p\?port_type=([\d]+)">
+                <PARAS>
+           
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+        
+                    <PARA name="procId" value="126" />
+         
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+      
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/route_policys/(.*)/update">
+                <PARAS>
+          
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+          
+                    <PARA name="procId" value="126" />
+      
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/route_policy_create">
+                <PARAS>
+            
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+       
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/tnl_policys/(.*)/update">
+                <PARAS>
+           
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+           
+                    <PARA name="procId" value="126" />
+        
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/tnl_policy_create">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+          
+                    <PARA name="procId" value="126" />
+         
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/tnl_policys/(.*)/types/([\d]+)/policys/(.*)/loads/([\d]+)/peerIps/(.*)/tnlFdns/(.*)/view">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+          
+                    <PARA name="procId" value="126" />
+         
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/ne_gre_tunnel">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+          
+                    <PARA name="procId" value="126" />
+         
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/pw_tmpls/(.*)/update">
+                <PARAS>
+
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+     
+                    <PARA name="procId" value="126" />
+
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/pw_tmpl_create">
+                <PARAS>
+    
+                    <PARA name="applicationId" value="FixNetNECM" />
+    
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+          
+                    <PARA name="procId" value="126" />
+          
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_ip_frefixs">
+                <PARAS>
+            
+                    <PARA name="applicationId" value="FixNetNECM" />
+      
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+     
+                    <PARA name="procId" value="126" />
+         
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_bgp_peergrps">
+                <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+            
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+          
+                    <PARA name="procId" value="126" />
+           
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_te_selectors">
+                <PARAS>
+ 
+                    <PARA name="applicationId" value="FixNetNECM" />
+   
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+  
+                    <PARA name="procId" value="126" />
+    
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC> 
+            
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/bgpcfg/view">
+                <PARAS>
+      
+                    <PARA name="applicationId" value="FixNetNECM" />
+     
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+        
+                    <PARA name="procId" value="126" />
+               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+           <DESC descname="ui/cfg/v2/nes/([\d]+)/viewresource/p\?&amp;main_type=([\d]+)&amp;sub_type=([+-]?\d+)&amp;fdn=(.*)">
+                <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+		
+			<DESC descname="ui/cfg/v2/nes/view/negraph/(.*)">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>	 
+		
+			<DESC descname="ui/cfg/v2/nes/(.*)/view">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>	
+			
+			<DESC descname="ui/cfg/v2/nes/(.*)/view/default">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>	
+			<DESC descname="ui/cfg/v2/performanceanalysis/p\?fdn=(.*)">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>	
+		
+       		<!-- SE2E jump to  PRBS-->
+            <DESC
+            	descname="ui/cfg/v2/nes/([\d]+)/view/(.*)">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+            	<!-- SE2E jump to ETrunk-->
+            <DESC
+            	descname="ui/cfg/v2/etrunks/p\?right_ne_id=([\d]+)&amp;right_inf=([A-Za-z0-9,;=|-]+)&amp;right_spid=([A-Za-z0-9,;=|-]+)&amp;right_pref=([A-Za-z0-9,;=|-]+)&amp;left_ne_id=([\d]+)&amp;left_inf=([A-Za-z0-9,;=|-]+)&amp;left_spid=([A-Za-z0-9,;=|-]+)&amp;left_pref=([A-Za-z0-9,;=|-]+)">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+			<!-- SE2E jump to EAps-->
+			<DESC
+            	descname="ui/cfg/v2/eaps/p\?right_ne_id=([\d]+)&amp;right_cfgstatus=([\d]+)&amp;right_spid=([A-Za-z0-9,;=|-]+)&amp;left_ne_id=([\d]+)&amp;left_cfgstatus=([\d]+)&amp;left_spid=([A-Za-z0-9,;=|-]+)">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+            <!-- SE2E Tunnel jump to  pathview-->
+            <DESC
+            	descname="^ui/fm/v2/pathview/tunnel/([\d]+)/p\?src_tnl_name=*.*">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="pathviewer" />
+                </PARAS>
+            </DESC>
+   
+           <!-- SE2E pwe3 jump to  pathview-->
+            <DESC
+                descname="^ui/fm/v2/pathview/pwe3/([\d]+)/p\?ne_id=*.*">
+                <PARAS>             
+                    <PARA name="applicationId" value="FixNetNECM" />         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />      
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="pathviewer" />
+                </PARAS>
+            </DESC>
+			
+			     <!-- SE2E jump to diagnosis history-->
+				    <DESC
+            	descname="^ui/fm/v2/diagnosis_history/se2e/p\?service_id=*.*">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="DiagnosisModule" />
+                </PARAS>
+            </DESC>
+            
+            <!-- SE2E jump to diagnosis testpolicy-->
+				    <DESC
+            	descname="^ui/fm/v2/diagnosis_testpolicy/se2e/p\?service_id=*.*">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />    
+                    <PARA name="moduleId" value="DiagnosisModule" />
+                </PARAS>
+            </DESC>
+            
+			<DESC descname="ui/cfg/v2/nes/([\d]+)/select_arps">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="ui/cfg/v2/nes/([\d]+)/select_acls">
+                <PARAS>
+                    <PARA name="applicationId" value="FixNetNECM" />
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+                    <PARA name="procId" value="126" />
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+			
+			<DESC descname="ui/cfg/v2/nes/([\d]+)/np/update/p\?types=([A-Za-z0-9;]+)">
+                <PARAS>
+       
+                    <PARA name="applicationId" value="FixNetNECM" />
+       
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+         
+                    <PARA name="procId" value="126" />
+   
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>            
+             <DESC descname="ui/cfg/v2/nes/([\d]+)/qosmgr">
+                <PARAS>      
+                    <PARA name="applicationId" value="FixNetNECM" />     
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />        
+                    <PARA name="procId" value="126" />               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+			<DESC descname="ui/cfg/v2/flow_statistic/p\?ne_id=([\d]+)&amp;sap_fdn=(.*)&amp;is_ingress=([0-1])&amp;vlan_id=(.*)">
+                <PARAS>      
+                    <PARA name="applicationId" value="FixNetNECM" />     
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />        
+                    <PARA name="procId" value="126" />               
+                    <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+            </DESC>
+			
+			<DESC descname="ui/cfg/v2/nes/([\d]+)/igmpsng/config/(.*)">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>	
+			
+			<DESC descname="ui/cfg/v2/nes/([\d]+)/igmpsng/forwardperf/(.*)">
+			    <PARAS>
+             
+                    <PARA name="applicationId" value="FixNetNECM" />
+         
+                    <PARA name="subSystemId" value="NEMGR_ROUTER" />
+      
+                    <PARA name="procId" value="126" />
+    
+                     <PARA name="moduleId" value="emlmodule" />
+                </PARAS>
+       		</DESC>	
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="outputpane">
+        <DESC descname="outputpane">
+            <PARAS>
+                <PARA name="maxlinenum" value="300" />
+                <PARA name="lockscroll" value="false" />
+                <PARA name="tabbedPanestyle" value="false" />
+                <PARA name="defaultheight" value="1" />
+                <PARA name="displacenum" value="200" />
+                <PARA name="isdisplace" value="false" />
+                <PARA name="displacefile" value="./autoput.txt" />
+                <PARA name="showtime" value="true" />
+                <PARA name="visible" value="true" />
+				<PARA name="messagebuffer" value="false" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

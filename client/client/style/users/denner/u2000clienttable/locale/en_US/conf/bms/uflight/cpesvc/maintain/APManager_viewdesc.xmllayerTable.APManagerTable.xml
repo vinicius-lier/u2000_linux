@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="AP_DeviceType" name="Model" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_SerialNumber" name="Serial Number" isVisiable="true" isEditable="true" width="106" isNameModified="false" />
+  <column id="AP_HardwareVersion" name="Hardware Version" isVisiable="true" isEditable="true" width="125" isNameModified="false" />
+  <column id="AP_SoftwareVersion" name="Software Version" isVisiable="true" isEditable="true" width="119" isNameModified="false" />
+  <column id="AP_UpTime" name="Online Duration" isVisiable="true" isEditable="true" width="112" isNameModified="false" />
+  <column id="WLAN_X_HW_RFBand" name="Frequency Type" isVisiable="true" isEditable="true" width="112" isNameModified="false" />
+  <column id="AP_CurrentChannel" name="Channel" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_TransmitPower" name="Transmit Power" isVisiable="true" isEditable="true" width="113" isNameModified="false" />
+</table>
+

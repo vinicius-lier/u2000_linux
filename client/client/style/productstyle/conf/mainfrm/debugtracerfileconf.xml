@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+<!-- configuration information for debugtrace files  -->
+<DESC descname="debugTracerFileDelete">
+    <PARAS>   
+    <!-- specifies debugtracer files should be removed or not, default false -->
+    <PARA name="isDTFileToBeRemoved" value="false"></PARA>
+    <!-- max size in MB, if folder size exceeds this limit debugtracer files will be removed, default value is 500-->
+    <PARA name="maxSize" value="500"></PARA>
+    <!-- total number of debugtracer files to be removed, default value is 20-->
+    <PARA name="totalNoOfFileToRemove" value="20"></PARA>  
+       
+    <!-- Configure the information to create the zip file  
+         The zipping will be done when the below parameters 
+         will be valid and the parameters will be uncommented
+         The value of the totalNoOfFileToZip parameter should be 
+         positive integer value
+         The value of the maxNoOfZipFiles parameter should be 
+         positive integer value
+         The value of the totalNoOfZipFileToRemove parameter should be 0
+         or positive integer value 
+    -->
+    
+    <!--specifies number of debugtracer files should be zipped -->
+    <PARA name="totalNoOfFileToZip" value="20"></PARA>
+    <!--specifies maximum number of zip files should be in the folder -->
+    <PARA name="maxNoOfZipFiles" value="30"></PARA>
+    <!--specifies maximum number of zip files should be removed from the folder -->
+    <PARA name="totalNoOfZipFileToRemove" value="1"></PARA>
+       
+  </PARAS>   
+  </DESC> 
+</AREADESC>
+</COMMINIDATA>

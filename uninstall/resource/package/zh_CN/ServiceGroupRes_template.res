@@ -1,0 +1,16 @@
+BASEGroup=基础服务
+trapreceiver=Trap接收服务
+COREGroup=核心服务
+DSGroup=桌面服务
+FMGroup=故障服务
+MEDGroup=网元接入服务
+TestframeGroup=测试框架服务
+CAUGroup=CAU服务
+BASEGroup.InstallInfo=本服务提供了基础功能，单实例类型，主节点上部署。
+trapreceiver.InstallInfo=本服务提供了网元Trap接收功能，单节点多实例类型，任意节点部署。
+COREGroup.InstallInfo=本服务提供了核心功能，单节点单实例类型，所有节点上部署。
+DSGroup.InstallInfo=本服务提供了客户端接入功能，单节点单实例类型，任意节点部署。
+FMGroup.InstallInfo=本服务提供了告警管理功能，单实例类型，主节点上部署。
+MEDGroup.InstallInfo=本服务提供了网元接入功能，单节点单实例类型，任意节点部署。
+TestframeGroup.InstallInfo=测试框架服务
+CAUGroup.InstallInfo=CAU服务

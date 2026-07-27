@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="false" width="333" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="115" isNameModified="false" />
+  <column id="SrvPortInterfaceType" name="Connection Type" isVisiable="true" isEditable="true" width="158" isNameModified="false" />
+  <column id="InterfaceInfo" name="Interface Information" isVisiable="true" isEditable="true" width="294" isNameModified="false" />
+  <column id="MultiSrvType" name="Service Type" isVisiable="true" isEditable="true" width="135" isNameModified="false" />
+  <column id="MultiServiceTypePara" name="Service Para" isVisiable="true" isEditable="true" width="115" isNameModified="false" />
+  <column id="SrvPortTxName" name="Upstream Traffic Profile" isVisiable="true" isEditable="true" width="169" isNameModified="false" />
+  <column id="SrvPortRxName" name="Downstream Traffic Profile" isVisiable="true" isEditable="true" width="185" isNameModified="false" />
+  <column id="SrvPortSVlanID" name="VLAN ID" isVisiable="true" isEditable="true" width="115" isNameModified="false" />
+  <column id="InnerVlanID" name="Inner VLAN ID" isVisiable="true" isEditable="true" width="142" isNameModified="false" />
+  <column id="MaxMacLearn" name="Max. Learnable MAC Addresses" isVisiable="true" isEditable="true" width="248" isNameModified="false" />
+</table>
+

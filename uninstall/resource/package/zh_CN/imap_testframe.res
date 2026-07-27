@@ -1,0 +1,2 @@
+imap_testframe=iMAP测试框架
+imap_testframe.InstallInfo=iMAP测试框架

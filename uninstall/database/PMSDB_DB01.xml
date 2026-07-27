@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>PMSDB</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>PMDBdata</devicename>
+	<filename>PMDB_data.mdf</filename>
+	<dbsize>500</dbsize>
+	<dbmaxsize>1500</dbmaxsize>
+	<dbthreshold>200</dbthreshold>
+	<dbfilegrowth>500</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>PMDBlog</logdevicename>
+	<logfilename>PMDB_log.ldf</logfilename>
+	<logsize>500</logsize>
+	<logmaxsize>500</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

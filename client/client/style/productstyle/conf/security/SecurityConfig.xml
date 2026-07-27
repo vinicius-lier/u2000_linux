@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>    
+    <AREADESC areaname="DEFAULT_COMMUNICATION_MODE">
+    	<DESC descname="DEFAULT_COMMUNICATION_MODE">
+            <PARAS>
+        	    <!--Setting the default Communication Mode in "Add Server" dialog. Common: "0"; SSL: "1" -->
+                <PARA name="MODE"   value="1" />
+            </PARAS>
+        </DESC>
+    </AREADESC> 
+    <AREADESC areaname="ABOUT_DIALOG_INFO">
+     	<DESC descname="ABOUT_DIALOG_INFO">
+            <PARAS>
+            	<!--Setting whether the "Component" tab will be shown in "About" dialog. Show: "true"(default); Not Show: "false" -->
+                <PARA name="SHOW_COMPONENT_TAB" value="true"/>
+                <PARA name="OPEN_SHOW_VERSION_SWITCH" value="false"/> 
+            </PARAS>
+        </DESC>
+    </AREADESC>  
+</COMMINIDATA>

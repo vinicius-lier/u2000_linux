@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ProjDoc">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="117456897"   value="打开文件失败。" />
+                <PARA name="117456898"   value="Asn.1 编码失败。" />
+                <PARA name="117456899"   value="Asn.1 解码失败。" />
+                <PARA name="117456900"   value="文件名称不合法。" />
+                <PARA name="117456901"   value="数据库查询失败。" />
+                <PARA name="117456902"   value="未找到相应子网的数据。" />
+                <PARA name="117456903"   value="正在导出工程数据，请稍后再试。" />
+                <PARA name="117456904"   value="系统中没有网元。" />
+                <PARA name="117456905"   value="网元不存在。" />
+                <PARA name="117459713"   value="文件名称中包含非法字符。" />
+                <PARA name="117459714"   value="响应消息为空。" />
+                <PARA name="117459715"   value="文件名称后缀应该是.xml。" />
+                <PARA name="117456906"   value="导出的文件夹数目已达到1000个。\n请手工转储或者删除历史文件夹。" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- Statistic items configure file -->
+<!-- NOTE: the product can only configure the existing items. no item should be added. -->
+<COMMINIDATA>
+	<AREADESC areaname="AlarmStatItemConfig">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="resourceBundleName" value=""></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="AllStatItems">
+			<PARAS />
+			<DESC descname="1">
+				<PARAS>
+					<PARA name="Name" value="statItem_neDn" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="3">
+				<PARAS>
+					<PARA name="Name" value="statItem_neType" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="4">
+				<PARAS>
+					<PARA name="Name" value="statItem_alarmName" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="5">
+				<PARAS>
+					<PARA name="Name" value="statItem_alarmLevel" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="6">
+				<PARAS>
+					<PARA name="Name" value="statItem_alarmType" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<!--
+				DESC descname="16"> <PARAS> <PARA name="Name"
+				value="statItem_ISOType" />
+				<PARA name="Enable" value="true" /> </PARAS> </DESC
+			-->
+			<DESC descname="19">
+				<PARAS>
+					<PARA name="Name" value="statItem_status" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="10">
+				<PARAS>
+					<PARA name="Name" value="statItem_day" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="11">
+				<PARAS>
+					<PARA name="Name" value="statItem_hour" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="14">
+				<PARAS>
+					<PARA name="Name" value="statItem_link" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="15">
+				<PARAS>
+					<PARA name="Name" value="statItem_linkType" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="25">
+				<PARAS>
+					<PARA name="Name" value="statItem_month" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+            <!-- V3 newly added -->
+            <!--
+			<DESC descname="17">
+				<PARAS>
+					<PARA name="Name" value="statItem_board" />
+					<PARA name="ID" value="" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="18">
+				<PARAS>
+					<PARA name="Name" value="statItem_port" />
+					<PARA name="ID" value="" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="20">
+				<PARAS>
+					<PARA name="Name" value="statItem_5min" />
+					<PARA name="ID" value="" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="33">
+				<PARAS>
+					<PARA name="Name" value="statItem_usabilityRate" />
+					<PARA name="ID" value="" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+			<DESC descname="32">
+				<PARAS>
+					<PARA name="Name" value="statItem_duration" />
+					<PARA name="ID" value="" />
+					<PARA name="Enable" value="true" />
+				</PARAS>
+			</DESC>
+             -->
+		</DESC>
+		<DESC descname="Items4Window">
+			<PARAS />
+			<DESC descname="FaultStatistic">
+				<PARAS />
+				<DESC descname="Row">
+					<PARAS />
+					<DESC descname="1">
+						<PARAS>
+							<PARA name="View_Index" value="10" />
+						</PARAS>
+					</DESC>
+					<DESC descname="3">
+						<PARAS>
+							<PARA name="View_Index" value="20" />
+						</PARAS>
+					</DESC>
+					<DESC descname="4">
+						<PARAS>
+							<PARA name="View_Index" value="30" />
+						</PARAS>
+					</DESC>
+					<DESC descname="5">
+						<PARAS>
+							<PARA name="View_Index" value="40" />
+						</PARAS>
+					</DESC>
+					<DESC descname="6">
+						<PARAS>
+							<PARA name="View_Index" value="50" />
+						</PARAS>
+					</DESC>
+					<DESC descname="19">
+						<PARAS>
+							<PARA name="View_Index" value="60" />
+						</PARAS>
+					</DESC>
+					<DESC descname="25">
+						<PARAS>
+							<PARA name="View_Index" value="70" />
+						</PARAS>
+					</DESC>
+					<DESC descname="10">
+						<PARAS>
+							<PARA name="View_Index" value="80" />
+						</PARAS>
+					</DESC>
+					<DESC descname="11">
+						<PARAS>
+							<PARA name="View_Index" value="90" />
+						</PARAS>
+					</DESC>
+					<DESC descname="14">
+						<PARAS>
+							<PARA name="View_Index" value="100" />
+						</PARAS>
+					</DESC>
+					<DESC descname="15">
+						<PARAS>
+							<PARA name="View_Index" value="110" />
+						</PARAS>
+					</DESC>
+					<DESC descname="17">
+						<PARAS>
+							<PARA name="View_Index" value="120" />
+						</PARAS>
+					</DESC>
+					<DESC descname="18">
+						<PARAS>
+							<PARA name="View_Index" value="130" />
+						</PARAS>
+					</DESC>
+					<DESC descname="20">
+						<PARAS>
+							<PARA name="View_Index" value="140" />
+						</PARAS>
+					</DESC>
+				</DESC>
+				<DESC descname="Column">
+					<PARAS />
+					<DESC descname="3">
+						<PARAS>
+							<PARA name="View_Index" value="10" />
+						</PARAS>
+					</DESC>
+					<DESC descname="5">
+						<PARAS>
+							<PARA name="View_Index" value="20" />
+						</PARAS>
+					</DESC>
+					<DESC descname="6">
+						<PARAS>
+							<PARA name="View_Index" value="30" />
+						</PARAS>
+					</DESC>
+					<DESC descname="19">
+						<PARAS>
+							<PARA name="View_Index" value="40" />
+						</PARAS>
+					</DESC>
+					<DESC descname="11">
+						<PARAS>
+							<PARA name="View_Index" value="60" />
+						</PARAS>
+					</DESC>
+					<DESC descname="15">
+						<PARAS>
+							<PARA name="View_Index" value="70" />
+						</PARAS>
+					</DESC>
+					<DESC descname="33">
+						<PARAS>
+							<PARA name="View_Index" value="80" />
+						</PARAS>
+					</DESC>
+					<DESC descname="32">
+						<PARAS>
+							<PARA name="View_Index" value="90" />
+						</PARAS>
+					</DESC>
+				</DESC>
+			</DESC>
+			<DESC descname="EventStatistic">
+				<PARAS />
+				<DESC descname="Row">
+					<PARAS />
+					<DESC descname="1">
+						<PARAS>
+							<PARA name="View_Index" value="10" />
+						</PARAS>
+					</DESC>
+					<DESC descname="3">
+						<PARAS>
+							<PARA name="View_Index" value="20" />
+						</PARAS>
+					</DESC>
+					<DESC descname="4">
+						<PARAS>
+							<PARA name="View_Index" value="30" />
+						</PARAS>
+					</DESC>
+					<DESC descname="5">
+						<PARAS>
+							<PARA name="View_Index" value="40" />
+						</PARAS>
+					</DESC>
+					<DESC descname="6">
+						<PARAS>
+							<PARA name="View_Index" value="50" />
+						</PARAS>
+					</DESC>
+					<DESC descname="25">
+						<PARAS>
+							<PARA name="View_Index" value="60" />
+						</PARAS>
+					</DESC>
+					<DESC descname="10">
+						<PARAS>
+							<PARA name="View_Index" value="70" />
+						</PARAS>
+					</DESC>
+					<DESC descname="11">
+						<PARAS>
+							<PARA name="View_Index" value="80" />
+						</PARAS>
+					</DESC>
+					<DESC descname="14">
+						<PARAS>
+							<PARA name="View_Index" value="90" />
+						</PARAS>
+					</DESC>
+					<DESC descname="15">
+						<PARAS>
+							<PARA name="View_Index" value="100" />
+						</PARAS>
+					</DESC>
+				</DESC>
+				<DESC descname="Column">
+					<PARAS />
+					<DESC descname="3">
+						<PARAS>
+							<PARA name="View_Index" value="10" />
+						</PARAS>
+					</DESC>
+					<DESC descname="5">
+						<PARAS>
+							<PARA name="View_Index" value="20" />
+						</PARAS>
+					</DESC>
+					<DESC descname="6">
+						<PARAS>
+							<PARA name="View_Index" value="30" />
+						</PARAS>
+					</DESC>
+					<DESC descname="11">
+						<PARAS>
+							<PARA name="View_Index" value="40" />
+						</PARAS>
+					</DESC>
+					<DESC descname="15">
+						<PARAS>
+							<PARA name="View_Index" value="50" />
+						</PARAS>
+					</DESC>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

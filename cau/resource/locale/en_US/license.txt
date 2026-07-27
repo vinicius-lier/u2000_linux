@@ -1,0 +1,100 @@
+            ---------------------------------------------------------------------------
+                         SOFTWARE LICENSE AGREEMENT
+           	           September 1998
+            ---------------------------------------------------------------------------
+_________________________________________________________
+
+IMPORTANT - READ CAREFULLY: Your use of this software through installation,  
+duplication or in other forms shall be deemed as your acceptance of the clauses
+of this License Agreement ("Agreement") and your consent to enter into this 
+Agreement with Huawei Technologies Co., Ltd. ("Huawei"). 
+
+================================================
+1. Software Product ("Software")
+
+    Software in this Agreement includes the computer software and the associated 
+media such as  pictures, photographs, icons, animations, records, videos, music,
+words and code in the computer software as well as instructions, guidelines, and
+manuals relevant to the computer software.
+
+================================================
+2. Authorization
+
+    If you procure any copy of Software of and from Huawei by authorized means,
+then you are entitled to: 
+
+  -----------------------------------
+    2.1 Use Software
+        
+        You may install Software in the PC, workstation or network server and use 
+    Software within the service scope in order to implement all the functions of 
+    Software.
+        
+  -----------------------------------
+    2.2 Backup Software
+               
+        You may make a copy of Software as backup for documentation purposes. 
+    But the backup shall not violate the provisions in Clause 1 and 2 in Article 3. 
+        
+  -----------------------------------
+    2.3 Contact Technical Support
+               
+        You are entitled to all-round technical support provided by Huawei.You
+    may contact Huawei for answers or solutions to any problems encountered 
+    during the installation or the use of Software. 
+        
+  -----------------------------------
+    2.4 Use the upgraded version
+               
+        You may use any and all the upgraded versions of Software as per your 
+    practical needs. But you shall pay for the upgraded version if required by 
+    Huawei.
+
+================================================
+3. Restrictions
+
+  -----------------------------------
+    3.1 General Restrictions
+        
+        Your license of Software is limited to the purpose of realizing the functions 
+    of Software. You shall not modify the Software, or conduct reverse engineering, 
+    decompile, disassemble, and develop a new software based on the Software. 
+    When you need to modify Software for the reason of adaptability or otherwise,
+    you shall request Huawei in writing to implement the modification.
+        
+  -----------------------------------
+    3.2 Backup
+        
+        Unless for the purpose of normal use or documentation, you shall not copy
+    the Software. 
+        
+  -----------------------------------
+    3.3 Use
+             
+        The Software License is confined to your corporation only. You shall not 
+    transfer, sublicense, rent lease or provide the Software to any third party 
+    without the written permission of and from Huawei, whether such provision is
+    for commercial purpose or not.
+                        
+  -----------------------------------
+    3.4 Others
+             
+        You shall take effective measures to ensure that your staff members or 
+    employees comply with the provisions in Clause 3.1 and 3.2.
+                      
+================================================
+4. Intellectual Properties and Confidentiality
+
+    The copyright of Software,trademark,patent,know-how and any other proprietary 
+rights of Software are the  proprietary information of Huawei. You shall not delete,
+remove or modify any marks, logos, labels appearing during the installation or the 
+use of Software. 
+    You have the rights to use them within the authorized scope only. You have 
+obligation to keep any Software-related know-how of Huawei in confidentiality. 
+        
+    Matters unmentioned in this software license agreement will be supplemented 
+in other agreements or otherwise negotiated between parties hereto.
+    This Agreement is governed and construed by the relevant laws of People's 
+Republic of China. 
+
+

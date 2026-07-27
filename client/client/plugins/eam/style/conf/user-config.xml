@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <!-- Define dn is effective -->
+    <AREADESC areaname="dnTakeEffect">
+        <DESC descname="dnTakeEffect">
+            <PARAS>
+                <!-- idiomatic option can to effect which decided by user -->
+                <!-- if value="1" means idiomatic option is effective, otherwise value="0" -->
+                <PARA name="takeEffect" value="1"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    
+    <!-- Define display value -->
+	<AREADESC areaname="eam">
+		<DESC descname="eamUseConfig">
+			<PARAS>
+				<!-- "DN","Label"-->
+				<PARA name="eamDisplayStyle" value="dn" />
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	
+	<AREADESC areaname="common">
+		<DESC descname="common">
+			<PARAS>
+			<!-- last creating ne type -->
+				<PARA name="createNeTypeId" value="0"/>
+				<!-- IMAPV300R001-15751 last creating link type -->
+				<PARA name="createLinkTypeId" value="0"/>
+		</PARAS>			
+	</DESC>
+</AREADESC>
+</COMMINIDATA>
+

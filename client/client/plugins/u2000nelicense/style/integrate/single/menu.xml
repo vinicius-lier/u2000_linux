@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle" />
+				<PARA name="resourceBundleName" value="Res" />
+			</PARAS>
+		</DESC>
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu" />
+				<PARA name="type" value="MenuSet" />
+			</PARAS>
+			<!-- define a menu have" name" and "mnemonic" attributes -->
+      <DESC descname="SystemMenu">
+      
+        <PARAS>
+          <PARA name="name" value="System"></PARA>
+          <PARA name="mnemonic" value="S"></PARA>
+          <PARA name="accelerator" value="VK_S"></PARA>
+          <PARA name="type" value="JMenu"></PARA>
+          <PARA name="serialnumber" value="600"></PARA>
+        </PARAS>
+        
+        <DESC descname="U2000_NE_License_Manage">
+          <PARAS>
+            <PARA name="name"
+                  value="U2000_NE_License_Manage" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="U2000_nelicense_showNELicenseFrame" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="M" />
+            <PARA name="accelerator"
+                  value="VK_M" />
+            <PARA name="Class"
+                  value="IViewJMenuItemEx" />
+            <PARA name="serialnumber"
+                  value="6000-450" />
+					</PARAS>
+				</DESC>        
+            </DESC> 
+			
+			
+		</DESC>
+		<!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

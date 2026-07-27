@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle"/>
+                <PARA name="resourceBundleName" value="Res"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="mainMenu">
+            <PARAS>
+                <PARA name="name" value="main Menu"/>
+                <PARA name="type" value="MenuSet"/>
+            </PARAS>
+            <DESC descname="SECURITY_MAINMENU">
+                <PARAS>
+                    <PARA name="name" value="NMSUSER_MAINMENU"/>
+                    <PARA name="mnemonic" value="C"/>
+                    <PARA name="accelerator" value="VK_C"/>
+                    <PARA name="type" value="JMenu"/>
+                    <PARA name="serialnumber" value="600"/>
+                </PARAS>
+                <DESC descname="SECURITY_MANAGER_UM">
+                    <PARAS>
+                        <PARA name="name" value="SECURITY_MANAGER_UM"/>
+                        <PARA name="icon" value=""/>
+                        <PARA name="command" value="securitymodule:showSecurityFrame"/>
+                        <PARA name="type" value="JMenuItem"/>
+                        <PARA name="mnemonic" value="M"/>
+                        <PARA name="accelerator" value="VK_M"/>
+                        <PARA name="Class" value="IViewJMenuItemEx"/>
+                        <PARA name="serialnumber" value="600-10"/>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" /> 
+                        <PARA name="showBlankInternalFrame" value="false"></PARA>
+			            <PARA name="visibleApps">
+			            <VALUE value="SecurityMgr"></VALUE>
+			            </PARA>
+                    </PARAS>
+                </DESC>
+                <!--DESC descname="EXPORT_AUTHINFO">
+                    <PARAS>
+                        <PARA name="name" value="EXPORT_AUTHINFO"/>
+                        <PARA name="icon" value=""/>
+                        <PARA name="command" value="securitymodule:export auth info"/>
+                        <PARA name="type" value="JMenuItem"/>
+                        <PARA name="mnemonic" value="I"/>
+                        <PARA name="accelerator" value="VK_I"/>
+                        <PARA name="Class" value="IViewJMenuItemEx"/>
+                        <PARA name="serialnumber" value="600-10"/>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" /> 
+                        <PARA name="showBlankInternalFrame" value="false"></PARA>
+			            <PARA name="visibleApps">
+			                <VALUE value="SecurityMgr"></VALUE>
+			            </PARA>
+                    </PARAS>                                             
+                </DESC-->
+                <DESC descname="SYN_USER_AND_USERGROUP_INFO">
+                    <PARAS>
+                        <PARA name="name" value="SYN_USER_AND_USERGROUP_INFO"/>
+                        <PARA name="icon" value=""/>
+                        <PARA name="command" value="securitymodule:syn user and userGroup info"/>
+                        <PARA name="type" value="JMenuItem"/>
+                        <PARA name="mnemonic" value="Y"/>
+                        <PARA name="accelerator" value="VK_Y"/>
+                        <PARA name="Class" value="IViewJMenuItemEx"/>
+                        <PARA name="serialnumber" value="600-20"/>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" /> 
+                        <PARA name="showBlankInternalFrame" value="false"></PARA>
+                        <PARA name="visibleApps"><VALUE value="SecurityMgr"></VALUE></PARA>
+                    </PARAS>
+                </DESC>
+                <DESC descname="Separator">
+                    <PARAS>
+                        <PARA name="name" value="Separator"></PARA>
+                        <PARA name="type" value="Separator"></PARA>
+                        <PARA name="serialnumber" value="600-30"></PARA>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="false" /> 
+                    </PARAS>
+                </DESC>
+                <DESC descname="USER_MONITOR">
+                    <PARAS>
+                        <PARA name="name" value="USER_MONITOR"/>
+                        <PARA name="icon" value=""/>
+                        <PARA name="command" value="securitymodule:show user monitor frame"/>
+                        <PARA name="type" value="JMenuItem"/>
+                        <PARA name="mnemonic" value="U"/>
+                        <PARA name="accelerator" value="VK_U"/>
+                        <PARA name="Class" value="IViewJMenuItemEx"/>
+                        <PARA name="serialnumber" value="600-70"/>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" /> 
+                        <PARA name="showBlankInternalFrame" value="false"></PARA>
+			            <PARA name="visibleApps">
+			            <VALUE value="SecurityMgr"></VALUE>
+			            </PARA>
+                    </PARAS>
+                </DESC>    
+                <DESC descname="USER_OPERATION_MONITOR">
+                    <PARAS>
+                        <PARA name="name" value="USER_OPERATION_MONITOR"/>
+                        <PARA name="icon" value=""/>
+                        <PARA name="command" value="securitymodule:show user operation monitor frame"/>
+                        <PARA name="type" value="JMenuItem"/>
+                        <PARA name="mnemonic" value="O"/>
+                        <PARA name="accelerator" value="VK_O"/>
+                        <PARA name="Class" value="IViewJMenuItemEx"/>
+                        <PARA name="serialnumber" value="600-80"/>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" /> 
+                        <PARA name="showBlankInternalFrame" value="false"></PARA>
+			            <PARA name="visibleApps">
+			            <VALUE value="SecurityMgr"></VALUE>
+			            </PARA>
+                    </PARAS>
+                </DESC>
+                <DESC descname="Separator">
+                    <PARAS>
+                        <PARA name="name" value="Separator"></PARA>
+                        <PARA name="type" value="Separator"></PARA>
+                        <PARA name="serialnumber" value="600-90"></PARA>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="false" /> 
+                    </PARAS>
+                </DESC>
+                
+                <DESC descname="SETTING_MAINMENU">
+                    <PARAS>
+                        <PARA name="name" value="SETTING_MAINMENU"/>
+                        <PARA name="mnemonic" value="S"/>
+                        <PARA name="accelerator" value="VK_S"/>
+                        <PARA name="type" value="JMenu"/>
+                        <PARA name="serialnumber" value="600-100"/>
+                    </PARAS>
+                    <DESC descname="SYSTEM_ACL_DIALOG">
+                        <PARAS>
+                            <PARA name="name" value="SYSTEM_ACL_DIALOG"/>
+                            <PARA name="icon" value=""/>
+                            <PARA name="command" value="securitymodule:showACLDialog"/>
+                            <PARA name="type" value="JMenuItem"/>
+                            <PARA name="mnemonic" value="A"/>
+                            <PARA name="accelerator" value="VK_A"/>
+                            <PARA name="Class" value="IViewJMenuItemEx"/>
+                            <PARA name="serialnumber" value="600-100-10"/>
+                            <PARA name="showInPortalPanel" value="true" />
+                            <PARA name="isFavorite" value="true" /> 
+			                <PARA name="visibleApps">
+			                <VALUE value="SecurityMgr"></VALUE>
+			                </PARA>
+                        </PARAS>
+                    </DESC>
+                    <DESC descname="POLICY_SETTING">
+                        <PARAS>
+                            <PARA name="name" value="POLICY_SETTING"/>
+                            <PARA name="icon" value=""/>
+                            <PARA name="command" value="securitymodule:show security policy dialog"/>
+                            <PARA name="type" value="JMenuItem"/>
+                            <PARA name="mnemonic" value="P"/>
+                            <PARA name="accelerator" value="VK_P"/>
+                            <PARA name="Class" value="IViewJMenuItemEx"/>
+                            <PARA name="serialnumber" value="600-100-20"/>
+                            <PARA name="showInPortalPanel" value="true" />
+                            <PARA name="isFavorite" value="true" /> 
+			                <PARA name="visibleApps">
+			                <VALUE value="SecurityMgr"></VALUE>
+			                </PARA>
+                        </PARAS>
+                    </DESC> 
+                    <!--DESC descname="SECONDARY_AUTH_CFG">
+                        <PARAS>
+                            <PARA name="name" value="MENU_SECONDARY_AUTH_CFG"/>
+                            <PARA name="icon" value=""/>
+                            <PARA name="command" value="securitymodule:showSecondaryAuthCFGFrame"/>
+                            <PARA name="type" value="JMenuItem"/>
+                            <PARA name="mnemonic" value="D"/>
+                            <PARA name="accelerator" value="VK_D"/>
+                            <PARA name="Class" value="IViewJMenuItemEx"/>
+                            <PARA name="serialnumber" value="600-100-30"/>
+                            <PARA name="showInPortalPanel" value="true" />
+                            <PARA name="isFavorite" value="true" /> 
+			                <PARA name="visibleApps">
+			                <VALUE value="SecurityMgr"></VALUE>
+			                </PARA>
+                        </PARAS>
+                    </DESC-->
+                    <DESC descname="SUPPORT_REMOTE_AUTH_CONFIG">
+                        <PARAS>
+                            <PARA name="name" value="SUPPORT_REMOTE_AUTH_CONFIG"/>
+                            <PARA name="icon" value=""/>
+                            <PARA name="command" value="securitymodule:support remote auth config"/>
+                            <PARA name="type" value="JMenuItem"/>
+                            <PARA name="mnemonic" value="B"/>
+                            <PARA name="accelerator" value="VK_B"/>
+                            <PARA name="Class" value="IViewJMenuItemEx"/>
+                            <PARA name="serialnumber" value="600-100-40"/>
+                            <PARA name="showInPortalPanel" value="true" />
+                            <PARA name="isFavorite" value="true" /> 
+                            <PARA name="visibleApps">
+                            <VALUE value="SecurityMgr"></VALUE>
+                            </PARA>
+                        </PARAS>
+                    </DESC>
+                </DESC> 
+				  <DESC descname="Separator">
+                    <PARAS>
+                      	<PARA name="name" value="Separator"></PARA>	
+                      	<PARA name="type" value="Separator"></PARA>            
+                      	<PARA name="serialnumber" value="600-120"></PARA>   
+    			   		<PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="false" />          
+           	        </PARAS>			
+                </DESC> 
+           
+                <!--DESC descname="TRANSFER_NMSINFO_MENU">
+				    <PARAS>
+    					<PARA name="name" value="TRANSFER_NMSINFO_MENU"/>
+    					<PARA name="mnemonic" value="E"/>
+    					<PARA name="accelerator" value="VK_E"/>
+    					<PARA name="type" value="JMenu"/>
+    					<PARA name="serialnumber" value="600-200"/>
+				    </PARAS>
+				  
+				    <DESC descname="EXPORT_NMSINFO_DIALOG">
+    					<PARAS>
+    						<PARA name="name" value="EXPORT_NMSINFO_DIALOG"/>
+    						<PARA name="icon" value=""/>
+    						<PARA name="command" value="securitymodule:showExportUserAndGroupInfoDialog"/>
+    						<PARA name="type" value="JMenuItem"/>
+    						<PARA name="mnemonic" value="X"/>
+    						<PARA name="accelerator" value="VK_X"/>
+    						<PARA name="Class" value="IViewJMenuItemEx"/>
+    						<PARA name="serialnumber" value="600-200-10"/>
+    						<PARA name="showInPortalPanel" value="true" />
+                            <PARA name="isFavorite" value="true" /> 
+			                <PARA name="visibleApps">
+			                <VALUE value="SecurityMgr"></VALUE>
+			                </PARA>
+    					</PARAS>					
+				    </DESC>
+				  
+				    <DESC descname="IMPORT_NMSINFO_DIALOG">
+    					<PARAS>
+    						<PARA name="name" value="IMPORT_NMSINFO_DIALOG"/>
+    						<PARA name="icon" value=""/>
+    						<PARA name="command" value="securitymodule:showImportUserAndGroupInfoDialog"/>
+    						<PARA name="type" value="JMenuItem"/>
+    						<PARA name="mnemonic" value="P"/>
+    						<PARA name="accelerator" value="VK_P"/>
+    						<PARA name="Class" value="IViewJMenuItemEx"/>
+    						<PARA name="serialnumber" value="600-200-20"/>
+    						<PARA name="showInPortalPanel" value="true" />
+                            <PARA name="isFavorite" value="true" /> 
+			                <PARA name="visibleApps">
+			                <VALUE value="SecurityMgr"></VALUE>
+			                </PARA>
+    					</PARAS>					
+				    </DESC>
+				</DESC-->
+
+            </DESC>  
+            <DESC descname="NE_Security_Menu">
+                <PARAS>
+                    <PARA name="name" value="NE_Security"/>
+                    <PARA name="mnemonic" value="E"/>
+                    <PARA name="accelerator" value="VK_E"/>
+                    <PARA name="type" value="JMenu"/>
+                    <PARA name="serialnumber" value="610"/>
+                </PARAS>
+                <!--
+				<DESC descname="MENU_NE_USER_MANAGER">
+					<PARAS>
+						<PARA name="name" value="MENU_NE_USER_MANAGER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:show NE USER"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="R"/>
+						<PARA name="accelerator" value="VK_R"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="610-20"/>
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" /> 
+                        <PARA name="showBlankInternalFrame" value="false"></PARA>
+			            <PARA name="visibleApps">
+			            <VALUE value="SecurityMgr"></VALUE>
+			            </PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="MENU_NE_LOGIN_MANAGER">
+					<PARAS>
+						<PARA name="name" value="MENU_NE_LOGIN_MANAGER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="securitymodule:showNELoginFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="N"/>
+						<PARA name="accelerator" value="VK_N"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="610-40"/>
+						<PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" />
+                        <PARA name="showBlankInternalFrame" value="false"></PARA> 
+			            <PARA name="visibleApps">
+			            <VALUE value="SecurityMgr"></VALUE>
+			            </PARA>
+					</PARAS>
+				</DESC>
+			    <DESC descname="Separator">
+                    <PARAS>
+                      	<PARA name="name" value="Separator"></PARA>	
+                      	<PARA name="type" value="Separator"></PARA>            
+                      	<PARA name="serialnumber" value="610-110"></PARA> 
+                      	<PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="false" /> 
+		    </PARAS>
+                </DESC>  
+               -->
+            </DESC>
+        </DESC> 
+    </AREADESC>
+</COMMINIDATA>

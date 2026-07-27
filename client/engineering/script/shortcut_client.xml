@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<!--部署首个实例时，创建快捷方式 -->
+<shortcuts>
+  <shortcut>
+      <shortcut_displayname_en_US>U2000 Client</shortcut_displayname_en_US>
+      <shortcut_displayname_zh_CN>U2000 客户端</shortcut_displayname_zh_CN>
+      <shortcut_exePath>@{INSTALLROOT}/client</shortcut_exePath>
+      <shortcut_exeCmd>startup_all_global.bat</shortcut_exeCmd>
+      <shortcut_folder_en_US>Network Management System</shortcut_folder_en_US>
+      <shortcut_folder_zh_CN>网络管理系统</shortcut_folder_zh_CN>
+      <shortcut_iconName>client/client/imapclient_nw.ico</shortcut_iconName>
+      <shortcut_flagOnDesk>true</shortcut_flagOnDesk>
+      <shortcut_user>@{UserName}</shortcut_user>
+  </shortcut>
+  <shortcut>
+      <shortcut_displayname_en_US>U2000 System Monitor</shortcut_displayname_en_US>
+      <shortcut_displayname_zh_CN>U2000 系统监控</shortcut_displayname_zh_CN>
+      <shortcut_exePath>@{INSTALLROOT}/client</shortcut_exePath>
+      <shortcut_exeCmd>startup_sysmonitor_global.bat</shortcut_exeCmd>
+      <shortcut_folder_en_US>Network Management System</shortcut_folder_en_US>
+      <shortcut_folder_zh_CN>网络管理系统</shortcut_folder_zh_CN>
+      <shortcut_iconName>client/client/imapserver_nw.ico</shortcut_iconName>
+      <shortcut_flagOnDesk>true</shortcut_flagOnDesk>
+      <shortcut_user>@{UserName}</shortcut_user>
+  </shortcut>
+  <shortcut>
+      <shortcut_displayname_en_US>U2000 Help</shortcut_displayname_en_US>
+      <shortcut_displayname_zh_CN>U2000 帮助</shortcut_displayname_zh_CN>
+      <shortcut_exePath>@{INSTALLROOT}/client/client/help/@{INSLANGUAGE}</shortcut_exePath>
+      <shortcut_exeCmd>r_welcome.html</shortcut_exeCmd>
+      <shortcut_folder_en_US>Network Management System</shortcut_folder_en_US>
+      <shortcut_folder_zh_CN>网络管理系统</shortcut_folder_zh_CN>
+      <shortcut_iconName>client/client/nmsmanual_nw.ico</shortcut_iconName>
+      <shortcut_flagOnDesk>false</shortcut_flagOnDesk>
+      <shortcut_user>@{UserName}</shortcut_user>
+  </shortcut>
+  <shortcut>
+      <shortcut_displayname_en_US>U2000 NMS Maintenance Suite</shortcut_displayname_en_US>
+      <shortcut_displayname_zh_CN>U2000 网络管理系统维护工具</shortcut_displayname_zh_CN>
+      <shortcut_exePath>@{INSTALLROOT}/client/engineering</shortcut_exePath>
+      <shortcut_exeCmd>startclient.bat</shortcut_exeCmd>
+      <shortcut_folder_en_US>Network Management System</shortcut_folder_en_US>
+      <shortcut_folder_zh_CN>网络管理系统</shortcut_folder_zh_CN>
+      <shortcut_iconName>client/engineering/MSuite.ico</shortcut_iconName>
+      <shortcut_flagOnDesk>true</shortcut_flagOnDesk>
+      <shortcut_user>@{UserName}</shortcut_user>
+  </shortcut>
+  <shortcut>
+      <shortcut_displayname_en_US>Uninstall U2000 Client</shortcut_displayname_en_US>
+      <shortcut_displayname_zh_CN>卸载 U2000 客户端</shortcut_displayname_zh_CN>
+      <shortcut_exePath>@{INSTALLROOT}/uninstall</shortcut_exePath>
+      <shortcut_exeCmd>uninstall.bat</shortcut_exeCmd>
+      <shortcut_folder_en_US>Network Management System</shortcut_folder_en_US>
+      <shortcut_folder_zh_CN>网络管理系统</shortcut_folder_zh_CN>
+      <shortcut_iconName>uninstall/uninstall.ico</shortcut_iconName>
+      <shortcut_flagOnDesk>false</shortcut_flagOnDesk>
+      <shortcut_user>@{UserName}</shortcut_user>
+  </shortcut>
+</shortcuts>

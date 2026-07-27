@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Device Name" name="Device Name" isVisiable="true" isEditable="true" width="94" isNameModified="false" />
+  <column id="Frame" name="Frame" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Slot" name="Slot" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Port" name="Port" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ONT ID" name="ONT ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

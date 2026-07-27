@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) --><COMMINIDATA>
+<AREADESC>
+
+
+<!--define a Toolbar
+menuSet:
+        descname as the menuSet's id, must be unique.
+        must have a type para, and the value is "MenuSet"
+
+JMenu:(super class must be JMenu)
+        descname as the menuID.
+        must hava a type para, and the value is "JMenu"
+
+JMenu's sub element 
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+-->
+
+<DESC descname="ResourceBundle">
+    <PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="Res"></PARA>
+    </PARAS>
+</DESC>
+
+<!--define a ToolbarGroup-->
+<DESC descname="mainTool">
+    <PARAS>
+    <PARA name="name" value="main Tool"></PARA>
+    <PARA name="type" value="ToolGroupSet"></PARA>
+    <PARA name="serialnumber" value="100"></PARA>
+    </PARAS>
+    
+    <DESC descname="Security">
+        <PARAS>
+        <PARA name="name" value="SecurityToolbar"></PARA>
+        <PARA name="type" value="JToolBar"></PARA>
+        <PARA name="icon" value="mainfrm/About16.gif"></PARA>
+        <PARA name="serialnumber" value="100-100"></PARA>
+        </PARAS>
+        
+        <DESC descname="SECURITY_MANAGER">
+            <PARAS>
+                <PARA name="name" value="SECURITY_MANAGER_TOOLBAR_TIP"></PARA>
+                <PARA name="type" value="AbstractButton"/>
+                <PARA name="description" value="SECURITY_MANAGER_TOOLBAR_TIP"/>
+                <PARA name="icon" value="mainfrm/securityframe.gif"/>
+                <PARA name="command" value="securitymodule:showSecurityFrame"/>
+                <PARA name="serialnumber" value="100-100-500"></PARA>
+            </PARAS>
+        </DESC>
+	    
+    </DESC>
+    
+    
+</DESC>
+<!-- mainTool TooGroupSet type -->
+
+</AREADESC>
+</COMMINIDATA>

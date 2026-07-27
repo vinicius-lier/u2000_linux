@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <!--the implement class path for com.swimap.sm.client.loginui.cmlinelogin.IGetLoginInfo, U2100 GCT use it for command line login-->
+        <DESC descname="IGetLoginInfoClassPath">
+            <PARAS>
+                <PARA name="classpath" value="" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>
+
+

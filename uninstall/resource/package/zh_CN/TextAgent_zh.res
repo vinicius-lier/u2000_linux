@@ -1,0 +1,6 @@
+NBI=北向接口
+nbi_text_agent=性能文本北向接口组件
+nbi_text_agent.InstallInfo=提供文本北向接口功能，包括性能导出导出功能。
+nbi_text_agent.UninstallInfo=提供文本北向接口功能，包括性能导出导出功能。
+nbi_text_agent_server = 性能文本北向接口组件
+NorthBoundInterface=北向接口

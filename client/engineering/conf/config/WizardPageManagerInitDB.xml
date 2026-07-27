@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wizard>
+	<Page>com.oss.engineering.business.initdb.client.pages.InitDBWizardPage</Page>
+	<Page>com.oss.engineering.business.initdb.client.pages.InitDBProgressPage</Page>
+	<Page>com.oss.engineering.business.initdb.client.pages.InitDBExitPage</Page>	
+</Wizard>

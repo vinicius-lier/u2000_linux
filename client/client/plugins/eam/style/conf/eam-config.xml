@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="common">
+		<DESC descname="common">
+			<PARAS>
+			  <!-- Object Name length,the range is[32,128],default value is 64-->
+        <PARA name="NAME_LENGTH" value="64" />
+				<!-- neNameFilter -->
+				<PARA name="neNameFilter" value="@!&quot;'[]\,"/>
+				<!-- '0':deleting subnet with no null is unallowed, '1':deleting subnet with no null is allowed, moving child node up -->
+                                <PARA name="deleteSnPolicy" value="1" />                           
+				<!-- max configure value is 2000,default value is 500-->
+				<PARA name="searchResultNum" value="0"/>
+				<!-- set height of pagination tree-->
+				<PARA name="treeRowHeight" value="20"/>
+				<!--  deleting object'number of Eam for one time --> 
+				<!--the value between 1 and 500 ,if value less 1,deleting number is 1,if value more than 500;deleting number is 500-->
+				<PARA name="deleteEamObjNum" value="500"/>
+				 <!--// if the number less then 30 in the result of the 'ping',set it to 30-->
+                            <!--//if the number more then 1000 in the result of the 'ping',set it to 1000-->
+				<PARA name="pingResultNum" value="50"/>
+				<!--set the auto detect default SNMP version  1,SNMPV1;2,SNMPV2;3,SNMPV3 default:1-->
+				<!--<PARA name="defaultSNMPVersion"  value="1"/>-->
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	<!-- equipment maintenance info switch. if value equal to '1',show equipment maintenance info which you choose.
+            if value equal to '0' or 'null',show all equipment maintenance info .-->
+	<!--
+	<AREADESC areaname="DEV_MAINTENANCE_INFO">
+		<DESC descname="NOSELECTOBJECT">
+			<PARAS>
+				<PARA name="NOSELECTOBJECT" value="1"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	-->
+	
+	<AREADESC areaname="SearchResult">
+		<DESC descname="Name">
+			<PARAS>
+				<PARA name="label" value="searchObjectName"/>
+				<PARA name="property" value="name"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="Type">
+			<PARAS>
+				<PARA name="label" value="searchObjectType"/>
+				<PARA name="property" value="type"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="Memo">
+			<PARAS>
+				<PARA name="label" value="searchObjectRemarks"/>
+				<PARA name="property" value="memo"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	
+
+	<AREADESC areaname="right">
+		<DESC descname="right">
+			<PARAS>
+				<PARA name="Create_subnet" value="Create_subnet"/>
+				<PARA name="CreateSnByButton" value="Create_subnet"/>
+				<PARA name="Modify_subnet" value="Modify_subnet"/>
+				<PARA name="Delete_subnet" value="Delete_subnet"/>
+				<PARA name="Create_Ne" value="Create_Ne"/>
+				<PARA name="CreateNeByButton" value="Create_Ne"/>
+				<PARA name="Modify_Ne" value="Modify_Ne"/>
+				<PARA name="Delete_Ne" value="Delete_Ne"/>
+				<PARA name="Create_Link" value="Create_Link"/>
+				<PARA name="Modify_Link" value="Modify_Link"/>
+				<PARA name="Delete_Link" value="Delete_Link"/>
+				<PARA name="cutObject" value="MoveEamObject"/>
+				<PARA name="pasteObject" value="MoveEamObject"/>
+				<PARA name="moveObjectTo" value="MoveEamObject"/>
+				<PARA name="createSnByToolbar" value="Create_subnet"/>
+				<PARA name="createNeByToolbar" value="Create_Ne"/>
+				<PARA name="createLkByToolbar" value="Create_Link"/>
+				<PARA name="Auto_Discovery" value="Auto_Discovery"/>
+				<PARA name="Period_Discovery" value="Period_Discovery"/>
+				<PARA name="Modify_Device" value="Modify_Device"/>
+				<PARA name="Browse_Discovery_Result"
+					value="Browse_Discovery_Result"/>
+				<PARA name="Add_Maintainer" value="Add_Maintainer"/>
+				<PARA name="Modify_Maintainer" value="Modify_Maintainer"/>
+				<PARA name="Delete_Maintainer" value="Delete_Maintainer"/>
+				<PARA name="Add_Default_Snmp" value="Add_Default_Snmp"/>
+				<PARA name="Modify_Default_Snmp" value="Modify_Default_Snmp"/>
+				<PARA name="Delete_Default_Snmp" value="Delete_Default_Snmp"/>
+				<PARA name="Test_Device_Snmp" value="Test_Device_Snmp"/>
+				<PARA name="Reset_Device_Snmp" value="Reset_Device_Snmp"/>
+				<PARA name="Modify_Device_Snmp" value="Modify_Device_Snmp"/>
+				<PARA name="Delete_NEGroup" value="Delete_NEGroup"/>
+                                <PARA name="Modify_NEGroup" value="Modify_NEGroup"/>
+                                <PARA name="Create_NEGroup" value="Create_NEGroup"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+	
+	<!-- set auto search checkbox enabel when productor register it's panel to EAM-->
+        <!--
+	<AREADESC areaname="DISPLAY_JOIN_SEARCH_CHECKBOX">
+	    <DESC descname="DISPLAY_JOIN_SEARCH_CHECKBOX">
+	        <PARAS>
+	            <PARA name="DISPLAY_JOIN_SEARCH_CHECKBOX" value="true" />
+	        </PARAS> 
+	    </DESC>
+	</AREADESC>
+        -->
+        <!--set support the ipv6-->
+        <!--AREADESC areaname="ISSUPPORT_IPV6">
+        <DESC descname="ISSUPPORT_IPV6">
+            <PARAS>
+                <PARA name="ISSUPPORT_IPV6" value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC-->
+
+</COMMINIDATA>

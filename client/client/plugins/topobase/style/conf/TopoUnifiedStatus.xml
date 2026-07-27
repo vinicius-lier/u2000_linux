@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<!-- DislayStyle:express three kinds display position or mode,NodeIconColor:icon's color of node,NodeSmallIcon:small icon,NodeBorderColor:outline border'scolor of node(exclude N2000) -->
+<!-- Level:show PRI for NodeIconColor,to dye a node's icon  color of max PRI 'mode;show small icon of max PRI for SmallIcon-->
+<!-- Class:express the type of state,System :express the state by system, ExtendStatus:express Extend service state-->
+<!-- the configure of display usage -->
+<AREADESC areaname="DisplayStyleConfig">
+   <DESC descname="Default">
+      <PARAS>
+         <PARA name="ViewID" value="-1"/>
+         <PARA name="ViewTypeID" value="-1"/>
+      </PARAS>
+
+      <DESC descname="NodeSmallIcon">
+		<DESC descname="1">
+			<PARAS>
+				<PARA name="StatusNames" value="UnClearStatus,UnAckStatus"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="2">
+		     <PARAS>
+		         <PARA name="StatusNames" value="ForbidConnect"/>
+		     </PARAS>
+		 </DESC>
+		 <DESC descname="3">
+		     <PARAS>
+		         <PARA name="StatusNames" value="NonConfigured"/>
+		     </PARAS>
+		 </DESC>
+		<DESC descname="4">
+		     <PARAS>
+		         <PARA name="StatusNames" value="SynchronizationProcessing"/>
+		     </PARAS>
+		</DESC>
+		<DESC descname="5">
+		     <PARAS>
+		         <PARA name="StatusNames" value="CommStatus"/>
+		     </PARAS>
+		</DESC>
+      </DESC>
+
+      <DESC descname="NodeIconColor">
+		<DESC descname="1">
+			<PARAS>
+				<PARA name="StatusNames" value="CommStatus"/>
+			</PARAS>
+		</DESC>
+      </DESC>
+      
+      <DESC descname="NodeBorderColor">
+		<DESC descname="1">
+			<PARAS>
+				<PARA name="StatusNames" value=""/>
+			</PARAS>
+		</DESC>
+      </DESC>
+
+      <DESC descname="LinkColor">
+		<DESC descname="1">
+			<PARAS>
+				<PARA name="StatusNames" value="CommStatus"/>
+			</PARAS>
+		</DESC>
+      </DESC>
+            <DESC descname="LinkMiddleSmallIcon">
+		     <DESC descname="1">
+		        <PARAS>
+		            <PARA name="StatusNames" value="CommStatus"/>
+		        </PARAS>
+		     </DESC>
+      </DESC>
+	  
+   </DESC>
+</AREADESC>
+
+
+<AREADESC areaname="UnifiedStatusDefine">
+    <!-- run state-->
+    <!-- Value:fetch value scope 0~15,1:natural,2:undefinable,3,away  -->
+    <!-- Level: level may exchange with custom'state level   --> 
+    <DESC descname="StatusDefine">
+		   
+		    <PARAS>
+            <!--<PARA name="ViewID" value="1"/>
+            <PARA name="ViewTypeID" value="1"/>-->
+		        <PARA name="Name" value="CommStatus"/>
+		        <PARA name="Class" value="System"/>
+		        <PARA name="Mask" value="0x0F"/>
+		        <PARA name="Position" value="0"/>
+            	<PARA name="DislayStyle" value="NodeIconColor"/>
+		    </PARAS>
+		   
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+		            <PARA name="Name" value="POLL_NORMAL_STATUS"/> <!-- the level'name of run state -->
+		            <PARA name="Value" value="1"/> <!--the value of natural state -->
+		            <PARA name="Color" value="0,240,0"/>
+					<PARA name="Icon" value=""/>
+                	<PARA name="Level" value="1"/>
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+		            <PARA name="Name" value="POLL_UNKNOW_STATUS"/> <!-- the level'name of run state -->		        
+		            <PARA name="Value" value="2"/> <!-- the value of undefinable state -->
+		            <PARA name="Color" value="0,137,224"/>
+					<PARA name="Icon" value="secstatus/state_unknowntype"/>
+                	<PARA name="Level" value="2"/>
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="POLL_OFFLINE_STATUS"/> <!-- the level'name of run state -->
+		            <PARA name="Value" value="3"/> <!-- away state-->
+		            <PARA name="Color" value="190,190,190"/>
+                    <PARA name="Icon" value="secstatus/state_connection_down"/>
+                	<PARA name="Level" value="100"/>
+		        </PARAS>
+		    </DESC>
+		    
+		   <!--
+      <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="POLL_SELFDFN_STATUS"/> 
+		            <PARA name="Value" value="6"/> 
+		            <PARA name="Color" value="255,175,175"/>
+                <PARA name="Level" value="1000"/>
+		        </PARAS>
+		    </DESC>
+		  -->
+    </DESC>
+
+    <!-- unclean alarm state-->
+    <!-- 0: express clear away state -->
+    <DESC descname="StatusDefine">
+		   
+		    <PARAS>
+		        <PARA name="Name" value="UnClearStatus"/>
+		        <PARA name="Class" value="System"/>
+		        <PARA name="Mask" value="0x0F0"/>
+		        <PARA name="Position" value="0"/>
+            	<PARA name="DislayStyle" value="NodeSmallIcon"/>                     
+		    </PARAS>
+		   
+		    <DESC descname="UniStatus_Enum">                          
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_CRITICAL"/> <!-- the level'name of alarm state -->		        
+		            <PARA name="Value" value="1"/>
+		            <PARA name="Icon" value="secstatus/UnClearStatus_1"/>
+                	<PARA name="Level" value="10"/>
+		        </PARAS>
+		    </DESC>
+		   
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_MAJOR"/> <!-- the level'name of alarm state -->		        
+		            <PARA name="Value" value="2"/>
+		            <PARA name="Icon" value="secstatus/UnClearStatus_2"/>
+                	<PARA name="Level" value="9"/>
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_MINOR"/> <!--the level'name of alarm state-->		        
+		            <PARA name="Value" value="3"/>
+		            <PARA name="Icon" value="secstatus/UnClearStatus_3"/>
+                	<PARA name="Level" value="8"/>
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_WARNING"/> <!-- the level'name of alarm state-->		        
+		            <PARA name="Value" value="4"/>
+		            <PARA name="Icon" value="secstatus/UnClearStatus_4"/>
+                	<PARA name="Level" value="7"/>
+		        </PARAS>
+		    </DESC>
+		    
+    </DESC>
+
+    <!-- undefine alarm state-->
+    <!-- 0: express notarize state-->
+    <DESC descname="StatusDefine">
+		    <PARAS>
+		        <PARA name="Name" value="UnAckStatus"/>
+		        <PARA name="Class" value="System"/>
+		        <PARA name="Mask" value="0x0F00"/>
+		        <PARA name="Position" value="0"/>
+            	<PARA name="DislayStyle" value="NodeSmallIcon"/>                    
+		    </PARAS>
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_CRITICAL"/> <!-- the level'name of alarm state -->	        		        
+		            <PARA name="Value" value="1"/>
+		            <PARA name="Icon" value="secstatus/UnAckStatus_1"/>
+                	<PARA name="Level" value="6"/>
+		        </PARAS>
+		    </DESC>
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_MAJOR"/> <!-- the level'name of alarm state -->		        		        
+		            <PARA name="Value" value="2"/>
+		            <PARA name="Icon" value="secstatus/UnAckStatus_2"/>
+                	<PARA name="Level" value="5"/>
+		        </PARAS>
+		    </DESC>
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_MINOR"/> <!-- the level'name of alarm state -->		        		        
+		            <PARA name="Value" value="3"/>
+		            <PARA name="Icon" value="secstatus/UnAckStatus_3"/>
+                	<PARA name="Level" value="4"/>
+		        </PARAS>
+		    </DESC>
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="SEVERITY_WARNING"/> <!-- the level'name of alarm state -->		        		        
+		            <PARA name="Value" value="4"/>
+		            <PARA name="Icon" value="secstatus/UnAckStatus_4"/>
+                	<PARA name="Level" value="3"/>
+		        </PARAS>
+		    </DESC>
+		    
+    </DESC>
+</AREADESC>
+
+<AREADESC areaname="ExtendStatusDefine">
+    <DESC descname="StatusDefine">
+		    <PARAS>
+		        <PARA name="Name" value="ForbidConnect"/>
+		        <PARA name="Class" value="NodeExtendStatus"/>
+		        <PARA name="Mask" value="0x00000010"/>
+		        <PARA name="Position" value="0"/>
+            		<PARA name="DislayStyle" value="NodeSmallIcon"/>    
+            		<PARA name="operation" value="add"></PARA>                
+		    </PARAS>
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="ForbidConnect"/> 	        		        
+		            <PARA name="Value" value="1"/>
+		            <PARA name="Icon" value="secstatus/state_forbidconnect"/>
+		        </PARAS>
+		    </DESC>  
+    </DESC>
+    <DESC descname="StatusDefine">
+		    <PARAS>
+		        <PARA name="Name" value="NonConfigured"/>
+		        <PARA name="Class" value="NodeExtendStatus"/>
+		        <PARA name="Mask" value="0x00000020"/>
+		        <PARA name="Position" value="0"/>
+            		<PARA name="DislayStyle" value="NodeSmallIcon"/>   
+            		<PARA name="operation" value="add"></PARA>                 
+		    </PARAS>
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+ 		            <PARA name="Name" value="NonConfigured"/>   		        
+		            <PARA name="Value" value="1"/>
+		            <PARA name="Icon" value="secstatus/state_ne_non_configured"/>
+		        </PARAS>
+		    </DESC>  
+    </DESC>
+</AREADESC>
+
+<!-- the configure of extend state
+<AREADESC areaname="ExtendStatusDefine">
+    <DESC descname="StatusDefine">
+		    <PARAS>
+		        <PARA name="Name" value="extendStatus1"/>
+		        <PARA name="Class" value="NodeExtendStatus"/>
+		        <PARA name="Mask" value="0x0F"/>
+				<PARA name="Position" value="1"/>
+                <PARA name="DislayStyle" value="NodeSmallIcon"/>
+                <PARA name="operation" value="add"/>
+		    </PARAS>
+		   
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+		            <PARA name="Name" value="extendStatus1_10"/> 
+		            <PARA name="Value" value="10"/> 
+		            <PARA name="Icon" value="secstatus/image1"/>
+                    <PARA name="Level" value="50"/>
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="UniStatus_Enum">
+		        <PARAS>
+		            <PARA name="Name" value="extendStatus1_11"/>		        
+		            <PARA name="Value" value="11"/> 
+		            <PARA name="Icon" value="secstatus/image2"/>
+                    <PARA name="Level" value="50"/>
+		        </PARAS>
+		    </DESC>	    
+    </DESC>
+</AREADESC>-->
+
+<AREADESC areaname="NAVTREE_SMALLICON_NUMBER">
+    <DESC descname="NAVTREE_SMALLICON_NUMBER">
+        <PARAS>
+            <PARA name="NAVTREE_SMALLICON_NUMBER" value="1" />
+        </PARAS>
+    </DESC>
+</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="lookandfeel">
+        <DESC descname="lookandfeel">
+            <PARAS>
+                <PARA name="fontsize" value="12" />
+                <PARA name="uistyle" value="Swimap" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>
+

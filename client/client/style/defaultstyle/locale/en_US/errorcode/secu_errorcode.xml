@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Security">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="76546011"   value="The user account is disabled because it has not been online for a long time. Please contact the administrator." />
+                <PARA name="76545933"   value="The maximum capacity of the new license file is less than the used capacity." /> 
+                <PARA name="76546041"   value="The login user cannot access the dump path, the dump path name is invalid, the disk space is insufficient, or an unknown disk failure occurred." />
+                <PARA name="76546042"   value="Some records already exist. Please refresh the data and try again." />
+                <PARA name="76546043"   value="The dump path does not exist on the server. Please set a new path." />
+                <PARA name="76545958"   value="Duplicate license file." />
+                <PARA name="76545957"   value="It is not allowed to update a formal license file to a temporary license file." />
+                <PARA name="76545956"   value="You are not authorized to perform the current operation on this user." />
+                <PARA name="76546010"   value="The client type does not exist." />
+                <PARA name="76546012"   value="Only one user is allowed to log in to the same client." />
+                <PARA name="76546047"   value="Failed to access the database. Please try again later." />
+                <PARA name="76545988"   value="Database operation failed. The data is inconsistent between the client and the server. To fix the problem, do as follows: 1. Refresh the client data. 2. Check that the server database is normal. 3. Wait for a few seconds and try with a small amount of data." />
+                <PARA name="76546046"   value="The client exits already. Please start it and log in again." />
+                <PARA name="76546045"   value="An error occurred in data verification. Please check that the client version matches the server version." />
+                <PARA name="76546044"   value="Decoding error. Please check that the client version matches the server version." />
+                <PARA name="76546039"   value="The input parameter is invalid, please check." />
+                <PARA name="76546038"   value="This operation will change the rights of a login user." />
+                <PARA name="76546032"   value="The number of login users has reached the maximum capacity of the system." />
+                <PARA name="76546031"   value="Invalid user name or password." />
+                <PARA name="76546030"   value="The user has already logged in." />
+                <PARA name="76546029"   value="The user account has been disabled. Please consult the administrator." />
+                <PARA name="76546028"   value="The user account has expired. Please consult the administrator." />
+                <PARA name="76546027"   value="The password has expired. Please consult the administrator." />
+                <PARA name="76546026"   value="The login time is illegal. Please consult the administrator." />
+                <PARA name="76546025"   value="The login time is illegal. Please consult the administrator." />
+                <PARA name="76546024"   value="The user account is locked. " />
+                <PARA name="76546023"   value="The login address is not in the system ACL. Please consult the administrator." />
+                <PARA name="76546022"   value="The login address is not in the user ACL. Please consult the administrator." />
+                <PARA name="76546021"   value="No binding relationship exists." />
+                <PARA name="76546020"   value="The old password is incorrect." />
+                <PARA name="76546019"   value="The user has exited. Please refresh the login user list." />
+                <PARA name="76546018"   value="The log window is unregistered." />
+                <PARA name="76546017"   value="You are not authorized to perform this operation." />
+                <PARA name="76546016"   value="Invalid password." />
+                <PARA name="76546015"   value="The user does not exist. Please refresh the user information and try again." />
+                <PARA name="76546014"   value="You are not authorized to perform this operation." />
+                <PARA name="76546013"   value="The system is in the single-user mode. Only the system administrator can log in." />
+                <PARA name="76546000"   value="The user name already exists. Please refresh the user information and try again." />
+                <PARA name="76545999"   value="The number of created users has reached the maximum." />
+                <PARA name="76545998"   value="The user has logged in." />
+                <PARA name="76545997"   value="Invalid user name or password." />
+                <PARA name="76545996"   value="Some records cannot be found. Please refresh the data and try again." />
+                <PARA name="76545995"   value="The device set does not exist. Please refresh the device set information and try again." />
+                <PARA name="76545994"   value="The operation set does not exist. Please refresh the operation set information and try again." />
+                <PARA name="76545993"   value="The admin user cannot be deleted." />
+                <PARA name="76545992"   value="The user group name already exists. Please refresh the user group information and try again." />
+                <PARA name="76545991"   value="The user group name already exists. Please refresh the user group information and try again." />
+                <PARA name="76545990"   value="The user group does not exist. Please refresh the user group information and try again." />
+                <PARA name="76545989"   value="Some records cannot be found. Please refresh the data and try again." />
+                <PARA name="76545984"   value="The device set name already exists. Please refresh the device set information and try again." />
+                <PARA name="76546040"   value="Some records cannot be found. Please refresh the data and try again." />
+                <PARA name="76545983"   value="The number of device sets has reached the maximum." />
+                <PARA name="76545982"   value="The device set does not exist. Please refresh the device set information and try again." />
+                <PARA name="76545981"   value="The operation set name already exists. Please refresh the operation set information and try again." />
+                <PARA name="76545980"   value="The number of operation sets has reached the maximum." />
+                <PARA name="76545979"   value="The operation set does not exist. Please refresh the operation set information and try again." />
+                <PARA name="76545978"   value="The object does not exist. Please refresh and try again." />
+                <PARA name="76545968"   value="The number of login users has reached the maximum of license capacity." />
+                <PARA name="76545967"   value="Invalid license." />
+                <PARA name="76545966"   value="An error occurred in reading the license file." />
+                <PARA name="76545965"   value="An error occurred in reading the license file." />
+                <PARA name="76545964"   value="Failed to verify the license. Please check the network adaptor." />
+                <PARA name="76545963"   value="License item not exist ." />
+                <PARA name="76545962"   value="Failed to process the license." />
+                <PARA name="76545961"   value="The license has expired. Please consult the administrator." />
+                <PARA name="76545960"   value="The license file is invalid or it is not a local file." />
+                <PARA name="76545959"   value="The client software and the server software are not installed on the same computer." />
+                <PARA name="76545953"   value="You are not authorized to copy this user." />
+                <PARA name="76545935"   value="Write file error. Please check the disk space." />       
+                <PARA name="76545934"   value="Failed to check the account policy." />        
+                <PARA name="76545932"   value="You are not authorized to add the user to some specified groups." />
+                <PARA name="76545920"   value="The user does not have a managed user group. Please refresh and try again." />                
+                <PARA name="83886079"   value="An error occurred in browsing the logs. The logs are probably dumped, or the disk space is insufficient. Please try again." />
+                <PARA name="83886078"   value="Write the index file error. The disk space is probably insufficient." />
+                <PARA name="83886077"   value="An error occurred in reading the file." />
+                <PARA name="83886076"   value="The log window does not exist." />
+                <PARA name="83886075"   value="The number of open log windows has reached the maximum." />
+                <PARA name="83886074"   value="No record in the database is found to meet the search condition." />
+                <PARA name="83886073"   value="Dump partially succeeded." />
+                <PARA name="83886072"   value="Dump completely failed." />
+                <PARA name="83886071"   value="Dump failed. The record probably has been deleted." />
+                <PARA name="83886070"   value="Another user is performing a dump operation." />
+                <PARA name="83886069"   value="Invalid dump parameter. The alarming capacity threshold cannot be larger than the maximum capacity." />
+                <PARA name="83886068"   value="Invalid dump parameter. The overflow dump capacity cannot be larger than the maximum capacity." />
+                <PARA name="83886063"   value="Another user is deleting the dump log file. " />
+                <PARA name="-1"         value="Network transmission timed out. Please try again later." />
+                <PARA name="4294967293" value="Network transmission error." />
+                <PARA name="4294967294" value="Network transmission error." />
+                <PARA name="76545970"   value="Deleting the operation sets partially succeeded. Please refer to the detailed information." />
+                <PARA name="76545971"   value="Unlocking the users partially succeeded. Please refer to the detailed information." />
+                <PARA name="76545972"   value="Deleting the users partially succeeded. Please refer to the detailed information." />
+                <PARA name="76545973"   value="Logging out the users partially succeeded. Please refer to the detailed information." />
+                <PARA name="76545974"   value="Deleting the user groups partially succeeded. Please refer to the detailed information." />
+                <PARA name="76545975"   value="Deleting the device sets partially succeeded. Please refer to the detailed information." />
+                <PARA name="76545976"   value="The object already exists. Please refresh the data and try again." />
+                <PARA name="76545977"   value="Some records already exist. Please refresh the data and try again." />
+                <PARA name="2"          value="Network transmission error." />
+                <PARA name="-2"         value="Network transmission error." />
+                <PARA name="-3"         value="Network transmission error." />
+                <PARA name="4294967292" value="The server does not respond. Please check the network and the server." />
+                <PARA name="4294967291" value="The server does not respond. Please check the network and the server." />
+                <PARA name="76546007"   value="Cannot send the message to the current user." />
+                <PARA name="76546033"   value="The password must be different from the prior %s passwords." />
+                <PARA name="76546036"   value="The password cannot be left blank." />
+                <PARA name="76546035"   value="The password must contain letters and numbers." />
+                <PARA name="76546034"   value="The number of login users has reached the maximum of license capacity." />
+                <PARA name="76546037"   value="The password cannot be the same as the user name." />
+                <PARA name="76545952"   value="The server does not respond. Please check that the required process is started." />
+                <PARA name="76545951"   value="LDAP connection error." />
+                <PARA name="76545950"   value="LDAP binding error." />
+                <PARA name="76545949"   value="LDAP searching user error." />
+                <PARA name="76545948"   value="An error is returned from the authentication server." />
+                <PARA name="68560001"   value="Invalid user name or password." />
+                <PARA name="68560002"   value="Invalid user name or password." />
+                <PARA name="68560003"   value="Failed to connect to the authentication server." />
+                <PARA name="68560004"   value="The authentication server does not respond. Please check the network status." />
+                <PARA name="68560005"   value="It is not allowed to access the server from this client." />
+                <PARA name="68560006"   value="Authentication server operation failed." />
+                <PARA name="68560007"   value="Failed to connect to the LDAP authentication server. Invalid password." />
+                <PARA name="68560008"   value="Failed to connect to the LDAP authentication server. Access denied." />
+                <PARA name="68560009"   value="Failed to connect to the authentication server." />
+                <PARA name="68560010"   value="Failed to connect to the iPASS Server." />
+                <PARA name="68560011"   value="An error occurred on the iPASS Server." />
+                <PARA name="68560012"   value="Invalid user name or password." />
+                <PARA name="0"          value="Succeeded." />
+                <PARA name="76546009"   value="The concurrent logins of this user has reached the maximum. Please try again later." />
+                <PARA name="76545955"   value="Only one user is allowed to log in to the same client." />
+                <PARA name="76545936"   value="The user password does not comply with the password policy." />
+                <PARA name="83886067"   value="Invalid dump path. The path cannot be found on the server." />
+                <PARA name="83886066"   value="Failed to process files during the dump." />
+                <PARA name="83886065"   value="The logs on the client and the server are inconsistent. Please refresh the data and try again." />
+                <PARA name="76545985"   value="Only the admin user can perform this operation." />
+                <PARA name="76545986"   value="You are not authorized to perform this operation." />
+                <PARA name="76545987"   value="The operation right does not exist. Please refresh and try again." />
+                <PARA name="76546008"   value="Invalid password. The user account is locked." />
+                <PARA name="76545931"   value="You are not authorized to perform the current operation on user groups." />
+                <PARA name="76545930"   value="You are not authorized to perform the current operation on some user groups" />
+                <PARA name="68560013"   value="The old password is incorrect." />
+                <PARA name="83886059"   value="Cannot find the file or its path, or the file name is a folder name." />               
+                <PARA name="83886060"   value="Access denied." />                
+                <PARA name="83886061"   value="Failed to delete the dump file." />    
+                <PARA name="76545969"   value="The license controlled item does not exist." />                                
+                <PARA name="76545919"   value="The user has been deleted. You are not allowed to create it again." /> 
+                <PARA name="76545914"   value="Delete current license file failed." /> 
+                <PARA name="76545915"   value="The number of online users has reached the maximum of your user group. Please try again later." />  
+                <PARA name="76545916"   value="The database is backing up data. Please try again later." />                              
+                <PARA name="76545917"   value="The name of the selected license file is duplicate with the name of a file in the License directory. Please change the name and try again." />   
+                <PARA name="76545918"   value="In the multlicensemode,Need input product name." />  
+                <PARA name="1147"       value="The number of log forwarding servers cannot exceed five." />
+                <PARA name="1148"       value="The IP address of the primary server already exists." />
+                <PARA name="1149"       value="Invalid license or The configuration file not exist." /> 
+                <PARA name="1150"   value="Failed to update server serial numbers." /> 
+                <PARA name="1151"   value="The server does not exist! Please refresh the server list." /> 
+                <PARA name="1152"   value="Failed to operate the database. Please check whether the database is running normally." />
+                <PARA name="1153"   value="Failed to connect to the database. Please check whether the database is running normally." />                          
+                <PARA name="76218367"   value="The user account has been disabled." />    
+                <PARA name="76218366"   value="The user account has expired." />   
+                <PARA name="76218365"   value="The password has expired." />
+                <PARA name="76218364"   value="The client address is not in the system ACL." />
+                <PARA name="76218363"   value="The client address is not in the user ACL." />  
+                <PARA name="76218362"   value="The login time is illegal." />   
+                <PARA name="76218368"   value="Operation failed. Possible causes: 1. The server does not work properly. 2. The client fails to communicate with the server. If the problem remains unsolved, please contact the administrator." />
+                <PARA name="76218369"    value="license file is not exist!" />
+                <PARA name="76218370"    value="license file error" />
+                <PARA name="76218371"    value="get ESN error!" />
+                <PARA name="76218372"   value="write license file error." />
+                <PARA name="76218373"    value="Database operation failed." />
+                <PARA name="76218374"   value="Read license file fail." />
+                <PARA name="76218375"   value="write license file fail." />
+                <PARA name="76218376"   value="Failed to unlink file, Maybe old file is read-only." />
+                <PARA name="76218377"   value="can't get the License item information" />
+                <PARA name="76218378"   value="It is not allowed to update a formal license file to a temporary license file." />
+                <PARA name="76218379"   value="The number of licenses required on the NMS is larger than the maximum number of the license files to be updated." />                                                                            	
+                <PARA name="76218380"   value="License item not exist." />            
+                <PARA name="76541952"   value="You have no permission for this operation. " />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

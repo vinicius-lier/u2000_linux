@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>    
+<DESC descname="HideMenu">
+
+<DESC descname="LinkType">
+    <PARAS>
+        <PARA name="operation" value="add" />
+        <PARA name="value" value="306" />
+        <PARA name="MenuKeys" value="deleteObject,modifyObject" />
+    </PARAS>
+</DESC> 
+
+<DESC descname="ViewID">
+    <PARAS>
+        <!-- this value should be the ViewID or ViewTypeID in db -->
+        <PARA name="value" value="40" />
+        <PARA name="MenuKeys" value="New,deleteObject,modifyObject"/>
+        <PARA name="operation" value="add"/>
+    </PARAS>
+</DESC>
+
+</DESC> 
+</AREADESC>
+</COMMINIDATA>

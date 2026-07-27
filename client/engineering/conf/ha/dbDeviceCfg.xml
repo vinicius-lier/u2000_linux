@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DBCfg>
+	<item       DBName="DEFAULT"	
+	            DataDevice="nms_dev"    
+	            DataDevicePath="/dev/vx/rdsk/datadg"
+	            DataDeviceFile="lv_nms_data"
+	            LogDevice="nmsLog_dev"    
+	            LogDevicePath="/dev/vx/rdsk/datadg"
+	            LogDeviceFile="lv_nms_log"
+	/>
+</DBCfg>

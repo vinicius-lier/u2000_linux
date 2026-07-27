@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+		
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"></PARA>
+				<PARA name="type" value="MenuSet"></PARA>
+			</PARAS>
+			
+			<!-- File Management begin-->
+			<DESC descname="FileMenu">
+				<PARAS>
+					<PARA name="name" value="File"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" value="VK_S"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="serialnumber" value="100"></PARA>
+				</PARAS>
+				
+				<!--
+				<DESC descname="Browse_NE_List">
+					<PARAS>
+						<PARA name="name" value="Browse_NE_List"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="showEamNodeFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="E"/>
+						<PARA name="accelerator" value="VK_E"></PARA>
+						<PARA name="serialnumber" value="100-150"/>
+					</PARAS>
+				</DESC>
+        -->
+			
+			  <DESC descname="showNeAreaFrame">
+					<PARAS>
+						<PARA name="name" value="showNeAreaFrame"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="showNeAreaFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="A"/>
+						<PARA name="accelerator" value="VK_A"></PARA>
+						<PARA name="serialnumber" value="100-161"/>
+					</PARAS>
+				</DESC>
+				
+			
+				
+				<DESC descname="searchDev">
+					<PARAS>
+						<PARA name="name" value="searchDev"></PARA>
+						<PARA name="icon" value=""></PARA>
+						<PARA name="type" value="JMenu"></PARA>
+						<PARA name="mnemonic" value="D"></PARA>
+						<PARA name="accelerator" value="VK_D"></PARA>
+						<PARA name="serialnumber" value="100-100"></PARA>
+					</PARAS>
+					<!--Auto Discovery-->
+					<DESC descname="searchSnmpDev">
+						<PARAS>
+							<PARA name="name" value="searchSnmpDev"/>
+							<PARA name="icon" value=""/>
+							<PARA name="command" value="searchSnmpDev"/>
+							<PARA name="type" value="JMenuItem"/>
+							<PARA name="mnemonic" value="N"/>
+							<PARA name="accelerator" value="VK_N"></PARA>
+							<PARA name="serialnumber" value="100-101"/>
+						</PARAS>
+					</DESC>
+					<!--
+					<DESC descname="timeParamSetting">
+						<PARAS>
+							<PARA name="name" value="timeParamSetting"/>
+							<PARA name="icon" value=""/>
+							<PARA name="command" value="timeParamSetting"/>
+							<PARA name="type" value="JMenuItem"/>
+							<PARA name="mnemonic" value="T"/>
+							<PARA name="accelerator" value="VK_T"></PARA>
+							<PARA name="serialnumber" value="100-103"/>
+						</PARAS>
+					</DESC>
+					-->
+				</DESC>
+			</DESC>
+			
+			
+			<!-- Managerment Menu begin-->
+			<!--DESC descname="SystemMenu">
+				<PARAS>
+					<PARA name="name" value="System"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" value="VK_S"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="serialnumber" value="600"></PARA>
+				</PARAS>
+
+				<DESC descname="Device_SNMP_CONFIG">
+					<PARAS>
+						<PARA name="name" value="Device_SNMP_CONFIG"/>
+						<PARA name="mnemonic" value="E"/>
+						<PARA name="accelerator" value="VK_E"/>
+						<PARA name="command" value="showSnmpFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="600-180"/>
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Default_SNMP_CONFIG">
+					<PARAS>
+						<PARA name="name" value="Default_SNMP_CONFIG"/>
+						<PARA name="mnemonic" value="F"/>
+						<PARA name="accelerator" value="VK_F"/>
+						<PARA name="command" value="showDefaultSnmpFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="serialnumber" value="600-190"/>
+					</PARAS>
+				</DESC>
+
+				<DESC descname="openMaintenanceTemplateDlg">
+					<PARAS>
+						<PARA name="name" value="openMaintenanceTemplateDlg"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="showMaintenanceFrame"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="I"/>
+						<PARA name="accelerator" value="VK_I"></PARA>
+						<PARA name="serialnumber" value="600-400"/>
+					</PARAS>
+				</DESC>
+
+				<DESC descname="openDeviceMaintenanceInfoDlg">
+					<PARAS>
+						<PARA name="name" value="openDeviceMaintenanceInfoDlg"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command"
+							value="openDeviceMaintenanceInfoDlg"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="M"/>
+						<PARA name="accelerator" value="VK_M"></PARA>
+						<PARA name="serialnumber" value="600-450"/>
+					</PARAS>
+				</DESC>								
+				
+			</DESC-->
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

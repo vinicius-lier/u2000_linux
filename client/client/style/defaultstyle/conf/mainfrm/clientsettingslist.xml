@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+
+<!--
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+ -->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="clientSettingsList">
+      <PARAS/>
+     
+      <DESC descname="mainframesetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.windowmanagement.WindowSetting"/>
+          <PARA name="moduleId" value="WindowSetting"/>
+          <PARA name="sequenceId" value="90"/>
+        </PARAS>
+      </DESC>
+     
+      <DESC descname="lookandfeelsetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.lookandfeel.LookAndFeelSetting"/>
+          <PARA name="moduleId" value="LookAndFeelSetting"/>
+          <PARA name="sequenceId" value="100"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="skinsettings">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.lookandfeel.skin.SkinSettings"/>
+          <PARA name="moduleId" value="SkinSettings"/>
+          <PARA name="sequenceId" value="150"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="OutputManagerSetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.outputmanagement.MaxLineNumSetting"/>
+          <PARA name="moduleId" value="mainoutputbarsetting"/>
+          <PARA name="sequenceId" value="200"/>
+        </PARAS>
+      </DESC>
+
+      <DESC descname="RegionSetting">
+            <PARAS>
+              <PARA name="clientSettingClassId" value="com.swimap.iview.framework.regionconfig.RegionSetting"/>
+              <PARA name="moduleId" value="RegionSetting"/>
+              <PARA name="sequenceId" value="300"/>
+            </PARAS>
+          
+    
+      <DESC descname="RegionTimeSetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.regionconfig.RegionTimeSetting"/>
+          <PARA name="moduleId" value="RegionTimeSetting"/>
+          <PARA name="sequenceId" value="310"/>
+        </PARAS>
+      </DESC>
+          
+          <DESC descname="RegionDateSetting">
+            <PARAS>
+              <PARA name="clientSettingClassId" value="com.swimap.iview.framework.regionconfig.RegionDateSetting"/>
+              <PARA name="moduleId" value="RegionDateSetting"/>
+              <PARA name="sequenceId" value="320"/>
+            </PARAS>
+          </DESC>  
+
+      </DESC>  
+       <DESC descname="FoldingMenuSetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.menumanagement.FoldingMenuSetting"/>
+          <PARA name="moduleId" value="FoldingMenuSetting"/>
+          <PARA name="sequenceId" value="420"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="TopoStausShowingSetPanel">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.topo.client.topoclient.form.usercustomset.TopoStausShowingSetPanel"/>
+          <PARA name="moduleId" value="TopoStausShowingSetPanel"/>
+          <PARA name="sequenceId" value="1100"/>
+        </PARAS>
+     </DESC>
+
+    <DESC descname="TopoCustomMapSettingPanel">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.topo.client.topoclient.form.usercustomset.TopoCustomMapSettingPanel"/>
+          <PARA name="moduleId" value="TopoCustomMapSettingPanel"/>
+          <PARA name="sequenceId" value="1200"/>
+        </PARAS>
+        </DESC>
+        <DESC descname="FtpSettingSetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.ftp.userprofile.FtpSettingSetting"/>
+          <PARA name="moduleId" value="FtpSettingSetting"/>
+          <PARA name="sequenceId" value="1300"/>
+        </PARAS>
+    </DESC>
+    <!-- This is to add the automatic upgrade option for the client -->
+	<!-- <DESC descname="UpgradeSettingModule">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.sm.client.base.upgradecheck.UpgradeSettingModule"/>
+          <PARA name="moduleId" value="UpgradeSettingModule"/>
+          <PARA name="sequenceId" value="6000"/>
+        </PARAS>
+      </DESC> -->
+
+      <DESC descname="SysModeSetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.sm.client.base.systemmode.SysModeSetting"/>
+          <PARA name="moduleId" value="SysModeSetting"/>
+          <PARA name="sequenceId" value="6100"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="DisplayStyleSetting">
+        <PARAS>
+          <PARA name="clientSettingClassId" value="com.swimap.iview.framework.applicationmanagement.DisplayStyleSetting"/>
+          <PARA name="moduleId" value="DisplayStyleSetting"/>
+          <PARA name="sequenceId" value="520"/>
+        </PARAS>
+      </DESC>
+
+
+     </DESC>
+
+  </AREADESC>
+</COMMINIDATA>

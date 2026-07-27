@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+this is a style Information of a status Bar.
+ -->
+<COMMINIDATA>
+	<AREADESC areaname="statusbar">
+		<DESC descname="statusbar">
+			<PARAS>
+				<PARA name="type" value="StatusBar"/>
+			</PARAS>
+			<DESC descname="IPMessageItem">
+				<PARAS>
+					<PARA name="type" value="StatusBarItem"/>
+					<PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+					<PARA name="messageFont" value="myFont4"/>
+					<PARA name="messageColor" value="black"/>
+					<PARA name="flash" value="false"/>
+					<PARA name="layout" value="1"/>
+					<PARA name="minimumSize" value="85,20"/>
+					<PARA name="preferredSize" value="85,20"/>
+					<PARA name="maximumSize" value="32767, 32767"/>
+					<PARA name="serialnumber" value="30"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="UserInfo">
+				<PARAS>
+					<PARA name="type" value="StatusBarItem"/>
+					<PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+					<PARA name="messageFont" value="myFont4"/>
+					<PARA name="messageColor" value="black"/>
+					<PARA name="flash" value="true"/>
+					<PARA name="layout" value="1"/>
+					<PARA name="minimumSize" value="70,20"/>
+					<PARA name="preferredSize" value="70,20"/>
+					<PARA name="maximumSize" value="32767, 32767"/>
+					<PARA name="serialnumber" value="40"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

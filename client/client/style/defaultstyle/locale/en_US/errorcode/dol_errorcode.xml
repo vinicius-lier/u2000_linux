@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="DeviceOperationLog">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="117506079"   value="ASN decode failure." />
+                <PARA name="117506080"   value="Database operation failure." />                
+                <PARA name="117506081"   value="Unable to load the DLL." />                
+                <PARA name="117506082"   value="Synchronization operation is already in progress." />
+                <PARA name="117506083"   value="Automatic synchronization operation is already in progress." />
+                <PARA name="117506084"   value="The syslog file is not present. \n The MML log source is not present." />
+                <PARA name="117506085"   value="No NE server responds, or no device is successfully synchronized." />
+                <PARA name="117506086"   value="No NE server responds, or no device is successfully synchronized." />
+                <PARA name="117506087"   value="Some NE servers do not respond, or some devices failed to be synchronized." />
+                <PARA name="117506088"   value="There are invalid log records; there are duplicate log records; the number of logs has reached the maximum; or the database operation failed." />
+                <PARA name="117506089"   value="Dump operation failed, Permission to create the dump file is denied." />
+                <PARA name="117506090"   value="Dump operation failed, Permission to create the dump file is denied." />
+                <PARA name="117506093"   value="Memory allocation failed." />
+                <PARA name="117506094"   value="DOLServer operation failed." />
+                <PARA name="117506095"   value="The syslog file is not present." />
+                <PARA name="117506096"   value="File operation failure." />
+                <PARA name="117506097"   value="The dump path does not exist in the server. Please retry it." />
+                <PARA name="117506098"   value="No NE servers present." />
+                <PARA name="117506099"   value="All records were invalid while processing the SNMP logs." />
+                <PARA name="117506100"   value="Cannot find MML device type information in the database." />
+                <PARA name="117506101"   value="EMF call failed on the server side." />
+                <PARA name="117506102"   value="The log information is changed in the database. The view will be refreshed." />
+                <PARA name="117506104"   value="NE servers are busy in doing MML log synchronization." />
+                <PARA name="117506105"   value="No records in the database to meet the condition." />
+                <PARA name="117506106"   value="Log window does not exist, or the logs on the client and server are inconsistent. Please refresh and try again." />
+                <PARA name="117506107"   value="NE servers are busy."/>
+                <PARA name="117506145"   value="Cannot find DLL information for the device in the database." />
+                <PARA name="117506171"   value="The login user cannot access the dump path, the dump path name is invalid or too long, the disk space is insufficient, or an unknown disk failure occurred." />
+                <PARA name="117506172"   value="The input parameter is invalid, please check." />
+                <PARA name="117506173"   value="Partially success." />                
+                <PARA name="117506174"   value="Deleting dump file is in progress." />               
+                <PARA name="117506175"   value="Dump operation is in progress." />  
+                <PARA name="117506176"   value="File deletion failed." />               
+                <PARA name="117506177"   value="Permission denied." />  
+                <PARA name="117506178"   value="Failed to delete dump files." />
+                <PARA name="117506225"   value="ASN encode failed." />
+                <PARA name="117507000"   value="No MML devices present." /> 
+                <PARA name="117507001"   value="NE servers operation timeout." /> 
+                <PARA name="117507002"   value="There are invalid log records; there are duplicate log records; the number of logs has reached the maximum; or the database operation failed." /> 
+                <PARA name="117507003"   value="Collecting statistics on commands...." /> 
+                <PARA name="7501"   value="Synchronizing the Device Log in this system, please try it later." />
+                <PARA name="7006"   value="Failed to synchronize the device logs. You do not have the operation rights or the security service is not running. Contact the system administrator." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

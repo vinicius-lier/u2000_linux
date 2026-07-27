@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="GnlCfgPopMenuTemplate">
+			<PARAS />
+			<DESC descname="MenuItem">
+				<PARAS>
+					<PARA name="Key" value="Refresh" />
+					<PARA name="Mnemonic" value="R" />
+				</PARAS>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

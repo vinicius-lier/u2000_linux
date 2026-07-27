@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<?eclipse version="3.3"?>
+<plugin id="com.huawei.isite.device" name="createDevice" version="1.0" provider-name="isite">
+    <extension point="com.swimap.eam.SnmpDeviceCreationType">
+      <InfoExtension
+            class="com.huawei.isite.device.CreateCCUExtend"
+            type="generalInfoPanel">
+      </InfoExtension>
+   </extension>
+</plugin>

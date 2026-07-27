@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ProgressTaskSettings">
+        <DESC descname="TaskSetting">
+            <PARAS>
+              <PARA name="autoRemoveTask" value="false" />
+                <PARA name="showTip" value="false" />
+                <PARA name="threadNumber" value="5" />
+            </PARAS>       
+           </DESC>
+    </AREADESC>
+</COMMINIDATA>

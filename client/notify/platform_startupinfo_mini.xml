@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="plugins">
+			<PARAS>
+				<PARA name="securitymanager"></PARA>
+				<PARA name="authentication"></PARA>
+				<PARA name="loginui"></PARA>
+				<PARA name="lm"></PARA>
+				<PARA name="com.swimap.adapter.message.sm"></PARA>
+				<PARA name="com.swimap.adapter.message.common"></PARA>
+				<PARA name="com.swimap.adapter.message.general"></PARA>
+				<PARA name="ssoportal"></PARA>
+				<PARA name="log"></PARA>
+				<PARA name="clientutil"></PARA>
+				<PARA name="com.swimap.orbbase"></PARA>
+				<PARA name="com.swimap.rpc"></PARA>
+				<PARA name="resource"></PARA>
+				<PARA name="eam"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

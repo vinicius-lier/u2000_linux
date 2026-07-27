@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+<beans>
+    <!--    
+    Reserve files, indication witch file should be reserved after upgrade
+    -->
+	<bean id="ReserveFiles" class="java.util.HashSet">		
+		<constructor-arg>
+		    <set>
+			<value>cau/config/InstallLanguage.properties</value>
+
+		        <!--
+                Config file of local information, can be changed after install               
+				<value>client/locale.properties</value> -->
+				
+				<!--
+                Server list, user configurable                
+                --><!--
+                <value>client/bin/config.ini</value>
+				<value>client/style/defaultstyle/conf/security/mdp.xml</value>
+				<value>client/sysmoni/style/defaultstyle/conf/sysmoni/Sysmdp.xml</value>
+				<value>client/style/defaultstyle/conf/dc/mdp.xml</value>-->
+			</set>			
+		</constructor-arg>
+	</bean>
+</beans>

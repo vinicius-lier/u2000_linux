@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="OperStatus" name="Running Status" isVisiable="true" isEditable="true" width="85" isNameModified="false" />
+</table>
+

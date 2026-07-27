@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VAGID" name="MG ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="MGStatus" name="Status" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="VAGName" name="MG Name" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+  <column id="VAGSignalingProtocol" name="Signaling Protocol " isVisiable="true" isEditable="true" width="129" isNameModified="false" />
+  <column id="VAGRegion" name="Region" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="VAGDTMFMethod" name="DTMF Method" isVisiable="true" isEditable="true" width="101" isNameModified="false" />
+  <column id="VAGX_HW_PortName" name="Associated WAN Interface" isVisiable="true" isEditable="true" width="167" isNameModified="false" />
+  <column id="VAGIPAddr" name="IP Address" isVisiable="true" isEditable="true" width="86" isNameModified="false" />
+</table>
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+
+<DESC descname="Bundle">
+<PARAS>    
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="bms/hgmpcluster/clstres"></PARA>
+</PARAS> 
+</DESC>
+
+<DESC descname="role_11016">
+    <PARAS>
+    <PARA name="name" value="role_11016"></PARA>
+    <PARA name="type" value="JPopupMenu"></PARA>
+    </PARAS>    
+
+        <DESC descname="Separator">
+          	<PARAS>
+            		<PARA name="type" value="Separator"/>
+          	</PARAS>
+        </DESC>      
+
+        <DESC descname="menu_JoinToCluster">
+       	        <PARAS>
+               	        <PARA name="name" value="menu_JoinToCluster"/>
+                        <PARA name="mnemonic" value="J"/>
+                       	<PARA name="command" value="JoinToCluster"/>
+                       	<PARA name="type" value="JMenuItem"/>
+               	</PARAS>
+       	</DESC>         
+
+</DESC>
+
+</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="linkSearch">
+			<PARAS>
+				<PARA name="devType" value="256,257,258,789,1500,1501,1502,1503,1504,1505,1506,1507,1508,1509,1976"/>
+				<PARA name="subDevType" value="1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+			</PARAS>
+		</DESC>
+		<!--DTS2016012809777 当没有安装IP域时，只取接入域、传送域的第三方设备 -->
+		<DESC descname="linkSearchforaccessandtrans">
+			<PARAS>
+				<PARA name="devType" value="1500,1501,1502,1503,1504,1505,1506,1507,1508,1509,1976"/>
+				<PARA name="subDevType" value="1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="linkcreatetree">
+			<PARAS>
+				<PARA name="devType" value="256,257,258,789,1500,1501,1502,1503,1504,1505,1506,1507,1508,1509,1976,0,1996,1997,1873"/>
+				<PARA name="subDevType" value="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="defaultFunction">
+			<PARAS>
+				<PARA name="devType" value="256,257,258,789,1500,1501,1502,1503,1504,1505,1506,1507,1508,1509,1976"/>
+				<PARA name="subDevType" value="-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"/>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="fiberFilter">
+			<PARAS>
+				<PARA name="devType" value="5000"/>
+				<PARA name="subDevType" value="-1"/>
+			</PARAS>
+		</DESC>
+
+
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+
+  <AREADESC><!-- define a menuSet
+
+menuSet:
+
+        descname as the menuSet's id, must be unique.
+
+        must have a type para, and the value is "MenuSet"
+
+
+
+JMenu:(super class must be JMenu)
+
+        descname as the menuID.
+
+        must hava a type para, and the value is "JMenu"
+
+
+
+JMenu's sub element
+
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+
+
+ -->
+
+    <DESC descname="ResourceBundle">
+
+      <PARAS>
+
+        <PARA name="type" value="ResourceBundle"></PARA>
+
+        <PARA name="resourceBundleName" value="mainfrm/iview/framework/menumanagement/Res"></PARA>
+
+      </PARAS>
+
+    </DESC><!-- mainMenu MenuSet type start  -->
+
+    <DESC descname="mainMenu">
+
+      <PARAS>
+
+        <PARA name="name" value="main Menu"></PARA>
+
+        <PARA name="type" value="MenuSet"></PARA>
+
+      </PARAS><!-- define a menu have" name" and "mnemonic" attributes -->
+
+      <DESC descname="FileMenu">
+
+        <PARAS>
+
+          <PARA name="name" value="File"></PARA>
+
+          <PARA name="mnemonic" value="F"></PARA>
+
+          <PARA name="accelerator" value="VK_F"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+          
+          <PARA name="serialnumber" value="100"></PARA>
+
+        </PARAS>
+
+        <DESC descname="Setting ...">
+
+          <PARAS>
+
+            <PARA name="name" value="System_Setting_..."></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm system setting"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="S"></PARA>
+
+            <PARA name="accelerator" value="VK_S"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="100-350"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Customize toolbar">
+
+          <PARAS>
+
+            <PARA name="name" value="Customize_Toolbar_..."></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm customize toolbar"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="C"></PARA>
+
+            <PARA name="accelerator" value="VK_C"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="100-400"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Separator">
+
+          <PARAS>
+
+            <PARA name="name" value="Separator"></PARA>
+
+            <PARA name="type" value="Separator"></PARA>
+            
+            <PARA name="serialnumber" value="100-410"></PARA>
+            
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Print_Preview">
+          <PARAS>
+            <PARA name="name" value="Print_Preview_Res"></PARA>
+            <PARA name="icon" value=""></PARA>
+            <PARA name="command" value="mainframe:printPreview"></PARA>
+            <PARA name="type" value="JMenuItem"></PARA>
+            <PARA name="mnemonic" value="W"></PARA>
+            <PARA name="accelerator" value=""></PARA>
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            <PARA name="serialnumber" value="100-450"></PARA>
+          </PARAS>
+        </DESC>
+
+        <DESC descname="Print">
+          <PARAS>
+            <PARA name="name" value="Print_Res"></PARA>
+            <PARA name="icon" value=""></PARA>
+            <PARA name="command" value="mainframe:print"></PARA>
+            <PARA name="type" value="JMenuItem"></PARA>
+            <PARA name="mnemonic" value="P"></PARA>
+            <PARA name="accelerator" value=""></PARA>
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            <PARA name="serialnumber" value="100-500"></PARA>
+          </PARAS>
+        </DESC>
+
+        <DESC descname="Page_Setup">
+          <PARAS>
+            <PARA name="name" value="Page_Setup_Res"></PARA>
+            <PARA name="icon" value=""></PARA>
+            <PARA name="command" value="mainframe:pageSetup"></PARA>
+            <PARA name="type" value="JMenuItem"></PARA>
+            <PARA name="mnemonic" value="G"></PARA>
+            <PARA name="accelerator" value=""></PARA>
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            <PARA name="serialnumber" value="100-550"></PARA>
+          </PARAS>
+        </DESC>
+
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name" value="Separator"></PARA>
+            <PARA name="type" value="Separator"></PARA>
+            <PARA name="serialnumber" value="100-555"></PARA>
+          </PARAS>
+        </DESC><!-- define a menuitem -->
+
+        <DESC descname="LockTerminal">
+
+          <PARAS>
+
+            <PARA name="name" value="Lock_Terminal"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="mainframe:lockterminal"></PARA>
+
+            <PARA name="mnemonic" value="K"></PARA>
+
+            <PARA name="accelerator" value="VK_K"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="100-560"></PARA>
+
+          </PARAS>
+
+        </DESC><!-- define a menuitem -->
+
+        <DESC descname="Logout">
+
+          <PARAS>
+
+            <PARA name="name" value="Logout"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="mainframe:logout"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="O"></PARA>
+
+            <PARA name="accelerator" value="VK_O"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="100-650"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Separator">
+
+          <PARAS>
+
+            <PARA name="name" value="Separator"></PARA>
+
+            <PARA name="type" value="Separator"></PARA>
+            
+            <PARA name="serialnumber" value="100-660"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Exit">
+
+          <PARAS>
+
+            <PARA name="name" value="Exit"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm exit"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="X"></PARA>
+
+            <PARA name="accelerator" value="VK_X"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="100-700"></PARA>
+
+          </PARAS>
+
+        </DESC>
+        
+        
+
+      </DESC>
+
+      <DESC descname="WindowMenu">
+
+        <PARAS>
+
+          <PARA name="name" value="Window"></PARA>
+
+          <PARA name="mnemonic" value="W"></PARA>
+
+          <PARA name="accelerator" value="VK_W"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+
+          <PARA name="icon" value=""></PARA>
+          
+          <PARA name="serialnumber" value="800"></PARA>
+
+        </PARAS><!-- define a menuitem -->
+
+        <DESC descname="Fullscreen">
+
+          <PARAS>
+
+            <PARA name="name" value="mainfrm_FullScreen"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="mainframe:fullscreen"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="F"></PARA>
+
+            <PARA name="accelerator" value="F11"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-5"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Separator">
+
+          <PARAS>
+
+            <PARA name="name" value="Separator"></PARA>
+
+            <PARA name="type" value="Separator"></PARA>
+            
+            <PARA name="serialnumber" value="800-5"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Close Window">
+
+          <PARAS>
+
+            <PARA name="name" value="Close"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm close window"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="C"></PARA>
+
+            <PARA name="accelerator" value="VK_C"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-10"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Close all">
+
+          <PARAS>
+
+            <PARA name="name" value="Close_All"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm close all windows"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="L"></PARA>
+
+            <PARA name="accelerator" value="VK_L"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-20"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Separator">
+
+          <PARAS>
+
+            <PARA name="name" value="Separator"></PARA>
+
+            <PARA name="type" value="Separator"></PARA>
+            
+            <PARA name="serialnumber" value="800-30"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Minimize">
+
+          <PARAS>
+
+            <PARA name="name" value="Minimize"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm minimizeActivateWindow"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="M"></PARA>
+
+            <PARA name="accelerator" value="VK_M"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-40"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Minimize all">
+
+          <PARAS>
+
+            <PARA name="name" value="Minimize_All"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm minimizeAllWindows"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="I"></PARA>
+
+            <PARA name="accelerator" value="VK_I"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-50"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Separator">
+
+          <PARAS>
+
+            <PARA name="name" value="Separator"></PARA>
+
+            <PARA name="type" value="Separator"></PARA>
+            
+            <PARA name="serialnumber" value="800-60"></PARA>
+
+          </PARAS>
+
+        </DESC>
+        
+        <DESC descname="show_window_tab_bar">
+          <PARAS>
+            <PARA name="name" value="show_window_tab_bar"></PARA>
+            <PARA name="icon" value=""></PARA>
+            <PARA name="command" value="iview mfrm toggle windowtabbedbar"></PARA>
+            <PARA name="type" value="JMenuItem"></PARA>
+            <PARA name="mnemonic" value="O"></PARA>
+            <PARA name="accelerator" value="VK_O"></PARA>
+            <PARA name="itemType" value="CheckBox"/>
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>            
+            <PARA name="serialnumber" value="800-61"></PARA>
+          </PARAS>
+        </DESC>
+        
+        <DESC descname="show_message_area">
+          <PARAS>
+            <PARA name="name" value="show_message_area"></PARA>
+            <PARA name="icon" value=""></PARA>
+            <PARA name="command" value="iview mfrm toggle messagearea"></PARA>
+            <PARA name="type" value="JMenuItem"></PARA>
+            <PARA name="mnemonic" value="G"></PARA>
+            <PARA name="accelerator" value="VK_G"></PARA>
+            <PARA name="itemType" value="CheckBox"/>
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>            
+            <PARA name="serialnumber" value="800-61"></PARA>
+          </PARAS>
+        </DESC>        
+        
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name" value="Separator"></PARA>
+            <PARA name="type" value="Separator"></PARA>            
+            <PARA name="serialnumber" value="800-63"></PARA>
+          </PARAS>
+        </DESC>
+        
+
+
+        <DESC descname="Cascade">
+
+          <PARAS>
+
+            <PARA name="name" value="Cascade"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm cascade windows"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="A"></PARA>
+
+            <PARA name="accelerator" value="VK_A"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-70"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="TileFrames">
+
+          <PARAS>
+
+            <PARA name="name" value="TileFrames"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm tile frames"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="T"></PARA>
+
+            <PARA name="accelerator" value="VK_T"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-75"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+
+        <DESC descname="TileHorizontal">
+
+          <PARAS>
+
+            <PARA name="name" value="TileHorizontal"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm tile horizontal window"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="H"></PARA>
+
+            <PARA name="accelerator" value="VK_H"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-80"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="TileVertical">
+
+          <PARAS>
+
+            <PARA name="name" value="TileVertical"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm tile vertical window"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="V"></PARA>
+
+            <PARA name="accelerator" value="VK_V"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-90"></PARA>
+
+          </PARAS>
+
+        </DESC>
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name" value="Separator"></PARA>
+            <PARA name="type" value="Separator"></PARA>            
+            <PARA name="serialnumber" value="800-100"></PARA>
+          </PARAS>
+        </DESC>
+        
+        <!--<DESC descname="DefaultStyle">
+
+          <PARAS>
+
+            <PARA name="name" value="DefaultStyle"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview DefaultStyle"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="S"></PARA>
+
+            <PARA name="accelerator" value="VK_S"></PARA>
+            
+            <PARA name="itemType" value="CheckBox"/>
+            
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="800-110"></PARA>
+
+          </PARAS>
+
+        </DESC>-->
+
+      </DESC>
+
+      <DESC descname="Help">
+
+        <PARAS>
+
+          <PARA name="name" value="Help"></PARA>
+
+          <PARA name="mnemonic" value="H"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+
+          <PARA name="accelerator" value="VK_H"></PARA>
+
+          <PARA name="icon" value=""></PARA>
+          
+          <PARA name="serialnumber" value="900"></PARA>
+
+        </PARAS><!-- define a menuitem -->
+
+        <DESC descname="Help Topics">
+
+          <PARAS>
+
+            <PARA name="name" value="Help_Topics"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm launch help"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="P"></PARA>
+
+            <PARA name="accelerator" value="VK_P"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="900-10"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="Separator">
+
+          <PARAS>
+
+            <PARA name="name" value="Separator"></PARA>
+
+            <PARA name="type" value="Separator"></PARA>
+            
+            <PARA name="serialnumber" value="900-20"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+        <DESC descname="About ...">
+
+          <PARAS>
+
+            <PARA name="name" value="About_..."></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="iview mfrm show about"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="A"></PARA>
+
+            <PARA name="accelerator" value="VK_A"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="900-30"></PARA>
+
+          </PARAS>
+
+        </DESC>
+
+      </DESC>
+
+    </DESC><!--  mainMenu MenuSet type ended  -->
+
+  </AREADESC>
+
+</COMMINIDATA>

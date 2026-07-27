@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<storagecfg>
+	<!--config for Windows-->
+	<Windows_SQLSERVER>
+			<!--Remote backup restore temp path -->
+			<TempPath>D:\tmp\</TempPath>
+			<!--Default backup path-->
+			<DefaultPath>@{INSTALLROOT}\server\var\backup\</DefaultPath>
+			<!-- Default backup path in remote machine -->
+			<RemotePath></RemotePath>
+			<!--The maximum number of backup files to be present in the backup directory -->
+			<BackupCount>30</BackupCount>
+			<!--This will be value will be zip / unzip , value other these will be taken as unzip mode -->
+			<BackupFileMode>zip</BackupFileMode>
+			<!--Number of parallel threads which will be used during the Binary Mode backup operation -->
+			<BinaryBackupParallelCount>3</BinaryBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode backup operation -->
+			<TextBackupParallelCount>1</TextBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Binary Mode restore operation -->
+			<BinaryRestoreParallelCount>3</BinaryRestoreParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode restore operation -->
+			<TextRestoreParallelCount>1</TextRestoreParallelCount>
+			<!--Configure as Yes, if the Text Mode backup needs to be supported in GUI -->
+			<SupportBCP>yes</SupportBCP>
+			<!--Configure as no, if the text Mode restore do not needs to be supported in GUI-->
+			<EnableBCPInGui>no</EnableBCPInGui>
+			<!--Configure as yes, if need support fixed backup count-->
+			<isFixedBackup>no</isFixedBackup>
+	</Windows_SQLSERVER>
+	<!--config for Solaris-->
+	<Solaris_SYBASE>
+			<!--Remote backup restore temp path -->
+			<TempPath>/opt/tmp/</TempPath>
+			<!--Default backup path-->
+			<DefaultPath>@{INSTALLROOT}/server/var/backup/</DefaultPath>
+			<!-- Default backup path in remote machine -->
+			<RemotePath></RemotePath>
+			<!--The maximum number of backup files to be present in the backup directory -->
+			<BackupCount>30</BackupCount>
+			<!--This will be value will be zip / unzip , value other these will be taken as unzip mode -->
+			<BackupFileMode>unzip</BackupFileMode>
+			<!--Number of parallel threads which will be used during the Binary Mode backup operation -->
+			<BinaryBackupParallelCount>3</BinaryBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode backup operation -->
+			<TextBackupParallelCount>1</TextBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Binary Mode restore operation -->
+			<BinaryRestoreParallelCount>3</BinaryRestoreParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode restore operation -->
+			<TextRestoreParallelCount>1</TextRestoreParallelCount>
+			<!--Configure as Yes, if the Text Mode backup needs to be supported in GUI -->
+			<SupportBCP>yes</SupportBCP>
+			<!--Configure as no, if the text Mode restore do not needs to be supported in GUI-->
+			<EnableBCPInGui>no</EnableBCPInGui>
+			<!--Configure as yes, if need support fixed backup count-->
+			<isFixedBackup>yes</isFixedBackup>
+			<!--the compression ratio for check database file space before backup, range from 1~10, default is 1 -->
+			<CompressionRatio>1</CompressionRatio>
+	</Solaris_SYBASE>
+	<!--config for Linux+Oracle-->
+	<Linux_ORACLE>
+			<!--Remote backup restore temp path -->
+			<TempPath>/opt/tmp/</TempPath>
+			<!--Default backup path-->
+			<DefaultPath>@{INSTALLROOT}/server/var/backup/</DefaultPath>
+			<!-- Default backup path in remote machine -->
+			<RemotePath></RemotePath>
+			<!--The maximum number of backup files to be present in the backup directory -->
+			<BackupCount>30</BackupCount>
+			<!--This will be value will be zip / unzip , value other these will be taken as unzip mode -->
+			<BackupFileMode>zip</BackupFileMode>
+			<!--Number of parallel threads which will be used during the Binary Mode backup operation -->
+			<BinaryBackupParallelCount>3</BinaryBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode backup operation -->
+			<TextBackupParallelCount>1</TextBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Binary Mode restore operation -->
+			<BinaryRestoreParallelCount>3</BinaryRestoreParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode restore operation -->
+			<TextRestoreParallelCount>1</TextRestoreParallelCount>
+			<!--Configure as Yes, if the Text Mode backup needs to be supported in GUI -->
+			<SupportBCP>no</SupportBCP>
+			<!--Configure as no, if the text Mode restore do not needs to be supported in GUI-->
+			<EnableBCPInGui>no</EnableBCPInGui>
+			<!--Configure as yes, if need support fixed backup count-->
+			<isFixedBackup>yes</isFixedBackup>
+	</Linux_ORACLE>
+	<!--config for Linux+Sybase-->
+	<Linux_SYBASE>
+			<!--Remote backup restore temp path -->
+			<TempPath>/opt/tmp/</TempPath>
+			<!--Default backup path-->
+			<DefaultPath>@{INSTALLROOT}/server/var/backup/</DefaultPath>
+			<!-- Default backup path in remote machine -->
+			<RemotePath></RemotePath>
+			<!--The maximum number of backup files to be present in the backup directory -->
+			<BackupCount>30</BackupCount>
+			<!--This will be value will be zip / unzip , value other these will be taken as unzip mode -->
+			<BackupFileMode>unzip</BackupFileMode>
+			<!--Number of parallel threads which will be used during the Binary Mode backup operation -->
+			<BinaryBackupParallelCount>3</BinaryBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode backup operation -->
+			<TextBackupParallelCount>1</TextBackupParallelCount>
+			<!--Number of parallel threads which will be used during the Binary Mode restore operation -->
+			<BinaryRestoreParallelCount>3</BinaryRestoreParallelCount>
+			<!--Number of parallel threads which will be used during the Text Mode restore operation -->
+			<TextRestoreParallelCount>1</TextRestoreParallelCount>
+			<!--Configure as Yes, if the Text Mode backup needs to be supported in GUI -->
+			<SupportBCP>yes</SupportBCP>
+			<!--Configure as no, if the text Mode restore do not needs to be supported in GUI-->
+			<EnableBCPInGui>no</EnableBCPInGui>
+			<!--Configure as yes, if need support fixed backup count-->
+			<isFixedBackup>yes</isFixedBackup>
+			<!--the compression ratio for check database file space before backup, range from 1~10, default is 1 -->
+			<CompressionRatio>1</CompressionRatio>
+	</Linux_SYBASE>
+</storagecfg>

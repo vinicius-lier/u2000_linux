@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="SnmpStaticRouteIpAddress" name="Target IP Address" isVisiable="true" isEditable="true" width="124" isNameModified="false" />
+  <column id="SnmpStaticRouteNetMask" name="Target Mask" isVisiable="true" isEditable="true" width="93" isNameModified="false" />
+  <column id="SnmpStaticRouteNextHop" name="Next Hop IP Address" isVisiable="true" isEditable="true" width="139" isNameModified="false" />
+</table>
+

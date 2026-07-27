@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+*****************************************************************************
+*
+*   Important: Do not modify this file!
+*
+*   Copyright (c) 1988-2008 Huawei Technologies Co.,Ltd. All rights reserved
+*
+*****************************************************************************
+-->
+<COMMINIDATA>
+   <AREADESC>
+         <DESC descname="Bundle">
+             <PARAS>
+                 <PARA name="type" value="ResourceBundle"/>
+                 <PARA name="resourceBundleName" value="dc"/>
+             </PARAS>
+         </DESC>
+         <!--start UI object definition -->
+          <DESC descname="mainMenu">
+               <PARAS>
+                   <PARA name="name" value="mainMenu"/>
+                   <PARA name="type" value="MenuSet"/>
+               </PARAS>
+               <DESC descname="SystemMenu">
+                    <PARAS>
+                        <PARA name="name" value="SystemMenu"/>
+                        <PARA name="type" value="JMenu"/>
+                        <PARA name="mnemonic" value="S"/>
+                        <PARA name="serialnumber" value="6000"/>
+                    </PARAS>
+                    <DESC descname="datacenter">
+                         <PARAS>
+                             <PARA name="name" value="DATACENTER_MENU"/>
+                             <PARA name="type" value="JMenu"/>
+                             <PARA name="mnemonic" value="F"/>
+                             <PARA name="serialnumber" value="6000-500"/>
+                         </PARAS>
+                         <DESC descname="DeviceOperation">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_BACKUP_RECOVER"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="D"/>
+                                  <PARA name="serialnumber" value="6000-500-10"/>
+                                  <PARA name="command" value="showDeviceInfoPan"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="TaskManagement">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_TASK_MANAGEMENT"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="T"/>
+                                  <PARA name="serialnumber" value="6000-500-20"/>
+                                  <PARA name="command" value="TaskManagement"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="SoftwareArchiveManagement">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_SOFTWARE_ARCHIVE_MANAGEMENT"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="M"/>
+                                  <PARA name="serialnumber" value="6000-500-30"/>
+                                  <PARA name="command" value="SoftwareArchiveManagemnt"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="OnlineBoardUpgrade">
+                              <PARAS>
+                                  <PARA name="name" value="ONLINE_BOARD_UPGRADE"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="O"/>
+                                  <PARA name="serialnumber" value="6000-500-40"/>
+                                  <PARA name="command" value="displayOnlineBoard"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="browseLog">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_BROWSE_LOG"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="L"/>
+                                  <PARA name="serialnumber" value="6000-500-50"/>
+                                  <PARA name="command" value="browseLog"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="Separator_6000-500-60">
+                              <PARAS>
+                                  <PARA name="name" value="Separator"/>
+                                  <PARA name="type" value="Separator"/>
+                                  <PARA name="serialnumber" value="6000-500-60"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="DefaultPolicy">
+                              <PARAS>
+                                  <PARA name="name" value="CONFIGURE_POLICY_SUBMENU_ITEM_DEFAULT_POLICY"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="C"/>
+                                  <PARA name="serialnumber" value="6000-500-70"/>
+                                  <PARA name="command" value="configureDefaultPolicy"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="UserPolicy">
+                              <PARAS>
+                                  <PARA name="name" value="CONFIGURE_POLICY_SUBMENU_ITEM_USER_POLICY"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="F"/>
+                                  <PARA name="serialnumber" value="6000-500-75"/>
+                                  <PARA name="command" value="configureUserPolicy"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="MXUPolicy">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_MXU_UPGRADE_POLICY"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="G"/>
+                                  <PARA name="serialnumber" value="6000-500-80"/>
+                                  <PARA name="command" value="configureMXUUpgradePolicy"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="SystemSetting">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_SYSTEM_SETTING"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="S"/>
+                                  <PARA name="serialnumber" value="6000-500-90"/>
+                                  <PARA name="command" value="SystemSetting"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="HAPolicyLogInfo">
+                              <PARAS>
+                                  <PARA name="name" value="DATACENTER_MENU_ITEM_HA_POLICY_FAILED_INFO"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="H"/>
+                                  <PARA name="serialnumber" value="6000-500-100"/>
+                                  <PARA name="command" value="showHAPolicyLogInfo"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="Separator_6000-500-110">
+                              <PARAS>
+                                  <PARA name="name" value="Separator"/>
+                                  <PARA name="type" value="Separator"/>
+                                  <PARA name="serialnumber" value="6000-500-110"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="Import License File">
+                              <PARAS>
+                                  <PARA name="name" value="IMPORT_LICENCE_FILE"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="I"/>
+                                  <PARA name="serialnumber" value="6000-500-120"/>
+                                  <PARA name="command" value="importLicenseFile"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="Separator_6000-500-130">
+                              <PARAS>
+                                  <PARA name="name" value="Separator"/>
+                                  <PARA name="type" value="Separator"/>
+                                  <PARA name="serialnumber" value="6000-500-130"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="loadBoardSoft">
+                              <PARAS>
+                                  <PARA name="name" value="LOAD_BOARD_SOFT_MENU"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="S"/>
+                                  <PARA name="serialnumber" value="6000-500-140"/>
+                                  <PARA name="command" value="loadBoardSoft"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="loadBoardPatch">
+                              <PARAS>
+                                  <PARA name="name" value="LOAD_BOARD_PATCH_MENU"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="P"/>
+                                  <PARA name="serialnumber" value="6000-500-150"/>
+                                  <PARA name="command" value="loadBoardPatch"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="tkLicense">
+                              <PARAS>
+                                  <PARA name="name" value="TK_LICENSE_MANAGE_MENU"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="L"/>
+                                  <PARA name="serialnumber" value="6000-500-160"/>
+                                  <PARA name="command" value="tkLicenseManage"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="tkBacupLog">
+                              <PARAS>
+                                  <PARA name="name" value="TK_LOG_MANAGE_MENU"/>
+                                  <PARA name="type" value="JMenuItem"/>
+                                  <PARA name="mnemonic" value="B"/>
+                                  <PARA name="serialnumber" value="6000-500-170"/>
+                                  <PARA name="command" value="tkLogManage"/>
+                                  <PARA name="Class" value="IViewJMenuItemEx"/>
+                              </PARAS>
+                         </DESC>
+                         <DESC descname="showTL1Frame">
+                         <PARAS>
+                             <PARA name="name" value="COMMAND_LINE_TL1_MENU"/>
+                             <PARA name="type" value="JMenuItem"/>
+                             <PARA name="mnemonic" value="R"/>
+                             <PARA name="serialnumber" value="6000-500-190"/>
+                             <PARA name="command" value="showTL1Frame"/>
+                             <PARA name="Class" value="IViewJMenuItemEx"/>
+                             <PARA name="ZiliaoID" value="showTL1Frame"/>
+                         </PARAS>
+                    </DESC>
+                    </DESC>
+               </DESC>
+          </DESC>
+   </AREADESC>
+</COMMINIDATA>
+

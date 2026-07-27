@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="CfgType" name="Service Type" isVisiable="true" isEditable="false" width="95" isNameModified="false" />
+  <column id="SVlan" name="S-VLAN" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="CfgSPriPolicy" name="S-Priority Policy" isVisiable="true" isEditable="true" width="110" isNameModified="false" />
+  <column id="SPRI" name="S-Priority" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="CVlan" name="C-VLAN" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="CPRI" name="C-Priority" isVisiable="true" isEditable="true" width="76" isNameModified="false" />
+  <column id="CEncap" name="C-Encap" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="OntPortVlanCfgTlsSwitch" name="TLS" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

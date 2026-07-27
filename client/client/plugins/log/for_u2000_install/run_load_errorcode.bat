@@ -1,0 +1,2 @@
+cd ..\..
+..\common\jre_win\bin\java -classpath .\startuploader.jar; -DSerialConfigPath=tools/serializer/default_config -Dfile.encoding=UTF-8 -DmainClass=com.swimap.log.client.common.errorcode.ErrCodeFileLoader -DserFolder=Default com.swimap.startup.Startup -debuglevel 0 -showtrace false -enabledebug true -tracefile log_load_errorcode_trace.txt

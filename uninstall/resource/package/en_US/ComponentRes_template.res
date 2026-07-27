@@ -1,0 +1,14 @@
+Base=Common Component
+CommonBaseComponent=Common Base Component
+RCBaseComponent=Topo Adapter and NE Security Component
+AccessNetworkElementManagement=Access Network Element Management
+NWBaseComponent=TrapReceiver Component
+Base.InstallInfo=Common Component
+CommonBaseComponent.InstallInfo=Common Base Component
+RCBaseComponent.InstallInfo=Topo Adapter and NE Security Component
+AccessNetworkElementManagement.InstallInfo=Access Network Element Management
+NWBaseComponent.InstallInfo=TrapReceiver Component
+TestFrameComponent=TestFrame Component
+CAUComponent=CAU Component
+TestFrameComponent.InstallInfo=Common Base Component
+CAUComponent.InstallInfo=CAU Component

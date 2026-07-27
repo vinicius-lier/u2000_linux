@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+        <DESC descname="upgrade" >
+            <PARAS>
+                <PARA name="supportComponent" value="false" />
+            </PARAS>
+ 	    </DESC>
+        <DESC descname="clientupgrade_mutex_paras" >
+            <PARAS>
+                <PARA name="ClientUpgradeClassName"   value="com.swimap.update.ui.UpdateWizardFrame" />
+                <PARA name="ClientUpgradeTitle"   value="" />
+                <PARA name="ClientMainFrameClassName"   value="com.swimap.iview.framework.mainframe.MDIFrame" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ProductVersionCheckClassPath" >
+            <PARAS>
+                <PARA name="ClientVersionCompareClassName"   value="" />
+	    		<!-- new tag added to get product class name for IVersionManagerEx  implementation-->
+				<PARA name="ClientComponentVersionCompareClassName" value="" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ProductExitClassPath" >
+            <PARAS>
+                <PARA name="ProductExitClassName"   value="" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ProductPasswordClassPath" >
+            <PARAS>
+                <PARA name="PasswordClassName"   value="" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ShowTime" >
+            <PARAS>
+                <PARA name="ShowOSTime"   value="false" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ShowIpServernameParam" >
+            <PARAS>
+                <!--0: Not to display the IP address and server name; 1: To display the IP address(default); 10: To display the server name; 11: To display the server name and IP address-->     
+                <PARA name="ShowState"   value="1" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ShowIpParam" >
+            <PARAS>
+                <!-- PREFIX IP = 1; POSTFIX IP = 2(default)-->
+                <PARA name="PrefixOrPostfix"   value="2" />
+            </PARAS>
+        </DESC>
+        <DESC descname="ALLOW_LOGIN_FAILED_SETTING">
+            <PARAS>
+                <PARA name="ALLOW_LOGIN_FAILED_TIMES" value="3"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="ALLOW_UNLOCK_FAILED_SETTING">
+            <PARAS>
+                <PARA name="ALLOW_UNLOCK_FAILED_TIMES" value="3"/>
+            </PARAS>
+        </DESC>
+				<!-- When client recieves the access change event, it will delay some time before pop out the prompt. The value of this item is the delay time. The unit of this item is second. 
+				The range of this item is 0-3600. 
+				If the value is set less than 0, the program will set 0 as its default value. 
+				If the value is set larger than 3600, the program will set 3600 as its default value. -->
+				<DESC descname="ACC_CHANGE_PROMPT_DELAY_TIME">
+						<PARAS>
+								<PARA name="ACC_CHANGE_PROMPT_DELAY_TIME" value="0" />
+						</PARAS>
+				</DESC>
+
+    </AREADESC>
+</COMMINIDATA>

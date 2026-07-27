@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+
+  <AREADESC><!-- define a menuSet
+
+menuSet:
+
+        descname as the menuSet's id, must be unique.
+
+        must have a type para, and the value is "MenuSet"
+
+
+
+JMenu:(super class must be JMenu)
+
+        descname as the menuID.
+
+        must hava a type para, and the value is "JMenu"
+
+
+
+JMenu's sub element
+
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+ -->
+
+    <DESC descname="ResourceBundle">
+
+      <PARAS>
+
+        <PARA name="type" value="ResourceBundle"></PARA>
+
+        <PARA name="resourceBundleName" value="Res"></PARA>
+
+      </PARAS>
+
+    </DESC><!-- mainMenu MenuSet type start  -->
+
+    <DESC descname="mainMenu">
+
+      <PARAS>
+
+        <PARA name="name" value="main Menu"></PARA>
+
+        <PARA name="type" value="MenuSet"></PARA>
+
+      </PARAS><!-- define a menu have" name" and "mnemonic" attributes -->
+      
+      <DESC descname="SystemMenu">
+      
+        <PARAS>
+
+          <PARA name="name" value="System"></PARA>
+
+          <PARA name="mnemonic" value="S"></PARA>
+
+          <PARA name="accelerator" value="VK_S"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+          
+          <PARA name="serialnumber" value="700"></PARA>
+
+        </PARAS>
+        
+        <DESC descname="System Monitor">
+
+          <PARAS>
+
+            <PARA name="name" value="System_Monitor"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="type" value="JMenu"></PARA>
+
+            <PARA name="mnemonic" value="S"></PARA>
+
+            <PARA name="accelerator" value="VK_S"></PARA>
+            <PARA name="serialnumber" value="700-20"></PARA>
+          </PARAS>
+
+            <DESC descname="show system monitor frame">
+
+              <PARAS>
+
+                <PARA name="name" value="Monitor_Browse"></PARA>
+
+                <PARA name="icon" value=""></PARA>
+
+                <PARA name="command" value="show system monitor frame"></PARA>
+
+                <PARA name="type" value="JMenuItem"></PARA>
+
+                <PARA name="mnemonic" value="B"></PARA>
+
+                <PARA name="accelerator" value="VK_B"></PARA>
+
+                <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+                <PARA name="serialnumber" value="700-20-10"></PARA>
+                
+						    <PARA name="isEnableShortcut" value="true"></PARA>
+			          <PARA name="ShortcutTitle" value="System monitor browser"></PARA>
+			          <PARA name="ShortcutIcon" value="icons/SystemMonitorBrowser.gif"></PARA>
+			          <PARA name="ShortcutDescription" value="System monitor browser"></PARA>
+								<PARA name="showInPortalPanel" value="true" />
+								<PARA name="showBlankInternalFrame" value="false" />
+								<PARA name="isFavorite" value="true" />
+								<PARA name="favoriteIcon" value="icons/SystemMonitor.png" />
+								<PARA name="visibleApps">
+									<VALUE value="SysSetting"></VALUE>
+								</PARA>								
+              </PARAS>
+            </DESC>
+
+            <DESC descname="show system monitor setting dialog">
+
+              <PARAS>
+
+                <PARA name="name" value="Monitor_Setting"></PARA>
+
+                <PARA name="icon" value=""></PARA>
+
+                <PARA name="command" value="show system monitor setting dialog"></PARA>
+
+                <PARA name="type" value="JMenuItem"></PARA>
+
+                <PARA name="mnemonic" value="S"></PARA>
+
+                <PARA name="accelerator" value="VK_S"></PARA>
+
+                <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+                <PARA name="serialnumber" value="700-20-20"></PARA>
+                
+						    <PARA name="isEnableShortcut" value="true"></PARA>
+			          <PARA name="ShortcutTitle" value="System monitor setting"></PARA>
+			          <PARA name="ShortcutIcon" value="icons/SystemMonitorSetting.gif"></PARA>
+			          <PARA name="ShortcutDescription" value="System monitor setting"></PARA>
+								<PARA name="showInPortalPanel" value="true" />
+								<PARA name="isFavorite" value="true" />
+								<PARA name="favoriteIcon" value="icons/SystemMonitorSetting.png"/>
+								<PARA name="visibleApps">
+									<VALUE value="SysSetting"></VALUE>
+								</PARA>									
+              </PARAS>              
+            </DESC>
+         </DESC>
+    </DESC><!--  mainMenu MenuSet type ended  -->
+   </DESC>
+  </AREADESC>
+
+</COMMINIDATA>

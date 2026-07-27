@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="OntID" name="ONU ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="pfCountsTxLOFiAlarmErr" name="LOFi Alarm" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="pfCountsTxScapeErr" name="US Frame Delimiter Error" isVisiable="true" isEditable="true" width="139" isNameModified="false" />
+  <column id="pfCountsTxBipErr" name="US Frame BIP Error" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+  <column id="pfCountsRxBipErr" name="DS Frame BIP Error" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+  <column id="pfCountsTxFECDecodedCorrect" name="US Frame FEC Corrected Blocks" isVisiable="true" isEditable="true" width="180" isNameModified="false" />
+  <column id="pfCountsTxFECDecodedUnCorrect" name="US Frame FEC Uncorrected Blocks" isVisiable="true" isEditable="true" width="193" isNameModified="false" />
+  <column id="pfCountsTxHECCheckErr" name="US Frame HEC Error" isVisiable="true" isEditable="true" width="115" isNameModified="false" />
+  <column id="pfCountsTxDOWiAlarmErr" name="DOWi Alarm" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="pfCountsTxFCSErr" name="US FCS Error" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="pfCountsTxBitErrRate" name="US Frame Bit Error Rate" isVisiable="true" isEditable="true" width="132" isNameModified="false" />
+  <column id="pfCountsTxETHErrRate" name="US ETH Frame Error Rate" isVisiable="true" isEditable="true" width="142" isNameModified="false" />
+  <column id="pfCountsTxGEMErrRate" name="US GEM Frame Error Rate" isVisiable="true" isEditable="true" width="144" isNameModified="false" />
+</table>
+

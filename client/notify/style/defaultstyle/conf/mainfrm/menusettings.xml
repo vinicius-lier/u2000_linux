@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="FoldingMenu">
+    <DESC descname="MenuSetting" >
+            <PARAS>
+                <PARA name="numberOfMenuItemToBeDisplay" value="5" />
+                <PARA name="countOfLeastUsedMenuItem" value="10" />
+                <PARA name="isMenuSettingEnable"  value="true" />
+            </PARAS>
+    </DESC>
+	</AREADESC>
+</COMMINIDATA>

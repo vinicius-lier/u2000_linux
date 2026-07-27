@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="adapter">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="268435456"   value="Unknown error."/>                 
+                <PARA name="268435457"   value="No response. The server is busy or the equipment is performing other operations. Please check and try again."/>                         
+                <PARA name="268435458"   value="No message adapter is found."/>               
+                <PARA name="268435459"   value="No source message is found."/>                
+                <PARA name="268435460"   value="No sink message is found."/>                  
+                <PARA name="268435461"   value="Connection interrupted."/>           
+                <PARA name="268435462"   value="Read data error."/>                  
+                <PARA name="268435463"   value="Write data error."/>                 
+                <PARA name="268435464"   value="Packet protocol error."/>           
+                <PARA name="268435465"   value="Packet context error."/>             
+                <PARA name="268435466"   value="There's no handler."/>               
+                <PARA name="268435467"   value="There's no register."/>              
+                <PARA name="268435468"   value="There's no enough memory."/>         
+                <PARA name="268435469"   value="Source message is not registered."/> 
+                <PARA name="268435470"   value="Operation canceled."/>                
+                <PARA name="268435471"   value="Register IO handler failed."/>      
+                <PARA name="268435472"   value="Can't find communication port."/>    
+                <PARA name="268435473"   value="Message type error."/>               
+                <PARA name="268435474"   value="Adapter:Invalid parameter."/>        
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

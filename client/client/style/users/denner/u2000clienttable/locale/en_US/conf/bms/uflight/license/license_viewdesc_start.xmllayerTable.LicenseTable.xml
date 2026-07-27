@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="LicType" name="License Type" isVisiable="true" isEditable="true" width="99" isNameModified="false" />
+  <column id="LicItem" name="License Name" isVisiable="true" isEditable="true" width="107" isNameModified="false" />
+  <column id="UseStatus" name="Use Status" isVisiable="true" isEditable="true" width="87" isNameModified="false" />
+  <column id="BeyondTime" name="Overflow Time" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+  <column id="LimitDay" name="Service Limited Day" isVisiable="true" isEditable="true" width="134" isNameModified="false" />
+</table>
+

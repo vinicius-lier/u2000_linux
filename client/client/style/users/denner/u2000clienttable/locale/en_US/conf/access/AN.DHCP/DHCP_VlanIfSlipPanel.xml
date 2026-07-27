@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Device Name" name="Device Name" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+  <column id="VLAN ID" name="VLAN ID" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+  <column id="DHCP Server Mode" name="DHCP Server Mode" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+</table>
+

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+	      <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="Res" />
+            </PARAS>
+        </DESC>
+        <DESC descname="welcomebuttonsetting">
+        
+            <DESC descname="MENU_OPERATION_LOG_QUERY">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_OPERATION_LOG_QUERY_TITLE"></PARA>
+                    <PARA name="description" value="MENU_OPERATION_LOG_QUERY_TITLE"></PARA>
+                    <PARA name="icon" value="icon/SecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Query Operation Logs"></PARA>
+                    <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="MENU_SYSTEM_LOG_QUERY">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_SYSTEM_LOG_QUERY_TITLE"></PARA>
+                    <PARA name="description" value="MENU_SYSTEM_LOG_QUERY_TITLE"></PARA>
+                    <PARA name="icon" value="icon/SecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Query System Logs"></PARA>
+                     <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="MENU_SECURITY_LOG_QUERY">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_SECURITY_LOG_QUERY_TITLE"></PARA>
+                    <PARA name="description" value="MENU_SECURITY_LOG_QUERY_TITLE"></PARA>
+                    <PARA name="icon" value="icon/SecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Query Security Logs"></PARA>
+                     <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="MENU_OPERATION_LOG_STATIC">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_OPERATION_LOG_STATIC_TITLE"></PARA>
+                    <PARA name="description" value="MENU_OPERATION_LOG_STATIC_TITLE"></PARA>
+                    <PARA name="icon" value="icon/SecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Statistic Operation Log"></PARA>
+                     <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="MENU_SYSTEM_LOG_STATIC">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_SYSTEM_LOG_STATIC_TITLE"></PARA>
+                    <PARA name="description" value="MENU_SYSTEM_LOG_STATIC_TITLE"></PARA>
+                    <PARA name="icon" value="icon/SecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Statistic System Log"></PARA>
+                     <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="MENU_SECURITY_LOG_STATIC">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_SECURITY_LOG_STATIC_TITLE"></PARA>
+                    <PARA name="description" value="MENU_SECURITY_LOG_STATIC_TITLE"></PARA>
+                    <PARA name="icon" value="icon/SecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Statistic Security Log"></PARA>
+                     <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="MENU_QUERY_DEVICE_LOG">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_QUERY_DEVICE_LOG_TITLE"></PARA>
+                    <PARA name="description" value="MENU_QUERY_DEVICE_LOG_TITLE"></PARA>
+                    <PARA name="icon" value="icon/EquipmentSecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Query Device Log"></PARA>
+                    <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <DESC descname="SynchronizeSNMPDeviceLog">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="MENU_SYN_SNMP_DEV_LOG_TITLE"></PARA>
+                    <PARA name="description" value="MENU_SYN_SNMP_DEV_LOG_TITLE"></PARA>
+                    <PARA name="icon" value="icon/EquipmentSecurityLogManage.png"></PARA>
+                    <PARA name="command" value="Synchronize SNMP Device Log"></PARA>
+                    <PARA name="category" value="logCategory"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                </PARAS>
+            </DESC>
+
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

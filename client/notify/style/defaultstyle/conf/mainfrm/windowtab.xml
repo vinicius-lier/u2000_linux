@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="windowtab">
+        <DESC descname="windowtab" >
+            <PARAS>
+            	<!--
+            	Use "enableTabbedBar" to config whether you want to use tab to manage interal frame.
+            	If it's true,the tab function is enabled,then you can use the other parameter "isTabbedBarVisible" 
+            	to config whether the tab bar is visble after you log in.
+            	You can also use customized menu item or toolbar button which is associated with 
+            	the CommandID "iview mfrm toggle windowtabbedbar" to switch the visibility of the tab bar.
+            	If it's false,the tab function is disabled.The tab bar will never be visible.
+            	The default value is "false".
+            	-->
+                <PARA name="enableTabbedBar"   value="true" />
+                <!--
+                If it's true,the tab bar will be visible under the toolbar after you log in.
+                If it's false,the tab bar will be invisble after you log in.
+                The default value is "true".
+                Attention:if "enableTabbedBar" is false,this parameter is invalid.
+                -->
+                <PARA name="isTabbedBarVisible"   value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

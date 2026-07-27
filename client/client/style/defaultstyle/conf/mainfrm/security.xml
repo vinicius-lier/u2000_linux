@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="security">
+        <DESC descname="security">
+            <PARAS> 
+                <PARA name="security" value="com.swimap.iview.security.SecurityModule" />
+		<PARA name="platform" value="1.5" /> 
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>
+

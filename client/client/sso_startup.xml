@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="startupresources">
+	<!-- jars required to  load jmx and  ActiveMQSession , if not configured, client will not launch 
+	as sso module is loading before log in and no  jars found -->
+		<DESC descname="startupjars">
+			<DESC descname="./../lib/3rd_tools">
+					<PARAS>										
+						<PARA name ="activemq-broker-5.14.0.jar"></PARA>
+						<PARA name ="activemq-client-5.14.0.jar"></PARA>
+						<PARA name ="hawtbuf-1.11.jar"></PARA>
+						<PARA name ="geronimo-j2ee-management_1.1_spec-1.0.1.jar"></PARA>
+						<PARA name ="geronimo-jms_1.1_spec-1.1.1.jar"></PARA>
+					</PARAS>
+			</DESC>
+		</DESC>
+        <DESC descname="startupplugins">
+            <DESC descname="securityplugins">
+                <PARAS>
+                    <!-- configure all the normal plugins used for security-->
+                    <!--example <PARA name ="lm"></PARA>-->
+                    <PARA name="ssoportal"></PARA>
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

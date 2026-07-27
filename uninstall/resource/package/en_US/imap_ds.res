@@ -1,0 +1,3 @@
+imap_ds=DesktopService Component
+imap_ds.InstallInfo=DesktopService component.
+imap_ds.UninstallInfo=DesktopService component.

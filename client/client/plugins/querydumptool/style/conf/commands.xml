@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="commandlist">
+    
+      <DESC descname="querydumptool">
+        <PARAS>
+          <PARA name="actionType" value="cic"></PARA>
+          <PARA name="moduleID" value="querydumptool"></PARA>
+          <PARA name="methodName" value="showQueryDumpTool"></PARA>         
+          <PARA name="security" value="1"></PARA> 
+       </PARAS>
+      </DESC>
+      
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

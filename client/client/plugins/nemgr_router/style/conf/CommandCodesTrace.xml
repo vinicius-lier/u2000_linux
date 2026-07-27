@@ -1,0 +1,2104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="CommandInfo">
+            <PARAS>
+                <DESC descname="49850">
+                    <PARAS>
+                        <PARA name="description" value="Query ATM interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49851">
+                    <PARAS>
+                        <PARA name="description" value="Query ATM interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49852">
+                    <PARAS>
+                        <PARA name="description" value="Configure ATM interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49853">
+                    <PARAS>
+                        <PARA name="description" value="Add ATM subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49854">
+                    <PARAS>
+                        <PARA name="description" value="Delete ATM subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49855">
+                    <PARAS>
+                        <PARA name="description" value="Query ATM PVC"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49858">
+                    <PARAS>
+                        <PARA name="description" value="Query Atm Service information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49930">
+                    <PARAS>
+                        <PARA name="description" value="Query Interface Information of Common"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49931">
+                    <PARAS>
+                        <PARA name="description" value="Query General Interface Details"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49932">
+                    <PARAS>
+                        <PARA name="description" value="Configure interface information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49933">
+                    <PARAS>
+                        <PARA name="description" value="Modify interface administrative status"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49938">
+                    <PARAS>
+                        <PARA name="description" value="Query Unnumbered IP Address"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49939">
+                    <PARAS>
+                        <PARA name="description" value="Add common interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454230">
+                    <PARAS>
+                        <PARA name="description" value="Delete interface information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49942">
+                    <PARAS>
+                        <PARA name="description" value="Enable IPv6"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49943">
+                    <PARAS>
+                        <PARA name="description" value="Disable IPv6"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49944">
+                    <PARAS>
+                        <PARA name="description" value="Query the IP address assignment mode of the GE0/0/0 port"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454348">
+                    <PARAS>
+                        <PARA name="description" value="Configure loopback on the physical port"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454378">
+                    <PARAS>
+                        <PARA name="description" value="Bulk enable interface performance statistics and set intervals"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454445">
+                    <PARAS>
+                        <PARA name="description" value="Query alarms that cause the interface to go Down"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454446">
+                    <PARAS>
+                        <PARA name="description" value="Modify alarms that cause the interface to go Down"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392992">
+                    <PARAS>
+                        <PARA name="description" value="Create IMA/Global-IMA Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392993">
+                    <PARAS>
+                        <PARA name="description" value="Create IMA/Global-IMA Sub Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454620">
+                    <PARAS>
+                        <PARA name="description" value="View port alarm inversion"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454619">
+                    <PARAS>
+                        <PARA name="description" value="Configure port alarm inversion"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454877">
+                    <PARAS>
+                        <PARA name="description" value="Set a user flag"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49770">
+                    <PARAS>
+                        <PARA name="description" value="Query Cpos Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49771">
+                    <PARAS>
+                        <PARA name="description" value="Query Cpos Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49772">
+                    <PARAS>
+                        <PARA name="description" value="Configure Cpos Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49830">
+                    <PARAS>
+                        <PARA name="description" value="Query E1 Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49831">
+                    <PARAS>
+                        <PARA name="description" value="Query E1 Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49832">
+                    <PARAS>
+                        <PARA name="description" value="Configure E1 Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49835">
+                    <PARAS>
+                        <PARA name="description" value="Add E1 Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49836">
+                    <PARAS>
+                        <PARA name="description" value="Delete E1 Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49733">
+                    <PARAS>
+                        <PARA name="description" value="Add Ethernet subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49730">
+                    <PARAS>
+                        <PARA name="description" value="Query Ethernet Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49731">
+                    <PARAS>
+                        <PARA name="description" value="Query Ethernet Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49732">
+                    <PARAS>
+                        <PARA name="description" value="Configure Ethernet interface information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49734">
+                    <PARAS>
+                        <PARA name="description" value="Add Ethernet sub-interfaces in batches"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49735">
+                    <PARAS>
+                        <PARA name="description" value="Delete Ethernet subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49737">
+                    <PARAS>
+                        <PARA name="description" value="NE INTERFACE CMD SYNC ETHERNET INF"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49810">
+                    <PARAS>
+                        <PARA name="description" value="Query LoopBack Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49811">
+                    <PARAS>
+                        <PARA name="description" value="Query LoopBack Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49812">
+                    <PARAS>
+                        <PARA name="description" value="Add LoopBack Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49813">
+                    <PARAS>
+                        <PARA name="description" value="Delete LoopBack Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49814">
+                    <PARAS>
+                        <PARA name="description" value="Configure LoopBack Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49790">
+                    <PARAS>
+                        <PARA name="description" value="Query POS Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49791">
+                    <PARAS>
+                        <PARA name="description" value="Query POS Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49792">
+                    <PARAS>
+                        <PARA name="description" value="Configure POS Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49900">
+                    <PARAS>
+                        <PARA name="description" value="Query Serial Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49901">
+                    <PARAS>
+                        <PARA name="description" value="Query Serial Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49902">
+                    <PARAS>
+                        <PARA name="description" value="Configure Serial Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49750">
+                    <PARAS>
+                        <PARA name="description" value="Query trunk Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49751">
+                    <PARAS>
+                        <PARA name="description" value="Query trunk Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49752">
+                    <PARAS>
+                        <PARA name="description" value="Add trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454148">
+                    <PARAS>
+                        <PARA name="description" value="Switch the active status of Eth-Trunk member interfaces"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49753">
+                    <PARAS>
+                        <PARA name="description" value="Delete trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49754">
+                    <PARAS>
+                        <PARA name="description" value="Configure trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49755">
+                    <PARAS>
+                        <PARA name="description" value="Add Eth-Trunk subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49756">
+                    <PARAS>
+                        <PARA name="description" value="Delete Eth-Trunk subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49757">
+                    <PARAS>
+                        <PARA name="description" value="Configure Eth-Trunk subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49758">
+                    <PARAS>
+                        <PARA name="description" value="Query the trunk member interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49761">
+                    <PARAS>
+                        <PARA name="description" value="Add Atm-Trunk subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49762">
+                    <PARAS>
+                        <PARA name="description" value="Delete Atm-Trunk subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49763">
+                    <PARAS>
+                        <PARA name="description" value="Configure Atm-Trunk subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454231">
+                    <PARAS>
+                        <PARA name="description" value="Query basic information about the virtual Trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454344">
+                    <PARAS>
+                        <PARA name="description" value="Query details about the virtual Trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454232">
+                    <PARAS>
+                        <PARA name="description" value="Add the virtual Trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454240">
+                    <PARAS>
+                        <PARA name="description" value="Delete the virtual Trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454233">
+                    <PARAS>
+                        <PARA name="description" value="Configure the virtual Trunk interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47128">
+                    <PARAS>
+                        <PARA name="description" value="Query RPR Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47121">
+                    <PARAS>
+                        <PARA name="description" value="Delete RPR Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47122">
+                    <PARAS>
+                        <PARA name="description" value="Add RPR Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47133">
+                    <PARAS>
+                        <PARA name="description" value="Configure RPR Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47123">
+                    <PARAS>
+                        <PARA name="description" value="Configure RPR DataFrame"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47130">
+                    <PARAS>
+                        <PARA name="description" value="Add RPR StaticSelect"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47131">
+                    <PARAS>
+                        <PARA name="description" value="Delete RPR StaticSelect"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47124">
+                    <PARAS>
+                        <PARA name="description" value="Configure RPR FairArith"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47125">
+                    <PARAS>
+                        <PARA name="description" value="Configure RPR TopoFind"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="47126">
+                    <PARAS>
+                        <PARA name="description" value="Configure RPR Protect and Recovery"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49870">
+                    <PARAS>
+                        <PARA name="description" value="Query Tunnel Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49871">
+                    <PARAS>
+                        <PARA name="description" value="Query Tunnel Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49872">
+                    <PARAS>
+                        <PARA name="description" value="Add Tunnel Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49873">
+                    <PARAS>
+                        <PARA name="description" value="Delete Tunnel Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49874">
+                    <PARAS>
+                        <PARA name="description" value="Configure Tunnel Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49880">
+                    <PARAS>
+                        <PARA name="description" value="Query VE Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49881">
+                    <PARAS>
+                        <PARA name="description" value="Query VE Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49882">
+                    <PARAS>
+                        <PARA name="description" value="Add VE Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49883">
+                    <PARAS>
+                        <PARA name="description" value="Delete VE Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49884">
+                    <PARAS>
+                        <PARA name="description" value="Configure VE Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49888">
+                    <PARAS>
+                        <PARA name="description" value="Delete VE subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49889">
+                    <PARAS>
+                        <PARA name="description" value="Configure VE subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49887">
+                    <PARAS>
+                        <PARA name="description" value="Add VE subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49910">
+                    <PARAS>
+                        <PARA name="description" value="Query VT Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49911">
+                    <PARAS>
+                        <PARA name="description" value="Query VT Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49912">
+                    <PARAS>
+                        <PARA name="description" value="Add VT Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49913">
+                    <PARAS>
+                        <PARA name="description" value="Delete VT Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49914">
+                    <PARAS>
+                        <PARA name="description" value="Configure VT Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49890">
+                    <PARAS>
+                        <PARA name="description" value="Query Vlan Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49891">
+                    <PARAS>
+                        <PARA name="description" value="Query Vlan Interface Detail"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49892">
+                    <PARAS>
+                        <PARA name="description" value="Add Vlan Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49893">
+                    <PARAS>
+                        <PARA name="description" value="Delete Vlan Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49894">
+                    <PARAS>
+                        <PARA name="description" value="Configure Vlan Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49905">
+                    <PARAS>
+                        <PARA name="description" value="Add Serial subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49906">
+                    <PARAS>
+                        <PARA name="description" value="Delete Serial subinterface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392991">
+                    <PARAS>
+                        <PARA name="description" value="Query Detail Information of IMA Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392990">
+                    <PARAS>
+                        <PARA name="description" value="Query Base Information of IMA Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392994">
+                    <PARAS>
+                        <PARA name="description" value="Delete IMA/Global-IMA Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392995">
+                    <PARAS>
+                        <PARA name="description" value="Modify IMA/Global-IMA Interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8392997">
+                    <PARAS>
+                        <PARA name="description" value="Query Information of Member Interface which Can Join IMA"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454372">
+                    <PARAS>
+                        <PARA name="description" value="Obtain details about an MPGroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454371">
+                    <PARAS>
+                        <PARA name="description" value="Obtain basic information about an MPGroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454368">
+                    <PARAS>
+                        <PARA name="description" value="Configure an MP or Global-MP interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454370">
+                    <PARAS>
+                        <PARA name="description" value="Obtain information about member interfaces that can be added to an MPGroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454385">
+                    <PARAS>
+                        <PARA name="description" value="Query detailed information about ATM-Bundle interfaces"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454394">
+                    <PARAS>
+                        <PARA name="description" value="Query basic information about ATM-Bundle interfaces"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454379">
+                    <PARAS>
+                        <PARA name="description" value="Create an ATM-Bundle interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454386">
+                    <PARAS>
+                        <PARA name="description" value="Delete ATM-Bundle interface information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454384">
+                    <PARAS>
+                        <PARA name="description" value="Configure an ATM-Bundle interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454387">
+                    <PARAS>
+                        <PARA name="description" value="ATMBndlIf.queryAtmBndlPvcCommand"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454388">
+                    <PARAS>
+                        <PARA name="description" value="ATMBndlIf.queryMemberIfListCommand"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454367">
+                    <PARAS>
+                        <PARA name="description" value="Create an MP or Global-MP interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454516">
+                    <PARAS>
+                        <PARA name="description" value="Add DslGroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454520">
+                    <PARAS>
+                        <PARA name="description" value="Delete a DSLgroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454521">
+                    <PARAS>
+                        <PARA name="description" value="Modify DslGroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454522">
+                    <PARAS>
+                        <PARA name="description" value="Query DSLgroup interfaces"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454514">
+                    <PARAS>
+                        <PARA name="description" value="Query bound VE interfaces for the DSLgroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454512">
+                    <PARAS>
+                        <PARA name="description" value="Query xDSL member interfaces for the DSLgroup interface"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454537">
+                    <PARAS>
+                        <PARA name="description" value="Query DSLgroup information meeting query conditions"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454539">
+                    <PARAS>
+                        <PARA name="description" value="DslGroupIf.getCapCommand"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454859">
+                    <PARAS>
+                        <PARA name="description" value="Query interface loop detection configurations"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454860">
+                    <PARAS>
+                        <PARA name="description" value="Configure interface loop detection"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454786">
+                    <PARAS>
+                        <PARA name="description" value="Query interface monitoring group information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454787">
+                    <PARAS>
+                        <PARA name="description" value="Add interface monitoring group information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454788">
+                    <PARAS>
+                        <PARA name="description" value="Configure interface monitoring group information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454789">
+                    <PARAS>
+                        <PARA name="description" value="Delete interface monitoring group information"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454790">
+                    <PARAS>
+                        <PARA name="description" value="Delete invalid interfaces from the interface monitoring group"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454791">
+                    <PARAS>
+                        <PARA name="description" value="MonitorInfo.queryBindingTrackListCommand"/>
+                        <PARA name="moduleID" value="V5_IF"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49989">
+                    <PARAS>
+                        <PARA name="description" value="Refresh Card List Information"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49351">
+                    <PARAS>
+                        <PARA name="description" value="View Slot Details"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="49989">
+                    <PARAS>
+                        <PARA name="description" value="Refresh Card List Information"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51533">
+                    <PARAS>
+                        <PARA name="description" value="Query the frame info"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="51534">
+                    <PARAS>
+                        <PARA name="description" value="Innerlink.queryCommand"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454562">
+                    <PARAS>
+                        <PARA name="description" value="Configure laser information"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454557">
+                    <PARAS>
+                        <PARA name="description" value="Query laser information"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454467">
+                    <PARAS>
+                        <PARA name="description" value="Query optical power"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454760">
+                    <PARAS>
+                        <PARA name="description" value="Query Ethernet Power Supply Information"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454761">
+                    <PARAS>
+                        <PARA name="description" value="Configure Ethernet Power Supply Information"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454351">
+                    <PARAS>
+                        <PARA name="description" value="Query history entity resources"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454350">
+                    <PARAS>
+                        <PARA name="description" value="Delete history entity resources"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454888">
+                    <PARAS>
+                        <PARA name="description" value="Confirm historical resources"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454381">
+                    <PARAS>
+                        <PARA name="description" value="Query DHCP Relay Details"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454834">
+                    <PARAS>
+                        <PARA name="description" value="Query port wavelength or band"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454833">
+                    <PARAS>
+                        <PARA name="description" value="Set port wavelength or band"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454835">
+                    <PARAS>
+                        <PARA name="description" value="Synchronize wavelength and band"/>
+                        <PARA name="moduleID" value="V5_Entity"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455018">
+                    <PARAS>
+                        <PARA name="description" value="DHCP Service Start/Stop"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455019">
+                    <PARAS>
+                        <PARA name="description" value="Get DHCP Service Status"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455023">
+                    <PARAS>
+                        <PARA name="description" value="Validate Script"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455025">
+                    <PARAS>
+                        <PARA name="description" value="Execute Script By Relay"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455024">
+                    <PARAS>
+                        <PARA name="description" value="Execute Script"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455022">
+                    <PARAS>
+                        <PARA name="description" value="Get Device Version Information"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455020">
+                    <PARAS>
+                        <PARA name="description" value="Get Server Local Time"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455021">
+                    <PARAS>
+                        <PARA name="description" value="Get Device Commands"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455026">
+                    <PARAS>
+                        <PARA name="description" value="Reverse Script To Template"/>
+                        <PARA name="moduleID" value="V5_GCLI"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454553">
+                    <PARAS>
+                        <PARA name="description" value="Query address pool information about the DCN"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454554">
+                    <PARAS>
+                        <PARA name="description" value="Configure address pool information about the DCN."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454555">
+                    <PARAS>
+                        <PARA name="description" value="Configure Gateway NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454556">
+                    <PARAS>
+                        <PARA name="description" value="Query address pool information about the gateway NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454563">
+                    <PARAS>
+                        <PARA name="description" value="Get DCN NEs online"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454564">
+                    <PARAS>
+                        <PARA name="description" value="Perform ping detection on DCN NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454442">
+                    <PARAS>
+                        <PARA name="description" value="Set NE Sysname/NE IP Address"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454443">
+                    <PARAS>
+                        <PARA name="description" value="Refresh the links between DCN non-gateway Nes"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454444">
+                    <PARAS>
+                        <PARA name="description" value="Search NEs managed by a GNE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454572">
+                    <PARAS>
+                        <PARA name="description" value="Synchronize DCN view"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454573">
+                    <PARAS>
+                        <PARA name="description" value="Query all gateway information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454575">
+                    <PARAS>
+                        <PARA name="description" value="Query DCN NE and link information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454576">
+                    <PARAS>
+                        <PARA name="description" value="Set DCN configuration management parameters"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454577">
+                    <PARAS>
+                        <PARA name="description" value="Query DCN configuration management parameters"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454582">
+                    <PARAS>
+                        <PARA name="description" value="Deploy basic DCN configurations"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454583">
+                    <PARAS>
+                        <PARA name="description" value="Save node coordinates in the DCN view"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454584">
+                    <PARAS>
+                        <PARA name="description" value="Assign IP addresses to specified NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454585">
+                    <PARAS>
+                        <PARA name="description" value="Release NE IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454586">
+                    <PARAS>
+                        <PARA name="description" value="Assign the LSR ID and link port IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454587">
+                    <PARAS>
+                        <PARA name="description" value="Deploy the LSR ID and link port IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454588">
+                    <PARAS>
+                        <PARA name="description" value="Release the assigned LSR ID and link port IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454589">
+                    <PARAS>
+                        <PARA name="description" value="Assign IP addresses to NEs according to a specified address pool"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454590">
+                    <PARAS>
+                        <PARA name="description" value="Assign the LSR ID and link port IP addresses according to a specified address pool"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454591">
+                    <PARAS>
+                        <PARA name="description" value="Deploy NE IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454593">
+                    <PARAS>
+                        <PARA name="description" value="get dcn deploy log"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454594">
+                    <PARAS>
+                        <PARA name="description" value="Delete Gateway NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454595">
+                    <PARAS>
+                        <PARA name="description" value="Configure default basic configuration template"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454596">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the default basic configuration template"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454605">
+                    <PARAS>
+                        <PARA name="description" value="Delete planned NE link data"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454606">
+                    <PARAS>
+                        <PARA name="description" value="Modify planned NE link data"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454607">
+                    <PARAS>
+                        <PARA name="description" value="Verify planned NE link data"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454608">
+                    <PARAS>
+                        <PARA name="description" value="Import planned NE link data"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454609">
+                    <PARAS>
+                        <PARA name="description" value="Query planned NE link data"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454602">
+                    <PARAS>
+                        <PARA name="description" value="Merge data about online NEs and predeployed NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454603">
+                    <PARAS>
+                        <PARA name="description" value="Split data about online NEs and predeployed NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454601">
+                    <PARAS>
+                        <PARA name="description" value="Query the mappings between real link IDs and planned link IDs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454626">
+                    <PARAS>
+                        <PARA name="description" value="Test whether DCN NEs get online again"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454627">
+                    <PARAS>
+                        <PARA name="description" value="Set NE Telnet/Stelnet Parameter"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454628">
+                    <PARAS>
+                        <PARA name="description" value="get dcnne telnetpara"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454629">
+                    <PARAS>
+                        <PARA name="description" value="Check whether IP addresses for NEs connected to the GNE conflict."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454633">
+                    <PARAS>
+                        <PARA name="description" value="Enable automatic report"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454637">
+                    <PARAS>
+                        <PARA name="description" value="Configure DCN OSPF multi-process of the NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454638">
+                    <PARAS>
+                        <PARA name="description" value="Query DCN OPSF multi-process of the NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454639">
+                    <PARAS>
+                        <PARA name="description" value="Configure NE to advertise IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454640">
+                    <PARAS>
+                        <PARA name="description" value="Check whether the NE advertises IP addresses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454641">
+                    <PARAS>
+                        <PARA name="description" value="DCN GNE GET AUTO RPT"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454675">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT GET NECHNL"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454676">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT GET LAYOUTLINK"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454677">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT REFRESH LAYOUTLINK"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454678">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT GET LAYOUTNE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454679">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT INIT NEID"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454680">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT BUILD NECFG"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454681">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT SEARCH LAYOUTNE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454682">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT QRY LAYOUTNE LINK"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454683">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT DEL GNE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454684">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT SAVE COORDINATE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454685">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT GET IPPOOL"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454686">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT ALLOCATE NEIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454687">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT FREE NEIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454688">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT USED NEIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454689">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT ALLOCATE LINKIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454690">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT FREE LINKIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454693">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT GET LAYOUTLINK BYID"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454694">
+                    <PARAS>
+                        <PARA name="description" value="Preview link configurations"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454695">
+                    <PARAS>
+                        <PARA name="description" value="Apply basic configuration"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454696">
+                    <PARAS>
+                        <PARA name="description" value="IPDCN SET SCRIPT STATUS"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454697">
+                    <PARAS>
+                        <PARA name="description" value="IPDCN GET SCRIPT STATUS"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8585998">
+                    <PARAS>
+                        <PARA name="description" value="Apply the configurations of NEs that are planned after getting online"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454698">
+                    <PARAS>
+                        <PARA name="description" value="Query real links that do not match planned ones"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454699">
+                    <PARAS>
+                        <PARA name="description" value="Switch from the IP LCT to the DCN client"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454700">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT OPEN DCN CLIENT"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454705">
+                    <PARAS>
+                        <PARA name="description" value="Send a notification about the matching between real and planned links"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454706">
+                    <PARAS>
+                        <PARA name="description" value="Delete NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454707">
+                    <PARAS>
+                        <PARA name="description" value="DCN NE offline"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454709">
+                    <PARAS>
+                        <PARA name="description" value="IPDCN SET NE STATUS"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454711">
+                    <PARAS>
+                        <PARA name="description" value="SNMP Ping"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454712">
+                    <PARAS>
+                        <PARA name="description" value="Delete planned links"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454713">
+                    <PARAS>
+                        <PARA name="description" value="Update NE links"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454714">
+                    <PARAS>
+                        <PARA name="description" value="IPDCN NE WRITE LOG"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454715">
+                    <PARAS>
+                        <PARA name="description" value="Delete offine link"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454716">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT GET NE INIT LOGIN PWD"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454721">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT MODIFY ROUTE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454722">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT RELEASE IP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454723">
+                    <PARAS>
+                        <PARA name="description" value="Query planned link information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454724">
+                    <PARAS>
+                        <PARA name="description" value="Cancel DCN view refresh"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454726">
+                    <PARAS>
+                        <PARA name="description" value="Deploy a configuration script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454727">
+                    <PARAS>
+                        <PARA name="description" value="DCN NOTIFY CANCEL REFRESH VIEW END"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454728">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT UPDATE PROGRESS"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454731">
+                    <PARAS>
+                        <PARA name="description" value="Preview the link configuration script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454733">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT BUILD LINK SCRIPT"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454734">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT MODIFY NEIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454758">
+                    <PARAS>
+                        <PARA name="description" value="DCN DEPLOY CFG NOTIFY"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586006">
+                    <PARAS>
+                        <PARA name="description" value="Query links to be planned on the NE that newly gets online"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586014">
+                    <PARAS>
+                        <PARA name="description" value="RT CMD LCT QUERY NE RING"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586017">
+                    <PARAS>
+                        <PARA name="description" value="RT CMD LCT QUERY RING BYID"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586018">
+                    <PARAS>
+                        <PARA name="description" value="RT CMD LCT QUERY NE BYNAME"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586019">
+                    <PARAS>
+                        <PARA name="description" value="RT CMD LCT QUERY SOLUTION"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454793">
+                    <PARAS>
+                        <PARA name="description" value="Preview NE configurations"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586024">
+                    <PARAS>
+                        <PARA name="description" value="RT CMD LCT QUERY RING LINK"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454810">
+                    <PARAS>
+                        <PARA name="description" value="Query universal link information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454826">
+                    <PARAS>
+                        <PARA name="description" value="Query universal DCN NE information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586040">
+                    <PARAS>
+                        <PARA name="description" value="Check layout ip and igp which exited in device."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454830">
+                    <PARAS>
+                        <PARA name="description" value="Replace NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454792">
+                    <PARAS>
+                        <PARA name="description" value="IP DCN LCT BUILD NECFG BATCH"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454759">
+                    <PARAS>
+                        <PARA name="description" value="Query the management IP addresses of NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454762">
+                    <PARAS>
+                        <PARA name="description" value="IPDCN MODIFY SYSNAME NEIP"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454781">
+                    <PARAS>
+                        <PARA name="description" value="Update DCN NE and link information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454782">
+                    <PARAS>
+                        <PARA name="description" value="Modify planning link"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454757">
+                    <PARAS>
+                        <PARA name="description" value="Roll back links that are combined"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454819">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the NE script."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454820">
+                    <PARAS>
+                        <PARA name="description" value="Obtain details about the NE script."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454821">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the NE configuration script."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454822">
+                    <PARAS>
+                        <PARA name="description" value="Obtain details about the NE configuration script."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454823">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the NE script status."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454824">
+                    <PARAS>
+                        <PARA name="description" value="Reset the NE script status."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454825">
+                    <PARAS>
+                        <PARA name="description" value="Deliver the NE configuration script."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454827">
+                    <PARAS>
+                        <PARA name="description" value="Obtain the NE layout status."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454818">
+                    <PARAS>
+                        <PARA name="description" value="Get NE Script Status"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454817">
+                    <PARAS>
+                        <PARA name="description" value="Deploy DCN Ne Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454816">
+                    <PARAS>
+                        <PARA name="description" value="Get Ne Script Detail"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454815">
+                    <PARAS>
+                        <PARA name="description" value="Get Ne Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454814">
+                    <PARAS>
+                        <PARA name="description" value="Reset NE Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454813">
+                    <PARAS>
+                        <PARA name="description" value="Get NE Script Detail"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454812">
+                    <PARAS>
+                        <PARA name="description" value="Get NE Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586052">
+                    <PARAS>
+                        <PARA name="description" value="Query All NE in Main and Slave"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586054">
+                    <PARAS>
+                        <PARA name="description" value="Update the data of Ring Information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586055">
+                    <PARAS>
+                        <PARA name="description" value="Query the status of ring By ID"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586053">
+                    <PARAS>
+                        <PARA name="description" value="Query path between two ASG NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586060">
+                    <PARAS>
+                        <PARA name="description" value="Query templates in the planning database and additional templates"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586061">
+                    <PARAS>
+                        <PARA name="description" value="Query interface resources"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586062">
+                    <PARAS>
+                        <PARA name="description" value="Save additional template"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586063">
+                    <PARAS>
+                        <PARA name="description" value="Build extend configuration"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586075">
+                    <PARAS>
+                        <PARA name="description" value="Add point is completed"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586078">
+                    <PARAS>
+                        <PARA name="description" value="Clear additional template"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586079">
+                    <PARAS>
+                        <PARA name="description" value="Build V8 NE Configuration Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454863">
+                    <PARAS>
+                        <PARA name="description" value="Get the ATN950 Online Type"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454864">
+                    <PARAS>
+                        <PARA name="description" value="Get the ATN950 Online Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586087">
+                    <PARAS>
+                        <PARA name="description" value="Query unplanned NE infomation."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454852">
+                    <PARAS>
+                        <PARA name="description" value="Get Network Link by ID"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454853">
+                    <PARAS>
+                        <PARA name="description" value="Alloc Link Trunk ID"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586088">
+                    <PARAS>
+                        <PARA name="description" value="Notify the dcn node property change"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="11537235">
+                    <PARAS>
+                        <PARA name="description" value="Create IP PLAN DATA"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="11537236">
+                    <PARAS>
+                        <PARA name="description" value="Deloy Script(OSS)"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="11537237">
+                    <PARAS>
+                        <PARA name="description" value="Query Script Deploy Status"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="11537238">
+                    <PARAS>
+                        <PARA name="description" value="RESET NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454858">
+                    <PARAS>
+                        <PARA name="description" value="Search for NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586096">
+                    <PARAS>
+                        <PARA name="description" value="query ne telnet and snmp parameter"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454898">
+                    <PARAS>
+                        <PARA name="description" value="DHCP switch NE notify"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454899">
+                    <PARAS>
+                        <PARA name="description" value="DHCP status notify"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454900">
+                    <PARAS>
+                        <PARA name="description" value="DHCP status notify DCN client"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454913">
+                    <PARAS>
+                        <PARA name="description" value="Set gateway alarm thresholds"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454914">
+                    <PARAS>
+                        <PARA name="description" value="Query gateway alarm thresholds"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586148">
+                    <PARAS>
+                        <PARA name="description" value="Get SensitiveCmd"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454946">
+                    <PARAS>
+                        <PARA name="description" value="Search for gateway NEs by keywords"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454970">
+                    <PARAS>
+                        <PARA name="description" value="Trigger the NE device to synchronize."/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454985">
+                    <PARAS>
+                        <PARA name="description" value="Preview configurations"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454987">
+                    <PARAS>
+                        <PARA name="description" value="Change the initial password for an NE"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454989">
+                    <PARAS>
+                        <PARA name="description" value="Enable trial licenses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454990">
+                    <PARAS>
+                        <PARA name="description" value="Query information about trial licenses"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454994">
+                    <PARAS>
+                        <PARA name="description" value="Check whether NE ESNs conflict"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454995">
+                    <PARAS>
+                        <PARA name="description" value="Check whether NE IDs conflict"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454996">
+                    <PARAS>
+                        <PARA name="description" value="Obtain batch processing result files from NEs"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="11537941">
+                    <PARAS>
+                        <PARA name="description" value="Notify VNF Service Ready"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8454732">
+                    <PARAS>
+                        <PARA name="description" value="Apply Link interfaces configuration"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8586059">
+                    <PARAS>
+                        <PARA name="description" value="Apply supplementary configurations"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455016">
+                    <PARAS>
+                        <PARA name="description" value="DHCP DLL INIT"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455017">
+                    <PARAS>
+                        <PARA name="description" value="DHCP DLL DESTROY"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455018">
+                    <PARAS>
+                        <PARA name="description" value="DHCP Service Start/Stop"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455019">
+                    <PARAS>
+                        <PARA name="description" value="Get DHCP Service Status"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455020">
+                    <PARAS>
+                        <PARA name="description" value="Get Server Local Time"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455021">
+                    <PARAS>
+                        <PARA name="description" value="Get Device Commands"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455022">
+                    <PARAS>
+                        <PARA name="description" value="Get Device Version Information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455023">
+                    <PARAS>
+                        <PARA name="description" value="Validate Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455024">
+                    <PARAS>
+                        <PARA name="description" value="Execute Script"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455025">
+                    <PARAS>
+                        <PARA name="description" value="Execute Script By Relay"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455026">
+                    <PARAS>
+                        <PARA name="description" value="Reverse Script To Template"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455027">
+                    <PARAS>
+                        <PARA name="description" value="GCLI DLL INIT"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455028">
+                    <PARAS>
+                        <PARA name="description" value="GCLI DLL DESTROY"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455031">
+                    <PARAS>
+                        <PARA name="description" value="reveive dhcp message"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455034">
+                    <PARAS>
+                        <PARA name="description" value="Delete online NEs or NEs that do not go online"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455036">
+                    <PARAS>
+                        <PARA name="description" value="Export NE information about the current gateway"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455038">
+                    <PARAS>
+                        <PARA name="description" value="Export links of the current gateway"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455039">
+                    <PARAS>
+                        <PARA name="description" value="Export all links"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455037">
+                    <PARAS>
+                        <PARA name="description" value="Export all NE information"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+                <DESC descname="8455040">
+                    <PARAS>
+                        <PARA name="description" value="Save As"/>
+                        <PARA name="moduleID" value="V5_DCN"/>
+                    </PARAS>
+                </DESC>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

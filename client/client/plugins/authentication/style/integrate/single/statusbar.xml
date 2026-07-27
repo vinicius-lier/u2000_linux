@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+this is a style Information of a status Bar.
+ -->
+<COMMINIDATA>
+	<AREADESC areaname="statusbar">
+		<DESC descname="statusbar">
+			<PARAS>
+				<PARA name="type" value="StatusBar"/>
+			</PARAS>
+			<!-- show the system model message(single/multiply) from sm.-->
+			<DESC descname="loginTime">
+				<PARAS>
+					<PARA name="type" value="StatusBarItem"/>
+					<PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+					<PARA name="messageFont" value="myFont4"/>
+					<PARA name="messageColor" value="black"/>
+					<PARA name="messageIcon" value="logintime.gif"/>
+					<PARA name="flash" value="false"/>
+					<PARA name="layout" value="1"/>
+					<PARA name="minimumSize" value="50,20"/>
+					<PARA name="preferredSize" value="50,20"/>
+					<PARA name="maximumSize" value="32767, 32767"/>
+					<PARA name="serialnumber" value="50"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="SystemModelMessageItem">
+				<PARAS>
+					<PARA name="type" value="StatusBarItem"/>
+					<PARA name="itemType" value="com.swimap.iview.templates.statusbar.StatusBarItem"/>
+					<PARA name="messageColor" value="black"/>
+					<!--PARA name="messageIcon" value="sysmode.gif"/-->
+					<PARA name="flash" value="false"/>
+					<PARA name="layout" value="0"/>
+					<PARA name="minimumSize" value="110,20"/>
+					<PARA name="preferredSize" value="110,20"/>
+					<PARA name="maximumSize" value="200, 20"/>
+					<PARA name="serialnumber" value="80"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

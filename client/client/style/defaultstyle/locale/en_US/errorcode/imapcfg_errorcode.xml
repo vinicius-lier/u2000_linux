@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="imapcfg_errorcode">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="4294967291"   value="The communication with the NE is abnormal." />
+                <PARA name="2685009920"   value="Agent can not put the results of request into the single SNMP message" />
+                <PARA name="2685009921"   value="Designated an object unknown to the agent" />
+                <PARA name="2685009922"   value="The value is not in the domain defined by MIB; note: it does not stand for any value in the range defined by MIB that cannot be set currently" />
+                <PARA name="2685009923"   value="SET operation attempts to modify variables that cannot be written in" />
+                <PARA name="2685009924"   value="SNMP other errors" />
+                <PARA name="117448705"   value="The operation failed." />
+                <PARA name="117448706"   value="The operation partially failed." />
+                <PARA name="117448707"   value="No function description is available." />
+                <PARA name="117448708"   value="No page description is available." />
+                <PARA name="117448709"   value="Cannot get the NE operation interface." />
+                <PARA name="117448710"   value="The returned data created is abnormal." />
+                <PARA name="117448711"   value="The type does not exist in the object layer table." />
+                <PARA name="117448712"   value="It cannot be transferred to a target type." />
+                <PARA name="117448713"   value="The data in the F interface is too lengthy." />
+                <PARA name="117448714"   value="Loading the function failed." />
+                <PARA name="117448715"   value="Not support incremental downloading." />
+                <PARA name="117448716"   value="Reading data failed while downloading." />
+                <PARA name="117448717"   value="Downloading the function failed." />
+                <PARA name="117448718"   value="Updating attribute value table failed." />
+                <PARA name="117448719"   value="Inserting new attribute value failed." />
+                <PARA name="117448720"   value="Updating page table failed." />
+                <PARA name="117448721"   value="Updating object table failed." />
+                <PARA name="117448722"   value="Updating object attribute data failed." />
+                <PARA name="117448723"   value="Querying object attribute data failed." />
+                <PARA name="117448724"   value="Querying object table failed." />
+                <PARA name="117448725"   value="Deleting object attribute data failed." />
+                <PARA name="117448726"   value="Deleting object table failed." />
+                <PARA name="117448727"   value="Querying function table index failed." />
+                <PARA name="117448728"   value="Allocating object index failed." />
+                <PARA name="117448729"   value="Adding new object failed." />
+                <PARA name="117448730"   value="Adding object attribute failed." />
+                <PARA name="117448731"   value="Source and host type does not match the object layer table." />
+                <PARA name="117448732"   value="No log querying operation code is defined." />
+                <PARA name="117448733"   value="No log modifying operation code is defined." />
+                <PARA name="117448734"   value="No log creating operation code is defined." />
+                <PARA name="117448735"   value="No log deleting operation code is defined." />
+                <PARA name="117448736"   value="Multiple logs cannot be created at one time." />
+                <PARA name="117448737"   value="Abnormal operation type." />
+                <PARA name="117448738"   value="No attribute description is available." />
+                <PARA name="117452801"   value="Querying NE object table failed." />
+                <PARA name="117452802"   value="Operation request types of multiple NEs should be consistent." />
+                <PARA name="117452803"   value="Cannot transfer to the object that can be queried." />
+                <PARA name="117452804"   value="Attributes of multiple query requests should be consistent." />
+                <PARA name="117452805"   value="Multiple modification request should be in one table." />
+                <PARA name="117452806"   value="The NE cannot recognize objects." />
+                <PARA name="117452807"   value="Initializing NE request failed." />
+                <PARA name="117452808"   value="Error occurred when interacting with the NE." />
+                <PARA name="117452809"   value="No MIB item corresponding to the attribute is available." />
+                <PARA name="117452810"   value="No MIB item corresponding to the object is available." />
+                <PARA name="117452811"   value="Transferring IFINDEX failed." />
+                <PARA name="117452812"   value="MIB Type cannot be transferred." />
+                <PARA name="117452813"   value="No applicable MIB description be found." />
+                <PARA name="117452814"   value="No applicable IFINDEX adapter be found." />
+                <PARA name="117452815"   value="No NE interface of item available." />
+                <PARA name="117452816"   value="Get NE host version failed." />
+                <PARA name="117452817"   value="Multiple MIB must be consistent." />
+                <PARA name="117450753"   value="Can&apos;t create object because the resource is not enough." />
+                <PARA name="117450754"   value="Can&apos;t create object." />
+                <PARA name="117450755"   value="The operation partially failed." />
+                <PARA name="117450756"   value="The table's data is not changed, please change the Data before apply." />
+                <PARA name="117450757"   value="The table's data is changed. Are you sure?" />
+                <PARA name="117450758"   value="Please choice one line before operation." />
+                <PARA name="117450759"   value="There is not new object that is Crated now." />
+                <PARA name="117450760"   value="There is no object that is deleted now." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

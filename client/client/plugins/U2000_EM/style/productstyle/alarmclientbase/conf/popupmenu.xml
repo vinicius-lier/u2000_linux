@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="IfmsRes"></PARA>
+			</PARAS>
+		</DESC>
+
+        <!--define a popupmenu for query alarm   当前告警右键菜单配置项 -->
+		<DESC descname="AlarmQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="AlarmQuery_PopUpMenu" />
+				<PARA name="name" value="AlarmQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+            
+			
+			<!-- 联动确认 菜单 U2000特有 平台默认不显示U2000定制显示 -->
+			<!-- DESC descname="Linkage_Confirm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_ack" />
+					<PARA name="command" type="" value="LinkageAlarmListConfirm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="C"></PARA>
+					<PARA name="serialnumber" value="1250"></PARA>
+				</PARAS>
+			</DESC -->
+			
+			<!-- 联动反确认 菜单 U2000特有 平台默认不显示U2000定制显示 -->
+			<!-- DESC descname="Linkage_UnConfirm_PopUpMenu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_unack" />
+					<PARA name="command" type="" value="LinkageAlarmListUnConfirm" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="U"></PARA>
+					<PARA name="serialnumber" value="1270"></PARA>
+				</PARAS>
+			</DESC -->
+			
+			<!-- 浅度清除 菜单 U2000特有 平台默认不显示U2000定制显示 -->
+			<!-- DESC descname="AlarmRecoveryNo2device_Menu">
+				<PARAS>
+					<PARA name="name" type="" value="Recovery" />
+					<PARA name="command" type="" value="AlarmRecoveryNo2device" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="L"></PARA>
+					<PARA name="serialnumber" value="1280"></PARA>
+				</PARAS>
+			</DESC -->
+			
+			<!-- 联动清除 菜单 U2000特有 平台默认不显示U2000定制显示 -->
+			<!-- DESC descname="AlarmLinkageClear_Menu">
+				<PARAS>
+					<PARA name="name" type="" value="linkage_clear" />
+					<PARA name="command" type="" value="AlarmLinkageClear" />
+					<PARA name="type" type="" value="JMenuItem" />
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="1350"></PARA>
+				</PARAS>
+			</DESC -->
+			
+		</DESC>
+		
+		<!--define a popupmenu for query alarm  历史告警-->
+		<DESC descname="HistoryQuery_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="HistoryQuery_PopUpMenu" />
+				<PARA name="name" value="HistoryQuery_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value=""></PARA>
+			</PARAS>
+            
+		</DESC>
+		
+		<!--topo alarm popup menu : end-->
+		<DESC descname="Ne_Synchronize_Popup">
+			<PARAS>
+				<PARA name="type" value="JPopupMenu"></PARA>
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			<DESC descname="Ne_Synchronize_Popup">
+				<PARAS>
+                 <PARA name="operation" value="delete"></PARA>
+				</PARAS>
+			</DESC>
+		</DESC>
+		
+		<!--topo alarm popup menu : Start-->
+		<DESC descname="TopoAlarm_PopUpMenu">
+			<PARAS>
+				<PARA name="id" value="TopoAlarm_PopUpMenu" />
+				<PARA name="name" value="TopoAlarm_PopUpMenu" />
+				<PARA name="type" value="JPopupMenu" />
+				<PARA name="serialnumber" value="100"></PARA>
+			</PARAS>
+			<!--define a menuitem-->
+			<DESC descname="QueryTopoAlarm_MenuItem">
+				<PARAS>
+					<PARA name="name" value="QueryTopoAlarm_MenuItem"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="mnemonic" value="R"></PARA>
+					<PARA name="serialnumber" value="100-100"></PARA>
+				</PARAS>
+				<DESC descname="QueryAlarmList_MenuItem">
+					<PARAS>
+                      <PARA name="operation" value="delete"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+
+	</AREADESC>
+</COMMINIDATA>

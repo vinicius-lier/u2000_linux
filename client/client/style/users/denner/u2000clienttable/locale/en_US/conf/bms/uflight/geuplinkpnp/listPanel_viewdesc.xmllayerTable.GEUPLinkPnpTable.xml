@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Deploymentstatus" name="Deployment Status" isVisiable="true" isEditable="false" width="130" isNameModified="false" />
+  <column id="FrameID" name="Subrack" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="SlotID" name="Slot" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="PortID" name="Port" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="DevName" name="Device Name" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="SlaveIpAddress" name="IP Address" isVisiable="true" isEditable="true" width="86" isNameModified="false" />
+  <column id="SlaveVlan" name="Management VLAN (1-4095)" isVisiable="true" isEditable="true" width="181" isNameModified="false" />
+  <column id="SlaveVlanPriority" name="VLAN Priority (0-7)" isVisiable="true" isEditable="true" width="125" isNameModified="false" />
+  <column id="SlaveIpMask" name="IP Mask" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="SlaveGateway" name="Gateway" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="SnmpProfileName" name="SNMP Profile" isVisiable="true" isEditable="true" width="98" isNameModified="false" />
+</table>
+

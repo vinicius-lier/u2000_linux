@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+	    <DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="Res"></PARA>
+			</PARAS>
+		</DESC>
+        <DESC descname="welcomebuttonsetting">
+         <DESC descname="TOPOWelComeButton">
+            <PARAS>
+            <PARA name="name" value="MainTopoTitle"></PARA>
+            <PARA name="description" value="MainTopoTitle"></PARA>
+            <PARA name="icon" value="image/TopoMap.png"></PARA>
+            <PARA name="category" value="WelcomeButtonTopo"></PARA>
+            <PARA name="command" value="ShowMyTopoFrame"></PARA>
+            <PARA name="serialnumber" value="11"></PARA>
+            <PARA name="linkseqnumber" value="1"></PARA>
+            </PARAS>
+        </DESC>
+        </DESC>
+    <DESC descname="categorysetting">
+	    <DESC descname="WelcomeButtonTopo">
+				<PARAS>
+	    		<PARA name="linkseqnumber" value="300"></PARA>
+        </PARAS>
+    	</DESC>  	
+		</DESC>
+    </AREADESC>
+</COMMINIDATA>

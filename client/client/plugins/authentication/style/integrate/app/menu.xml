@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="Res"/>
+			</PARAS>
+		</DESC>
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"/>
+				<PARA name="type" value="MenuSet"/>
+			</PARAS>  
+            <DESC descname="SECURITY_MAINMENU">
+				<PARAS>
+                    <PARA name="name" value="NMSUSER_MAINMENU"/>
+                    <PARA name="mnemonic" value="C"/>
+                    <PARA name="accelerator" value="VK_C"/>
+                    <PARA name="type" value="JMenu"/>
+                    <PARA name="serialnumber" value="600"/>
+				</PARAS>
+				<DESC descname="CHANGE_PASSWORD">
+					<PARAS>
+						<PARA name="name" value="CHANGE_PASSWORD"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="authentication:Change password"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="H"/>
+						<PARA name="accelerator" value="VK_H"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-30"/>
+						<PARA name="showInPortalPanel" value="true" />
+					    <PARA name="isFavorite" value="false" />  
+						<PARA name="visibleApps">
+						    <VALUE value="SecurityMgr"></VALUE>
+						</PARA>
+				    </PARAS>
+				</DESC>   
+			    
+				<!-- DESC descname="SWITCH_LOGIN_SERVER">
+					<PARAS>
+						<PARA name="name" value="SWITCH_LOGIN_SERVER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="authentication:SWITCH_LOGIN_SERVER"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="V"/>
+						<PARA name="accelerator" value="VK_V"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="600-40"/>
+						<PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="false" />
+						<PARA name="visibleApps">
+						    <VALUE value="SecurityMgr"></VALUE>
+						</PARA>
+					</PARAS>
+				</DESC --> 
+				
+                <!-- DESC descname="UpgradeCheck">
+                    <PARAS>
+    					<PARA name="name" value="UPGRADE_CHECK"></PARA>
+    					<PARA name="icon" value=""></PARA>
+    					<PARA name="command" value="authentication:check upgrade"></PARA>
+    					<PARA name="type" value="JMenuItem"></PARA>
+    					<PARA name="mnemonic" value="C"></PARA>
+    					<PARA name="accelerator" value="VK_C"></PARA>
+    					<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+    					<PARA name="serialnumber" value="600-50"></PARA>
+    					<PARA name="showInPortalPanel" value="true" />
+    					<PARA name="isFavorite" value="false" />  
+						<PARA name="visibleApps">
+						    <VALUE value="SecurityMgr"></VALUE>
+						</PARA>
+    				</PARAS>
+    			</DESC -->
+                <DESC descname="Separator">
+                    <PARAS>
+                        <PARA name="name" value="Separator"></PARA>
+                        <PARA name="type" value="Separator"></PARA>
+                        <PARA name="serialnumber" value="600-60"></PARA>
+                        <PARA name="showInPortalPanel" value="true" />
+			<PARA name="isFavorite" value="false" />  
+                    </PARAS>
+                </DESC>
+    		</DESC>
+        </DESC>
+	</AREADESC>
+</COMMINIDATA>

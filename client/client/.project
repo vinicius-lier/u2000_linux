@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>BITS</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>a</name>
+			<type>2</type>
+			<location>G:/U2000V1R2C01_C/U2000V1R5/NW_N2KBMS2_Code_VOB/subsystem/nemgr_access/client/src</location>
+		</link>
+		<link>
+			<name>untied</name>
+			<type>2</type>
+			<location>G:/U2000V1R2C01_C/U2000V1R5/NW_N2KBMS2_Code_VOB/U2K_PUBLIC/unitedmgr/code/client/src</location>
+		</link>
+	</linkedResources>
+</projectDescription>

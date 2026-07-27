@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+
+<DESC descname="Bundle">
+<PARAS>
+    <PARA name="type" value="ResourceBundle"></PARA>
+    <PARA name="resourceBundleName" value="bms/hgmpcluster/clstres"></PARA>
+</PARAS>
+</DESC>
+
+<DESC descname="role_11001">
+    <PARAS>
+    <PARA name="name" value="role_11001"></PARA>
+    <PARA name="type" value="JPopupMenu"></PARA>
+    </PARAS>
+
+        <DESC descname="Separator">
+          	<PARAS>
+            		<PARA name="type" value="Separator"/>
+          	</PARAS>
+        </DESC>
+        <DESC descname="ClusterManager">
+                <PARAS>
+                        <PARA name="name" value="menu_ClusterManager"/>
+                        <PARA name="type" value="JMenu"/>
+                </PARAS>
+
+                <DESC descname="RefreshCluster">
+               	        <PARAS>
+                       	        <PARA name="name" value="RefreshCluster"/>
+                                <PARA name="mnemonic" value="R"/>
+                               	<PARA name="command" value="refreshCluster"/>
+                               	<PARA name="type" value="JMenuItem"/>
+                       	</PARAS>
+               	</DESC>
+                <DESC descname="menu_ConfCluster">
+               	        <PARAS>
+                       	        <PARA name="name" value="menu_ConfCluster"/>
+                                <PARA name="mnemonic" value="C"/>
+                               	<PARA name="command" value="ConfCluster"/>
+                               	<PARA name="type" value="JMenuItem"/>
+                       	</PARAS>
+               	</DESC>
+                <DESC descname="menu_DismissCluster">
+               	        <PARAS>
+                       	        <PARA name="name" value="menu_DismissCluster"/>
+                                <PARA name="mnemonic" value="D"/>
+                               	<PARA name="command" value="DismissCluster"/>
+                               	<PARA name="type" value="JMenuItem"/>
+                       	</PARAS>
+               	</DESC>
+                <DESC descname="menu_AddMemberLanswth">
+               	        <PARAS>
+                       	        <PARA name="name" value="menu_AddMemberLanswth"/>
+                                <PARA name="mnemonic" value="A"/>
+                               	<PARA name="command" value="AddMemberLanswth"/>
+                               	<PARA name="type" value="JMenuItem"/>
+                       	</PARAS>
+               	</DESC>
+                <DESC descname="menu_DeleteMemberLanswth">
+               	        <PARAS>
+                       	        <PARA name="name" value="menu_DeleteMemberLanswth"/>
+                                <PARA name="mnemonic" value="M"/>
+                               	<PARA name="command" value="DeleteMemberLanswth"/>
+                               	<PARA name="type" value="JMenuItem"/>
+                       	</PARAS>
+                </DESC>
+        </DESC>
+</DESC>
+
+</AREADESC>
+</COMMINIDATA>

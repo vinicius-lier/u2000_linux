@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="welcomepage">
+        <DESC descname="pagesetting">
+            <PARAS>
+ <!-- set it true if welcome page has to display otherwise false -->
+                <PARA name="isEnableWelcomePage" value="true" />
+<!-- set it true if welcome page has to display after relogin otherwise false -->                
+				<PARA name="isEnableAfterRelogin" value="true" /> 
+<!-- set the path of image to be display  in welcome page -->
+				<PARA name="welcomeImage" value="common/welcomepage.jpg" /> 
+<!-- set the title of welcome page -->
+				<PARA name="welcomepagetitle" value="Welcome" /> 
+<!-- set the close icon is enabled or not for the workbench -->				
+				<PARA name="isWorkBenchCloseable" value="false" />
+<!-- flag to check if dynamic welcome button should load in separate thread or not, default is false -->				
+				<PARA name="loadWelcomeButtonThread" value="false" />
+				<!-- flag to enable default open window feature,  by default false -->
+<PARA name ="isDefaultOpenWindow"  value="false"/>	
+            </PARAS>
+        </DESC>
+        
+    </AREADESC>
+</COMMINIDATA>

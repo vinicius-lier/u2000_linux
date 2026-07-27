@@ -1,0 +1,90 @@
+# Time out for RPC
+RPC_TIMEOUT=300000
+# The max thread count for the install progress thread
+# max working threads in progress page which is responsible for starting the install and collecting the progress
+# code will initialize with less than or equal to this based on number of total nodes
+PROGRESS_MAX_THREADS=150
+
+#Maximum Progress Collection interval (in seconds) - common for all nodes
+#Note : when number of node increase , minimum with in this time progress will be collected for all machines once
+PROGRESS_COLLECT_MAX_SLEEPTIME=2 
+
+#connect failed node retry interval in seconds
+PROGRESS_CONNECTCHECK_RETRY_INTERVAL=5
+
+#connect failed node retry count attempts
+PROGRESS_CONNECTCHECK_RETRY_COUNT=6
+
+# the remote task number control count
+REMOTETASK_MAX_NUM=300
+
+# The step interval of workflow functions
+FUNC_STEP_INTERVAL=10000
+
+# The step interval of workflow level loop elements
+LOOP_ELEMENT_STEP_INTERVAL=100
+
+# the business xml file path for install business
+INSTALL_WORKFLOW_BUSINESS_FILE=engineering/conf/workflow/businesses.xml
+
+# the function xml file path for install business
+INSTALL_WORKFLOW_FUNCTION_FILE=engineering/conf/workflow/functions.xml
+
+UPGRADE_WORKFLOW_BUSINESS_FILE=engineering/conf/workflow/UpgradeBusinesses.xml
+
+UPGRADE_WORKFLOW_FUNCTION_FILE=engineering/conf/workflow/UpgradeFunctions.xml
+
+UPGRADE_BUSINESS_NAME=upgrade
+
+ROLLBACK_BUSINESS_NAME=Rollback
+# the install business name
+INSTALL_BUSINESS_NAME=install
+
+# the install business name
+UPGRADEINSTALL_BUSINESS_NAME=upgradeinstall
+
+# the business xml file path for deploy business
+DEPLOY_WORKFLOW_BUSINESS_FILE=engineering/conf/workflow/businesses.xml
+
+# the function xml file path for deploy business
+DEPLOY_WORKFLOW_FUNCTION_FILE=engineering/conf/workflow/functions.xml
+
+# add instance business name
+ADD_INSTANCE_BUSINESS_NAME=addSubsystemInstance
+
+# delete instance business name
+DELETE_INSTANCE_BUSINESS_NAME=deleteSubsystemInstance
+
+# move instance business name
+MOVE_INSTANCE_BUSINESS_NAME=MoveSubsystemInstance
+
+#restore business name
+PREPARE_RESTORE_BUSINESS_NAME=PrepareRestore
+
+DO_RESTORE_BUSINESS_NAME=DoRestore
+
+# the business xml file path for patch business
+PATCH_WORKFLOW_BUSINESS_FILE=engineering/conf/workflow/businesses.xml
+
+# the function xml file path for patch business
+PATCH_WORKFLOW_FUNCTION_FILE=engineering/conf/workflow/functions.xml
+
+# patch install  business name
+PATCH_INSTALL_BUSINESS_NAME=PatchInstallFlow
+
+# patch rollback business name
+PATCH_ROLLBACK_BUSINESS_NAME=PatchRollBackFlow
+
+# The business name for increment install.
+INCREMENT_INSTALL_BUSINESS_NAME=IncrementInstall
+
+# The business name for increment install.
+ADDNODE_BUSINESS_NAME=AddNode
+
+#init dabase business name
+INIT_DATABASE_BUSINESS_NAME=InitAllDatabases
+
+#delete component business name
+DELETE_COMPONENT_BUSINESS_NAME=DeleteComponent
+DEPLOY_INSTANCE_BUSINESS_NAME = deployByDomain
+UNDEPLOY_INSTANCE_BUSINESS_NAME = undeployByDomain

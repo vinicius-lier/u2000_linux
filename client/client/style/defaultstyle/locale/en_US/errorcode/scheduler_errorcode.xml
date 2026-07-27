@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Scheduler">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="268531200"   value="Illegal runtime of task. The runtime should follow the rules below: \n1. The runtime refers to the time on server. \n2. The runtime should be at least 5 minutes later than current time on server." />
+                <PARA name="268531201"   value="The task does not exist." />
+                <PARA name="268531202"   value="The task is running, it can't be deleted, modified, started." />
+                <PARA name="268531203"   value="A task with the same name exists." />
+                <PARA name="268531204"   value="The task running failed." />
+                <PARA name="268531205"   value="Running the task timeout." />
+                <PARA name="268531206"   value="Database operation failed." />
+                <PARA name="268531207"   value="Starting up the task timeout." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

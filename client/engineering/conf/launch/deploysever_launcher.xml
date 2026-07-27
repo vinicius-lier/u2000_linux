@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launcher>
+	<module name="base" autoload="true" location="engineering/modules/base" />
+	<module name="platform" autoload="true" location="engineering/modules/platform" />
+	<module name="framework" autoload="true" location="engineering/modules/framework" />
+	<module name="public" autoload="true" location="engineering/modules/public" />
+	<module name="business" autoload="true" location="engineering/plugins" >
+		<exclude name="*InstallDiskStarter*"/>
+		<exclude name="*InstallStarter*"/>
+		<exclude name="*MSuiteStarter*"/>
+		<!-- Msuite -->
+		<exclude name="*businessDeploymentToolClient*"/>
+		<exclude name="*BusinessIncrementInstallClient*"/>
+		<exclude name="*BusinessInitDBClient*"/>
+		<exclude name="*BusinessInitDBPages*"/>
+		<exclude name="*BusinessStorageClient*"/>
+		<exclude name="*BusinessStoragePages*"/>
+		<exclude name="*BusinessCommissioningClient*"/>
+		<!-- Install -->
+		<exclude name="*BusinessInstallClient*"/>
+		<exclude name="*BusinessInstallPages*"/>
+		<exclude name="*BusinessUninstallPages*"/>
+		<exclude name="*UninstallClient*"/>
+		<exclude name="*BusinessUninstallService*"/>
+		<!-- patch -->
+		<exclude name="*PatchStarter*"/>
+		<exclude name="*Patchpages*"/>
+		<exclude name="*PatchBusinessManager*"/>
+		<exclude name="*PatchInstallBusiness*"/>
+		<exclude name="*PatchWorkflowCreator*"/>
+		<!-- upgrade -->
+		<exclude name="*upgradePages*"/>
+		<exclude name="*PreUpgrade*"/>
+		<exclude name="*upgradeFramework*"/>
+		<exclude name="*UpgradeStarter*"/>
+		<exclude name="*UpgradeWorkFlowServer*"/>
+	</module>
+	<module name="product_server" autoload="true" location="install/modules/product_server"/>
+	<module name="product_msuiteserver" autoload="true" location="install/modules/product_msuiteserver"/>
+</launcher>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<device-panel>
+  <type-descriptor>
+    <buckled-card>
+      <visible-allowed>true</visible-allowed>
+      <popupmenu-ref />
+      <type>5_148523</type>
+      <compatibility>H901CKUA</compatibility>
+    </buckled-card>
+  </type-descriptor>
+</device-panel>
+

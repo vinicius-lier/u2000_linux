@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="skin">
+        
+        <DESC descname="skin">
+            <PARAS>
+			    <!-- id represents the skin folder name-->
+                <PARA name="enable" value="false" />
+				<PARA name="default_skin_id" value="gray" />
+				<PARA name="current_skin_id" value="blue" />              
+            </PARAS>
+        </DESC>
+        
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="syslog">
+        <DESC descname="syslogConfig">
+            <PARAS>
+            	  <PARA name="minRecord" value="1" />
+                <PARA name="maxRecord" value="1400000" />
+            </PARAS>
+        </DESC>
+        <DESC descname="usableDeviceType">
+           <PARAS>
+               <PARA name="s3900" value="1284" />
+               <PARA name="s5600" value="1285" />
+           </PARAS>
+        </DESC>
+     </AREADESC>
+</COMMINIDATA>

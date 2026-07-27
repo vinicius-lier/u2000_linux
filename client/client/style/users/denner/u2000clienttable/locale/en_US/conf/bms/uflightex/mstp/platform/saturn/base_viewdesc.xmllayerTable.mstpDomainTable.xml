@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="OperRegionName" name="Region Name" isVisiable="true" isEditable="true" width="103" isNameModified="false" />
+  <column id="OperRevisionLevel" name="Revision Level (0-65535)" isVisiable="true" isEditable="true" width="163" isNameModified="false" />
+  <column id="MD5KEY" name="Operation Key" isVisiable="true" isEditable="true" width="103" isNameModified="false" />
+  <column id="OperFormatSelector" name="Format Selector" isVisiable="true" isEditable="true" width="113" isNameModified="false" />
+  <column id="RegionConfActive" name="Region Status" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+</table>
+

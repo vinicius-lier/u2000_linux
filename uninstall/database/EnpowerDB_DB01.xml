@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>EnpowerDB</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>EnpowerDBdata</devicename>
+	<filename>EnpowerDB_data.mdf</filename>
+	<dbsize>50</dbsize>
+	<dbmaxsize>100</dbmaxsize>
+	<dbthreshold>20</dbthreshold>
+	<dbfilegrowth>50</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>EnpowerDBlog</logdevicename>
+	<logfilename>EnpowerDB_log.ldf</logfilename>
+	<logsize>30</logsize>
+	<logmaxsize>30</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!-- 编辑使用 XMLSpy v2006 U (http://www.altova.com) 由 any (any) -->
+<!--domains:用于配置要控制的组件,其中:clientstartbat、serverstartbat、serverstopbat可以以分号分隔来配置多个脚本路径,
+且支持环境变量,如%tmp%,当值为"null"时会忽略此项。-->
+<!--controllers:用于配置操作按钮,其中command中可直接写批处理路径,也可引用domain中的批处理(使用$domain$columnname),
+同时也可引用其它按钮的事件(使用$controller$id),可以用分号分隔多个事件,命令行可以携带参数,不过要紧接批处理脚本,且用
+[]标识,如XXX.bat[para]-->
+<configItem>
+  <domains>
+    <domain>
+      <id>trans</id>
+      <name>TRANS</name>
+      <clientfolder>consts;frame;unitedmgr;t2000;nml;dc;pms;pqm;xftp</clientfolder>
+      <installpath>uninstall\database\nemgr_transDB_1_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_trans.bat</serverstartbat>
+      <serverstopbat>d</serverstopbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>marine</id>
+      <name>MARINE</name>
+      <clientfolder>consts;frame;unitedmgr;t2000;nml;dc;pms;pqm;xftp;</clientfolder>
+      <installpath>uninstall\database\nemgr_marineDB_1_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_marine.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>switch</id>
+      <name>SWITCH</name>
+      <clientfolder>consts;frame;unitedmgr;common;diagnosis;gctl;hgmp;ipview;l2view;link;lspmgr;qos;rprview;sc;scdiagnosis;switchmgr;dc;pms;pqm;xftp;dmssyslog;deployment;batchconfig;crossneutil</clientfolder>
+      <installpath>uninstall\database\BoxSwitchMgrDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_switch.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>router</id>
+      <name>ROUTER</name>
+      <clientfolder>consts;frame;unitedmgr;common;diagnosis;gctl;hgmp;ipview;l2view;link;lspmgr;qos;routermgr;rprview;sc;scdiagnosis;sgmgr;dc;pms;pqm;xftp;dmssyslog;netacl;batchconfig;crossneutil</clientfolder>
+      <installpath>uninstall\database\RouterMgrDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_router.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>security</id>
+      <name>SECURITY</name>
+      <clientfolder>consts;frame;unitedmgr;common;gctl;securitymgr;secvpnmgr;secpolicymgr;dc;pms;pqm;xftp;dmssyslog;seccomm</clientfolder>
+      <installpath>uninstall\database\SecurityMgrDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <serverstartbat>%oss_root%\server\tools\DomainCtrl\start_security.bat</serverstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+    <domain>
+      <id>access</id>
+      <name>ACCESS</name>
+      <clientfolder>consts;frame;unitedmgr;access;dc;pms;pqm;xftp;</clientfolder>
+      <installpath>uninstall\database\BMSDB_DB01.xml</installpath>
+      <clientstartbat>null</clientstartbat>
+      <selected>false</selected>
+      <visible>true</visible>
+    </domain>
+  </domains>
+  <controllers>
+    <controller>
+      <id>startclient</id>
+      <name>Start Client(L)</name>
+      <command>%oss_root%\client\startup_all_global.bat</command>
+      <needdomainids>true</needdomainids>
+      <visible>true</visible>
+      <mustselectdomain>true</mustselectdomain>
+      <muststopserver>false</muststopserver>
+    </controller>
+    <controller>
+      <id>startserver</id>
+      <name>Start Server(S)</name>
+      <command>%oss_root%\server\tools\domainctrl\DomainCtrlStart.bat</command>
+      <needdomainids>true</needdomainids>
+      <visible>true</visible>
+      <mustselectdomain>true</mustselectdomain>
+      <muststopserver>true</muststopserver>
+    </controller>
+    <controller>
+      <id>optimizesystem</id>
+      <name>Optimize System(P)</name>
+      <command>%IMAP_ROOT%\tools\optimize\force_optimize.bat</command>
+      <needdomainids>false</needdomainids>
+      <promptmsg>We will close some unnecessary service,and will be resume automaticaly when restart the computer,Y is continue,N is cancel</promptmsg>
+      <suretitle>Confirm</suretitle>
+      <visible>false</visible>
+    </controller>
+    <controller>
+      <id>startclientserver</id>
+      <name>Start Client and Server(U)</name>
+      <command>$controller$startclient;$controller$startserver</command>
+      <needdomainids>true</needdomainids>
+      <visible>false</visible>
+      <mustselectdomain>true</mustselectdomain>
+      <muststopserver>true</muststopserver>
+    </controller>
+    <controller>
+      <id>closeserver</id>
+      <name>Close Server(X)</name>
+      <command>$domain$serverstopbat</command>
+      <needdomainids>true</needdomainids>
+      <visible>false</visible>
+    </controller>
+  </controllers>
+  <view>
+    <framewidth>473</framewidth>
+    <frameheight>304</frameheight>
+    <domainsColumn>2</domainsColumn>
+    <controllersColumn>3</controllersColumn>
+  </view>
+  <properties>
+    <title>U2000 Domain Control Tool</title>
+    <cancelbtn>Cancel(C)</cancelbtn>
+    <needDomainPrompt>Choice Domain</needDomainPrompt>
+    <borderTitle>Choice Domain</borderTitle>
+    <commanderror>Command config error,Please check the command line in the file which in controllers/controller of config.xml</commanderror>
+	<checkproc>The OSS server process is running,Please stop it first.</checkproc>
+  </properties>
+  <clientlinkpath>../style/productstyle/link.properties</clientlinkpath>
+  <clientlink>consts;frame;unitedmgr;t2000;nml;centralizedpolicyconfiguration;common;diagnosis;gctl;hgmp;ipview;l2view;link;lspmgr;qos;routermgr;rprview;sc;scdiagnosis;securitymgr;secvpnmgr;secpolicymgr;sgmgr;switchmgr;access;dc;pms;pqm;xftp;dmssyslog;deployment;netacl;batchconfig;crossneutil;seccomm</clientlink>
+  <cmdtext>$filename$</cmdtext>
+</configItem>
+

@@ -1,0 +1,6 @@
+NBI=北向接口
+nbi_snmp_agent=SNMP北向接口组件
+nbi_snmp_agent.InstallInfo=包括SNMP北向接口组件。
+nbi_snmp_agent.UninstallInfo=包括SNMP北向接口组件。
+nbi_snmp_agent_server = SNMP北向接口代理组件
+NorthBoundInterface=北向接口

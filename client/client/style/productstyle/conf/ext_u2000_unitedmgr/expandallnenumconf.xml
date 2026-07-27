@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ExpandAllNENumberConf">
+			<PARAS>
+				<PARA name="Prompt_Value" value="400"/>
+				<PARA name="Forbid_Value" value="3000"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

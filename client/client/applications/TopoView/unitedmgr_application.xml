@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="startupElementList">
+		
+			<DESC descname="plugins">
+                <PARAS>
+					  <PARA name="com.swimap.adapter.message.sm"/>
+					  <PARA name="com.swimap.adapter.message.common"/>
+			          <PARA name="com.swimap.extension.registry"/>		
+			          <PARA name="com.swimap.color"/>	
+					  <PARA name="alarmclient"/>
+					  <PARA name="com.swimap.adapter.message.fm"/>
+					  <PARA name="com.swimap.adapter.message.resource"/>
+					  <PARA name="com.swimap.adapter.message.tm"/>
+					  <PARA name="resource"/>	
+			          <PARA name="eam"/>		
+			          <PARA name="topobase"/>	
+					  <PARA name="topoclient"/>
+				  <PARA name="boardgraph"/>
+					<PARA name="unitedmgr"/>
+					<PARA name="U2000_Solution"/>
+					<PARA name="search"/>
+                </PARAS>
+            </DESC>
+		
+            <DESC descname="productlibs">
+                <PARAS>
+				    <PARA name="base"/>
+				    <PARA name="unitedmgr"/>
+                    <PARA name="im_phy"/>
+					<PARA name="nml_common"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="LOG_LogQueryPanel_LogRecordTable043(BT_N/BT_R/BT_T)">
+		<DESC descname="Security Event">
+			<PARAS>
+				<PARA name="colName" value="Security Event"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="0"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Risk Level">
+			<PARAS>
+				<PARA name="colName" value="Risk Level"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="1"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operator">
+			<PARAS>
+				<PARA name="colName" value="Operator"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="2"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="User Type">
+			<PARAS>
+				<PARA name="colName" value="User Type"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="3"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operation Time">
+			<PARAS>
+				<PARA name="colName" value="Operation Time"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="4"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operation Terminal">
+			<PARAS>
+				<PARA name="colName" value="Operation Terminal"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="5"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operation Object">
+			<PARAS>
+				<PARA name="colName" value="Operation Object"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="6"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operation Result">
+			<PARAS>
+				<PARA name="colName" value="Operation Result"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="7"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Details">
+			<PARAS>
+				<PARA name="colName" value="Details"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="200"></PARA>
+				<PARA name="index" value="8"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

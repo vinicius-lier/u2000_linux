@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+
+<COMMINIDATA>
+
+  <AREADESC><!-- define a menuSet
+
+menuSet:
+
+        descname as the menuSet's id, must be unique.
+
+        must have a type para, and the value is "MenuSet"
+
+
+
+JMenu:(super class must be JMenu)
+
+        descname as the menuID.
+
+        must hava a type para, and the value is "JMenu"
+
+
+
+JMenu's sub element
+
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+
+
+ -->
+
+    <DESC descname="ResourceBundle">
+
+      <PARAS>
+
+        <PARA name="type" value="ResourceBundle"></PARA>
+
+        <PARA name="resourceBundleName" value="Res"></PARA>
+
+      </PARAS>
+
+    </DESC><!-- mainMenu MenuSet type start  -->
+
+    <DESC descname="mainMenu">
+
+      <PARAS>
+
+        <PARA name="name" value="main Menu"></PARA>
+
+        <PARA name="type" value="MenuSet"></PARA>
+
+      </PARAS><!-- define a menu have" name" and "mnemonic" attributes -->
+
+      <DESC descname="FileMenu">
+      	<PARAS>
+      		<PARA name="name" value="File"></PARA>
+      		<PARA name="mnemonic" value="F"></PARA>
+      		<PARA name="accelerator" value="VK_F"></PARA>
+      		<PARA name="type" value="JMenu"></PARA>
+      		<PARA name="icon" value=""></PARA>
+      		<PARA name="serialnumber" value="100"></PARA>
+      	</PARAS>
+
+      	<!-- define a menuitem -->
+      	<DESC descname="modify password">
+      		<PARAS>
+      			<PARA name="name" value="Change_Password..."></PARA>
+      			<PARA name="icon" value=""></PARA>
+      			<PARA name="command" value="modifypassword"></PARA>
+      			<PARA name="type" value="JMenuItem"></PARA>
+      			<PARA name="mnemonic" value="G"></PARA>
+      			<PARA name="accelerator" value="VK_G"></PARA>
+      			<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+      			<PARA name="serialnumber" value="100-600"></PARA>
+      		</PARAS>
+      	</DESC>
+      </DESC>
+
+      <DESC descname="SystemMenu">
+
+        <PARAS>
+
+          <PARA name="name" value="System"></PARA>
+
+          <PARA name="mnemonic" value="S"></PARA>
+
+          <PARA name="accelerator" value="VK_S"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+
+          <PARA name="serialnumber" value="100"></PARA>
+
+        </PARAS>
+        <DESC descname="start all server">
+			<PARAS>
+				<PARA name="name" value="StartAllService"></PARA>
+				<PARA name="icon" value=""></PARA>
+				<PARA name="command" value="start all server"></PARA>
+				<PARA name="type" value="JMenuItem"></PARA>
+				<PARA name="mnemonic" value="A"></PARA>
+				<PARA name="accelerator" value="VK_A"></PARA>
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-5"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="stop all server">
+			<PARAS>
+				<PARA name="name" value="StopAllService"></PARA>
+				<PARA name="icon" value=""></PARA>
+				<PARA name="command" value="stop all server"></PARA>
+				<PARA name="type" value="JMenuItem"></PARA>
+				<PARA name="mnemonic" value="O"></PARA>
+				<PARA name="accelerator" value="VK_O"></PARA>
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-6"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="ShutDown NMS">
+			<PARAS>
+				<PARA name="name" value="ShutDownNMS"></PARA>
+				<PARA name="icon" value=""></PARA>
+				<PARA name="command" value="ShutDown NMS"></PARA>
+				<PARA name="type" value="JMenuItem"></PARA>
+				<PARA name="mnemonic" value="w"></PARA>
+				<PARA name="accelerator" value="VK_w"></PARA>
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-7"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="refresh">
+			<PARAS>
+				<PARA name="name" value="Refresh"></PARA>
+				<PARA name="icon" value=""></PARA>
+				<PARA name="command" value="refresh"></PARA>
+				<PARA name="type" value="JMenuItem"></PARA>
+				<PARA name="mnemonic" value="R"></PARA>
+				<PARA name="accelerator" value="VK_R"></PARA>
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-8"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="Separator">
+			<PARAS>
+				<PARA name="type" value="Separator" />
+				<PARA name="serialnumber" value="100-20-9" />
+			</PARAS>
+		</DESC>
+
+		<!--DESC descname="show system monitor frame">
+
+			<PARAS>
+
+				<PARA name="name" value="Monitor_Browse"></PARA>
+
+				<PARA name="icon" value=""></PARA>
+
+				<PARA name="command"
+					value="show system monitor frame">
+				</PARA>
+
+				<PARA name="type" value="JMenuItem"></PARA>
+
+				<PARA name="mnemonic" value="B"></PARA>
+
+				<PARA name="accelerator" value="VK_B"></PARA>
+
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-10"></PARA>
+
+			</PARAS>
+
+		</DESC-->
+
+		<DESC descname="show system monitor setting dialog">
+			<PARAS>
+				<PARA name="name" value="Monitor_Setting"></PARA>
+				<PARA name="icon" value=""></PARA>
+				<PARA name="command"
+					value="show system monitor setting dialog">
+				</PARA>
+				<PARA name="type" value="JMenuItem"></PARA>
+				<PARA name="mnemonic" value="S"></PARA>
+				<PARA name="accelerator" value="VK_S"></PARA>
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-20"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="Separator">
+			<PARAS>
+				<PARA name="type" value="Separator" />
+				<PARA name="serialnumber" value="100-20-30" />
+			</PARAS>
+		</DESC>
+
+		<DESC descname="show auto sampling dialog">
+			<PARAS>
+				<PARA name="name" value="Show_Auto_Sampling_Dialog"></PARA>
+				<PARA name="icon" value=""></PARA>
+				<PARA name="command" value="show auto sampling dialog"></PARA>
+				<PARA name="type" value="JMenuItem"></PARA>
+				<PARA name="mnemonic" value="U"></PARA>
+				<PARA name="accelerator" value="VK_U"></PARA>
+				<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+				<PARA name="serialnumber" value="100-20-35"></PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="show manual sampling dialog">
+              <PARAS>
+                <PARA name="name" value="Show_Manual_Sampling_Dialog"></PARA>
+                <PARA name="icon" value=""></PARA>
+                <PARA name="command" value="show manual sampling dialog"></PARA>
+                <PARA name="type" value="JMenuItem"></PARA>
+                <PARA name="mnemonic" value="M"></PARA>
+                <PARA name="accelerator" value="VK_M"></PARA>
+                <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+                <PARA name="serialnumber" value="100-20-36"></PARA>
+              </PARAS>
+            </DESC>
+    </DESC><!--  mainMenu MenuSet type ended  -->
+   </DESC>
+  </AREADESC>
+
+</COMMINIDATA>

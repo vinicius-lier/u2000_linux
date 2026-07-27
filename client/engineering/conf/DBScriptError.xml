@@ -1,0 +1,8 @@
+<DBError>
+	<ErrorKey>Msg</ErrorKey>
+	<ErrorKey>CSLIB Message</ErrorKey>
+	<ErrorKey>NativeError</ErrorKey>
+	<ErrorKey>failure</ErrorKey>	
+    <ErrorKey>ORA-</ErrorKey>
+	<ErrorKey>ERROR at</ErrorKey> 
+</DBError>

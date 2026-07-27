@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ProcessInfo">
+			<PARAS />
+			<DESC descname="Test">
+				<PARAS>
+					<PARA name="ProcessId" value="200" />
+					<PARA name="ModuleId" value="100" />
+					<PARA name="ClientScriptPath"
+						value="bms\test\gnlcfg" />
+					<PARA name="ServerScriptPath"
+						value="bms\test\gnlcfg" />
+				</PARAS>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

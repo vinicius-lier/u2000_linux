@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnp version = "1.0">
+  <card>
+    <current_type>
+      <type>148696</type>
+      <name>H903PILA</name>
+      <label>PILA</label>
+      <occupied_slots>1</occupied_slots>
+    </current_type>
+    <compatible_ext_type>
+      <type>148526</type>
+    </compatible_ext_type>
+    <compatible_type>
+      <type>148526</type>
+    </compatible_type>
+    <layout>
+      <port>
+        <simple>
+          <rows>0</rows>
+          <columns>1</columns>
+          <direction>vertical</direction>
+        </simple>
+      </port>
+    </layout>
+  </card>
+</pnp>

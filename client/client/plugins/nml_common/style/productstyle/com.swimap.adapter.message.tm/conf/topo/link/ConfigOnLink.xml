@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="BackDrawLink">
+        <DESC descname="DontBackDraw">
+            <PARAS>
+                <PARA name="ViewID" value="21"/>
+                <PARA name="ViewTypeID" value="21"/>
+                <PARA name="bBackDraw" value="false"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

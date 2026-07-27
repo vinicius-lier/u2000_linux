@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<!--
+			Description:the plugin despration
+			ID      the ID of the plugin ,it must set
+			Label   the Name of the plugin,it must set
+			IMage   the plugin image path ,it can select
+		-->
+		<DESC descname="feature">
+			<PARAS>
+				<PARA name="id" value="notifyclient"></PARA>
+				<PARA name="label" value="notifyclient_name"></PARA>
+				<PARA name="image" value="icon.gif"></PARA>
+			</PARAS>
+		</DESC>
+
+		<!--Description: the plugin other despration-->
+		<DESC descname="extra">
+			<PARAS>
+				<!-- loading pic,it shows in loading dialog-->
+				<PARA name="image.loading" value="loading.png"></PARA>
+				<!-- lock pic ,it shows in lock/unlock dialog-->
+				<PARA name="image.lock" value="lockdialog.gif"></PARA>
+				<!-- exit pic,it shows at confirm dialog of exit-->
+				<PARA name="image.exit" value="logoutdialog.gif"></PARA>
+				<!--the plugin version,it shows at about dialog-->
+				<PARA name="about.version" value="about.version"></PARA>
+				<!-- the plugin description,it shows at about dialog-->
+				<PARA name="about.desc" value="about.desc"></PARA>
+				<!-- the about pic,it shows at about dialog -->
+				<PARA name="about.image.banner"
+					value="about_banner.gif">
+				</PARA>
+				<!-- the title pic of about dialog-->
+				<PARA name="about.image.title"
+					value="about_title.png">
+				</PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="plugins">
+			<PARAS>
+				<PARA name="notifyclient"></PARA>
+				<PARA name="notifydownload"></PARA>
+				<PARA name="authentication"></PARA>
+				<PARA name="loginui"></PARA>
+				<PARA name="clientutil"></PARA>
+				<PARA name="com.swimap.rpc"></PARA>
+			</PARAS>
+		</DESC>
+
+		<!--
+			Description:the plugin loading depends on plugins 
+			name=""the plugin name ,it must set
+		-->
+		<DESC descname="required-plugins">
+			<PARAS>	
+                <PARA name="com.swimap.sound"></PARA>
+				<PARA name="alarmclientbase"></PARA>
+				<PARA name="com.swimap.extension.registry"></PARA>
+				<PARA name="com.swimap.orbbase"></PARA>
+				<PARA name="lm"></PARA>
+				<PARA name="U2000_Solution"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

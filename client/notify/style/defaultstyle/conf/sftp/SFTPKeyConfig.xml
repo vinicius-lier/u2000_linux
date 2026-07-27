@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><COMMINIDATA>
+    <AREADESC areaname="sftpkey">
+        <DESC descname="sftpkey">
+            <PARAS>
+                <PARA name="usePublicKeyAuth" value="false"/>
+                <PARA name="keyPath" value=""/>
+                <PARA name="phraseEncrypted" value="true"/>
+                <PARA name="passwordPhrase" value=""/>
+                <PARA name="tryPasswordAuthWhenFail" value="true"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

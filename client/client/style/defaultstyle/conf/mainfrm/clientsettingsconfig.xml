@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="clientSettingsConfig">
+        <PARAS>
+            <!--settings view type: 0-tabbedpane(default) 1-tree -->
+          <PARA name="viewtype" value="1"/>
+		  <!-- -Setting Display Type:ALPHABETICAL/SERIAL-->
+		  <PARA name="displayType" value="ALPHABETICAL" />
+        </PARAS>
+      <!--
+          Setting system setting dialog initial size; Minimum size is (680,510).
+          If configed size is smaller than (680,510), minimum size will take effects.
+          If configed size is larger than the size of screen, the size of screen will take effects.
+		  to change dialog size set changeSize to true. 
+      -->
+      <DESC descname="DialogSize">
+        <PARAS>
+          <PARA name="width" value="680"/>
+          <PARA name="height" value="510"/>
+		  <PARA name="changeSize" value="false"/>
+
+        </PARAS>
+      </DESC>	
+      <!--
+          Setting system setting dialog tab layout. Valid values are listed below:
+             0:JTabbedPane.WRAP_TAB_LAYOUT
+             1:JTabbedPane.SCROLL_TAB_LAYOUT
+      -->
+      <DESC descname="TabLayout">
+        <PARAS>
+          <PARA name="layout" value="1"/>
+        </PARAS>
+      </DESC>
+     </DESC>
+  </AREADESC>
+</COMMINIDATA>

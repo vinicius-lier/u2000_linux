@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="updatelist">
+  <DESC descname="ResourceUpdateConfig">
+    <PARAS>      
+      <PARA name="ClassName" value="com.swimap.resource.client.update.ResourceUpdateConfig"/>
+      <PARA name="MethodName" value="update"/>
+      <!-- optional parameters -->
+      <!--<PARA name="serialnumber" value="1"/>-->
+    </PARAS>
+  </DESC>
+</AREADESC>
+</COMMINIDATA>
+
+

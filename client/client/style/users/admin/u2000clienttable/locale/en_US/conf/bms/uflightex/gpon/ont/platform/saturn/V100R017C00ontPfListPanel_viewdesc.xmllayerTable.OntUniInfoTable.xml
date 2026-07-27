@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="UniStatus" name="Status" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="ONTUNIIfType" name="UNI Type" isVisiable="true" isEditable="true" width="76" isNameModified="false" />
+  <column id="UniID" name="UNI ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

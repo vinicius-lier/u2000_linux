@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Link" name="Link" isVisiable="true" isEditable="false" width="60" isNameModified="false" />
+  <column id="Tx. Link ID" name="Tx. Link ID" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="Tx. Link Block State" name="Tx. Link Block State" isVisiable="true" isEditable="true" width="130" isNameModified="false" />
+  <column id="Rx. Link ID" name="Rx. Link ID" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="Rx. Link Block State" name="Rx. Link Block State" isVisiable="true" isEditable="true" width="130" isNameModified="false" />
+</table>
+

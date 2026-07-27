@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!-- edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC) -->
+<COMMINIDATA>
+   <AREADESC areaname="icon_resource">
+    <DESC descname="check0">
+      <PARAS>    
+         <PARA name="filename" value="check0.gif"></PARA> 
+      </PARAS>        
+    </DESC>
+    <DESC descname="check1">
+      <PARAS>    
+         <PARA name="filename" value="check1.gif"></PARA> 
+      </PARAS>        
+    </DESC>
+    <DESC descname="check2">
+       <PARAS>    
+          <PARA name="filename" value="check2.gif"></PARA> 
+       </PARAS>        
+    </DESC>
+   </AREADESC>
+</COMMINIDATA>

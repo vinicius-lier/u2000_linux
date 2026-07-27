@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC areaname="RoleType">
+    <DESC descname="RoleType">
+      <PARAS>
+        <PARA name="label"
+              value="RoleType" />
+      </PARAS>
+      <DESC descname="LoopType">
+        <PARAS>
+          <PARA name="label"
+                value="LoopType" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10034_16.gif" />
+        </PARAS>
+      </DESC>
+      <DESC descname="LinkType">
+        <PARAS>
+          <PARA name="label"
+                value="LinkType" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10035_16.gif" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="ClusterRoleType">
+    <DESC descname="ClusterRoleType">
+      <PARAS>
+        <PARA name="label"
+              value="ClusterRoleType" />
+      </PARAS>
+      <DESC descname="CommandType">
+        <PARAS>
+          <PARA name="label"
+                value="CommandType" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10001_16.gif" />
+        </PARAS>
+      </DESC>
+      <DESC descname="MemberType">
+        <PARAS>
+          <PARA name="label"
+                value="MemberType" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10002_16.gif" />
+        </PARAS>
+      </DESC>
+      <DESC descname="CandidateType">
+        <PARAS>
+          <PARA name="label"
+                value="CandidateType" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10016_16.gif" />
+        </PARAS>
+      </DESC>
+      <DESC descname="IndependenceType">
+        <PARAS>
+          <PARA name="label"
+                value="IndependenceType" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10017_16.gif" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="RRPPRoleType">
+    <DESC descname="RRPPRoleType">
+      <PARAS>
+        <PARA name="label"
+              value="RRPPRoleType" />
+      </PARAS>
+      <DESC descname="RRPPMainNode">
+        <PARAS>
+          <PARA name="label"
+                value="RRPPMainNode" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10043_10.gif" />
+        </PARAS>
+      </DESC>
+      <DESC descname="RRPPProtectLink">
+        <PARAS>
+          <PARA name="label"
+                value="RRPPProtectLink" />
+          <PARA name="icon"
+                value="secstatus\X-10.gif" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+  <AREADESC areaname="SynState">
+    <DESC descname="SynState">
+      <PARAS>
+        <PARA name="label"
+              value="SynState" />
+      </PARAS>
+      <DESC descname="SynStateLegend">
+        <PARAS>
+          <PARA name="label"
+                value="SynStateLegend" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10047_10.gif" />
+        </PARAS>
+      </DESC>
+      <DESC descname="SynStateIdentify">
+        <PARAS>
+          <PARA name="label"
+                value="SynStateIdentify" />
+          <PARA name="icon"
+                value="secstatus\RoleType_10048_10.gif" />
+        </PARAS>
+      </DESC>
+    </DESC>
+  </AREADESC>
+
+  <AREADESC areaname="S40_NE_STATUS">
+    <DESC descname="S40_NE_STATUS"> 
+        <PARAS>
+       			<PARA name="label" value="S40_NE_STATUS"/>
+      	</PARAS>    
+        <DESC descname="NE_STATUS_unLogined">
+            <PARAS>
+       			<PARA name="label" value="NE_STATUS_unLogined"/>
+       			<PARA name="icon" value="secstatus/unLogined.gif"/>
+      	    </PARAS>
+        </DESC>
+		<DESC descname="NE_STATUS_locked">
+            <PARAS>
+       			<PARA name="label" value="NE_STATUS_locked"/>
+       			<PARA name="icon" value="secstatus/neLocked.gif"/>
+      	    </PARAS>
+        </DESC>
+		<DESC descname="NE_STATUS_AeType">
+        <PARAS>
+        		<PARA name="label" value="NE_STATUS_AeType"/>
+        	 	<PARA name="icon" value="secstatus/isAE_14.gif"/>
+      	</PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+  <!--AREADESC areaname="ProtocolType">
+   <DESC descname="ProtocolType"> 
+      <PARAS>
+                <PARA name="label" value="ProtocolType"/>
+      </PARAS>
+    <DESC descname="IPV6">
+      <PARAS>
+       <PARA name="label" value="IPV6"/>
+       <PARA name="icon" value="secstatus\RoleType_10045_10.gif"/>
+      </PARAS>
+   </DESC>
+    <DESC descname="DualStack">
+      <PARAS>
+       <PARA name="label" value="DualStack"/>
+       <PARA name="icon" value="secstatus\RoleType_10020_10.gif"/>
+      </PARAS>
+   </DESC>   
+   </DESC>
+</AREADESC-->
+</COMMINIDATA>

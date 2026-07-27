@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="resource">
+      <PARAS>
+        <PARA name="ordinary" value="Common subnet"></PARA>
+        <PARA name="logical_view" value="Custom view"></PARA>
+        <PARA name="logical_subnet" value="Logical subnet"></PARA>
+        <PARA name="virtual_node" value="Virtual NE"></PARA>
+        <PARA name="link_set" value="Link set"></PARA>
+        <PARA name="virtual_link" value="Virtual link"></PARA>
+        <PARA name="OMC" value="OMC"></PARA>
+        <PARA name="OMCS" value="OMCS"></PARA>
+        <PARA name="MSC" value="MSC" />
+        <PARA name="RNC" value="RNC" />
+        <PARA name="NodeB" value="NodeB" />
+        <PARA name="SGSN" value="SGSN" />
+        <PARA name="GGSN" value="GGSN" />
+        <PARA name="CG" value="CG" />
+        <PARA name="SoftX" value="SoftX" />
+        <PARA name="MGW" value="MGW" />
+        <PARA name="HLR" value="HLR" />
+        <PARA name="Root" value="Root" />
+        <PARA name="NotConfigurated" value="Not Configured" />
+        <PARA name="Configurated" value="Configured" />
+        <PARA name="ContainAlarm" value="Contain Alarm" />
+        <PARA name="UnknownType" value="Unknown Type" />
+        <PARA name="UnactiveStates" value="Inactive" />
+        <PARA name="Critical" value="Critical" />
+        <PARA name="Major" value="Major" />
+        <PARA name="Minor" value="Minor" />
+        <PARA name="Warning" value="Warning" />
+        <PARA name="Indeterminate" value="Indeterminate" />
+        <PARA name="containCriticalAlarm" value="Contain Critical Alarms" />
+        <PARA name="containMajorAlarm" value="Contain Major Alarms" />
+        <PARA name="containMinorAlarm" value="Contain Minor Alarms" />
+        <PARA name="containWarningAlarm" value="Contain Warning Alarms" />
+        <PARA name="containUnknownAlarm" value="Contain Indeterminate Alarms" />
+        <PARA name="containAlarmPattern" value="Contain {0} Alarms" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

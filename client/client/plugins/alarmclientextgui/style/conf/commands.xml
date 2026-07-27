@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="alarmClientCommands">
+            <PARAS />
+            <DESC descname="EventQuery">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="queryEventAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmStatistic_Fault">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_Fault" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmStatistic_Event">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_Event" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC>			
+			<DESC descname="AlarmStatistic_Subnet">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_Subnet" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC>			
+            <DESC descname="AlarmStatistic_U2100">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_U2100" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC>          
+            <DESC descname="alarmGroupManage">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="alarmGroupManage" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="objectGroupManage">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="objectGroupManage" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="DownloadRNLog">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="FaultExtGUIActivator" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="downLoadRNLog" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

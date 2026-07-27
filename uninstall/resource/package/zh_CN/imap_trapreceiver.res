@@ -1,0 +1,6 @@
+trapreceiver=Trap子系统
+trapreceiver.InstallInfo=提供告警上报解析、告警同步和非告警trap转发等功能
+imap_trapreceiver_deploy_inst.1=系统存在绑定于该Trap接收器上的网元。
+imap_trapreceiver_deploy_inst.2=系统存在非缺省Trap接收器。
+imap_trapreceiver_deploy_inst.3=数据库错误。
+imap_trapreceiver_deploy_inst.-1=其他原因。

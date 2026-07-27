@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="pagedtable">
+        <DESC descname="savesetting">
+            <PARAS>
+             <!-- set it true if user want to open the file after save -->
+                <PARA name="isOpenFile" value="false" />
+            </PARAS>       
+           </DESC>
+		<DESC descname="progresstaskSetting" >
+            <PARAS>
+                <PARA name="tasklimit"   value="5" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

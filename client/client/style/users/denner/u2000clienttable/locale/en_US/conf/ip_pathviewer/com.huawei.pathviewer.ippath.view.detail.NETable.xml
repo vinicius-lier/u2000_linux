@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="NE Name" name="NE Name" isVisiable="true" isEditable="true" width="50" isNameModified="false" />
+  <column id="NE Type" name="NE Type" isVisiable="true" isEditable="true" width="25" isNameModified="false" />
+  <column id="IP Address" name="IP Address" isVisiable="true" isEditable="true" width="50" isNameModified="false" />
+  <column id="CPU Usage (%)" name="CPU Usage (%)" isVisiable="true" isEditable="true" width="50" isNameModified="false" />
+  <column id="Memory Usage (%)" name="Memory Usage (%)" isVisiable="true" isEditable="true" width="20" isNameModified="false" />
+  <column id="Performance Data Update Time" name="Performance Data Update Time" isVisiable="true" isEditable="true" width="20" isNameModified="false" />
+</table>
+

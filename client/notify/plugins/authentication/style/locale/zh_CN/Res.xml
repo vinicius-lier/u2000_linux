@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="">
+      <PARAS>
+        <PARA name="BTHint" value="警告：您已经接入由 BT 操作的工作站。在使用此计算机前，您
+        必须从系统管理员处获得个人授权，且您只能将此计算机用于书
+        面授权书中所规定的用途。未经许可，禁止使用或误用此系统，
+        否则，将构成违反《计算机误用法案1990》的行为。有关未经许
+        可而使用信息，在《BT安全标准》中“信息安全”一节中有明确规定。"></PARA>
+        
+        <!--Config the error info of update user's password-->
+        <PARA name="SM_I2000_Exception1" value="操作失败，可能由于网络等原因，无法与网元进行通讯！"></PARA>
+        <PARA name="SM_I2000_Exception2" value="操作失败，服务器端存储的网元用户密码和实际网元上的密码不同；\n如果您仅仅修改服务器端的密码，请不要选择'同步修改网元用户密码'。"></PARA>
+        <PARA name="SM_I2000_Exception3" value="操作失败，网元用户新密码与密码策略不符合。"></PARA>
+        <PARA name="SM_I2000_Exception4" value="操作失败，发生了未知的错误。"></PARA>
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

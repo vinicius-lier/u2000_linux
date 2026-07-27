@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="LINKALLCLASS">
+        <DESC descname="LINKCLASS7681">
+            <PARAS>
+                <PARA name="Desplay" value="Ring_NP"/>
+                <PARA name="Class" value="7681" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7682">
+            <PARAS>
+                <PARA name="Desplay" value="Ring_UPSR"/>
+                <PARA name="Class" value="7682" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7683">
+            <PARAS>
+                <PARA name="Desplay" value="Ring_BPSR"/>
+                <PARA name="Class" value="7683" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7684">
+            <PARAS>
+                <PARA name="Desplay" value="Ring_2WIRE_ULSR"/>
+                <PARA name="Class" value="7684" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7685">
+            <PARAS>
+                <PARA name="Desplay" value="Ring_2WIRE_BLSR"/>
+                <PARA name="Class" value="7685" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7686">
+            <PARAS>
+                <PARA name="Desplay" value="Ring_4WIRE_BLSR"/>
+                <PARA name="Class" value="7686" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7687">
+            <PARAS>
+                <PARA name="Desplay" value="Chain_NP"/>
+                <PARA name="Class" value="7687" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7688">
+            <PARAS>
+                <PARA name="Desplay" value="Chain_MSP_PLUS"/>
+                <PARA name="Class" value="7688" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS7689">
+            <PARAS>
+                <PARA name="Desplay" value="Chain_MSP_COLON"/>
+                <PARA name="Class" value="7689" />
+            </PARAS>
+        </DESC>         
+        <DESC descname="LINKCLASS7690">
+            <PARAS>
+                <PARA name="Desplay" value="IF_1+1"/>
+                <PARA name="Class" value="7690" />
+            </PARAS>
+        </DESC> 
+		<DESC descname="LINKCLASS7691">
+            <PARAS>
+                <PARA name="Desplay" value="IF_N+1"/>
+                <PARA name="Class" value="7691" />
+            </PARAS>
+        </DESC>         
+        <DESC descname="LINKCLASS12800">
+            <PARAS>
+                <PARA name="Desplay" value="WDM_CHAIN_COLON"/>
+                <PARA name="Class" value="12800" />
+            </PARAS>
+        </DESC>          
+        <DESC descname="LINKCLASS12801">
+            <PARAS>
+                <PARA name="Desplay" value="ODUK"/>
+                <PARA name="Class" value="12801" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS14">
+            <PARAS>
+                <PARA name="Desplay" value="VC12"/>
+                <PARA name="Class" value="4097" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS15">
+            <PARAS>
+                <PARA name="Desplay" value="VC3"/>
+                <PARA name="Class" value="4099" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS16">
+            <PARAS>
+                <PARA name="Desplay" value="VC4"/>
+                <PARA name="Class" value="4100" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS17">
+            <PARAS>
+                <PARA name="Desplay" value="SVC4"/>
+                <PARA name="Class" value="4865" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS18">
+            <PARAS>
+                <PARA name="Desplay" value="VC4-4C"/>
+                <PARA name="Class" value="4868" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS19">
+            <PARAS>
+                <PARA name="Desplay" value="VC4-8C"/>
+                <PARA name="Class" value="4872" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS20">
+            <PARAS>
+                <PARA name="Desplay" value="VC4-16C"/>
+                <PARA name="Class" value="4880" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS21">
+            <PARAS>
+                <PARA name="Desplay" value="VC4-64C"/>
+                <PARA name="Class" value="4928" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS46">
+            <PARAS>
+                <PARA name="Desplay" value="SLink"/>
+                <PARA name="Class" value="5376" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS3">
+            <PARAS>
+                <PARA name="Desplay" value="MS"/>
+                <PARA name="Class" value="5633" />
+            </PARAS>
+        </DESC> 
+        <DESC descname="LINKCLASS11">
+            <PARAS>
+                <PARA name="Desplay" value="OTS"/>
+                <PARA name="Class" value="12290" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS7">
+            <PARAS>
+                <PARA name="Desplay" value="OMS"/>
+                <PARA name="Class" value="12291" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS5">
+            <PARAS>
+                <PARA name="Desplay" value="OCH"/>
+                <PARA name="Class" value="12292"/>
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS6">
+            <PARAS>
+                <PARA name="Desplay" value="OCHClient"/>
+                <PARA name="Class" value="12342" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS9">
+            <PARAS>
+                <PARA name="Desplay" value="OSC"/>
+                <PARA name="Class" value="12294" />
+            </PARAS>
+        </DESC>         
+        <DESC descname="LINKCLASS34">
+            <PARAS>
+                <PARA name="Desplay" value="OTU3"/>
+                <PARA name="Class" value="12310" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS35">
+            <PARAS>
+                <PARA name="Desplay" value="OTU2"/>
+                <PARA name="Class" value="12311" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="LINKCLASS36">
+            <PARAS>
+                <PARA name="Desplay" value="OTU5G"/>
+                <PARA name="Class" value="12312" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="LINKCLASS37">
+            <PARAS>
+                <PARA name="Desplay" value="OTU1"/>
+                <PARA name="Class" value="12313" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="LINKCLASS38">
+            <PARAS>
+                <PARA name="Desplay" value="ODU3"/>
+                <PARA name="Class" value="12326" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="LINKCLASS39">
+            <PARAS>
+                <PARA name="Desplay" value="ODU2"/>
+                <PARA name="Class" value="12327" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="LINKCLASS40">
+            <PARAS>
+                <PARA name="Desplay" value="ODU5G"/>
+                <PARA name="Class" value="12328" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="LINKCLASS41">
+            <PARAS>
+                <PARA name="Desplay" value="ODU1"/>
+                <PARA name="Class" value="12329" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS47">
+            <PARAS>
+                <PARA name="Desplay" value="ODU0"/>
+                <PARA name="Class" value="12332" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS42">
+            <PARAS>
+                <PARA name="Desplay" value="TRUNK_LINK"/>
+                <PARA name="Class" value="16385" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS48">
+            <PARAS>
+                <PARA name="Desplay" value="ODUCn"/>
+                <PARA name="Class" value="12324" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LINKCLASS49">
+            <PARAS>
+                <PARA name="Desplay" value="OTUCn"/>
+                <PARA name="Class" value="12308" />
+            </PARAS>
+        </DESC>                
+        <DESC descname="LINKCLASS17001">
+            <PARAS>
+                <PARA name="Desplay" value="SDH_Clock"/>
+                <PARA name="Class" value="17001" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS17002">
+            <PARAS>
+                <PARA name="Desplay" value="SYNC_ETH_Clock"/>
+                <PARA name="Class" value="17002" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS17003">
+            <PARAS>
+                <PARA name="Desplay" value="1588_Clock"/>
+                <PARA name="Class" value="17003" />
+            </PARAS>
+        </DESC>        
+        <DESC descname="LINKCLASS17004">
+            <PARAS>
+                <PARA name="Desplay" value="PON_Clock"/>
+                <PARA name="Class" value="17004" />
+            </PARAS>
+        </DESC>     
+    </AREADESC>
+</COMMINIDATA>

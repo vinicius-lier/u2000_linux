@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<!-- name: plugin列表（主要用于平台、M2000，以及部分U2000对平台的配置） -->
+			<DESC descname="plugins">
+				<PARAS>
+					<PARA name="u2000nelicense"/>
+					<!--PARA name="com.swimap.adapter.message.sm"/-->					
+				</PARAS>
+			</DESC>
+			<!-- name: feature列表 （主要用于平台）-->
+			<DESC descname="features">
+                <PARAS>
+					<PARA name="u2000nelicense"/>
+				</PARAS>
+			</DESC>
+			<!-- name: productlib 文件夹列表（主要用于U2000） -->
+			<DESC descname="productlibs">
+				<PARAS>
+				</PARAS>
+			</DESC>
+        </DESC>
+
+        <DESC descname="startupcommands">
+            <PARAS>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

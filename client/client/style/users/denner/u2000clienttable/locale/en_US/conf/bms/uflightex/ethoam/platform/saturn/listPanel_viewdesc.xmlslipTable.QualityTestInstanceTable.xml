@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="TestId" name="Test ID (1-4294967293)" isVisiable="true" isEditable="true" width="157" isNameModified="false" />
+  <column id="MDName" name="MD Name" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+  <column id="MAName" name="MA Name" isVisiable="true" isEditable="true" width="79" isNameModified="false" />
+  <column id="InstanceDomainType" name="PM Test Instance Location" isVisiable="true" isEditable="true" width="170" isNameModified="false" />
+  <column id="MEPID" name="MEP ID (1-8191)" isVisiable="true" isEditable="true" width="116" isNameModified="false" />
+  <column id="RemoteMepId" name="Remote MEP ID (1-8191)" isVisiable="true" isEditable="true" width="163" isNameModified="false" />
+  <column id="RemoteMepMacAddress" name="Remote MEP MAC&#x9;&#x9;&#x9;&#x9;" isVisiable="true" isEditable="true" width="126" isNameModified="false" />
+  <column id="TX8021p" name="Tx 802.1p" isVisiable="true" isEditable="true" width="79" isNameModified="false" />
+  <column id="RX8021p" name="Rx 802.1p" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+  <column id="OnwardMacAddress" name="Onward MAC" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="BackwardMacAddress" name="Backward MAC" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+</table>
+

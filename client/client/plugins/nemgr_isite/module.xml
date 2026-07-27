@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="modulelist">
+        <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle"/>
+                <PARA name="resourceBundleName" value="res"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="iSite_Global_Module">
+            <PARAS>
+                <PARA name="ClassName" value="com.huawei.isite.global.ISiteModule"/>
+                <PARA name="RunInProcess" value="true"/>
+                <PARA name="ProcessKey" value="1"/>
+                <PARA name="ToBeLoaded" value="true"/>
+                <PARA name="IsOrbModule" value="false"/>
+                <PARA name="IsJavaModule" value="true"/>                
+                 <PARA name="dependModules">
+                    <VALUE value="com.swimap.adapter.message.sm"/>
+                    <VALUE value="com.swimap.adapter.message.fm"/>
+                    <VALUE value="com.swimap.adapter.message.tm"/>
+                    <VALUE value="united_common"/>
+                </PARA>
+          </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

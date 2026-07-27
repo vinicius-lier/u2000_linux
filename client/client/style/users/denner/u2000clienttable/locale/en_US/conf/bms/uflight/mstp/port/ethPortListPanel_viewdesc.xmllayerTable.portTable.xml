@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ResDesc" name="Frame/Slot/Port" isVisiable="true" isEditable="false" width="111" isNameModified="false" />
+  <column id="PortState" name="STP State" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="StpStatus" name="MSTP Switch" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="RootGuard" name="Root Guard" isVisiable="true" isEditable="true" width="89" isNameModified="false" />
+  <column id="LoopGuard" name="Loop Guard" isVisiable="true" isEditable="true" width="91" isNameModified="false" />
+</table>
+

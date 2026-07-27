@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="AP_NeighborAP__SSID" name="SSID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_NeighborAP__BSSID" name="MAC" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_NeighborAP__NetworkType" name="Type" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_NeighborAP__RFBand" name="Frequency Type" isVisiable="true" isEditable="true" width="112" isNameModified="false" />
+  <column id="AP_NeighborAP__Channel" name="Channel" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_NeighborAP__RSSI" name="Signal(dBm)" isVisiable="true" isEditable="true" width="95" isNameModified="false" />
+  <column id="AP_NeighborAP__Noise" name="Noise(dBm)" isVisiable="true" isEditable="true" width="93" isNameModified="false" />
+  <column id="AP_NeighborAP__BeaconPeriod" name="Beacon Period(ms)" isVisiable="true" isEditable="true" width="133" isNameModified="false" />
+  <column id="AP_NeighborAP__DtimPeriod" name="DTIM" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_NeighborAP__Security" name="Authentication Mode" isVisiable="true" isEditable="true" width="136" isNameModified="false" />
+  <column id="AP_NeighborAP__Standard" name="802.11" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="AP_NeighborAP__MaxBitRate" name="Max. Rate(Mbit/s)" isVisiable="true" isEditable="true" width="119" isNameModified="false" />
+</table>
+

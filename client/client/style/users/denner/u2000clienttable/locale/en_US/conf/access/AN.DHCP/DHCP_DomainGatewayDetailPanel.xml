@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VLAN L3 Interface" name="VLAN L3 Interface" isVisiable="true" isEditable="true" width="200" isNameModified="false" />
+  <column id="Domain Name" name="Domain Name" isVisiable="true" isEditable="true" width="184" isNameModified="false" />
+  <column id="Gateway1 of the Domain" name="Gateway1 of the Domain" isVisiable="true" isEditable="true" width="237" isNameModified="false" />
+  <column id="Gateway2 of the Domain" name="Gateway2 of the Domain" isVisiable="true" isEditable="true" width="237" isNameModified="false" />
+  <column id="Gateway3 of the Domain" name="Gateway3 of the Domain" isVisiable="true" isEditable="true" width="237" isNameModified="false" />
+</table>
+

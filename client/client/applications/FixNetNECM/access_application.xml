@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<!-- name: plugin列表 -->
+			<DESC descname="plugins">
+				<PARAS>
+					<PARA name="access"/>
+					<PARA name="com.swimap.adapter.message.tm"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- name: feature列表 -->
+			<DESC descname="features">
+				<PARAS>
+				</PARAS>
+			</DESC>
+			<!-- name: productlib 文件夹列表 -->
+			<DESC descname="productlibs">
+				<PARAS>
+					<PARA name="access"/>
+					<PARA name="nemgr_bits"/>
+					<PARA name="nbi_translator"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="ApplicationCallBacks"> 
+            <PARAS>
+				<!--应用激活时，回调更新主菜单方法-->
+                <PARA name="com.huawei.n2000bms.commodule.menu.MainMenuAppCallBack"/>
+            </PARAS>
+        </DESC>
+	</AREADESC>
+</COMMINIDATA>

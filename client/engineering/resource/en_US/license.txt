@@ -1,0 +1,149 @@
+
+                     ----------------------------------------
+                              License Agreement
+                     ----------------------------------------
+
+        Your use of this software via installation, duplication, or any other form 
+whatsoever shall be considered your acceptance to the clauses set forth in this 
+License Agreement that you are entering into with Huawei Technologies Co., Ltd. 
+(hereafter referred to as "Huawei"). If you do not agree to the terms of this 
+agreement, please contact Huawei immediately and refrain from installing, copying,
+or using the Software Product in any manner whatsoever in addition to deleting 
+any portion of the software that may have already been installed.
+
+========================================
+1. Software Product (hereafter referred to as "Software") 
+
+       Software, as it is referred to in this agreement, includes but is not 
+limited to any and all complete or partial software applications, pictures, 
+photographs,icons, animations, records, videos, audio files, wordings, and codes
+that are in the computer software as well as printed materials such as 
+instructions, guidelines, and manuals relevant to the Software.
+        
+========================================
+2. Authorization
+
+       The Software is protected by copyright law, international copyright treaties, 
+and other laws and/or treaties regulating international copyright protection. 
+Authorized users are granted a non-exclusive, non-transferrable, non-sublicensable
+license of the Software under this Agreement. Authorized users shall be entitled
+to use and back up the software and have access to technical support and
+upgraded versions. 
+        
+        --------------------------------------------------------
+        2.1 Software Use
+        
+                You may install the Software on a PC, workstation, or network 
+server. You are entitled to use all the functions of the Software specified in 
+the scope of service.      
+   
+        --------------------------------------------------------
+        2.2 Software Backup 
+        
+                single-copy backup of the Software is permitted for documentation
+purposes. However, execution of such backup shall not violate the provisions in 
+Clause 1 and 2 found in Article 3 of this agreement.
+        
+        --------------------------------------------------------
+        2.3 Technical Support
+        
+                Authorized users are entitled to the full range of technical
+support provided by Huawei. Please contact Huawei with any questions you may 
+have or if issues arise during the installation or use of the Software so that a 
+solution may be supplied.
+         
+        --------------------------------------------
+        2.4 Upgraded Versions
+                You may use any and all upgraded versions of the Software if such 
+upgrades are required. However, there may be costs associated with the upgrade 
+which shall be the responsibility of the Licensee. 
+
+========================================
+3. Restrictions
+
+        ----------------------------------------------------------
+        3.1 General Restrictions
+        
+                Your license is limited to the functionality of the Software. 
+Modification, reverse engineering, decompiling, and disassembling of the Software
+is strictly prohibited as is developing new derivative software. If modification 
+of the Software is required to adapt to site scenarios or other reasons, please 
+submit your request in writing to Huawei. The Software shall not be installed and
+used on more than one computer system; neither shall it be shared in all or part
+on multiple computers. In addition, decomposing the Software and using it on 
+different computers, embedding it into other software systems, or deleting the 
+copyright notices on any copy of the Software is prohibited. 
+        
+        -------------------------------------------------------
+        3.2 Backup
+        
+                The Software shall not be copied, whether in whole or in part, 
+for any reason whatsoever other than for making a backup copy or in the event 
+such an operation is required (such as a temporary copy during an 
+upgrade procedure).
+        
+        -------------------------------------------------------
+        3.3 Use
+        
+                Use of the software is being granted to your company only. 
+Transferring, sublicensing, renting, leasing, or providing the Software, whether 
+such provision is for commercial purposes or not, by any means whatsoever to any 
+third party without the express written approval of Huawei is strictly prohibited.
+                                      
+        -------------------------------------------------------
+        3.4 Other Considerations
+        
+                Effective measures shall be taken to ensure that your staff 
+members or employees comply with the provisions in Clause 3.1 and 3.2.
+                      
+=======================================
+4. Intellectual Property Rights and Confidentiality
+
+        The copyrights, trademarks, patents, know-how and any other proprietary 
+rights related to the Software are the exclusive property of Huawei. Deletion, 
+removal, or modification of any of the marking, logos, or labels that appear during
+installation or use of the Software is prohibited. You have the right to use them 
+within the authorized scope only. You are obligated to keep any Software-related 
+know-how of Huawei in confidentiality.     
+
+======================================
+5. Termination   
+
+        Without prejudice to any other rights, Huawei and its licensors may terminate
+the right to use the Software if the terms and conditions of this agreement are not
+complied with. In such an event, users will be required to stop using the Software 
+immediately and may further be required to destroy all copies of the Software and 
+all of the component parts.
+
+=======================================
+6. Limited Warranty
+
+        Software is provided on an "AS IS" basis and without a warranty of any kind,
+either expressed or implied, including and without limitation to implied warranties 
+or merchantability, fitness for a particular purpose, or non infringement. 
+
+=======================================
+7. Limitation of Liability
+
+        HUAWEI'S TOTAL LIABILITY HEREUNDER FOR DAMAGES OF ANY NATURE 
+SHALL NOT EXCEED THE TOTAL PAYMENTS MADE BY YOU FOR THE SOFTWARE. 
+        IN NO EVENT SHALL HUAWEI BE LIABLE FOR INCIDENTAL OR 
+CONSEQUENTIAL DAMAGES WHATSOEVER (INCLUDING AND WITHOUT LIMITATION 
+TO DAMAGES FOR LOSS OF BUSINESS PROFITS,BUSINESS INTERRUPTIONS,LOSS
+OF BUSINESS INFORMATION, OR ANY OTHER FINANCIAL LOSS) ARISING OUT 
+OF THE USE OF OR INABILITY TO USE THE SOFTWARE, EVEN IF HUAWEI HAS
+BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+        Any notice concerning this Agreement shall be sent to Huawei by first class 
+registered or certified mail to the following address: Administration Building 
+Huawei Technologies Co., Ltd. Bantian, Longgang District, Shenzhen, 518129, 
+P. R. China
+        This Agreement is governed and construed by the relevant laws of People's 
+Republic of China. All disputes, controversies, and differences arising out of or 
+relating to this Agreement shall be settled amicably through negotiation in good 
+faith. In the event that such dispute or controversies cannot be settled amicably 
+through negotiations within a thirty (30) day period, the matter shall be 
+submitted to China International Economic and Trade Arbitration Commission with 
+its then-current rules by three (3) arbitrators appointed in accordance with the 
+said rules. The decision rendered by arbitrators shall be final and binding upon 
+both Licensee and Licensor hereto.

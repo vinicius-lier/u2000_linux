@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="startupElementList">
+      <PARAS></PARAS>
+      <DESC descname="features">
+        <PARAS>
+          <PARA name="alarmclientgui" />
+          <PARA name="com.swimap.adapter.message.fm" />
+        </PARAS>
+      </DESC>
+    </DESC>
+    <DESC descname="startupcommands">
+      <PARAS>
+        <PARA name="command"
+              value="QueryMonitoredAlarm" />
+        <PARA name="showBlankInternalFrame"
+              value="false" />
+      </PARAS>
+    </DESC>
+    <DESC descname="ApplicationCallBacks">
+      <PARAS>
+        <PARA name="com.swimap.iview.ifms.ifmsclientmanagement.AlarmMonitorAppCallBack">
+        </PARA>
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

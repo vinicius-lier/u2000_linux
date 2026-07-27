@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="mit">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="184549376"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549377"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549378"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549379"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549380"   value="创建对象时类名称不存在。"/>                                                          
+                <PARA name="184549381"   value="系统达到管理能力的极限。"/>                                                          
+                <PARA name="184549382"   value="MO类定义错误。"/>                                                                    
+                <PARA name="184549383"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549384"   value="数据共享冲突，可能其他用户正在进行删除，上载，复制，一致性校验等操作，请稍后再试。"/>
+                <PARA name="184549385"   value="数据共享冲突，可能是其它任务正在执行，请稍后再试。或者是对象不存在。"/>              
+                <PARA name="184549386"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549387"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549388"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549389"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549390"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549391"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549392"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549393"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549394"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549395"   value="数据库操作失败。"/>                                                                  
+                <PARA name="184549396"   value="命令部分成功。"/>                                                                    
+                <PARA name="184549397"   value="数据共享冲突。可能是其它任务正在执行，请稍后再试。"/>                                
+                <PARA name="184549398"   value="构造LAZY模式的MIT树失败。"/>                                                         
+                <PARA name="184549399"   value="插入MITINFO表失败。"/>                                                               
+                <PARA name="184549400"   value="删除MITINFO表失败。"/>                                                               
+                <PARA name="184549401"   value="删除失败，相关数据存在。"/>                                                          
+                <PARA name="184549402"   value="MIT：参数错误。"/>                                                                   
+                <PARA name="184549888"   value="导出简单属性失败。"/>                                                                
+                <PARA name="184549889"   value="获取实时运行类失败。"/>                                                              
+                <PARA name="184549890"   value="获取属性信息失败。"/>                                                                
+                <PARA name="184549891"   value="导出对象还未初始化。"/>                                                              
+                <PARA name="184549892"   value="XML文件打开失败。"/>                                                                 
+                <PARA name="184549893"   value="导出LOCATION失败。"/>                                                                
+                <PARA name="184549894"   value="XML文件解析失败。"/>                                                                 
+                <PARA name="184549895"   value="XML文件尚未解析。"/>                                                                 
+                <PARA name="184549896"   value="XML文件中没有META信息。"/>                                                           
+                <PARA name="184549897"   value="XML文件中的LOCATION信息不正确。"/>                                                   
+                <PARA name="184549898"   value="创建MO失败。"/>                                                                      
+                <PARA name="184549899"   value="XML文件格式错误。"/>                                                                 
+                <PARA name="184549900"   value="XML文件中没有LOCATION信息。"/>                                                       
+                <PARA name="184549901"   value="XML文件中没有MO信息。"/>                                                             
+                <PARA name="184549902"   value="XML文件中META信息格式错误。"/>                                                       
+                <PARA name="184549903"   value="导出属性失败。"/>                                                                    
+                <PARA name="184549904"   value="层次参数非法。"/>                                                                    
+  	            <PARA name="184549905"   value="MO参数非法。"/>                                                                      
+		        <PARA name="184549906"   value="MitEx未知错误。"/>                                                                   
+            </PARAS>                
+        </DESC>                     
+    </AREADESC>                     
+</COMMINIDATA>                      
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    
+                                    

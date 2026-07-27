@@ -1,0 +1,2 @@
+imap_trapreceiver=imap_vts_testframe
+imap_trapreceiver.InstallInfo=imap_vts_testframe

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="com.swimap.nepartition" name="nepartition" version="1.0" provider-name="swimap">
+    <extension-point id="com.swimap.nepartitionpanel" name="com.swimap.nepartitionpanel"/>
+</plugin>

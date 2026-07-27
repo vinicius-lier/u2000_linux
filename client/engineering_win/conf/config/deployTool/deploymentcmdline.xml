@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<settings>
+		<casesensitive>false</casesensitive> <!-- 大小写敏感 -->
+		<onerror>2</onerror> <!-- 1: 遇到错误退出并打印帮助信息. 2: 遇到错误打印错误信息并退出 3:遇到错误显示错误信息继续运行. 4: 忽略错误 -->
+		<showhelponnullarg>true</showhelponnullarg> <!-- 当输入为空的时候显示帮助信 -->
+	</settings>
+
+	<!-- 定义命令行的语法 -->
+	<syntax><![CDATA[
+        [deploy [-ip <ipaddress>] [-port <port>] [-username <username>] [-password <password>]
+            [query -type <querytype> ]
+            [changesapassword -username <username> [-oldpassword <password>] [-newpassword <password>] ]
+            [buildHA -secondaryip <ipaddress> ]
+            [splitHA]
+            [modifyip -oldip <ipaddress> -newip <ipaddress>  -netmask <netmask> ]
+            [modifyfloatip -newip <ipaddress>  -netmask <netmask> ]
+            [modifyhostname -hostip <ipaddress> -hostname <hostname> ]
+            [forcePrimary]
+            [deploydomain -domain <domainname> ]
+            [undeploydomain -domain <domainname> ]
+            [deploymodule -cfgfile <configfile> ]
+            [undeploymodule -cfgfile <configfile> ]
+            [changemsuitepassword]
+       ]
+    ]]></syntax>
+
+	<!-- 定义显示到帮助信息的语法，用于屏蔽某些不想公开的参数 -->
+	<displaysyntax><![CDATA[
+        [deploy [-ip <ipaddress>] [-port <port>] [-username <username>]
+            [query -type <querytype>]
+            [changesapassword -username <username> [-oldpassword <password>] [-newpassword <password>] ]
+            [buildHA -secondaryip <ipaddress> ]
+            [splitHA]
+            [modifyip -oldip <ipaddress> -newip <ipaddress>  [-netmask <netmask>] ]
+            [modifyfloatip -newip <ipaddress>  -netmask <netmask> ]
+            [modifyhostname -hostip <ipaddress> -hostname <hostname> ]
+            [forcePrimary]
+            [deploydomain -domain <domainname> ]
+            [undeploydomain -domain <domainname> ]
+			[changemsuitepassword]
+    ]]></displaysyntax>
+
+	<command>
+		<name>deploy</name> <!-- 命令行接口名称 -->
+		<desc>DEPLOYMENT_CMDLINE_CMD_DESC</desc>
+		<examples>
+			<example>CMDLINE_EXAMPLE_QUERY</example>
+			<example>CMDLINE_EXAMPLE_CHANGEPASSWORD</example>
+			<example>CMDLINE_EXAMPLE_BUILDHA</example>
+			<example>CMDLINE_EXAMPLE_SPLITHA</example>
+			<example>CMDLINE_EXAMPLE_MODIFYIP</example>
+			<example>CMDLINE_EXAMPLE_MDIFYFLOATIP</example>
+			<example>CMDLINE_EXAMPLE_MODIFYHOSTNAME</example>
+			<example>CMDLINE_EXAMPLE_FORCEPRIMARY</example>
+			<example>CMDLINE_EXAMPLE_DEPLOYDOMAIN</example>
+			<example>CMDLINE_EXAMPLE_UNDEPLOYDOMAIN</example>
+			<example>CMDLINE_EXAMPLE_CHANGEMEMSUITEPASSWORD</example>
+		</examples>
+	</command>
+	<parameters>
+		<parameter>
+			<name>-help</name>
+			<desc>HAAGENT_CMDLINE_HELP</desc>
+		</parameter>
+		<parameter>
+			<name>deploy</name>
+			<desc>CMDLINE_LOGIN</desc>
+			<parameter>
+				<name>-ip</name>
+				<desc>CMDLINE_LOGIN_IP</desc>
+			</parameter>
+			<parameter>
+				<name>-port</name>
+				<desc>CMDLINE_LOGIN_PORT</desc>
+			</parameter>
+			<parameter>
+				<name>-username</name>
+				<desc>CMDLINE_LOGIN_USERNAME</desc>
+			</parameter>
+			<parameter>
+				<name>-pwd</name>
+				<desc>CMDLINE_LOGIN_PWD</desc>
+			</parameter>
+			<parameter>
+				<name>modifyhostname</name>
+				<desc>CMDLINE_MODIFYHSTNAME</desc>
+				<parameter>
+					<name>-hostip</name>
+					<desc>CMDLINE_SERVERIPADDRESS</desc>
+				</parameter>
+				<parameter>
+					<name>-hostname</name>
+					<desc>CMDLINE_NEWHOSTNAME</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>modifyip</name>
+				<desc>CMDLINE_MDIFYIP</desc>
+				<parameter>
+					<name>-oldip</name>
+					<desc>CMDLINE_MODIFYOLDIP</desc>
+				</parameter>
+				<parameter>
+					<name>-newip</name>
+					<desc>CMDLINE_MODIFYNEWIP</desc>
+				</parameter>
+				<parameter>
+					<name>-netmask</name>
+					<desc>CMDLINE_MODIFYNETMASK</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>modifyfloatip</name>
+				<desc>CMDLINE_MDIFYFLOATIP</desc>
+				<parameter>
+					<name>-newip</name>
+					<desc>CMDLINE_MODIFYNEWIP</desc>
+				</parameter>
+				<parameter>
+					<name>-netmask</name>
+					<desc>CMDLINE_MODIFYNETMASK</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>query</name>
+				<desc>CMDLINE_QUERY</desc>
+				<parameter>
+					<name>-type</name>
+					<desc>CMDLINE_QUERYTYPE</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>changesapassword</name>
+				<desc>CMDLINE_CHANGEPASSWORD</desc>
+				<parameter>
+					<name>-username</name>
+					<desc>CMDLINE_USERNAME</desc>
+				</parameter>
+				<parameter>
+					<name>-oldpassword</name>
+					<desc>CMDLINE_OLDPASSWORD</desc>
+				</parameter>
+				<parameter>
+					<name>-newpassword</name>
+					<desc>CMDLINE_NEWPASSWORD</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>buildHA</name>
+				<desc>CMDLINE_BUILD_HA</desc>
+				<parameter>
+					<name>-secondaryip</name>
+					<desc>CMDLINE_SEC_IP</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>splitHA</name>
+				<desc>CMDLINE_SPLIT_HA</desc>
+			</parameter>
+			<parameter>
+				<name>forcePrimary</name>
+				<desc>CMDLINE_FORCEPRIMARY</desc>
+				<parameter>
+					<name>forcePrimary</name>
+					<desc>CMDLINE_PARAM_FORCEPRIMARY</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>deploydomain</name>
+				<desc>CMDLINE_DOMAIN_DEPLOY</desc>
+				<parameter>
+					<name>-domain</name>
+					<desc>CMDLINE_DEPLOY_DOMAIN</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>undeploydomain</name>
+				<desc>CMDLINE_DOMAIN_UNDEPLOY</desc>
+				<parameter>
+					<name>-domain</name>
+					<desc>CMDLINE_UNDEPLOY_DOMAIN</desc>
+				</parameter>
+			</parameter>
+			<parameter>
+				<name>changemsuitepassword</name>
+				<desc>CMDLINE_CHANGEMSUITEPASSWORD</desc>
+			</parameter>
+		</parameter>
+	</parameters>
+
+	<quotes>
+		<quote>
+			<name>ipaddress</name>
+			<pattern>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}</pattern>
+			<desc>CMDLINE_QUOTE_IPADDR</desc>
+		</quote>
+		<quote>
+			<name>netmask</name>
+			<pattern>\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}</pattern>
+			<desc>CMDLINE_QUOTE_IPNETMASK</desc>
+		</quote>
+		<quote>
+			<name>port</name>
+			<pattern>\d{4,6}</pattern>
+			<desc>CMDLINE_QUOTE_PORT</desc>
+		</quote>
+		<quote>
+			<name>password</name>
+			<pattern>\S+</pattern>
+			<desc>CMDLINE_QUOTE_PWD</desc>
+		</quote>
+		<quote>
+			<name>hostname</name>
+			<pattern>\S+</pattern>
+			<desc>CMDLINE_QUOTE_HOSTNAME</desc>
+		</quote>
+		<quote>
+			<name>username</name>
+			<pattern>\S+</pattern>
+			<desc>CMDLINE_QUOTE_USERNAME</desc>
+		</quote>
+		<quote>
+			<name>querytype</name>
+			<pattern>[1-3]</pattern>
+			<desc>CMDLINE_QUOTE_QUERYTYPE</desc>
+		</quote>
+		<quote>
+			<name>domainname</name>
+			<pattern>\S+</pattern>
+			<desc>CMDLINE_QUOTE_DOMAINNAME</desc>
+		</quote>
+		<quote>
+			<name>configfile</name>
+			<pattern>\S+</pattern>
+			<desc>CMDLINE_QUOTE_CONFIGFILE</desc>
+		</quote>
+	</quotes>
+</root>

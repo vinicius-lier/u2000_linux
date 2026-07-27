@@ -1,0 +1,3 @@
+Main-Class: com.swimap.tool.common.main.QueryLogsToolMain
+Class-Path: ../../../lib/iview.jar ../../../lib/3rd_tools/iviewidl_oem.jar ../../../lib/startup.jar ../../../lib/3rd_tools/jdom.jar ../../../lib/3rd_tools/log4j-1.2.17.jar ../../../lib/3rd_tools/sqlite-jdbc-3.8.10.1.jar
+

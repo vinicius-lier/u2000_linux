@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="NE Name" name="NE Name" isVisiable="true" isEditable="true" width="85" isNameModified="false" />
+  <column id="NE IP Address" name="NE IP Address" isVisiable="true" isEditable="true" width="110" isNameModified="false" />
+  <column id="Level 1 Group" name="Level 1 Group" isVisiable="true" isEditable="true" width="106" isNameModified="false" />
+  <column id="NE Type" name="NE Type" isVisiable="true" isEditable="true" width="85" isNameModified="false" />
+  <column id="Connection Mode" name="Connection Mode" isVisiable="true" isEditable="true" width="126" isNameModified="false" />
+  <column id="Change Type" name="Change Type" isVisiable="true" isEditable="true" width="103" isNameModified="false" />
+  <column id="Creation Time" name="Creation Time" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+</table>
+

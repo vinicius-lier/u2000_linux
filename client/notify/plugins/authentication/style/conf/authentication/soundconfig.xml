@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+        <DESC descname="LOGIN_FAILED_WARNING" >
+            <PARAS>
+                <PARA name="path"   value="" />
+                <PARA name="flag"   value="0" />
+                <PARA name="time"   value="3" />
+            </PARAS>
+        </DESC>
+        <DESC descname="UNLOCK_FAILED_WARNING" >
+            <PARAS>
+                <PARA name="path"   value="" />
+                <PARA name="flag"   value="0" />
+                <PARA name="time"   value="3" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

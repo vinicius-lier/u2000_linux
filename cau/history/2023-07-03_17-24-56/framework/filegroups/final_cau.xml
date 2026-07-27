@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<FileGroups version="1.0">
+<FileGroup GroupSize="795385" PartName="cau" name="cau_frame_resource_cau_Common" status="1" type="3" version="1548360319">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="ZcDALjcc7BUhMMGX8U5aNc1BGVAwq9COZYCEYCLxakU=" insroot="NMSROOT" name="cau/bin/handle.exe" size="221184" time="1518513025337"/>
+<FileDescription appendRoot="" digest="Y06/A56iJSTmkMtus/wVwRvD2/UPSoQGVYIkk6IXVlg=" insroot="NMSROOT" name="cau/bin/GetHandle.exe" size="221184" time="1518513025338"/>
+<FileDescription appendRoot="" digest="7bPgsKyLxoiqQTdUKmGOlgPwyinaFSU8yLE4nC+6xt0=" insroot="NMSROOT" name="cau/bin/businessType.cfg" size="118" time="1518513016543"/>
+<FileDescription appendRoot="" digest="SRu9SiMu3m2XWDdy1BLwHGE/YU8YHIqv2lBs27xT+h4=" insroot="NMSROOT" name="cau/config/CAU.policy" size="3029" time="1518513018385"/>
+<FileDescription appendRoot="" digest="Hh6KFKVGXL7qIlXwTwqMcfq4pMVVJ6VYCE01SkaLuBg=" insroot="NMSROOT" name="cau/config/ClientDefine.xml" size="6715" time="1519902798000"/>
+<FileDescription appendRoot="" digest="4VQqQ9u6203xu4QuR6Eqrl+Ni8vUvlUGEdbFrNAGFHQ=" insroot="NMSROOT" name="cau/config/common_config.xml" size="1150" time="1518513015890"/>
+<FileDescription appendRoot="" digest="7VxJBMiyrwxATAs28J/HXoa0/2iBZSMcDkIm8UMiS84=" insroot="NMSROOT" name="cau/config/pluginExample_plugin" size="4562" time="1518513017765"/>
+<FileDescription appendRoot="" digest="wRY6mWdemP0g1S3Up60sBw2yQWRTh9xcX4JT8o+CXas=" insroot="NMSROOT" name="cau/config/cauContext.properties" size="3564" time="1574513174645"/>
+<FileDescription appendRoot="" digest="6FMTrcXuhhpl6PWEf3scV9+vzPsTU4GK9afj/60hGAc=" insroot="NMSROOT" name="cau/config/cau_module_Plugin.xml" size="398" time="1518513014971"/>
+<FileDescription appendRoot="" digest="r2QEqXoeczmuHPdE8NAbcOB+H8oJdN/a5dRIG1gFP8U=" insroot="NMSROOT" name="cau/config/ClientRoots.properties" size="305" time="1518513020229"/>
+<FileDescription appendRoot="" digest="cNIKJbLSF5KHqZ6CMKJKeYHEVW0whUQbkAYvSUFtXMA=" insroot="NMSROOT" name="cau/config/cau_shortcut_Plugin.xml" size="736" time="1518513014540"/>
+<FileDescription appendRoot="" digest="kPWhYNdGgRlN64dn2xwXs1tAX9MxwXXyfU3D8OtMtVI=" insroot="NMSROOT" name="cau/config/cau_uninstall_Plugin.xml" size="733" time="1518513023004"/>
+<FileDescription appendRoot="" digest="WKoC3souroeTlJufOly0hpZF0omslDcwg3/3Ly86gyI=" insroot="NMSROOT" name="cau/config/default_ReserveFiles.xml" size="984" time="1518513014999"/>
+<FileDescription appendRoot="" digest="OYhOPI0Kpii7KNDyAL0jDD/wbWHu5KMKOGWgHovHm2U=" insroot="NMSROOT" name="cau/config/iMap_FM_ReserveFiles.xml" size="660" time="1518425782678"/>
+<FileDescription appendRoot="" digest="vz6JO63qKefAe5Tvy9HDxRzX+icj0tXiJnNuY49pzCA=" insroot="NMSROOT" name="cau/config/iMap_SM_ReserveFiles.xml" size="1238" time="1417647344647"/>
+<FileDescription appendRoot="" digest="TnZjU8xYbdKyU2iTxka7H4DY50qnd9MzHuPVo+daAPc=" insroot="NMSROOT" name="cau/config/iMap_TM_ReserveFiles.xml" size="1153" time="1450886228694"/>
+<FileDescription appendRoot="" digest="wStybncCKhGyv234mb4gjd+4zup4pnsV4oRDzrN+lSQ=" insroot="NMSROOT" name="cau/config/package_configuration.xml" size="927" time="1519902798000"/>
+<FileDescription appendRoot="" digest="HnHgrIAmIoX7i7b6xE6E9a067gV5HD3K0hJGCQ75gcY=" insroot="NMSROOT" name="cau/config/productContext.properties" size="320" time="1574513174643"/>
+<FileDescription appendRoot="" digest="ANMIWj6omK9GbvwOFhivux+5PcfcgP36I1DJii9QYcg=" insroot="NMSROOT" name="cau/config/InstallLanguage.properties" size="58" time="1574513174687"/>
+<FileDescription appendRoot="" digest="CNZk8a+KTmv9I3ZNhGTEIE0EYFMkDyAb0yBuJd8CP6k=" insroot="NMSROOT" name="cau/config/cau_uncoverfile_Plugin.xml" size="761" time="1518513022115"/>
+<FileDescription appendRoot="" digest="BL905fi2CajxigvZgxVCZm1dx9GbVSAiUdYHom9DmZE=" insroot="NMSROOT" name="cau/config/U2000Frame_ReserveFiles.xml" size="705" time="1519904768000"/>
+<FileDescription appendRoot="" digest="/kkMs8ckKFXEVpsWXoLThZ5Ip96epsy1XweNTJfUuVM=" insroot="NMSROOT" name="cau/config/iview_CopyProfile_Plugin.xml" size="407" time="1518452507850"/>
+<FileDescription appendRoot="" digest="VfI/2SIU+CvDwROwdSiYq4xlZSRP4Df251hA7vBpoiw=" insroot="NMSROOT" name="cau/config/serverInfoUpgrade_Plugin.xml" size="433" time="1518452507835"/>
+<FileDescription appendRoot="" digest="G7VqyGe9M0n6l+xOSBC+5b5Smct9IjcRdmOkGehC/SY=" insroot="NMSROOT" name="cau/config/WizardPageManager_Install.xml" size="766" time="1518513018151"/>
+<FileDescription appendRoot="" digest="Suj6OHpZ0H3hHp721YcyBs7nKLYN/l14XJwRIgQXqp0=" insroot="NMSROOT" name="cau/config/WizardPageManager_Upgrade.xml" size="473" time="1518513016463"/>
+<FileDescription appendRoot="" digest="DAzENQPXURUMSQyJOf0r7Sa56MRgqpZAibjtArn8Xog=" insroot="NMSROOT" name="cau/config/applicationContext.properties" size="3564" time="1574513174652"/>
+<FileDescription appendRoot="" digest="8D7LdNfRiHG+foE1fpE8/P568/q7ktVjwclBcMYlDdk=" insroot="NMSROOT" name="cau/config/iview_Update_Script_Plugin.xml" size="425" time="1518452507866"/>
+<FileDescription appendRoot="" digest="jdx+8LAjZIJKloAjF33frcUqXJs1sXRmgbfXx4vHcGY=" insroot="NMSROOT" name="cau/config/iview_profile_ReserveFiles.xml" size="718" time="1518425304569"/>
+<FileDescription appendRoot="" digest="i1SQukZ9FirJZqQbYkOq5PLLT0tAzFGbwS4rT5U4uyQ=" insroot="NMSROOT" name="cau/config/Single_WizardPage_Uninstall.xml" size="206" time="1518513015483"/>
+<FileDescription appendRoot="" digest="JqAGdN19o96riGTRWDrQUa8IMh2tw3uWZWfXuH4K1hI=" insroot="NMSROOT" name="cau/config/WizardPageManager_Uninstall.xml" size="281" time="1518513022106"/>
+<FileDescription appendRoot="" digest="SaLFDVyfBxFunJV33d3vQksU5OodxnJsHgA63nztvxo=" insroot="NMSROOT" name="cau/config/iview_UpdateCertConf_Plugin.xml" size="421" time="1518452507866"/>
+<FileDescription appendRoot="" digest="1tQn5UrSjfKwy6M5pOZwAd/cpTZjxjlNXk+h5wDj9nc=" insroot="NMSROOT" name="cau/config/alarmBoxUpgradePlugin_Plugin.xml" size="423" time="1518452507835"/>
+<FileDescription appendRoot="" digest="C06oPG7J2SNUQsmpXDFqq0kBmNF2kHhO85WWluvaWq4=" insroot="NMSROOT" name="cau/config/iview_reserved_profile_users.txt" size="1439" time="1518425304569"/>
+<FileDescription appendRoot="" digest="LdMcmJ50g5BnwnGIIhzYF1KHa1KIQcfsYNRkNV4fWB0=" insroot="NMSROOT" name="cau/config/u2000_reserved_profile_users.txt" size="166" time="1519790480000"/>
+<FileDescription appendRoot="" digest="itLNE0pkyjbLK4G0SmNhn4+q7k1SRs4T7qS8L9aiZ94=" insroot="NMSROOT" name="cau/config/iview_ConfigurationClear_Plugin.xml" size="424" time="1518452507819"/>
+<FileDescription appendRoot="" digest="wTgscDGCKebwDEKoDnA9Js0zTDqJCqno1wP0sLr63eQ=" insroot="NMSROOT" name="cau/config/iview_reserved_profile_allusers.txt" size="67" time="1518425304569"/>
+<FileDescription appendRoot="" digest="HaewjRgKk8P8xY/ZI6kULlo+OjPEfzuCON5dfCWdp9w=" insroot="NMSROOT" name="cau/config/topoBackGroundIconUpgradePlugin_Plugin.xml" size="431" time="1518452507835"/>
+<FileDescription appendRoot="" digest="R2/zjESfRjfMZjfMa51NUk6sOQrwDV823UvKcsQsCyo=" insroot="NMSROOT" name="cau/resource/image/all.gif" size="853" time="1518513019054"/>
+<FileDescription appendRoot="" digest="mB7XZI8PoeZLGFJpy1U0dfJlA5XlePz4n3PKh0WkwrU=" insroot="NMSROOT" name="cau/resource/image/leaf.gif" size="90" time="1518513018455"/>
+<FileDescription appendRoot="" digest="LjJ60XzVICuGEXBEe7i9IHQw22ZLfTX/Hf+2nlYU0/w=" insroot="NMSROOT" name="cau/resource/image/logo.png" size="5392" time="1519902798000"/>
+<FileDescription appendRoot="" digest="PD/pmvFcDn7juetNrYmLqw2V8If++t7dUxXHMN62CTQ=" insroot="NMSROOT" name="cau/resource/image/none.gif" size="841" time="1518513019319"/>
+<FileDescription appendRoot="" digest="ZXv9hD69qMdGvH4qu8ETiA5fNOLDuCOmaOKxYPNQ/uM=" insroot="NMSROOT" name="cau/resource/image/part.gif" size="853" time="1518513014475"/>
+<FileDescription appendRoot="" digest="aoEo+UKzQ8aM2w2OXH76DVcZhheBiSav4GFS7KslemE=" insroot="NMSROOT" name="cau/resource/image/error.gif" size="2208" time="1518513014104"/>
+<FileDescription appendRoot="" digest="nGErdWQPR719+MWPrFER1bBP9q4eu3H2r5oM0+2MRQg=" insroot="NMSROOT" name="cau/resource/image/query.gif" size="1474" time="1518513023302"/>
+<FileDescription appendRoot="" digest="qKoSYQVQ/gHJ0e92HrJmP68qjRPEvdDbpG7NQEnXL4U=" insroot="NMSROOT" name="cau/resource/image/closed.gif" size="121" time="1518513014726"/>
+<FileDescription appendRoot="" digest="xvluxlOGQM02qeDVgWB9dIXnKTqKCZjg8gBHe9ySHM8=" insroot="NMSROOT" name="cau/resource/image/inform.gif" size="1921" time="1518513018464"/>
+<FileDescription appendRoot="" digest="rHNpB+anTCMIwstjeWcXvrXRm22mGC7BqNpT/lH8jnU=" insroot="NMSROOT" name="cau/resource/image/opened.gif" size="112" time="1518513021658"/>
+<FileDescription appendRoot="" digest="BlT7/hua6NTSZm2+teBZLBzH1HAY2E8bXt8ozwNwjMM=" insroot="NMSROOT" name="cau/resource/image/warning.gif" size="1327" time="1518513022396"/>
+<FileDescription appendRoot="" digest="9QUaQLNzFU5V8sX40LAhguMRqyPdR9SQUI+3RR+yCL4=" insroot="NMSROOT" name="cau/resource/image/download.gif" size="86409" time="1518513022913"/>
+<FileDescription appendRoot="" digest="h++NxZ23QaSthR7Ad8JLolurFcK2IyoVXKDDrQpv8dE=" insroot="NMSROOT" name="cau/resource/image/copyFiles.gif" size="8297" time="1518513014352"/>
+<FileDescription appendRoot="" digest="h++NxZ23QaSthR7Ad8JLolurFcK2IyoVXKDDrQpv8dE=" insroot="NMSROOT" name="cau/resource/image/uninstall.gif" size="8297" time="1518513021865"/>
+<FileDescription appendRoot="" digest="QdnAV3jSpjSmziFjglJv6cxFpXrOFRQaNWsISlxnKL8=" insroot="NMSROOT" name="cau/resource/image/uninstall.ico" size="1406" time="1518513020561"/>
+<FileDescription appendRoot="" digest="T5QMm0/OhMQpO5XkWaplSANhkv7cEeIRFIfi1GIeMB4=" insroot="NMSROOT" name="cau/resource/image/background.png" size="81781" time="1518513016497"/>
+<FileDescription appendRoot="" digest="QoJgCEqW/YCmviOisnhrvAIPuj8SjMaVQoDqGwuIxlI=" insroot="NMSROOT" name="cau/resource/image/runingtask.gif" size="82" time="1518513014092"/>
+<FileDescription appendRoot="" digest="LjJ60XzVICuGEXBEe7i9IHQw22ZLfTX/Hf+2nlYU0/w=" insroot="NMSROOT" name="cau/resource/image/client_logo.png" size="5392" time="1519902798000"/>
+<FileDescription appendRoot="" digest="Xrj8ypUNNNRYtDYxbMUaN8MU9Znvv3p73rKbFRcW2rk=" insroot="NMSROOT" name="cau/resource/image/upgradeIcon.gif" size="840" time="1518513016821"/>
+<FileDescription appendRoot="" digest="hD/2XkvYg3h8Bpz9JRegumR3ZkSuDTi3/OBlc1CrBXo=" insroot="NMSROOT" name="cau/resource/image/disabledIcon.gif" size="320" time="1518513014409"/>
+<FileDescription appendRoot="" digest="wPDx6X10KevraqUEfpfRoqGIJiJTN8GuzeYao2ZZxPE=" insroot="NMSROOT" name="cau/resource/image/MainFrameIcon.gif" size="1412" time="1519902798000"/>
+<FileDescription appendRoot="" digest="bVMgNYSXoL6gUB5H2os/bAc+AE/jeM1xRITvbv4sojc=" insroot="NMSROOT" name="cau/resource/image/uninstall.ico.m.pm" size="5726" time="1518513021770"/>
+<FileDescription appendRoot="" digest="jersk6ehiXnNiv0/saf/L7PAT8y5lsmUeEvzaugHfck=" insroot="NMSROOT" name="cau/resource/image/uninstall.ico.t.pm" size="3235" time="1518513023196"/>
+<FileDescription appendRoot="" digest="J15CAr5SkC9PqiFz41/8FTpJ6Yi5DzljmkvaZXKWn0U=" insroot="NMSROOT" name="cau/resource/locale/en_US/license.txt" size="4452" time="1518513019457"/>
+<FileDescription appendRoot="" digest="tTh9t0fb8ecRh42imCGszHqjgtMlGZbb0yHl4eSatu8=" insroot="NMSROOT" name="cau/resource/locale/en_US/string.properties" size="25732" time="1518513020070"/>
+<FileDescription appendRoot="" digest="dheKzmgeMiNCtFCOmdgRC3Hw1RB4lGb8997P47ae/44=" insroot="NMSROOT" name="cau/resource/locale/zh_CN/license.txt" size="3696" time="1518513019438"/>
+<FileDescription appendRoot="" digest="btCBMzFbJtQPazAVTml5zjrOvo+t7yesi9sK6G3XwYs=" insroot="NMSROOT" name="cau/resource/locale/zh_CN/string.properties" size="35016" time="1518513016640"/>
+<FileDescription appendRoot="" digest="meIuzuvPqPU+D4KecmQEi6UHh6LTBRduAxGs6uAyNGU=" insroot="NMSROOT" name="cau/resource/locale/zh_CN/string_src.properties" size="23551" time="1518513016616"/>
+<FileDescription appendRoot="" digest="DTrrwV+sRlNLpRV1B28vlu62R0aiG8fqTTUIdfcGvf8=" insroot="NMSROOT" name="cau/resource/.gnome2/vfolders/applications.vfolder-info" size="144" time="1518513023897"/>
+<FileDescription appendRoot="" digest="m2uh/EgK/1C10XgAdy01c4xx/gXirYoH94VW1behVi4=" insroot="NMSROOT" name="cau/installinfo/windows/NW_20/U2000_Solution.xml" size="3277" time="1574513173652"/>
+</FileGroup>
+<FileGroup GroupSize="0" PartName="cau" name="cau_frame_resource_cau_Linux_SunOS" status="1" type="3" version="0">
+<OSlist>
+<os name="Linux"/>
+<os name="SunOS"/>
+</OSlist>
+<ProductList/>
+</FileGroup>
+<FileGroup GroupSize="43149" PartName="cau" name="cau_frame_resource_cau_Windows" status="1" type="3" version="3542884450">
+<OSlist>
+<os name="Windows"/>
+</OSlist>
+<ProductList/>
+<FileDescription appendRoot="" digest="CSXkoN4IhyHdlMQZTsLP8n5jLjh7T/26vKJylzE5GdA=" insroot="NMSROOT" name="cau/bin/cau.bat" size="7377" time="1518513014969"/>
+<FileDescription appendRoot="" digest="6ERZ+ljCkYqZs6267KLX4HwubZ3qQ1A5yNey4G9bpxQ=" insroot="NMSROOT" name="cau/bin/wrap_cau.bat" size="614" time="1518513022381"/>
+<FileDescription appendRoot="" digest="ZBmLgZsarFRaMXvY4ZtIQI+j8R5wP5H/LSaVIf8RmpY=" insroot="NMSROOT" name="cau/bin/check_cau.bat" size="2988" time="1518513014480"/>
+<FileDescription appendRoot="" digest="eY4psS/oqwwJoW2hlDHCjPTTBDxoTQ6LQEvXnWYsHo4=" insroot="NMSROOT" name="cau/bin/nohup_cau.bat" size="168" time="1518513022137"/>
+<FileDescription appendRoot="" digest="iv/88huexdxaj4V3blYi7d64e1cy4aMboNQcjGbAFPU=" insroot="NMSROOT" name="cau/bin/start_cau.bat" size="2227" time="1518513020298"/>
+<FileDescription appendRoot="" digest="IXALzGvMUc0D7SY7AMjqH4GzQxw2ygB6ivPh/JbzleU=" insroot="NMSROOT" name="cau/bin/uninstall.vbs" size="2732" time="1518513020976"/>
+<FileDescription appendRoot="" digest="Zdnfg9BlhxSOlNbHo5q6NAwtttPWTVFOE9GkJDbAkuw=" insroot="NMSROOT" name="cau/bin/launch_cau.bat" size="648" time="1518513017435"/>
+<FileDescription appendRoot="" digest="EVHe1EX2s+FMwQMpnRP4SvaoBS/Q4MAx++Dv+b0I1zc=" insroot="NMSROOT" name="cau/bin/cauuninstall.bat" size="1462" time="1518513018549"/>
+<FileDescription appendRoot="" digest="09R7IejyFjbPH7ErF/PmxcccpN3OZQ95b5eZ/R08Ijk=" insroot="NMSROOT" name="cau/bin/cauCrtReplace.bat" size="5148" time="1518513021394"/>
+<FileDescription appendRoot="" digest="7VjdJRl6tiHbIAIHd2AsUKYZRK+xf4qOsuaNetPw9t4=" insroot="NMSROOT" name="cau/bin/cau_unregister.bat" size="1050" time="1518513024217"/>
+<FileDescription appendRoot="" digest="VTZtet010GJH5tUw65haSC25SI+LAH6oOWsdTt8EoL8=" insroot="NMSROOT" name="cau/bin/cauuninstall_util.bat" size="565" time="1518513020178"/>
+<FileDescription appendRoot="" digest="vJqrkyT22DK85A/SpuPcEnPdo8+w1Iadh7JuE9eLotA=" insroot="NMSROOT" name="cau/bin/removeTomcatWorkCau.bat" size="487" time="1518513024691"/>
+<FileDescription appendRoot="" digest="+0rrs7Qp8jfjCNAnru6+UslkYCTMJncFjoj61AsuaSA=" insroot="NMSROOT" name="cau/bin/scripts/run.vbs" size="940" time="1518513016346"/>
+<FileDescription appendRoot="" digest="37cro3Fa4b2gUVw9Y+0d4tIZ9sbwhoMvKIa4bYdY/L0=" insroot="NMSROOT" name="cau/bin/scripts/cau_vistautil.bat" size="5357" time="1518513020869"/>
+<FileDescription appendRoot="" digest="KuiB2FfAtnH/IfOHW0hD8CX8Pm/Ym7JqCvb8WCktO0g=" insroot="NMSROOT" name="cau/bin/scripts/createshortcut_util.bat" size="5223" time="1518513021899"/>
+<FileDescription appendRoot="" digest="IOLSJYsbM6aRfFXPhXEE9kzI6Lzb0QstLyT21SwMY2w=" insroot="NMSROOT" name="cau/bin/scripts/deleteshortcut_util.bat" size="3571" time="1518513018184"/>
+<FileDescription appendRoot="" digest="8AKswSpAUGD5B7rEVZsaldQuLAEC5I8eyAsJ9Iw9HnA=" insroot="NMSROOT" name="cau/bin/scripts/start_cau_vistautil.bat" size="2050" time="1518513020240"/>
+<FileDescription appendRoot="" digest="MCNcSQTJBNxz0yxL3Ky7im3Qj05qQND5Rc57h1o7wIU=" insroot="NMSROOT" name="cau/resource/scripts/uninstall.bat" size="542" time="1518513022501"/>
+</FileGroup>
+<FileGroup GroupSize="795385" PartName="cau" name="cau_frame_resource_cau_verify_Common" status="1" type="3" version="1548360319">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="ZcDALjcc7BUhMMGX8U5aNc1BGVAwq9COZYCEYCLxakU=" insroot="NMSROOT" name="cau/bin/handle.exe" size="221184" time="1518513025337"/>
+<FileDescription appendRoot="" digest="Y06/A56iJSTmkMtus/wVwRvD2/UPSoQGVYIkk6IXVlg=" insroot="NMSROOT" name="cau/bin/GetHandle.exe" size="221184" time="1518513025338"/>
+<FileDescription appendRoot="" digest="7bPgsKyLxoiqQTdUKmGOlgPwyinaFSU8yLE4nC+6xt0=" insroot="NMSROOT" name="cau/bin/businessType.cfg" size="118" time="1518513016543"/>
+<FileDescription appendRoot="" digest="SRu9SiMu3m2XWDdy1BLwHGE/YU8YHIqv2lBs27xT+h4=" insroot="NMSROOT" name="cau/config/CAU.policy" size="3029" time="1518513018385"/>
+<FileDescription appendRoot="" digest="Hh6KFKVGXL7qIlXwTwqMcfq4pMVVJ6VYCE01SkaLuBg=" insroot="NMSROOT" name="cau/config/ClientDefine.xml" size="6715" time="1519902798000"/>
+<FileDescription appendRoot="" digest="4VQqQ9u6203xu4QuR6Eqrl+Ni8vUvlUGEdbFrNAGFHQ=" insroot="NMSROOT" name="cau/config/common_config.xml" size="1150" time="1518513015890"/>
+<FileDescription appendRoot="" digest="7VxJBMiyrwxATAs28J/HXoa0/2iBZSMcDkIm8UMiS84=" insroot="NMSROOT" name="cau/config/pluginExample_plugin" size="4562" time="1518513017765"/>
+<FileDescription appendRoot="" digest="wRY6mWdemP0g1S3Up60sBw2yQWRTh9xcX4JT8o+CXas=" insroot="NMSROOT" name="cau/config/cauContext.properties" size="3564" time="1574513174645"/>
+<FileDescription appendRoot="" digest="6FMTrcXuhhpl6PWEf3scV9+vzPsTU4GK9afj/60hGAc=" insroot="NMSROOT" name="cau/config/cau_module_Plugin.xml" size="398" time="1518513014971"/>
+<FileDescription appendRoot="" digest="r2QEqXoeczmuHPdE8NAbcOB+H8oJdN/a5dRIG1gFP8U=" insroot="NMSROOT" name="cau/config/ClientRoots.properties" size="305" time="1518513020229"/>
+<FileDescription appendRoot="" digest="cNIKJbLSF5KHqZ6CMKJKeYHEVW0whUQbkAYvSUFtXMA=" insroot="NMSROOT" name="cau/config/cau_shortcut_Plugin.xml" size="736" time="1518513014540"/>
+<FileDescription appendRoot="" digest="kPWhYNdGgRlN64dn2xwXs1tAX9MxwXXyfU3D8OtMtVI=" insroot="NMSROOT" name="cau/config/cau_uninstall_Plugin.xml" size="733" time="1518513023004"/>
+<FileDescription appendRoot="" digest="WKoC3souroeTlJufOly0hpZF0omslDcwg3/3Ly86gyI=" insroot="NMSROOT" name="cau/config/default_ReserveFiles.xml" size="984" time="1518513014999"/>
+<FileDescription appendRoot="" digest="OYhOPI0Kpii7KNDyAL0jDD/wbWHu5KMKOGWgHovHm2U=" insroot="NMSROOT" name="cau/config/iMap_FM_ReserveFiles.xml" size="660" time="1518425782678"/>
+<FileDescription appendRoot="" digest="vz6JO63qKefAe5Tvy9HDxRzX+icj0tXiJnNuY49pzCA=" insroot="NMSROOT" name="cau/config/iMap_SM_ReserveFiles.xml" size="1238" time="1417647344647"/>
+<FileDescription appendRoot="" digest="TnZjU8xYbdKyU2iTxka7H4DY50qnd9MzHuPVo+daAPc=" insroot="NMSROOT" name="cau/config/iMap_TM_ReserveFiles.xml" size="1153" time="1450886228694"/>
+<FileDescription appendRoot="" digest="wStybncCKhGyv234mb4gjd+4zup4pnsV4oRDzrN+lSQ=" insroot="NMSROOT" name="cau/config/package_configuration.xml" size="927" time="1519902798000"/>
+<FileDescription appendRoot="" digest="HnHgrIAmIoX7i7b6xE6E9a067gV5HD3K0hJGCQ75gcY=" insroot="NMSROOT" name="cau/config/productContext.properties" size="320" time="1574513174643"/>
+<FileDescription appendRoot="" digest="ANMIWj6omK9GbvwOFhivux+5PcfcgP36I1DJii9QYcg=" insroot="NMSROOT" name="cau/config/InstallLanguage.properties" size="58" time="1574513174687"/>
+<FileDescription appendRoot="" digest="CNZk8a+KTmv9I3ZNhGTEIE0EYFMkDyAb0yBuJd8CP6k=" insroot="NMSROOT" name="cau/config/cau_uncoverfile_Plugin.xml" size="761" time="1518513022115"/>
+<FileDescription appendRoot="" digest="BL905fi2CajxigvZgxVCZm1dx9GbVSAiUdYHom9DmZE=" insroot="NMSROOT" name="cau/config/U2000Frame_ReserveFiles.xml" size="705" time="1519904768000"/>
+<FileDescription appendRoot="" digest="/kkMs8ckKFXEVpsWXoLThZ5Ip96epsy1XweNTJfUuVM=" insroot="NMSROOT" name="cau/config/iview_CopyProfile_Plugin.xml" size="407" time="1518452507850"/>
+<FileDescription appendRoot="" digest="VfI/2SIU+CvDwROwdSiYq4xlZSRP4Df251hA7vBpoiw=" insroot="NMSROOT" name="cau/config/serverInfoUpgrade_Plugin.xml" size="433" time="1518452507835"/>
+<FileDescription appendRoot="" digest="G7VqyGe9M0n6l+xOSBC+5b5Smct9IjcRdmOkGehC/SY=" insroot="NMSROOT" name="cau/config/WizardPageManager_Install.xml" size="766" time="1518513018151"/>
+<FileDescription appendRoot="" digest="Suj6OHpZ0H3hHp721YcyBs7nKLYN/l14XJwRIgQXqp0=" insroot="NMSROOT" name="cau/config/WizardPageManager_Upgrade.xml" size="473" time="1518513016463"/>
+<FileDescription appendRoot="" digest="DAzENQPXURUMSQyJOf0r7Sa56MRgqpZAibjtArn8Xog=" insroot="NMSROOT" name="cau/config/applicationContext.properties" size="3564" time="1574513174652"/>
+<FileDescription appendRoot="" digest="8D7LdNfRiHG+foE1fpE8/P568/q7ktVjwclBcMYlDdk=" insroot="NMSROOT" name="cau/config/iview_Update_Script_Plugin.xml" size="425" time="1518452507866"/>
+<FileDescription appendRoot="" digest="jdx+8LAjZIJKloAjF33frcUqXJs1sXRmgbfXx4vHcGY=" insroot="NMSROOT" name="cau/config/iview_profile_ReserveFiles.xml" size="718" time="1518425304569"/>
+<FileDescription appendRoot="" digest="i1SQukZ9FirJZqQbYkOq5PLLT0tAzFGbwS4rT5U4uyQ=" insroot="NMSROOT" name="cau/config/Single_WizardPage_Uninstall.xml" size="206" time="1518513015483"/>
+<FileDescription appendRoot="" digest="JqAGdN19o96riGTRWDrQUa8IMh2tw3uWZWfXuH4K1hI=" insroot="NMSROOT" name="cau/config/WizardPageManager_Uninstall.xml" size="281" time="1518513022106"/>
+<FileDescription appendRoot="" digest="SaLFDVyfBxFunJV33d3vQksU5OodxnJsHgA63nztvxo=" insroot="NMSROOT" name="cau/config/iview_UpdateCertConf_Plugin.xml" size="421" time="1518452507866"/>
+<FileDescription appendRoot="" digest="1tQn5UrSjfKwy6M5pOZwAd/cpTZjxjlNXk+h5wDj9nc=" insroot="NMSROOT" name="cau/config/alarmBoxUpgradePlugin_Plugin.xml" size="423" time="1518452507835"/>
+<FileDescription appendRoot="" digest="C06oPG7J2SNUQsmpXDFqq0kBmNF2kHhO85WWluvaWq4=" insroot="NMSROOT" name="cau/config/iview_reserved_profile_users.txt" size="1439" time="1518425304569"/>
+<FileDescription appendRoot="" digest="LdMcmJ50g5BnwnGIIhzYF1KHa1KIQcfsYNRkNV4fWB0=" insroot="NMSROOT" name="cau/config/u2000_reserved_profile_users.txt" size="166" time="1519790480000"/>
+<FileDescription appendRoot="" digest="itLNE0pkyjbLK4G0SmNhn4+q7k1SRs4T7qS8L9aiZ94=" insroot="NMSROOT" name="cau/config/iview_ConfigurationClear_Plugin.xml" size="424" time="1518452507819"/>
+<FileDescription appendRoot="" digest="wTgscDGCKebwDEKoDnA9Js0zTDqJCqno1wP0sLr63eQ=" insroot="NMSROOT" name="cau/config/iview_reserved_profile_allusers.txt" size="67" time="1518425304569"/>
+<FileDescription appendRoot="" digest="HaewjRgKk8P8xY/ZI6kULlo+OjPEfzuCON5dfCWdp9w=" insroot="NMSROOT" name="cau/config/topoBackGroundIconUpgradePlugin_Plugin.xml" size="431" time="1518452507835"/>
+<FileDescription appendRoot="" digest="R2/zjESfRjfMZjfMa51NUk6sOQrwDV823UvKcsQsCyo=" insroot="NMSROOT" name="cau/resource/image/all.gif" size="853" time="1518513019054"/>
+<FileDescription appendRoot="" digest="mB7XZI8PoeZLGFJpy1U0dfJlA5XlePz4n3PKh0WkwrU=" insroot="NMSROOT" name="cau/resource/image/leaf.gif" size="90" time="1518513018455"/>
+<FileDescription appendRoot="" digest="LjJ60XzVICuGEXBEe7i9IHQw22ZLfTX/Hf+2nlYU0/w=" insroot="NMSROOT" name="cau/resource/image/logo.png" size="5392" time="1519902798000"/>
+<FileDescription appendRoot="" digest="PD/pmvFcDn7juetNrYmLqw2V8If++t7dUxXHMN62CTQ=" insroot="NMSROOT" name="cau/resource/image/none.gif" size="841" time="1518513019319"/>
+<FileDescription appendRoot="" digest="ZXv9hD69qMdGvH4qu8ETiA5fNOLDuCOmaOKxYPNQ/uM=" insroot="NMSROOT" name="cau/resource/image/part.gif" size="853" time="1518513014475"/>
+<FileDescription appendRoot="" digest="aoEo+UKzQ8aM2w2OXH76DVcZhheBiSav4GFS7KslemE=" insroot="NMSROOT" name="cau/resource/image/error.gif" size="2208" time="1518513014104"/>
+<FileDescription appendRoot="" digest="nGErdWQPR719+MWPrFER1bBP9q4eu3H2r5oM0+2MRQg=" insroot="NMSROOT" name="cau/resource/image/query.gif" size="1474" time="1518513023302"/>
+<FileDescription appendRoot="" digest="qKoSYQVQ/gHJ0e92HrJmP68qjRPEvdDbpG7NQEnXL4U=" insroot="NMSROOT" name="cau/resource/image/closed.gif" size="121" time="1518513014726"/>
+<FileDescription appendRoot="" digest="xvluxlOGQM02qeDVgWB9dIXnKTqKCZjg8gBHe9ySHM8=" insroot="NMSROOT" name="cau/resource/image/inform.gif" size="1921" time="1518513018464"/>
+<FileDescription appendRoot="" digest="rHNpB+anTCMIwstjeWcXvrXRm22mGC7BqNpT/lH8jnU=" insroot="NMSROOT" name="cau/resource/image/opened.gif" size="112" time="1518513021658"/>
+<FileDescription appendRoot="" digest="BlT7/hua6NTSZm2+teBZLBzH1HAY2E8bXt8ozwNwjMM=" insroot="NMSROOT" name="cau/resource/image/warning.gif" size="1327" time="1518513022396"/>
+<FileDescription appendRoot="" digest="9QUaQLNzFU5V8sX40LAhguMRqyPdR9SQUI+3RR+yCL4=" insroot="NMSROOT" name="cau/resource/image/download.gif" size="86409" time="1518513022913"/>
+<FileDescription appendRoot="" digest="h++NxZ23QaSthR7Ad8JLolurFcK2IyoVXKDDrQpv8dE=" insroot="NMSROOT" name="cau/resource/image/copyFiles.gif" size="8297" time="1518513014352"/>
+<FileDescription appendRoot="" digest="h++NxZ23QaSthR7Ad8JLolurFcK2IyoVXKDDrQpv8dE=" insroot="NMSROOT" name="cau/resource/image/uninstall.gif" size="8297" time="1518513021865"/>
+<FileDescription appendRoot="" digest="QdnAV3jSpjSmziFjglJv6cxFpXrOFRQaNWsISlxnKL8=" insroot="NMSROOT" name="cau/resource/image/uninstall.ico" size="1406" time="1518513020561"/>
+<FileDescription appendRoot="" digest="T5QMm0/OhMQpO5XkWaplSANhkv7cEeIRFIfi1GIeMB4=" insroot="NMSROOT" name="cau/resource/image/background.png" size="81781" time="1518513016497"/>
+<FileDescription appendRoot="" digest="QoJgCEqW/YCmviOisnhrvAIPuj8SjMaVQoDqGwuIxlI=" insroot="NMSROOT" name="cau/resource/image/runingtask.gif" size="82" time="1518513014092"/>
+<FileDescription appendRoot="" digest="LjJ60XzVICuGEXBEe7i9IHQw22ZLfTX/Hf+2nlYU0/w=" insroot="NMSROOT" name="cau/resource/image/client_logo.png" size="5392" time="1519902798000"/>
+<FileDescription appendRoot="" digest="Xrj8ypUNNNRYtDYxbMUaN8MU9Znvv3p73rKbFRcW2rk=" insroot="NMSROOT" name="cau/resource/image/upgradeIcon.gif" size="840" time="1518513016821"/>
+<FileDescription appendRoot="" digest="hD/2XkvYg3h8Bpz9JRegumR3ZkSuDTi3/OBlc1CrBXo=" insroot="NMSROOT" name="cau/resource/image/disabledIcon.gif" size="320" time="1518513014409"/>
+<FileDescription appendRoot="" digest="wPDx6X10KevraqUEfpfRoqGIJiJTN8GuzeYao2ZZxPE=" insroot="NMSROOT" name="cau/resource/image/MainFrameIcon.gif" size="1412" time="1519902798000"/>
+<FileDescription appendRoot="" digest="bVMgNYSXoL6gUB5H2os/bAc+AE/jeM1xRITvbv4sojc=" insroot="NMSROOT" name="cau/resource/image/uninstall.ico.m.pm" size="5726" time="1518513021770"/>
+<FileDescription appendRoot="" digest="jersk6ehiXnNiv0/saf/L7PAT8y5lsmUeEvzaugHfck=" insroot="NMSROOT" name="cau/resource/image/uninstall.ico.t.pm" size="3235" time="1518513023196"/>
+<FileDescription appendRoot="" digest="J15CAr5SkC9PqiFz41/8FTpJ6Yi5DzljmkvaZXKWn0U=" insroot="NMSROOT" name="cau/resource/locale/en_US/license.txt" size="4452" time="1518513019457"/>
+<FileDescription appendRoot="" digest="tTh9t0fb8ecRh42imCGszHqjgtMlGZbb0yHl4eSatu8=" insroot="NMSROOT" name="cau/resource/locale/en_US/string.properties" size="25732" time="1518513020070"/>
+<FileDescription appendRoot="" digest="dheKzmgeMiNCtFCOmdgRC3Hw1RB4lGb8997P47ae/44=" insroot="NMSROOT" name="cau/resource/locale/zh_CN/license.txt" size="3696" time="1518513019438"/>
+<FileDescription appendRoot="" digest="btCBMzFbJtQPazAVTml5zjrOvo+t7yesi9sK6G3XwYs=" insroot="NMSROOT" name="cau/resource/locale/zh_CN/string.properties" size="35016" time="1518513016640"/>
+<FileDescription appendRoot="" digest="meIuzuvPqPU+D4KecmQEi6UHh6LTBRduAxGs6uAyNGU=" insroot="NMSROOT" name="cau/resource/locale/zh_CN/string_src.properties" size="23551" time="1518513016616"/>
+<FileDescription appendRoot="" digest="DTrrwV+sRlNLpRV1B28vlu62R0aiG8fqTTUIdfcGvf8=" insroot="NMSROOT" name="cau/resource/.gnome2/vfolders/applications.vfolder-info" size="144" time="1518513023897"/>
+<FileDescription appendRoot="" digest="m2uh/EgK/1C10XgAdy01c4xx/gXirYoH94VW1behVi4=" insroot="NMSROOT" name="cau/installinfo/windows/NW_20/U2000_Solution.xml" size="3277" time="1574513173652"/>
+</FileGroup>
+<FileGroup GroupSize="0" PartName="cau" name="cau_frame_resource_cau_verify_Linux_SunOS" status="1" type="3" version="0">
+<OSlist>
+<os name="Linux"/>
+<os name="SunOS"/>
+</OSlist>
+<ProductList/>
+</FileGroup>
+<FileGroup GroupSize="43149" PartName="cau" name="cau_frame_resource_cau_verify_Windows" status="1" type="3" version="3542884450">
+<OSlist>
+<os name="Windows"/>
+</OSlist>
+<ProductList/>
+<FileDescription appendRoot="" digest="CSXkoN4IhyHdlMQZTsLP8n5jLjh7T/26vKJylzE5GdA=" insroot="NMSROOT" name="cau/bin/cau.bat" size="7377" time="1518513014969"/>
+<FileDescription appendRoot="" digest="6ERZ+ljCkYqZs6267KLX4HwubZ3qQ1A5yNey4G9bpxQ=" insroot="NMSROOT" name="cau/bin/wrap_cau.bat" size="614" time="1518513022381"/>
+<FileDescription appendRoot="" digest="ZBmLgZsarFRaMXvY4ZtIQI+j8R5wP5H/LSaVIf8RmpY=" insroot="NMSROOT" name="cau/bin/check_cau.bat" size="2988" time="1518513014480"/>
+<FileDescription appendRoot="" digest="eY4psS/oqwwJoW2hlDHCjPTTBDxoTQ6LQEvXnWYsHo4=" insroot="NMSROOT" name="cau/bin/nohup_cau.bat" size="168" time="1518513022137"/>
+<FileDescription appendRoot="" digest="iv/88huexdxaj4V3blYi7d64e1cy4aMboNQcjGbAFPU=" insroot="NMSROOT" name="cau/bin/start_cau.bat" size="2227" time="1518513020298"/>
+<FileDescription appendRoot="" digest="IXALzGvMUc0D7SY7AMjqH4GzQxw2ygB6ivPh/JbzleU=" insroot="NMSROOT" name="cau/bin/uninstall.vbs" size="2732" time="1518513020976"/>
+<FileDescription appendRoot="" digest="Zdnfg9BlhxSOlNbHo5q6NAwtttPWTVFOE9GkJDbAkuw=" insroot="NMSROOT" name="cau/bin/launch_cau.bat" size="648" time="1518513017435"/>
+<FileDescription appendRoot="" digest="EVHe1EX2s+FMwQMpnRP4SvaoBS/Q4MAx++Dv+b0I1zc=" insroot="NMSROOT" name="cau/bin/cauuninstall.bat" size="1462" time="1518513018549"/>
+<FileDescription appendRoot="" digest="09R7IejyFjbPH7ErF/PmxcccpN3OZQ95b5eZ/R08Ijk=" insroot="NMSROOT" name="cau/bin/cauCrtReplace.bat" size="5148" time="1518513021394"/>
+<FileDescription appendRoot="" digest="7VjdJRl6tiHbIAIHd2AsUKYZRK+xf4qOsuaNetPw9t4=" insroot="NMSROOT" name="cau/bin/cau_unregister.bat" size="1050" time="1518513024217"/>
+<FileDescription appendRoot="" digest="VTZtet010GJH5tUw65haSC25SI+LAH6oOWsdTt8EoL8=" insroot="NMSROOT" name="cau/bin/cauuninstall_util.bat" size="565" time="1518513020178"/>
+<FileDescription appendRoot="" digest="vJqrkyT22DK85A/SpuPcEnPdo8+w1Iadh7JuE9eLotA=" insroot="NMSROOT" name="cau/bin/removeTomcatWorkCau.bat" size="487" time="1518513024691"/>
+<FileDescription appendRoot="" digest="+0rrs7Qp8jfjCNAnru6+UslkYCTMJncFjoj61AsuaSA=" insroot="NMSROOT" name="cau/bin/scripts/run.vbs" size="940" time="1518513016346"/>
+<FileDescription appendRoot="" digest="37cro3Fa4b2gUVw9Y+0d4tIZ9sbwhoMvKIa4bYdY/L0=" insroot="NMSROOT" name="cau/bin/scripts/cau_vistautil.bat" size="5357" time="1518513020869"/>
+<FileDescription appendRoot="" digest="KuiB2FfAtnH/IfOHW0hD8CX8Pm/Ym7JqCvb8WCktO0g=" insroot="NMSROOT" name="cau/bin/scripts/createshortcut_util.bat" size="5223" time="1518513021899"/>
+<FileDescription appendRoot="" digest="IOLSJYsbM6aRfFXPhXEE9kzI6Lzb0QstLyT21SwMY2w=" insroot="NMSROOT" name="cau/bin/scripts/deleteshortcut_util.bat" size="3571" time="1518513018184"/>
+<FileDescription appendRoot="" digest="8AKswSpAUGD5B7rEVZsaldQuLAEC5I8eyAsJ9Iw9HnA=" insroot="NMSROOT" name="cau/bin/scripts/start_cau_vistautil.bat" size="2050" time="1518513020240"/>
+<FileDescription appendRoot="" digest="MCNcSQTJBNxz0yxL3Ky7im3Qj05qQND5Rc57h1o7wIU=" insroot="NMSROOT" name="cau/resource/scripts/uninstall.bat" size="542" time="1518513022501"/>
+</FileGroup>
+<FileGroup GroupSize="18701" PartName="cau" name="cau_lib_jar_cau_SecurityUtil" status="1" type="1" version="419641223">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="Qo6HWlOf1p8TdQpLbLHPwhlPnR+QEFA8GyagyNOaUZo=" insroot="NMSROOT" name="cau/lib/SecurityUtil.jar" size="18701" time="1518513025272"/>
+</FileGroup>
+<FileGroup GroupSize="11483" PartName="cau" name="cau_lib_jar_cau_baseutil" status="1" type="1" version="2776257538">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="c/mi7TNTQf0ljxygDHTHJDnkbO9hqsgI4Hmn3cnedm4=" insroot="NMSROOT" name="cau/lib/baseutil.jar" size="11483" time="1574512446709"/>
+</FileGroup>
+<FileGroup GroupSize="671075" PartName="cau" name="cau_lib_jar_cau_bcpkix-jdk15on-153" status="1" type="1" version="3421247819">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="oa9+hls+DXocMwtV25FPPoxGjGjK7CWKTXSiWxN6be4=" insroot="NMSROOT" name="cau/lib/bcpkix-jdk15on-153.jar" size="671075" time="1574512446879"/>
+</FileGroup>
+<FileGroup GroupSize="3259402" PartName="cau" name="cau_lib_jar_cau_bcprov-jdk15on-153" status="1" type="1" version="2698423900">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="hMRdPVVSqyk4GlWkGfvQk+G9YwMvuAPzSBauafu+8uU=" insroot="NMSROOT" name="cau/lib/bcprov-jdk15on-153.jar" size="3259402" time="1518513025275"/>
+</FileGroup>
+<FileGroup GroupSize="1422324" PartName="cau" name="cau_lib_jar_cau_cau" status="1" type="1" version="1212396071">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="pO+AENLgDusqfuIcmcZikCTk5MdAhk0PRh8rBQWVzzw=" insroot="NMSROOT" name="cau/lib/cau.jar" size="1422324" time="1574512447147"/>
+</FileGroup>
+<FileGroup GroupSize="184255" PartName="cau" name="cau_lib_jar_cau_cau_config" status="1" type="5" version="101880938">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="H6qG6t5TbU4DNKI2U8wST8tTqDzrdeiIDKS6mWHhy30=" insroot="NMSROOT" name="cau/lib/cau_config.jar" size="184255" time="1574512447274"/>
+</FileGroup>
+<FileGroup GroupSize="260834" PartName="cau" name="cau_lib_jar_cau_cauverify" status="1" type="1" version="2923832680">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="eV0do8y714Yp6+AJO9tHAEyHo30lNb8q/ibpAR/W6Q0=" insroot="NMSROOT" name="cau/lib/cauverify.jar" size="260834" time="1574512447232"/>
+</FileGroup>
+<FileGroup GroupSize="266050" PartName="cau" name="cau_lib_jar_cau_commons-codec-1.9" status="1" type="1" version="3522128355">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="aluWwtjD+A7b58fQ1S75evm9hwqAWaJoUaowJayzPWU=" insroot="NMSROOT" name="cau/lib/commons-codec-1.9.jar" size="266050" time="1574512447369"/>
+</FileGroup>
+<FileGroup GroupSize="205858" PartName="cau" name="cau_lib_jar_cau_commons-io-2.5" status="1" type="1" version="2466793138">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="YMT4KFVLWbttDsmurlW6zzn2eQAIOH81vtmBOVcSBe0=" insroot="NMSROOT" name="cau/lib/commons-io-2.5.jar" size="205858" time="1574512447408"/>
+</FileGroup>
+<FileGroup GroupSize="410908" PartName="cau" name="cau_lib_jar_cau_commons-lang3-3.3.2" status="1" type="1" version="1570476480">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="gjcTr1zC1Aa2K+PJnACOQzjFJQUfGc+90pyhRoUHzuQ=" insroot="NMSROOT" name="cau/lib/commons-lang3-3.3.2.jar" size="410908" time="1574512447486"/>
+</FileGroup>
+<FileGroup GroupSize="61690" PartName="cau" name="cau_lib_jar_cau_commons-logging-1.2" status="1" type="1" version="997394677">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="5UmU6YKzPEMKeG0KkA5I3eYJ1cNJD8aY/AuiUTuXuN0=" insroot="NMSROOT" name="cau/lib/commons-logging-1.2.jar" size="61690" time="1574512447499"/>
+</FileGroup>
+<FileGroup GroupSize="745884" PartName="cau" name="cau_lib_jar_cau_httpclient-4.5.3" status="1" type="1" version="1239977556">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="UuEq0XttHIuIetC3fTjGb7odgJPrEc8t/laFY1/7pZ8=" insroot="NMSROOT" name="cau/lib/httpclient-4.5.3.jar" size="745884" time="1574512447630"/>
+</FileGroup>
+<FileGroup GroupSize="323494" PartName="cau" name="cau_lib_jar_cau_httpcore-4.4.5" status="1" type="1" version="1585500547">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="DqrpgonD0f88rbH0q2VlvKtpOUSwL/TXPlX0D6fl0/w=" insroot="NMSROOT" name="cau/lib/httpcore-4.4.5.jar" size="323494" time="1574512447704"/>
+</FileGroup>
+<FileGroup GroupSize="150464" PartName="cau" name="cau_lib_jar_cau_jdom" status="1" type="1" version="3653746366">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="RVNTVEszbn0bEiRJMlXimg8G542CvFbp+Q0UmNDf6qI=" insroot="NMSROOT" name="cau/lib/jdom.jar" size="150464" time="1574512447753"/>
+</FileGroup>
+<FileGroup GroupSize="33955" PartName="cau" name="cau_lib_jar_cau_sfupdate" status="1" type="1" version="1073545146">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="z+CAcFxmXHzzYVzTeXoGNxWWPjl84PmeTI1rvwWYnPg=" insroot="NMSROOT" name="cau/lib/sfupdate.jar" size="33955" time="1574512447787"/>
+</FileGroup>
+<FileGroup GroupSize="617082" PartName="cau" name="cau_lib_jar_cau_spring-beans" status="1" type="1" version="2177350892">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="SPmbrNTOGkv+fKfJJjn/F3BlcO2RnU7Uu3y+dkaqrdY=" insroot="NMSROOT" name="cau/lib/spring-beans.jar" size="617082" time="1574512447932"/>
+</FileGroup>
+<FileGroup GroupSize="885485" PartName="cau" name="cau_lib_jar_cau_spring-core" status="1" type="1" version="637992913">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="bMXdJZ/dmuHSsqk0WbNfy5f5Dzea1j1YY5f3kDsMwRQ=" insroot="NMSROOT" name="cau/lib/spring-core.jar" size="885485" time="1574512448215"/>
+</FileGroup>
+<FileGroup GroupSize="17405" PartName="cau" name="cau_lib_jar_cau_upgradeAlarmBox" status="1" type="1" version="580643095">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="jH31v7QnfALYbtEHT53m1Z+N40BQTHuv7g8mbzdXp+o=" insroot="NMSROOT" name="cau/lib/upgradeAlarmBox.jar" size="17405" time="1574512448362"/>
+</FileGroup>
+<FileGroup GroupSize="16365" PartName="cau" name="cau_lib_jar_cau_upgradeBackgrondIcon" status="1" type="1" version="4109506496">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="fd0MTrEz56yGBpqNAaB87HvWc1O2PPq0ekDLcVAzLoo=" insroot="NMSROOT" name="cau/lib/upgradeBackgrondIcon.jar" size="16365" time="1574512448433"/>
+</FileGroup>
+<FileGroup GroupSize="12225" PartName="cau" name="cau_lib_jar_cau_upgradeLoginServerInfo" status="1" type="1" version="1160139592">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="VNN7fwTPCNfhqJzzaWR44iqZAxQvy+nOCHCqYbaA17o=" insroot="NMSROOT" name="cau/lib/upgradeLoginServerInfo.jar" size="12225" time="1574512448453"/>
+</FileGroup>
+<FileGroup GroupSize="18701" PartName="cau" name="cau_lib_jar_cau_verify_SecurityUtil" status="1" type="1" version="419641223">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="Qo6HWlOf1p8TdQpLbLHPwhlPnR+QEFA8GyagyNOaUZo=" insroot="NMSROOT" name="cau/lib/SecurityUtil.jar" size="18701" time="1518513025272"/>
+</FileGroup>
+<FileGroup GroupSize="11483" PartName="cau" name="cau_lib_jar_cau_verify_baseutil" status="1" type="1" version="2776257538">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="c/mi7TNTQf0ljxygDHTHJDnkbO9hqsgI4Hmn3cnedm4=" insroot="NMSROOT" name="cau/lib/baseutil.jar" size="11483" time="1574512446709"/>
+</FileGroup>
+<FileGroup GroupSize="671075" PartName="cau" name="cau_lib_jar_cau_verify_bcpkix-jdk15on-153" status="1" type="1" version="3421247819">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="oa9+hls+DXocMwtV25FPPoxGjGjK7CWKTXSiWxN6be4=" insroot="NMSROOT" name="cau/lib/bcpkix-jdk15on-153.jar" size="671075" time="1574512446879"/>
+</FileGroup>
+<FileGroup GroupSize="3259402" PartName="cau" name="cau_lib_jar_cau_verify_bcprov-jdk15on-153" status="1" type="1" version="2698423900">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="hMRdPVVSqyk4GlWkGfvQk+G9YwMvuAPzSBauafu+8uU=" insroot="NMSROOT" name="cau/lib/bcprov-jdk15on-153.jar" size="3259402" time="1518513025275"/>
+</FileGroup>
+<FileGroup GroupSize="1422324" PartName="cau" name="cau_lib_jar_cau_verify_cau" status="1" type="1" version="1212396071">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="pO+AENLgDusqfuIcmcZikCTk5MdAhk0PRh8rBQWVzzw=" insroot="NMSROOT" name="cau/lib/cau.jar" size="1422324" time="1574512447147"/>
+</FileGroup>
+<FileGroup GroupSize="184255" PartName="cau" name="cau_lib_jar_cau_verify_cau_config" status="1" type="5" version="101880938">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="H6qG6t5TbU4DNKI2U8wST8tTqDzrdeiIDKS6mWHhy30=" insroot="NMSROOT" name="cau/lib/cau_config.jar" size="184255" time="1574512447274"/>
+</FileGroup>
+<FileGroup GroupSize="260834" PartName="cau" name="cau_lib_jar_cau_verify_cauverify" status="1" type="1" version="2923832680">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="eV0do8y714Yp6+AJO9tHAEyHo30lNb8q/ibpAR/W6Q0=" insroot="NMSROOT" name="cau/lib/cauverify.jar" size="260834" time="1574512447232"/>
+</FileGroup>
+<FileGroup GroupSize="266050" PartName="cau" name="cau_lib_jar_cau_verify_commons-codec-1.9" status="1" type="1" version="3522128355">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="aluWwtjD+A7b58fQ1S75evm9hwqAWaJoUaowJayzPWU=" insroot="NMSROOT" name="cau/lib/commons-codec-1.9.jar" size="266050" time="1574512447369"/>
+</FileGroup>
+<FileGroup GroupSize="205858" PartName="cau" name="cau_lib_jar_cau_verify_commons-io-2.5" status="1" type="1" version="2466793138">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="YMT4KFVLWbttDsmurlW6zzn2eQAIOH81vtmBOVcSBe0=" insroot="NMSROOT" name="cau/lib/commons-io-2.5.jar" size="205858" time="1574512447408"/>
+</FileGroup>
+<FileGroup GroupSize="410908" PartName="cau" name="cau_lib_jar_cau_verify_commons-lang3-3.3.2" status="1" type="1" version="1570476480">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="gjcTr1zC1Aa2K+PJnACOQzjFJQUfGc+90pyhRoUHzuQ=" insroot="NMSROOT" name="cau/lib/commons-lang3-3.3.2.jar" size="410908" time="1574512447486"/>
+</FileGroup>
+<FileGroup GroupSize="61690" PartName="cau" name="cau_lib_jar_cau_verify_commons-logging-1.2" status="1" type="1" version="997394677">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="5UmU6YKzPEMKeG0KkA5I3eYJ1cNJD8aY/AuiUTuXuN0=" insroot="NMSROOT" name="cau/lib/commons-logging-1.2.jar" size="61690" time="1574512447499"/>
+</FileGroup>
+<FileGroup GroupSize="745884" PartName="cau" name="cau_lib_jar_cau_verify_httpclient-4.5.3" status="1" type="1" version="1239977556">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="UuEq0XttHIuIetC3fTjGb7odgJPrEc8t/laFY1/7pZ8=" insroot="NMSROOT" name="cau/lib/httpclient-4.5.3.jar" size="745884" time="1574512447630"/>
+</FileGroup>
+<FileGroup GroupSize="323494" PartName="cau" name="cau_lib_jar_cau_verify_httpcore-4.4.5" status="1" type="1" version="1585500547">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="DqrpgonD0f88rbH0q2VlvKtpOUSwL/TXPlX0D6fl0/w=" insroot="NMSROOT" name="cau/lib/httpcore-4.4.5.jar" size="323494" time="1574512447704"/>
+</FileGroup>
+<FileGroup GroupSize="150464" PartName="cau" name="cau_lib_jar_cau_verify_jdom" status="1" type="1" version="3653746366">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="RVNTVEszbn0bEiRJMlXimg8G542CvFbp+Q0UmNDf6qI=" insroot="NMSROOT" name="cau/lib/jdom.jar" size="150464" time="1574512447753"/>
+</FileGroup>
+<FileGroup GroupSize="33955" PartName="cau" name="cau_lib_jar_cau_verify_sfupdate" status="1" type="1" version="1073545146">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="z+CAcFxmXHzzYVzTeXoGNxWWPjl84PmeTI1rvwWYnPg=" insroot="NMSROOT" name="cau/lib/sfupdate.jar" size="33955" time="1574512447787"/>
+</FileGroup>
+<FileGroup GroupSize="617082" PartName="cau" name="cau_lib_jar_cau_verify_spring-beans" status="1" type="1" version="2177350892">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="SPmbrNTOGkv+fKfJJjn/F3BlcO2RnU7Uu3y+dkaqrdY=" insroot="NMSROOT" name="cau/lib/spring-beans.jar" size="617082" time="1574512447932"/>
+</FileGroup>
+<FileGroup GroupSize="885485" PartName="cau" name="cau_lib_jar_cau_verify_spring-core" status="1" type="1" version="637992913">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="bMXdJZ/dmuHSsqk0WbNfy5f5Dzea1j1YY5f3kDsMwRQ=" insroot="NMSROOT" name="cau/lib/spring-core.jar" size="885485" time="1574512448215"/>
+</FileGroup>
+<FileGroup GroupSize="17405" PartName="cau" name="cau_lib_jar_cau_verify_upgradeAlarmBox" status="1" type="1" version="580643095">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="jH31v7QnfALYbtEHT53m1Z+N40BQTHuv7g8mbzdXp+o=" insroot="NMSROOT" name="cau/lib/upgradeAlarmBox.jar" size="17405" time="1574512448362"/>
+</FileGroup>
+<FileGroup GroupSize="16365" PartName="cau" name="cau_lib_jar_cau_verify_upgradeBackgrondIcon" status="1" type="1" version="4109506496">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="fd0MTrEz56yGBpqNAaB87HvWc1O2PPq0ekDLcVAzLoo=" insroot="NMSROOT" name="cau/lib/upgradeBackgrondIcon.jar" size="16365" time="1574512448433"/>
+</FileGroup>
+<FileGroup GroupSize="12225" PartName="cau" name="cau_lib_jar_cau_verify_upgradeLoginServerInfo" status="1" type="1" version="1160139592">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="VNN7fwTPCNfhqJzzaWR44iqZAxQvy+nOCHCqYbaA17o=" insroot="NMSROOT" name="cau/lib/upgradeLoginServerInfo.jar" size="12225" time="1574512448453"/>
+</FileGroup>
+<FileGroup GroupSize="387072" PartName="cau" name="cau_native_lib" status="1" type="2" version="2626744875">
+<OSlist/>
+<ProductList/>
+<FileDescription appendRoot="" digest="mKLzb53IG7Gegd/NIDiui41F3PcFeCNDu/4jaqZvYEc=" insroot="NMSROOT" name="cau/lib/cauconfig.dll" size="176640" time="1518513025333"/>
+<FileDescription appendRoot="" digest="vcERhIwXLrc6HRtpcuTcIyD5Oaf3QiWKM3glIF+Ev5g=" insroot="NMSROOT" name="cau/lib/cauconfig_64.dll" size="210432" time="1518513025334"/>
+</FileGroup>
+</FileGroups>

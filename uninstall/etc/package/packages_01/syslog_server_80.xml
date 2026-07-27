@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<packagegroup name="syslog" type="">
+  <package name="syslog_server" version="" type="server" install_type="">
+    <config_file />
+    <registeritems />
+    <envitems />
+    <databasetag />
+    <preuninstallscript />
+    <postuninstallscript />
+    <remotescript />
+    <dependency />
+    <IsPatch>No</IsPatch>
+    <dftSelect>No</dftSelect>
+    <IsMustSelect>No</IsMustSelect>
+    <isHidden>No</isHidden>
+    <needRepackage>false</needRepackage>
+    <needRestart>false</needRestart>
+    <package_file />
+    <reserve_file />
+    <services />
+    <identifierWindow />
+    <identifierProcess />
+  </package>
+</packagegroup>
+

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="ConfigData">
+        <DESC descname="AlarmBoxFilter">
+            <PARAS/>
+            <DESC descname="AlarmLevel">
+                <PARAS>
+                    <PARA name="AlarmLevel" value="1 2 3 4 "/>
+                </PARAS>
+            </DESC>
+            <DESC descname="LightSoundControl">
+                <PARAS>
+                    <PARA name="LightSoundControl" value=""/>
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmTemplateName">
+                <PARAS>
+                    <PARA name="AlarmTemplateName" value=""/>
+                    <PARA name="AlarmTemplateOwnername" value=""/>
+                </PARAS>
+            </DESC>
+        </DESC>
+        <DESC descname="AlarmBoxConfig">
+            <PARAS>
+                <PARA name="PortName" value="COM1"/>
+                <!--<PARA name="Baudrate"   value="4800" />
+                <PARA name="Stop"   value="1" />
+                <PARA name="Check"   value="0" />-->
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmMatrixLevels">
+            <PARAS>
+                <PARA name="0" value="true"/>
+                <PARA name="1" value="true"/>
+                <PARA name="2" value="true"/>
+                <PARA name="3" value="true"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmMatrixViewControl">
+            <PARAS>
+                <PARA name="Alarmboard_UACK" value="true"/>
+                <PARA name="Alarmboard_UR" value="true"/>
+                <PARA name="AlarmBoard_DVC" value="true"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmBoardSetting">
+            <PARAS>
+                <PARA name="AlarmBoardSetting" value="1"/>
+                <PARA name="AlarmBoard_IsSounding" value="true"/>
+                <PARA name="AlarmBoard_IsFlashing" value="true"/>
+                <PARA name="AlarmBoard_Status" value="1 2 3 "/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmLongTime">
+            <PARAS>
+                <PARA name="RefreshCycle" value="300"/>
+                <PARA name="Time" value="300"/>
+                <PARA name="isSetAlarmLongTimeShareData" value="false"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="EmergencyNotice">
+            <PARAS>
+                <PARA name="Enable" value="true"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmTableRender">
+            <PARAS>
+                <PARA name="renderstyle" value="1"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmStationSetting">
+            <PARAS>
+                <PARA name="BrowseAndQueryWindowsMaxCount" value="9"/>
+                <PARA name="IsShowLeftObjectSelectionPane" value="true"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="RealTimeStatisticFilter">
+            <PARAS/>
+            <DESC descname="NeInfo">
+                <PARAS/>
+            </DESC>
+            <DESC descname="AlarmStatus">
+                <PARAS>
+                    <PARA name="AlarmStatus" value=""/>
+                </PARAS>
+            </DESC>
+        </DESC>
+        <!-- ******************************************Follow configuration is used by products **********************************-->
+        <!-- preferences:alarm/event start -->
+        <DESC descname="AddAlarmPosition">
+            <PARAS>
+                <PARA name="IsAddToFirst" value="0"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="TopViewSetting">
+            <PARAS>
+                <PARA name="TopViewLevel" value=""/>
+            </PARAS>
+        </DESC>
+        <DESC descname="UnClearedNumSetting">
+            <PARAS>
+                <PARA name="IsAlarmLimitEnable" value="0"/>
+                <PARA name="LimitNum" value="5"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="TaskBarFlashTimeSetting">
+            <PARAS>
+                <PARA name="Enable" value="0"/>
+                <PARA name="Time" value="30"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmBoardViewSetting">
+            <PARAS>
+                <PARA name="IsShowBoard" value="0"/>
+            </PARAS>
+        </DESC>
+
+        <DESC descname="SoundByAlarmName">
+            <PARAS>
+                <PARA name="IsPlay" value="false"/>
+                <PARA name="SoundFile" value="plugins\alarmclientbase\style\conf\Critical.wav"/>
+                <PARA name="PlayTime" value="60"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="EventSound">
+            <PARAS>
+                <PARA name="IsPlay" value="false"/>
+                <PARA name="SoundFile" value="plugins\alarmclientbase\style\conf\event.au"/>
+                <PARA name="PlayTime" value="60"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AddAlarmPositionByAlarmGnerateTime">
+            <PARAS>
+                <PARA name="IsEnable" value="false"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="AlarmDetailDialog">
+        <DESC descname="CommonAlarmInfoPanel">
+            <PARAS/>
+            <DESC descname="DividerLocation">
+                <PARAS>
+                    <PARA name="DividerLocation" value="0.78"/>
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+
+    <AREADESC areaname="AlarmBoardAndBoxSoundingStatus">
+        <DESC descname="ConfigSoundingStatus">
+            <PARAS>
+                <PARA name="isStoped" value="false"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="AlarmDisplayModeSettins">
+        <DESC descname="AlarmDisplayMode">
+            <PARAS>
+                <!-- 0:Icon; 1:Cell Background; 2:Row Background -->
+                <PARA name="displayMode" value="1"/>
+                <PARA name="unAckAndUnclear" value="255-255-255"/>
+                <PARA name="ackAndUnclear" value="255-255-255"/>
+                <PARA name="unAckAndclear" value="153-255-153"/>
+                <PARA name="ackAndclear" value="153-255-153"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="AlarmFontSettins">
+        <DESC descname="UnreadAlarmFont">
+            <PARAS>
+                <PARA name="fontName" value=""/>
+                <PARA name="fontSize" value="1"/>
+                <PARA name="fontStyle" value="1"/>
+                <PARA name="fontColor" value="0-0-0"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="ReadedAlarmFont">
+            <PARAS>
+                <PARA name="fontName" value=""/>
+                <PARA name="fontSize" value="1"/>
+                <PARA name="fontStyle" value="0"/>
+                <PARA name="fontColor" value="0-0-0"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="AlarmLampSetting">
+        <DESC descname="AlarmLampTipsMode">
+            <PARAS>
+                <!-- 0:detail mode; 1:simple mode. -->
+                <PARA name="displayMode" value="0"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

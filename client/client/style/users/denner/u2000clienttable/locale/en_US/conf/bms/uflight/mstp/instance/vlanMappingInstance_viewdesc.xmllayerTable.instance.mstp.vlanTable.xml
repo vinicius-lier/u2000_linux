@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VlanID" name="VLAN ID" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="MstpOperMstID" name="Instance ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

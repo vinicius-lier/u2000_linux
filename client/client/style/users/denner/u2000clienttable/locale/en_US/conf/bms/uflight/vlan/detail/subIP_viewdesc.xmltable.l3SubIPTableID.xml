@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="VlanID" name="VLAN ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="SubIP" name="Sub IP" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="SubIPMask" name="Sub IP Mask" isVisiable="true" isEditable="true" width="94" isNameModified="false" />
+</table>
+

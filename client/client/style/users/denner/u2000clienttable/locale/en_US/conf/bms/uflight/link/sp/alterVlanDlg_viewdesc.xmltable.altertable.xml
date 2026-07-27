@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Name" name="Name" isVisiable="true" isEditable="false" width="170" isNameModified="false" />
+  <column id="SrvPortInterfaceType" name="Connection Type" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="InterfaceInfo" name="Interface Information" isVisiable="true" isEditable="true" width="120" isNameModified="false" />
+  <column id="SrvPortSVlanID" name="VLAN ID" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="SrvPortTxName" name="Upstream Traffic Profile" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="SrvPortRxName" name="Downstream Traffic Profile" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="TargetVlanID" name="Target VLAN ID (1-4095)" isVisiable="true" isEditable="true" width="159" isNameModified="false" />
+</table>
+

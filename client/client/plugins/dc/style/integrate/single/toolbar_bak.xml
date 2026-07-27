@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+  	<DESC descname="Bundle">
+		<PARAS>
+			<PARA name="type" value="ResourceBundle"></PARA>
+			<PARA name="resourceBundleName" value="dc"></PARA>
+		</PARAS>
+	</DESC>	
+	<DESC descname="datacenterbar">
+	   <PARAS>
+    	      <PARA name="name"  value="datacenterbar"></PARA>
+    	      <PARA name="type"  value="ToolGroupSet"></PARA>
+           </PARAS>
+	   <DESC descname="datacenterbar">
+	      <PARAS>
+	         <PARA name="type" value="JToolBar"></PARA>
+		 <PARA name="isSelected" value="false"></PARA>
+	      </PARAS>
+	      <DESC descname="separator">
+		 <PARAS>
+		     <PARA name="name" value="seperator"></PARA>
+		     <PARA name="type" value="seperator"></PARA>
+		 </PARAS>
+	      </DESC>
+	      <DESC descname="View Device Tree">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TOOLBAR_VIEW_DEVICE_TREE" />	
+			<PARA name="icon" value="dc/images/viewtree.gif"/> 
+			<PARA name="command" value="showDeviceInfoPan"/>
+			<PARA name="comment" value="TOOLBAR_VIEW_DEVICE_TREE_COMMENT"/>
+		</PARAS>
+      	      </DESC>
+      	
+	  <DESC descname="TaskManagement">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TOOLBAR_TASK_MANAGEMENT"/>	
+			<PARA name="icon" value="dc/images/task.gif"/> 
+			<PARA name="command" value="TaskManagement"/>
+			<PARA name="comment" value="TASK_MANAGEMENT"/>
+		</PARAS>
+	  </DESC>  
+	  <DESC descname="SoftwareArchiveManagemnt">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TOOLBAR_SOFTWAREARCHIVE_MANAGEMENT"/>	
+			<PARA name="icon" value="dc/images/updatesoftware.gif"/> 
+			<PARA name="command" value="SoftwareArchiveManagemnt"/>
+			<PARA name="comment" value="SOFTWAREARCHIVE_MANAGEMENT"/>
+		</PARAS>
+	  </DESC>
+	 <DESC descname="Browse Log">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TOOLBAR_BROWSE_LOG"/>	
+			<PARA name="icon" value="dc/images/browselog.gif"/> 
+			<PARA name="command" value="browseLog"/>
+			<PARA name="comment" value="TOOLBAR_BROWSE_LOG_COMMENT"/>
+		</PARAS>
+	  </DESC>	
+      	  
+         	
+      	      <DESC descname="separator">
+			<PARAS>
+				<PARA name="name" value="seperator"></PARA>
+				<PARA name="type" value="seperator"></PARA>
+			</PARAS>
+	      </DESC>
+      	
+       <!--DESC descname="SaveRecordsInfo">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="SAVE"/>	
+			<PARA name="icon" value="dc/images/save.gif"/> 
+			<PARA name="command" value="saveRecordsInfo"/>
+			<PARA name="comment" value="SAVE"/>
+		</PARAS>
+	  </DESC -->
+   
+      <!--DESC descname="Preview">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="PREVIEW"/>	
+			<PARA name="icon" value="dc/images/preview.gif"/> 
+			<PARA name="command" value="preview"/>
+			<PARA name="comment" value="PREVIEW"/>
+		</PARAS>
+      </DESC-->
+      <!--DESC descname="Print">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="PRINT"/>	
+			<PARA name="icon" value="dc/images/print.gif"/> 
+			<PARA name="command" value="print"/>
+			<PARA name="comment" value="PRINT"/>
+		</PARAS>
+	  </DESC-->
+      <!--DESC descname="Expand All Tasks">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TASK_EXPAND_ALL"/>	
+			<PARA name="icon" value="dc/images/expand_tasks.gif"/> 
+			<PARA name="command" value="expandAllTasks"/>
+			<PARA name="comment" value="TASK_EXPAND_ALL"/>
+		</PARAS>
+      </DESC-->
+      	
+      <!--DESC descname="Collapse All Tasks">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TASK_COLLAPSE_ALL"/>	
+			<PARA name="icon" value="dc/images/collapse_tasks.gif"/> 
+			<PARA name="command" value="collapseAllTasks"/>
+			<PARA name="comment" value="TASK_COLLAPSE_ALL"/>
+		</PARAS>
+      </DESC-->
+      	
+     <!--DESC descname="Refresh All Tasks">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="REFRESH_TASKS"/>	
+			<PARA name="icon" value="dc/images/refresh_tasks.gif"/> 
+			<PARA name="command" value="refreshTasks"/>
+			<PARA name="comment" value="REFRESH_TASKS"/>
+		</PARAS>
+     </DESC-->    
+
+      	      <DESC descname="separator">
+			<PARAS>
+				<PARA name="name" value="seperator"></PARA>
+				<PARA name="type" value="seperator"></PARA>
+			</PARAS>
+	      </DESC>
+
+      	      <DESC descname="Refresh">
+		<PARAS>
+			<PARA name="type" value="AbstractButton"/>
+			<PARA name="description" value="TOOLBAR_REFRESH"/>
+			<PARA name="icon" value="dc/images/refresh.gif"/> 
+			<PARA name="command" value="refreshTree"/>
+			<PARA name="comment" value="TOOLBAR_REFRESH_COMMENT"/>
+		</PARAS>
+      	      </DESC>	
+	  </DESC>
+	</DESC> 
+    </AREADESC> 	
+</COMMINIDATA>

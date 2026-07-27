@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>		
+	
+	    <!-- service为后台服务和前台 plugin 、feature、u2000子系统等对应关系  -->
+		<DESC descname="service">
+		
+		    <!-- svctype 服务类型  对应后台 _svc.xml文件的  svctype -->
+			<DESC descname="UniteUitlDMService">
+				<DESC descname="subsystems">
+					<PARAS>
+					    <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+						<PARA name="unitedmgr"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			
+			<DESC descname="InventoryDMService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="im_phy"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			
+			<!-- start  CMF_TDT_DC  zhangshilin 00180144 -->
+			<!-- svctype 服务类型  对应后台 _svc.xml文件的  svctype -->
+			<DESC descname="DCServerService">
+				<DESC descname="subsystems">
+					<PARAS>
+					<!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+						<PARA name="dc"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+					<!-- 服务类型所属的 子系统名称 对应前台 plugin 中的文件夹名称 -->
+						<PARA name="dc"></PARA>
+					</PARAS>	
+				</DESC>				
+			</DESC>	
+
+			<DESC descname="EnpowerDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="env"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+
+			<DESC descname="toolkitService">
+				<DESC descname="subsystems">
+					<PARAS>
+					<!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+						<PARA name="dc"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+					<!-- 服务类型所属的 子系统名称 对应前台 plugin 中的文件夹名称 -->
+						<PARA name="dc"></PARA>
+					</PARAS>	
+				</DESC>				
+			</DESC>	
+			
+			<DESC descname="neLicServerService">
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="u2000nelicense"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<!-- end  CMF_TDT_DC  zhangshilin 00180144 -->
+			
+			<!-- start  IP  gaolin 00112064 -->
+			<DESC descname="Nemgr_vmfService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_vmf"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="VmfDiagService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_vmf"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>			
+			<DESC descname="RouterMgrDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_router"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="BoxSWMgrDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_switch"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="FrameSWMgrDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_switch"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="ipcommonService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ip_common"></PARA>
+						<PARA name="ip_base"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+					<!-- 服务类型所属的 子系统名称 对应前台 plugin 中的文件夹名称 -->
+						<PARA name="ip_base"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="GcliService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ip_gcli"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+            <DESC descname="aemgrService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="aemgr"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="PathViewerDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ip_pathviewer"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			
+			<!-- start  security  zkf62478 -->
+			<DESC descname="SecurityMgrDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="secnemgr"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="secpolicymgrService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="secpolicymgr"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="secvpnmgrService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="secvpnmgr"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<!-- end  security  zkf62478 -->
+			<!-- end  IP  gaolin 00112064 -->
+			
+			<!-- start pms zhufengru 00100238 -->
+			<DESC descname="PMSDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="pm"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="PMSWebService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="pm"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="SNMPCollectorDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="pm"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="BulkCollectorDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="pm"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="TXTNBIDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="pm"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<!-- end pms zhufengru 00100238 -->
+			
+			<!-- start SE2E liujinlong 00107674 -->
+		    <!-- svctype 服务类型  对应后台 _svc.xml文件的  svctype -->
+            <DESC descname="Nml_ipService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_ip"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>  
+            <DESC descname="Nml_commonService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_common"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>  
+            <DESC descname="Nml_ethService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_eth"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>    
+            <DESC descname="Nml_sdhService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_sdh"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>                     
+            <DESC descname="Nml_otnService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_otn"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>            
+            <DESC descname="Nml_nativeethService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_vlan"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>                        
+            <DESC descname="Nml_cpsService">
+                <DESC descname="subsystems">
+                    <PARAS>
+                        <!-- 服务类型所属的 子系统名称 对应前台 productlib 中的文件夹名称 -->
+                        <PARA name="nml_cps"/>
+                    </PARAS>    
+                </DESC>
+            </DESC>
+			<!-- end SE2E liujinlong 00107674 -->
+			
+			<!--接入 start  wangliang 00100660 -->
+			<DESC descname="BmsAccessService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="BmsAturService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="BmsCommonService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="BmsNmCommonService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nm_access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="BmsHGMPDmService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="BmsTestService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="BmsTimingTaskService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="access"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<DESC descname="nemgr_bitsService">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_bits"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="nemgr_bits"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			<!--接入 end  wangliang 00100660 -->
+			
+			<!-- start trans luoshan -->
+			<DESC descname="Eml_PubSvrService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="trans_common"></PARA>
+					</PARAS>	
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="trans_common"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="TransNmCommonService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="trans_common"></PARA>
+					</PARAS>
+				</DESC>
+				<DESC descname="plugins">
+					<PARAS>
+						<PARA name="trans_common"></PARA>
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Eml_PerfSvrService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="trans_common"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="nemgr_extService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_ext"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+
+			<DESC descname="nemgr_marineService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_marine"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+
+			<DESC descname="nemgr_otnService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_otn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			
+			<DESC descname="nemgr_ptnService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_ptn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>		
+			
+			<DESC descname="nemgr_v8ptnService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_v8ptn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			
+			<DESC descname="nemgr_rtnService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_rtn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="nemgr_sdhService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_sdh"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			
+			<DESC descname="nemgr_wdmService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_wdm"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="Nml_ason_otnService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ason_otn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			<DESC descname="Nml_ason_sdhService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ason_sdh"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>		
+			<DESC descname="DiagnoseControllerService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="trans_fault_diag"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			
+			<DESC descname="nemgr_naotnService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_naotn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+			
+			<DESC descname="nemgr_transService">
+			   <DESC descname="subsystems">
+					<PARAS>
+						<PARA name="nemgr_trans"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>
+            <!-- end trans luoshan -->
+			
+		</DESC>	
+		
+		<!-- subSystemGroup 为按域加载区域  -->
+		<DESC descname="subSystemGroup">
+			<DESC descname="trans">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ason_otn"></PARA>
+						<PARA name="ason_sdh"></PARA>
+						<PARA name="cmdclient"></PARA>
+						<PARA name="trans_common"></PARA>
+						<PARA name="nemgr_ext"></PARA>
+						<PARA name="nemgr_marine"></PARA>
+						<PARA name="nemgr_naotn"></PARA>
+						<PARA name="nemgr_rtn"></PARA>
+						<PARA name="nemgr_otn"></PARA>
+						<PARA name="nemgr_sdh"></PARA>
+						<PARA name="nemgr_wdm"></PARA>
+						<PARA name="nemgr_ptn"></PARA>						
+						<PARA name="nemgr_trans"></PARA>
+						<PARA name="nemgr_cnm"></PARA>
+						<PARA name="mds_wdm_cms"></PARA>
+						<PARA name="trans_fault_diag"></PARA>
+						<PARA name="healthcheck"></PARA>
+						<PARA name="nemgr_v8ptn"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+			
+			<DESC descname="ip">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="ip_base"></PARA>
+						<PARA name="ip_common"></PARA>
+						<PARA name="ip_gcli"></PARA>
+						<PARA name="ip_gctl"></PARA>
+						<PARA name="nemgr_router"></PARA>
+						<PARA name="pnp"></PARA>
+						<PARA name="seccomm"></PARA>
+						<PARA name="secvpnmgr"></PARA>
+						<PARA name="secpolicymgr"></PARA>
+						<PARA name="secnemgr"></PARA>
+						<PARA name="nemgr_vmf"></PARA>
+						<PARA name="nemgr_switch"></PARA>
+						<PARA name="ip_pathviewer"></PARA>
+						<PARA name="nemgr_ip"></PARA>
+                        			<PARA name="ip_aemgr"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+		
+			<DESC descname="access">
+				<DESC descname="subsystems">
+					<PARAS>
+						<PARA name="access"></PARA>
+						<PARA name="ip_common"></PARA>
+						<PARA name="nemgr_switch"></PARA>
+						<PARA name="ip_gctl"></PARA>
+					</PARAS>	
+				</DESC>
+			</DESC>	
+
+		</DESC>	
+
+		
+	</AREADESC>
+</COMMINIDATA>

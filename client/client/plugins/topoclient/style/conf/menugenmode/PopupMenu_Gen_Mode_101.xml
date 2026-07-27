@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ 1:the public menu of TOPO,2:create menu by EMS,3:create menu by configuration files,4:1+2;5:1+3
+
+CLIENTMODULE :express the type of the view about proscenium'ID
+
+SUBMAP:		express the create way of the SUBMAP'menu 
+DISPLAYLINK:	express the create way of the link'menu
+NODE:		express the create way of the NODE
+VIEW:		express the create way of the blank menu about VIEW
+MULT OBJECT:	express the create way of the multi object menus
+-->
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="VIEW_TYPE_MENU">
+    <DESC descname="VIEW_TYPE"> 
+        <PARAS>
+            <PARA name="VIEW_TYPE" value="1"/>
+            <PARA name="CLASSNAME" value="com.swimap.topo.client.topoclient.util.popupmenu.TopoDefaultMenuGenerator"/>
+            <PARA name="SUBMAP_MODE" value="5"/>
+            <PARA name="DISPLAYLINK_MODE" value="5"/>
+            <PARA name="MULITOBJECT_MODE" value="5"/>
+            <PARA name="EMPTYAREA_MODE" value="5"/>
+            <PARA name="NODE_MODE" value="5"/>
+            <PARA name="PHYSICALLINK_MODE" value="5"/>
+        </PARAS>
+    </DESC>
+</AREADESC>
+</COMMINIDATA>

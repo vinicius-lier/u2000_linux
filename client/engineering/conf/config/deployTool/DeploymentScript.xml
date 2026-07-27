@@ -1,0 +1,11 @@
+<Script>
+<Upgrade>
+<VerifyScript>etc/verify.sh</VerifyScript>
+<BackupScript>etc/backup.sh</BackupScript>
+<UpgradeScript>etc/upgrade.sh</UpgradeScript>
+</Upgrade>
+<NewDeployScript>./bin/script/deployInstall</NewDeployScript>
+<AddNewNodeScript>./bin/script/deployAddNode</AddNewNodeScript>
+<ReDeployScript>./bin/script/deployReInstall</ReDeployScript>
+<UpgradeOrPatchScript>scripts/upgradeorpatch.sh</UpgradeOrPatchScript>
+</Script>

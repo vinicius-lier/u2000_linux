@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="IPAddress" name="IP Address" isVisiable="true" isEditable="false" width="86" isNameModified="false" />
+  <column id="SubMask" name="Sub Mask" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="Gateway" name="Gateway" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="MacAddress" name="MAC Address" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="IPType" name="IP Type" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="QoSStrategy" name="QoS Strategy" isVisiable="true" isEditable="true" width="97" isNameModified="false" />
+  <column id="DSCP" name="DSCP" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ToS" name="ToS" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="VlanTagPriority" name="VLAN Priority" isVisiable="true" isEditable="true" width="96" isNameModified="false" />
+  <column id="Precedence" name="IP Priority" isVisiable="true" isEditable="true" width="77" isNameModified="false" />
+</table>
+

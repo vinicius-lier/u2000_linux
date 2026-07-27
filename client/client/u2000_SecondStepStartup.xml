@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="startupresources">
+
+		<DESC descname="startupplugins">
+		<PARAS>
+		</PARAS>
+				<DESC descname="securityplugins">
+					<PARAS>	 						
+					</PARAS>
+				</DESC>
+				<DESC descname="requiredplugins">
+					<PARAS>
+					
+					  <PARA name="com.swimap.adapter.message.sm"/>
+					  <PARA name="com.swimap.adapter.message.common"/>
+			          <PARA name="com.swimap.extension.registry"/>		
+			          <PARA name="com.swimap.color"/>	
+
+						<PARA name="alarmclient"/>
+						<PARA name="com.swimap.adapter.message.fm"/>
+						
+						<PARA name="com.swimap.adapter.message.resource"/>
+						<PARA name="com.swimap.adapter.message.tm"/>
+					  <PARA name="resource"/>	
+			          <PARA name="eam"/>		
+			          <PARA name="topobase"/>	
+					  <PARA name="topoclient"/>
+
+					   <PARA name="unitedmgr"></PARA>
+
+					   <PARA name="dc"></PARA>	
+					   <PARA name="u2000nelicense"></PARA>	
+					</PARAS>
+				</DESC>			
+		</DESC>				
+		<DESC descname="startupLinks">
+			<PARAS></PARAS>
+			 <DESC descname="requiredLinks">
+					<PARAS>
+					    <PARA name="base"></PARA>
+					    <PARA name="cbb"></PARA>
+						<PARA name="unitedmgr"></PARA>
+						<PARA name="im_phy"></PARA>
+                        <PARA name="dc"></PARA>						
+					</PARAS>
+				 </DESC>
+				  <DESC descname="portalLinks">
+					<PARAS>
+											
+						
+					</PARAS>
+				 </DESC>
+				  </DESC>
+		
+	</AREADESC>
+</COMMINIDATA>
+
+

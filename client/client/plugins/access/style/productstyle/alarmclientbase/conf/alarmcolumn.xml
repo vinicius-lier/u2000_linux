@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="AlarmColumnConfig">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="resourceBundleName" value=""></PARA>
+			</PARAS>
+			<PARAS>
+				<PARA name="resourceBundleName" value=""></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="AllAlarmColumnID">
+			<PARAS />
+			<DESC descname="1200">
+				<PARAS><!--数字，扩展列基本信息在此定义，全局唯一，不能和别的产品定义有冲突，与数据库字段名无关-->
+					<PARA name="Column_Name" value="UserLabel" /><!--与数据库字段无关，只管列头中英文的显示-->
+					<PARA name="Column_Renderer" value="Default extended field render" />
+					<PARA name="Extended_Field_Type" value="String" /><!-- must be "int" or "String" -->
+					<PARA name="Extended_Field_Group" value="4" />
+					<PARA name="Extended_Field_Index" value="0" />
+					<PARA name="Column_Sort_Index" value="" />
+				</PARAS>
+			</DESC>
+			<DESC descname="9899">
+				<PARAS> 
+					<PARA name="Column_Name" value="ServiceLevel" /> 
+					<PARA name="Column_Renderer" value="Default extended field render" /> 
+					<PARA name="Extended_Field_Type" value="String" /><!-- must be "int" or "String" -->
+					<PARA name="Extended_Field_Group" value="4" />----------与后台配置的值相同 
+					<PARA name="Extended_Field_Index" value="1" />----------与后台配置的值相同 
+					<PARA name="isVisibleInDetail" value="true" /> ----这个表示不在详细信息中显示. </PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="ColumnForWindow">
+			<PARAS />
+			<DESC descname="Fault">
+				<PARAS />
+				<DESC descname="1200">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9899">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="250" />
+						<PARA name="View_Column_Index" value="1601" />
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="Event">
+				<PARAS />
+				<DESC descname="1200">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9899">
+				   <PARAS>
+					   <PARA name="Visible" value="true" />
+					   <PARA name="Width" value="250" />
+						<PARA name="View_Column_Index" value="1601" />
+				   </PARAS>
+			   </DESC>
+			</DESC>
+			<DESC descname="History">
+				<PARAS />
+				<DESC descname="1200">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="40" />
+					</PARAS>
+				</DESC>
+				<DESC descname="9899">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="250" />
+						<PARA name="View_Column_Index" value="1601" />
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="HistoryLog">
+				<DESC descname="1200">
+					<PARAS>
+						<PARA name="Visible" value="false" />
+						<PARA name="Width" value="92" />
+						<PARA name="View_Column_Index" value="40" />
+					</PARAS>
+				</DESC>				
+				<DESC descname="9899">
+				  <PARAS>
+					  <PARA name="Visible" value="true" />
+					  <PARA name="Width" value="250" />
+					   <PARA name="View_Column_Index" value="1601" />
+				  </PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="TempFaultLog">
+				<PARAS />
+				<DESC descname="9899">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="250" />
+						<PARA name="View_Column_Index" value="1601" />
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="FaultFilterAlarm">
+				<PARAS />
+				<DESC descname="9899">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="250" />
+						<PARA name="View_Column_Index" value="1601" />
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="EventFilterAlarm">
+				<PARAS />
+				<DESC descname="9899">
+					<PARAS>
+						<PARA name="Visible" value="true" />
+						<PARA name="Width" value="250" />
+						<PARA name="View_Column_Index" value="1601" />
+					</PARAS>
+				</DESC>
+			</DESC>
+			<DESC descname="TempFaultLog">
+				<PARAS />
+			</DESC>
+			<DESC descname="TempEventLog">
+				<PARAS />
+			</DESC>
+			<DESC descname="AlarmNameTable">
+				<PARAS />
+			</DESC>
+			<DESC descname="AlarmColorDisplayModeSamples">
+				<PARAS />
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="terminal">
+            <PARAS>
+                <PARA name="terminalid" value="01" />
+            </PARAS>
+        </DESC>
+        <DESC descname="login">
+            <PARAS>
+		<!--the default login in user name-->
+                <PARA name="LastestLoginUserName" value="admin" />
+                <!--  Config if the login user input textfield is support chinese word,  and set it as true means support as default-->
+                <PARA name="IsSupplyChinese" value="true" />
+                 <!-- Config if show the lastest user name that login in successful,  true as default-->
+                <PARA name="isShowLoginUserName" value="false" />
+                <!-- Config if support Modify the server info,  true as default-->
+                <PARA name="isSupportModifyServerInfo" value="true" />
+				<!-- Config if show servername front,  false as default-->
+                <PARA name="isShowServerNameFront" value="false" />
+            </PARAS>
+        </DESC>
+
+        <DESC descname="LoginHandlerClassPath">
+            <PARAS>
+                <PARA name="classpath" value="com.swimap.sm.client.base.SecurityBaseModule" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LoginDelayHandlerClassPath">
+            <PARAS>
+                <PARA name="classpath" value="com.swimap.sm.client.base.SecurityBaseModule" />
+            </PARAS>
+        </DESC>
+        <DESC descname="LoginInfoParserClassPath">
+            <PARAS>
+                <PARA name="classpath" value="com.swimap.sm.client.base.SecurityBaseModule" />
+            </PARAS>
+        </DESC>
+        <!-- clientType, 2000 as default, which is imap client type-->
+        <DESC descname="ClientType">
+            <PARAS>
+                <PARA name="type" value="2000" />
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="DefaultCommunicationMode">
+            <PARAS>
+        	<!--Setting the default Communication Mode in "Add Server" dialog. Common: "0"; SSL: "1" -->
+                <PARA name="mode"   value="1" />
+            </PARAS>
+        </DESC>
+        <DESC descname="TypeInfo">
+            <PARAS>
+        	<!--Setting the default Login Type in "Login" dialog. General: "0"; LCT: "2" -->
+                <PARA name="type"   value="0" />
+            </PARAS>
+        </DESC>
+         <DESC descname="LCTLoginInfo">
+            <PARAS>
+        	 <!--if set LCT login type use below inoformation   -->
+        	 <PARA name="userName" value="admin" />  
+                 <PARA name="portData" value="31037" />
+                                  
+                  <!--Setting the default Communication Mode in "Add Server" dialog. Common: "0"; SSL: "1" -->
+                 <PARA name="mode" value="0" />
+            </PARAS>
+        </DESC>
+        <DESC descname="DoubleServerConfig">
+            <PARAS>
+                <!--Whether to use a two-node cluster. True: To use a two-node cluster; False: To use a stand-alone server. The default value is false.-->
+                <PARA name="isSupportSecondaryServer" value="false" />
+                 <!--Server connection sequence in a two-node cluster. 0: The active server takes priority over the standby server; 1: The standby server takes priority over the active server. The default value is 0.-->
+                <PARA name="connectSequence" value="0" />
+                <!--Wait time before reconnection. When the wait time reaches, the user is guided to log out of the client. The value is an integer larger than 5, in the unit of minute. -1 indicates the permanent wait. The default value is 15.-->
+                <PARA name="reconnectWaitTime" value="15" />
+            </PARAS>
+        </DESC>
+        <DESC descname="CertificatesPath">
+            <PARAS>
+                <!--The values are true and false. The default value is false, that is, the Certificates componet is hidden in the "Add Server Infomation" Dialog and the "Modify Server Infomation" Dialog. -->
+                <PARA name="ShowCertificatesPath" value="false" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>
+
+

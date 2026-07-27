@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>smdb</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>smdbdata</devicename>
+	<filename>smdb_data.mdf</filename>
+	<dbsize>200</dbsize>
+	<dbmaxsize>300</dbmaxsize>
+	<dbthreshold>50</dbthreshold>
+	<dbfilegrowth>50</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>smdblog</logdevicename>
+	<logfilename>smdb_log.ldf</logfilename>
+	<logsize>100</logsize>
+	<logmaxsize>100</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

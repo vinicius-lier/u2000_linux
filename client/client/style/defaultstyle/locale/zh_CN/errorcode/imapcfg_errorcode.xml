@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="imapcfg_errorcode">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="4294967291"   value="与网元通信异常。" />
+                <PARA name="2685009920"   value="代理不能把该请求的结果放入单个SNMP消息中" />
+                <PARA name="2685009921"   value="指定了一个代理不知道的对象" />
+                <PARA name="2685009922"   value="设置的值不在MIB定义的值域之内" />
+                <PARA name="2685009923"   value="SET操作试图修改不能被写入的变量" />
+                <PARA name="2685009924"   value="SNMP其他错误" />
+                <PARA name="117448705"   value="操作失败。" />
+                <PARA name="117448706"   value="操作部分失败。" />
+                <PARA name="117448707"   value="找不到功能描述。" />
+                <PARA name="117448708"   value="找不到页面描述。" />
+                <PARA name="117448709"   value="无法获得网元操作接口。" />
+                <PARA name="117448710"   value="创建的返回数据异常。" />
+                <PARA name="117448711"   value="对象层次表中无此类型。" />
+                <PARA name="117448712"   value="无法转换为目标类型。" />
+                <PARA name="117448713"   value="F接口数据超长。" />
+                <PARA name="117448714"   value="功能上载失败。" />
+                <PARA name="117448715"   value="不支持增量下载。" />
+                <PARA name="117448716"   value="下载时读取数据失败。" />
+                <PARA name="117448717"   value="功能下载失败。" />
+                <PARA name="117448718"   value="更新属性值表失败。" />
+                <PARA name="117448719"   value="插入新属性值失败。" />
+                <PARA name="117448720"   value="更新页面表失败。" />
+                <PARA name="117448721"   value="更新对象表失败。" />
+                <PARA name="117448722"   value="更新对象属性数据失败。" />
+                <PARA name="117448723"   value="查询对象属性数据失败。" />
+                <PARA name="117448724"   value="查询对象表失败。" />
+                <PARA name="117448725"   value="删除对象属性数据失败。" />
+                <PARA name="117448726"   value="删除对象表失败。" />
+                <PARA name="117448727"   value="查询功能表索引失败。" />
+                <PARA name="117448728"   value="分配对象索引失败。" />
+                <PARA name="117448729"   value="增加新对象失败。" />
+                <PARA name="117448730"   value="增加对象属性失败。" />
+                <PARA name="117448731"   value="源宿类型合对象层次表不匹配。" />
+                <PARA name="117448732"   value="未定义日志查询操作码。" />
+                <PARA name="117448733"   value="未定义日志修改操作码。" />
+                <PARA name="117448734"   value="未定义日志创建操作码。" />
+                <PARA name="117448735"   value="未定义日志删除操作码。" />
+                <PARA name="117448736"   value="不支持多行创建。" />
+                <PARA name="117448737"   value="异常的操作类型。" />
+                <PARA name="117448738"   value="找不到属性描述。" />
+                <PARA name="117452801"   value="查询网元对象表失败。" />
+                <PARA name="117452802"   value="多个网元操作请求类型需一致。" />
+                <PARA name="117452803"   value="无法转换为可查询的对象。" />
+                <PARA name="117452804"   value="多个查询请求属性需一致。" />
+                <PARA name="117452805"   value="多个修改请求必须在同一张表格。" />
+                <PARA name="117452806"   value="无法识别对象的网元。" />
+                <PARA name="117452807"   value="初始化网元请求失败。" />
+                <PARA name="117452808"   value="和网元交互发生错误。" />
+                <PARA name="117452809"   value="找不到属性对应的MIB项。" />
+                <PARA name="117452810"   value="对象找不到对应的MIB索引。" />
+                <PARA name="117452811"   value="IFINDEX转换失败。" />
+                <PARA name="117452812"   value="无法转换的MIB类型。" />
+                <PARA name="117452813"   value="找不到可适配的MIB描述。" />
+                <PARA name="117452814"   value="找不到可用的索引转换接口。" />
+                <PARA name="117452815"   value="未找到配置项的网元接口。" />
+                <PARA name="117452816"   value="无法获取网元主机版本。" />
+                <PARA name="117452817"   value="多个MIB表不一致无法合并。" />
+                <PARA name="117450753"   value="没有足够的资源，不能创建。" />
+                <PARA name="117450754"   value="创建不成功。" />
+                <PARA name="117450755"   value="部分成功。" />
+                <PARA name="117450756"   value="表格中的数据没有改变，请修改后应用。" />
+                <PARA name="117450757"   value="表格中的数据已经改变，请确认。" />
+                <PARA name="117450758"   value="没有选择行，请选择后再操作。" />
+                <PARA name="117450759"   value="没有创建新对象。" />
+                <PARA name="117450760"   value="没有对象被删除。" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

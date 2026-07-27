@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="TimeZoneInfo">
+        <DESC descname="TimeZoneInfo" >
+            <PARAS>
+                <PARA name="ZONEKEYLIST"   value="-720,-660,-600,-540,-480,-420,-360,-300,-270,-240,-210,-180,-120,-60,0,60,120,180,210,240,270,300,330,345,360,390,420,480,540,570,600,660,720,780" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

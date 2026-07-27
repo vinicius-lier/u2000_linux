@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<!-- name: plugin列表 -->
+			<DESC descname="plugins">
+				<PARAS>
+					<PARA name="ip_base"/>
+					<PARA name="nemgr_router"/>
+					<PARA name="nemgr_switch"/>
+					<PARA name="com.swimap.adapter.message.sm"/>
+					  <PARA name="com.swimap.adapter.message.common"/>
+			          <PARA name="com.swimap.extension.registry"/>		
+			          <PARA name="com.swimap.color"/>	
+
+						<PARA name="alarmclient"/>
+						<PARA name="com.swimap.adapter.message.fm"/>
+						
+						<PARA name="com.swimap.adapter.message.resource"/>
+						<PARA name="com.swimap.adapter.message.tm"/>
+					  <PARA name="resource"/>	
+			          <PARA name="eam"/>		
+			          <PARA name="topobase"/>	
+					  <PARA name="topoclient"/>
+
+					   <PARA name="unitedmgr"></PARA>
+					   <PARA name="U2000_Solution"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- name: feature列表 -->
+			<DESC descname="features">
+				<PARAS>
+				</PARAS>
+			</DESC>
+			<!-- name: productlib 文件夹列表 -->
+			<DESC descname="productlibs">
+				<PARAS>
+				    <PARA name="ip_aemgr"/>
+					<PARA name="ip_base"/>
+					<PARA name="ip_common"/>	
+					<PARA name="ip_gcli"/>					
+					<PARA name="ip_pathviewer"/>
+					<PARA name="cbb"/>
+					<PARA name="nemgr_router"/>
+					<PARA name="nemgr_switch"/>
+					<PARA name="nemgr_vmf"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="ApplicationCallBacks"> 
+            <PARAS>
+            </PARAS>
+        </DESC>
+	</AREADESC>
+</COMMINIDATA>

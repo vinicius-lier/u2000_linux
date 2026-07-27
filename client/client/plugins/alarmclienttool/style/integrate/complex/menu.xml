@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="Res" />
+            </PARAS>
+        </DESC>
+        <DESC descname="mainMenu">
+            <PARAS>
+                <PARA name="name" value="main Menu" />
+                <PARA name="type" value="MenuSet" />
+            </PARAS>
+            <DESC descname="Fault">
+                <PARAS>
+                    <PARA name="name" value="FaultRootMenu" />
+                    <PARA name="mnemonic" value="U" />
+                    <PARA name="accelerator" value="VK_U" />
+                    <PARA name="type" value="JMenu" />
+                    <PARA name="icon" value="" />
+                    <PARA name="serialnumber" value="200" />
+                </PARAS>
+                <DESC descname="Separator">
+                    <PARAS>
+                        <PARA name="name" value="Separator" />
+                        <PARA name="type" value="Separator" />
+                        <PARA name="serialnumber" value="200-500" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="Alarm_GUI_TOOL">
+                    <PARAS>
+                        <PARA name="name" value="menu_item" />
+                        <PARA name="icon" value="" />
+                        <PARA name="command" value="AlarmGuiTool" />
+                        <PARA name="type" value="JMenuItem" />
+                        <PARA name="mnemonic" value="U" />
+                        <PARA name="accelerator" value="VK_U" />
+                        <PARA name="serialnumber" value="200-510" />
+                    </PARAS>
+                </DESC>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="modulelist">
+        <DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle"/>
+                <PARA name="resourceBundleName" value="IfmsRes"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="AlarmGuiTool">
+            <PARAS>
+                <PARA name="ClassName" value="com.swimap.iview.ifms.tool.main.AlarmGuiToolManager"/>
+                <PARA name="RunInProcess" value="true"/>
+                <PARA name="ProcessKey" value="0"/>
+                <PARA name="ToBeLoaded" value="true"/>
+                <PARA name="IsJavaModule" value="true"/>
+                <PARA name="IsOrbModule" value="false"/>
+                <PARA name="serialnumber" value="44"/>
+                <PARA name="dependModules">
+                    <VALUE value="Fault"/>
+                </PARA>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

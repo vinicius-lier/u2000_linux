@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="CustomizeQueryBtnConf">
+			<PARAS>
+				<PARA name="QueryBtnValue" value="0"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

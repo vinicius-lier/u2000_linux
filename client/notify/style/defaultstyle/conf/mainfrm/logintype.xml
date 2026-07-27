@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+        <DESC descname="loginTypeSetting" >
+            <PARAS>
+                <PARA name="loginType"   value="0" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

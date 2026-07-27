@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="alarmClientCommands">
+            <PARAS />
+            <DESC descname="BrowseFaultAlarm">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="browseFaultAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="BrowseFaultAlarmByLevel">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="browseFaultAlarmByLevel" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="BrowseEventAlarm">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="browseEventAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="FaultQuery">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="queryFaultAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="EventQuery">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="queryEventAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="HistoryQuery">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="queryHistoryAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="HistoryLog">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="queryHistoryLog" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="DownloadRNLog">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="downLoadRNLog" />
+                    <PARA name="security" value="3"/>
+                    <PARA name="objectClassName" value="SystemMaintenance"></PARA>
+                    <PARA name="moiID" value="0"></PARA>
+                    <PARA name="accessID" value="SysGetFile"></PARA>
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmBoard">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="displayAlarmBoard" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmMatrix">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="displayAlarmMatrix" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmStatistic_Fault">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_Fault" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmStatistic_Event">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_Event" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC>
+
+            <DESC descname="AlarmStatistic_U2100">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="statisticAlarm_U2100" />
+                    <PARA name="security" value="3" />
+                    <PARA name="objectClassName" value="FaultManagerSecurityObject" />
+                    <PARA name="moiID" value="0" />
+                    <PARA name="accessID" value="Alm_Statistic" />
+                </PARAS>
+            </DESC> 
+
+            <DESC descname="StopAlarmSoundPermanently">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="stopAlarmSoundPermanently" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="StopAlarmBoardFlash">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="stopAlarmBoardFlash" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="StopCurrentAlarmSound">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="stopCurrentAlarmSound" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="AlarmBoxManager">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="alarmBoxManager" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="TemplateManagement">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="templateManagement" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="alarmOptions">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="showAlarmOptionDialog" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="alarmGroupManage">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="alarmGroupManage" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="SynchroniseAlarmBox">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="synchroniseAlarmBox" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+            <DESC descname="QueryMonitoredAlarm">
+                <PARAS>
+                    <PARA name="actionType" value="cic" />
+                    <PARA name="moduleID" value="Fault" />
+                    <PARA name="className" />
+                    <PARA name="processName" />
+                    <PARA name="methodName" value="queryMonitoredAlarm" />
+                    <PARA name="security" value="1" />
+                </PARAS>
+            </DESC>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

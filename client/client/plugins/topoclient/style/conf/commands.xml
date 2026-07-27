@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+four types of the command can be defined now
+
+sci:static class invoke
+ici:instance class invoke
+cic:cross invoke
+pic:process invoke
+ -->
+<!--
+ security info
+
+ name            present                            value
+"security"     securityType                0 always not allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+"moiID"        moi object ID
+"appID"        application object ID
+"oprID"        operation ID
+
+ -->
+<COMMINIDATA>
+  <AREADESC>
+    <!-- Begin The commond of Topo management -->
+    <DESC descname="topomanagement">
+      <PARAS />
+      <!-- command id -->
+      <DESC descname="exportToFile">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="exportToFile" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="ShowElectronicFrame">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showElectronicFrame" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="ShowMyTopoFrame">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showTopoFrame" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="NE_Monitor_...">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="neMonitor" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="selectAllObject">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="selectAllObject" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show create device Dialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="createDevice" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="show create subnet dialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="createSubnet" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="show create link dialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="createLink" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="iMAPTopoDelete">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="deleteTopoObject" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="collapseLink">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="collapseLink" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="expandLink">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="expandLink" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show create view Dialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="createView" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="show modify view dialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="modifyView" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="modify TopoObj">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="modifyTopoObj" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="delete view">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="deleteView" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="back_memory">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="backMemory" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="forward_memory">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="forwardMemory" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="back parent">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="backToParent" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="back top">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="backToTop" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="refresh topo">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="refreshTopo" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="save position">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="savePostion" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="save picture">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="savaPicture" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="lockUnLock view">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="lockUnLockView" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="Show search panel">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showSeachPanel" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show topo tree">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showTopoNavigationTree" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="showLegendAndFilter">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showLegendAndFilter" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="showFilter">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showFilter" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="showHideRegionName">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showHideRegionName" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="Topo_showHideLatiLongiLines">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showHideLatiLongiLines" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="showAttribute">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showAttribute" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show overview">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showOverView" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show alarm browse">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showAlarmBrowse" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show set layout dialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="setLayout" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="setBackGroundDialog">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="setBackground" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="zoom in">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="zoomIn" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="zoom out">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="zoomOut" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="zoom box">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="zoomBox" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="reset zoom">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="resetZoom" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="content zoom">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="fitZoomToContents" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="attribute">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="attribute" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="moveObjectTo">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="moveObjectTo" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <!--
+      <DESC descname="toolbarSelect">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="topoclient"/>
+          <PARA name="methodName" value="toolbarSelect"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+      
+          
+       <DESC descname="toolbarMove">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="topoclient"/>
+          <PARA name="methodName" value="toolbarMove"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+      
+      <DESC descname="toolbarCreatLink">
+        <PARAS>
+          <PARA name="actionType" value="cic"/>
+          <PARA name="moduleID" value="topoclient"/>
+          <PARA name="methodName" value="toolbarCreatLink"/>
+          <PARA name="security" value="1"/>
+        </PARAS>
+      </DESC>
+      -->
+      <DESC descname="print">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="print" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="preview">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="preview" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="expand">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="expand" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="collapse">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="collapse" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="cutTopoObj">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="cutTopoObj" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="pasteTopoObj">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="pasteTopoObj" />
+          <PARA name="security"
+                value="1"></PARA>
+        </PARAS>
+      </DESC>
+      <DESC descname="setStartSubnet">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="setStartSubnet" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="setSysStartSubnet">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="setSysStartSubnet" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="showLinkSet">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showLinkSet" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="copyObject">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="copyObject" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="customizeToolbar">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="customizeToolbar" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="show device statistics">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showDevStatisticInfo" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="copyTo">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="copyToObject" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="ShowMainTopo">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showTopoFrame" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+      <DESC descname="remarkObject">
+        <PARAS>
+          <PARA name="actionType"
+                value="cic" />
+          <PARA name="moduleID"
+                value="topoclient" />
+          <PARA name="methodName"
+                value="showRemarkDlg" />
+          <PARA name="security"
+                value="1" />
+        </PARAS>
+      </DESC>
+    </DESC>
+    <!-- End The commond of Topo management -->
+  </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC >
+				<DESC descname="ResourceBundle">
+            <PARAS>
+                <PARA name="type" value="ResourceBundle" />
+                <PARA name="resourceBundleName" value="Res" />
+            </PARAS>
+        </DESC>
+        
+        <DESC descname="welcomebuttonsetting">
+        
+            <DESC descname="CHANGE_PASSWORD">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="CHANGE_PASSWORD_TIP"></PARA>
+                    <PARA name="description" value="CHANGE_PASSWORD_TIP"></PARA>
+                    <PARA name="icon" value="icons/SecurityTools.png"></PARA>
+                    <PARA name="category" value="WelcomeButtonFile"></PARA>
+                    <PARA name="command" value="authentication:Change password"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                    <PARA name="linkseqnumber" value="800"></PARA>
+                </PARAS>
+            </DESC>
+            
+            <!--switch login server funcation-->
+            <!--DESC descname="SWITCH_LOGIN_SERVER">
+                <PARAS>
+                    <PARA name="isUserEnable" value="true"></PARA>
+                    <PARA name="name" value="SWITCH_LOGIN_SERVER_TITLE"></PARA>
+                    <PARA name="description" value="SWITCH_LOGIN_SERVER_TITLE"></PARA>
+                    <PARA name="icon" value="icons/SecurityTools.png"></PARA>
+                    <PARA name="command" value="authentication:SWITCH_LOGIN_SERVER"></PARA>
+                    <PARA name="category" value="WelcomeButtonFile"></PARA>
+                    <PARA name="serialnumber" value="5"></PARA>
+                    <PARA name="linkseqnumber" value="810"></PARA>
+                </PARAS>
+            </DESC-->
+
+        </DESC>
+        
+        <DESC descname="categorysetting">
+            <DESC descname="WelcomeButtonFile">
+                <PARAS>
+                <PARA name="name" value="WelcomeButtonFile"></PARA>
+                <PARA name="linkseqnumber" value="100"></PARA>
+                </PARAS>
+            </DESC>
+        </DESC>
+        
+    </AREADESC>
+</COMMINIDATA>

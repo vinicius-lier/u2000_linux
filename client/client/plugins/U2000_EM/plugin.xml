@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.5"?>
+<plugin id="U2000_EM" name="U2000_EM" version="1.0" provider-name="U2000_EM">
+   <requires>
+      <import plugin="Fault"/>
+   </requires>
+   
+</plugin>

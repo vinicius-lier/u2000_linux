@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<pnp version = "1.0">
+  <subcard>
+    <current_type>
+      <type>148523</type>
+      <name>H901CPCG</name>
+      <visible>true</visible>
+    </current_type>
+    <compatible_type>
+      <type>148501</type>
+    </compatible_type>
+    <layout>
+      <port>
+        <simple>
+          <rows>1</rows>
+          <columns>0</columns>
+          <direction>horizontal</direction>
+        </simple>
+      </port>
+    </layout>
+  </subcard>
+</pnp>

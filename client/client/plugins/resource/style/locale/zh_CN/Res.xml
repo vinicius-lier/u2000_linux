@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="">
+      <PARAS>
+        <PARA name="ordinary" value="普通子网"></PARA>
+        <PARA name="logical_view" value="自定义视图"></PARA>
+        <PARA name="logical_subnet" value="逻辑子网"></PARA>
+        <PARA name="virtual_node" value="虚拟网元"></PARA>
+        <PARA name="link_set" value="链路集"></PARA>
+        <PARA name="virtual_link" value="虚拟连接"></PARA>
+        <PARA name="OMC" value="OMC"></PARA>
+        <PARA name="OMCS" value="OMCS"></PARA>
+        <PARA name="MSC" value="MSC" />
+        <PARA name="RNC" value="RNC" />
+        <PARA name="NodeB" value="NodeB" />
+        <PARA name="SGSN" value="SGSN" />
+        <PARA name="GGSN" value="GGSN" />
+        <PARA name="CG" value="CG" />
+        <PARA name="SoftX" value="SoftX" />
+        <PARA name="MGW" value="MGW" />
+        <PARA name="HLR" value="HLR" />
+        <PARA name="Root" value="根节点" />
+        <PARA name="NotConfigurated" value="未配置" />
+        <PARA name="Configurated" value="已配置" />
+        <PARA name="ContainAlarm" value="包含告警" />
+        <PARA name="UnknownType" value="未知类型" />
+        <PARA name="UnactiveStates" value="未激活" />
+        <PARA name="Critical" value="紧急" />
+        <PARA name="Major" value="重要" />
+        <PARA name="Minor" value="次要" />
+        <PARA name="Warning" value="提示" />
+        <PARA name="Indeterminate" value="不确定" />
+        <PARA name="containCriticalAlarm" value="包含紧急告警" />
+        <PARA name="containMajorAlarm" value="包含重要告警" />
+        <PARA name="containMinorAlarm" value="包含次要告警" />
+        <PARA name="containWarningAlarm" value="包含提示告警" />
+        <PARA name="containUnknownAlarm" value="包含不确定告警" />
+        <PARA name="containAlarmPattern" value="包含{0}告警" />
+      </PARAS>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

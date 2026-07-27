@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="AlarmColumnConfig">
+		<DESC descname="ColumnForWindow">
+			<DESC descname="AlarmGuiTool">
+				<PARAS />
+				<DESC descname="AlmLevel">
+					<PARAS>
+						<PARA name="Width" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Id">
+					<PARAS>
+						<PARA name="Width" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Csn">
+					<PARAS>
+						<PARA name="Width" value="130" />
+						<PARA name="isSort" value="true" />
+					</PARAS>
+				</DESC>
+				<DESC descname="ExtendInfo">
+					<PARAS>
+						<PARA name="Width" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="AlarmId">
+					<PARAS>
+						<PARA name="Width" value="80" />
+					</PARAS>
+				</DESC>
+				<DESC descname="occurUtcTime">
+					<PARAS>
+						<PARA name="Width" value="200" />
+						<PARA name="isSort" value="true" />
+					</PARAS>
+				</DESC>
+				<DESC descname="clearUtcTime">
+					<PARAS>
+						<PARA name="Width" value="200" />
+						<PARA name="isSort" value="true" />
+					</PARAS>
+				</DESC>
+				<DESC descname="ackUtcTime">
+					<PARAS>
+						<PARA name="Width" value="180" />
+					</PARAS>
+				</DESC>
+				<DESC descname="ClearOperator">
+					<PARAS>
+						<PARA name="Width" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="NEFDNName">
+					<PARAS>
+						<PARA name="Width" value="120" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Operator">
+					<PARAS>
+						<PARA name="Width" value="150" />
+					</PARAS>
+				</DESC>
+				<DESC descname="NEType">
+					<PARAS>
+						<PARA name="Width" value="100" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Status">
+					<PARAS>
+						<PARA name="Width" value="250" />
+					</PARAS>
+				</DESC>
+				<DESC descname="DevCsn">
+					<PARAS>
+						<PARA name="Width" value="200" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Type">
+					<PARAS>
+						<PARA name="Width" value="150" />
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

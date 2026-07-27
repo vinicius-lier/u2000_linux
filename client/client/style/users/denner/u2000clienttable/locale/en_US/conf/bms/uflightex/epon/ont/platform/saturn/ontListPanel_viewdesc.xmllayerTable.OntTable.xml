@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="PonStatus" name="Running Status" isVisiable="true" isEditable="false" width="111" isNameModified="false" />
+  <column id="OperateStatus" name="Operate Status" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+  <column id="ConfigStatus" name="Config Status" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="ID1" name="Frame" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ID2" name="Slot" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ID3" name="Port" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="OntID" name="ONU ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="VendorID" name="Vendor ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="EquipmentID" name="Terminal Type" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+  <column id="MainSoftVersion" name="Software Version" isVisiable="true" isEditable="true" width="119" isNameModified="false" />
+  <column id="IsE8C" name="Is E8C Device" isVisiable="true" isEditable="true" width="77" isNameModified="false" />
+  <column id="LineProfileName" name="Line Profile" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="SrvProfileName" name="Service Profile" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+  <column id="VasGnlProfName" name="ONU General VAS Profile" isVisiable="true" isEditable="true" width="163" isNameModified="false" />
+  <column id="VAProfileName" name="ONU VAS Profile" isVisiable="true" isEditable="true" width="116" isNameModified="false" />
+  <column id="SrvLevelProfileName" name="ONU Service Level Profile" isVisiable="true" isEditable="true" width="166" isNameModified="false" />
+  <column id="MacAddr" name="MAC Address" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="Password" name="Key" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ObjectLoid" name="LOID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="ObjectCheckcode" name="Checkcode" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="DownTrafficCirValue" name="CIR Value (kbit/s)" isVisiable="true" isEditable="true" width="95" isNameModified="false" />
+  <column id="BroadBandType" name="Rate Type" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+</table>
+

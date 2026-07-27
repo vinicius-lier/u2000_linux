@@ -1,0 +1,2555 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" [
+]>
+	<!--
+		four types of the command can be defined now sci:static class invoke
+		ici:instance class invoke cic:cross invoke pic:process invoke
+	-->
+	<!--
+		security info name present value "security" securityType 0 always not
+		allowed, 1 always allowed, 2 moi realated, 3 moi not related.
+		"moiIDorAppID" moi object ID or appID "accessID" access ID notice ,
+		the previous defined as below.but iMap1.5 changed the security
+		information to only moiIDorAppID and accessID. so iVIEW security
+		informatio changed to above information. name present value "security"
+		securityType 0 always not allowed, 1 always allowed, 2 moi realated, 3
+		moi not related. "moiID" moi object ID "appID" application object ID
+		"oprID" operation ID
+	-->
+<COMMINIDATA>
+	<AREADESC>
+
+		<DESC descname="alarmClientCommands">
+			<PARAS />
+			<DESC descname="StopAlarmBoxSound">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="stopAlarmBoxSound" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="ResetAlarmBox">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="resetAlarmBox" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="StopAlarmBoxFlash">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="stopFlashingAlarmBoxLamp" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="StopDriveAlarmBox">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="stopDriveAlarmBox" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="AllSelect">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="allSelect" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmListConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualConfirm"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Confirm_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLogConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualConfirm"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Confirm_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="TransferEvent2ADMC">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="transferEvent2ADMC"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_ADMC_Config"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="EventConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualConfirm"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Confirm_Event_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmListUnConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualUnConfirm"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Unconfirm_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLogUnConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualUnConfirm"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Unconfirm_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="EventUnConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualUnConfirm"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Unconfirm_Event_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmListRecovery">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualRecovery"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Clear_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLinkageClear">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="clearMergeMaskAlarmLog"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Clear_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLogRecovery">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualRecovery"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Clear_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmShield">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="alarmShield"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="ADD_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FrequenceAlarmAnalysis">
+			        <PARAS>
+				        <PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="frequenceAlarmAnalysis"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+	                                <PARA name="moiID" value="0"></PARA>
+	                                <PARA name="accessID" value="Add_Cor_Rule_Attr"></PARA>
+			        </PARAS>
+			</DESC>
+			<DESC descname="FlashAlarmAnalysis">
+			        <PARAS>
+				        <PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="flashAlarmAnalysis"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RepeatEventAnalysis">
+			        <PARAS>
+				        <PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="repeatEventAnalysis"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+	                                <PARA name="moiID" value="0"></PARA>
+	                                <PARA name="accessID" value="Add_Cor_Rule_Attr"></PARA>
+			        </PARAS>
+			</DESC>
+                        <DESC descname="ModifyAlarmLevel">
+                                <PARAS>
+                                        <PARA name="actionType" value="cic" />
+                                        <PARA name="moduleID" value="Fault" />
+                                        <PARA name="className" />
+                                        <PARA name="processName"></PARA>
+                                        <PARA name="methodName" value="modifyAlarmLevel"></PARA>
+                                        <PARA name="security" value="3"></PARA>
+                                        <PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+                                        <PARA name="moiID" value="0"></PARA>
+                                        <PARA name="accessID" value="Modify_Alm_Level"></PARA>
+                                </PARAS>
+                        </DESC>
+			<DESC descname="AlarmListSynchronize">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualSynchronize"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Alm_Check_If_Exist"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLogSynchronize">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualSynchronize"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Alm_Check_If_Exist"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="ProcessNESynchronize">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="ProcessNESynchronize"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Syn_NE_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LinkSynchronize">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="LinkSynchronize"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Syn_Link_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="MergeLog">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryMergeLog"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RelatedLog">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryRelatedLog"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LogDetail">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="displayAlarmDetail"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="MaskAlarmLog">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryMaskAlarmLog"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LockAlarmList">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="lockAlarmListRecord"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Lock_Alarm_List"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="UnlockAlarmList">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="unlockAlarmListRecord"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Unlock_Alarm_List"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RootAlarmLog">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryRootAlarmLog"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- deleted by V3R1C01B01 story: correlation optimization -->
+			<!--
+			<DESC descname="MaskEventLog">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryMaskEventLog"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="DeviceRootAlarm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryDeviceRootAlarm"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RootEventLog">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="queryRootEventLog"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+                        -->
+			<DESC descname="LocateInCurrentAlarm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="locateInCurrentAlarm"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LocateInActiveCurrentAlarm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="locateInActiveCurrentAlarm"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SaveSelectedAlarm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="SaveSelectedAlarm"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SaveAllRecord">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="saveAllRecord"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="DeleteSelectedAlarm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="DeleteSelectedAlarm"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="PrintSelectedAlarm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="PrintSelectedAlarm"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="PrintAllRecord">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="printAllRecord"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="UpdateExperience">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="updateExperience"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Knowlg_DB"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="UpdateMemo">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="updateMemo"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Comment"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLocateTopoMap">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="locateTopoMap"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="DisplayAlarmDetail">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="displayAlarmDetail"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="displayAlarmCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="displayAlarmCorrelation"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmConfigColumn">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="configAlarmShowingItem"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="displayClientTime">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="displayClientTime"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="displayServerTime">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="displayServerTime"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="displayNETime">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="displayNETime"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SendEmailNotification">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="sendEmailNotification"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Manu_Send_Notify"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SendSMSNotification">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="sendSMSNotification"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="mixSortAlarmConfig">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="configAlarmMixSortItem"></PARA>
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmRecoveryNo2device">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="manualRecoveryNot2Device"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Clear_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLinkageClearNo2Device">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="clearMergeMaskAlarmLogNo2Device"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Clear_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+                        <!--RemoteNotifySetPanel command id -->
+                        <!--RemoteNotifySetPanel button command id -->
+			<DESC descname="RemoteNotifyFormatSettingButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Remote_Notify_Format"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addRemoteNotifyAction" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoAckAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Auto_Ack_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyDeviceAdd">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Device_Parameter"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyDeviceMod">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Modify_Device_Parameter"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyDeviceDel">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Delete_Device_Parameter"></PARA>
+				</PARAS>
+			</DESC>
+
+                        <DESC descname="TestDevice">
+                                <PARAS>
+                                        <PARA name="actionType" value="ici"/>
+                                        <PARA name="moduleID"/>
+                                        <PARA name="className"/>
+                                        <PARA name="processName"/>
+                                        <PARA name="security" value="3"></PARA>
+                                        <PARA name="objectClassName" value="RemoteNotificationManagerSecurityObject"></PARA>
+                                        <PARA name="moiID" value="0"></PARA>
+                                        <PARA name="accessID" value="Test_Device_Sending"></PARA>
+                               </PARAS>
+                       </DESC>
+
+                        <!-- RemoteNotifySetPanel Menu command id -->
+			<DESC descname="RemoteNotifyRefresh">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="queryRemoteData" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyDelete">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RemoteNotifyDeviceSet">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Remote_Notify_Info"></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--LevelRedefinePanel command id -->
+                        <!--LevelRedefinePanel button command id -->			
+			<DESC descname="LevelRedefineExportButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="exportRule" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LevelRedefineImportButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="importRule" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LevelRedefineAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doNew" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LevelRedefineDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LevelRedefineModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="propertyLevelRedefine">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showDetail" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--AlarmFilterSetPanel command id -->
+                        <!--AlarmFilterSetPanel button command id -->			
+			<DESC descname="AlarmFilterExportButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="exportRule" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmFilterImportButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="importRule" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="ADD_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmFilterAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addFilterRule" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="ADD_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmFilterDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmFilterModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="propertyAlarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showDetail" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmFilterOperationLogs">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showOperationLogs" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+      			
+	                <!--NBIFilterSetPanel button command id. -->
+			<DESC descname="NorthboundFilterExportButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="exportRule" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="NorthboundFilterImportButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="importRule" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_NB_Filter_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="NorthboundFilterAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="popuAddRuleMenu" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_NB_Filter_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="NorthboundFilterDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_NB_Filter_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="NorthboundFilterModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_NB_Filter_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="NorthboundFilterProButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showDetail" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--AutoSyncSetPanel command id -->
+                        <!--AutoSyncSetPanel button command id -->
+			<DESC descname="AutoSyncAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Auto_Syn_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoSyncDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Auto_Syn_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoSyncModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifyButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Auto_Syn_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="accessToWholeType">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="accessToWholeType"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Operate_For_All_Network_Or_Type"></PARA>
+				</PARAS>
+			</DESC>
+     
+                        <!--AutoConfirmSetPanel button command id -->
+			<DESC descname="AutoConfirmSetButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Auto_Confirm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--AutoDisplaceSetPanel button command id -->
+			<DESC descname="AutoDisplaceSetButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Auto_Dump_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="StartManualDisplace">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="startBtn_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Manu_Dump_DB"></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--AlarmAutoDeletePanel button command id-->
+			<DESC descname="AlarmAutoDeleteApplyButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="applyAction" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Auto_Delete_Attr"></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--KnowledgeExplainPanel button command id -->
+			<DESC descname="KnowledgeExplainImportExplainButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="importExplainButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Explain_DB"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="KnowledgeExplainImportKnowledgeButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="importKnowledgeButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Knowlg_DB"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="KnowledgeExplainExportExplainButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="exportExplainButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Explain_DB"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="KnowledgeExplainExportKnowledgeButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="exportKnowledgeButton_actionPerformed" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Knowlg_DB"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="KnowledgeExplainModifyExplainButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifyExplainButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Explain_DB"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="KnowledgeExplainModifyKnowledgeButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifyKnowledgeButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Knowlg_DB"></PARA>
+				</PARAS>
+			</DESC>
+
+                        <!--AlarmCorrelation command id -->
+                        <!--AlarmCorrelation button command id -->
+			<DESC descname="AlarmCorrelationSetButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setCorrelationActiveStateToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_If_Active_Correlation"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashFaultCorrelationSetButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setCommonCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Common_Flash_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashFaultCorrelationAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addSpecifiedCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Specific_Flash_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashFaultCorrelationDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteSpecifiedCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Specific_Flash_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="FlashFaultCorrelationModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifySpecifiedCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Specific_Flash_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SpecifiedFlashFaultCorrelationRefresh">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="SpecifiedFlashFaultCorrelationRefresh" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="SpecifiedFlashFaultCorrelationDelete">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="SpecifiedFlashFaultCorrelationDelete" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Specific_Flash_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RepeatEventCorrelationSetButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setCommonCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Set_Common_Repeat_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RepeatEventCorrelationAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addSpecifiedCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Specific_Repeat_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RepeatEventCorrelationDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteSpecifiedCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Specific_Repeat_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="RepeatEventCorrelationModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifySpecifiedCorrelationToServer" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Specific_Repeat_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="SpecifiedRepeatEventCorrelationRefresh">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="SpecifiedRepeatEventCorrelationRefresh" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="SpecifiedRepeatEventCorrelationDelete">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="specifiedRepeatEventCorrelationDelete" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Specific_Repeat_Alm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+						
+			<DESC descname="exportCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="exportRule" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="importCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="importRule" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="modCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="propertyCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showDetail" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deleteCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="addCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doNew" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="modInternalCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Inner_Cor_Rule_Active_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="ShowPopupMenu">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="realTimeStatisticFilterSet" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeSimpleCorrelationRules">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="activeMenu_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Active_Simple_Afc_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="inactiveSimpleCorrelationRules">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deActiveMenu_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Deactive_Simple_Afc_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="abandonAlarmRecord">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="abandonMenu_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Abandon_Simple_Afc_Alarm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="shieldAlarmRecord">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="shieldMenu_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Shield_Simple_Afc_Alarm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="modSimpleCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="applyButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="detailSimpleCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifyButton_actionPerformed" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delSimpleCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoConfirmAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Auto_Confirm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoConfirmDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Auto_Confirm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoConfirmModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="apply_Button_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Auto_Confirm_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="PostAddButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addPostRule" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="PostDelButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="PostModButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doApply" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="propertyPostprocess">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showDetail" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="addSimpleCorrelationRule">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Add_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="Simple_Correlation_queryRemoteData">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="refreshButton_actionPerformed" />
+					<PARA name="security" value="1"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value=""></PARA>
+				</PARAS>
+			</DESC>
+			<!--  UCD Add-->
+
+                        <!--  AUTO ACK START -->
+			<DESC descname="property_AutoAck">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="detailButton_actionPerformend" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_AutoAck">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- AUTO ACK END -->
+			<!-- ALARM FILTER START-->
+			<DESC descname="selectAll_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="detailButton_actionPerformend" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="selectAll_levelRedefine">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- ALARM FILTER END -->
+			<!-- CORRELATIONS START -->
+			<DESC descname="selectAll_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifyButton_actionPerformed" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="selectAll_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="showDetail" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="add_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doNew" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="doRemove" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Del_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_remoteNotify">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Remote_Noti_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_simpleCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_simpleCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_simpleCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_simpleCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Simple_Cor_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_customCorrelation">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Cor_Rule_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_alarmFilter">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Alm_Shield_Attr"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_levelRedefine">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_levelRedefine">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_levelRedefine">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_levelRedefine">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Redefine_Alm_Level"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="property_post">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="detailButton_actionPerformend" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="delete_post">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteButton_actionPerformed" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activePart_post">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactivePart_post">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="activeAll_post">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="deactiveAll_post">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_Post_Exe_Rule"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AlarmLifecycleSettingButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="lifeCycleOkBtnClicked" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_AlmList_Lifecycle"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AutoSynchronizeSettingButton">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_AutoSynchronized_Attribute"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="AdmcSetting">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Update_ADMC_Config"></PARA>
+				</PARAS>
+			</DESC>
+			<!--topo alarm popup menu : Start-->
+			<DESC descname="QueryAlarmList_MenuAction">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="queryAlarmList" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="QueryAlarmLog_MenuAction">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="queryAlarmLog" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="QueryEventLog_MenuAction">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="queryEventLog" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- deleted by V3R1C01B01 story: correlation optimization -->
+			<!--
+			<DESC descname="QueryShieldedAlarm_MenuAction">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="queryShieldedAlarm" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="QueryShieldedEvent_MenuAction">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="queryShieldedEvent" />
+					<PARA name="security" value="1"></PARA>
+				</PARAS>
+			</DESC>
+                        -->
+			<DESC descname="Ne_Synchronize_Action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="neAlarmSynchronize" />
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Syn_NE_Alm"></PARA>
+				</PARAS>
+			</DESC>
+                        <!--topo alarm popup menu : End -->
+                        <!--object group menu : start -->
+			<DESC descname="objectGroupManage">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="objectGroupManage" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="addObjectGroup">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="addObjectGroup" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="delObjectGroup">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="delObjectGroup" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="modifyObjectGroup">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="modifyObjectGroup" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="synObjectGroup">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="synObjectGroup" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="refreshObjectGroup">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="refreshObjectGroup" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_open_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="openTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_new_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="newTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_delete_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="deleteTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_saveas_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="saveasTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_rename_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="renameTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_property_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="propertyTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_set_monitor_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setMonitorTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_set_default_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setDefaultTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_set_autoload_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setAutoloadTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_set_specific_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setSpecificTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="template_set_share_action">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setShareTemplate" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="set_notify_format">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setNotifyFormat" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="set_notify_delay">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setNotifyDelay" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="set_notify_params">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setNotifyParams" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="set_flowcontrol_cmd">
+				<PARAS>
+					<PARA name="actionType" value="ici" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName" />
+					<PARA name="methodName" value="setFlowControl" />
+					<PARA name="security" value="1" />
+				</PARAS>
+			</DESC>
+			<DESC descname="LinkageAlarmListConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="ackMergeMaskAlarmLog"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Confirm_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<DESC descname="LinkageAlarmListUnConfirm">
+				<PARAS>
+					<PARA name="actionType" value="cic" />
+					<PARA name="moduleID" value="Fault" />
+					<PARA name="className" />
+					<PARA name="processName"></PARA>
+					<PARA name="methodName" value="unackMergeMaskAlarmLog"></PARA>
+					<PARA name="security" value="3"></PARA>
+					<PARA name="objectClassName" value="FaultManagerSecurityObject"></PARA>
+					<PARA name="moiID" value="0"></PARA>
+					<PARA name="accessID" value="Unconfirm_Current_Active_Alm"></PARA>
+				</PARAS>
+			</DESC>
+			<!--object group menu : end -->
+		</DESC>
+                <!-- End The commond of windows management -->
+	</AREADESC>
+</COMMINIDATA>

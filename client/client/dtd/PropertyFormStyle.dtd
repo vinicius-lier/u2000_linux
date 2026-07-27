@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT PropertyAssociation ( AssociatedProperty+ ) >
+<!ATTLIST PropertyAssociation associationId NMTOKEN #REQUIRED >
+
+<!ELEMENT SimpleProperties ( PropertyListener* ) >
+<!ATTLIST SimpleProperties property_name NMTOKEN #REQUIRED >
+<!ATTLIST SimpleProperties editable NMTOKEN #REQUIRED >
+<!ATTLIST SimpleProperties change_notification CDATA #IMPLIED >
+<!ATTLIST SimpleProperties cell_editor NMTOKEN #IMPLIED >
+<!ATTLIST SimpleProperties cell_renderer NMTOKEN #IMPLIED >
+
+<!ELEMENT iViewPropertyForm ( GeneralProperties?, SimpleProperties+, PropertyAssociation* ) >
+
+<!ELEMENT GeneralProperties ( BackgroundColor?, ForegroundColor? ) >
+
+<!ELEMENT ForegroundColor EMPTY >
+<!ATTLIST ForegroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST ForegroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST ForegroundColor r NMTOKEN #REQUIRED >
+
+<!ELEMENT BackgroundColor EMPTY >
+<!ATTLIST BackgroundColor b NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor g NMTOKEN #REQUIRED >
+<!ATTLIST BackgroundColor r NMTOKEN #REQUIRED >
+
+<!ELEMENT AssociatedProperty EMPTY >
+<!ATTLIST AssociatedProperty name NMTOKEN #REQUIRED >
+
+<!ELEMENT PropertyListener EMPTY >
+<!ATTLIST PropertyListener listener_name NMTOKEN #REQUIRED >
+

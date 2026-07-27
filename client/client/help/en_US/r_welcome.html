@@ -1,0 +1,218 @@
+﻿
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+<script language="javascript">
+/**去除首尾空格**/
+String.prototype.trim = function() 
+{ 
+	return this.replace(/(^\s*)|(\s*$)/g, "");
+}
+/**替换字符**/
+String.prototype.replaceAll=function(pattern, replacement) 
+{
+    var result = '', source = this;
+    var match;
+
+    while (source.length > 0) {
+      match = source.indexOf(pattern);
+      if (match>=0) {
+        result += source.slice(0, match);
+        result += replacement;
+        source  = source.slice(match + pattern.length);
+      } else {
+        result += source, source = '';
+      }
+    }
+    return result;
+}
+
+function inputIpAddr()
+{   
+    /**将输入的内容赋给变量 ipAddr **/ 
+    //var ipAddr=prompt("请输入U2000服务器IP地址：","10.70.73.95","AAA");
+    var ipAddr= document.getElementById("ipaddress").value;
+    /**这里需要注意的是，prompt有两个参数，前面是提示的信息，后面是当对话框出来后，在对话框里的默认值。***/
+    /**如果返回的内容为空，说明用户点击了“取消”按钮。***/
+    if((ipAddr == undefined) || (ipAddr == null))
+    {
+		return "";
+	}
+	/**返回的内容是空字符串。***/
+    if((ipAddr = ipAddr.trim()) == "")
+    {
+		alert("the IP address can't be empty");
+		return "";
+	}
+	
+	ipAddr = ipAddr.replaceAll(" ", "");
+	if(checkIP(ipAddr) == false){
+		alert("the IP address is invalid, please input again");
+		return "";
+	}
+	return ipAddr;
+}
+
+
+function inputPort()
+{
+	var portStr=prompt("Please inuput the port of the HedEx, when nomal module, the port is 8080","8080");
+	/***这里在对话框里的默认值为8080，如果想设置其他端口号，修改第二个参数值即可。目前没有启用SSL模式，本语句先注释掉***/
+	/***如果返回的内容为空，说明用户点击了“取消”按钮。****/
+	if((portStr == undefined) || (portStr == null))
+    {
+		return "";
+	}
+	/***返回的内容是空字符串。****/
+    if((portStr = portStr.trim()) == "")
+    {
+		alert("the port can't be empty");
+		return inputPort();
+	}
+	portStr = portStr.replaceAll(" ", "");
+
+	var port=8080;
+    try{
+		port=parseInt(portStr,10);
+	}catch(e){
+		return "";
+	}
+	if(port>0 && port<65535){
+		return port;
+	}else{
+		alert("the port is invalid, please input again");
+		return inputPort();
+	}
+}
+
+/* 普通模式下打开联机帮助*/
+function showInput()
+{
+	var ipAddr = inputIpAddr();
+	if(ipAddr == ""){
+		return;
+	}
+	/*
+	 * 如果端口号固定，将
+	 * var port = inputIpAddr();
+	 * 替换为
+	 * var port = "8080";
+	 */
+
+    /****
+	目前都是普通模式登陆，暂无输入端口场景，先屏蔽
+	//var port = inputPort();
+	if(port == ""){
+		return;
+	}
+    var reqUrl="http://"+ipAddr+":"+port+"/hedex/hedex.do?lib=OMC&p=w&id=";
+	*****/
+
+	var reqUrl="http://"+ipAddr+"/hedex/hedex.do?lib=OMC&p=w&id=";
+	//alert(reqUrl);
+	window.location=reqUrl;
+}
+
+/* SSL模式下打开联机帮助*/
+function showInput_ssl()
+{
+	var ipAddr = inputIpAddr();
+	if(ipAddr == ""){
+		return;
+	}
+	/*
+	 * 如果端口号固定，将
+	 * var port = inputIpAddr();
+	 * 替换为
+	 * var port = "443";
+	 */
+         //single版本安全模式端口号修改为443，平台yuanlingbo、资料majingfeng。基础包ID修改为OMC
+
+    /****
+	目前都是普通模式登陆，暂无输入端口场景，先屏蔽
+	//var port = inputPort();
+	if(port == ""){
+		return;
+	}
+    var reqUrl="https://"+ipAddr+":"+port+"/hedex/hedex.do?lib=OMC&p=w&id=";
+	*****/
+
+	var reqUrl="https://"+ipAddr+":"+443+"/hedex/hedex.do?lib=OMC&p=w&id=";
+	//alert(reqUrl);
+	window.location=reqUrl;
+}
+
+/**
+ * 校验IP地址的合法性。
+ * 合法返回true；否则返回false。
+ */
+function checkIP(ipStr)
+{
+	var reg = /^\d{1,3}\.\d{1,3}\.\d{1,3}\.\d{1,3}$/;
+	if(!reg.test(ipStr)){
+		return false;
+	}
+	var ipItem = ipStr.split(".");
+	for(var i=0;i<4;i++){
+		if(parseInt(ipItem[i],10)>255){
+			return false;
+		}
+	}
+	return true;
+}
+
+//showInput();
+</script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="copyright" content="(C) Copyright 2005">
+<meta name="DC.rights.owner" content="(C) Copyright 2005">
+<meta name="security" content="public">
+<meta name="Robots" content="index,follow">
+<meta http-equiv="PICS-Label" content='(PICS-1.1 "http://www.icra.org/ratingsv02.html" l gen true r (cz 1 lz 1 nz 1 oz 1 vz 1) "http://www.rsac.org/ratingsv01.html" l gen true r (n 0 s 0 v 0 l 0) "http://www.classify.org/safesurf/" l gen true r (SS~~000 1))' >
+<meta name="DC.Type" content="reference">
+<meta name="DC.Title" content="Welcome to the Help">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="r_welcome">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="commonltr.css">
+<title>Welcome to the Help</title>
+</head>
+<body style="clear:both; padding-left:10px; padding-top:5px; padding-right:5px; padding-bottom:5px"><a name="r_welcome"></a><a name="r_welcome"></a>
+
+
+
+<h1 class="topictitle1"><strong>Welcome to the Help</strong></h1>
+
+<div>
+<div class="section"><h4 class="sectiontitle"><strong>iManager <font class="keyword">U2000 Unified Network Management System</font></strong><strong></strong><strong></strong><strong></strong></h4><p><img src="image/huawei.gif"></p>
+</div>
+
+<div class="section"><p>Please refer to the help system for the following details.</p>
+<ul>
+<li>How to Use Help</li>
+<li><font class="ph">U2000</font> Overview</li>
+<li><font class="ph">U2000</font> Quick Start</li>
+<li>How to Configure Equipment</li>
+<li>How to Maintain Equipment</li>
+</ul>
+<div>
+    <p>The U2000 Help is deployed on a U2000 server. Enter the IP address of the U2000 server that you want to visit and click <font class="uicontrol"><b>Open the Help</b></font> to view the Help that is deployed on this U2000 server.</p>
+	<p>Please input the IP address of the U2000 server:</p>
+	<input type="text" id="ipaddress"/>
+	<p>
+	<input class="buttonstyle1" type="button" id="open" value="Open the Help(Common)" onclick="showInput()"/>
+	</p>
+	<p>
+	<input class="buttonstyle1" type="button" id="open" value="Open the Help(SSL)       " onclick="showInput_ssl()"/>
+	</p>
+	
+</div>
+</div>
+
+</div>
+
+
+<div class="hrcopyright"><hr size="2"></div><div class="hwcopyright">Huawei Proprietary and Confidential</div><div class="hwcopyright">Copyright &copy; Huawei Technologies Co., Ltd.</div></body>
+</html>

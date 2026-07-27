@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Topo">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="101"   value="An error occurred when decoding the reply message." />
+                <PARA name="102"   value="Error in encoding ASN1 message." />
+                <PARA name="103"   value="The server does not respond. Please check the network or server." />
+                <PARA name="67108619"   value="Error in domain data." />
+                <PARA name="67108862"   value="The server operation failed. Please try again later." />
+                <PARA name="67108861"   value="Failed to access the database. Please try again." />
+                <PARA name="67108860"   value="The connection to the database is interrupted. Please try again later." />
+                <PARA name="67108859"   value="Invalid parameter." />
+                <PARA name="67108858"   value="The record may be deleted by other users." />
+                <PARA name="67108857"   value="Insufficient server resources. Please try again later." />
+                <PARA name="67108856"   value="Network transmission failed. Please try again later." />
+                <PARA name="67108855"   value="Network transmission failed. Please try again later." />
+                <PARA name="67108854"   value="NE already exists." />
+                <PARA name="67108853"   value="An auto-discovery task is being executed on the current server. Please try later." />
+                <PARA name="67108852"   value="The server cannot communicate with the NE because of the inconsistent NE access parameters or the network broken." />
+                <PARA name="67108851"   value="The node already exists." />
+                <PARA name="67108850"   value="Please check the version consistency between the server and the client." />
+                <PARA name="67108849"   value="The subnet already exists. Try again after refreshing topology view please." />
+                <PARA name="67108848"   value="The parent subnet does not exist. Try again after refreshing topology view please." />
+                <PARA name="67108622"   value="The link already exists." />
+                <PARA name="67108617"   value="Getting NE name failed." />
+                <PARA name="67108616"   value="The security module does not respond." />
+                <PARA name="67108837"   value="SNMP Set-Request operation failed." />
+                <PARA name="67108839"   value="It is not allowed to create NEs under a path in this view." />
+                <PARA name="117440510"   value="Server operation failed. Please try again later." />
+                <PARA name="117440509"   value="Failed to access the database. Please try again." />
+                <PARA name="117440508"   value="The resource already exist." />
+                <PARA name="117440507"   value="The parent resource does not exist." />
+                <PARA name="117440506"   value="The resource not exist." />
+                <PARA name="117440466"   value="The resource not exist." />
+                <PARA name="117440505"   value="The attribute does not exist." />
+                <PARA name="117440504"   value="The resource number has reached the maximum." />
+                <PARA name="117440503"   value="Network transmission failed. Please try again later." />
+                <PARA name="117440502"   value="Invalid operation on the root node." />
+                <PARA name="117440501"   value="Error in encoding ASN1 message." />
+                <PARA name="117440500"   value="An error occurred when decoding the reply message." />
+                <PARA name="117440499"   value="Insufficient server resources. Please try again later." />
+                <PARA name="117440494"   value="The same record has existed." />
+                <PARA name="117440493"   value="Non-port type resource not allowed to update sub-type." />
+                <PARA name="67108614"   value="The template parameter name already exists." />
+                <PARA name="117440492"   value="Invalid sysOID." />
+                <PARA name="117440491"   value="Too many records, please search with complex parameter." />
+                <PARA name="67108611"   value="The same record has existed." />
+                <PARA name="67108610"   value="Invalid physical Frame." />
+                <PARA name="67108826"   value="The number of custom view beyond the maximum limit." />
+                <PARA name="67108607"   value="It is not allowed to set up multiple connections between two same ports." />           
+	              <PARA name="67108606"   value="The subnet is a container." />
+		            <PARA name="67108605"   value="The Ping already exists. Please try again later." />
+		            <PARA name="67108604"   value="The number of Pings has reached the limit." />
+                <PARA name="67108603"   value="The Ping exits due to an unknown error." />
+                <PARA name="67108602"   value="The NE does not exist." />
+                <PARA name="67108601"   value="Handshake timeout." />
+                <PARA name="67108600"   value="The subnet does not exist." />
+                <PARA name="67108597"   value="No available license." />
+                <PARA name="67108598"   value="Operation partially succeeded. The selected record cannot be found. Please check the operation log to see if the record has been deleted." />
+                <PARA name="67108599"   value="The selected record cannot be found. Please check the operation log to see if the record has been deleted." />
+                <PARA name="67108842"   value="Nonempty submap cannot be deleted." />               
+                <PARA name="67108847"   value="The node already exists." />
+                <PARA name="117440495"  value="Invalid name." />
+                <PARA name="117440496"  value="Invalid resource ID." />
+                <PARA name="117440497"  value="Invalid main resource type." />
+                <PARA name="117440498"  value="Failed to decrypt the text in the resource table." />
+                <PARA name="67108836"   value="Failed to obtain the engine ID of the NE." />
+                <PARA name="67108838"   value="Cannot delete the main node." />
+                <PARA name="67108840"   value="Failed to delete the NE." />
+                <PARA name="67108841"   value="Failed to create the NE." />
+                <PARA name="67108843"   value="Please set the query condition." />
+                <PARA name="67108844"   value="Invalid node." />
+                <PARA name="67108845"   value="The number of nodes is insufficient." />
+                <PARA name="67108846"   value="Invalid container." />
+                <PARA name="67108591"   value="The view name already exists." />
+                <PARA name="67108590"   value="The subnet name already exists." />
+                <PARA name="67108589"   value="The node name already exists." />
+                <PARA name="67108588"   value="Failed to obtain the root directory of the iMAP." />
+                <PARA name="67108587"   value="Cannot modify or delete the default filter tree." />
+                <PARA name="67108586"   value="Operation partially failed." />
+                <PARA name="67108585"   value="Operation failed." />
+                <PARA name="117440489"   value="Invalid parameter." />
+                <PARA name="117440487"   value="The maintenance personnel information does not exist." />
+                <PARA name="67108829"   value="SNMP error." />
+                <PARA name="67108835"   value="The view already exists." />
+                <PARA name="67108834"   value="The subnet already exists." />
+                <PARA name="67108833"   value="NE discovery has been stopped." />
+                <PARA name="67108832"   value="This is the last NE node." />
+                <PARA name="67108584"   value="This view type does not allow you to create this type of link. " />
+                <PARA name="67108583"   value="This view type does not allow you to modify this type of link. " />
+                <PARA name="67108582"   value="This view type does not allow you to create this type of NE. " />
+                <PARA name="67108581"   value="This view type does not allow you to modify this type of NE. " />
+                <PARA name="67108580"   value="Duplicate name. Please enter a unique name. " />
+                <PARA name="67108579"   value="NE server does not respond." />
+                <PARA name="67108578"   value="Calling the extension point of the security module failed." />
+                <PARA name="67108577"   value="The NE engine ID already exists." />
+                <PARA name="67108576"   value="The parent object does not exist." />
+                <PARA name="67108612"   value="The last node cannot be deleted." />
+                <PARA name="67108620"   value="Subnet already exists." />
+				<PARA name="67108574"   value="The NE is managed through the Qx protocol channel and does not support SNMP protocol tests." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

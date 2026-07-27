@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="UnSupportDevTypeID">
+			<PARAS>
+				<PARA name="DevTypeID_Value" value="256-512,788-790,2305-2309,1873"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

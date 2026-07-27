@@ -1,0 +1,16 @@
+BASEGroup=Base Service
+trapreceiver=Trapreceiver Service
+COREGroup=Core Service
+DSGroup=Desktop Service
+FMGroup=Fault Service
+MEDGroup=Mediation Service
+TestframeGroup=Testframe Service
+CAUGroup=CAU Service
+BASEGroup.InstallInfo=Base Service
+trapreceiver.InstallInfo=Services in the service group receive traps. The deployment package can be used to deploy multiple service instances on this node.
+COREGroup.InstallInfo=Core Service
+DSGroup.InstallInfo=Desktop Service
+FMGroup.InstallInfo=Fault Service
+MEDGroup.InstallInfo=Mediation Service
+TestframeGroup.InstallInfo=Testframe Service
+CAUGroup.InstallInfo=CAU Service

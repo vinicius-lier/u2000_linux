@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC areaname="AlarmColumnConfig">
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="resourceBundleName" value=""></PARA>
+      </PARAS>
+      <PARAS>
+        <PARA name="resourceBundleName" value=""></PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="AllAlarmColumnID">
+      <DESC descname="10000">
+        <!--   数字，扩展列基本信息在此定义，全局唯一，不能和别的产品定义有冲突，与数据库字段名无关   -->
+        <PARAS>
+          <PARA name="Column_Name" value="TrailID" />
+          <!--  与数据库字段无关，只管列头中英文的显示   -->
+          <PARA name="Column_Renderer" value="Default extended field render" />
+          <PARA name="Extended_Field_Type" value="int" />
+          <!-- must be "int" or "String" -->
+          <PARA name="Extended_Field_Group" value="6" />
+          <PARA name="Extended_Field_Index" value="0" />
+          <!--  产品定义后无需注册等操作，平台直接反射回调   -->
+          <PARA name="Column_Sort_Index" value="TrailID" />
+          <!--  Column_Sort_Index的值对应后台数据库扩展字段的 <section name=""> 字段对应  -->
+		  
+		      <!--  默认不在表格和详细信息中显示   -->
+		      <PARA name="isVisibleInDetail" value="false" />
+        </PARAS>
+      </DESC>
+      <DESC descname="10001">
+        <PARAS>
+          <PARA name="Column_Name" value="TrailDomain" />
+          <PARA name="Column_Renderer" value="com.huawei.nml.basecbb.bean.label.AlarmTrailDomainTableCell" />
+          <PARA name="Extended_Field_Type" value="int" />
+          <!-- must be "int" or "String" -->
+          <PARA name="Extended_Field_Group" value="6" />
+          <PARA name="Extended_Field_Index" value="1" />
+          <PARA name="Column_Sort_Index" value="TrailDomain" />
+		  
+		      <!--  默认不在表格和详细信息中显示   -->
+		      <PARA name="isVisibleInDetail" value="false" />		  
+        </PARAS>
+      </DESC>
+      <DESC descname="10002">
+        <PARAS>
+          <PARA name="Column_Name" value="PsnName" />
+		  
+          <!--  默认不在表格和详细信息中显示   -->
+		      <PARA name="isVisibleInDetail" value="false" />		  
+          <PARA name="Column_Renderer" value="Default extended field render" />
+          <PARA name="Extended_Field_Type" value="String" />
+          <!-- must be "int" or "String" -->
+          <PARA name="Extended_Field_Group" value="6" />
+          <PARA name="Extended_Field_Index" value="0" />
+          <PARA name="Column_Sort_Index" value="PsnName" />
+        </PARAS>
+      </DESC>
+      <DESC descname="10003">
+        <PARAS>
+          <PARA name="Column_Name" value="TrailName" />
+          <!--  默认不在表格和详细信息中显示   -->
+		  <PARA name="isVisibleInDetail" value="false" />		  
+          <PARA name="Column_Renderer" value="Default extended field render" />
+          <PARA name="Extended_Field_Type" value="String" />
+          <!-- must be "int" or "String" -->
+          <PARA name="Extended_Field_Group" value="2" />
+          <PARA name="Extended_Field_Index" value="4" />
+          <PARA name="Column_Sort_Index" value="TrailName" />
+        </PARAS>
+      </DESC>
+	  <DESC descname="10004">
+		<PARAS>
+			<PARA name="Column_Name" value="TrailLevel" />	
+			<!--  默认不在表格和详细信息中显示   -->
+			<PARA name="isVisibleInDetail" value="false" />		  
+			<PARA name="Column_Renderer" value="Default extended field render" />
+			<PARA name="Extended_Field_Type" value="String" /><!-- must be "int" or "String" -->
+			<PARA name="Extended_Field_Group" value="2" />
+			<PARA name="Extended_Field_Index" value="5" />		
+			<PARA name="Column_Sort_Index" value="TrailLevel" />
+		</PARAS>
+	</DESC>
+    </DESC>
+    <DESC descname="ColumnForWindow">
+      <DESC descname="Fault">
+        <PARAS />
+        <DESC descname="10001">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="31" />
+          </PARAS>
+        </DESC>
+        <DESC descname="10002">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="32" />
+          </PARAS>
+        </DESC>
+        <DESC descname="10003">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="33" />
+          </PARAS>
+        </DESC>
+		<DESC descname="10004">
+			<PARAS>
+				<PARA name="Visible" value="false" />
+				<PARA name="Width" value="90" />
+				<PARA name="View_Column_Index" value="34" />
+			</PARAS>
+		</DESC>
+	</DESC>	
+	  <DESC descname="HistoryLog">
+        <DESC descname="10001">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="31" />
+          </PARAS>
+        </DESC>
+        <DESC descname="10002">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="32" />
+          </PARAS>
+        </DESC>
+        <DESC descname="10003">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="33" />
+          </PARAS>
+        </DESC>
+		<DESC descname="10004">
+			<PARAS>
+				<PARA name="Visible" value="false" />
+				<PARA name="Width" value="90" />
+				<PARA name="View_Column_Index" value="34" />
+			</PARAS>
+		</DESC>
+	   </DESC>
+	   			<DESC descname="History">
+        <DESC descname="10001">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="31" />
+          </PARAS>
+        </DESC>
+        <DESC descname="10002">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="32" />
+          </PARAS>
+        </DESC>
+        <DESC descname="10003">
+          <PARAS>
+            <PARA name="Visible" value="false" />
+            <PARA name="Width" value="90" />
+            <PARA name="View_Column_Index" value="33" />
+          </PARAS>
+        </DESC>
+		<DESC descname="10004">
+			<PARAS>
+				<PARA name="Visible" value="false" />
+				<PARA name="Width" value="90" />
+				<PARA name="View_Column_Index" value="34" />
+			</PARAS>
+		</DESC>	
+    </DESC>                         
+    </DESC>   
+  </AREADESC>
+</COMMINIDATA>

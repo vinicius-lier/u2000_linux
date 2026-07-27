@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="lastSavedPath">
+			<PARAS>
+				<PARA name="lastSavedPath" value="C:\Users\vinic\OneDrive\Documentos\Games\U2000\client\client\report"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

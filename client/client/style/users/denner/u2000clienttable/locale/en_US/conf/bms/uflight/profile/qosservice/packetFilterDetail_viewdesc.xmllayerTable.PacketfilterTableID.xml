@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Direction" name="Direction" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="IpAclGrpIndex" name="IP ACL Rule Group Index" isVisiable="true" isEditable="true" width="161" isNameModified="false" />
+  <column id="IpAclIndex" name="IP ACL Rule Index" isVisiable="true" isEditable="true" width="124" isNameModified="false" />
+  <column id="LinkAclGrpIndex" name="L2 ACL Rule Group Index" isVisiable="true" isEditable="true" width="164" isNameModified="false" />
+  <column id="LinkAclIndex" name="L2 ACL Rule Index" isVisiable="true" isEditable="true" width="127" isNameModified="false" />
+  <column id="UserAclGrpIndex" name="User-Defined ACL Rule Group Index" isVisiable="true" isEditable="true" width="224" isNameModified="false" />
+  <column id="UserAclIndex" name="User-Defined ACL Rule Index" isVisiable="true" isEditable="true" width="187" isNameModified="false" />
+</table>
+

@@ -1,0 +1,2 @@
+imap_med_framework=适配框架
+imap_med_framework.InstallInfo=适配框架

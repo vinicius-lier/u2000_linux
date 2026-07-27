@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.2"?>
+<plugin
+   id="com.swimap.itm"
+   name="ITM plugin"
+   version="1.0.0"
+   provider-name="swimap">   <requires>   </requires>   <extension-point id="adapter.itf" name="adapter.itf" schema="schema/adapter.itf.exsd"/>
+   <extension-point id="com.swimap.itm.taskcustomsaveloghandler" name="com.swimap.itm.taskcustomsaveloghandler"/>
+</plugin>

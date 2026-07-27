@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="updatelist">
+  <DESC descname="UpdateUserConfig">
+    <PARAS>      
+      <PARA name="ClassName" value="com.swimap.topo.client.topoclient.update.UpdateUserConfig"/>
+      <PARA name="MethodName" value="update"/>
+      <!-- optional parameters -->
+      <!--<PARA name="serialnumber" value="1"/>-->
+    </PARAS>
+  </DESC>
+</AREADESC>
+</COMMINIDATA>
+
+

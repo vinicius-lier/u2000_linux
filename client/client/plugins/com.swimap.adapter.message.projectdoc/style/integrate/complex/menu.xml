@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName" value="projdoc/projdocres"></PARA>
+			</PARAS>
+		</DESC>
+		<!--DOL Menu Set start -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu" />
+				<PARA name="type" value="MenuSet" />
+			</PARAS>
+			<!--define a menu have" name" and "mnemonic" attributes-->
+			<!--SystemMenu menu start-->
+			<DESC descname="SystemMenu">
+				<PARAS>
+					<PARA name="name" value="System"></PARA>
+					<PARA name="mnemonic" value="S"></PARA>
+					<PARA name="accelerator" value="VK_S"></PARA>
+					<PARA name="type" value="JMenu"></PARA>
+					<PARA name="serialnumber" value="600"></PARA>
+				</PARAS>
+                <!--
+				<DESC descname="exportProjDoc">
+					<PARAS>
+						<PARA name="name" value="PROJDOC_Memu_Name"></PARA>
+						<PARA name="command" value="ExportProjDoc"></PARA>
+						<PARA name="type" value="JMenuItem"></PARA>
+						<PARA name="mnemonic" value="X"></PARA>
+						<PARA name="accelerator" value="VK_X"></PARA>
+						<PARA name="Class" value="IViewJMenuItemEx"></PARA>
+						<PARA name="serialnumber" value="5000-2000" />
+					</PARAS>
+				</DESC>-->
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

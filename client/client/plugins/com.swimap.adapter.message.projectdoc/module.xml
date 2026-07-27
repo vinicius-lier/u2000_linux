@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+	<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+-->
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"></PARA>
+				<PARA name="resourceBundleName"
+					value="projdoc/projdocres">
+				</PARA>
+			</PARAS>
+		</DESC>
+
+		<DESC descname="com.swimap.adapter.message.projectdoc">
+			<PARAS>
+				<PARA name="ClassName"
+					value="com.swimap.imap.projdoc.ProjDocModule" />
+				<PARA name="RunInProcess" value="true" />
+				<PARA name="ProcessKey" value="1" />
+				<PARA name="ToBeLoaded" value="false" />
+				<PARA name="IsJavaModule" value="true" />
+				<PARA name="IsOrbModule" value="false" />
+				<PARA name="serialnumber" value="33" />
+				<PARA name="dependModules">
+					<VALUE value="com.swimap.adapter.message.tm" />
+				</PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

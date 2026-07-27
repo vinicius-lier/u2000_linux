@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="columnconfig">
+             <DESC descname="resourcebundle">
+                    <PARAS>
+    			 <PARA name="resourcebundlename" value="Res"></PARA>
+                    </PARAS>
+            </DESC>
+
+            <DESC descname="allcolumn">
+                <PARAS />
+                <DESC descname="0">
+                    <PARAS>
+                        <PARA name="columnname"       value="operation" />
+                        <PARA name="sqlcolumnname"    value="operation" />
+                        <PARA name="visible"           value="true" />
+                        <PARA name="sortable"          value="true" />
+                        <PARA name="width"             value="114" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="1">
+                    <PARAS>
+                        <PARA name="columnname"       value="operationLevel" />
+                        <PARA name="sqlcolumnname"    value="opLevel" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>  
+                <DESC descname="2">
+                    <PARAS>
+                        <PARA name="columnname"       value="userName" />
+                        <PARA name="sqlcolumnname"    value="userName" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="3">
+                    <PARAS>
+                        <PARA name="columnname"       value="userType" />
+                        <PARA name="sqlcolumnname"    value="userType" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="4">
+                    <PARAS>
+                        <PARA name="columnname"       value="beginDate" />
+                        <PARA name="sqlcolumnname"    value="beginDate" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>
+				<!-- Removed the endDate column for V3R2 requirement.-->
+                <!-- <DESC descname="5">
+                    <PARAS>
+                        <PARA name="columnname"       value="endDate" />
+                        <PARA name="sqlcolumnname"    value="endDate" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC> -->
+                <DESC descname="6">
+                    <PARAS>
+                        <PARA name="columnname"       value="category" />
+                        <PARA name="sqlcolumnname"    value="category" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>
+                <DESC descname="7">
+                    <PARAS>
+                        <PARA name="columnname"       value="terminal" />
+                        <PARA name="sqlcolumnname"    value="terminal" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC> 
+                <DESC descname="8">
+                    <PARAS>
+                        <PARA name="columnname"       value="targetObj" />
+                        <PARA name="sqlcolumnname"    value="targetObj" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC> 
+                <DESC descname="9">
+                    <PARAS>
+                        <PARA name="columnname"       value="result" />
+                        <PARA name="sqlcolumnname"    value="result" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="true" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>  
+                <DESC descname="10">
+                    <PARAS>
+                        <PARA name="columnname"       value="addInfo" />
+                        <PARA name="sqlcolumnname"    value="addInfo" />
+                        <PARA name="visible"          value="true" />
+                        <PARA name="sortable"         value="false" />
+                        <PARA name="width"            value="114" />
+                    </PARAS>
+                </DESC>
+           </DESC>
+    </AREADESC>
+</COMMINIDATA>

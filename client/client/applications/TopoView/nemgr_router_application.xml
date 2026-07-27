@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<!-- name: plugin列表 -->
+			<DESC descname="plugins">
+				<PARAS>
+					<PARA name="ip_base"/>
+					<PARA name="nemgr_vmf"/>
+					<PARA name="nemgr_router"/>
+					<PARA name="nemgr_switch"/>
+					<PARA name="com.swimap.adapter.message.tm"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- name: feature列表 -->
+			<DESC descname="features">
+				<PARAS>
+				</PARAS>
+			</DESC>
+			<!-- name: productlib 文件夹列表 -->
+			<DESC descname="productlibs">
+				<PARAS>
+					<PARA name="ip_base"/>
+					<PARA name="cbb"/>
+					<PARA name="nemgr_router"/>
+					<PARA name="nemgr_switch"/>
+				</PARAS>
+			</DESC>
+		</DESC>
+		<DESC descname="ApplicationCallBacks"> 
+            <PARAS>
+            </PARAS>
+        </DESC>
+	</AREADESC>
+</COMMINIDATA>

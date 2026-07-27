@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="RMEPID" name="ID" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="RMEPState" name="Running Status" isVisiable="true" isEditable="true" width="111" isNameModified="false" />
+  <column id="RMEPFailedOkTime" name="The Time When The Test Fails Or Is Successful For The Last Time" isVisiable="true" isEditable="true" width="390" isNameModified="false" />
+  <column id="MacAddress" name="MAC Address" isVisiable="true" isEditable="true" width="100" isNameModified="false" />
+  <column id="RDI" name="RDI" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

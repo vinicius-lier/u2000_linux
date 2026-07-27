@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="startupElementList">
+			<!-- name: plugin列表（主要用于平台、M2000，以及部分U2000对平台的配置） -->
+			<DESC descname="plugins">
+				<PARAS>
+					<PARA name="dc"/>	
+					<!--PARA name="base"/-->
+					<PARA name="com.swimap.color"></PARA>
+					<PARA name="com.swimap.adapter.message.fm"></PARA>
+					<PARA name="com.swimap.adapter.message.sm"></PARA>
+					<PARA name="com.swimap.adapter.message.common"></PARA>
+					<PARA name="com.swimap.extension.registry"></PARA>
+					<PARA name="com.swimap.adapter.message.resource"></PARA>
+					<PARA name="eam"></PARA>
+					<PARA name="topoclient"></PARA>
+					<PARA name="securitymanager"></PARA>
+					<PARA name="alarmclient"></PARA>
+				</PARAS>
+			</DESC>
+			<!-- name: feature列表 （主要用于平台）-->
+			<DESC descname="features">
+                <PARAS>
+					<!--PARA name="dc"/>
+					<PARA name="base"/>
+					<PARA name="unitedmgr"/-->
+				</PARAS>
+			</DESC>
+			<!-- name: productlib 文件夹列表（主要用于U2000） -->
+			<DESC descname="productlibs">
+				<PARAS>
+					<!--PARA name="dc"/>
+					<PARA name="base"/>
+					<PARA name="unitedmgr"/>
+					<PARA name="cbb"/-->	
+				</PARAS>
+			</DESC>
+        </DESC>
+		
+		<!--command executed after application in launched only one is executed with command having high priority and executable having low priority-->         
+        <DESC descname="startupcommands">
+            <PARAS>
+				<!--应用激活时，回调更新主菜单方法,双击应用菜单，默认激活的界面-->
+                <PARA name="command" value="showDeviceInfoPan"/>
+				<PARA name="showBlankInternalFrame" value="false"/>
+            </PARAS>
+        </DESC>
+		
+		<DESC descname="ApplicationCallBacks"> 
+            <PARAS> 
+			<!-- com.swimap.app1.TestCallBack1 must be implementing com.swimap.iview.framework.applicationmanagement.ApplicationCallBack--> 
+            </PARAS> 
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

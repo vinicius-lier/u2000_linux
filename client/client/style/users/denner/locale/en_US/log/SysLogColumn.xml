@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="LOG_LogQueryPanel_LogRecordTable041(BT_N/BT_R/BT_T)">
+		<DESC descname="Risk Level">
+			<PARAS>
+				<PARA name="colName" value="Risk Level"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="165"></PARA>
+				<PARA name="index" value="0"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Source">
+			<PARAS>
+				<PARA name="colName" value="Source"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="165"></PARA>
+				<PARA name="index" value="1"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operation Time">
+			<PARAS>
+				<PARA name="colName" value="Operation Time"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="165"></PARA>
+				<PARA name="index" value="2"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Basic Information">
+			<PARAS>
+				<PARA name="colName" value="Basic Information"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="165"></PARA>
+				<PARA name="index" value="3"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Operation Result">
+			<PARAS>
+				<PARA name="colName" value="Operation Result"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="165"></PARA>
+				<PARA name="index" value="4"></PARA>
+			</PARAS>
+		</DESC>
+		<DESC descname="Details">
+			<PARAS>
+				<PARA name="colName" value="Details"></PARA>
+				<PARA name="state" value="0"></PARA>
+				<PARA name="colWidth" value="400"></PARA>
+				<PARA name="index" value="5"></PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

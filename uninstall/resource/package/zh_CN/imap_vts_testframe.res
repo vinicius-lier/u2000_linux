@@ -1,0 +1,2 @@
+imap_vts_testframe=VTS测试框架
+imap_vts_testframe.InstallInfo=VTS测试框架

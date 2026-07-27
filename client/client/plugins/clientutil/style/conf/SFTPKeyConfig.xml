@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="sftpkey">
+        <DESC descname="sftpkey" >
+            <PARAS>
+                <PARA name="usePublicKeyAuth"   value="false" />
+                <PARA name="keyPath"   value="plugins/clientutil/lib/style/conf/id_rsa" />
+                <PARA name="promptPhrase"   value="false" />
+                <PARA name="encryptedPhrase" value="" />
+                <PARA name="tryPasswordAuthWhenFail" value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

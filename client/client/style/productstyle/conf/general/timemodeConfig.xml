@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="TIME_MODE">
+    	<DESC descname="SHOW_TIME_MODE">
+            <PARAS>
+        	<!--Setting Whether "Time mode" page will be shown in "Preferences" dialog. Show: "true"; Not show: "false" -->
+                <PARA name="ISSHOW"   value="true" />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

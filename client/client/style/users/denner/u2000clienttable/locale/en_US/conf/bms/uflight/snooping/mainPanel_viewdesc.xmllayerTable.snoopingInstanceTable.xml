@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="IPAddress" name="IP Address" isVisiable="true" isEditable="false" width="86" isNameModified="false" />
+  <column id="VlanID" name="VLAN ID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

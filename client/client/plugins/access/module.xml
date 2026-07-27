@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+ -->
+<COMMINIDATA>
+  <AREADESC areaname="modulelist">
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="type"
+              value="ResourceBundle"></PARA>
+        <PARA name="resourceBundleName"
+              value="Res"></PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="BMS_Workbench_Module">
+      <PARAS>
+        <PARA name="ClassName"
+              value="com.huawei.n2000bms.framework.module.BMSWorkbenchModule" />
+        <PARA name="RunInProcess"
+              value="true" />
+        <PARA name="ProcessKey"
+              value="1" />
+        <PARA name="ToBeLoaded"
+              value="true" />
+        <PARA name="IsOrbModule"
+              value="false" />
+        <PARA name="IsJavaModule"
+              value="true" />
+        <PARA name="IsMustLoad"
+              value="false" />
+        <PARA name="ProcID"
+              value="100" />
+        <PARA name="serialnumber"
+              value="11" />
+        <PARA name="dependModules">
+          <VALUE value="WelcomePage" />
+          <VALUE value="com.swimap.adapter.message.sm" />
+        </PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="BMS_Inventory_Module">
+      <PARAS>
+        <PARA name="ClassName"
+              value="com.huawei.n2000bms.inventory.InventoryModule" />
+        <PARA name="RunInProcess"
+              value="true" />
+        <PARA name="ProcessKey"
+              value="1" />
+        <PARA name="ToBeLoaded"
+              value="true" />
+        <PARA name="IsOrbModule"
+              value="false" />
+        <PARA name="IsJavaModule"
+              value="true" />
+        <PARA name="IsMustLoad"
+              value="false" />
+        <PARA name="ProcID"
+              value="100" />
+        <PARA name="serialnumber"
+              value="22" />
+        <PARA name="dependModules">
+          <VALUE value="inventoryModule" />
+          <VALUE value="BMS_Global_Module" />
+        </PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="access"></DESC>
+  </AREADESC>
+</COMMINIDATA>

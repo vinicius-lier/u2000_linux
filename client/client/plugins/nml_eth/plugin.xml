@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="nmleth" name="nmleth" version="1.0" provider-name="nmleth">
+   	<!-- 用于主拓扑(临时视图)切换的监听  -->
+   	<extension point="com.swimap.topo.TopoViewSwitchListener">
+        <TopoViewSwitchListener class="com.huawei.nml.atmcircuit.TNATMCircuitTemporaryTopoMgr" priority="210"/>
+        <TopoViewSwitchListener class="com.huawei.nml.ethcircuit.TNEthCircuitTemporaryTopoMgr" priority="220"/>
+	  </extension>
+</plugin>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+
+<AREADESC areaname="SubnetType">
+  <DESC descname="SubnetType">    
+      <PARAS>
+       		<PARA name="label" value="SubnetType"/>
+      </PARAS>
+  </DESC>
+</AREADESC>
+
+<AREADESC areaname="NodeType">
+   <DESC descname="NodeType">   
+      <PARAS>
+       		<PARA name="label" value="NodeType"/>
+      </PARAS>
+   </DESC>  
+</AREADESC>
+
+<AREADESC areaname="LinkType">
+   <DESC descname="LinkType"> 
+      <PARAS>
+       		<PARA name="label" value="LinkType"/>
+      </PARAS>
+    </DESC>
+</AREADESC>
+
+<AREADESC areaname="AlarmColorState">
+   <DESC descname="AlarmColorState">   
+      <PARAS>
+       		<PARA name="label" value="AlarmColorState"/>
+      </PARAS>     
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="UnClearAlarmState">
+   <DESC descname="UnClearAlarmState">   
+      <PARAS>
+       		<PARA name="label" value="UnClearAlarmState"/>
+      </PARAS>
+  </DESC>     
+</AREADESC>
+
+<AREADESC areaname="UnAcknowledgementAlarmState">
+    <DESC descname="UnAcknowledgementAlarmState">  
+      <PARAS>
+       		<PARA name="label" value="UnAcknowledgementAlarmState"/>
+      </PARAS>
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="RuntimeStateType">
+   <DESC descname="RuntimeStateType">  
+      <PARAS>
+       		<PARA name="label" value="RuntimeStateType"/>
+      </PARAS>
+   <DESC descname="Connected">
+      <PARAS>
+       <PARA name="label" value="Connected"/>
+       <PARA name="color" value="255-0-0"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="UnConnected">
+      <PARAS>
+       <PARA name="label" value="UnConnected"/>
+       <PARA name="color" value="0-0-0"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Normal">
+      <PARAS>
+       <PARA name="label" value="Normal"/>
+       <PARA name="color" value="196-0-0"/>
+      </PARAS>
+   </DESC>
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="OffLink">
+    <DESC descname="OffLink"> 
+    <PARAS>
+       		<PARA name="label" value="OffLink"/>
+      </PARAS>
+    <DESC descname="OffLink">
+        <PARAS>
+       <PARA name="label" value="OffLink"/>
+       <PARA name="icon" value="secstatus/offpage_16.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="ContainerAlarm">
+   <DESC descname="ContainerAlarm">
+   <PARAS>
+       		<PARA name="label" value="ContainerAlarm"/>
+      </PARAS>      
+   </DESC>
+</AREADESC>
+
+<!--AREADESC areaname="DspState">
+   <DESC descname="DspState">
+   <PARAS>
+       		<PARA name="label" value="DspState"/>
+      </PARAS> 
+   </DESC>
+</AREADESC-->
+
+<AREADESC areaname="CopyIcon">
+    <DESC descname="CopyIcon"> 
+    <PARAS>
+       		<PARA name="label" value="CopyIcon"/>
+      </PARAS>
+    <DESC descname="CopyIcon">
+        <PARAS>
+       <PARA name="label" value="CopyIcon"/>
+       <PARA name="icon" value="secstatus/copy.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+<AREADESC areaname="Remark">
+    <DESC descname="Remark"> 
+	    <PARAS>
+	    	<PARA name="label" value="Remark"/>
+	    </PARAS>
+	    <DESC descname="Remark">
+	        <PARAS>
+	        	<PARA name="label" value="Remark"/>
+	       		<PARA name="icon" value="secstatus/remark_16.gif"/>
+	      	</PARAS>
+	    </DESC> 
+	</DESC>
+</AREADESC>
+<!--
+<AREADESC areaname="ProductExtendType">
+    <DESC descname="ProductExtendType">  
+      <PARAS>
+       		<PARA name="label" value="ProductExtendType"/>
+      </PARAS>
+   <DESC descname="ExtedType1">
+      <PARAS>
+       <PARA name="label" value="ExtedType1"/>
+       <PARA name="icon" value="secstatus/Connected.gif"/>
+       <PARA name="color" /> 
+      </PARAS>
+   </DESC>
+   <DESC descname="ExtedType2">
+      <PARAS>
+       <PARA name="label" value="ExtedType2"/>
+       <PARA name="icon" />
+       <PARA name="color" value="222-149-34"/>
+      </PARAS>
+   </DESC>
+   </DESC>
+</AREADESC>
+-->
+</COMMINIDATA>

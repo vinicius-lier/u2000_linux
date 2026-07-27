@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="LegendExtendDefine">
+    <!--DESC descname="Relation">
+		   <DESC descname="RelationItem">
+		      <PARAS>
+		          <PARA name="TypeID" value="256"/>
+		          <PARA name="VersionID" value="2"/>
+              <PARA name="SubType" value="1003:0,1004:0,1005:0,1009:0,16842753:0"/> 
+		      </PARAS>
+		    </DESC>
+		</DESC-->
+		
+		<!--DESC descname="Legend">
+		    <DESC descname="LegendItem">
+		        <PARAS>
+		            <PARA name="TypeID" value="1003"/> 
+		            <PARA name="VersionID" value="0"/>
+		            <PARA name="Name" value="adapterexpand1"/> 
+		            <PARA name="Icon" value="legend/1.gif"/> 
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="LegendItem">
+		        <PARAS>
+		            <PARA name="TypeID" value="1004"/> 
+		            <PARA name="VersionID" value="0"/>
+		            <PARA name="Name" value="adapterexpand2"/>
+		            <PARA name="Icon" value="legend/2.gif"/> 
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="LegendItem">
+		        <PARAS>
+		            <PARA name="TypeID" value="1005"/> 
+		            <PARA name="VersionID" value="0"/>
+		            <PARA name="Name" value="adapterexpand3"/> 
+		            <PARA name="Icon" value="legend/3.gif"/> 
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="LegendItem">
+		        <PARAS>
+		            <PARA name="TypeID" value="1009"/> 
+		            <PARA name="VersionID" value="0"/>
+		            <PARA name="Name" value="1009"/> 
+		            <PARA name="Icon" value="legend/2.gif"/> 
+		        </PARAS>
+		    </DESC>
+		    
+		    <DESC descname="LegendItem">
+		        <PARAS>
+		            <PARA name="TypeID" value="16842753"/> 
+		            <PARA name="VersionID" value="0"/>
+		            <PARA name="Name" value="16842753"/> 
+		            <PARA name="Icon" value="legend/2.gif"/> 
+		        </PARAS>
+		    </DESC>
+		</DESC-->
+</AREADESC>
+
+</COMMINIDATA>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--  edited with XML Spy v4.0 NT beta 2 build Jul 26 2001 (http://www.xmlspy.com) by Tremain (DC)  -->
+<COMMINIDATA>
+	<AREADESC>
+		<!-- define a menuSet
+
+menuSet:
+
+        descname as the menuSet's id, must be unique.
+
+        must have a type para, and the value is "MenuSet"
+
+
+
+JMenu:(super class must be JMenu)
+
+        descname as the menuID.
+
+        must hava a type para, and the value is "JMenu"
+
+
+
+JMenu's sub element
+
+type can be "JMenuItem", "Separator " ," CheckBox","RadioButton"
+
+
+
+ -->
+		<DESC descname="ResourceBundle">
+			<PARAS>
+				<PARA name="type" value="ResourceBundle"/>
+				<PARA name="resourceBundleName" value="Res"/>
+			</PARAS>
+		</DESC>
+		<!-- mainMenu MenuSet type start  -->
+		<DESC descname="mainMenu">
+			<PARAS>
+				<PARA name="name" value="main Menu"/>
+				<PARA name="type" value="MenuSet"/>
+			</PARAS>
+			<!-- define a menu have" name" and "mnemonic" attributes -->     
+      <DESC descname="FileMenu">
+
+        <PARAS>
+
+          <PARA name="name" value="File"></PARA>
+
+          <PARA name="mnemonic" value="F"></PARA>
+
+          <PARA name="accelerator" value="VK_F"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+
+          <PARA name="icon" value=""></PARA>
+          <PARA name="serialnumber" value="100"></PARA>
+
+        </PARAS>
+        
+				<DESC descname="CHANGE_PASSWORD">
+					<PARAS>
+						<PARA name="name" value="CHANGE_PASSWORD"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="authentication:Change password"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="H"/>
+						<PARA name="accelerator" value="VK_H"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="100-600"/>
+					</PARAS>
+				</DESC>        
+				
+				<!--switch login server funcation-->
+				<!--DESC descname="SWITCH_LOGIN_SERVER">
+					<PARAS>
+						<PARA name="name" value="SWITCH_LOGIN_SERVER"/>
+						<PARA name="icon" value=""/>
+						<PARA name="command" value="authentication:SWITCH_LOGIN_SERVER"/>
+						<PARA name="type" value="JMenuItem"/>
+						<PARA name="mnemonic" value="V"/>
+						<PARA name="accelerator" value="VK_V"/>
+						<PARA name="Class" value="IViewJMenuItemEx"/>
+						<PARA name="serialnumber" value="100-620"/>
+					</PARAS>
+				</DESC--> 
+      </DESC>   
+       								
+  <DESC descname="Help">
+
+        <PARAS>
+
+          <PARA name="name" value="Help"></PARA>
+
+          <PARA name="mnemonic" value="H"></PARA>
+
+          <PARA name="type" value="JMenu"></PARA>
+
+          <PARA name="accelerator" value="VK_H"></PARA>
+
+          <PARA name="icon" value=""></PARA>
+          
+          <PARA name="serialnumber" value="900"></PARA>
+
+        </PARAS><!-- define a menuitem -->
+<!--
+        <DESC descname="UpgradeCheck">
+
+          <PARAS>
+
+            <PARA name="name" value="UPGRADE_CHECK"></PARA>
+
+            <PARA name="icon" value=""></PARA>
+
+            <PARA name="command" value="authentication:check upgrade"></PARA>
+
+            <PARA name="type" value="JMenuItem"></PARA>
+
+            <PARA name="mnemonic" value="C"></PARA>
+
+            <PARA name="accelerator" value="VK_C"></PARA>
+
+            <PARA name="Class" value="IViewJMenuItemEx"></PARA>
+            
+            <PARA name="serialnumber" value="900-28"></PARA>
+
+          </PARAS>
+
+        </DESC>
+-->
+      </DESC>
+		</DESC>
+		<!--  mainMenu MenuSet type ended  -->
+	</AREADESC>
+</COMMINIDATA>

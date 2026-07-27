@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>	   		
+		<DESC descname="plugins">
+			<PARAS/>				
+		</DESC>
+				
+		<!-- mini features:-->		
+		<!--
+		<DESC descname="features">
+		    <PARAS>
+			     <PARA name="securitymanager"></PARA>				 
+			</PARAS>	
+		</DESC>
+        -->
+		
+		<!-- mini U2000 productlib subsystem -->
+		
+		<DESC descname="subsystems">
+		    <PARAS>
+			   <PARA name="base"></PARA>
+				 <PARA name="access"></PARA>
+				 <PARA name="unitedmgr"></PARA>
+				 <PARA name="cbb"></PARA>
+				 <PARA name="nemgr_router"></PARA>
+				 <PARA name="nemgr_switch"></PARA>	
+         <PARA name="nemgr_ptn"></PARA>	
+				 <PARA name="nemgr_vmf"></PARA>	
+				 <PARA name="trans_common"></PARA>	
+				 <PARA name="nemgr_trans"></PARA>
+				 <PARA name="nemgr_marine"></PARA>
+				<PARA name="nemgr_v8ptn"></PARA>
+				<PARA name="nemgr_v8trans"></PARA>
+				<PARA name="im_phy"></PARA>
+				<PARA name="secnemgr"></PARA>
+			</PARAS>	
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

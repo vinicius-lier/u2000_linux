@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="type" value="ResourceBundle"/>
+        <PARA name="resourceBundleName" value="Res"></PARA>
+      </PARAS>
+    </DESC>
+    <DESC descname="welcomebuttonsetting">
+      <DESC descname="ITM_Shortcut">
+        <PARAS>
+          <PARA name="name" value="ITM_Shortcut"></PARA>
+          <PARA name="description" value="ITM_Shortcut_Des"></PARA>
+          <PARA name="icon" value="icons/SystemTool.png"></PARA>
+          <PARA name="command" value="Executing ITM command"></PARA>
+          <PARA name="linkseqnumber" value="10"></PARA>
+          <PARA name="category" value="ToolsCategory"></PARA>
+          <PARA name="serialnumber" value="14"></PARA>
+        </PARAS>
+      </DESC>
+    </DESC>
+    <DESC descname="categorysetting">
+		    <DESC descname="ToolsCategory">
+				<PARAS>
+		       <PARA name="linkseqnumber" value="500"></PARA>
+	      </PARAS>
+		    </DESC>
+        </DESC>
+  </AREADESC>
+</COMMINIDATA>

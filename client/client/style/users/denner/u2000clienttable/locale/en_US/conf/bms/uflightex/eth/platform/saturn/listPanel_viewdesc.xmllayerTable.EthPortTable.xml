@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="OprStatus" name="Status" isVisiable="true" isEditable="false" width="105" isNameModified="false" />
+  <column id="Name" name="Name" isVisiable="true" isEditable="true" width="246" isNameModified="false" />
+  <column id="PortType" name="Port Type" isVisiable="true" isEditable="true" width="137" isNameModified="false" />
+  <column id="UserLabel" name="Alias" isVisiable="true" isEditable="true" width="247" isNameModified="false" />
+  <column id="EthDuplex" name="Working Mode" isVisiable="true" isEditable="true" width="134" isNameModified="false" />
+  <column id="PortSpeed" name="Port Rate (Mbit/s)" isVisiable="true" isEditable="true" width="150" isNameModified="false" />
+  <column id="EthMdi" name="Type of Connected Cable" isVisiable="true" isEditable="true" width="194" isNameModified="false" />
+  <column id="DefaultVlanID" name="Default VLAN ID (1-4093)" isVisiable="true" isEditable="true" width="200" isNameModified="false" />
+</table>
+

@@ -1,0 +1,78 @@
+<servers>
+	
+	<Windows>
+		<item>
+			<maxmemory>8196</maxmemory>
+			<minmemory></minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>false</isdiskarray>
+			<srcpath>install/etc/dbsize/small</srcpath>
+		</item>
+		<item>
+			<maxmemory></maxmemory>
+			<minmemory>8000</minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>false</isdiskarray>
+			<srcpath>install/etc/dbsize/middle</srcpath>
+		</item>
+		
+	</Windows>
+	
+	<SunOS>
+		<item>
+		  <maxmemory>4096</maxmemory>
+			<minmemory></minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>false</isdiskarray>
+			<srcpath>install/etc/dbsize/mini</srcpath>
+		</item>
+		<item>
+		  <maxmemory>16384</maxmemory>
+			<minmemory></minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>false</isdiskarray>
+			<srcpath>install/etc/dbsize/small</srcpath>
+		</item>
+		<item>
+			<maxmemory>32768</maxmemory>
+			<minmemory></minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>false</isdiskarray>
+			<srcpath>install/etc/dbsize/middle</srcpath>
+		</item>
+		<item>
+			<maxmemory></maxmemory>
+			<minmemory>32000</minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>true</isdiskarray>
+			<srcpath>install/etc/dbsize/huge</srcpath>
+		</item>
+	</SunOS>
+	
+	<Linux>
+		<item>
+			<maxmemory></maxmemory>
+			<minmemory></minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>false</isdiskarray>
+			<srcpath>install/etc/dbsize/small</srcpath>
+		</item>
+		<item>
+			<maxmemory></maxmemory>
+			<minmemory></minmemory>
+			<maxtotaldisk></maxtotaldisk>
+			<mintotaldisk></mintotaldisk>
+			<isdiskarray>true</isdiskarray>
+			<srcpath>install/etc/dbsize/huge</srcpath>
+		</item>
+	</Linux>
+	
+</servers>	
+	

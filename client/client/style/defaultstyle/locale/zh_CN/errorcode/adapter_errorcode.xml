@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="adapter">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="268435456"   value="适配层未知错误。"/>            
+                <PARA name="268435457"   value="后台忙或设备正在进行其他操作，暂时无法响应，请检查后重试。"/>                      
+                <PARA name="268435458"   value="未找到消息适配器。"/>            
+                <PARA name="268435459"   value="未找到源消息。"/>                
+                <PARA name="268435460"   value="未找到宿消息。"/>                
+                <PARA name="268435461"   value="连接中断。"/>                  
+                <PARA name="268435462"   value="读数据错误。"/>                
+                <PARA name="268435463"   value="写数据错误。"/>                
+                <PARA name="268435464"   value="包的协议错误。"/>              
+                <PARA name="268435465"   value="包上下文关系错误。"/>          
+                <PARA name="268435466"   value="没有合适的处理者。"/>          
+                <PARA name="268435467"   value="输入或输出没有登记者。"/>      
+                <PARA name="268435468"   value="内存不足。"/>                  
+                <PARA name="268435469"   value="应用程序模块没有登记源消息。"/>
+                <PARA name="268435470"   value="用户取消操作。"/>              
+                <PARA name="268435471"   value="注册IO处理器出错。"/>          
+                <PARA name="268435472"   value="找不到通信端口。"/>            
+                <PARA name="268435473"   value="消息类型错误。"/>              
+                <PARA name="268435474"   value="协议适配：参数错误。"/>        
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

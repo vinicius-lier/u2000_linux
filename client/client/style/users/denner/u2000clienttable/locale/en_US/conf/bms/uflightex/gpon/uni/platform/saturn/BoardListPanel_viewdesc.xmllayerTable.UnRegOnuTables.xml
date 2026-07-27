@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="OnuSn" name="SN" isVisiable="true" isEditable="false" width="290" isNameModified="false" />
+  <column id="ConflictedName" name="ONU with Conflict" isVisiable="true" isEditable="true" width="283" isNameModified="false" />
+  <column id="RegResult" name="Cause of Registration Failure" isVisiable="true" isEditable="true" width="227" isNameModified="false" />
+  <column id="RegTime" name="Registration Time" isVisiable="true" isEditable="true" width="155" isNameModified="false" />
+  <column id="Password" name="Password" isVisiable="true" isEditable="true" width="106" isNameModified="false" />
+  <column id="LOID" name="LOID" isVisiable="true" isEditable="true" width="95" isNameModified="false" />
+  <column id="CheckCode" name="Checkcode" isVisiable="true" isEditable="true" width="115" isNameModified="false" />
+  <column id="VendorID" name="Vendor ID" isVisiable="true" isEditable="true" width="107" isNameModified="false" />
+  <column id="EquipmentID" name="Terminal Type" isVisiable="true" isEditable="true" width="132" isNameModified="false" />
+  <column id="MainSoftVersion" name="Software Version" isVisiable="true" isEditable="true" width="152" isNameModified="false" />
+  <column id="BroadBandType" name="Rate Type" isVisiable="true" isEditable="true" width="118" isNameModified="false" />
+</table>
+

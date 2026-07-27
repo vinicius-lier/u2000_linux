@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/U2000R5Lib"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/U2000R5Plugins"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/U2000R5Product"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/U2000R5Third"/>
+	<classpathentry kind="lib" path="E:/VersionTest/U2000V1R5/client/startuploader.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

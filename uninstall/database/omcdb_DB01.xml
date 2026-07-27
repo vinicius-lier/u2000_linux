@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>omcdb</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>omcdbdata</devicename>
+	<filename>omcdb_data.mdf</filename>
+	<dbsize>300</dbsize>
+	<dbmaxsize>500</dbmaxsize>
+	<dbthreshold>50</dbthreshold>
+	<dbfilegrowth>100</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>omcdblog</logdevicename>
+	<logfilename>omcdb_log.ldf</logfilename>
+	<logsize>200</logsize>
+	<logmaxsize>200</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINI SYSTEM "commini.dtd">
+<COMMINI>
+    <AREADESC>
+        <DESC descname="FavouritePanelSettings">
+            <PARAS>
+			   
+				<!-- not changle by user-->
+				<PARA name="fontsize" value="12"/>
+				
+		    </PARAS>
+        </DESC>
+		<DESC descname="FloatingPanelSettings">
+            <PARAS>
+			    <!--Panel color , it should be RGB value -->
+                <PARA name="panelColor" value="239,239,239" />
+				<!-- not changle by user-->
+				<PARA name="width" value="1040"/>
+				<PARA name="height" value="650"/>
+	    <!-- flag to enable default open window feature,  by default false -->
+				<PARA name ="isDefaultOpenWindow"  value ="false"/>
+		    </PARAS>
+        </DESC>
+        <DESC descname="AppPopupMenuFontSetting">
+        	<PARAS>
+        	<PARA name="level1" value ="14"/>
+        <PARA name="level2" value ="12"/>
+        <PARA name="level3" value ="12"/>
+        <PARA name ="color" value ="0,0,255"/>
+        	</PARAS>
+        	</DESC>
+        				
+    </AREADESC>
+</COMMINI>

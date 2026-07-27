@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="SubPortListID" name="Port List ID" isVisiable="true" isEditable="false" width="180" isNameModified="false" />
+  <column id="SubPortInfo" name="SubPort Info" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+</table>
+

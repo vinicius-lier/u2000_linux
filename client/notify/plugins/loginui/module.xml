@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+	<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+-->
+<COMMINIDATA>
+	<AREADESC areaname="modulelist">
+		<DESC descname="loginui">
+			<PARAS>
+                <PARA name="SpecificLoadingStates">
+                    <VALUE value="1"/>
+                </PARA>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>
+

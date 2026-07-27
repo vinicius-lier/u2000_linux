@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="startupElementList">
+						<PARAS>			
+						</PARAS>
+		        <DESC descname="plugins">
+		          <PARAS>
+		          </PARAS>
+		        </DESC>
+						<DESC descname="features">
+								<PARAS>
+									<PARA name="com.swimap.adapter.message.gnldev"/>
+									<PARA name="com.swimap.adapter.message.resource"/>
+									<PARA name="com.swimap.adapter.message.tm"/>
+									<PARA name="eam"/>
+									<PARA name="topo"/>
+								</PARAS>
+						</DESC>
+						<DESC descname="productlibs">
+	            <PARAS>
+	            </PARAS>
+             </DESC>				
+						
+         </DESC>
+         <DESC descname="startupcommands">
+					<PARAS>
+						<PARA name="command" value="ShowMyTopoFrame"/>
+						<PARA name="showBlankInternalFrame" value="false"></PARA>
+					</PARAS>
+				 </DESC>
+		 	   <DESC descname="ApplicationCallBacks">
+					<PARAS>
+						<PARA name="com.swimap.topo.client.app.TopoAppCallBack"></PARA>
+					</PARAS>
+				 </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC areaname="vAccessRole">
+		<DESC descname="vAccessRole">
+			<PARAS>
+				<PARA name="label" value="vAccessRole"/>
+			</PARAS>
+			<DESC descname="vAccess_Master">
+				<PARAS>
+					<PARA name="label" value="vAccess_Master"/>
+					<PARA name="icon" value="secstatus/vAccessRole_1.gif"/>
+				</PARAS>
+			</DESC>
+			<DESC descname="vAccess_Ap">
+				<PARAS>
+					<PARA name="label" value="vAccess_Ap"/>
+					<PARA name="icon" value="secstatus/vAccessRole_2.gif"/>
+				</PARAS>
+			</DESC>
+			 <DESC descname="NE_STATUS_VSn">
+        <PARAS>
+       			<PARA name="label" value="NE_STATUS_VSn"/>
+       			<PARA name="icon" value="secstatus/VS.gif"/>
+       	</PARAS>
+    </DESC>
+		</DESC>
+		 
+	</AREADESC>
+</COMMINIDATA>

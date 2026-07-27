@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Sn" name="SN" isVisiable="true" isEditable="false" width="230" isNameModified="false" />
+  <column id="Password" name="Password" isVisiable="true" isEditable="true" width="82" isNameModified="false" />
+  <column id="LOID" name="LOID" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="CheckCode" name="Checkcode" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="VendorID" name="Vendor ID" isVisiable="true" isEditable="true" width="80" isNameModified="false" />
+  <column id="EquipmentID" name="Terminal Type" isVisiable="true" isEditable="true" width="104" isNameModified="false" />
+  <column id="MainSoftVersion" name="Software Version" isVisiable="true" isEditable="true" width="119" isNameModified="false" />
+  <column id="XponOntIsolationState" name="Isolation Status" isVisiable="true" isEditable="true" width="111" isNameModified="false" />
+  <column id="BroadBandType" name="Rate Type" isVisiable="true" isEditable="true" width="81" isNameModified="false" />
+</table>
+

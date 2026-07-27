@@ -1,0 +1,624 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<productConfig name="productConfig">
+    <param name="srcRoot">file/client</param>
+    <param name="targetRoot">client/plugins/U2000_Solution/style/productstyle/</param>
+    <group name="SMCLT">
+        <item name="sm_upgrade-supportComponent">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/upgrade/supportComponent</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="sm_doubleserver-isSupportSecondaryServer">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/loginui/conf/loginui/loginuiconfig.xml</param>
+            <param name="nodePath">/DoubleServerConfig/isSupportSecondaryServer</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="sm_login-ShowLoginInfo">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/login/ShowLoginInfo</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="sm_clientupdate-ClientUpgradeClassName">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/clientupgrade_mutex_paras/ClientUpgradeClassName</param>
+            <param name="attribute0">com.swimap.update.ui.UpdateWizardFrame</param>
+        </item>
+        <item name="sm_clientupdate-ClientMainFrameClassName">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/clientupgrade_mutex_paras/ClientMainFrameClassName</param>
+            <param name="attribute0">com.swimap.iview.framework.mainframe.MDIFrame</param>
+        </item>
+        <item name="sm_client-ShowOSTime">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/ShowTime/ShowOSTime</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="sm_client-ShowOperationMonitor">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml</param>
+            <param name="nodePath">/config/ShowOperationMonitor</param>
+            <param name="attribute0">false</param>
+        </item>
+        <item name="sm_client-isShowAllDomain">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml</param>
+            <param name="nodePath">/GrantAccess/isShowAllDomain</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="sm_client-requiredPwdWhenSwitchServer">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/login/requiredPwdWhenSwitchServer</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="sm_client-ShowState">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/ShowIpServernameParam/ShowState</param>
+            <param name="attribute0">1</param>
+        </item>
+        <item name="sm_client-PrefixOrPostfix">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/ShowIpParam/PrefixOrPostfix</param>
+            <param name="attribute0">2</param>
+        </item>
+        <item name="sm_client-ALLOW_LOGIN_FAILED_TIMES">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/ALLOW_LOGIN_FAILED_SETTING/ALLOW_LOGIN_FAILED_TIMES</param>
+            <param name="attribute0">3</param>
+        </item>
+        <item name="sm_client-ALLOW_UNLOCK_FAILED_TIMES">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/conf/authentication/securityconfig.xml</param>
+            <param name="nodePath">/ALLOW_UNLOCK_FAILED_SETTING/ALLOW_UNLOCK_FAILED_TIMES</param>
+            <param name="attribute0">3</param>
+        </item>
+        <item name="sm_client-authentication-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/authentication/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="sm_client-lm-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/lm/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="sm_client-OperationMonitorCount">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml</param>
+            <param name="nodePath">/config/OperationMonitorCount</param>
+            <param name="attribute0">5000</param>
+        </item>
+        <item name="sm_client-OperationMonitorDeleteCount">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/securitymanager/conf/securityconfig.xml</param>
+            <param name="nodePath">/config/OperationMonitorDeleteCount</param>
+            <param name="attribute0">100</param>
+        </item>
+        <item name="sm_client-securitymanager-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/securitymanager/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="sm_client-log-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/log/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="sm_client-nelicense-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/nelicense/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+    </group>
+    <group name="SFCLT">
+        <item name="common_log4j-properties">
+            <param name="filePath">client/log4j.properties</param>
+            <param name="nodePath"></param>
+            <param name="log4j.logger.org.apache.commons">error</param>
+            <param name="log4j.appender.file.File">var/log/DebugTrace.txt</param>
+            <param name="log4j.rootLogger">debug,file</param>
+        </item>
+        <item name="common_oss-version">
+            <param name="filePath">client/style/productstyle/locale/en_US/mainfrm/Res.properties
+client/style/productstyle/locale/zh_CN/mainfrm/Res.properties</param>
+            <param name="nodePath"></param>
+            <param name="AboutDialog_Version_Informatoin">U2000 200R013C00SPC210</param>
+            <param name="VersionID">U2000 200R013C00SPC210</param>
+        </item>
+        <item name="common_about-page">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/abouttabpage.xml</param>
+            <param name="nodePath"></param>
+            <param name="page1">delete</param>
+            <param name="page2">delete</param>
+        </item>
+        <item name="common_startup-global-sh">
+            <param name="filePath">startup_all_global.sh
+</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_startup-global-bat">
+            <param name="filePath">
+startup_all_global.bat</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_startup-sysmonitor-sh">
+            <param name="filePath">startup_sysmonitor_global.sh</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_startup-sysmonitor-bat">
+            <param name="filePath">startup_sysmonitor_global.bat</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-sysmonitor">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/sysmonitor/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-clientutil">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/clientutil/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-ftpconf">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.ftpconf/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-iSStar">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.iscript.app/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-itm">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.itm/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-transmitlog">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/transmitlog/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-porttrunking">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/porttrunking/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-menu-search">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/search/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_oss-feature-sysmonitor">
+            <param name="filePath">client/features/sysmonitor/feature.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="common_welcomepage-setting">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/welcomepagesetting.xml</param>
+            <param name="nodePath">welcomepage/pagesetting/</param>
+            <param name="enableMenuCopy">true</param>
+            <param name="isWorkBenchCloseable">false</param>
+        </item>
+        <item name="common_debug-configure">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/debugtracerfileconf.xml</param>
+            <param name="nodePath">/debugTracerFileDelete/</param>
+            <param name="isDTFileToBeRemoved">false</param>
+            <param name="maxSize">500</param>
+            <param name="totalNoOfFileToRemove">20</param>
+            <param name="totalNoOfFileToZip">20</param>
+            <param name="maxNoOfZipFiles">2</param>
+            <param name="totalNoOfZipFileToRemove">1</param>
+        </item>
+        <item name="common_display-loadStyle">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/displaystylesettings.xml</param>
+            <param name="nodePath">DisplayStyle/DisplayStyleSetting/loadStyle</param>
+            <param name="attribute0">traditional</param>
+        </item>
+        <item name="common_terminal-idleTimeSetting">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/terminalmanager.xml</param>
+            <param name="nodePath">/idleTimeSetting/idleTime</param>
+            <param name="attribute0">10</param>
+        </item>
+        <item name="common_uiskin-current_skin_id">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/UISkin.xml</param>
+            <param name="nodePath">skin/skin/enable</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="common_dailog-SHOW_COMPONENT_TAB">
+            <param name="filePath">client/style/productstyle/conf/security/SecurityConfig.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="common_item-UpgradeSettingModul">
+            <param name="filePath">client/style/productstyle/conf/mainfrm/clientsettingslist.xml</param>
+            <param name="nodePath">/clientSettingsList/UpgradeSettingModule/</param>
+            <param name="clientSettingClassId">com.swimap.sm.client.base.upgradecheck.UpgradeSettingModule</param>
+            <param name="moduleId">UpgradeSettingModule</param>
+            <param name="sequenceId">6000</param>
+        </item>
+        <item name="common_sysmonitor-startOrStopProcessTimeOutSecond">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/sysmonitor/conf/sys.xml</param>
+            <param name="nodePath">/SystemMonitorConfigItems/startOrStopProcessTimeOutSecond</param>
+            <param name="attribute0">600</param>
+        </item>
+        <item name="common_sysmonitor-showDescriptionInDBPanel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/sysmonitor/conf/sys.xml</param>
+            <param name="nodePath">/SystemMonitorConfigItems/showDescriptionInDBPanel</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="common_sysmonitor-isShowSubSystemColumn">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/sysmonitor/conf/sys.xml</param>
+            <param name="nodePath">/SystemMonitorConfigItems/isShowSubSystemColumn</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="common_sysmonitor-startOrStopProcessTimeOutSecond-alone">
+            <param name="filePath">client/plugins/sysmonitor/style/productstyle/sysmonitor/conf/sys.xml</param>
+            <param name="nodePath">/SystemMonitorConfigItems/startOrStopProcessTimeOutSecond</param>
+            <param name="attribute0">600</param>
+        </item>
+        <item name="common_sysmonitor-showDescriptionInDBPanel-alone">
+            <param name="filePath">client/plugins/sysmonitor/style/productstyle/sysmonitor/conf/sys.xml</param>
+            <param name="nodePath">/SystemMonitorConfigItems/showDescriptionInDBPanel</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="common_sysmonitor-isShowSubSystemColumn-alone">
+            <param name="filePath">client/plugins/sysmonitor/style/productstyle/sysmonitor/conf/sys.xml</param>
+            <param name="nodePath">/SystemMonitorConfigItems/isShowSubSystemColumn</param>
+            <param name="attribute0">true</param>
+        </item>
+    </group>
+    <group name="FMCLT">
+        <item name="fm_experience-isShowReasonAndAdvicePanel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/Experience/isShowReasonAndAdvicePanel</param>
+            <param name="attribute0">false</param>
+        </item>
+        <item name="fm_region-IsEnableRegion">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/IsEnableRegion/value</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="fm_Correlative-isDisplayCorrelativeAlarm">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/Correlative/isDisplayCorrelativeAlarm</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="fm_alarm-popupmenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/popupmenu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientbase-IfmsAlarmQueryRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/locale/zh_CN/IfmsAlarmQueryRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientbase-IfmsRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/locale/zh_CN/IfmsRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientextgui-menu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientextgui-toolbar">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/integrate/complex/toolbar.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientextgui-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientextgui-WelcomeButtonRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/locale/zh_CN/WelcomeButtonRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientextgui-IfmsRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientextgui/locale/zh_CN/IfmsRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientgui-WelcomeButtonRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientgui/locale/zh_CN/WelcomeButtonRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientgui-IfmsRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientgui/locale/zh_CN/IfmsRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientgui-menu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientgui-toolbar">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/complex/toolbar.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientgui-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmclientgui-appmenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientgui/integrate/app/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_displayModeSettins-displayMode">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/defaultuser.xml</param>
+            <param name="nodePath">AlarmDisplayModeSettins/AlarmDisplayMode/displayMode</param>
+            <param name="attribute0">1</param>
+        </item>
+        <item name="fm_displayModeSettins-AlarmDisplayMode">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/defaultuser.xml</param>
+            <param name="nodePath">AlarmDisplayModeSettins/AlarmDisplayMode/</param>
+            <param name="unAckAndUnclear">227-231-232</param>
+            <param name="ackAndUnclear">227-231-232</param>
+            <param name="unAckAndclear">193-249-203</param>
+            <param name="ackAndclear">193-249-203</param>
+        </item>
+        <item name="fm_alarmLampSettins-EventLamp">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/EventLamp/visible</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="fm_alarmLampSettins-AutoSynchronize">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/OptionPanel/AutoSynchronize/visible</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="fm_alarmLampSettins-IsDispUnclearSumOnLamp">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/IsDispUnclearSumOnLamp/value</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="fm_alarmLampSettinst-AlarmLampTipsMode">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/defaultuser.xml</param>
+            <param name="nodePath">AlarmLampSetting/AlarmLampTipsMode/displayMode</param>
+            <param name="attribute0">1</param>
+        </item>
+        <item name="fm_alrm-Detail_Index_In_Group">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/alarmcolumn.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alrm-popupmenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/popupmenu.xm</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="fm_alarmLampSettinst-DumpPath">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/loadedcell.xml</param>
+            <param name="nodePath">ConfigData/DumpPath/editable</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="fm_statItemconfig-AllStatItems">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/alarmclientbase/conf/alarmstatistic.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+    </group>
+    <group name="TMCLT">
+        <item name="topo_eam-iviewMenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_eam-iviewAppMenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/integrate/app/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_eam-iviewMenuRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/locale/zh_CN/Res.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_eam-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_eam-welcomebutton-Res">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/locale/zh_CN/welcomebuttonres.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_nemonitor-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/nemonitor/integrate/complex/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_topoclient-iviewAppMenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/integrate/app/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_topoclient-iviewMenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_topoclient-TopoMenuRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/locale/zh_CN/TopoMenuRes.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_tmasn-TopoConfig">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.tm/conf/topo/TopoConfig.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_tmasn-Res">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.tm/locale/zh_CN/topo/topores.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_topoclient-welcomebuttonRes">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/locale/zh_CN/welcomebuttonres.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_topoclient-welcomebutton">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/integrate/complex/menu.xml/welcomebutton.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_projdoc_iviewMenu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.projectdoc/integrate/complex/menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_projdoc_Res">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/com.swimap.adapter.message.projectdoc/locale/zh_CN/projdoc/projdocres.properties</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_object-TOOLTIP_INITIAL_DELAY_TIME">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">topo/topo/TOOLTIP_INITIAL_DELAY_TIME</param>
+            <param name="attribute0">200</param>
+        </item>
+        <item name="topo_object-support_customview">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">topo/topo/support_customview</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="topo_object-showStatistic">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">topo/topo/showStatistic</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="topo_object-isConvergeFilterStatus">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">topo/topo/isConvergeFilterStatus</param>
+            <param name="attribute0">false</param>
+        </item>
+        <item name="topo_object-supportAlias">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">topo/topo/supportAlias</param>
+            <param name="attribute0">1</param>
+        </item>
+        <item name="topo_object-view_min_scale">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">viewzZoomScaleParam/viewzZoomScaleParam/</param>
+            <param name="view_min_scale">0.25</param>
+        </item>
+        <item name="topo_view-view_min_label_scale">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">viewzZoomScaleParam/viewzZoomScaleParam/</param>
+            <param name="view_min_label_scale">1</param>
+        </item>
+        <item name="topo_statistic-SHOW_DEVICE_PANEL">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topoSet.xml</param>
+            <param name="nodePath">STATISTIC_INFO/STATISTIC_INFO/SHOW_DEVICE_PANEL</param>
+            <param name="attribute0">true</param>
+        </item>
+        <item name="topo_toolbar-modify_view">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topotoolbar.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-submap">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/submap_bg_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-SubmapPopupMenu_panel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/SubmapPopupMenu_panel_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-SubmapPopupMenu_view">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/SubmapPopupMenu_view_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-TwoObjectPopupMenu_panel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/TwoObjectPopupMenu_panel_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-TwoObjectPopupMenu_view">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/TwoObjectPopupMenu_view_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-NodePopupMenu_panel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/NodePopupMenu_panel_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-NodePopupMenu_view">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/NodePopupMenu_view_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-ContainerPopupMenu_panel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ContainerPopupMenu_panel_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-ContainerPopupMenu_view">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ContainerPopupMenu_view_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-ObjectCommonPopupMenu_panel">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ObjectCommonPopupMenu_panel_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-ObjectCommonPopupMenu_view">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/ObjectCommonPopupMenu_view_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-PhysicalLink_menu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/PhysicalLink_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_iview-DisplayLink_menu">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/popupmenu/DisplayLink_menu.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_alarmlevel-color">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/resource/conf/commonresource.xml</param>
+            <param name="nodePath"></param>
+            <param name="attribute0">file</param>
+        </item>
+        <item name="topo_eam-NAME_LENGTH">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/conf/eam-config.xml</param>
+            <param name="nodePath">common/common/NAME_LENGTH</param>
+            <param name="attribute0">128</param>
+        </item>
+        <item name="topo_checkbox-DISPLAY_JOIN_SEARCH_CHECKBOX">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/eam/conf/eam-config.xml</param>
+            <param name="nodePath">DISPLAY_JOIN_SEARCH_CHECKBOX/DISPLAY_JOIN_SEARCH_CHECKBOX/</param>
+            <param name="DISPLAY_JOIN_SEARCH_CHECKBOX">false</param>
+        </item>
+        <item name="fm_topo-isSupportShowAlarmIcon">
+            <param name="filePath">client/plugins/U2000_Solution/style/productstyle/topoclient/conf/topo-config.xml</param>
+            <param name="nodePath">topo/topo/isSupportShowAlarmIcon</param>
+            <param name="attribute0">true</param>
+        </item>
+    </group>
+    <group name="FMCLT">
+        <item name="common_oss-ShowiSStarServerTaskPanel">
+            <param name="filePath">script/config/productconfig/gui/online/gui_config.properties</param>
+            <param name="nodePath"></param>
+            <param name="ShowiSStarServerTaskPanel">false</param>
+        </item>
+    </group>
+</productConfig>
+

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="startupElementList">
+			<PARAS>
+			</PARAS>				
+       
+        <DESC descname="plugins">
+          <PARAS>
+          	<PARA name="com.swimap.color"></PARA>
+          	<PARA name="eam"></PARA>
+          	<PARA name="topoclient"></PARA>
+          	<PARA name="topobase"></PARA>
+				  	<PARA name="com.swimap.adapter.message.common"></PARA>
+				  	<PARA name="com.swimap.adapter.message.sm"></PARA>
+				  	<PARA name="syslog"></PARA>
+          </PARAS>
+        </DESC>
+       
+        <DESC descname="features">
+            <PARAS>
+           		
+            </PARAS>
+        </DESC>
+       
+        <DESC descname="productlibs">
+            <PARAS>
+             
+            </PARAS>
+        </DESC>
+
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

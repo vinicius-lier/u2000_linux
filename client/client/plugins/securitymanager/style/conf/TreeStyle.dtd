@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!ELEMENT background EMPTY >
+<!ATTLIST background b CDATA #REQUIRED >
+<!ATTLIST background g CDATA #REQUIRED >
+<!ATTLIST background r CDATA #REQUIRED >
+
+<!ELEMENT backgroundSelectionColor EMPTY >
+<!ATTLIST backgroundSelectionColor b CDATA #REQUIRED >
+<!ATTLIST backgroundSelectionColor g CDATA #REQUIRED >
+<!ATTLIST backgroundSelectionColor r CDATA #REQUIRED >
+
+<!ELEMENT borderSelectionColor EMPTY >
+<!ATTLIST borderSelectionColor b CDATA #REQUIRED >
+<!ATTLIST borderSelectionColor g CDATA #REQUIRED >
+<!ATTLIST borderSelectionColor r CDATA #REQUIRED >
+
+<!ELEMENT TreeStyle ( background ) >
+<!ATTLIST TreeStyle showsRootHandles NMTOKEN #REQUIRED >
+<!ATTLIST TreeStyle visibleRowCount NMTOKEN #REQUIRED >
+<!ATTLIST TreeStyle editable NMTOKEN #REQUIRED >
+<!ATTLIST TreeStyle rootVisible NMTOKEN #REQUIRED >
+<!ATTLIST TreeStyle rowHeight NMTOKEN #REQUIRED >
+
+<!ELEMENT CellRendererStyle ( textSelectionColor, textNonSelectionColor, backgroundSelectionColor, backgroundNonSelectionColor, borderSelectionColor, background ) >
+<!ATTLIST CellRendererStyle openIcon CDATA #REQUIRED >
+<!ATTLIST CellRendererStyle closedIcon CDATA #REQUIRED >
+<!ATTLIST CellRendererStyle leafIcon CDATA #REQUIRED >
+<!ATTLIST CellRendererStyle fontName CDATA #REQUIRED >
+<!ATTLIST CellRendererStyle fontSize CDATA #REQUIRED >
+<!ATTLIST CellRendererStyle fontStyle CDATA #REQUIRED >
+
+<!ELEMENT TreeInfo ( TreeStyle, CellRendererStyle, CellEditorStyle, SelectionModelStyle ) >
+
+<!ELEMENT textSelectionColor EMPTY >
+<!ATTLIST textSelectionColor b CDATA #REQUIRED >
+<!ATTLIST textSelectionColor g CDATA #REQUIRED >
+<!ATTLIST textSelectionColor r CDATA #REQUIRED >
+
+<!ELEMENT SelectionModelStyle EMPTY >
+<!ATTLIST SelectionModelStyle selectionMode NMTOKEN #REQUIRED >
+
+<!ELEMENT textNonSelectionColor EMPTY >
+<!ATTLIST textNonSelectionColor b CDATA #REQUIRED >
+<!ATTLIST textNonSelectionColor g CDATA #REQUIRED >
+<!ATTLIST textNonSelectionColor r CDATA #REQUIRED >
+
+<!ELEMENT CellEditorStyle ( borderSelectionColor ) >
+<!ATTLIST CellEditorStyle fontName CDATA #REQUIRED >
+<!ATTLIST CellEditorStyle fontSize CDATA #REQUIRED >
+<!ATTLIST CellEditorStyle fontStyle CDATA #REQUIRED >
+
+<!ELEMENT backgroundNonSelectionColor EMPTY >
+<!ATTLIST backgroundNonSelectionColor b CDATA #REQUIRED >
+<!ATTLIST backgroundNonSelectionColor g CDATA #REQUIRED >
+<!ATTLIST backgroundNonSelectionColor r CDATA #REQUIRED >
+

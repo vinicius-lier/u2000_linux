@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<!--
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd" >
+ -->
+<COMMINIDATA>
+    <AREADESC areaname="modulelist">
+          <DESC descname="ResourceBundle">
+               <PARAS>
+                   <PARA name="type" value="ResourceBundle"></PARA>
+                   <PARA name="resourceBundleName" value="Res"></PARA>
+               </PARAS>
+          </DESC>
+          <DESC descname="clientutilAdapter">
+               <PARAS>
+                   <PARA name="ClassName" value="com.swimap.clientutil.adapter.ClientutilAdapterModule"/>
+                   <PARA name="RunInProcess" value="true"/>
+                   <PARA name="ProcessKey" value="2"/>
+                   <PARA name="ToBeLoaded" value="true"/>
+                   <PARA name="IsJavaModule" value="true"/>
+                   <PARA name="IsOrbModule" value="true" />
+                   <PARA name="serialnumber" value="82"/>
+                   <PARA name="dependModules">
+                      <VALUE value="em"/>
+                      <VALUE value="ClientUtilModule"/>
+                   </PARA>
+               </PARAS>
+         </DESC>
+    </AREADESC>
+</COMMINIDATA>
+

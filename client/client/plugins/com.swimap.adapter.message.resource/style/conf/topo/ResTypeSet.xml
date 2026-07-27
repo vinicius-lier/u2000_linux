@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="RES_MAINTYPE_SORT">
+        <DESC descname="RES_MAINTYPE">
+            <PARAS>
+                <PARA name="resMainType"  value="1,3,8,13,16,17"/>
+            </PARAS>
+        </DESC>
+        <DESC descname="RES_MAINTYPE_SORT">
+            <PARAS>
+                <PARA name="1"  value="0"/>
+                <PARA name="16"  value="0"/>
+                <PARA name="17"  value="0"/>
+                <PARA name="3"  value="1"/>
+                <PARA name="8"  value="1"/>
+                <PARA name="13"  value="1"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+    <AREADESC areaname="C_TYPE_PARA">
+        <DESC descname="C_TYPE_PARA">
+            <PARAS>
+                <PARA name="C_TYPE_NUM"  value="20000"/>
+                <PARA name="C_TYPE_TIME"  value="180000"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+	<AREADESC>
+		<DESC descname="rfc1213system">
+			<PARAS />
+			<DESC descname="rfc1213system">
+
+				<PARAS>
+					<PARA name="HelpID" value="rfc1213system.helpid" />
+					<PARA name="Query" value="0" />
+				</PARAS>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="0" />
+						<PARA name="AttribName" value="sysDescr" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="LengthMax" value="255" />
+					</PARAS>
+				</DESC>
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="1" />
+						<PARA name="AttribName" value="sysObjectID" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="LengthMax" value="255" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="2" />
+						<PARA name="AttribName" value="sysUpTime" />
+						<PARA name="DataType" value="DateTime" />
+						<PARA name="DateTimeType" value="DateAndTime" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="3" />
+						<PARA name="AttribName" value="sysContact" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="LengthMax" value="255" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="4" />
+						<PARA name="AttribName" value="sysName" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="LengthMax" value="255" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="5" />
+						<PARA name="AttribName" value="sysLocation" />
+						<PARA name="DataType" value="String" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0" />
+						<PARA name="LengthMax" value="255" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="Attrib">
+					<PARAS>
+						<PARA name="AttribId" value="6" />
+						<PARA name="AttribName" value="sysServices" />
+						<PARA name="DataType" value="MultiEnum" />
+						<PARA name="EnumValue"
+							value="physical,datalink,internet,end-to-end,expression,dialog,applications" />
+						<PARA name="CreateNeed" value="No" />
+						<PARA name="CanModify" value="Yes" />
+						<PARA name="StoreType" value="ToNE" />
+						<PARA name="DefaultValue" value="0.0.0.0.0.0.0" />
+					</PARAS>
+				</DESC>
+
+				<DESC descname="ObjectLevel">
+					<PARAS>
+						<PARA name="ID0" value="NE" />
+					</PARAS>
+				</DESC>
+			</DESC>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="DbaID" name="T-CONT ID (0-127)" isVisiable="true" isEditable="false" width="129" isNameModified="false" />
+  <column id="DbaProfileIDDev" name="DBA Profile" isVisiable="true" isEditable="true" width="88" isNameModified="false" />
+  <column id="DbaProfileType" name="DBA Profile Type" isVisiable="true" isEditable="true" width="117" isNameModified="false" />
+</table>
+

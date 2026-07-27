@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="startupElementList">
+            <PARAS></PARAS>
+			<DESC descname="features">
+                <PARAS>
+                    <PARA name="dol"></PARA>
+					<PARA name="log"></PARA>
+					<PARA name="authentication"></PARA>
+					<PARA name="securitymanager"></PARA>
+				</PARAS>
+			</DESC>
+        </DESC>
+        <DESC descname="startupcommands">
+            <PARAS>
+                <PARA name="command" value="securitymodule:showSecurityFrame"/>
+                <PARA name="showBlankInternalFrame" value="false"></PARA>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

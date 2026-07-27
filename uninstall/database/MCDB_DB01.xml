@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?><SQLServer>
+	<databasename>MCDB</databasename>
+	<filepath>D:\data</filepath>
+	<devicename>MCDBdata</devicename>
+	<filename>MCDB_data.mdf</filename>
+	<dbsize>500</dbsize>
+	<dbmaxsize>1000</dbmaxsize>
+	<dbthreshold>50</dbthreshold>
+	<dbfilegrowth>50</dbfilegrowth>
+	<logfilepath>D:\data</logfilepath>
+	<logdevicename>MCDBlog</logdevicename>
+	<logfilename>MCDB_log.ldf</logfilename>
+	<logsize>500</logsize>
+	<logmaxsize>500</logmaxsize>
+	<logfilegrowth>0</logfilegrowth>
+	<logthreshold>0</logthreshold>
+</SQLServer>

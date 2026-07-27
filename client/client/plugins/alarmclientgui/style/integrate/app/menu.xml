@@ -1,0 +1,740 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The same as the single alarm client -->
+<COMMINIDATA>
+  <AREADESC>
+    <DESC descname="ResourceBundle">
+      <PARAS>
+        <PARA name="type"
+              value="ResourceBundle" />
+        <PARA name="resourceBundleName"
+              value="IfmsRes" />
+      </PARAS>
+    </DESC>
+    <DESC descname="mainMenu">
+      <PARAS>
+        <PARA name="name"
+              value="main Menu" />
+        <PARA name="type"
+              value="MenuSet" />
+      </PARAS>
+      <DESC descname="AlarmBrowseMenu">
+        <PARAS>
+          <PARA name="name"
+                value="AlarmBrowseMenu" />
+          <PARA name="mnemonic"
+                value="B" />
+          <PARA name="accelerator"
+                value="VK_I" />
+          <PARA name="type"
+                value="JMenu" />
+          <PARA name="icon"
+                value="" />
+          <PARA name="serialnumber"
+                value="400" />
+        </PARAS>
+        <DESC descname="Fault Query">
+          <PARAS>
+            <PARA name="name"
+                  value="Alarm_List_Query" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="FaultQuery" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="A" />
+            <PARA name="accelerator"
+                  value="VK_A" />
+            <PARA name="serialnumber"
+                  value="400-10" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmList.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="History Query">
+          <PARAS>
+            <PARA name="name"
+                  value="Alarm_Logs" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="HistoryQuery" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="L" />
+            <PARA name="accelerator"
+                  value="VK_L" />
+            <PARA name="serialnumber"
+                  value="400-20" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmQuery.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="History Alarm">
+          <PARAS>
+            <PARA name="name"
+                  value="History_Logs" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="HistoryLog" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="H" />
+            <PARA name="accelerator"
+                  value="VK_H" />
+            <PARA name="serialnumber"
+                  value="400-21" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmQuery.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Event Query">
+          <PARAS>
+            <PARA name="name"
+                  value="Event_Logs" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="EventQuery" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="E" />
+            <PARA name="accelerator"
+                  value="VK_E" />
+            <PARA name="serialnumber"
+                  value="400-30" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmQuery.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name"
+                  value="Separator" />
+            <PARA name="type"
+                  value="Separator" />
+            <PARA name="serialnumber"
+                  value="400-100" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Fault_Browse">
+          <PARAS>
+            <PARA name="name"
+                  value="Fault_Browse" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="BrowseFaultAlarm" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="R" />
+            <PARA name="accelerator"
+                  value="VK_R" />
+            <PARA name="serialnumber"
+                  value="400-110" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmList.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Fault_Browse_Level">
+          <PARAS>
+            <PARA name="name"
+                  value="Fault_Browse_by_level" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="BrowseFaultAlarmByLevel" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="Y" />
+            <PARA name="accelerator"
+                  value="VK_F" />
+            <PARA name="serialnumber"
+                  value="400-120" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmList.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name"
+                  value="Separator" />
+            <PARA name="type"
+                  value="Separator" />
+            <PARA name="serialnumber"
+                  value="400-130" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Alarm_Statistic_Fault">
+          <PARAS>
+            <PARA name="name"
+                  value="Alarm_Statistic_Fault" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="AlarmStatistic_Fault" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="C" />
+            <PARA name="accelerator"
+                  value="VK_C" />
+            <PARA name="serialnumber"
+                  value="400-140" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmStatistic.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Alarm_Statistic_Event">
+          <PARAS>
+            <PARA name="name"
+                  value="Alarm_Statistic_Event" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="AlarmStatistic_Event" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="V" />
+            <PARA name="accelerator"
+                  value="VK_V" />
+            <PARA name="serialnumber"
+                  value="400-150" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmStatistic.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+		<DESC descname="Alarm_Statistic_Subnet">
+			<PARAS>
+				<PARA name="name" value="Alarm_Statistic_Subnet"/>
+				<PARA name="icon" value=""/>
+				<PARA name="command" value="AlarmStatistic_Subnet"/>
+				<PARA name="type" value="JMenuItem"/>
+				<PARA name="mnemonic" value="B"/>
+				<PARA name="accelerator" value="VK_B"/>
+				<PARA name="serialnumber" value="400-155"/>
+				<PARA name="showInPortalPanel" value="true"/>
+				<PARA name="isFavorite" value="true"/>
+				<PARA name="favoriteIcon" value="common/AlarmStatistic.png"/>
+				<PARA name="showBlankInternalFrame" value="false"/>
+				<PARA name="visibleApps">
+					<VALUE value="AlarmMonitor"/>
+				</PARA>
+			</PARAS>
+		</DESC>
+        <!--DESC descname="Alarm_Statistic_U2100">
+                    <PARAS>
+                        <PARA name="name" value="Alarm_Statistic_U2100"/>
+                        <PARA name="icon" value=""/>
+                        <PARA name="command" value="AlarmStatistic_U2100"/>
+                        <PARA name="type" value="JMenuItem"/>
+                        <PARA name="mnemonic" value="C"/>
+                        <PARA name="accelerator" value="VK_C"/>
+                        <PARA name="serialnumber" value="400-155"/>
+                        <PARA name="showInPortalPanel" value="true"/>
+                        <PARA name="isFavorite" value="false"/>
+                        <PARA name="favoriteIcon" value="common/AlarmStatistic.png"/>
+                        <PARA name="showBlankInternalFrame" value="false"/>
+                        <PARA name="visibleApps">
+                            <VALUE value="AlarmMonitor"/>
+                        </PARA>
+                    </PARAS>
+                </DESC-->
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name"
+                  value="Separator" />
+            <PARA name="type"
+                  value="Separator" />
+            <PARA name="serialnumber"
+                  value="400-160" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="DownloadRNLog">
+                    <PARAS>
+                        <PARA name="name" value="Download_RN_Log" />
+                        <PARA name="icon" value="" />
+                        <PARA name="command" value="DownloadRNLog" />
+                        <PARA name="type" value="JMenuItem" />
+                        <PARA name="mnemonic" value="W" />
+                        <PARA name="accelerator" value="VK_W" />
+                        <PARA name="serialnumber" value="400-170" />
+                        <PARA name="showInPortalPanel" value="true" />
+                        <PARA name="isFavorite" value="true" />
+                        <PARA name="favoriteIcon" value="common/SynchronizeNEAlarm.png"/>
+                        <PARA name="visibleApps">
+                            <VALUE value="AlarmMonitor"></VALUE>
+                        </PARA>
+                    </PARAS>
+                </DESC>
+                                <DESC descname="Separator">
+                    <PARAS>
+                        <PARA name="name" value="Separator"/>
+                        <PARA name="type" value="Separator"/>
+                        <PARA name="serialnumber" value="400-180"/>
+                        <PARA name="showInPortalPanel" value="true"/>
+                        <PARA name="isFavorite" value="false"/>
+                        <PARA name="visibleApps">
+                            <VALUE value="AlarmMonitor"/>
+                        </PARA>
+                    </PARAS>
+                </DESC>
+        <DESC descname="Alarm Board">
+          <PARAS>
+            <PARA name="name"
+                  value="Alarm_Board" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="AlarmBoard" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="D" />
+            <PARA name="itemType"
+                  value="CheckBox" />
+            <PARA name="accelerator"
+                  value="VK_D" />
+            <PARA name="serialnumber"
+                  value="400-190" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="favoriteIcon"
+                  value="common/ShowAlarmBorad.png" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Alarm Matrix">
+          <PARAS>
+            <PARA name="name"
+                  value="Alarm_Matrix" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="AlarmMatrix" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="M" />
+            <PARA name="accelerator"
+                  value="VK_M" />
+            <PARA name="serialnumber"
+                  value="400-200" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmHistogram.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="NE_Synchronize">
+          <PARAS>
+            <PARA name="name"
+                  value="NE_Synchronize" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="ProcessNESynchronize" />
+            <PARA name="mnemonic"
+                  value="N" />
+            <PARA name="accelerator"
+                  value="VK_N" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="serialnumber"
+                  value="400-230" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/SynchronizeNEAlarm.png" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name"
+                  value="Separator" />
+            <PARA name="type"
+                  value="Separator" />
+            <PARA name="serialnumber"
+                  value="400-270" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Stop_Alarm_Sound_Permanently">
+          <PARAS>
+            <PARA name="name"
+                  value="Stop_Alarm_Sound_Permanently" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="StopAlarmSoundPermanently" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="U" />
+            <PARA name="itemType"
+                  value="CheckBox" />
+            <PARA name="accelerator"
+                  value="VK_T" />
+            <PARA name="serialnumber"
+                  value="400-280" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Stop_Current_Alarm_Sonund">
+          <PARAS>
+            <PARA name="name"
+                  value="Stop_Current_Alarm_Sound" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="StopCurrentAlarmSound" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="O" />
+            <PARA name="accelerator"
+                  value="VK_O" />
+            <PARA name="serialnumber"
+                  value="400-290" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name"
+                  value="Separator" />
+            <PARA name="type"
+                  value="Separator" />
+            <PARA name="serialnumber"
+                  value="400-300" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Synchronise_Alarm_Box">
+          <PARAS>
+            <PARA name="name"
+                  value="Synchronise_Alarm_Box" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="SynchroniseAlarmBox" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="S" />
+            <PARA name="accelerator"
+                  value="VK_S" />
+            <PARA name="serialnumber"
+                  value="400-400" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="Separator">
+          <PARAS>
+            <PARA name="name"
+                  value="Separator" />
+            <PARA name="type"
+                  value="Separator" />
+            <PARA name="serialnumber"
+                  value="400-500" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <!--
+                <DESC descname="Separator_Product">
+                    <PARAS>
+                        <PARA name="name" value="Separator" />
+                        <PARA name="type" value="Separator" />
+                        <PARA name="serialnumber" value="400-306" />
+                        <PARA name="visibleApps">
+                            <VALUE value="AlarmMonitor"></VALUE>
+                        </PARA>
+                    </PARAS>
+                </DESC>
+                                -->
+      </DESC>
+      <DESC descname="AlarmSettingMenu">
+        <PARAS>
+          <PARA name="name"
+                value="AlarmSettingMenu_APP" />
+          <PARA name="mnemonic"
+                value="E" />
+          <PARA name="accelerator"
+                value="VK_E" />
+          <PARA name="type"
+                value="JMenu" />
+          <PARA name="icon"
+                value="" />
+          <PARA name="serialnumber"
+                value="450" />
+          <PARA name="visibleApps">
+            <VALUE value="AlarmMonitor" />
+          </PARA>
+        </PARAS>
+        <DESC descname="AlarmOption">
+          <PARAS>
+            <PARA name="name"
+                  value="AlarmOption" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="alarmOptions" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="O" />
+            <PARA name="accelerator"
+                  value="VK_O" />
+            <PARA name="serialnumber"
+                  value="450-110" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/AlarmSetting.png" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="ObjectGroup">
+          <PARAS>
+            <PARA name="name"
+                  value="ObjectGroup" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="objectGroupManage" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="G" />
+            <PARA name="accelerator"
+                  value="VK_G" />
+            <PARA name="serialnumber"
+                  value="450-120" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/ShowAlarmBorad.png" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="AlarmGroup">
+          <PARAS>
+            <PARA name="name"
+                  value="AlarmGroup" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="alarmGroupManage" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="mnemonic"
+                  value="A" />
+            <PARA name="accelerator"
+                  value="VK_M" />
+            <PARA name="serialnumber"
+                  value="450-130" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/ShowAlarmBorad.png" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+        <DESC descname="TemplateManagement4IFMS">
+          <PARAS>
+            <PARA name="name"
+                  value="TemplateManagement" />
+            <PARA name="icon"
+                  value="" />
+            <PARA name="command"
+                  value="TemplateManagement" />
+            <PARA name="mnemonic"
+                  value="P" />
+            <PARA name="accelerator"
+                  value="VK_P" />
+            <PARA name="type"
+                  value="JMenuItem" />
+            <PARA name="serialnumber"
+                  value="300-140" />
+            <PARA name="showInPortalPanel"
+                  value="true" />
+            <PARA name="isFavorite"
+                  value="true" />
+            <PARA name="favoriteIcon"
+                  value="common/ShowAlarmBorad.png" />
+            <PARA name="showBlankInternalFrame"
+                  value="false" />
+            <PARA name="visibleApps">
+              <VALUE value="AlarmMonitor" />
+            </PARA>
+          </PARAS>
+        </DESC>
+      </DESC>
+    </DESC>
+  </AREADESC>
+</COMMINIDATA>

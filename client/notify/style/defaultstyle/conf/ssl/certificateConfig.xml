@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><COMMINIDATA>
+	<AREADESC areaname="ssl">
+		<DESC descname="sslRootPath">
+			<PARAS>
+				<!-- root path of ssl certificates.-->
+				<!--For Example-->
+				<!--PARA name="path" value="E:\iMAPClient\client\style\defaultstyle\conf\ssl" />-->
+			</PARAS>
+		</DESC>
+		<DESC descname="trust">
+			<PARAS>
+				<!-- type of the trust file, currently PEM and DER types are supported -->
+				<PARA name="type" value="PEM"/>
+				<!-- name of the trust file. If there are multiple PEM format trust files exist, append the file contents to one file -->
+				<PARA name="file" value="trust.cer"/>	
+			</PARAS>
+		</DESC>
+		<DESC descname="crl">
+			<PARAS>
+				<!-- type of the crl file, currently PEM and DER types are supported -->
+				<PARA name="type" value="PEM"/>
+				<!-- name of the crl file. If there are multiple PEM format crl files exist, append the file contents to one file -->
+				<PARA name="file" value="revoke.crl"/>
+			</PARAS>
+		</DESC>
+		<!--the keyStore contains privateKey and certificate-->
+		<DESC descname="keyStore">
+			<PARAS>
+				<!-- type of keystore or certificate, currently PFX, PEM and DER types are supported   -->				
+				<PARA name="type" value="PFX"/>
+				<!-- name of the keystore or certificate file. -->
+				<PARA name="file" value="client.p12"/>
+				<!--the storePassword is used to decrypt the keyPair, and the keyPassword is used to decrypt the private key in the keyPair-->
+				<PARA name="storePassword" value="X3DDE20EAECDBEE33CDF10FBB75C7F07E8EE4875F306F6758EEE0629637E4D38"/>
+				<PARA name="keyPassword" value="V4D210ADF320AFF516690AB22A85D8CE013E3F2B9A1801951FDBE9CB0F0AA1D8"/>
+				<PARA name="version" value="1.1"/>
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

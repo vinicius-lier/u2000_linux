@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="QuidView">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="201326588"   value="Allocating memory failed" />
+                <PARA name="201326585"   value="Database operation failed." />
+                <PARA name="201326584"   value="Failed to obtain the record from the database." />
+                <PARA name="201326583"   value="No available NE ID." />
+                <PARA name="201326582"   value="ASN encoding error." />
+                <PARA name="201326581"   value="ASN decoding error." />
+                <PARA name="201326580"   value="No NE is found in the NE list of the daemon process." />
+                <PARA name="201326579"   value="Interface list is null." />
+                <PARA name="201326578"   value="Input parameter error." />
+                <PARA name="201326577"   value="Other Daemons have no response." />
+                <PARA name="201326575"   value="NE is refreshing." />
+                <PARA name="201326574"   value="SNMP initialization failed." />
+                <PARA name="201326573"   value="No response from NE." />
+                <PARA name="201326572"   value="Invalid IP address." />
+                <PARA name="201326571"   value="The topology Daemon has no response." />
+                <PARA name="201326570"   value="The security Daemon has no response." />
+                <PARA name="201326569"   value="No license." />
+                <PARA name="201326568"   value="An error occurred when adding the NE message. No SNMP parameter exists." />
+                <PARA name="201326567"   value="Sending NE ID failed." />
+                <PARA name="201326566"   value="The NE already exists." />
+                <PARA name="201326565"   value="The invalid deivce type has been used." />
+                <PARA name="201326564"   value="No valid interface in NE." />
+                <PARA name="201326563"   value="Invalid SNMP NE. The IP address of the NE is not in the address list." />
+                <PARA name="201326562"   value="The SNMP version is not supported." />
+                <PARA name="201326561"   value="An error occurred when getting NE data." />
+                <PARA name="201326560"   value="The NE is a member of cluster and can not be deleted by user." />
+                <PARA name="201326558"   value="The NE is client of HGMPV1, it isn&apos;t supported by current version." />
+                <PARA name="201326557"   value="The node can&apos;t find  in the specified view." />
+                <PARA name="201326556"   value="The alarm was failed to register." />
+                <PARA name="201326555"   value="The NE is busy. Please try again later." />
+                <PARA name="201326554"   value="The deivce type does not support the pre-deployment state." />
+                <PARA name="201326553"   value="The IP address of a new NE cannot be a loopback address." />
+                <PARA name="201326552"   value="Select wrong deivce type, please select again." />
+                <PARA name="201326576"  value="Wrong task status." />
+                <PARA name="201326590"  value="Operation failed." />
+                <PARA name="201326551"  value="The record already exists in the interface address list." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

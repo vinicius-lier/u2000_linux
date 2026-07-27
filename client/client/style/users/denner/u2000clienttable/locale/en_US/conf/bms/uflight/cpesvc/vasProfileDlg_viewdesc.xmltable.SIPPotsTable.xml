@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="SIP_PhyReferenceList" name="Interface ID" isVisiable="true" isEditable="false" width="88" isNameModified="false" />
+  <column id="SIP_DirectoryNumber" name="Directory Number" isVisiable="true" isEditable="true" width="122" isNameModified="false" />
+  <column id="SIP_AuthUserName" name="Auth User Name" isVisiable="true" isEditable="true" width="117" isNameModified="false" />
+</table>
+

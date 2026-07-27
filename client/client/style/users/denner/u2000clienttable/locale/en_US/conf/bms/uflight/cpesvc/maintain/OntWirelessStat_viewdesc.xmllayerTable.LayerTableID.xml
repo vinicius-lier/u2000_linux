@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="AP_WLANConfiguration__SSID" name="SSID" isVisiable="true" isEditable="false" width="75" isNameModified="false" />
+  <column id="AP_WLANConfiguration__TotalAssociations" name="Number of Connected Devices" isVisiable="true" isEditable="true" width="194" isNameModified="false" />
+  <column id="AP_WLANConfiguration__TotalBytesReceived" name="Bytes(Receive)" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+  <column id="AP_WLANConfiguration__TotalPacketsReceived" name="Packages(Receive)" isVisiable="true" isEditable="true" width="133" isNameModified="false" />
+  <column id="AP_WLANConfiguration__Stats__ErrorsReceived" name="Error Packages(Receive)" isVisiable="true" isEditable="true" width="163" isNameModified="false" />
+  <column id="AP_WLANConfiguration__Stats__DiscardPacketsReceived" name="Dropped Packages(Receive)" isVisiable="true" isEditable="true" width="184" isNameModified="false" />
+  <column id="AP_WLANConfiguration__TotalBytesSent" name="Bytes(Transmit)" isVisiable="true" isEditable="true" width="113" isNameModified="false" />
+  <column id="AP_WLANConfiguration__TotalPacketsSent" name="Packages(Transmit)" isVisiable="true" isEditable="true" width="138" isNameModified="false" />
+  <column id="AP_WLANConfiguration__Stats__ErrorsSent" name="Error Packages(Transmit)" isVisiable="true" isEditable="true" width="168" isNameModified="false" />
+  <column id="AP_WLANConfiguration__Stats__DiscardPacketsSent" name="Dropped Packages(Transmit)" isVisiable="true" isEditable="true" width="189" isNameModified="false" />
+</table>
+

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Security">
+        <DESC descname="errorcode" >
+            <PARAS>
+                <PARA name="0x0affaffe"   value="部分请求成功。" />
+                <PARA name="0x0affaffd"   value="请求完全失败。" />
+                <PARA name="0x0affaffc"   value="等待响应消息超时。" />
+                <PARA name="0x0aff9fee"   value="获取MIB索引失败。"/>
+                <PARA name="0x0aff9feb"   value="ASN解码失败。"/>
+                <PARA name="0x0aff9fec"   value="ASN编码失败。"/>
+                <PARA name="0x0aff9ff0"   value="获取设备SNMP配置数据失败。"/>
+                <PARA name="0x0affbffe"   value="内存分配错误。"/>
+                <PARA name="0x0aff9ff6"   value="没有指定性能指标。"/>
+                <PARA name="0x0affdfff"   value="数据库访问错误。"/>
+                <PARA name="0x0affdffe"   value="数据库初始化错误。"/>
+                <PARA name="0x0affdffd"   value="访问性能模板表错误。"/>
+                <PARA name="0x0affdffc"   value="访问性能指标表错误。"/>
+                <PARA name="0x0affdffb"   value="访问模板指标关联表错误。"/>
+                <PARA name="0x0affdffa"   value="访问MIB对象表错误。"/>
+                <PARA name="0x0affdff9"   value="数据库中没有指定的性能模板。"/>
+                <PARA name="0x0affdff8"   value="数据库中没有指定的性能指标。"/>
+                <PARA name="0x0affdff7"   value="数据库中没有指定的MIB对象。"/>
+                <PARA name="0x0affdff6"   value="由设备ID获取设备类型失败。"/>
+                <PARA name="0x0affdff5"   value="由设备ID获取设备版本失败。"/>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

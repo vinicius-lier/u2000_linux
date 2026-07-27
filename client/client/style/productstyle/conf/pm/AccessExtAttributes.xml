@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC areaname="ResFilterAttributes">	   
+    <DESC descname="90065"> <!-- ServicePort -->
+        <DESC descname="SrvPortInterfaceType">
+            <PARAS>
+                <PARA name="LAN-ADSL" value="1" />
+                <PARA name="LAN-ATM" value="2" />
+                <PARA name="LAN-LAN" value="4" />
+                <PARA name="LAN-G.SHDSL" value="8" />
+                <PARA name="LAN-IMA" value="9" />                
+                <PARA name="LAN-VDSL" value="11" />
+                <PARA name="LAN-EPON" value="12" />
+                <PARA name="LAN-ETHER" value="13" />
+                <PARA name="LAN-VDSL2" value="14" />
+                <PARA name="LAN-GPON" value="15" />
+                <PARA name="SPU-GPON" value="17" />
+                <PARA name="SPU-SPU" value="18" />
+                <PARA name="SPU-LAN" value="19" />
+                <PARA name="LAN-SPU" value="20" />
+                <PARA name="SPU-ETHER" value="21" />                
+                <PARA name="LAN-EPONONT LAN" value="22" />
+                <PARA name="LAN-GPONONT LAN" value="23" />
+                <PARA name="LAN-ONT IPHOST" value="24" />
+                <PARA name="LAN-CNULAN" value="28" />
+                <PARA name="LAN-ONT" value="29" />
+                <PARA name="LAN-GPONONT VDSL2" value="30" />
+            </PARAS>
+        </DESC>
+        <DESC descname="MultiSrvType">
+            <PARAS>
+                <PARA name="MultiSrvType_1" value="1" />      <!-- Multi-Service VLAN -->
+                <PARA name="MultiSrvType_2" value="2" />      <!-- Multi-Service Encapsulation -->              
+                <PARA name="MultiSrvType_3" value="3" />      <!-- Multi-Service VLAN+802.1p -->
+                <PARA name="MultiSrvType_4" value="4" />      <!-- ulti-Service VLAN+Encapsulation -->
+                <PARA name="MultiSrvType_5" value="5" />      <!-- Double Layer User VLAN -->
+                <PARA name="MultiSrvType_6" value="6" />      <!-- Multi-Service VLAN+802.1p-List -->
+                <PARA name="MultiSrvType_255" value="255" />  <!-- Single -->
+            </PARAS>
+        </DESC>    
+    </DESC>
+    
+    <DESC descname="90056"> <!--  VLAN -->
+        <DESC descname="VlanType">
+            <PARAS>
+                <PARA name="Super VLAN" value="1" />
+                <PARA name="Standard VLAN" value="2" />
+                <PARA name="Smart VLAN" value="7" />
+                <PARA name="MUX VLAN" value="8" />
+            </PARAS>
+        </DESC>
+        <DESC descname="Attribute">
+            <PARAS>
+                <PARA name="Common" value="1" />
+                <PARA name="QinQ" value="2" />
+                <PARA name="Stacking" value="3" />
+                <PARA name="Sub VLAN" value="4" />
+            </PARAS>
+        </DESC>    
+    </DESC>
+	
+	<DESC descname="90033"> <!--  ADSL Port -->
+        <DESC descname="PortType">
+            <PARAS>
+                <PARA name="ADSL" value="1" />
+                <PARA name="ADSL2+" value="2" />
+                <PARA name="INVALID" value="-1" />
+            </PARAS>
+        </DESC>   
+    </DESC>
+    
+    <DESC descname="90057"> <!--  PRA VoIP -->
+        <DESC descname="Protocol">
+            <PARAS>
+                <PARA name="H248" value="1" />
+                <PARA name="MGCP" value="2" />
+                <PARA name="SIP" value="4" />
+                <PARA name="H248+SIP" value="5" />
+            </PARAS>
+        </DESC> 
+        <DESC descname="iConfigState">
+            <PARAS>
+                <PARA name="Configured_2" value="2" />	   <!-- Configured -->
+                <PARA name="VoIPConfigured_3" value="3" /> <!-- VoIP Configured -->
+            </PARAS>
+        </DESC>
+        <DESC descname="iLayerFlag">
+            <PARAS>
+                <PARA name="NotLayered_2" value="1" />	 <!-- Not Layered -->
+                <PARA name="Layered_3" value="2" />      <!-- Layered -->
+            </PARAS>
+        </DESC>  
+    </DESC>
+    
+    <DESC descname="90107"> <!--  PSTN VoIP -->
+        <DESC descname="iPriorityFlag">
+            <PARAS>
+                <PARA name="Cat1" value="1" />	   
+                <PARA name="Cat2" value="2" />
+                <PARA name="Cat3" value="3" /> 
+            </PARAS>
+        </DESC>
+        <DESC descname="iConfigState">
+            <PARAS>
+                <PARA name="Configured_2" value="2" />	   <!-- Configured -->
+                <PARA name="VoIPConfigured_3" value="3" /> <!-- VoIP Configured -->
+            </PARAS>
+        </DESC>  
+    </DESC>
+	
+    <DESC descname="90045"> <!--  GPON UNI Port -->
+        <DESC descname="DnFecEn">
+            <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC> 
+        <DESC descname="AutofindOntEn">
+            <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC>   
+    </DESC>
+    
+    <DESC descname="90013"> <!--  BRA VoIP -->
+        <DESC descname="iPriorityFlag">
+            <PARAS>
+                <PARA name="Cat1" value="1" />	   
+                <PARA name="Cat2" value="2" />
+                <PARA name="Cat3" value="3" /> 
+            </PARAS>
+        </DESC>
+        <DESC descname="iConfigState">
+            <PARAS>
+                <PARA name="Configured_2" value="2" />	   <!-- Configured -->
+                <PARA name="VoIPConfigured_3" value="3" /> <!-- VoIP Configured -->
+            </PARAS>
+        </DESC>
+        <DESC descname="iLayerFlag">
+            <PARAS>
+                <PARA name="NotLayered_2" value="1" />	 <!-- Not Layered -->
+                <PARA name="Layered_3" value="2" />      <!-- Layered -->
+            </PARAS>
+        </DESC>  
+    </DESC>
+    
+    <DESC descname="90072"> <!--  EPON UNI Port -->
+        <DESC descname="AutofindOntEn">
+            <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC>   
+    </DESC>
+    
+    <DESC descname="90080"> <!--  GPON NNI Port -->
+        <DESC descname="GPONNNILinkStatus">
+            <PARAS>
+                <PARA name="FILTER_UNKNOWN" value="-1" />  <!-- Unknown -->
+                <PARA name="OFFLINE" value="1" />   <!-- Offline -->
+                <PARA name="ONLINE" value="2" />    <!-- Online -->
+            </PARAS>
+        </DESC>   
+    </DESC>  
+        
+    <DESC descname="90046"> <!--  GPON ONU -->
+        <DESC descname="VendorID">
+            <PARAS>
+                <PARA name="HWTC" value="2011" />
+                <PARA name="CIGG" value="1128875847" />
+                <PARA name="FILTER_UNKNOWN" value="-1" />
+            </PARAS>
+        </DESC>
+    </DESC>
+
+    <DESC descname="90122"> <!--  ACCESS -->
+        <DESC descname="RunStatus">
+            <PARAS>
+                <PARA name="PREDEPLOYMENT" value="100" />
+                <PARA name="OFFLINE" value="3" />
+                <PARA name="FILTER_UNKNOWN" value="2" />
+                <PARA name="ONLINE" value="1" />
+            </PARAS>
+        </DESC>
+    </DESC>
+    
+    <DESC descname="90070"> <!--  EPON ONU -->
+        <DESC descname="VendorID">
+            <PARAS>
+                <PARA name="HWTC" value="2011" />
+                <PARA name="CIGG" value="1128875847" />
+                <PARA name="FILTER_UNKNOWN" value="-1" />
+            </PARAS>
+        </DESC>
+    </DESC>
+    
+    <DESC descname="90121"> <!--  Ethernet Aggregation -->
+        <DESC descname="WorkMode">
+            <PARAS>
+                <PARA name="WorkMode_1" value="1" />	 <!-- Manual -->
+                <PARA name="WorkMode_2" value="2" />	 <!-- lacp-static -->
+            </PARAS>
+        </DESC>
+        <DESC descname="AggrMode">
+            <PARAS>
+                <PARA name="Ingress" value="1" />
+                <PARA name="Egress_Ingress" value="2" />
+                <PARA name="Mpls_label" value="3" />
+            </PARAS>
+        </DESC>    
+    </DESC>
+    
+    <DESC descname="90002"> <!--  Ethernet Port -->
+        <DESC descname="PortStatus">
+            <PARAS>
+                <PARA name="ActOnline_9" value="9" />       <!-- Activated(Online) -->
+                <PARA name="ActOffline_29" value="29" />	<!-- Activated(Offline/SFP Not Present) -->
+                <PARA name="Deactivate_11" value="11" />	<!-- Deactivate -->
+                <PARA name="FILTER_UNKNOWN" value="-1" />			<!-- Unknown -->
+            </PARAS>
+        </DESC>
+    	<DESC descname="PortType">
+            <PARAS>
+                <PARA name="PortType_571" value="571" />	<!-- FE Electrical Port -->
+                <PARA name="PortType_572" value="572" />	<!-- FE Optical Port -->
+                <PARA name="PortType_573" value="573" />	<!-- GE Electrical Port -->
+                <PARA name="PortType_574" value="574" />	<!-- GE Optical Port -->
+                <PARA name="PortType_591" value="591" />	<!-- 10G Optical Port -->
+                <PARA name="--" value="-1" />
+            </PARAS>
+        </DESC> 
+        <DESC descname="EthDuplex">
+            <PARAS>
+                <PARA name="EthDuplex_1" value="3" />	 <!-- Auto-negotiation -->
+                <PARA name="EthDuplex_3" value="1" />	 <!-- Full Duplex -->
+                <PARA name="EthDuplex_4" value="4" />	 <!-- Auto Full Duplex -->
+                <PARA name="--" value="-1" />
+            </PARAS>
+        </DESC>         
+    </DESC>
+    
+    <DESC descname="90054"> <!--  IGMP Program -->
+    	<DESC descname="ProgramHostFun">
+            <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC> 
+        <DESC descname="ProgramPrejoin">
+             <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC>
+        <DESC descname="ProgramLogAttr">
+             <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC>  
+        <DESC descname="ProgramUnsolicited">
+             <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC>
+        <DESC descname="ProgramGrade">
+            <PARAS>
+                <PARA name="HDTV" value="0" />
+                <PARA name="SDTV" value="1" />
+                <PARA name="Streaming-Video" value="2" />
+                <PARA name="no-grade" value="255" />
+            </PARAS>
+        </DESC>  
+    </DESC>
+    
+    <DESC descname="90063"> <!--  IGMP VLAN -->
+    	<DESC descname="IgmpVlanIgmpVer">
+            <PARAS>
+                <PARA name="IGMP V2" value="1" />
+                <PARA name="IGMP V3" value="2" />
+            </PARAS>
+        </DESC> 
+        <DESC descname="IgmpVlanIgmpMode">
+             <PARAS>
+                <PARA name="igmp_proxy" value="1" />
+                <PARA name="igmp_snooping" value="2" />
+                <PARA name="tv_off" value="3" />
+            </PARAS>
+        </DESC>
+        <DESC descname="IgmpVlanMatchMode">
+             <PARAS>
+                <PARA name="Enable_1" value="1" />	<!-- Enable -->
+                <PARA name="Disable_2" value="2" />	<!-- Disable -->
+            </PARAS>
+        </DESC>   
+    </DESC>
+    
+    <DESC descname="90064"> <!--  IGMP User -->
+    	<DESC descname="UserMode">
+            <PARAS>
+                <PARA name="snooping" value="0" />
+                <PARA name="discard" value="1" />
+                <PARA name="forward" value="2" />
+                <PARA name="--" value="-1" />
+            </PARAS>
+        </DESC> 
+        <DESC descname="IgmpQuickLeave">
+             <PARAS>
+                <PARA name="immediate" value="1" />
+                <PARA name="MAC-based" value="2" />
+                <PARA name="disable" value="3" />
+            </PARAS>
+        </DESC>
+        <DESC descname="UserAuthority">
+             <PARAS>
+                <PARA name="UserAuthority_1" value="1" />	<!-- Authorization -->
+                <PARA name="UserAuthority_2" value="2" />	<!-- Disable User Authorization -->
+            </PARAS>
+        </DESC>   
+    </DESC>
+    
+</AREADESC>
+</COMMINIDATA>

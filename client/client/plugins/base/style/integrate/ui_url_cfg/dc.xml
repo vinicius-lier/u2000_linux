@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+<AREADESC>
+    <DESC descname="UIUrlCfg">        
+        <DESC descname="^ui/dc/v2/nes/([\d]+)/backup/s\?ne_id=([0-9;]+)">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetDC" />
+				<!--PARA name="applicationId" value="531" /-->				
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="dc" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="ALL" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="datacentermodule" />
+            </PARAS>
+        </DESC>     
+
+        <DESC descname="^ui/dc/v2/nes/([\d]+)/restore/s\?ne_id=([0-9;]+)">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetDC" />
+				<!--PARA name="applicationId" value="531" /-->				
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="dc" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="ALL" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="datacentermodule" />
+            </PARAS>
+        </DESC>  		
+        <DESC descname="ui/dc/v2/nes/backup_operNE">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetDC" />
+				<!--PARA name="applicationId" value="531" /-->				
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="dc" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="ALL" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="datacentermodule" />
+            </PARAS>
+        </DESC>  
+        <DESC descname="ui/dc/nes/task_operNE">
+            <PARAS>
+                <!-- 应用ID -->
+                <PARA name="applicationId" value="FixNetDC" />
+				<!--PARA name="applicationId" value="531" /-->				
+                <!-- 子系统ID -->
+                <PARA name="subSystemId" value="dc" />
+                <!-- 进程ID -->
+                <PARA name="procId" value="ALL" />
+                <!-- 模块ID -->
+                <PARA name="moduleId" value="datacentermodule" />
+            </PARAS>
+        </DESC> 		
+    </DESC>
+</AREADESC>
+</COMMINIDATA>

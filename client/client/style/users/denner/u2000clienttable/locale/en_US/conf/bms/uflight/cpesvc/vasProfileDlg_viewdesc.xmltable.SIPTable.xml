@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="SIP_InterfaceName" name="Interface Name" isVisiable="true" isEditable="false" width="110" isNameModified="false" />
+  <column id="SIP_Server" name="Proxy Server" isVisiable="true" isEditable="true" width="93" isNameModified="false" />
+  <column id="SIP_ServerPort" name="Proxy Server Port" isVisiable="true" isEditable="true" width="118" isNameModified="false" />
+  <column id="SIP_SecondaryServer" name="Secondary Proxy Server" isVisiable="true" isEditable="true" width="154" isNameModified="false" />
+  <column id="SIP_SecondaryServerPort" name="Secondary Proxy Server Port" isVisiable="true" isEditable="true" width="179" isNameModified="false" />
+  <column id="SIP_WANPortName" name="Associate WAN Interface" isVisiable="true" isEditable="true" width="160" isNameModified="false" />
+  <column id="SIP_RegistrationPeriod" name="Registration Period" isVisiable="true" isEditable="true" width="132" isNameModified="false" />
+</table>
+

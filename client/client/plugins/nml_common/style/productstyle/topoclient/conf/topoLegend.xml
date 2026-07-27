@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+
+<AREADESC areaname="S57_PROTECT_NODE_TYPE">
+    <DESC descname="S57_PROTECT_NODE_TYPE"> 
+    		<PARAS>
+       			<PARA name="label" value="S57_PROTECT_NODE_TYPE"/>
+       			<!-- 仅支持主视图类型和自定义视图类型 -->
+						<PARA name="ViewTypeID"   value="3001,3003" />
+    		</PARAS>
+    <DESC descname="sncp_node">
+        <PARAS>
+       			<PARA name="label" value="sncp_node"/>
+       			<PARA name="icon" value="icon16/nmlimages/sncp_node.gif"/>
+      	</PARAS>
+   </DESC> 
+   <DESC descname="dni_node">
+   			<PARAS>
+        		<PARA name="label" value="dni_node"/>
+       		  <PARA name="icon" value="icon16/nmlimages/dni_node.gif"/>
+      	</PARAS>
+   </DESC> 
+   <DESC descname="protect">
+        <PARAS>
+       <PARA name="label" value="protect"/>
+       <PARA name="icon" value="icon16/nmlimages/protect.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+
+
+<AREADESC areaname="S62_PROTECT_LINK_TYPE">
+    <DESC descname="S62_PROTECT_LINK_TYPE"> 
+    		<PARAS>
+       			<PARA name="label" value="S62_PROTECT_LINK_TYPE"/>
+       			<!-- 仅支持主视图类型和自定义视图类型 -->
+						<PARA name="ViewTypeID"   value="3001,3003" /> 
+      	</PARAS>
+    <DESC descname="link_pp">
+        <PARAS>
+        		<PARA name="label" value="link_pp"/>
+        	 	<PARA name="icon" value="icon16/nmlimages/link_pp.gif"/>
+      	</PARAS>
+   </DESC> 
+   <DESC descname="link_np">
+        <PARAS>
+       			<PARA name="label" value="link_np"/>
+       			<PARA name="icon" value="icon16/nmlimages/link_np.gif"/>
+      	</PARAS>
+   </DESC> 
+   <DESC descname="link_lp_work">
+        <PARAS>
+       			<PARA name="label" value="link_lp_work"/>
+       			<PARA name="icon" value="icon16/nmlimages/link_lp_work.gif"/>
+      	</PARAS>
+   </DESC> 
+   <DESC descname="link_lp_protect">
+        <PARAS>
+       			<PARA name="label" value="link_lp_protect"/>
+       			<PARA name="icon" value="icon16/nmlimages/link_lp_protect.gif"/>
+      	</PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+
+
+<AREADESC areaname="S35_LINK_DISPLAY">
+    <DESC descname="S35_LINK_DISPLAY"> 
+    <PARAS>
+       		<PARA name="label" value="S35_LINK_DISPLAY"/>
+       		<!-- 仅支持主视图类型和自定义视图类型 -->
+					<PARA name="ViewTypeID"   value="3001,3003" />
+      </PARAS>
+    <DESC descname="S01_LINK_ActiveTrail">
+        <PARAS>
+       <PARA name="label" value="S01_LINK_ActiveTrail"/>
+       <PARA name="icon" value="icon16/nmlimages/Legend_ActiveTrail.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S02_LINK_UnActiveTrail">
+        <PARAS>
+       <PARA name="label" value="S02_LINK_UnActiveTrail"/>
+       <PARA name="icon" value="icon16/nmlimages/Legend_InactiveTrail.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="S02_LINK_PartActiveTrail">
+        <PARAS>
+       <PARA name="label" value="S02_LINK_PartActiveTrail"/>
+       <PARA name="icon" value="icon16/nmlimages/Legend_PartActiveTrail.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+
+
+
+<AREADESC areaname="S55_ROUTE_NODE_TYPE">
+    <DESC descname="S55_ROUTE_NODE_TYPE"> 
+    <PARAS>
+       		<PARA name="label" value="S55_ROUTE_NODE_TYPE"/>
+       		<!-- 仅支持主视图类型和自定义视图类型 -->
+					<PARA name="ViewTypeID"   value="3001,3003" />
+      </PARAS>
+    <DESC descname="exclude">
+        <PARAS>
+       <PARA name="label" value="exclude"/>
+       <PARA name="icon" value="icon16/nmlimages/testfail.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="must_pass_ne">
+        <PARAS>
+       <PARA name="label" value="must_pass_ne"/>
+       <PARA name="icon" value="icon16/nmlimages/include.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="sncp_send">
+        <PARAS>
+       <PARA name="label" value="sncp_send"/>
+       <PARA name="icon" value="icon16/nmlimages/snc.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="sncp_receive">
+        <PARAS>
+       <PARA name="label" value="sncp_receive"/>
+       <PARA name="icon" value="icon16/nmlimages/snc2.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="sncp_upsr">
+        <PARAS>
+       <PARA name="label" value="sncp_upsr"/>
+       <PARA name="icon" value="icon16/nmlimages/protect.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S07_ROUTE_SOURCE_NE">
+        <PARAS>
+       <PARA name="label" value="S07_ROUTE_SOURCE_NE"/>
+       <PARA name="icon" value="icon16/nmlimages/source.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S08_ROUTE_SINK_NE">
+        <PARAS>
+       <PARA name="label" value="S08_ROUTE_SINK_NE"/>
+       <PARA name="icon" value="icon16/nmlimages/sink.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="S70_CLOCK_LINK_TYPE">
+    <DESC descname="S70_CLOCK_LINK_TYPE"> 
+    <PARAS>
+       		<PARA name="label" value="S70_CLOCK_LINK_TYPE"/>
+       		<!-- 仅支持时钟视图 -->
+					<PARA name="ViewID"   value="23" />  
+      </PARAS>
+       <DESC descname="Clock_CurrentClockLink">
+        <PARAS>
+       <PARA name="label" value="Clock_CurrentClockLink"/>
+       <PARA name="icon" value="nmlclock/clock_currentclocklink.gif"/>
+      </PARAS>
+   </DESC> 
+    <DESC descname="Clock_BackupClock">
+        <PARAS>
+       <PARA name="label" value="Clock_BackupClock"/>
+       <PARA name="icon" value="nmlclock/clock_backupclocklink.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Clock_CurrentClockLink_B">
+       <PARAS>
+			<PARA name="label" value="Clock_CurrentClockLink_B"/>
+			<PARA name="icon" value="nmlclock/clock_currentclocklink.png"/>
+      </PARAS>
+   </DESC> 
+    <DESC descname="Clock_BackupClock_B">
+        <PARAS>
+       <PARA name="label" value="Clock_BackupClock_B"/>
+       <PARA name="icon" value="nmlclock/clock_backupclocklink.png"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="Clock_ExternalClockSource">
+        <PARAS>
+       <PARA name="label" value="Clock_ExternalClockSource"/>
+       <PARA name="icon" value="nmlclock/clock_externalclocksource.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="Clock_LocalClockSRCNode">
+        <PARAS>
+       <PARA name="label" value="Clock_LocalClockSRCNode"/>
+       <PARA name="icon" value="nmlclock/clock_localclocksrcnode.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="Clock_DisconnectClockSource">
+        <PARAS>
+       <PARA name="label" value="Clock_DisconnectClockSource"/>
+       <PARA name="icon" value="nmlclock/clock_disconnectclocksource.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="clock_Abnormal">
+        <PARAS>
+       <PARA name="label" value="clock_Abnormal"/>
+       <PARA name="icon" value="nmlclock/clock_clockabnormal.gif"/>
+      </PARAS>
+   </DESC>
+   </DESC>
+</AREADESC>
+
+<AREADESC areaname="S60_SWITCH_STATUS">
+    <DESC descname="S60_SWITCH_STATUS"> 
+    <PARAS>
+       		<PARA name="label" value="S60_SWITCH_STATUS"/>
+       		<PARA name="ViewTypeID"   value="3001,3003" />  
+      </PARAS>
+    <DESC descname="S01_SWITCH_STATUS_1">
+        <PARAS>
+       <PARA name="label" value="S01_SWITCH_STATUS_1"/>
+       <PARA name="icon" value="icon16/nmlimages/switchlocked.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S02_SWITCH_STATUS_2">
+        <PARAS>
+       <PARA name="label" value="S02_SWITCH_STATUS_2"/>
+       <PARA name="icon" value="icon16/nmlimages/switchforced.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="S03_SWITCH_STATUS_3">
+        <PARAS>
+       <PARA name="label" value="S03_SWITCH_STATUS_3"/>
+       <PARA name="icon" value="icon16/nmlimages/switchmanual.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S04_SWITCH_STATUS_4">
+        <PARAS>
+       <PARA name="label" value="S04_SWITCH_STATUS_4"/>
+       <PARA name="icon" value="icon16/nmlimages/switchtesting.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S05_SWITCH_STATUS_5">
+        <PARAS>
+       <PARA name="label" value="S05_SWITCH_STATUS_5"/>
+       <PARA name="icon" value="icon16/nmlimages/switchpending.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S06_SWITCH_STATUS_6">
+        <PARAS>
+       <PARA name="label" value="S06_SWITCH_STATUS_6"/>
+       <PARA name="icon" value="icon16/nmlimages/switchwait2rst.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S07_SWITCH_STATUS_7">
+        <PARAS>
+       <PARA name="label" value="S07_SWITCH_STATUS_7"/>
+       <PARA name="icon" value="icon16/nmlimages/switcherror.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+
+
+
+<AREADESC areaname="S64_ROUTE_STATUS">
+    <DESC descname="S64_ROUTE_STATUS"> 
+    <PARAS>
+       		<PARA name="label" value="S64_ROUTE_STATUS"/>
+       		<!-- 仅支持主视图类型和自定义视图类型 -->
+					<PARA name="ViewTypeID"   value="3001,3003" />
+      </PARAS>
+    <DESC descname="S64_ROUTE_STATUS1">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS1"/>
+       <PARA name="icon" value="icon16/nmlimages/link_selroute.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S64_ROUTE_STATUS2">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS2"/>
+       <PARA name="icon" value="icon16/nmlimages/link_upworkroute.gif"/>
+      </PARAS>
+   </DESC>
+   <DESC descname="S64_ROUTE_STATUS3">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS3"/>
+       <PARA name="icon" value="icon16/nmlimages/link_upvalroute.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S64_ROUTE_STATUS4">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS4"/>
+       <PARA name="icon" value="icon16/nmlimages/link_downworkroute.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S64_ROUTE_STATUS5">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS5"/>
+       <PARA name="icon" value="icon16/nmlimages/link_downvalroute.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S64_ROUTE_STATUS6">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS6"/>
+       <PARA name="icon" value="icon16/nmlimages/link_upprotectroute.gif"/>
+      </PARAS>
+   </DESC> 
+   <DESC descname="S64_ROUTE_STATUS7">
+        <PARAS>
+       <PARA name="label" value="S64_ROUTE_STATUS7"/>
+       <PARA name="icon" value="icon16/nmlimages/link_downprotectroute.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+<AREADESC areaname="SVCMAPLEGEND">
+    <DESC descname="SVCMAPLEGEND"> 
+    <PARAS>
+       		<PARA name="label" value="SVCMAPLEGEND"/>
+       		<!-- 仅支持主视图类型和自定义视图类型 -->
+					<PARA name="ViewTypeID"   value="3001,3003" />
+      </PARAS>
+     <DESC descname="SVCMAPLEGEND_NODE">
+        <PARAS>
+       <PARA name="label" value="SVCMAPLEGEND_NODE"/>
+       <PARA name="icon" value="icon16/nmlimages/selected.gif"/>
+      </PARAS>
+   </DESC> 
+     <DESC descname="SVCMAPLEGEND_LINK">
+        <PARAS>
+       <PARA name="label" value="SVCMAPLEGEND_LINK"/>
+       <PARA name="icon" value="icon16/nmlimages/link_upprotectroute.gif"/>
+      </PARAS>
+   </DESC> 
+   </DESC>
+</AREADESC>
+</COMMINIDATA>

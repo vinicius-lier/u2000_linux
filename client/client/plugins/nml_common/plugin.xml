@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.3"?>
+<plugin id="nmlcommon" name="nmlcommon" version="1.0" provider-name="nmlcommon">
+    <requires>
+        <import plugin="Fault"/>
+    </requires>
+   
+   <!-- 用于主拓扑右键菜单的校验  -->
+   <extension point="com.swimap.topo.TopoMenuItemValidCheck">
+      <TopoMenuItemValidCheck class="com.huawei.nml.common.singleoss.TNTopoRightMenuVerify" priority="105"/>
+   </extension>
+   <extension point="com.swimap.topo.TopoViewSwitchListener">
+        <TopoViewSwitchListener class="com.huawei.nml.common.TNCommonTemporaryTopoMgr" priority="195"/>
+	  </extension>
+</plugin>

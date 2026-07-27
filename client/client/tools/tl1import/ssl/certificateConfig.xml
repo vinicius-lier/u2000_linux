@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<COMMINIDATA>
+	<AREADESC areaname="ssl">
+		<DESC descname="sslRootPath">
+			<PARAS>
+				<!-- root path of ssl certificates-->
+				<!-- PARA name="path" value="/opt/oss/server/etc/ssl" /-->				
+			</PARAS>
+		</DESC>
+		<DESC descname="trust">
+			<PARAS>
+				<!-- type of the trust file, currently PEM and DER types are supported -->
+				<PARA name="type" value="PEM"/>
+				<!-- name of the trust file. If there are multiple PEM format trust files exist, append the file contents to one file -->
+				<PARA name="file" value="trust.cer" />				
+			</PARAS>
+		</DESC>
+		<DESC descname="crl">
+			<PARAS>
+				<!-- type of the crl file, currently PEM and DER types are supported -->
+				<PARA name="type" value="PEM"/>
+				<!-- name of the crl file. If there are multiple PEM format crl files exist, append the file contents to one file -->
+				<PARA name="file" value="revoke.crl" />
+			</PARAS>
+		</DESC>
+		<DESC descname="cross">
+			<PARAS>
+				<!-- type of the cross file, currently PEM and DER types are supported -->
+				<PARA name="type" value="PEM"/>
+				<!-- name of the cross file. If there are multiple PEM format cross files exist, append the file contents to one file -->
+				<PARA name="file" value="cross.cer" />
+			</PARAS>
+		</DESC>
+		<!--the keyStore contains privateKey and certificate-->
+		<DESC descname="keyStore">
+			<PARAS>
+				<!-- type of keystore or certificate, currently PFX, PEM and DER types are supported -->				
+				<PARA name="type" value="PFX" />
+				<!-- type of keystore file -->
+				<PARA name="file" value="client.p12"/>
+				<!--the storePassword is used to decrypt the keyPair, and the keyPassword is used to decrypt the private key in the keyPair-->
+				<PARA name="storePassword" value="T85168DD8E803CF8C0C8C6264EDC515123526335C376D1A471CFADD9CAE0071D"/>
+				<PARA name="keyPassword" value="bF9C903A0A184B52114E3C212525C232C8C433F09DB85E176FC83998D531A494"/>
+				<!-- type of the privatekey file, currently PEM or DER types are supported -->
+				<!--PARA name="keyType" value="PEM" /-->
+				<!-- name of private key file -->
+				<!--PARA name="keyfile" value="server_key.pem" /-->
+			</PARAS>
+		</DESC>
+	</AREADESC>
+</COMMINIDATA>

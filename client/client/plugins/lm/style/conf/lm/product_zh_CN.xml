@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+
+<COMMINIDATA>
+    <AREADESC>
+        <DESC descname="LicResInfo">
+            <PARAS>
+    		<PARA name="LSW1CONN01" value="最大连接数"></PARA>
+            </PARAS>
+        </DESC>
+        <DESC descname="LicFuncInfo">
+            <PARAS>
+    		<PARA name="LSW1RENOTI01" value="告警远程通知"></PARA>
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

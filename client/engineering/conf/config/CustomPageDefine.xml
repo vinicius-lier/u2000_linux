@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wizard>
+  <!-- Default value of the LicensePage,1:Typical Installation, 2:License Installation, 3:Full Installation, 4:Custom Installation -->
+	 <Page name="com.oss.engineering.business.install.gui.LicensePage">
+		 <PARA name="InstallType" value="1"/>
+	</Page>
+	
+	<Page name="com.oss.engineering.business.install.gui.NodeInfoTable">
+		<PARA name="DefaultInstallFolder_unix" value="/opt/oss"/>
+		<PARA name="DefaultInstallFolder_win" value="D:\oss"/>
+	</Page>
+
+  <!-- On the SelectLicense page, the default value of the checkbox: true-checked, false-not checked. If not have this configuration, default value is true. -->
+  <Page name="com.oss.engineering.business.install.gui.SelectLicense">
+		<PARA name="DefaultSelectLicense" value="true"/>
+	</Page>
+
+  <!-- configure the MultiDB switch , U2k only have one dbserver ,so value="false"
+  	,for M2k distribution can have mutli dbserver ,so value="true" -->
+
+	<Page name="com.oss.engineering.business.install.gui.DBServerInfoPage">
+		<PARA name="isMultiDBinstance" value="true"/>
+	</Page>
+
+  <!-- configure the NodeType ,for U2k distribution always value="master;salve"
+  	,for M2k distribution always value="masterstandby;slavestandby;sharedstandby" -->
+  	<!-- for new install -->
+  	<!--  supportedNodes - The node type which can supported. values are:masterstandby;slavestandby;sharedstandby -->
+	<!--  UseSSHTrust    - Use the ssh trust or not. Default value is false. If configed it as true, then will use the ssh trust between nodes; Otherwise still use the user/pwd strategy.
+	      If confige it as true, then the root user name and password should be hidden on the nodes page of installation and addnode installation. Otherwise use the default value false.  -->
+	 <Page name="com.oss.engineering.business.install.gui.HostInfoPage">
+		<PARA name="supportedNodes" value="masterstandby;slavestandby;sharedstandby"/>
+    <PARA name="UseSSHTrust" value="true"/>
+	</Page>
+
+    <!-- configure the NodeType ,for U2k distribution always value="master;salve"
+  	,for M2k distribution always value="masterstandby;slavestandby;sharedstandby" -->
+   <!-- for add node install -->
+  	<!--  supportedNodes - The node type which can supported. values are:masterstandby;slavestandby;sharedstandby -->
+	<!--  UseSSHTrust    - Use the ssh trust or not. Default value is false. If configed it as true, then will use the ssh trust between nodes; Otherwise still use the user/pwd strategy.
+	      If confige it as true, then the root user name and password should be hidden on the nodes page of installation and addnode installation. Otherwise use the default value false.  -->
+	 <Page name="com.oss.engineering.business.incrementinstall.gui.HostInfoPage">
+		   <PARA name="supportedNodes" value=""/>
+		   <PARA name="UseSSHTrust" value="false"/>
+	</Page>
+</Wizard>

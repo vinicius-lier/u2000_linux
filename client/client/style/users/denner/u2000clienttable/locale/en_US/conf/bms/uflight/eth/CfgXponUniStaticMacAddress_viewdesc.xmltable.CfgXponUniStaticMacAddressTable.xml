@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="StaticMacAddr" name="MAC Address" isVisiable="true" isEditable="false" width="202" isNameModified="false" />
+  <column id="StaticMacVlanID" name="VLAN ID (1-4094)" isVisiable="true" isEditable="true" width="248" isNameModified="false" />
+</table>
+

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="Operate Description" name="Operate Description" isVisiable="true" isEditable="false" width="130" isNameModified="false" />
+  <column id="State" name="State" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Result" name="Result" isVisiable="true" isEditable="true" width="75" isNameModified="false" />
+  <column id="Device name" name="Device name" isVisiable="true" isEditable="true" width="92" isNameModified="false" />
+  <column id="Description" name="Description" isVisiable="true" isEditable="true" width="83" isNameModified="false" />
+</table>
+

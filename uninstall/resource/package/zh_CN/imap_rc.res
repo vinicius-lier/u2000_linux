@@ -1,0 +1,2 @@
+imap_rc=拓扑适配和网元安全组件
+imap_rc.InstallInfo=拓扑适配和网元安全组件

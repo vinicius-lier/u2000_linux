@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE COMMINIDATA SYSTEM "commini.dtd">
+<COMMINIDATA>
+    <AREADESC areaname="Fault">
+        <DESC descname="errorcode" >
+            <PARAS>
+            	<PARA name="1000"   value="Operation failed. Please refer to Details." />
+                <PARA name="1001"   value="Operation partially succeeded. Please refer to Details." />
+                <PARA name="150994942"   value="Please check the version consistency between the server and the client." />
+                <PARA name="150994941"   value="There is a lack of memory in the server. Please try again later. " />
+                <PARA name="150994940"   value="Please check the version consistency between the server and the client." />
+                <PARA name="150994939"   value="There is a lack of memory in the server. Please try again later." />
+                <PARA name="150994938"   value="Please check the version consistency between the server and the client." />
+                <PARA name="150994937"   value="The query buffer probably does not exist, or the server is restarted. Please query the data again." />
+                <PARA name="150994936"   value="Network transmission failed. Please try again later. " />
+                <PARA name="150994935"   value="Please check the version consistency between the server and the client." />
+                <PARA name="150994934"   value="Network transmission failed. Please try again later. " />
+                <PARA name="150994933"   value="The file already exists. Please change it and try again." />
+                <PARA name="150994932"   value="Dumping data while collecting statistics." />
+                <PARA name="150994931"   value="Waiting the response timed out." />
+                <PARA name="150994930"   value="The number of conditions for remote notification cannot exceed twenty." />
+                <PARA name="150994929"   value="OID decoding error." />
+                <PARA name="150994928"   value="The server accessing the database failed. Please try again later. " />
+                <PARA name="150994927"   value="The server accessing the database failed. Please try again later. " />
+                <PARA name="150994926"   value="The server accessing the database failed. Please try again later. " />
+                <PARA name="150994925"   value="The server accessing the database failed. Please try again later. " />
+                <PARA name="150994924"   value="The record does not exist in the database. " />
+                <PARA name="150994923"   value="The record already exists in the database. " />
+                <PARA name="150994922"   value="The server accessing the database failed. Please try again later. " />
+                <PARA name="150994921"   value="Unknown device type. The system can only process the alarm from MML devices and SNMP devices." />
+                <PARA name="150994920"   value="The resource does not exist in the NMS. Please add the resource to the topology of the NMS first." />
+                <PARA name="150994919"   value="There is a lack of memory in the server. Please try again later. " />
+                <PARA name="150994918"   value="There is a lack of memory in the server. Please try again later. " />
+                <PARA name="150994917"   value="The profile number has reached the maximum." />
+                <PARA name="150994916"   value="Invalid profile type has been detected." />
+                <PARA name="150994915"   value="The input parameter is invalid, please check." />
+                <PARA name="150994914"   value="Error in parsing MML parameters. Please check the compliance of the report." />
+                <PARA name="150994911"   value="No such record was found. Please refresh and retry." />
+                <PARA name="150994913"   value="Dumping database. Please try again later." />
+                <PARA name="150994912"   value="The server operation failed. Please try again later. " />
+                <PARA name="150994903"   value="The number of mask conditions has reached the maximum. Please delete some and retry." />
+                <PARA name="150994902"   value="The mask condition already exists." />
+                <PARA name="150994901"   value="The number of intermittent alarms exceeds the upper limit when you set the intermittent alarm period." />
+                <PARA name="150994900"   value="The alarm buffer does not exist. Please query the alarms and try again." />
+                <PARA name="150994899"   value="It is not required to record the action in the log." />
+                <PARA name="150994898"   value="Failed to open the file." />
+                <PARA name="150994897"   value="The export file related to the alarm maintenance experience and handling suggestions already exists." />
+                <PARA name="150994896"   value="Manual alarm synchronization task is over Max. Please try it later." />
+                <PARA name="150994895"   value="Manual history alarm synchronization task is over Max. Please try it later." />
+                <PARA name="150994894"   value="The alarm name already exists. Please login again and query the newest alarm name." />
+                <PARA name="150994893"   value="It exists the same Email or phone number." />
+                <PARA name="150994892"   value="Please enter the start time." />
+                <PARA name="150994890"   value="Can not acknowledge a batch alarm of different ID." />
+                <PARA name="150994891"   value="Please select the time, and the end time should after start time." />
+                <PARA name="150994887"   value="The condition of correlation rules error." />
+                <PARA name="150994886"   value="The correlation option in the configuration file is disabled." />
+                <PARA name="150994885"   value="Send remote notify error." />
+                <PARA name="150994884"   value="The new profile name has existed. Please try it again." />
+                <PARA name="150994883"   value="The requested data is null for configuring SIS custom alarm." />
+                <PARA name="150994882"   value="The dump path does not exist in the server. Please retry it." />
+                <PARA name="150994881"   value="The login user cannot access the dump path, the dump path name is invalid or too long, the disk space is insufficient, or an unknown disk failure occurred. Please enter a new dump path." />
+                <PARA name="150994880"   value="Invalid dump path. The path cannot be found on the server." /> 
+                <PARA name="150994873"   value="The correlation option in the configuration file is disabled." />
+                <PARA name="150994872"   value="The correlation option in the configuration file is disabled." />
+                <PARA name="150994871"   value="Setting dump to tape failed. Please check whether the tape drive is correctly installed. " />
+                <PARA name="150994870"   value="The new user name already exists." />
+                <PARA name="150994869"   value="The Email of the new user is repetitive with that of other user." />
+                <PARA name="150994868"   value="The phone number of the new user is repetitive with that of other user." />
+                <PARA name="150994867"   value="The service port is already monitored by another trap receiver." />
+                <PARA name="150994866"   value="The UDP listen port is already monitored by another trap receiver." />
+                <PARA name="150994865"   value="Trap receiver ID is already full." />
+                <PARA name="150994864"   value="The file of trap receiver does not exist." />
+                <PARA name="150994863"   value="Trap receiver start failed. Please check the service port and UDP listen port." />
+                <PARA name="150994862"   value="The trap receiver does not exist." />
+                <PARA name="150994861"   value="You can not delete the trap receiver, because there are some devices managed by it." />
+                <PARA name="150994860"   value="You can not delete the trap receiver because it is not running." />
+                <PARA name="150994859"   value="Communication failed, maybe system is busy now." />
+                <PARA name="150994858"   value="Server is treating with trap receiver. Please try again later." />
+                <PARA name="150994857"   value="Default trap receiver can not be removed." />
+                <PARA name="150994856"   value="You can not set the trap receiver as default because it is not running." />
+                <PARA name="150994855"   value="The trap receiver name is already used by another." />
+                <PARA name="150994854"   value="The server has no the alarm config, please keep the consistency between the server and the client." />
+                <PARA name="150994851"   value="The correlation rule has been deleted by other users." />
+                <PARA name="150994850"   value="The profile has been deleted." />
+                <PARA name="150994849"   value="The postprocessing settings have been deleted by other users." />
+                <PARA name="150994848"   value="The remote notification settings have been modified by other users." />
+                <PARA name="150994847"   value="The mask condition has been deleted by other users." />
+                <PARA name="150994846"   value="The intermittent alarm and repeat event records have been deleted by other users." />
+                <PARA name="150994845"   value="The intermittent alarm and repeat event records already exists." />
+                <PARA name="150994844"   value="The alarm and event analysis settings have been deleted." />
+                <PARA name="150994843"   value="The alarm and event analysis settings already exists." />
+                <PARA name="150994842"   value="Cannot delete the internal trap receiver." />
+                <PARA name="150994841"   value="Invalid date." />
+                <PARA name="150994840"   value="The data probably does not exist. Please refresh the data and try again." />
+                <PARA name="150994839"   value="The trap receiver is not running." />
+                <PARA name="150994838"   value="The IP address of the trap receiver does not exist." />
+                <PARA name="150994837"   value="The port for the trap receiver is being used by other application." />
+                <PARA name="150994836"   value="This device type does not support synchronization." />
+                <PARA name="150994835"   value="The startup profile cannot be deleted." />
+                <PARA name="150994889"   value="The postprocessing condition already exists." />
+                <PARA name="150994830"   value="The number of alarms and events for analysis cannot exceed 1000." />
+                <PARA name="150994834"   value="The number of alarm and event correlations cannot exceed 1000." />
+                <PARA name="150994833"   value="The number of alarm and event postprocessing policies cannot exceed 1000." />
+                <PARA name="150994832"   value="The number of alarm and event mask policies cannot exceed 1000." />
+                <PARA name="150994831"   value="The number of intermittent alarm and repeat event mask policies cannot exceed 1000." />
+                <PARA name="150994829"   value="Insufficient disk space or other disk problems." />
+                <PARA name="150994828"   value="The startup template exists when it is deleted, but not be the startup template." />
+                <PARA name="150994827"   value="The queried template does not exist." />
+                <PARA name="150994826"   value="The number of alarm and event redefinition cannot exceed 1000." />
+                <PARA name="150994825"   value="Failed to delete the dump file, and the background is deleting the dump file." />
+                <PARA name="150994824"   value="Failed to delete the alarm dump file." />
+                <PARA name="150994823"   value="Failed to delete the event dump file." />
+                <PARA name="150994822"   value="No alarm dump file needs to be deleted." />
+                <PARA name="150994821"   value="No alarm event file needs to be deleted." />
+                <PARA name="150994820"   value="Failure of all the patch operations. View details to check the failure cause." />
+                <PARA name="150994819"   value="Success of part of the patch operations. View details to check the failure cause." />
+                <PARA name="150994818"   value="Batch operation is ongoing. Please try again later." />
+                <PARA name="150994817"   value="Permission denied." />   
+                <PARA name="150994816"   value="The login user cannot access the dump path, the dump path name is invalid or too long, the disk space is insufficient, or an unknown disk failure occurred." />                   
+                <PARA name="150994815"   value="The server is busy now. Please try again later." />  
+                <PARA name="150994814"   value="The mask condition already exists and has been enabled." />
+                <PARA name="150994813"   value="Failed to connect to the SMTP server. Please check that the parameters are correct and the SMTP server works properly." />
+                <PARA name="150994812"   value="Failed to send the mail. Please check that the SMTP server works properly and the network connection is normal." />
+                <PARA name="150994811"   value="Failed to initialize the wireless modem. Please check that the parameters are correct and the serial port cable is properly connected." />
+                <PARA name="150994810"   value="Failed to send the short message. Please check that the wireless modem works properly and the network connection is normal." />
+                <PARA name="150994809"   value="Failed to send the short message. Please check that the parameters are correct and the SMS server works properly." />
+                <PARA name="150994808"   value="The requested data has changed when querying. Please query again." />
+                <PARA name="150994807"   value="The alarm panel statistics interval is too short. Please try again later." />
+                <PARA name="150994806"   value="Invalid export path. The path cannot be found on the server." />
+                <PARA name="150994805"   value="Exporting data. Please try again later." />
+                <PARA name="150994804"   value="Failed to dump the files to the tape drive. The files that failed to be dumped are saved in the dump directory on the NMS server." />
+                <PARA name="150994803"   value="Disconnected from the device." /> 
+                <PARA name="150994802"   value="The mode of sending short messages is not matched. Currently, requests are sent through the SMS gateway. But actually, by system default, requests are sent through the wireless modem." />
+                <PARA name="150994801"   value="The current mode of sending requests is not supported." />
+                <PARA name="150994800"   value="The remote notification log has been deleted." />
+                <PARA name="150994799"   value="Invalid license or The configuration file not exist." />
+                <PARA name="150994798"   value="The remote notification log is being deleted. Please try later." />   
+                <PARA name="150994797"   value="Trap receiver number exceeds maximal size, the maximal size is 10." />  
+                <PARA name="150994796"   value="Buffering alarms failed if an error occurred when acknowledging or clearing alarms. Please check whether the database is normal." />
+                <PARA name="150994795"   value="The trap receiver does not respond. Please check the network and the server."/>
+                <PARA name="150994794"   value="The mode of sending short messages is not matched. Currently, requests are sent through the wireless modem. But actually, by system default, requests are sent through the SMS gateway."/>  
+                <PARA name="150994793"   value="The device does not exist in the NMS. Maybe, it is not added to the NMS yet."/>
+                <PARA name="150994792"   value="Failed to initialize the short message gateway. Please check that the parameter value is correct."/>
+                <PARA name="150994791"   value="The alarm agent ID is invalid."/>
+                <PARA name="150994790"   value="The trap receiver name is invalid."/>
+                <PARA name="150994789"   value="The IP address of the trap receiver is invalid."/>
+                <PARA name="150994788"   value="The UDP port number of the trap receiver is invalid."/>
+                <PARA name="150994787"   value="The note of the trap receiver is invalid."/>
+                <PARA name="150994786"   value="A synchronization task of the device already exist." />
+                <PARA name="150994785"   value="The number of alarms to be processed has reached the upper limit. Please try later." />
+		<PARA name="150994784"   value="The number of requests to process alarms has reached the upper limit. Please try later." />
+		<PARA name="150994783"   value="Manually acknowledging the alarms failed." />
+		<PARA name="150994782"   value="Manually clearing the alarms failed." />
+		<PARA name="150994781"   value="Unacknowledging the alarms failed." />		
+                <PARA name="150994780"   value="Importing data. Please try again later." />
+            </PARAS>
+        </DESC>
+    </AREADESC>
+</COMMINIDATA>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="GB2312" ?>
+<!ELEMENT securitypane ( table+, tab+ ) >
+<!ELEMENT tab ( name, nodeType* ,table+ ) >
+<!ELEMENT table ( name, nodeType* ,helpKey ,column*, popup-menuItem*, popup-menu* ) >
+<!ELEMENT name ( #PCDATA ) >
+<!ELEMENT nodeType ( #PCDATA ) >
+<!ELEMENT helpKey ( #PCDATA ) >
+<!ELEMENT column ( name ) >
+<!ELEMENT popup-menuItem ( name ) >
+<!ELEMENT popup-menu ( name ) >

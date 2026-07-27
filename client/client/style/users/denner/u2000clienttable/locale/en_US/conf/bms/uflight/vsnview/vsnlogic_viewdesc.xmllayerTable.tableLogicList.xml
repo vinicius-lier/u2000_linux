@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<table>
+  <column id="ResName" name="Resource Name" isVisiable="true" isEditable="false" width="91" isNameModified="false" />
+  <column id="ResType" name="Resource Type" isVisiable="true" isEditable="true" width="83" isNameModified="false" />
+  <column id="ResTotal" name="Spec Value/Switch resources" isVisiable="true" isEditable="true" width="160" isNameModified="false" />
+  <column id="ResUsed" name="Used resources/Switch value" isVisiable="true" isEditable="true" width="160" isNameModified="false" />
+  <column id="ResAvailable" name="Available resources" isVisiable="true" isEditable="true" width="108" isNameModified="false" />
+</table>
+
